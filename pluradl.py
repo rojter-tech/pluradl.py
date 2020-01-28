@@ -53,7 +53,7 @@ def _cli_request(command, logpath):
     print("Logging stdout/stderror to:\n" + logpath + "\n")
 
     with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT) as process, \
-        open(file=logpath, mode='at') as logfile:
+        open(file=logpath, mode='wt') as logfile:
             for line in io.TextIOWrapper(process.stdout, newline=''):
                 sys.stdout.write(line)
                 logfile.write(line)
