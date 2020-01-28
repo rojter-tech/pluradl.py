@@ -30,7 +30,7 @@ def _get_usr_pw():
         else:
             USERNAME = u0
         
-        print("Enter password (will no be displayed)")
+        print("Enter password (will not be displayed)")
         p0 = getpass.getpass(': ')
         if p0 != "":
             PASSWORD = p0
