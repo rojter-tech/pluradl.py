@@ -64,16 +64,13 @@ Run the script in your terminal to download all the videos from all the courses 
 
 ```bash
 $ python pluradl.py
-      .
-      .
-      .
 Enter you Pluralsight credentials
 Enter username: youremail@example.com
 Enter password (will not be displayed)
 : yourPassword
 ```
 
-... with `courselist.txt` available at the same path ...
+... with `courselist.txt` available at the same path
 
 courselist.txt
 ```notepad
@@ -86,6 +83,12 @@ linq-fundamentals-csharp-6
 .
 .
 .
+```
+
+For automation, the script can be executed along with Pluralsight username and password
+
+```bash
+python pluradl.py "myusername@mymail.com" "myPassword"
 ```
 
 ### Example output
