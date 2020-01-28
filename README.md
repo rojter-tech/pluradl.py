@@ -32,7 +32,7 @@ npm install youtube-dl
 With [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/) in Arch Linux
 
 ```
-pacman -S youtube-dl
+sudo pacman -S youtube-dl
 ```
 Alternatively compile developement version from AUR  [`youtube-dl-git`](https://aur.archlinux.org/packages/youtube-dl-git/)
 
