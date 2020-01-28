@@ -61,7 +61,7 @@ python pluradl.py
       .
 Enter you Pluralsight credentials
 Enter username: youremail@example.com
-Enter password (will no be displayed)
+Enter password (will not be displayed)
 : yourPassword
 ```
 
