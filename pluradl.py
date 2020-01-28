@@ -1,5 +1,7 @@
 import sys, os, re, getpass, io
 from subprocess import Popen, PIPE, STDOUT
+if sys.version_info[0] < 3:
+    raise Exception("Must be using Python 3")
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
 SLEEP_INTERVAL = 150 #                                                          #
