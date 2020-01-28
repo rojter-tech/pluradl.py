@@ -4,6 +4,10 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 
 **You can get a free 1 month trial to Pluralsight by signing up for free to [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/)**
 
+# Requirements
+* [Python 3](https://www.python.org/)
+* [youtube-dl](https://ytdl-org.github.io/youtube-dl/)
+
 ## Installation of youtube-dl
 
 ##### For **macOS/UNIX**
@@ -27,7 +31,7 @@ pacman -S youtube-dl
 ```
 Alternatively compile developement version from AUR  [`youtube-dl-git`](https://aur.archlinux.org/packages/youtube-dl-git/)
 
-Or you can `curl`/`wget` the thing:
+Or you can use `curl`/`wget`:
 
 ```bash
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
@@ -38,14 +42,13 @@ sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtub
 sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 
-
 ##### For Windows
 
-Download with npm as above or just download the `exe`-file from the link below and [put the `exe` in your _PATH_](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295).
+Just download the `exe`-file from the link below and [put the `exe` in your _PATH_](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295).
 
 Or download with `npm` like above.
 
-[Source: youtube-dl download](https://rg3.github.io/youtube-dl/download.html)
+[Source: youtube-dl download](https://ytdl-org.github.io/youtube-dl/download.html)
 
 ## Usage
 
@@ -55,7 +58,7 @@ After installation of youtube-dl (thus is avaiable to the environment) make sure
 Run the script in your terminal to download all the videos from all the courses in [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt). The videos will be automatically placed in course specific folders and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
 
 ```bash
-python pluradl.py
+$ python pluradl.py
       .
       .
       .
