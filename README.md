@@ -11,6 +11,11 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 ## Installation of youtube-dl
 
 ##### For **macOS/UNIX**
+With [`apt-get`](https://packages.ubuntu.com/eoan/youtube-dl)  in Ubuntu:
+
+```bash
+sudo apt-get install youtube-dl
+```
 
 With [`brew`](https://brew.sh/)  for macOS:
 
@@ -24,7 +29,7 @@ With [`npm`](https://www.npmjs.com/):
 npm install youtube-dl
 ```
 
-with [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/)
+With [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/) in Arch Linux
 
 ```
 pacman -S youtube-dl
