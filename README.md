@@ -36,7 +36,6 @@ With [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/) in
 ```
 sudo pacman -S youtube-dl
 ```
-Alternatively compile developement version from AUR  [`youtube-dl-git`](https://aur.archlinux.org/packages/youtube-dl-git/)
 
 Or you can use `curl`/`wget`:
 
