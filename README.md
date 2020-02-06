@@ -5,7 +5,7 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 **You can get a free 1 month trial to Pluralsight by signing up for free to [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/)**
 
 ### Requirements
-* [Python 3](https://www.python.org/)
+* [Python 3](https://www.python.org/) (as system default)
 * [youtube-dl](https://ytdl-org.github.io/youtube-dl/)
 
 **Note:** The system default Python version need to be 3.2+ for this method to work out. Especially macOS users will experience HTTP 403 error when loggin due to the system default version of 2.7.
