@@ -13,27 +13,24 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 ## Installation of youtube-dl
 
 ##### For **macOS/UNIX**
-With [`apt-get`](https://packages.ubuntu.com/eoan/youtube-dl)  in Ubuntu:
 
+With [`apt-get`](https://packages.ubuntu.com/eoan/youtube-dl):
 ```bash
 sudo apt-get install youtube-dl
 ```
 
 With [`brew`](https://brew.sh/)  for macOS:
-
 ```bash
 brew install youtube-dl
 ```
 
 With [`npm`](https://www.npmjs.com/):
-
 ```bash
 npm install youtube-dl
 ```
 
 With [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/) in Arch Linux
-
-```
+```bash
 sudo pacman -S youtube-dl
 ```
 
@@ -50,11 +47,14 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 
 ##### For Windows
 
-Just download the `exe`-file from the link below and [put the `exe` in your _PATH_](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295).
+Just download the [exe-file](https://ytdl-org.github.io/youtube-dl/download.html) and [put the `exe` in your _PATH_](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295).
+
+Using [`chocolatey`](https://chocolatey.org/courses/installation/installing?method=install-from-powershell-v3) from an elevated prompt:
+```bash
+chocolatey install youtube-dl
+```
 
 Or download with `npm` like above.
-
-[Source: youtube-dl download](https://ytdl-org.github.io/youtube-dl/download.html)
 
 ## Usage
 
@@ -73,7 +73,7 @@ Enter password (will not be displayed)
 
 ... with `courselist.txt` available at the same path
 
-courselist.txt
+`courselist.txt`
 ```notepad
 c-sharp-fundamentals-with-visual-studio-2015
 csharp-nulls-working
@@ -83,14 +83,25 @@ using-csharp-interfaces
 linq-fundamentals-csharp-6
 .
 .
-.
 ```
 
-For automation, the script can be executed along with Pluralsight username and password
+For even more automation, the script can be executed along with Pluralsight username and password
 
 ```bash
 python pluradl.py "myusername@mymail.com" "myPassword"
 ```
+
+If you only want a specific interval of videoclips in a specific course you can specify (the end number) or (the start and the end number) on the same row as the course id
+
+`courselist.txt`
+```notepad
+c-sharp-fundamentals-with-visual-studio-2015 25
+csharp-best-practices-collections-generics 11 56
+.
+.
+```
+
+wich would give you the **25 first videoclips** in the course c-sharp-fundamentals-with-visual-studio-2015 and the clips **numbered 11 up to 56** in csharp-best-practices-collections-generics.
 
 ### Example output
 

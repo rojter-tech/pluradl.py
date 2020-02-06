@@ -1,6 +1,6 @@
 import sys, os, re, getpass, io
 from subprocess import Popen, PIPE, STDOUT
-if sys.version_info[0] < 3:
+if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
@@ -12,7 +12,6 @@ RATE_LIMIT = "1M"    #                                                          
 DLPATH, USERNAME, PASSWORD = "", "", ""
 
 PLURAURL = "https://app.pluralsight.com/library/courses/"
-
 
 def _get_usr_pw():
     """Requesting credentials from the user
@@ -62,11 +61,24 @@ def _cli_request(command, logpath):
                 logfile.flush()
 
 
-def _get_youtube_dl_cli_command(course, sleep_interval=SLEEP_INTERVAL, sleep_offset=SLEEP_OFFSET, rate_limit=RATE_LIMIT):
+def _get_playlist_flag(digits):
+    n = len(digits)
+    if n == 0:
+        return ""
+    elif n == 1:
+        return "--playlist-end " + digits[0]
+    elif n == 2:
+        return "--playlist-start " + digits[0] + " --playlist-end " + digits[1]
+    else:
+        print("Could not determine playlist interval. Downloading all videos ...")
+        return ""
+
+
+def _get_cli_command(course_id, pl_digits, sleep_interval=SLEEP_INTERVAL, sleep_offset=SLEEP_OFFSET, rate_limit=RATE_LIMIT):
     """Putting together youtube-dl CLI command used to invoke the download requests.
     
     Arguments:
-        course {str} -- Course identifier
+        course_id {str} -- Course identifier
     
     Keyword Arguments:
         sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
@@ -96,10 +108,11 @@ def _get_youtube_dl_cli_command(course, sleep_interval=SLEEP_INTERVAL, sleep_off
     lrate = "--limit-rate" + sp + rate_limit
     fn =  "-o" + sp + filename_template
     vrb =   "--verbose"
-    curl = qu + pluraurl + course + qu
+    pllst = _get_playlist_flag(pl_digits)
+    url = qu + pluraurl + course_id + qu
 
     # Join command
-    cli_components = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, curl]
+    cli_components = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, pllst, url]
     command = sp.join(cli_components)
 
     return command
@@ -114,21 +127,23 @@ def _pluradl(course):
     Returns:
         str -- youtue-dl CLI command
     """
+    course_id = course[0]
+    pl_digits = course[1]
     # OS parameters - Creates course path and sets current course directory
-    coursepath = os.path.join(DLPATH,course)
+    coursepath = os.path.join(DLPATH,course_id)
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
-    command = _get_youtube_dl_cli_command(course)
+    command = _get_cli_command(course_id, pl_digits)
     
     # Execute command and log stdout/stderror
-    logile = course + ".log"
+    logile = course_id + ".log"
     logpath = os.path.join(coursepath,logile)
     _cli_request(command, logpath)
 
 
-def download_courses(courses):
+def _download_courses(courses):
     """Dowloading all courses listed in courselist.txt
     
     Arguments:
@@ -139,7 +154,7 @@ def download_courses(courses):
         _pluradl(course)
 
 
-def get_courses(scriptpath):
+def _get_courses(scriptpath):
     """Parsing courselist.txt
     
     Arguments:
@@ -148,6 +163,19 @@ def get_courses(scriptpath):
     Returns:
         [str] -- List of course identifiers exposed by courselist.txt
     """
+    def _parse_line(line):
+        course_id = ""
+        digits = []
+
+        input_chunks = re.findall(r'[\w-]{1,}', line)
+        for chunk in input_chunks:
+            if re.search(r'[\d]{1,}', chunk):
+                digits.append(chunk)
+            else:
+                course_id = chunk
+        digits.sort()
+
+        return course_id, digits
     # courses textfile prelocated inside script directory
     filelist = "courselist.txt"
     
@@ -158,7 +186,8 @@ def get_courses(scriptpath):
         with open(filepath, 'r+') as file:
             for line in file.readlines():
                 if re.search(r'\S', line):
-                    courses.append(line.strip())
+                    course_id, digits = _parse_line(line)
+                    courses.append((course_id, digits))
         return courses
     except FileNotFoundError:
         print("There is no courselist.txt in script path. Terminating script ...")
@@ -172,6 +201,7 @@ def main():
     global DLPATH
     global USERNAME
     global PASSWORD
+
     if len(sys.argv) > 2:
         USERNAME = sys.argv[1]
         PASSWORD = sys.argv[2]
@@ -187,10 +217,10 @@ def main():
     if not os.path.exists(DLPATH):
         os.mkdir(DLPATH)
 
-    # Looping through the courses determined by get_courses() invoking download requests
-    courses = get_courses(scriptpath)
+    # Looping through the courses determined by _get_courses() invoking download requests
+    courses = _get_courses(scriptpath)
     if courses:
-        download_courses(courses)
+        _download_courses(courses)
 
 
 if __name__ == "__main__":
