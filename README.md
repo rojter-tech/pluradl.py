@@ -55,9 +55,9 @@ $ python pluradl.py --user "myusername@mymail.com" --pass "myPassword" --subtitl
 ^C
 ```
 
-If you only want a specific interval of videoclips in a specific course you can specify (the end number) or (the start and the end number) on the same row as the course id
+If you only want a specific interval/range of videoclips from a specific course you can specify {the end number} or {the start and the end number} on the same row as the course id (they comes in the same order as they do on the website playlist with start number of 1)
 
-`courselist.txt`
+eg. in `courselist.txt`
 ```notepad
 c-sharp-fundamentals-with-visual-studio-2015 25
 csharp-best-practices-collections-generics 11 56
