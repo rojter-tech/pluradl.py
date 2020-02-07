@@ -91,6 +91,16 @@ For even more automation, the script can be executed along with Pluralsight user
 python pluradl.py "myusername@mymail.com" "myPassword"
 ```
 
+To supplement with english subtitles use the "-s", "--sub" or "--subtitle" flag
+```bash
+$ python pluradl.py --subtitle
+^C
+$ python pluradl.py "myusername@mymail.com" "myPassword" --subtitle
+^C
+$ python pluradl.py --user "myusername@mymail.com" --pass "myPassword" --subtitle
+^C
+```
+
 If you only want a specific interval of videoclips in a specific course you can specify (the end number) or (the start and the end number) on the same row as the course id
 
 `courselist.txt`

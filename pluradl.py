@@ -9,9 +9,22 @@ SLEEP_OFFSET = 50    #               Change this at your own risk.              
 RATE_LIMIT = "1M"    #                                                          #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
+SUBTITLE = False
 
 PLURAURL = "https://app.pluralsight.com/library/courses/"
+
+def _set_subtitle():
+    global SUBTITLE
+    subtitle_flags = ("--sub", "--subtitle", "-s",
+                      "--SUB", "--SUBTITLE", "-S")
+    if len(sys.argv) > 1:
+        for arg in sys.argv[1:]:
+            if arg in subtitle_flags:
+                SUBTITLE = True
+                print("Subtitles will be appended to videoclips")
+
 
 def _get_usr_pw():
     """Requesting credentials from the user
@@ -73,6 +86,11 @@ def _get_playlist_flag(digits):
         print("Could not determine playlist interval. Downloading all videos ...")
         return ""
 
+def _get_subtitle_flag():
+    if SUBTITLE:
+        return "--write-sub"
+    else:
+        return ""
 
 def _get_cli_command(course_id, pl_digits, sleep_interval=SLEEP_INTERVAL, sleep_offset=SLEEP_OFFSET, rate_limit=RATE_LIMIT):
     """Putting together youtube-dl CLI command used to invoke the download requests.
@@ -109,10 +127,11 @@ def _get_cli_command(course_id, pl_digits, sleep_interval=SLEEP_INTERVAL, sleep_
     fn =  "-o" + sp + filename_template
     vrb =   "--verbose"
     pllst = _get_playlist_flag(pl_digits)
+    sub = _get_subtitle_flag()
     url = qu + pluraurl + course_id + qu
 
     # Join command
-    cli_components = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, pllst, url]
+    cli_components = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, pllst, sub, url]
     command = sp.join(cli_components)
 
     return command
@@ -192,6 +211,70 @@ def _get_courses(scriptpath):
     except FileNotFoundError:
         print("There is no courselist.txt in script path. Terminating script ...")
 
+def _flag_parser():
+    if len(sys.argv) < 5:
+        return False
+    
+    global USERNAME
+    global PASSWORD
+    global SUBTITLE
+
+    usn_psw_flag_state = False
+    flag_states = {"usn":[False],"psw":[False]}
+    flag_inputs = {}
+    username_flags = ("--user", "--username", "-u")
+    password_flags = ("--pass", "--password", "-p")
+    
+    for arg in sys.argv[1:]:
+        if arg in username_flags:
+            flag_states["usn"][0] = True
+            flag_states["usn"].append(arg)
+        if arg in password_flags:
+            flag_states["psw"][0] = True
+            flag_states["psw"].append(arg)
+    
+    if flag_states["usn"][0] and flag_states["psw"][0]:
+        usn_psw_flag_state = True
+
+    arg_string = ' '.join(sys.argv[1:])
+    for key, val in flag_states.items():
+        if flag_states[key][0]:
+            for flag in flag_states[key][1:]:
+                lookbehind = r"(?<=" + flag + r' ' +  r')'
+                lookbehind+=r".*?[\w]{1,}"
+                user_input = re.findall(lookbehind, arg_string)
+                if user_input:
+                    user_input=user_input[0].strip()
+                    if user_input[0] != '-':
+                        flag_inputs[key] = user_input
+                        break
+    
+    if (not "usn" in flag_inputs.keys()) or (not "psw" in flag_inputs.keys()):
+        usn_psw_flag_state = False
+    
+    if usn_psw_flag_state:
+        USERNAME = flag_inputs["usn"]
+        PASSWORD = flag_inputs["psw"]
+        return True
+    else:
+        return False
+
+
+def _arg_parser():
+    if len(sys.argv) < 3:
+        return False
+    global USERNAME
+    global PASSWORD
+
+    username = sys.argv[1]
+    password = sys.argv[2]
+    if username[0] != '-' and password[0] != '-':
+        USERNAME = sys.argv[1]
+        PASSWORD = sys.argv[2]
+        return True
+    else:
+        return False
+
 
 def main():
     """Main execution
@@ -199,14 +282,15 @@ def main():
     through the course IDs and invoking download requests.
     """
     global DLPATH
-    global USERNAME
-    global PASSWORD
 
-    if len(sys.argv) > 2:
-        USERNAME = sys.argv[1]
-        PASSWORD = sys.argv[2]
+    if _flag_parser():
+        print("Executing by flag input ..\n")
+    elif _arg_parser():
+        print("Executing by short input ..\n")
     else:
         _get_usr_pw()
+    
+    _set_subtitle()
 
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -221,7 +305,6 @@ def main():
     courses = _get_courses(scriptpath)
     if courses:
         _download_courses(courses)
-
 
 if __name__ == "__main__":
     main()
