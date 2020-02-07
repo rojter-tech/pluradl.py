@@ -10,52 +10,6 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 
 **Note:** The system default Python version need to be 3.2+ for this method to work out. Especially macOS users will experience HTTP 403 error when loggin due to the system default version of 2.7.
 
-## Installation of youtube-dl
-
-##### For **macOS/UNIX**
-
-With [`apt-get`](https://packages.ubuntu.com/eoan/youtube-dl):
-```bash
-sudo apt-get install youtube-dl
-```
-
-With [`brew`](https://brew.sh/)  for macOS:
-```bash
-brew install youtube-dl
-```
-
-With [`npm`](https://www.npmjs.com/):
-```bash
-npm install youtube-dl
-```
-
-With [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/) in Arch Linux
-```bash
-sudo pacman -S youtube-dl
-```
-
-Or you can use `curl`/`wget`:
-
-```bash
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
-```
-```bash
-sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
-```
-
-##### For Windows
-
-Just download the [exe-file](https://ytdl-org.github.io/youtube-dl/download.html) and [put the `exe` in your _PATH_](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295).
-
-Using [`chocolatey`](https://chocolatey.org/courses/installation/installing?method=install-from-powershell-v3) from an elevated prompt:
-```bash
-chocolatey install youtube-dl
-```
-
-Or download with `npm` like above.
-
 ## Usage
 
 ### Download from **Pluralsight** with `pluradl.py`
