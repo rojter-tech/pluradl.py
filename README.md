@@ -6,14 +6,7 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 
 ### Requirements
 * [Python 3](https://www.python.org/) (as system default)
-* [youtube_dl](https://ytdl-org.github.io/youtube-dl/)
-
-**Note:** The system default Python version need to be 3.2+ for this method to work out. Especially macOS users will experience HTTP 403 error when loggin due to the system default version of 2.7.
-
-## Install via pip
-```bash
-sudo pip install --upgrade youtube_dl
-```
+* [youtube_dl](https://ytdl-org.github.io/youtube-dl/) (install via pip)
 
 ## Usage
 
