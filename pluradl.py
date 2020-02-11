@@ -6,7 +6,7 @@ if sys.version_info[0] <3:
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
 SLEEP_OFFSET =   50     # adding random sleep time  #  Change this at your own risk.  #
-RATE_LIMIT =     10**6  # in bytes                  #                                 #
+RATE_LIMIT =     10**6  # in bytes/s                #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
@@ -121,7 +121,6 @@ def _pluradl(course):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
-    #command = _get_cli_command(course_id, pl_digits)
     
     # Execute command and log stdout/stderror
     logile = course_id + ".log"
@@ -129,7 +128,6 @@ def _pluradl(course):
     YDL_OPTS["logger"] = Logger(logpath)
 
     invoke_download(course_id, pl_digits)
-    #_cli_request(command, logpath)
 
 
 def _download_courses(courses):
