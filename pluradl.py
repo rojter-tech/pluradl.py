@@ -1,19 +1,39 @@
-import sys, os, re, getpass, io
-from subprocess import Popen, PIPE, STDOUT
+from __future__ import unicode_literals
+import sys, os, re, getpass, io, youtube_dl
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
-SLEEP_INTERVAL = 150 #                                                          #
-SLEEP_OFFSET = 50    #               Change this at your own risk.              #
-RATE_LIMIT = "1M"    #                                                          #
+SLEEP_INTERVAL = 5      #                                                       #
+SLEEP_OFFSET =   5      #               Change this at your own risk.           #
+RATE_LIMIT =     10**6  # in bytes                                              #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
+YDL_OPTS = {}
 SUBTITLE = False
-
+FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = "https://app.pluralsight.com/library/courses/"
+
+
+class Logger(object):
+    def __init__(self,logpath):
+        self.logpath = logpath
+        with open(self.logpath, 'wt') as f: pass
+
+    def debug(self, msg):
+        print(msg)
+        with open(self.logpath, 'at') as f: f.write(msg+'\n')
+
+    def warning(self, msg):
+        print(msg)
+        with open(self.logpath, 'at') as f: f.write(msg+'\n')
+
+    def error(self, msg):
+        print(msg)
+        with open(self.logpath, 'at') as f: f.write(msg+'\n')
+
 
 def _set_subtitle():
     global SUBTITLE
@@ -55,86 +75,33 @@ def _get_usr_pw():
         raise ValueError('Username or password was not given.')
 
 
-def _cli_request(command, logpath):
-    """Invokes an OS command line request
-    
-    Arguments:
-        command {str} -- Full command string
-        logpath {str} -- Path to stdout/stderror log file
-    
-    """
-    os.chdir(os.path.dirname(logpath))
-    print("Logging stdout/stderror to:\n" + logpath + "\n")
+def _set_playlist_options(digits):
+    global YDL_OPTS
 
-    with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT) as process, \
-        open(file=logpath, mode='wt') as logfile:
-            for line in io.TextIOWrapper(process.stdout, newline=''):
-                sys.stdout.write(line)
-                logfile.write(line)
-                logfile.flush()
-
-
-def _get_playlist_flag(digits):
     n = len(digits)
     if n == 0:
-        return ""
+        pass
     elif n == 1:
-        return "--playlist-end " + digits[0]
+        print("Downloading video indicies up to",digits[0],"to")
+        YDL_OPTS["playlistend"]   = digits[0]
     elif n == 2:
-        return "--playlist-start " + digits[0] + " --playlist-end " + digits[1]
+        print("Downloading video indicies from",digits[0],"up to and including",digits[1])
+        YDL_OPTS["playliststart"] = digits[0]
+        YDL_OPTS["playlistend"]   = digits[1]
     else:
-        print("Could not determine playlist interval. Downloading all videos ...")
-        return ""
+        print("Downloading specific video indicies", digits)
+        YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
-def _get_subtitle_flag():
+
+def invoke_download(course_id, pl_digits):
+    global YDL_OPTS
+    course_url = [PLURAURL + course_id]
+    _set_playlist_options(pl_digits)
     if SUBTITLE:
-        return "--write-sub"
-    else:
-        return ""
+        YDL_OPTS["writesubtitles"] = True
 
-def _get_cli_command(course_id, pl_digits, sleep_interval=SLEEP_INTERVAL, sleep_offset=SLEEP_OFFSET, rate_limit=RATE_LIMIT):
-    """Putting together youtube-dl CLI command used to invoke the download requests.
-    
-    Arguments:
-        course_id {str} -- Course identifier
-    
-    Keyword Arguments:
-        sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
-        sleep_offset {int} -- Randomize sleep time up to minimum sleep time plus this value (default: {50})
-        rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
-    
-    Returns:
-        str -- youtue-dl CLI command
-    """
-    # Quote and space char
-    # # # # # # # # # # # #
-    qu = '"';  sp = ' '   # 
-    # Download parameters #
-    pluraurl = PLURAURL
-    username = qu + USERNAME + qu
-    password = qu + PASSWORD + qu
-    filename_template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
-    minsleep = sleep_interval
-    
-    # CMD Tool # # # # # #
-    tool = "youtube-dl"  #
-    # Flags - useful settings when invoking download request
-    usr =  "--username" + sp + username
-    pw =  "--password" + sp + password
-    minsl =  "--sleep-interval" + sp + str(minsleep)
-    maxsl =  "--max-sleep-interval" + sp + str(minsleep + sleep_offset)
-    lrate = "--limit-rate" + sp + rate_limit
-    fn =  "-o" + sp + filename_template
-    vrb =   "--verbose"
-    pllst = _get_playlist_flag(pl_digits)
-    sub = _get_subtitle_flag()
-    url = qu + pluraurl + course_id + qu
-
-    # Join command
-    cli_components = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, pllst, sub, url]
-    command = sp.join(cli_components)
-
-    return command
+    with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
+        ydl.download(course_url)
 
 
 def _pluradl(course):
@@ -154,12 +121,15 @@ def _pluradl(course):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
-    command = _get_cli_command(course_id, pl_digits)
+    #command = _get_cli_command(course_id, pl_digits)
     
     # Execute command and log stdout/stderror
     logile = course_id + ".log"
     logpath = os.path.join(coursepath,logile)
-    _cli_request(command, logpath)
+    YDL_OPTS["logger"] = Logger(logpath)
+
+    invoke_download(course_id, pl_digits)
+    #_cli_request(command, logpath)
 
 
 def _download_courses(courses):
@@ -169,6 +139,17 @@ def _download_courses(courses):
         courses {[type]} -- List of course ID
     
     """
+    global YDL_OPTS
+    YDL_OPTS["username"] = USERNAME
+    YDL_OPTS["password"] = PASSWORD
+    YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
+    YDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
+    YDL_OPTS["ratelimit"] = RATE_LIMIT
+    YDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
+    YDL_OPTS["verbose"] = True
+    YDL_OPTS["restrictfilenames"] = True
+    YDL_OPTS["format"] = "bestaudio/best"
+
     for course in courses:
         _pluradl(course)
 
@@ -187,12 +168,11 @@ def _get_courses(scriptpath):
         digits = []
 
         input_chunks = re.findall(r'[\S]{1,}', line)
-        print(input_chunks)
         for chunk in input_chunks:
             if re.search(r'[\D]{1,}', chunk):
                 course_id = chunk
             else:
-                digits.append(chunk)
+                digits.append(int(chunk))
         digits.sort()
 
         return course_id, digits
@@ -211,6 +191,7 @@ def _get_courses(scriptpath):
         return courses
     except FileNotFoundError:
         print("There is no courselist.txt in script path. Terminating script ...")
+
 
 def _flag_parser():
     if len(sys.argv) < 5:
@@ -306,6 +287,7 @@ def main():
     courses = _get_courses(scriptpath)
     if courses:
         _download_courses(courses)
+
 
 if __name__ == "__main__":
     main()

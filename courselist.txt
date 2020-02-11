@@ -1,4 +1,4 @@
-ableton-live-9-introduction 10 12
+ableton-live-9-introduction 10 12 7 11 13
 sqlserver-understanding-using-azure-sql-database
 sqlserver-dataretrieval
 sql-server-virtualization-planning-practice
