@@ -3,11 +3,11 @@ import sys, os, re, getpass, io, youtube_dl
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
-# IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
-SLEEP_INTERVAL = 5      #                                                       #
-SLEEP_OFFSET =   5      #               Change this at your own risk.           #
-RATE_LIMIT =     10**6  # in bytes                                              #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
+SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
+SLEEP_OFFSET =   50     # adding random sleep time  #  Change this at your own risk.  #
+RATE_LIMIT =     10**6  # in bytes                  #                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
