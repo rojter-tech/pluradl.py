@@ -186,12 +186,13 @@ def _get_courses(scriptpath):
         course_id = ""
         digits = []
 
-        input_chunks = re.findall(r'[\w-]{1,}', line)
+        input_chunks = re.findall(r'[\S]{1,}', line)
+        print(input_chunks)
         for chunk in input_chunks:
-            if re.search(r'[\d]{1,}', chunk):
-                digits.append(chunk)
-            else:
+            if re.search(r'[\D]{1,}', chunk):
                 course_id = chunk
+            else:
+                digits.append(chunk)
         digits.sort()
 
         return course_id, digits
