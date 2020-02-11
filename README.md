@@ -5,7 +5,7 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 **You can get a free 1 month trial to Pluralsight by signing up for free to [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/)**
 
 ### Requirements
-* [Python 3](https://www.python.org/) (as system default)
+* [Python 3](https://www.python.org/)
 * [youtube_dl](https://ytdl-org.github.io/youtube-dl/) (install via pip)
 
 ## Usage
