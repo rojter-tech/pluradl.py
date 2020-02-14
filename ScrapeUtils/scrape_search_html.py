@@ -13,7 +13,7 @@ def lookaround_tags(start_tag, end_tag):
     return lookaround
 
 
-def store_dict_as_json(filepath, dictionary):
+def store_dict_as_json(dictionary, filepath):
     path = os.path.dirname(filepath)
     if not os.path.exists(path):
         os.mkdir(path)
@@ -28,14 +28,12 @@ def scrape_and_store_courses():
     result_lookaround = lookaround_tags(search_tag, div_tag)
 
     # Encapsulation within search results
-    quote = r'"'
-    gt = r'>'
-    a_tag = r'</a>'
+    quote = r'"';      gt = r'>';     a_tag = r'</a>'
     courseid_lookaround = lookaround_tags(RAW_URL, quote)
     title_lookaround = lookaround_tags(gt, a_tag)
 
-    # Parse the content of data/search_results.html and put data in a dicionary
-    courses = {}
+    # Parse data/search_results.html and put course data in a dicionary
+    course_dict = {}
     with open(HTML_FILE, 'rt') as f:
         for line in f.readlines():
             search_line = result_lookaround.search(line)
@@ -43,10 +41,10 @@ def scrape_and_store_courses():
                 title_tag = search_line.group()
                 courseid = courseid_lookaround.search(title_tag).group()
                 title = title_lookaround.search(title_tag).group()
-                courses[courseid] = title
+                course_dict[courseid] = title
     
-    # Store dictionary as json
-    store_dict_as_json(JSON_OUTPUT_FILE, courses)
+    # Store dictionary as a json file
+    store_dict_as_json(course_dict, JSON_OUTPUT_FILE)
 
 
 if __name__ == "__main__":
