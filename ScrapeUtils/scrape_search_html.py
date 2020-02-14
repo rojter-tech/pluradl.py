@@ -7,9 +7,14 @@ JSON_OUTPUT_FILE = os.path.join("json_output", "courses.json")
 
 
 def lookaround_tags(start_tag, end_tag):
+    # Contruct regular expression
     lookbehind = r'(?<=' + start_tag + r')'
     lookahead = r'(?=' + end_tag + r')'
-    lookaround = re.compile(lookbehind + r'.*?' + lookahead)
+    wildcard = r'.*?'
+    regex = "%s%s%s"%(lookbehind,wildcard,lookahead)
+
+    # Compile it and return
+    lookaround = re.compile(regex)
     return lookaround
 
 
