@@ -13,7 +13,7 @@ def lookaround_tags(start_tag, end_tag):
     return lookaround
 
 
-def store_dic_as_json(filepath, dictionary):
+def store_dict_as_json(filepath, dictionary):
     path = os.path.dirname(filepath)
     if not os.path.exists(path):
         os.mkdir(path)
@@ -46,7 +46,7 @@ def scrape_and_store_courses():
                 courses[courseid] = title
     
     # Store dictionary as json
-    store_dic_as_json(JSON_OUTPUT_FILE, courses)
+    store_dict_as_json(JSON_OUTPUT_FILE, courses)
 
 
 if __name__ == "__main__":
