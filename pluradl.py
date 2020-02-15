@@ -1,5 +1,8 @@
 from __future__ import unicode_literals
-import sys, os, re, getpass, io, youtube_dl
+import sys, os, shutil, re, getpass, io, youtube_dl
+from youtube_dl.extractor.common import ExtractorError
+from youtube_dl.utils import DownloadError
+
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
@@ -8,6 +11,11 @@ SLEEP_INTERVAL = 150    # minimum sleep time        #                           
 SLEEP_OFFSET =   50     # adding random sleep time  #  Change this at your own risk.  #
 RATE_LIMIT =     10**6  # in bytes/s                #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+## TEMP!!!! #####
+SLEEP_INTERVAL = 10
+SLEEP_OFFSET =   5
+RATE_LIMIT =     10**6
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
@@ -93,15 +101,23 @@ def _set_playlist_options(digits):
         YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
-def invoke_download(course_id, pl_digits):
+def invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits):
     global YDL_OPTS
-    course_url = [PLURAURL + course_id]
+    YDL_OPTS["logger"] = Logger(logpath)
     _set_playlist_options(pl_digits)
+
     if SUBTITLE:
         YDL_OPTS["writesubtitles"] = True
 
     with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
-        ydl.download(course_url)
+        try:
+            ydl.download([course_url])
+        except (ExtractorError, DownloadError):
+            ydl.to_stdout("The course " + course_id + " is not part of your current licence.")
+            ydl.to_stdout("Visit " + course_url + " for more information.\n")
+            if not os.path.exists(failpath):
+                os.mkdir(failpath)
+            shutil.move(coursepath,os.path.join(failpath,course_id))
 
 
 def _pluradl(course):
@@ -113,21 +129,22 @@ def _pluradl(course):
     Returns:
         str -- youtue-dl CLI command
     """
+    # Metadata
     course_id = course[0]
     pl_digits = course[1]
-    # OS parameters - Creates course path and sets current course directory
+    course_url = PLURAURL + course_id
+
+    # OS parameters - Setting up paths
     coursepath = os.path.join(DLPATH,course_id)
+    failpath = os.path.join(DLPATH,"_failed")
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
-    
-    # Execute command and log stdout/stderror
+    # Set up logging metadata and invoke download
     logile = course_id + ".log"
     logpath = os.path.join(coursepath,logile)
-    YDL_OPTS["logger"] = Logger(logpath)
-
-    invoke_download(course_id, pl_digits)
+    invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits)
 
 
 def _download_courses(courses):

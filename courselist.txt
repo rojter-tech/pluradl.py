@@ -1,7 +1,17 @@
+big-data-ldn-session-124
+aws-big-data-production
+big-data-amazon-web-services
 ableton-live-9-introduction 10 12 7 11 13
 sqlserver-understanding-using-azure-sql-database
 sqlserver-dataretrieval
 sql-server-virtualization-planning-practice
+getting-started-linux
+getting-started-linux-command-line
+getting-started-linux-system-administration
+javascript-development-environment
+node-intro
+nodejs-express-web-applications-update
+node-js-express-rest-web-services-update
 algorithmics-introduction
 r-programming-fundamentals
 r-data-management-preparation

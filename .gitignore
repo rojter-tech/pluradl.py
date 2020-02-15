@@ -142,3 +142,4 @@ dmypy.json
 .logs
 .logs/
 .logs/*
+_failed
