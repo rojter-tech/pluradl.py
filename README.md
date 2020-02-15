@@ -67,16 +67,17 @@ csharp-best-practices-collections-generics 11 56
 
 wich would give you the **25 first videoclips** in the course c-sharp-fundamentals-with-visual-studio-2015 and the clips **numbered 11 up to 56** in csharp-best-practices-collections-generics.
 
-If you specify three of more numbers it will download those specific video indicies
+If you specify **three of more numbers** it will download those specific video indicies
 
 `courselist.txt`
 ```notepad
 c-sharp-fundamentals-with-visual-studio-2015 2 10 15
+csharp-best-practices-collections-generics 5 3 10 11
 .
 .
 ```
 
-wich would give you three videos, those that are numbered **2**, **10** and **15** in the course c-sharp-fundamentals-with-visual-studio-2015.
+wich would give you three videos, those that are numbered **2**, **10** and **15**, in the course c-sharp-fundamentals-with-visual-studio-2015 and the four specific videos with indicies **5**, **3**, **10** and **11** in csharp-best-practices-collections-generics.
 
 ### Example output
 
