@@ -12,7 +12,6 @@ SLEEP_OFFSET =   50     # adding random sleep time  #  Change this at your own r
 RATE_LIMIT =     10**6  # in bytes/s                #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
 YDL_OPTS = {}
@@ -97,8 +96,9 @@ def _set_playlist_options(digits):
         YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
-def invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits):
+def _invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits):
     global YDL_OPTS
+
     YDL_OPTS["logger"] = Logger(logpath)
     _set_playlist_options(pl_digits)
 
@@ -109,7 +109,7 @@ def invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_dig
         try:
             ydl.download([course_url])
         except (ExtractorError, DownloadError):
-            ydl.to_stdout("The course " + course_id + " is not part of your current licence.")
+            ydl.to_stdout("The course " + course_id + " may not be a part of your current licence.")
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
             if not os.path.exists(failpath):
                 os.mkdir(failpath)
@@ -125,22 +125,24 @@ def _pluradl(course):
     Returns:
         str -- youtue-dl CLI command
     """
-    # Metadata
+    # Course metadata
     course_id = course[0]
     pl_digits = course[1]
     course_url = PLURAURL + course_id
 
-    # OS parameters - Setting up paths
+    # OS parameters - Setting up paths metadata
     coursepath = os.path.join(DLPATH,course_id)
     failpath = os.path.join(DLPATH,"_failed")
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
-    # Set up logging metadata and invoke download
+    # Setting up logging metadata
     logile = course_id + ".log"
     logpath = os.path.join(coursepath,logile)
-    invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits)
+
+    # Invoking download request
+    _invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits)
 
 
 def _download_courses(courses):
