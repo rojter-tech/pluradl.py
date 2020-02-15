@@ -77,7 +77,7 @@ csharp-best-practices-collections-generics 5 3 10 11
 .
 ```
 
-wich would give you three videos, those that are numbered **2**, **10** and **15**, in the course c-sharp-fundamentals-with-visual-studio-2015 and the four specific videos with indicies **5**, **3**, **10** and **11** in csharp-best-practices-collections-generics.
+wich would give you **three videos**, those that are numbered **2**, **10** and **15**, in the course c-sharp-fundamentals-with-visual-studio-2015 and the **four specific videos** with indicies **5**, **3**, **10** and **11** in csharp-best-practices-collections-generics.
 
 ### Example output
 
