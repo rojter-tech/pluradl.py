@@ -12,10 +12,6 @@ SLEEP_OFFSET =   50     # adding random sleep time  #  Change this at your own r
 RATE_LIMIT =     10**6  # in bytes/s                #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-## TEMP!!!! #####
-SLEEP_INTERVAL = 10
-SLEEP_OFFSET =   5
-RATE_LIMIT =     10**6
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
