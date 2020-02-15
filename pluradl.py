@@ -8,8 +8,8 @@ if sys.version_info[0] <3:
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
-SLEEP_OFFSET =   50     # adding random sleep time  #  Change this at your own risk.  #
-RATE_LIMIT =     10**6  # in bytes/s                #                                 #
+SLEEP_OFFSET   = 50     # adding random sleep time  #  Change this at your own risk.  #
+RATE_LIMIT     = 10**6  # in bytes/s                #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults

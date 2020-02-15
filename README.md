@@ -11,9 +11,9 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 ## Usage
 
 ### Download from **Pluralsight** with `pluradl.py`
-After installation of youtube-dl (thus is avaiable in the environment) make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [Scripts](https://github.com/rojter-tech/pluradl.py/tree/master/Scripts). The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
+After installation of youtube_dl (thus is avaiable in the Python 3 environment) make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [Scripts](https://github.com/rojter-tech/pluradl.py/tree/master/Scripts). The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
 
-Run the script in your terminal to download all the videos from all the courses in [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt). The videos will be automatically placed in course specific folders and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
+Run the script in your terminal to download all the videos from all the courses in [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt). The videos will be automatically placed in course specific directories and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
 
 ```bash
 $ python pluradl.py
@@ -37,12 +37,13 @@ linq-fundamentals-csharp-6
 .
 ```
 
-For even more automation, the script can be executed along with Pluralsight username and password
+For even more automation, the script can be executed directly by passing Pluralsight username and password
 
 ```bash
 python pluradl.py "myusername@mymail.com" "myPassword"
 ```
 
+#### Set subtitle
 To supplement with english subtitles use the "-s", "--sub" or "--subtitle" flag
 ```bash
 $ python pluradl.py --subtitle
@@ -53,6 +54,7 @@ $ python pluradl.py --user "myusername@mymail.com" --pass "myPassword" --subtitl
 ^C
 ```
 
+#### Set video interval
 If you only want a specific interval/range of videoclips from a specific course you can specify {the end number} or {the start and the end number} on the same row as the course id (they comes in the same order as they do on the website playlist with start number of 1)
 
 eg. in `courselist.txt`
@@ -64,6 +66,17 @@ csharp-best-practices-collections-generics 11 56
 ```
 
 wich would give you the **25 first videoclips** in the course c-sharp-fundamentals-with-visual-studio-2015 and the clips **numbered 11 up to 56** in csharp-best-practices-collections-generics.
+
+If you specify three of more numbers it will download those specific video indicies
+
+`courselist.txt`
+```notepad
+c-sharp-fundamentals-with-visual-studio-2015 2 10 15
+.
+.
+```
+
+wich would give you three videos, those that are numbered **2**, **10** and **15** in the course c-sharp-fundamentals-with-visual-studio-2015.
 
 ### Example output
 
