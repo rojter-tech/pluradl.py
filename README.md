@@ -18,9 +18,9 @@ Run the script in your terminal to download all the videos from all the courses 
 ```bash
 $ python pluradl.py
 Enter you Pluralsight credentials
-Enter username: youremail@example.com
+Enter username: example@somemail.com
 Enter password (will not be displayed)
-: yourPassword
+: mypassword
 ```
 
 ... with `courselist.txt` available at the same path
@@ -37,20 +37,29 @@ linq-fundamentals-csharp-6
 .
 ```
 
+#### Argument scripting
 For even more automation, the script can be executed directly by passing Pluralsight username and password
 
 ```bash
-python pluradl.py "myusername@mymail.com" "myPassword"
+python pluradl.py "example@somemail.com" "mypassword"
 ```
+with exactly two arguments, the **first must be the username** and the **second the password**.
+
+or using flags
+
+```bash
+python pluradl.py --pass "mypassword" --user "example@somemail.com"
+```
+where the order doesn't matter.
 
 #### Set subtitle
-To supplement with english subtitles use the "-s", "--sub" or "--subtitle" flag
+To supplement with english subtitles use the **-s**, **--sub** or **--subtitle** flag
 ```bash
 $ python pluradl.py --subtitle
 ^C
-$ python pluradl.py "myusername@mymail.com" "myPassword" --subtitle
+$ python pluradl.py "example@somemail.com" "mypassword" --subtitle
 ^C
-$ python pluradl.py --user "myusername@mymail.com" --pass "myPassword" --subtitle
+$ python pluradl.py --user "example@somemail.com" --pass "mypassword" --subtitle
 ^C
 ```
 
