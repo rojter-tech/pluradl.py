@@ -2,7 +2,7 @@
 
 You can download whole courses from a number of tutorial sites with the CLI tool `youtube-dl`, however, in this Git I have provided an Python script, `pluradl.py`, for automated download of a **sequence of Pluralsight courses** (of your choice) at once using the [`youtube_dl` Python 3 API](https://github.com/ytdl-org/youtube-dl). Below I give an example of how to use the `pluradl.py` script with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
 
-**You can get a free one month trial activation code for Pluralsight by first register a [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) account for free**.
+**You can get a free one month trial activation code for Pluralsight by first register a [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) account for free.**
 
 ### Requirements
 * [Python 3](https://www.python.org/)
