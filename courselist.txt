@@ -1,7 +1,6 @@
-big-data-ldn-session-124
-big-data-ldn-session-01
-aws-big-data-production
 big-data-amazon-web-services
+aws-big-data-production
+big-data-ldn-session-01
 ableton-live-9-introduction
 sqlserver-understanding-using-azure-sql-database
 sqlserver-dataretrieval

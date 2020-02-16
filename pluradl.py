@@ -1,7 +1,6 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, time, youtube_dl
-from youtube_dl.extractor.common import ExtractorError
-from youtube_dl.utils import DownloadError
+import sys, os, shutil, re, getpass, io, youtube_dl
+from youtube_dl.utils import ExtractorError, DownloadError
 
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
@@ -114,26 +113,36 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
         try:
             # Invoke download
             ydl.download([course_url])
-            # Moving content to final destination if the download was sucessful
-            ydl.to_stdout("The course " + course_id + " was downloaded successfully.")
+            # Moving content to _finished destination path if the download was sucessful
+            ydl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
             finalpath = os.path.join(finishpath,course_id)
             _move_content(finalpath)
             return True
 
-        except (ExtractorError, DownloadError):
+        except ExtractorError:
             # Handling the case of invalid download requests
-            ydl.to_stdout("Something went wrong.")
-            ydl.to_stdout("The course " + course_id + " may not be a part of your current licence.")
+            ydl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
-            # Moving content to final destination 
+            # Moving content to _failed destination 
             finalpath = os.path.join(failpath,course_id)
             _move_content(finalpath)
             return True
         
+        except DownloadError:
+            # Handling the the more general case of download error
+            ydl.to_stdout("Something went wrong.")
+            ydl.to_stdout("The download request for '" + course_id + "' was forced to terminate.")
+            ydl.to_stdout("Double check that " + course_url)
+            ydl.to_stdout("exists or that your subscription is valid for accessing all contents.\n")
+            # Moving content to _failed destination path
+            finalpath = os.path.join(failpath,course_id)
+            _move_content(finalpath)
+            return True
+
         except KeyboardInterrupt:
             # Handling the case of user interruption
             ydl.to_stdout("\n\nThe download stream for " + course_id + " was canceled by user.")
-            # Moving content to final destination 
+            # Moving content to _canceled destination 
             finalpath = os.path.join(interruptpath,course_id)
             _move_content(finalpath)
             return False
@@ -176,11 +185,11 @@ def pluradl(course):
 
     # Invoking download request
     return invoke_download(course_id,
-                            course_url,
-                            coursepath,
-                            finishpath,
-                            failpath,
-                            interruptpath)
+                           course_url,
+                           coursepath,
+                           finishpath,
+                           failpath,
+                           interruptpath)
 
 
 def download_courses(courses):
@@ -274,7 +283,7 @@ def flag_parser():
         usn_psw_flag_state = True
 
     arg_string = ' '.join(sys.argv[1:])
-    for key, _ in flag_states.items():
+    for key in flag_states.keys():
         if flag_states[key][0]:
             for flag in flag_states[key][1:]:
                 lookbehind = r"(?<=" + flag + r' ' +  r')'
