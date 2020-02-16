@@ -141,7 +141,7 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
 
         except KeyboardInterrupt:
             # Handling the case of user interruption
-            ydl.to_stdout("\n\nThe download stream for " + course_id + " was canceled by user.")
+            ydl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
             # Moving content to _canceled destination 
             finalpath = os.path.join(interruptpath,course_id)
             _move_content(finalpath)
