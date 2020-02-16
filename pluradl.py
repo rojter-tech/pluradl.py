@@ -109,9 +109,12 @@ def _invoke_download(course_id, course_url, coursepath, finishpath, failpath, in
             ydl.to_stdout("Moving content to " + finalpath)
             if not os.path.exists(finishpath):
                 os.mkdir(finishpath)
-            shutil.move(coursepath,finalpath)
+            try:
+                shutil.move(coursepath,finalpath)
+            except PermissionError:
+                ydl.to_stdout("Directory still in use, leaving it. Will be fixed in future releases.")
             return True
-
+        
         except (ExtractorError, DownloadError):
             # Handling the case of invalid download requests
             finalpath = os.path.join(failpath,course_id)
@@ -120,7 +123,10 @@ def _invoke_download(course_id, course_url, coursepath, finishpath, failpath, in
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
             if not os.path.exists(failpath):
                 os.mkdir(failpath)
-            shutil.move(coursepath,finalpath)
+            try:
+                shutil.move(coursepath,finalpath)
+            except PermissionError:
+                ydl.to_stdout("Directory still in use, leaving it. Will be fixed in future releases.")
             return True
         
         except KeyboardInterrupt:
@@ -129,7 +135,10 @@ def _invoke_download(course_id, course_url, coursepath, finishpath, failpath, in
             ydl.to_stdout("Moving content to " + finalpath)
             if not os.path.exists(interruptpath):
                 os.mkdir(interruptpath)
-            shutil.move(coursepath,interruptpath)
+            try:
+                shutil.move(coursepath,finalpath)
+            except PermissionError:
+                ydl.to_stdout("Directory still in use, leaving it. Will be fixed in future releases.")
             return False
 
 
