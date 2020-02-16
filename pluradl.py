@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, youtube_dl
+import sys, os, shutil, re, getpass, io, time, youtube_dl
 from youtube_dl.extractor.common import ExtractorError
 from youtube_dl.utils import DownloadError
 
@@ -23,7 +23,7 @@ PLURAURL = "https://app.pluralsight.com/library/courses/"
 class Logger(object):
     def __init__(self,logpath):
         self.logpath = logpath
-        with open(self.logpath, 'wt') as f: pass
+        with open(self.logpath, 'wt') as f: f.close
 
     def debug(self, msg):
         print(msg)
@@ -105,40 +105,56 @@ def _invoke_download(course_id, course_url, coursepath, finishpath, failpath, in
 
             # Moving content to final destination if the download was sucessful
             finalpath = os.path.join(finishpath,course_id)
+
             ydl.to_stdout("The course " + course_id + " was downloaded successfully.")
             ydl.to_stdout("Moving content to " + finalpath)
+            
             if not os.path.exists(finishpath):
                 os.mkdir(finishpath)
             try:
+                os.chdir(finishpath)
+                if os.path.exists(finalpath):
+                    shutil.rmtree(finalpath)
                 shutil.move(coursepath,finalpath)
             except PermissionError:
-                ydl.to_stdout("Directory still in use, leaving it. Will be fixed in future releases.")
+                print("Directory still in use, leaving it. Will be fixed in future releases.")
             return True
-        
+
         except (ExtractorError, DownloadError):
             # Handling the case of invalid download requests
             finalpath = os.path.join(failpath,course_id)
+            
             ydl.to_stdout("Something went wrong.")
             ydl.to_stdout("The course " + course_id + " may not be a part of your current licence.")
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
+            
             if not os.path.exists(failpath):
                 os.mkdir(failpath)
             try:
+                os.chdir(failpath)
+                if os.path.exists(finalpath):
+                    shutil.rmtree(finalpath)
                 shutil.move(coursepath,finalpath)
             except PermissionError:
-                ydl.to_stdout("Directory still in use, leaving it. Will be fixed in future releases.")
+                print("Directory still in use, leaving it. Will be fixed in future releases.")
             return True
         
         except KeyboardInterrupt:
+            # Handling the case of user caused interruption
             finalpath = os.path.join(interruptpath,course_id)
+
             ydl.to_stdout("\n\nThe download stream for " + course_id + " was canceled by user.")
             ydl.to_stdout("Moving content to " + finalpath)
+            
             if not os.path.exists(interruptpath):
                 os.mkdir(interruptpath)
             try:
+                os.chdir(interruptpath)
+                if os.path.exists(finalpath):
+                    shutil.rmtree(finalpath)
                 shutil.move(coursepath,finalpath)
             except PermissionError:
-                ydl.to_stdout("Directory still in use, leaving it. Will be fixed in future releases.")
+                print("Directory still in use, leaving it. Will be fixed in future releases.")
             return False
 
 
@@ -277,7 +293,7 @@ def _flag_parser():
         usn_psw_flag_state = True
 
     arg_string = ' '.join(sys.argv[1:])
-    for key, val in flag_states.items():
+    for key, _ in flag_states.items():
         if flag_states[key][0]:
             for flag in flag_states[key][1:]:
                 lookbehind = r"(?<=" + flag + r' ' +  r')'
