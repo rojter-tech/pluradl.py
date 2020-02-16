@@ -38,7 +38,7 @@ class Logger(object):
         with open(self.logpath, 'at') as f: f.write(msg+'\n')
 
 
-def _set_subtitle():
+def set_subtitle():
     global SUBTITLE
     subtitle_flags = ("--sub", "--subtitle", "-s",
                       "--SUB", "--SUBTITLE", "-S")
@@ -49,7 +49,7 @@ def _set_subtitle():
                 print("Subtitles will be appended to videoclips")
 
 
-def _get_usr_pw():
+def get_usr_pw():
     """Requesting credentials from the user
     
     Raises:
@@ -78,7 +78,7 @@ def _get_usr_pw():
         raise ValueError('Username or password was not given.')
 
 
-def _set_playlist_options(digits):
+def set_playlist_options(digits):
     global YDL_OPTS
 
     n = len(digits)
@@ -96,69 +96,50 @@ def _set_playlist_options(digits):
         YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
-def _invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
+def invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
+
+    def _move_content(finalpath):
+        ydl.to_stdout("Moving content to " + finalpath)
+        if not os.path.exists(finishpath):
+            os.mkdir(finishpath)
+        try:
+            os.chdir(finishpath)
+            if os.path.exists(finalpath):
+                shutil.rmtree(finalpath)
+            shutil.move(coursepath,finalpath)
+        except PermissionError:
+            print("Directory still in use, leaving it. Will be fixed in future releases.")
 
     with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
         try:
             # Invoke download
             ydl.download([course_url])
-
             # Moving content to final destination if the download was sucessful
-            finalpath = os.path.join(finishpath,course_id)
-
             ydl.to_stdout("The course " + course_id + " was downloaded successfully.")
-            ydl.to_stdout("Moving content to " + finalpath)
-            
-            if not os.path.exists(finishpath):
-                os.mkdir(finishpath)
-            try:
-                os.chdir(finishpath)
-                if os.path.exists(finalpath):
-                    shutil.rmtree(finalpath)
-                shutil.move(coursepath,finalpath)
-            except PermissionError:
-                print("Directory still in use, leaving it. Will be fixed in future releases.")
+            finalpath = os.path.join(finishpath,course_id)
+            _move_content(finalpath)
             return True
 
         except (ExtractorError, DownloadError):
             # Handling the case of invalid download requests
-            finalpath = os.path.join(failpath,course_id)
-            
             ydl.to_stdout("Something went wrong.")
             ydl.to_stdout("The course " + course_id + " may not be a part of your current licence.")
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
-            
-            if not os.path.exists(failpath):
-                os.mkdir(failpath)
-            try:
-                os.chdir(failpath)
-                if os.path.exists(finalpath):
-                    shutil.rmtree(finalpath)
-                shutil.move(coursepath,finalpath)
-            except PermissionError:
-                print("Directory still in use, leaving it. Will be fixed in future releases.")
+            # Moving content to final destination 
+            finalpath = os.path.join(failpath,course_id)
+            _move_content(finalpath)
             return True
         
         except KeyboardInterrupt:
-            # Handling the case of user caused interruption
-            finalpath = os.path.join(interruptpath,course_id)
-
+            # Handling the case of user interruption
             ydl.to_stdout("\n\nThe download stream for " + course_id + " was canceled by user.")
-            ydl.to_stdout("Moving content to " + finalpath)
-            
-            if not os.path.exists(interruptpath):
-                os.mkdir(interruptpath)
-            try:
-                os.chdir(interruptpath)
-                if os.path.exists(finalpath):
-                    shutil.rmtree(finalpath)
-                shutil.move(coursepath,finalpath)
-            except PermissionError:
-                print("Directory still in use, leaving it. Will be fixed in future releases.")
+            # Moving content to final destination 
+            finalpath = os.path.join(interruptpath,course_id)
+            _move_content(finalpath)
             return False
 
 
-def _pluradl(course):
+def pluradl(course):
     """Handling the video downloading requests for a single course
     
     Arguments:
@@ -172,7 +153,7 @@ def _pluradl(course):
     # Course metadata
     course_id = course[0]
     pl_digits = course[1]
-    _set_playlist_options(pl_digits)
+    set_playlist_options(pl_digits)
     course_url = PLURAURL + course_id
 
     # OS parameters - Setting up paths metadata
@@ -194,7 +175,7 @@ def _pluradl(course):
         YDL_OPTS["writesubtitles"] = True
 
     # Invoking download request
-    return _invoke_download(course_id,
+    return invoke_download(course_id,
                             course_url,
                             coursepath,
                             finishpath,
@@ -202,7 +183,7 @@ def _pluradl(course):
                             interruptpath)
 
 
-def _download_courses(courses):
+def download_courses(courses):
     """Dowloading all courses listed in courselist.txt
     
     Arguments:
@@ -221,14 +202,14 @@ def _download_courses(courses):
     YDL_OPTS["format"] = "bestaudio/best"
 
     for course in courses:
-        if _pluradl(course):
+        if pluradl(course):
             print("Moving to next course playlist\n")
         else:
             print("\nTerminating requests.\n")
             break
 
 
-def _get_courses(scriptpath):
+def get_courses(scriptpath):
     """Parsing courselist.txt
     
     Arguments:
@@ -267,7 +248,7 @@ def _get_courses(scriptpath):
         print("There is no courselist.txt in script path. Terminating script ...")
 
 
-def _flag_parser():
+def flag_parser():
     if len(sys.argv) < 5:
         return False
     
@@ -316,7 +297,7 @@ def _flag_parser():
         return False
 
 
-def _arg_parser():
+def arg_parser():
     if len(sys.argv) < 3:
         return False
     global USERNAME
@@ -339,14 +320,14 @@ def main():
     """
     global DLPATH
 
-    if _flag_parser():
+    if flag_parser():
         print("Executing by flag input ..\n")
-    elif _arg_parser():
+    elif arg_parser():
         print("Executing by short input ..\n")
     else:
-        _get_usr_pw()
+        get_usr_pw()
     
-    _set_subtitle()
+    set_subtitle()
 
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -357,10 +338,10 @@ def main():
     if not os.path.exists(DLPATH):
         os.mkdir(DLPATH)
 
-    # Looping through the courses determined by _get_courses() invoking download requests
-    courses = _get_courses(scriptpath)
+    # Looping through the courses determined by get_courses() invoking download requests
+    courses = get_courses(scriptpath)
     if courses:
-        _download_courses(courses)
+        download_courses(courses)
 
 
 if __name__ == "__main__":
