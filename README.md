@@ -6,7 +6,7 @@ You can download whole courses from a number of tutorial sites with the CLI tool
 
 ### Requirements
 * [Python 3](https://www.python.org/)
-* [youtube_dl](https://ytdl-org.github.io/youtube-dl/) ([install it](https://github.com/rojter-tech/pluradl.py/wiki/Install-youtube_dl-Python-3-API-(Any-OS)) via pip, it MUST be included in the Python 3 package environment)
+* [youtube_dl](https://ytdl-org.github.io/youtube-dl/) (It MUST be included in the Python 3 package environment, [install via pip](https://github.com/rojter-tech/pluradl.py/wiki/Install-youtube_dl-Python-3-API-(Any-OS)).)
 
 ## Usage
 
