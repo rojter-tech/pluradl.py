@@ -9,7 +9,7 @@ if sys.version_info[0] <3:
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
 SLEEP_OFFSET   = 50     # adding random sleep time  #  Change this at your own risk.  #
-RATE_LIMIT     = 10**6  # in bytes/s                #                                 #
+RATE_LIMIT     = 10**6  # download rate in bytes/s  #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
@@ -96,24 +96,41 @@ def _set_playlist_options(digits):
         YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
-def _invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits):
-    global YDL_OPTS
-
-    YDL_OPTS["logger"] = Logger(logpath)
-    _set_playlist_options(pl_digits)
-
-    if SUBTITLE:
-        YDL_OPTS["writesubtitles"] = True
+def _invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
 
     with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
         try:
+            # Invoke download
             ydl.download([course_url])
+
+            # Moving content to final destination if the download was sucessful
+            finalpath = os.path.join(finishpath,course_id)
+            ydl.to_stdout("The course " + course_id + " was downloaded successfully.")
+            ydl.to_stdout("Moving content to " + finalpath)
+            if not os.path.exists(finishpath):
+                os.mkdir(finishpath)
+            shutil.move(coursepath,finalpath)
+            return True
+
         except (ExtractorError, DownloadError):
+            # Handling the case of invalid download requests
+            finalpath = os.path.join(failpath,course_id)
+            ydl.to_stdout("Something went wrong.")
             ydl.to_stdout("The course " + course_id + " may not be a part of your current licence.")
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
             if not os.path.exists(failpath):
                 os.mkdir(failpath)
-            shutil.move(coursepath,os.path.join(failpath,course_id))
+            shutil.move(coursepath,finalpath)
+            return True
+        
+        except KeyboardInterrupt:
+            finalpath = os.path.join(interruptpath,course_id)
+            ydl.to_stdout("\n\nThe download stream for " + course_id + " was canceled by user.")
+            ydl.to_stdout("Moving content to " + finalpath)
+            if not os.path.exists(interruptpath):
+                os.mkdir(interruptpath)
+            shutil.move(coursepath,interruptpath)
+            return False
 
 
 def _pluradl(course):
@@ -125,14 +142,19 @@ def _pluradl(course):
     Returns:
         str -- youtue-dl CLI command
     """
+    global YDL_OPTS
+
     # Course metadata
     course_id = course[0]
     pl_digits = course[1]
+    _set_playlist_options(pl_digits)
     course_url = PLURAURL + course_id
 
     # OS parameters - Setting up paths metadata
     coursepath = os.path.join(DLPATH,course_id)
     failpath = os.path.join(DLPATH,"_failed")
+    finishpath = os.path.join(DLPATH,"_finished")
+    interruptpath = os.path.join(DLPATH,"_canceled")
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
@@ -140,9 +162,19 @@ def _pluradl(course):
     # Setting up logging metadata
     logile = course_id + ".log"
     logpath = os.path.join(coursepath,logile)
+    YDL_OPTS["logger"] = Logger(logpath)
+
+    # Setting up subtitles
+    if SUBTITLE:
+        YDL_OPTS["writesubtitles"] = True
 
     # Invoking download request
-    _invoke_download(course_id, course_url, coursepath, failpath, logpath, pl_digits)
+    return _invoke_download(course_id,
+                            course_url,
+                            coursepath,
+                            finishpath,
+                            failpath,
+                            interruptpath)
 
 
 def _download_courses(courses):
@@ -164,7 +196,11 @@ def _download_courses(courses):
     YDL_OPTS["format"] = "bestaudio/best"
 
     for course in courses:
-        _pluradl(course)
+        if _pluradl(course):
+            print("Moving to next course playlist\n")
+        else:
+            print("\nTerminating requests.\n")
+            break
 
 
 def _get_courses(scriptpath):
