@@ -45,7 +45,7 @@ python pluradl.py "example@somemail.com" "mypassword"
 ```
 with exactly two arguments, the **first must be the username** and the **second the password**.
 
-or using flags
+Or using flags
 
 ```bash
 python pluradl.py --pass "mypassword" --user "example@somemail.com"
@@ -66,7 +66,7 @@ $ python pluradl.py --user "example@somemail.com" --pass "mypassword" --subtitle
 #### Set video interval
 If you only want a specific interval/range of videoclips from a specific course you can specify {the end number} or {the start and the end number} on the same row as the course id (they comes in the same order as they do on the website playlist with start number of 1)
 
-eg. in `courselist.txt`
+eg. in `courselist.txt`    
 ```notepad
 c-sharp-fundamentals-with-visual-studio-2015 25
 csharp-best-practices-collections-generics 11 56
@@ -78,7 +78,7 @@ wich would give you the **25 first videoclips** in the course c-sharp-fundamenta
 
 If you specify **three of more numbers** it will download those specific video indicies
 
-`courselist.txt`
+`courselist.txt`    
 ```notepad
 c-sharp-fundamentals-with-visual-studio-2015 2 10 15
 csharp-best-practices-collections-generics 5 3 10 11
