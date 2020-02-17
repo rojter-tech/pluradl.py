@@ -6,10 +6,11 @@ with open(JSON_FILE, 'rt') as f:
 
 course_ids = list(json_load.keys())
 
-big_data_path = os.path.join("filtered_results", "big_data.txt")
+search_string = r'kali-linux'
+results_path = os.path.join("filtered_results", search_string + r'.txt')
 
-with open(big_data_path, 'wt') as f:
+with open(results_path, 'wt') as f:
     for course_id in course_ids:
-        search = re.search(r'big-data', course_id)
+        search = re.search(search_string, course_id)
         if search:
             f.write(course_id + '\r\n')
