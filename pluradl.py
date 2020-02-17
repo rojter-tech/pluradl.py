@@ -20,6 +20,11 @@ PLURAURL = "https://app.pluralsight.com/library/courses/"
 
 
 class Logger(object):
+    """Handling logging mechanism of YoutubeDL.
+    
+    Arguments:
+        logpath {str} -- Path to logfile
+    """
     def __init__(self,logpath):
         self.logpath = logpath
         with open(self.logpath, 'wt') as f: f.close
@@ -38,6 +43,8 @@ class Logger(object):
 
 
 def set_subtitle():
+    """Determines whether subtitle parameters should be turned on or not.
+    """
     global SUBTITLE
     subtitle_flags = ("--sub", "--subtitle", "-s",
                       "--SUB", "--SUBTITLE", "-S")
@@ -49,7 +56,7 @@ def set_subtitle():
 
 
 def get_usr_pw():
-    """Requesting credentials from the user
+    """Requesting credentials from the user.
     
     Raises:
         ValueError: User enters an empty password too many times
@@ -78,6 +85,11 @@ def get_usr_pw():
 
 
 def set_playlist_options(digits):
+    """Using appended digits in courselist.txt to set playlist option.
+    
+    Arguments:
+        digits {[int]} -- List with playlist indicies
+    """
     global YDL_OPTS
 
     n = len(digits)
@@ -95,28 +107,50 @@ def set_playlist_options(digits):
         YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
+def move_content(ydl, course_id, coursepath, completionpath):
+    """Moves course content to its completion path.
+    
+    Arguments:
+        ydl {YoutubeDL} -- YoutubeDL object
+        course_id {str} -- [description]
+        coursepath {str} -- [description]
+        completionpath {str} -- Path where to store content
+    """
+    finalpath = os.path.join(completionpath, course_id)
+    ydl.to_stdout("Moving content to " + finalpath)
+    set_directory(completionpath)
+    try:
+        if os.path.exists(finalpath):
+            shutil.rmtree(finalpath)
+        shutil.move(coursepath,finalpath)
+    except PermissionError:
+        print("Directory still in use, leaving it. Will be fixed in future releases.")
+
+
 def invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
-
-    def _move_content(finalpath):
-        ydl.to_stdout("Moving content to " + finalpath)
-        if not os.path.exists(finishpath):
-            os.mkdir(finishpath)
-        try:
-            os.chdir(finishpath)
-            if os.path.exists(finalpath):
-                shutil.rmtree(finalpath)
-            shutil.move(coursepath,finalpath)
-        except PermissionError:
-            print("Directory still in use, leaving it. Will be fixed in future releases.")
-
+    """Using youtube_dl API to invoke download requests with associated parameters.
+    
+    Arguments:
+        course_id {str} -- Course identifier
+        course_url {str} -- Playlist url
+        coursepath {str} -- Local temporary course storage path
+        finishpath {str} -- Local course storage path if playlist is complete
+        failpath {str} -- Local course storage path if playlist download failed
+        interruptpath {str} -- Local course storage path if playlist download was interrupted
+    
+    Returns:
+        Bool -- Validation of completion level
+    """
     with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
         try:
             # Invoke download
+            set_directory(coursepath)
             ydl.download([course_url])
+
             # Moving content to _finished destination path if the download was sucessful
             ydl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
             finalpath = os.path.join(finishpath,course_id)
-            _move_content(finalpath)
+            move_content(ydl, course_id, coursepath, finishpath)
             return True
 
         except ExtractorError:
@@ -124,8 +158,7 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
             ydl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
             ydl.to_stdout("Visit " + course_url + " for more information.\n")
             # Moving content to _failed destination 
-            finalpath = os.path.join(failpath,course_id)
-            _move_content(finalpath)
+            move_content(ydl, course_id, coursepath, failpath)
             return True
         
         except DownloadError:
@@ -135,21 +168,19 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
             ydl.to_stdout("Double check that " + course_url)
             ydl.to_stdout("exists or that your subscription is valid for accessing all contents.\n")
             # Moving content to _failed destination path
-            finalpath = os.path.join(failpath,course_id)
-            _move_content(finalpath)
+            move_content(ydl, course_id, coursepath, failpath)
             return True
 
         except KeyboardInterrupt:
             # Handling the case of user interruption
             ydl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
             # Moving content to _canceled destination 
-            finalpath = os.path.join(interruptpath,course_id)
-            _move_content(finalpath)
+            move_content(ydl, course_id, coursepath, interruptpath)
             return False
 
 
 def pluradl(course):
-    """Handling the video downloading requests for a single course
+    """Handling the video downloading requests for a single course.
     
     Arguments:
         course {str} -- Course identifier
@@ -170,18 +201,12 @@ def pluradl(course):
     failpath = os.path.join(DLPATH,"_failed")
     finishpath = os.path.join(DLPATH,"_finished")
     interruptpath = os.path.join(DLPATH,"_canceled")
-    if not os.path.exists(coursepath):
-        os.mkdir(coursepath)
-    os.chdir(coursepath)
 
     # Setting up logging metadata
-    logile = course_id + ".log"
-    logpath = os.path.join(coursepath,logile)
+    logfile = course_id + ".log"
+    logpath = os.path.join(coursepath,logfile)
+    set_directory(coursepath)
     YDL_OPTS["logger"] = Logger(logpath)
-
-    # Setting up subtitles
-    if SUBTITLE:
-        YDL_OPTS["writesubtitles"] = True
 
     # Invoking download request
     return invoke_download(course_id,
@@ -193,13 +218,14 @@ def pluradl(course):
 
 
 def download_courses(courses):
-    """Dowloading all courses listed in courselist.txt
+    """Dowloading all courses listed in courselist.txt.
     
     Arguments:
         courses {[type]} -- List of course ID
     
     """
     global YDL_OPTS
+    # General YoutubeDL settings
     YDL_OPTS["username"] = USERNAME
     YDL_OPTS["password"] = PASSWORD
     YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
@@ -209,6 +235,8 @@ def download_courses(courses):
     YDL_OPTS["verbose"] = True
     YDL_OPTS["restrictfilenames"] = True
     YDL_OPTS["format"] = "bestaudio/best"
+    if SUBTITLE:
+        YDL_OPTS["writesubtitles"] = True
 
     for course in courses:
         if pluradl(course):
@@ -219,13 +247,13 @@ def download_courses(courses):
 
 
 def get_courses(scriptpath):
-    """Parsing courselist.txt
+    """Parsing courselist.txt separating course data.
     
     Arguments:
         scriptpath {str} -- Absolute path to script directory
     
     Returns:
-        [str] -- List of course identifiers exposed by courselist.txt
+        [(str, [int])] -- List of course identifiers exposed by courselist.txt
     """
     def _parse_line(line):
         course_id = ""
@@ -258,6 +286,12 @@ def get_courses(scriptpath):
 
 
 def flag_parser():
+    """Argument handling of 4 or more arguments, interpreting arguments
+    as flags with associated values.
+    
+    Returns:
+        Bool -- Validation of argument input
+    """
     if len(sys.argv) < 5:
         return False
     
@@ -307,6 +341,11 @@ def flag_parser():
 
 
 def arg_parser():
+    """Argument handling of exactly two arguments for username and password.
+    
+    Returns:
+        Bool -- Validation of argument input
+    """
     if len(sys.argv) < 3:
         return False
     global USERNAME
@@ -320,6 +359,17 @@ def arg_parser():
         return True
     else:
         return False
+
+
+def set_directory(path):
+    """Setting up directory state for os related tasks.
+    
+    Arguments:
+        path {str} -- Full path to directory
+    """
+    if not os.path.exists(path):
+        os.mkdir(path)
+    os.chdir(path)
 
 
 def main():
@@ -344,8 +394,7 @@ def main():
     # Download directory path
     dldirname = "Courses"
     DLPATH = os.path.join(scriptpath,dldirname)
-    if not os.path.exists(DLPATH):
-        os.mkdir(DLPATH)
+    set_directory(DLPATH)
 
     # Looping through the courses determined by get_courses() invoking download requests
     courses = get_courses(scriptpath)
