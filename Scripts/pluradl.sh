@@ -1,4 +1,6 @@
 #! /bin/bash
-export USERNAME=<user>
-export PASSWORD=<password>
-python ~/Pluralsight/pluradl.py $USERNAME $PASSWORD &>> ~/Download/plural-output.log &
+USERNAME=<user>
+PASSWORD=<password>
+GITSOURCE=~/Github/pluradl.py
+
+python $GITSOURCE/pluradl.py --user $USERNAME --pass $PASSWORD &>> $GITSOURCE/plural-output.log &
