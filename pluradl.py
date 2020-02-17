@@ -16,7 +16,7 @@ DLPATH, USERNAME, PASSWORD = "", "", ""
 YDL_OPTS = {}
 SUBTITLE = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
-PLURAURL = "https://app.pluralsight.com/library/courses/"
+PLURAURL = r"https://app.pluralsight.com/library/courses/"
 
 
 class Logger(object):
@@ -40,48 +40,6 @@ class Logger(object):
     def error(self, msg):
         print(msg)
         with open(self.logpath, 'at') as f: f.write(msg+'\n')
-
-
-def set_subtitle():
-    """Determines whether subtitle parameters should be turned on or not.
-    """
-    global SUBTITLE
-    subtitle_flags = ("--sub", "--subtitle", "-s",
-                      "--SUB", "--SUBTITLE", "-S")
-    if len(sys.argv) > 1:
-        for arg in sys.argv[1:]:
-            if arg in subtitle_flags:
-                SUBTITLE = True
-                print("Subtitles will be appended to videoclips")
-
-
-def get_usr_pw():
-    """Requesting credentials from the user.
-    
-    Raises:
-        ValueError: User enters an empty password too many times
-    """
-    global USERNAME
-    global PASSWORD
-
-    print("Enter you Pluralsight credentials")
-    for i in range(3):
-        u0 = input("Enter username: ")
-        if u0 == "":
-            print("Username cannot be empty, enter username again")
-            continue
-        else:
-            USERNAME = u0
-        
-        print("Enter password (will not be displayed)")
-        p0 = getpass.getpass(': ')
-        if p0 != "":
-            PASSWORD = p0
-            break
-        else:
-            print('Password cannot be empty, enter password again')
-    else:
-        raise ValueError('Username or password was not given.')
 
 
 def set_playlist_options(digits):
@@ -166,7 +124,7 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
             ydl.to_stdout("Something went wrong.")
             ydl.to_stdout("The download request for '" + course_id + "' was forced to terminate.")
             ydl.to_stdout("Double check that " + course_url)
-            ydl.to_stdout("exists or that your subscription is valid for accessing all contents.\n")
+            ydl.to_stdout("exists or that your subscription is valid for accessing its content.\n")
             # Moving content to _failed destination path
             move_content(ydl, course_id, coursepath, failpath)
             return True
@@ -215,74 +173,6 @@ def pluradl(course):
                            finishpath,
                            failpath,
                            interruptpath)
-
-
-def download_courses(courses):
-    """Dowloading all courses listed in courselist.txt.
-    
-    Arguments:
-        courses {[type]} -- List of course ID
-    
-    """
-    global YDL_OPTS
-    # General YoutubeDL settings
-    YDL_OPTS["username"] = USERNAME
-    YDL_OPTS["password"] = PASSWORD
-    YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
-    YDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
-    YDL_OPTS["ratelimit"] = RATE_LIMIT
-    YDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
-    YDL_OPTS["verbose"] = True
-    YDL_OPTS["restrictfilenames"] = True
-    YDL_OPTS["format"] = "bestaudio/best"
-    if SUBTITLE:
-        YDL_OPTS["writesubtitles"] = True
-
-    for course in courses:
-        if pluradl(course):
-            print("Moving to next course playlist\n")
-        else:
-            print("\nTerminating requests.\n")
-            break
-
-
-def get_courses(scriptpath):
-    """Parsing courselist.txt separating course data.
-    
-    Arguments:
-        scriptpath {str} -- Absolute path to script directory
-    
-    Returns:
-        [(str, [int])] -- List of course identifiers exposed by courselist.txt
-    """
-    def _parse_line(line):
-        course_id = ""
-        digits = []
-
-        input_chunks = re.findall(r'[\S]{1,}', line)
-        for chunk in input_chunks:
-            if re.search(r'[\D]{1,}', chunk):
-                course_id = chunk
-            else:
-                digits.append(int(chunk))
-        digits.sort()
-
-        return course_id, digits
-    # courses textfile prelocated inside script directory
-    filelist = "courselist.txt"
-    
-    # Loops the list's lines and stores it as a python list
-    filepath = os.path.join(scriptpath,filelist)
-    courses = []
-    try:
-        with open(filepath, 'r+') as file:
-            for line in file.readlines():
-                if re.search(r'\S', line):
-                    course_id, digits = _parse_line(line)
-                    courses.append((course_id, digits))
-        return courses
-    except FileNotFoundError:
-        print("There is no courselist.txt in script path. Terminating script ...")
 
 
 def flag_parser():
@@ -341,7 +231,7 @@ def flag_parser():
 
 
 def arg_parser():
-    """Argument handling of exactly two arguments for username and password.
+    """Handling of simple username and password argument input.
     
     Returns:
         Bool -- Validation of argument input
@@ -361,6 +251,48 @@ def arg_parser():
         return False
 
 
+def get_usr_pw():
+    """Requesting credentials from the user.
+    
+    Raises:
+        ValueError: User enters an empty password too many times
+    """
+    global USERNAME
+    global PASSWORD
+
+    print("Enter you Pluralsight credentials")
+    for i in range(3):
+        u0 = input("Enter username: ")
+        if u0 == "":
+            print("Username cannot be empty, enter username again")
+            continue
+        else:
+            USERNAME = u0
+        
+        print("Enter password (will not be displayed)")
+        p0 = getpass.getpass(': ')
+        if p0 != "":
+            PASSWORD = p0
+            break
+        else:
+            print('Password cannot be empty, enter password again')
+    else:
+        raise ValueError('Username or password was not given.')
+
+
+def set_subtitle():
+    """Determines whether subtitle parameters should be turned on or not.
+    """
+    global SUBTITLE
+    subtitle_flags = ("--sub", "--subtitle", "-s",
+                      "--SUB", "--SUBTITLE", "-S")
+    if len(sys.argv) > 1:
+        for arg in sys.argv[1:]:
+            if arg in subtitle_flags:
+                SUBTITLE = True
+                print("Subtitles will be appended to videoclips")
+
+
 def set_directory(path):
     """Setting up directory state for os related tasks.
     
@@ -370,6 +302,74 @@ def set_directory(path):
     if not os.path.exists(path):
         os.mkdir(path)
     os.chdir(path)
+
+
+def get_courses(scriptpath):
+    """Parsing courselist.txt separating course data.
+    
+    Arguments:
+        scriptpath {str} -- Absolute path to script directory
+    
+    Returns:
+        [(str, [int])] -- List of course identifiers exposed by courselist.txt
+    """
+    def _parse_line(line):
+        course_id = ""
+        digits = []
+
+        input_chunks = re.findall(r'[\S]{1,}', line)
+        for chunk in input_chunks:
+            if re.search(r'[\D]{1,}', chunk):
+                course_id = chunk
+            else:
+                digits.append(int(chunk))
+        digits.sort()
+
+        return course_id, digits
+    # courses textfile prelocated inside script directory
+    filelist = "courselist.txt"
+    
+    # Loops the list's lines and stores it as a python list
+    filepath = os.path.join(scriptpath,filelist)
+    courses = []
+    try:
+        with open(filepath, 'r+') as file:
+            for line in file.readlines():
+                if re.search(r'\S', line):
+                    course_id, digits = _parse_line(line)
+                    courses.append((course_id, digits))
+        return courses
+    except FileNotFoundError:
+        print("There is no courselist.txt in script path. Terminating script ...")
+
+
+def download_courses(courses):
+    """Dowloading all courses listed in courselist.txt.
+    
+    Arguments:
+        courses {[type]} -- List of course ID
+    
+    """
+    global YDL_OPTS
+    # General YoutubeDL settings
+    YDL_OPTS["username"] = USERNAME
+    YDL_OPTS["password"] = PASSWORD
+    YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
+    YDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
+    YDL_OPTS["ratelimit"] = RATE_LIMIT
+    YDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
+    YDL_OPTS["verbose"] = True
+    YDL_OPTS["restrictfilenames"] = True
+    YDL_OPTS["format"] = "bestaudio/best"
+    if SUBTITLE:
+        YDL_OPTS["writesubtitles"] = True
+
+    for course in courses:
+        if pluradl(course):
+            print("Moving to next course playlist\n")
+        else:
+            print("\nTerminating requests.\n")
+            break
 
 
 def main():
@@ -382,7 +382,7 @@ def main():
     if flag_parser():
         print("Executing by flag input ..\n")
     elif arg_parser():
-        print("Executing by short input ..\n")
+        print("Executing by user input ..\n")
     else:
         get_usr_pw()
     
