@@ -1,5 +1,5 @@
 import json, os, re
-JSON_FILE = os.path.join("json_output", "courses.json")
+JSON_FILE = os.path.join("data", "courses.json")
 
 with open(JSON_FILE, 'rt') as f:
     json_load = json.load(f)

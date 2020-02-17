@@ -3,8 +3,7 @@ import os, re, json
 # Metadata
 RAW_URL = r'https://www.pluralsight.com/courses/'
 HTML_FILE = os.path.join("data", "search_results.html")
-JSON_OUTPUT_FILE = os.path.join("json_output", "courses.json")
-
+JSON_OUTPUT_FILE = os.path.join("data", "courses.json")
 
 def lookaround_tags(start_tag, end_tag):
     # Contruct regular expression
