@@ -3,7 +3,7 @@
 [debug] Custom config: []
 [debug] Command-line args: ['--verbose', '--limit-rate', '1M', '--username', 'PRIVATE', '--password', 'PRIVATE', '--sleep-interval', '150', '--max-sleep-interval', '200', '-o', '%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s', 'https://app.pluralsight.com/library/courses/building-clustering-models-scikit-learn']
 [debug] Encodings: locale UTF-8, fs utf-8, out utf-8, pref UTF-8
-[debug] plura-dl version 2019.11.28
+[debug] plura-dl version 0.6.0b1
 [debug] Python version 3.8.0 (CPython) - Linux-5.2.9-arch1-1-ARCH-x86_64-with-glibc2.2.5
 [debug] exe versions: ffmpeg 4.2.1, ffprobe 4.2.1, rtmpdump 2.4
 [debug] Proxy map: {}
