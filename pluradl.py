@@ -11,7 +11,6 @@ try:
     import certifi
 except:
     from cert.install import install_cert
-    print("Installing certificates ..")
     install_cert()
     os.chdir(scriptpath)
     import certifi
