@@ -1,4 +1,4 @@
-all: plura-dl README.md CONTRIBUTING.md README.txt plura-dl.1 plura-dl.bash-completion plura-dl.zsh plura-dl.fish supportedsites
+all: plura-dl README.md README.txt plura-dl.1 plura-dl.bash-completion plura-dl.zsh plura-dl.fish
 
 clean:
 	rm -rf plura-dl.1.temp.md plura-dl.1 plura-dl.bash-completion README.txt MANIFEST build/ dist/ .coverage cover/ plura-dl.tar.gz plura-dl.zsh plura-dl.fish plura_dl/extractor/lazy_extractors.py *.dump *.part* *.ytdl *.info.json *.mp4 *.m4a *.flv *.mp3 *.avi *.mkv *.webm *.3gp *.wav *.ape *.swf *.jpg *.png CONTRIBUTING.md.tmp plura-dl plura-dl.exe
@@ -71,9 +71,6 @@ plura-dl: plura_dl/*.py plura_dl/*/*.py
 	cat plura-dl.zip >> plura-dl
 	rm plura-dl.zip
 	chmod a+x plura-dl
-
-CONTRIBUTING.md: README.md
-	$(PYTHON) devscripts/make_contributing.py README.md CONTRIBUTING.md
 
 issuetemplates: devscripts/make_issue_template.py .github/ISSUE_TEMPLATE_tmpl/1_broken_site.md .github/ISSUE_TEMPLATE_tmpl/2_site_support_request.md .github/ISSUE_TEMPLATE_tmpl/3_site_feature_request.md .github/ISSUE_TEMPLATE_tmpl/4_bug_report.md .github/ISSUE_TEMPLATE_tmpl/5_feature_request.md plura_dl/version.py
 	$(PYTHON) devscripts/make_issue_template.py .github/ISSUE_TEMPLATE_tmpl/1_broken_site.md .github/ISSUE_TEMPLATE/1_broken_site.md
