@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, youtube_dl
-from youtube_dl.utils import ExtractorError, DownloadError
+import sys, os, shutil, re, getpass, io
+from plura_dl import PluraDL
+from plura_dl.utils import ExtractorError, DownloadError
 
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
@@ -20,7 +21,7 @@ PLURAURL = r"https://app.pluralsight.com/library/courses/"
 
 
 class Logger(object):
-    """Handling logging mechanism of YoutubeDL.
+    """Handling logging mechanism of PluraDL.
     
     Arguments:
         logpath {str} -- Path to logfile
@@ -65,17 +66,17 @@ def set_playlist_options(digits):
         YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
-def move_content(ydl, course_id, coursepath, completionpath):
+def move_content(pdl, course_id, coursepath, completionpath):
     """Moves course content to its completion path.
     
     Arguments:
-        ydl {YoutubeDL} -- YoutubeDL object
+        pdl {PluraDL} -- PluraDL object
         course_id {str} -- [description]
         coursepath {str} -- [description]
         completionpath {str} -- Path where to store content
     """
     finalpath = os.path.join(completionpath, course_id)
-    ydl.to_stdout("Moving content to " + finalpath)
+    pdl.to_stdout("Moving content to " + finalpath)
     set_directory(completionpath)
     try:
         if os.path.exists(finalpath):
@@ -86,7 +87,7 @@ def move_content(ydl, course_id, coursepath, completionpath):
 
 
 def invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
-    """Using youtube_dl API to invoke download requests with associated parameters.
+    """Using plura_dl API to invoke download requests with associated parameters.
     
     Arguments:
         course_id {str} -- Course identifier
@@ -99,41 +100,41 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
     Returns:
         Bool -- Validation of completion level
     """
-    with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
+    with PluraDL(YDL_OPTS) as pdl:
         try:
             # Invoke download
             set_directory(coursepath)
-            ydl.download([course_url])
+            pdl.download([course_url])
 
             # Moving content to _finished destination path if the download was sucessful
-            ydl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
+            pdl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
             finalpath = os.path.join(finishpath,course_id)
-            move_content(ydl, course_id, coursepath, finishpath)
+            move_content(pdl, course_id, coursepath, finishpath)
             return True
 
         except ExtractorError:
             # Handling the case of invalid download requests
-            ydl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
-            ydl.to_stdout("Visit " + course_url + " for more information.\n")
+            pdl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
+            pdl.to_stdout("Visit " + course_url + " for more information.\n")
             # Moving content to _failed destination 
-            move_content(ydl, course_id, coursepath, failpath)
+            move_content(pdl, course_id, coursepath, failpath)
             return True
         
         except DownloadError:
             # Handling the the more general case of download error
-            ydl.to_stdout("Something went wrong.")
-            ydl.to_stdout("The download request for '" + course_id + "' was forced to terminate.")
-            ydl.to_stdout("Double check that " + course_url)
-            ydl.to_stdout("exists or that your subscription is valid for accessing its content.\n")
+            pdl.to_stdout("Something went wrong.")
+            pdl.to_stdout("The download request for '" + course_id + "' was forced to terminate.")
+            pdl.to_stdout("Double check that " + course_url)
+            pdl.to_stdout("exists or that your subscription is valid for accessing its content.\n")
             # Moving content to _failed destination path
-            move_content(ydl, course_id, coursepath, failpath)
+            move_content(pdl, course_id, coursepath, failpath)
             return True
 
         except KeyboardInterrupt:
             # Handling the case of user interruption
-            ydl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
+            pdl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
             # Moving content to _canceled destination 
-            move_content(ydl, course_id, coursepath, interruptpath)
+            move_content(pdl, course_id, coursepath, interruptpath)
             return False
 
 
@@ -351,7 +352,7 @@ def download_courses(courses):
     
     """
     global YDL_OPTS
-    # General YoutubeDL settings
+    # General PluraDL settings
     YDL_OPTS["username"] = USERNAME
     YDL_OPTS["password"] = PASSWORD
     YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL

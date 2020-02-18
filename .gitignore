@@ -1,4 +1,58 @@
-# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.class
+*~
+*.DS_Store
+wine-py2exe/
+py2exe.log
+*.kate-swp
+build/
+dist/
+MANIFEST
+README.txt
+plura-dl.1
+plura-dl.bash-completion
+plura-dl.fish
+plura_dl/extractor/lazy_extractors.py
+plura-dl
+plura-dl.exe
+plura-dl.tar.gz
+.coverage
+cover/
+updates_key.pem
+*.egg-info
+*.srt
+*.ttml
+*.sbv
+*.vtt
+*.flv
+*.mp4
+*.m4a
+*.m4v
+*.mp3
+*.3gp
+*.wav
+*.ape
+*.mkv
+*.swf
+*.part
+*.ytdl
+*.swp
+test/local_parameters.json
+.tox
+plura-dl.zsh
+
+# IntelliJ related files
+.idea
+*.iml
+
+tmp/
+venv/
+
+# VS Code related files
+.vscode
+
+ Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -97,7 +151,7 @@ ipython_config.py
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
+Pipfile.lock
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
@@ -139,12 +193,9 @@ dmypy.json
 # local files
 *.part
 *.log
-*.mp4
 .logs
 .logs/
 .logs/*
 _failed
 _finished
 _canceled
-cli-pipe
-pipe
