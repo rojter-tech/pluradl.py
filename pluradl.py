@@ -1,10 +1,19 @@
 from __future__ import unicode_literals
 import sys, os, shutil, re, getpass, io
-from plura_dl import PluraDL
-from plura_dl.utils import ExtractorError, DownloadError
-
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
+
+from plura_dl import PluraDL
+from plura_dl.utils import ExtractorError, DownloadError
+scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
+
+try:
+    import certifi
+except:
+    from cert.install import install_cert
+    install_cert()
+    os.chdir(scriptpath)
+    import certifi
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
