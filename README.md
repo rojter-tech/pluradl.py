@@ -7,7 +7,7 @@ This project, `pluradl.py`, is aiming for automating the process of downloading 
 **You can get a free one month trial activation code for Pluralsight by first register a [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) account for free.**
 
 ### Requirements
-* [Python 3](https://www.python.org/downloads/release/python-374/) (above 3.7 is not supported yet)
+* [Python 3](https://www.python.org/downloads/release/python-374/)
 
 ## Install and execute
 ```bash
