@@ -146,3 +146,5 @@ dmypy.json
 _failed
 _finished
 _canceled
+cli-pipe
+pipe
