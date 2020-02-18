@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include AUTHORS
+include ChangeLog
+include plura-dl.bash-completion
+include plura-dl.fish
+include plura-dl.1
+recursive-include docs Makefile conf.py *.rst
+recursive-include test *

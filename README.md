@@ -2,18 +2,24 @@
 ---
 # Automated download from Pluralsight with `pluradl.py`
 
-You can download whole courses from a number of tutorial sites with the CLI tool `youtube-dl`, however, in this Git I have provided an Python script, `pluradl.py`, for automated download of a **sequence of Pluralsight courses** (of your choice) at once using the [`youtube_dl` Python 3 API](https://github.com/ytdl-org/youtube-dl). Below I give an example of how to use the `pluradl.py` script with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
+This project, `pluradl.py`, is aiming for automating the process of downloading **a whole sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
 
 **You can get a free one month trial activation code for Pluralsight by first register a [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) account for free.**
 
 ### Requirements
 * [Python 3](https://www.python.org/)
-* [youtube_dl](https://ytdl-org.github.io/youtube-dl/) (It needs be included in the Python 3 package environment, [install via pip](https://github.com/rojter-tech/pluradl.py/wiki/Install-youtube_dl-Python-3-API-(Any-OS)))
+
+## Install and execute
+```bash
+git clone https://github.com/rojter-tech/pluradl.py
+cd pluradl.py
+python pluradl.py
+```
 
 ## Usage
 
 ### Download from **Pluralsight** with `pluradl.py`
-After installation of youtube_dl (thus is avaiable in the Python 3 environment) make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [Scripts](https://github.com/rojter-tech/pluradl.py/tree/master/Scripts) and [ScrapeUtils](https://github.com/rojter-tech/pluradl.py/tree/master/ScrapeUtils) together with some [filtered results](https://github.com/rojter-tech/pluradl.py/tree/master/ScrapeUtils/filtered_results) with course IDs. The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
+Make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [Scripts](https://github.com/rojter-tech/pluradl.py/tree/master/Scripts) and [ScrapeUtils](https://github.com/rojter-tech/pluradl.py/tree/master/ScrapeUtils) together with some [filtered results](https://github.com/rojter-tech/pluradl.py/tree/master/ScrapeUtils/filtered_results) with course IDs. The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
 
 Run `pluradl.py` **in a terminal** to download all the videos from all the courses in [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt). The videos will be automatically placed in course specific directories and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
 
