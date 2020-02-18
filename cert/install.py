@@ -35,7 +35,7 @@ def install_cert():
     if os.path.exists(openssl_dir):
         os.chdir(openssl_dir)
     
-    relpath_to_certifi_cafile = os.path.relpath(certifi.where())
+    relpath_to_certifi_cafile = os.path.abspath(certifi.where())
     print(" -- removing any existing file or link")
     try:
         os.remove(openssl_cafile)
