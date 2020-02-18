@@ -32,7 +32,6 @@ def install_cert():
     print(" -- setting permissions")
     os.chmod(openssl_cafile, STAT_0o775)
     print(" -- update complete")
-    os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
 
 if __name__ == '__main__':
     install_cert()
