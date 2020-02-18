@@ -14,6 +14,7 @@ except:
     print("Installing certificates ..")
     install_cert()
     os.chdir(scriptpath)
+    import certifi
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #

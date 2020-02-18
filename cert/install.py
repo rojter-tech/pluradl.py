@@ -14,8 +14,9 @@ def install_cert():
     openssl_dir, openssl_cafile = os.path.split(
         ssl.get_default_verify_paths().openssl_cafile)
 
-    print("Upgrading cerificates")
-    print(platform.system())
+    print("Cerificate were not installed.")
+    print("Detected operating system:", platform.system())
+    print("Installing certificate ...")
     if platform.system() == 'Linux':
         subprocess.check_call([sys.executable,
             "-E", "-s", "-m", "pip", "install", "--upgrade", "certifi", "--user"])
@@ -35,7 +36,7 @@ def install_cert():
     if os.path.exists(openssl_dir):
         os.chdir(openssl_dir)
     
-    relpath_to_certifi_cafile = os.path.abspath(certifi.where())
+    abspath_to_certifi_cafile = os.path.abspath(certifi.where())
     print(" -- removing any existing file or link")
     try:
         os.remove(openssl_cafile)
@@ -46,7 +47,7 @@ def install_cert():
         pass
     print(" -- creating symlink to certifi certificate bundle")
     try:
-        os.symlink(relpath_to_certifi_cafile, openssl_cafile)
+        os.symlink(abspath_to_certifi_cafile, openssl_cafile)
     except FileExistsError:
         pass
     print(" -- setting permissions")
