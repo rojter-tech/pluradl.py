@@ -4,6 +4,7 @@ import ssl
 import stat
 import subprocess
 import sys
+import platform
 
 STAT_0o775 = ( stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR
              | stat.S_IRGRP | stat.S_IWGRP | stat.S_IXGRP
@@ -14,23 +15,45 @@ def install_cert():
         ssl.get_default_verify_paths().openssl_cafile)
 
     print("Upgrading cerificates")
-    subprocess.check_call([sys.executable,
-        "-E", "-s", "-m", "pip", "install", "--upgrade", "certifi"])
+    print(platform.system())
+    if platform.system() == 'Linux':
+        subprocess.check_call([sys.executable,
+            "-E", "-s", "-m", "pip", "install", "--upgrade", "certifi", "--user"])
+    elif platform.system() == 'Darwin':
+        subprocess.check_call([sys.executable,
+            "-E", "-s", "-m", "pip", "install", "--upgrade", "certifi"])
+    elif platform.system() == 'Windows':
+        subprocess.check_call([sys.executable,
+            "-E", "-s", "-m", "pip", "install", "--upgrade", "certifi", "--user"])
+    else:
+        subprocess.check_call([sys.executable,
+            "-E", "-s", "-m", "pip", "install", "--upgrade", "certifi", "--user"])
 
     import certifi
 
     # change working directory to the default SSL directory
-    os.chdir(openssl_dir)
+    if os.path.exists(openssl_dir):
+        os.chdir(openssl_dir)
+    
     relpath_to_certifi_cafile = os.path.relpath(certifi.where())
     print(" -- removing any existing file or link")
     try:
         os.remove(openssl_cafile)
     except FileNotFoundError:
         pass
+    except PermissionError:
+        print(openssl_cafile)
+        pass
     print(" -- creating symlink to certifi certificate bundle")
-    os.symlink(relpath_to_certifi_cafile, openssl_cafile)
+    try:
+        os.symlink(relpath_to_certifi_cafile, openssl_cafile)
+    except FileExistsError:
+        pass
     print(" -- setting permissions")
-    os.chmod(openssl_cafile, STAT_0o775)
+    try:
+        os.chmod(openssl_cafile, STAT_0o775)
+    except PermissionError:
+        pass
     print(" -- update complete")
 
 if __name__ == '__main__':
