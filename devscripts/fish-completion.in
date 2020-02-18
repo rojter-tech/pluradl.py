@@ -1,0 +1,5 @@
+
+{{commands}}
+
+
+complete --command plura-dl --arguments ":ytfavorites :ytrecommended :ytsubscriptions :ytwatchlater :ythistory"

@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, youtube_dl
-from youtube_dl.utils import ExtractorError, DownloadError
+import sys, os, shutil, re, getpass, io
+from plura_dl import PluraDL
+from plura_dl.utils import ExtractorError, DownloadError
 
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
@@ -13,14 +14,14 @@ RATE_LIMIT     = 10**6  # download rate in bytes/s  #                           
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
-YDL_OPTS = {}
+PDL_OPTS = {}
 SUBTITLE = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = r"https://app.pluralsight.com/library/courses/"
 
 
 class Logger(object):
-    """Handling logging mechanism of YoutubeDL.
+    """Handling logging mechanism of PluraDL.
     
     Arguments:
         logpath {str} -- Path to logfile
@@ -48,34 +49,34 @@ def set_playlist_options(digits):
     Arguments:
         digits {[int]} -- List with playlist indicies
     """
-    global YDL_OPTS
+    global PDL_OPTS
 
     n = len(digits)
     if n == 0:
         pass
     elif n == 1:
         print("Downloading video indicies up to",digits[0],"to")
-        YDL_OPTS["playlistend"]   = digits[0]
+        PDL_OPTS["playlistend"]   = digits[0]
     elif n == 2:
         print("Downloading video indicies from",digits[0],"up to and including",digits[1])
-        YDL_OPTS["playliststart"] = digits[0]
-        YDL_OPTS["playlistend"]   = digits[1]
+        PDL_OPTS["playliststart"] = digits[0]
+        PDL_OPTS["playlistend"]   = digits[1]
     else:
         print("Downloading specific video indicies", digits)
-        YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
+        PDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
-def move_content(ydl, course_id, coursepath, completionpath):
+def move_content(pdl, course_id, coursepath, completionpath):
     """Moves course content to its completion path.
     
     Arguments:
-        ydl {YoutubeDL} -- YoutubeDL object
+        pdl {PluraDL} -- PluraDL object
         course_id {str} -- [description]
         coursepath {str} -- [description]
         completionpath {str} -- Path where to store content
     """
     finalpath = os.path.join(completionpath, course_id)
-    ydl.to_stdout("Moving content to " + finalpath)
+    pdl.to_stdout("Moving content to " + finalpath)
     set_directory(completionpath)
     try:
         if os.path.exists(finalpath):
@@ -86,7 +87,7 @@ def move_content(ydl, course_id, coursepath, completionpath):
 
 
 def invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
-    """Using youtube_dl API to invoke download requests with associated parameters.
+    """Using plura_dl API to invoke download requests with associated parameters.
     
     Arguments:
         course_id {str} -- Course identifier
@@ -99,41 +100,41 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
     Returns:
         Bool -- Validation of completion level
     """
-    with youtube_dl.YoutubeDL(YDL_OPTS) as ydl:
+    with PluraDL(PDL_OPTS) as pdl:
         try:
             # Invoke download
             set_directory(coursepath)
-            ydl.download([course_url])
+            pdl.download([course_url])
 
             # Moving content to _finished destination path if the download was sucessful
-            ydl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
+            pdl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
             finalpath = os.path.join(finishpath,course_id)
-            move_content(ydl, course_id, coursepath, finishpath)
+            move_content(pdl, course_id, coursepath, finishpath)
             return True
 
         except ExtractorError:
             # Handling the case of invalid download requests
-            ydl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
-            ydl.to_stdout("Visit " + course_url + " for more information.\n")
+            pdl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
+            pdl.to_stdout("Visit " + course_url + " for more information.\n")
             # Moving content to _failed destination 
-            move_content(ydl, course_id, coursepath, failpath)
+            move_content(pdl, course_id, coursepath, failpath)
             return True
         
         except DownloadError:
             # Handling the the more general case of download error
-            ydl.to_stdout("Something went wrong.")
-            ydl.to_stdout("The download request for '" + course_id + "' was forced to terminate.")
-            ydl.to_stdout("Double check that " + course_url)
-            ydl.to_stdout("exists or that your subscription is valid for accessing its content.\n")
+            pdl.to_stdout("Something went wrong.")
+            pdl.to_stdout("The download request for '" + course_id + "' was forced to terminate.")
+            pdl.to_stdout("Double check that " + course_url)
+            pdl.to_stdout("exists or that your subscription is valid for accessing its content.\n")
             # Moving content to _failed destination path
-            move_content(ydl, course_id, coursepath, failpath)
+            move_content(pdl, course_id, coursepath, failpath)
             return True
 
         except KeyboardInterrupt:
             # Handling the case of user interruption
-            ydl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
+            pdl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
             # Moving content to _canceled destination 
-            move_content(ydl, course_id, coursepath, interruptpath)
+            move_content(pdl, course_id, coursepath, interruptpath)
             return False
 
 
@@ -141,12 +142,12 @@ def pluradl(course):
     """Handling the video downloading requests for a single course.
     
     Arguments:
-        course {str} -- Course identifier
+        course {(str, [])} -- Course identifier and playlist parameters
     
     Returns:
         str -- youtue-dl CLI command
     """
-    global YDL_OPTS
+    global PDL_OPTS
 
     # Course metadata
     course_id = course[0]
@@ -164,7 +165,7 @@ def pluradl(course):
     logfile = course_id + ".log"
     logpath = os.path.join(coursepath,logfile)
     set_directory(coursepath)
-    YDL_OPTS["logger"] = Logger(logpath)
+    PDL_OPTS["logger"] = Logger(logpath)
 
     # Invoking download request
     return invoke_download(course_id,
@@ -347,22 +348,22 @@ def download_courses(courses):
     """Dowloading all courses listed in courselist.txt.
     
     Arguments:
-        courses {[type]} -- List of course ID
+        courses {[(str,[])]} -- List of tuples with course ID and playlist parameters.
     
     """
-    global YDL_OPTS
-    # General YoutubeDL settings
-    YDL_OPTS["username"] = USERNAME
-    YDL_OPTS["password"] = PASSWORD
-    YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
-    YDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
-    YDL_OPTS["ratelimit"] = RATE_LIMIT
-    YDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
-    YDL_OPTS["verbose"] = True
-    YDL_OPTS["restrictfilenames"] = True
-    YDL_OPTS["format"] = "bestaudio/best"
+    global PDL_OPTS
+    # General PluraDL settings
+    PDL_OPTS["username"] = USERNAME
+    PDL_OPTS["password"] = PASSWORD
+    PDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
+    PDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
+    PDL_OPTS["ratelimit"] = RATE_LIMIT
+    PDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
+    PDL_OPTS["verbose"] = True
+    PDL_OPTS["restrictfilenames"] = True
+    PDL_OPTS["format"] = "bestaudio/best"
     if SUBTITLE:
-        YDL_OPTS["writesubtitles"] = True
+        PDL_OPTS["writesubtitles"] = True
 
     for course in courses:
         if pluradl(course):
@@ -392,7 +393,7 @@ def main():
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     
     # Download directory path
-    dldirname = "Courses"
+    dldirname = "courses"
     DLPATH = os.path.join(scriptpath,dldirname)
     set_directory(DLPATH)
 
