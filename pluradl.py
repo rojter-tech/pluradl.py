@@ -1,7 +1,14 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, certifi
+import sys, os, shutil, re, getpass, io
 from plura_dl import PluraDL
 from plura_dl.utils import ExtractorError, DownloadError
+
+try:
+    import certifi
+except:
+    from cert.install import install_cert
+    print("Installing certificates ..")
+    install_cert()
 
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
