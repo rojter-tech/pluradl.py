@@ -1,13 +1,13 @@
 **Update: 2020-02-15** - Starting to roll out [beta releases](https://github.com/rojter-tech/pluradl.py/releases).
 ---
 # Automated download from Pluralsight with `pluradl.py`
-
+121
 This project, `pluradl.py`, is aiming for automating the process of downloading **a whole sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
 
 **You can get a free one month trial activation code for Pluralsight by first register a [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) account for free.**
 
 ### Requirements
-* [Python 3](https://www.python.org/)
+* [Python 3](https://www.python.org/downloads/release/python-374/) (above 3.7 is not supported yet)
 
 ## Install and execute
 ```bash
