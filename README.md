@@ -19,7 +19,9 @@ python pluradl.py
 ## Usage
 
 ### Download from **Pluralsight** with `pluradl.py`
-Make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [Scripts](https://github.com/rojter-tech/pluradl.py/tree/master/Scripts) and [ScrapeUtils](https://github.com/rojter-tech/pluradl.py/tree/master/ScrapeUtils) together with some [filtered results](https://github.com/rojter-tech/pluradl.py/tree/master/ScrapeUtils/filtered_results) with course IDs. The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
+Make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [scripts](https://github.com/rojter-tech/pluradl.py/tree/master/scripts) and [scrapeutils](https://github.com/rojter-tech/pluradl.py/tree/master/scrapeutils) together with some [filtered results](https://github.com/rojter-tech/pluradl.py/tree/master/scrapeutils/filtered_results) with course IDs. The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
+
+All downloaded courses will be placed in the [courses](https://github.com/rojter-tech/pluradl.py/tree/master/courses) directory.
 
 Run `pluradl.py` **in a terminal** to download all the videos from all the courses in [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt). The videos will be automatically placed in course specific directories and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
 
@@ -98,7 +100,7 @@ wich would give you **three videos**, those that are numbered **2**, **10** and 
 
 ### Example output
 
-![Directory tree of pluradl.py root](https://raw.githubusercontent.com/rojter-tech/pluradl.py/master/Image/example_output_tree.png)
+![Directory tree of pluradl.py root](https://raw.githubusercontent.com/rojter-tech/pluradl.py/master/image/example_output_tree.png)
 
 # IMPORTANT
 The argument `SLEEP_INTERVAL = 150` parameter used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait at least 150s (2.5 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
