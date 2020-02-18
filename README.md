@@ -1,6 +1,6 @@
 # Automated download from Pluralsight with `pluradl.py`
 
-This project, `pluradl.py`, is aiming for automating downloads of **sequences of Pluralsight courses** at once safely. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
+This project, `pluradl.py`, is aiming for automating the download process of **a sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
 
 **You can get a free one month trial activation code for Pluralsight by first register a [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) account for free.**
 
