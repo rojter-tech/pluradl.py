@@ -1,5 +1,3 @@
-**Update: 2020-02-15** - Starting to roll out [beta releases](https://github.com/rojter-tech/pluradl.py/releases).
----
 # Automated download from Pluralsight with `pluradl.py`
 
 You can download whole courses from a number of tutorial sites with the CLI tool `youtube-dl`, however, in this Git I have provided an Python script, `pluradl.py`, for automated download of a **sequence of Pluralsight courses** (of your choice) at once using the [`youtube_dl` Python 3 API](https://github.com/ytdl-org/youtube-dl). Below I give an example of how to use the `pluradl.py` script with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
