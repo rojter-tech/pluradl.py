@@ -142,7 +142,7 @@ def pluradl(course):
     """Handling the video downloading requests for a single course.
     
     Arguments:
-        course {str} -- Course identifier
+        course {(str, [])} -- Course identifier and playlist parameters
     
     Returns:
         str -- youtue-dl CLI command
@@ -348,7 +348,7 @@ def download_courses(courses):
     """Dowloading all courses listed in courselist.txt.
     
     Arguments:
-        courses {[type]} -- List of course ID
+        courses {[(str,[])]} -- List of tuples with course ID and playlist parameters.
     
     """
     global PDL_OPTS
@@ -393,7 +393,7 @@ def main():
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     
     # Download directory path
-    dldirname = "Courses"
+    dldirname = "courses"
     DLPATH = os.path.join(scriptpath,dldirname)
     set_directory(DLPATH)
 
