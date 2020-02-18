@@ -14,7 +14,7 @@ RATE_LIMIT     = 10**6  # download rate in bytes/s  #                           
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
-YDL_OPTS = {}
+PDL_OPTS = {}
 SUBTITLE = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = r"https://app.pluralsight.com/library/courses/"
@@ -49,21 +49,21 @@ def set_playlist_options(digits):
     Arguments:
         digits {[int]} -- List with playlist indicies
     """
-    global YDL_OPTS
+    global PDL_OPTS
 
     n = len(digits)
     if n == 0:
         pass
     elif n == 1:
         print("Downloading video indicies up to",digits[0],"to")
-        YDL_OPTS["playlistend"]   = digits[0]
+        PDL_OPTS["playlistend"]   = digits[0]
     elif n == 2:
         print("Downloading video indicies from",digits[0],"up to and including",digits[1])
-        YDL_OPTS["playliststart"] = digits[0]
-        YDL_OPTS["playlistend"]   = digits[1]
+        PDL_OPTS["playliststart"] = digits[0]
+        PDL_OPTS["playlistend"]   = digits[1]
     else:
         print("Downloading specific video indicies", digits)
-        YDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
+        PDL_OPTS["playlist_items"] = ','.join([str(x) for x in digits])
 
 
 def move_content(pdl, course_id, coursepath, completionpath):
@@ -100,7 +100,7 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
     Returns:
         Bool -- Validation of completion level
     """
-    with PluraDL(YDL_OPTS) as pdl:
+    with PluraDL(PDL_OPTS) as pdl:
         try:
             # Invoke download
             set_directory(coursepath)
@@ -147,7 +147,7 @@ def pluradl(course):
     Returns:
         str -- youtue-dl CLI command
     """
-    global YDL_OPTS
+    global PDL_OPTS
 
     # Course metadata
     course_id = course[0]
@@ -165,7 +165,7 @@ def pluradl(course):
     logfile = course_id + ".log"
     logpath = os.path.join(coursepath,logfile)
     set_directory(coursepath)
-    YDL_OPTS["logger"] = Logger(logpath)
+    PDL_OPTS["logger"] = Logger(logpath)
 
     # Invoking download request
     return invoke_download(course_id,
@@ -351,19 +351,19 @@ def download_courses(courses):
         courses {[type]} -- List of course ID
     
     """
-    global YDL_OPTS
+    global PDL_OPTS
     # General PluraDL settings
-    YDL_OPTS["username"] = USERNAME
-    YDL_OPTS["password"] = PASSWORD
-    YDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
-    YDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
-    YDL_OPTS["ratelimit"] = RATE_LIMIT
-    YDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
-    YDL_OPTS["verbose"] = True
-    YDL_OPTS["restrictfilenames"] = True
-    YDL_OPTS["format"] = "bestaudio/best"
+    PDL_OPTS["username"] = USERNAME
+    PDL_OPTS["password"] = PASSWORD
+    PDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
+    PDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
+    PDL_OPTS["ratelimit"] = RATE_LIMIT
+    PDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
+    PDL_OPTS["verbose"] = True
+    PDL_OPTS["restrictfilenames"] = True
+    PDL_OPTS["format"] = "bestaudio/best"
     if SUBTITLE:
-        YDL_OPTS["writesubtitles"] = True
+        PDL_OPTS["writesubtitles"] = True
 
     for course in courses:
         if pluradl(course):
