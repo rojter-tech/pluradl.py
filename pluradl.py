@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io
+import sys, os, shutil, re, getpass, io, certifi
 from plura_dl import PluraDL
 from plura_dl.utils import ExtractorError, DownloadError
 
