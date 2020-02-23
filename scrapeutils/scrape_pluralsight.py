@@ -42,5 +42,8 @@ for course in course_results:
 
 driver.close()
 
+if not os.path.exists('data'):
+    os.mkdir('data')
+
 with open(os.path.join('data', 'pluralsight.json'), 'wt') as f:
     json.dump(courses, f, indent=4)
