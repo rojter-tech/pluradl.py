@@ -7,7 +7,7 @@ driver = webdriver.Firefox()
 driver.get(url)
 load_more_results = r'jQuery(".button--secondary").click()'
 
-for i in range(1000):
+for i in range(100000):
     driver.execute_script(load_more_results)
 
 course_results = driver.find_elements_by_class_name("search-result__info")

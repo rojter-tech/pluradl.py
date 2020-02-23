@@ -1,0 +1,2252 @@
+{
+    "azure-devops-getting-started": {
+        "url": "https://www.pluralsight.com/courses/azure-devops-getting-started",
+        "name": "Azure DevOps: Getting Started",
+        "author": "Benjamin Day",
+        "level": "Beginner",
+        "date": "Jul 19 2019",
+        "length": "5h 13m",
+        "rating": "(22)"
+    },
+    "automotive-modeling-maya-1266": {
+        "url": "https://www.pluralsight.com/courses/automotive-modeling-maya-1266",
+        "name": "Automotive Modeling in Maya",
+        "author": "Justin Marshall",
+        "level": "Intermediate",
+        "date": "Sep 2 2013",
+        "length": "6h 24m",
+        "rating": "(37)"
+    },
+    "mental-ray-nodes-reference-library-lights-564": {
+        "url": "https://www.pluralsight.com/courses/mental-ray-nodes-reference-library-lights-564",
+        "name": "mental ray Nodes Reference Library: Lights",
+        "author": "Kyle Green",
+        "level": "Advanced",
+        "date": "Mar 25 2009",
+        "length": "1h 58m",
+        "rating": "none"
+    },
+    "theming-basics-for-drupal-7": {
+        "url": "https://www.pluralsight.com/courses/theming-basics-for-drupal-7",
+        "name": "Theming Basics For Drupal 7",
+        "author": "Joe Shindelar",
+        "level": "Intermediate",
+        "date": "Sep 21 2011",
+        "length": "2h 45m",
+        "rating": "(62)"
+    },
+    "painting-realistic-skin-mari-hands-1328": {
+        "url": "https://www.pluralsight.com/courses/painting-realistic-skin-mari-hands-1328",
+        "name": "Painting Realistic Skin in MARI: Hands",
+        "author": "Eddie Russell",
+        "level": "Intermediate",
+        "date": "Oct 7 2013",
+        "length": "3h 10m",
+        "rating": "none"
+    },
+    "unity-mobile-game-dev-final-assembly-636": {
+        "url": "https://www.pluralsight.com/courses/unity-mobile-game-dev-final-assembly-636",
+        "name": "Unity Mobile Game Development: Final Assembly",
+        "author": "Joshua Kinney",
+        "level": "Advanced",
+        "date": "Mar 1 2012",
+        "length": "1h 17m",
+        "rating": "none"
+    },
+    "sprite-sheets-flash-edge-animate-1795": {
+        "url": "https://www.pluralsight.com/courses/sprite-sheets-flash-edge-animate-1795",
+        "name": "Creating Sprite Sheets in Flash for Edge Animate",
+        "author": "Alex Hernandez",
+        "level": "Beginner",
+        "date": "Sep 17 2014",
+        "length": "1h 29m",
+        "rating": "none"
+    },
+    "windows-8-deploy-adk": {
+        "url": "https://www.pluralsight.com/courses/windows-8-deploy-adk",
+        "name": "Windows 8 Deployment: Windows Assessment and Deployment Kit",
+        "author": "Rhonda Layfield-Dwyer",
+        "level": "Intermediate",
+        "date": "Jun 26 2013",
+        "length": "3h 31m",
+        "rating": "(14)"
+    },
+    "whats-new-in-psv3": {
+        "url": "https://www.pluralsight.com/courses/whats-new-in-psv3",
+        "name": "What's New in PowerShell Version 3",
+        "author": "Robert Cain",
+        "level": "Intermediate",
+        "date": "Dec 7 2012",
+        "length": "1h 36m",
+        "rating": "(42)"
+    },
+    "xslt-3-0-whats-new-part1": {
+        "url": "https://www.pluralsight.com/courses/xslt-3-0-whats-new-part1",
+        "name": "What's New in XSLT 3.0: Part 1",
+        "author": "Dimitre Novatchev",
+        "level": "Intermediate",
+        "date": "Apr 8 2015",
+        "length": "5h 28m",
+        "rating": "(16)"
+    },
+    "sqlserver-developing-deploying-supporting-isv-applications": {
+        "url": "https://www.pluralsight.com/courses/sqlserver-developing-deploying-supporting-isv-applications",
+        "name": "Developing and Deploying SQL Server ISV Applications",
+        "author": "Erin Stellato",
+        "level": "Intermediate",
+        "date": "May 31 2013",
+        "length": "6h 2m",
+        "rating": "(92)"
+    },
+    "organizational-bi-ssas-2012-tabular-intro": {
+        "url": "https://www.pluralsight.com/courses/organizational-bi-ssas-2012-tabular-intro",
+        "name": "Organizational BI With SSAS 2012 Tabular - Introduction",
+        "author": "Bill Pearson",
+        "level": "Intermediate",
+        "date": "Oct 21 2014",
+        "length": "3h 40m",
+        "rating": "(204)"
+    },
+    "windows-2000-server-virtual-private-networks": {
+        "url": "https://www.pluralsight.com/courses/windows-2000-server-virtual-private-networks",
+        "name": "Windows 2000 Server Virtual Private Networks",
+        "author": "Scott Skinger",
+        "level": "Intermediate",
+        "date": "Jan 8 2003",
+        "length": "3h 36m",
+        "rating": "none"
+    },
+    "play-2-java": {
+        "url": "https://www.pluralsight.com/courses/play-2-java",
+        "name": "Play! 2 for Java",
+        "author": "James Hughes",
+        "level": "Intermediate",
+        "date": "Nov 6 2013",
+        "length": "1h 40m",
+        "rating": "(133)"
+    },
+    "fusion-360-unique-design-environment-bodies-components": {
+        "url": "https://www.pluralsight.com/courses/fusion-360-unique-design-environment-bodies-components",
+        "name": "Fusion 360 - Unique Design Environment with Bodies and Components",
+        "author": "Matt Perez",
+        "level": "Intermediate",
+        "date": "Dec 14 2016",
+        "length": "1h 59m",
+        "rating": ""
+    },
+    "visual-communication-graphic-design-essentials-1013": {
+        "url": "https://www.pluralsight.com/courses/visual-communication-graphic-design-essentials-1013",
+        "name": "Visual Communication and Graphic Design Essentials",
+        "author": "Eddie Russell",
+        "level": "Beginner",
+        "date": "Feb 11 2013",
+        "length": "2h 26m",
+        "rating": "(23)"
+    },
+    "introduction-unreal-engine-4-1609": {
+        "url": "https://www.pluralsight.com/courses/introduction-unreal-engine-4-1609",
+        "name": "Introduction to Unreal Engine 4",
+        "author": "Joshua Kinney",
+        "level": "Beginner",
+        "date": "May 1 2014",
+        "length": "4h 1m",
+        "rating": "(102)"
+    },
+    "after-effects-expressions-made-easy-725": {
+        "url": "https://www.pluralsight.com/courses/after-effects-expressions-made-easy-725",
+        "name": "After Effects Expressions Made Easy",
+        "author": "Chris Glick",
+        "level": "Beginner",
+        "date": "Jul 1 2012",
+        "length": "2h 18m",
+        "rating": "none"
+    },
+    "cookie-attacks-web-app-hacking": {
+        "url": "https://www.pluralsight.com/courses/cookie-attacks-web-app-hacking",
+        "name": "Web App Hacking: Cookie Attacks",
+        "author": "Dawid Czagan",
+        "level": "Beginner",
+        "date": "Aug 22 2016",
+        "length": "1h 2m",
+        "rating": "(89)"
+    },
+    "citrix-xendesktop-7-6-ltsr-ccp-v-pre-installation": {
+        "url": "https://www.pluralsight.com/courses/citrix-xendesktop-7-6-ltsr-ccp-v-pre-installation",
+        "name": "Citrix XenDesktop/XenApp 7.6 LTSR CCP-V: Pre-installation",
+        "author": "Greg Shields",
+        "level": "Intermediate",
+        "date": "Jul 26 2016",
+        "length": "1h 40m",
+        "rating": "(13)"
+    },
+    "urban-environment-maya-2783": {
+        "url": "https://www.pluralsight.com/courses/urban-environment-maya-2783",
+        "name": "Urban Environment Creation in Maya",
+        "author": "Justin Marshall",
+        "level": "Intermediate",
+        "date": "Apr 2 2007",
+        "length": "5h 58m",
+        "rating": "none"
+    },
+    "administering-amazon-aurora-amazon-rds": {
+        "url": "https://www.pluralsight.com/courses/administering-amazon-aurora-amazon-rds",
+        "name": "Administering Amazon Aurora on Amazon RDS",
+        "author": "Aaron Medacco",
+        "level": "Intermediate",
+        "date": "Dec 10 2018",
+        "length": "3h 25m",
+        "rating": "(19)"
+    },
+    "advanced-git": {
+        "url": "https://www.pluralsight.com/courses/advanced-git",
+        "name": "Advanced Git",
+        "author": "Ben Hoskings",
+        "level": "Intermediate",
+        "date": "Dec 31 2011",
+        "length": "1h",
+        "rating": "(308)"
+    },
+    "architecting-azure-solutions-70-534-infrastructure-networking": {
+        "url": "https://www.pluralsight.com/courses/architecting-azure-solutions-70-534-infrastructure-networking",
+        "name": "Architecting Azure Solutions (70-534): Infrastructure and Networking",
+        "author": "Orin Thomas",
+        "level": "Intermediate",
+        "date": "Nov 23 2015",
+        "length": "3h 53m",
+        "rating": "(180)"
+    },
+    "orchard-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/orchard-fundamentals",
+        "name": "Orchard Fundamentals",
+        "author": "Kevin Kuebler",
+        "level": "Beginner",
+        "date": "Sep 13 2011",
+        "length": "2h 57m",
+        "rating": "(393)"
+    },
+    "security-awareness-data-protection-destruction": {
+        "url": "https://www.pluralsight.com/courses/security-awareness-data-protection-destruction",
+        "name": "Security Awareness: Portable Data Protection and Destruction",
+        "author": "Jason Helmick",
+        "level": "Beginner",
+        "date": "Jan 15 2018",
+        "length": "58m",
+        "rating": ""
+    },
+    "autocad-2016-professional-certification-exam-prep": {
+        "url": "https://www.pluralsight.com/courses/autocad-2016-professional-certification-exam-prep",
+        "name": "Preparing for the AutoCAD 2016 Professional Certification Exam",
+        "author": "Jaiprakash Pandey",
+        "level": "Intermediate",
+        "date": "May 24 2016",
+        "length": "5h 34m",
+        "rating": "none"
+    },
+    "learn-perl-by-doing-part4": {
+        "url": "https://www.pluralsight.com/courses/learn-perl-by-doing-part4",
+        "name": "Learn Perl by Doing - Part 4",
+        "author": "John Purcell",
+        "level": "Intermediate",
+        "date": "Jan 1 2013",
+        "length": "2h 48m",
+        "rating": "(32)"
+    },
+    "vsphere-6-foundations-configure-vsphere-storage": {
+        "url": "https://www.pluralsight.com/courses/vsphere-6-foundations-configure-vsphere-storage",
+        "name": "vSphere 6 Foundations: Configure vSphere Storage",
+        "author": "David Davis",
+        "level": "Beginner",
+        "date": "Nov 10 2015",
+        "length": "2h 20m",
+        "rating": "(57)"
+    },
+    "functional-lite-javascript": {
+        "url": "https://www.pluralsight.com/courses/functional-lite-javascript",
+        "name": "Functional-Lite JavaScript",
+        "author": "Kyle Simpson",
+        "level": "Intermediate",
+        "date": "Feb 22 2018",
+        "length": "3h 9m",
+        "rating": "(45)"
+    },
+    "intro-3d-ae-769": {
+        "url": "https://www.pluralsight.com/courses/intro-3d-ae-769",
+        "name": "Introduction to 3D in After Effects CS5.5",
+        "author": "Chris Glick",
+        "level": "Beginner",
+        "date": "Aug 1 2012",
+        "length": "1h 25m",
+        "rating": "none"
+    },
+    "modeling-lighting-rendering-interior-viz-3ds-max-1892": {
+        "url": "https://www.pluralsight.com/courses/modeling-lighting-rendering-interior-viz-3ds-max-1892",
+        "name": "Modeling, Lighting, and Rendering Interior Visualizations in 3ds Max",
+        "author": "Thomas Ross",
+        "level": "Advanced",
+        "date": "Dec 16 2014",
+        "length": "3h 13m",
+        "rating": "none"
+    },
+    "system-center-2012-self-service-vm-provisioning": {
+        "url": "https://www.pluralsight.com/courses/system-center-2012-self-service-vm-provisioning",
+        "name": "System Center 2012 R2 Self Service Virtual Machine Provisioning",
+        "author": "Greg Shields",
+        "level": "Advanced",
+        "date": "Sep 16 2014",
+        "length": "3h 29m",
+        "rating": "(96)"
+    },
+    "vmware-server": {
+        "url": "https://www.pluralsight.com/courses/vmware-server",
+        "name": "VMware Server",
+        "author": "David Davis",
+        "level": "Intermediate",
+        "date": "Jan 1 2007",
+        "length": "11h 30m",
+        "rating": "none"
+    },
+    "prince2-business-case-theme": {
+        "url": "https://www.pluralsight.com/courses/prince2-business-case-theme",
+        "name": "PRINCE2\u00ae - The Business Case Theme",
+        "author": "Tommy van Schaik",
+        "level": "Intermediate",
+        "date": "Jan 14 2016",
+        "length": "2h 33m",
+        "rating": "(24)"
+    },
+    "grasshopper-architecture-introduction": {
+        "url": "https://www.pluralsight.com/courses/grasshopper-architecture-introduction",
+        "name": "An Introduction to Using Grasshopper for Architecture",
+        "author": "Anthony Rosengren",
+        "level": "Beginner",
+        "date": "Dec 8 2016",
+        "length": "1h 16m",
+        "rating": "none"
+    },
+    "publishing-mobile-games-with-gamesalad": {
+        "url": "https://www.pluralsight.com/courses/publishing-mobile-games-with-gamesalad",
+        "name": "Publishing Mobile Games with GameSalad",
+        "author": "Jay Mcfarland",
+        "level": "Intermediate",
+        "date": "Nov 6 2013",
+        "length": "2h 32m",
+        "rating": "none"
+    },
+    "mastering-css-animations-2135": {
+        "url": "https://www.pluralsight.com/courses/mastering-css-animations-2135",
+        "name": "Mastering CSS Animations",
+        "author": "Gary Simon",
+        "level": "Advanced",
+        "date": "Jun 11 2015",
+        "length": "1h 34m",
+        "rating": "(44)"
+    },
+    "getting-started-texturing-modo-1370": {
+        "url": "https://www.pluralsight.com/courses/getting-started-texturing-modo-1370",
+        "name": "Getting Started with Texturing in MODO",
+        "author": "Justin Marshall",
+        "level": "Intermediate",
+        "date": "Nov 11 2013",
+        "length": "1h 39m",
+        "rating": "none"
+    },
+    "working-nested-families-shared-parameters-revit-1987": {
+        "url": "https://www.pluralsight.com/courses/working-nested-families-shared-parameters-revit-1987",
+        "name": "Working with Nested Families and Shared Parameters in Revit",
+        "author": "Breta Bishop",
+        "level": "Intermediate",
+        "date": "Mar 2 2015",
+        "length": "1h 35m",
+        "rating": "none"
+    },
+    "building-high-performance-windows8-applications": {
+        "url": "https://www.pluralsight.com/courses/building-high-performance-windows8-applications",
+        "name": "Building High-Performance Windows 8 Applications",
+        "author": "Kevin Dockx",
+        "level": "Intermediate",
+        "date": "Aug 30 2013",
+        "length": "2h 39m",
+        "rating": "(38)"
+    },
+    "ef41-code-first": {
+        "url": "https://www.pluralsight.com/courses/ef41-code-first",
+        "name": "Entity Framework 4.1 - Code First",
+        "author": "Julie Lerman",
+        "level": "Intermediate",
+        "date": "Jun 18 2011",
+        "length": "1h 58m",
+        "rating": "(722)"
+    },
+    "website-performance": {
+        "url": "https://www.pluralsight.com/courses/website-performance",
+        "name": "Website Performance",
+        "author": "Kyle Simpson",
+        "level": "Intermediate",
+        "date": "Mar 29 2013",
+        "length": "5h 3m",
+        "rating": "(137)"
+    },
+    "firewalls-intrustion-detection-cnd": {
+        "url": "https://www.pluralsight.com/courses/firewalls-intrustion-detection-cnd",
+        "name": "Firewalls and Intrusion Detection",
+        "author": "Daniel Lachance",
+        "level": "Intermediate",
+        "date": "Feb 8 2018",
+        "length": "1h 42m",
+        "rating": "(18)"
+    },
+    "matchmoving-techniques-pftrack-maya-1546": {
+        "url": "https://www.pluralsight.com/courses/matchmoving-techniques-pftrack-maya-1546",
+        "name": "Advancing Your Matchmoving Techniques in PFTrack and Maya",
+        "author": "Michael Raphaelovich",
+        "level": "Advanced",
+        "date": "Apr 21 2014",
+        "length": "1h 50m",
+        "rating": "none"
+    },
+    "introduction-animation-modo-1376": {
+        "url": "https://www.pluralsight.com/courses/introduction-animation-modo-1376",
+        "name": "Introduction to Animation in MODO",
+        "author": "Kurt Jones",
+        "level": "Beginner",
+        "date": "Nov 18 2013",
+        "length": "2h 20m",
+        "rating": "none"
+    },
+    "vs2010-vsx-code": {
+        "url": "https://www.pluralsight.com/courses/vs2010-vsx-code",
+        "name": "Customizing and Extending Visual Studio 2010 by Writing Code",
+        "author": "Kate Gregory",
+        "level": "Intermediate",
+        "date": "Aug 27 2010",
+        "length": "4h 7m",
+        "rating": "(44)"
+    },
+    "learn-perl-by-doing-part2": {
+        "url": "https://www.pluralsight.com/courses/learn-perl-by-doing-part2",
+        "name": "Learn Perl by Doing - Part 2",
+        "author": "John Purcell",
+        "level": "Intermediate",
+        "date": "Jan 1 2013",
+        "length": "3h 36m",
+        "rating": "(83)"
+    },
+    "texturing-low-polygon-weapons-photoshop-1408": {
+        "url": "https://www.pluralsight.com/courses/texturing-low-polygon-weapons-photoshop-1408",
+        "name": "Texturing Low Polygon Weapons in Photoshop",
+        "author": "Eddie Russell",
+        "level": "Intermediate",
+        "date": "Dec 2 2013",
+        "length": "2h 44m",
+        "rating": "none"
+    },
+    "acrobat-dc-building-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/acrobat-dc-building-fundamentals",
+        "name": "Acrobat DC Building on the Fundamentals",
+        "author": "Bill Carberry",
+        "level": "Intermediate",
+        "date": "Feb 29 2016",
+        "length": "3h 4m",
+        "rating": "none"
+    },
+    "professional-series-modeling-military-vehicles-maya-83": {
+        "url": "https://www.pluralsight.com/courses/professional-series-modeling-military-vehicles-maya-83",
+        "name": "Professional Series: Modeling Military Vehicles in Maya",
+        "author": "Justin Marshall",
+        "level": "Advanced",
+        "date": "Aug 2 2011",
+        "length": "1h 23m",
+        "rating": "none"
+    },
+    "ten-techniques-power-visual-cplusplus-apps": {
+        "url": "https://www.pluralsight.com/courses/ten-techniques-power-visual-cplusplus-apps",
+        "name": "10 Practical Techniques to Power Your Visual C++ Apps",
+        "author": "Kenny Kerr",
+        "level": "Intermediate",
+        "date": "Dec 10 2013",
+        "length": "7h 14m",
+        "rating": "(59)"
+    },
+    "introduction-hvac-design-revit-mep-1348": {
+        "url": "https://www.pluralsight.com/courses/introduction-hvac-design-revit-mep-1348",
+        "name": "Introduction to HVAC Design in Revit MEP",
+        "author": "Pierre Derenoncourt",
+        "level": "Intermediate",
+        "date": "Oct 21 2013",
+        "length": "37m",
+        "rating": "none"
+    },
+    "introduction-rigging-maya-1457": {
+        "url": "https://www.pluralsight.com/courses/introduction-rigging-maya-1457",
+        "name": "Introduction to Rigging in Maya 2014",
+        "author": "Delano Athias",
+        "level": "Beginner",
+        "date": "Dec 30 2013",
+        "length": "4h 55m",
+        "rating": "none"
+    },
+    "wordpress-internationalization": {
+        "url": "https://www.pluralsight.com/courses/wordpress-internationalization",
+        "name": "Internationalization in WordPress",
+        "author": "Chris Reynolds",
+        "level": "Intermediate",
+        "date": "Jul 26 2013",
+        "length": "43m",
+        "rating": "(33)"
+    },
+    "advanced-ios-debugging": {
+        "url": "https://www.pluralsight.com/courses/advanced-ios-debugging",
+        "name": "iOS Debugging in Xcode",
+        "author": "Matthew Kruczek",
+        "level": "Intermediate",
+        "date": "Sep 6 2013",
+        "length": "4h 10m",
+        "rating": "(55)"
+    },
+    "an-electronics-ad-photoshop-1137": {
+        "url": "https://www.pluralsight.com/courses/an-electronics-ad-photoshop-1137",
+        "name": "Creating an Electronics Ad in Photoshop",
+        "author": "Pluralsight",
+        "level": "Beginner",
+        "date": "May 27 2013",
+        "length": "2h 38m",
+        "rating": "none"
+    },
+    "game-vehicles-maya-topogun-622": {
+        "url": "https://www.pluralsight.com/courses/game-vehicles-maya-topogun-622",
+        "name": "Creating Game Vehicles in Maya and TopoGun",
+        "author": "Justin Marshall",
+        "level": "Intermediate",
+        "date": "Feb 1 2012",
+        "length": "2h 8m",
+        "rating": "none"
+    },
+    "quick-startaevolume-2-1260": {
+        "url": "https://www.pluralsight.com/courses/quick-startaevolume-2-1260",
+        "name": "Quick Start to After Effects: Volume 2",
+        "author": "Laura Hawk",
+        "level": "Beginner",
+        "date": "Aug 26 2013",
+        "length": "1h 40m",
+        "rating": "(14)"
+    },
+    "objectivec-for-rubyists": {
+        "url": "https://www.pluralsight.com/courses/objectivec-for-rubyists",
+        "name": "Objective-C for Rubyists",
+        "author": "Geoffrey Grosenbach",
+        "level": "Intermediate",
+        "date": "Feb 11 2009",
+        "length": "1h 21m",
+        "rating": "none"
+    },
+    "personal-portfolio-site-behance-prosite-1687": {
+        "url": "https://www.pluralsight.com/courses/personal-portfolio-site-behance-prosite-1687",
+        "name": "Creating a Personal Portfolio Site with Behance ProSite",
+        "author": "Susan Simkins",
+        "level": "Beginner",
+        "date": "Jul 16 2014",
+        "length": "2h 8m",
+        "rating": "none"
+    },
+    "drawing-arms-hands-239": {
+        "url": "https://www.pluralsight.com/courses/drawing-arms-hands-239",
+        "name": "Drawing the Arms and Hands",
+        "author": "Danielle Iyer",
+        "level": "Intermediate",
+        "date": "Nov 18 2009",
+        "length": "1h",
+        "rating": "(11)"
+    },
+    "module-development-for-drupal-7": {
+        "url": "https://www.pluralsight.com/courses/module-development-for-drupal-7",
+        "name": "Module Development for Drupal 7",
+        "author": "Joe Shindelar",
+        "level": "Intermediate",
+        "date": "Nov 21 2011",
+        "length": "5h 48m",
+        "rating": "(38)"
+    },
+    "game-ready-sci-fi-environment-maya-1254": {
+        "url": "https://www.pluralsight.com/courses/game-ready-sci-fi-environment-maya-1254",
+        "name": "Creating a Game-Ready Sci-Fi Environment in Maya",
+        "author": "Roel Coucke",
+        "level": "Advanced",
+        "date": "Aug 19 2013",
+        "length": "2h 21m",
+        "rating": "(11)"
+    },
+    "spaceship-concept-design-pipeline-photoshop-1086": {
+        "url": "https://www.pluralsight.com/courses/spaceship-concept-design-pipeline-photoshop-1086",
+        "name": "Spaceship Concept Design Pipeline in Photoshop",
+        "author": "Adam Kuczek",
+        "level": "Advanced",
+        "date": "Mar 25 2013",
+        "length": "3h 6m",
+        "rating": "none"
+    },
+    "building-rigged-camera-composition-after-effects-1324": {
+        "url": "https://www.pluralsight.com/courses/building-rigged-camera-composition-after-effects-1324",
+        "name": "Building a Rigged Camera Composition in After Effects",
+        "author": "Laura Hawk",
+        "level": "Advanced",
+        "date": "Sep 23 2013",
+        "length": "3h 38m",
+        "rating": "none"
+    },
+    "solidworks-essentials-symmetry-patterns": {
+        "url": "https://www.pluralsight.com/courses/solidworks-essentials-symmetry-patterns",
+        "name": "SOLIDWORKS Essentials - Symmetry and Basic Patterns",
+        "author": "Tony Riggs",
+        "level": "Beginner",
+        "date": "Jan 5 2016",
+        "length": "51m",
+        "rating": "none"
+    },
+    "drawing-site-plan-autocad-1571": {
+        "url": "https://www.pluralsight.com/courses/drawing-site-plan-autocad-1571",
+        "name": "Drawing a Site Plan in AutoCAD",
+        "author": "Pierre Derenoncourt",
+        "level": "Beginner",
+        "date": "Apr 23 2014",
+        "length": "1h 41m",
+        "rating": "none"
+    },
+    "fiddler": {
+        "url": "https://www.pluralsight.com/courses/fiddler",
+        "name": "Fiddler",
+        "author": "Robert Boedigheimer",
+        "level": "Intermediate",
+        "date": "Jun 18 2012",
+        "length": "2h 19m",
+        "rating": "(463)"
+    },
+    "android-data-binding": {
+        "url": "https://www.pluralsight.com/courses/android-data-binding",
+        "name": "Android Fundamentals: Data Binding",
+        "author": "Richard Cirerol",
+        "level": "Beginner",
+        "date": "Oct 6 2015",
+        "length": "1h 38m",
+        "rating": "(60)"
+    },
+    "google-maps-api-get-started": {
+        "url": "https://www.pluralsight.com/courses/google-maps-api-get-started",
+        "name": "Google Maps API: Get Started",
+        "author": "Mark Lewin",
+        "level": "Beginner",
+        "date": "Sep 8 2014",
+        "length": "1h 55m",
+        "rating": "(266)"
+    },
+    "illustrations-3d-objects-photoshop-cinema-4d-1714": {
+        "url": "https://www.pluralsight.com/courses/illustrations-3d-objects-photoshop-cinema-4d-1714",
+        "name": "Creating Illustrations Using 3D Objects in Photoshop and CINEMA 4D",
+        "author": "Saad Moosajee",
+        "level": "Advanced",
+        "date": "Aug 28 2014",
+        "length": "3h 7m",
+        "rating": "none"
+    },
+    "backing-up-your-data-cyber-security-awareness": {
+        "url": "https://www.pluralsight.com/courses/backing-up-your-data-cyber-security-awareness",
+        "name": "Cyber Security Awareness: Backing up Your Data",
+        "author": "Bob Bowles",
+        "level": "Beginner",
+        "date": "Oct 27 2016",
+        "length": "1h",
+        "rating": "(16)"
+    },
+    "word-2010-tables-charts-images-styles": {
+        "url": "https://www.pluralsight.com/courses/word-2010-tables-charts-images-styles",
+        "name": "Word 2010: Tables, Charts, Images and Styles",
+        "author": "Bill Kulterman",
+        "level": "Beginner",
+        "date": "Apr 13 2011",
+        "length": "3h 50m",
+        "rating": "(31)"
+    },
+    "mental-ray-production-shaders-maya-249": {
+        "url": "https://www.pluralsight.com/courses/mental-ray-production-shaders-maya-249",
+        "name": "Mental Ray Production Shaders in Maya",
+        "author": "Kyle Green",
+        "level": "Intermediate",
+        "date": "Dec 10 2009",
+        "length": "1h 30m",
+        "rating": "none"
+    },
+    "scalable-modular-architecture-for-css": {
+        "url": "https://www.pluralsight.com/courses/scalable-modular-architecture-for-css",
+        "name": "SMACSS: Scalable Modular Architecture for CSS",
+        "author": "Jonathan Snook",
+        "level": "Intermediate",
+        "date": "Feb 18 2015",
+        "length": "5h 51m",
+        "rating": "(55)"
+    },
+    "code-school-jquery-the-return-flight": {
+        "url": "https://www.pluralsight.com/courses/code-school-jquery-the-return-flight",
+        "name": "Code School: jQuery, The Return Flight",
+        "author": "Gregg Pollack",
+        "level": "Intermediate",
+        "date": "Jul 18 2013",
+        "length": "1h 7m",
+        "rating": "none"
+    },
+    "vray-3ds-max-interior-rendering-strategies": {
+        "url": "https://www.pluralsight.com/courses/vray-3ds-max-interior-rendering-strategies",
+        "name": "Interior Rendering Strategies with V-Ray and 3ds Max",
+        "author": "Verena Tatiana",
+        "level": "Intermediate",
+        "date": "Dec 19 2016",
+        "length": "1h 40m",
+        "rating": "(24)"
+    },
+    "code-school-javascript-road-trip-part-2": {
+        "url": "https://www.pluralsight.com/courses/code-school-javascript-road-trip-part-2",
+        "name": "Code School: JavaScript Road Trip Part 2",
+        "author": "Jason Millhouse",
+        "level": "Beginner",
+        "date": "Sep 10 2013",
+        "length": "1h 26m",
+        "rating": "(17)"
+    },
+    "designing-rocket-3d-printing-tinkercad-1986": {
+        "url": "https://www.pluralsight.com/courses/designing-rocket-3d-printing-tinkercad-1986",
+        "name": "Designing a Rocket for 3D Printing in Tinkercad",
+        "author": "Samer Najia",
+        "level": "Intermediate",
+        "date": "Feb 18 2015",
+        "length": "2h 20m",
+        "rating": "none"
+    },
+    "confident-coding-automated-testing-aspdotnet-mvc": {
+        "url": "https://www.pluralsight.com/courses/confident-coding-automated-testing-aspdotnet-mvc",
+        "name": "Confident Coding: A Journey to Automated Testing in ASP.NET MVC",
+        "author": "Wes Higbee",
+        "level": "Beginner",
+        "date": "Jun 23 2015",
+        "length": "2h 59m",
+        "rating": "(201)"
+    },
+    "xunitdotnet2-dotnet-code-testing": {
+        "url": "https://www.pluralsight.com/courses/xunitdotnet2-dotnet-code-testing",
+        "name": "Testing .NET Code with xUnit.net 2",
+        "author": "Jason Roberts",
+        "level": "Intermediate",
+        "date": "Jun 13 2015",
+        "length": "2h 39m",
+        "rating": "(146)"
+    },
+    "animating-cartoon-burglar-scene-maya-1682": {
+        "url": "https://www.pluralsight.com/courses/animating-cartoon-burglar-scene-maya-1682",
+        "name": "Animating a Cartoon Burglar Scene in Maya",
+        "author": "Ron Friedman",
+        "level": "Advanced",
+        "date": "Jul 20 2014",
+        "length": "1h 24m",
+        "rating": "(11)"
+    },
+    "intro-dates-times-sqlserver": {
+        "url": "https://www.pluralsight.com/courses/intro-dates-times-sqlserver",
+        "name": "Introduction to Dates and Times in SQL Server",
+        "author": "Scott Hecht",
+        "level": "Intermediate",
+        "date": "Jan 14 2014",
+        "length": "2h 58m",
+        "rating": "(98)"
+    },
+    "five-architecture-facades-3ds-max-v-ray-1452": {
+        "url": "https://www.pluralsight.com/courses/five-architecture-facades-3ds-max-v-ray-1452",
+        "name": "Creating Five Architecture Facades in 3ds Max and V-Ray",
+        "author": "Micha Koren",
+        "level": "Advanced",
+        "date": "Jan 14 2014",
+        "length": "5h 47m",
+        "rating": "none"
+    },
+    "knockout-tips": {
+        "url": "https://www.pluralsight.com/courses/knockout-tips",
+        "name": "Essential Knockout and JavaScript Tips",
+        "author": "John Papa",
+        "level": "Intermediate",
+        "date": "Jun 20 2013",
+        "length": "3h 49m",
+        "rating": "(553)"
+    },
+    "photoshop-cc-working-with-type": {
+        "url": "https://www.pluralsight.com/courses/photoshop-cc-working-with-type",
+        "name": "Photoshop CC Working with Type",
+        "author": "Matthew Pizzi",
+        "level": "Intermediate",
+        "date": "Dec 2 2016",
+        "length": "2h 14m",
+        "rating": "(25)"
+    },
+    "responsive-typography": {
+        "url": "https://www.pluralsight.com/courses/responsive-typography",
+        "name": "Responsive Typography",
+        "author": "Jason Pamental",
+        "level": "Beginner",
+        "date": "Apr 8 2015",
+        "length": "5h 55m",
+        "rating": "(103)"
+    },
+    "solidworks-functional-threads": {
+        "url": "https://www.pluralsight.com/courses/solidworks-functional-threads",
+        "name": "Creating Functional Threads in SOLIDWORKS",
+        "author": "Adam Snow",
+        "level": "Intermediate",
+        "date": "Jul 22 2016",
+        "length": "2h 49m",
+        "rating": "none"
+    },
+    "introduction-mental-ray-maya-1190": {
+        "url": "https://www.pluralsight.com/courses/introduction-mental-ray-maya-1190",
+        "name": "Introduction to mental ray in Maya 2014",
+        "author": "Kyle Green",
+        "level": "Beginner",
+        "date": "Jul 8 2013",
+        "length": "3h 43m",
+        "rating": "none"
+    },
+    "ps-live-2018": {
+        "url": "https://www.pluralsight.com/courses/ps-live-2018",
+        "name": "Pluralsight LIVE 2018",
+        "author": "Pluralsight Live",
+        "level": "Beginner",
+        "date": "Oct 2 2018",
+        "length": "51h 14m",
+        "rating": "none"
+    },
+    "bean-validation": {
+        "url": "https://www.pluralsight.com/courses/bean-validation",
+        "name": "Bean Validation 1.1",
+        "author": "Antonio Goncalves",
+        "level": "Intermediate",
+        "date": "Jan 28 2014",
+        "length": "2h 31m",
+        "rating": "(109)"
+    },
+    "blurring-line-between-2d-3d-photoshop-1140": {
+        "url": "https://www.pluralsight.com/courses/blurring-line-between-2d-3d-photoshop-1140",
+        "name": "Blurring the Line Between 2D and 3D in Photoshop",
+        "author": "Eddie Russell",
+        "level": "Intermediate",
+        "date": "May 6 2013",
+        "length": "1h 34m",
+        "rating": "none"
+    },
+    "introduction-toon-boom-harmony-premium-2187": {
+        "url": "https://www.pluralsight.com/courses/introduction-toon-boom-harmony-premium-2187",
+        "name": "Introduction to Toon Boom Harmony Premium",
+        "author": "Kurt Jones",
+        "level": "Beginner",
+        "date": "Jul 20 2015",
+        "length": "5h 41m",
+        "rating": "none"
+    },
+    "cisco-ccna-wan-technologies": {
+        "url": "https://www.pluralsight.com/courses/cisco-ccna-wan-technologies",
+        "name": "Cisco CCNA: WAN Technologies",
+        "author": "Ross Bagurdes",
+        "level": "Intermediate",
+        "date": "Sep 16 2013",
+        "length": "2h 5m",
+        "rating": "(100)"
+    },
+    "medical-illustration-cinema-4d-1132": {
+        "url": "https://www.pluralsight.com/courses/medical-illustration-cinema-4d-1132",
+        "name": "Creating a Medical Illustration in CINEMA 4D",
+        "author": "Andy Lefton",
+        "level": "Advanced",
+        "date": "Jun 3 2013",
+        "length": "1h 37m",
+        "rating": "none"
+    },
+    "mac-osx-support-user-accounts": {
+        "url": "https://www.pluralsight.com/courses/mac-osx-support-user-accounts",
+        "name": "macOS X Support: User Accounts",
+        "author": "Herta Nava",
+        "level": "Intermediate",
+        "date": "Sep 2 2016",
+        "length": "1h 53m",
+        "rating": "none"
+    },
+    "google-cloud-intro": {
+        "url": "https://www.pluralsight.com/courses/google-cloud-intro",
+        "name": "Introduction to Google Cloud",
+        "author": "Lynn Langit",
+        "level": "Beginner",
+        "date": "Jan 10 2013",
+        "length": "52m",
+        "rating": "(296)"
+    },
+    "rigging-tips-tricks-maya-953": {
+        "url": "https://www.pluralsight.com/courses/rigging-tips-tricks-maya-953",
+        "name": "Rigging Tips and Tricks in Maya",
+        "author": "Delano Athias",
+        "level": "Advanced",
+        "date": "Dec 1 2008",
+        "length": "1h 42m",
+        "rating": "none"
+    },
+    "working-drawings-construction-documents-autocad-1534": {
+        "url": "https://www.pluralsight.com/courses/working-drawings-construction-documents-autocad-1534",
+        "name": "Creating Working Drawings for Your Construction Documents in AutoCAD",
+        "author": "Pierre Derenoncourt",
+        "level": "Beginner",
+        "date": "Apr 17 2014",
+        "length": "1h 26m",
+        "rating": "none"
+    },
+    "word-2010-advanced-features": {
+        "url": "https://www.pluralsight.com/courses/word-2010-advanced-features",
+        "name": "Word 2010: Advanced Features",
+        "author": "Bill Kulterman",
+        "level": "Beginner",
+        "date": "Apr 13 2011",
+        "length": "4h 20m",
+        "rating": "(34)"
+    },
+    "virtual-light-painting-trapcode-particular-after-effects-2264": {
+        "url": "https://www.pluralsight.com/courses/virtual-light-painting-trapcode-particular-after-effects-2264",
+        "name": "Virtual Light Painting Using Trapcode Particular in After Effects",
+        "author": "Joshua Smith",
+        "level": "Advanced",
+        "date": "Oct 10 2015",
+        "length": "2h 25m",
+        "rating": "none"
+    },
+    "access-2013-cliptraining": {
+        "url": "https://www.pluralsight.com/courses/access-2013-cliptraining",
+        "name": "Access 2013 - ClipTraining",
+        "author": "Patricia Ciszek",
+        "level": "Intermediate",
+        "date": "Jul 11 2014",
+        "length": "3h 54m",
+        "rating": "(22)"
+    },
+    "quick-start-javascript-2-1917": {
+        "url": "https://www.pluralsight.com/courses/quick-start-javascript-2-1917",
+        "name": "Quick Start to JavaScript: Volume 2",
+        "author": "Susan Simkins",
+        "level": "Beginner",
+        "date": "Dec 4 2014",
+        "length": "1h 53m",
+        "rating": "(758)"
+    },
+    "revit-structural-engineers-introduction": {
+        "url": "https://www.pluralsight.com/courses/revit-structural-engineers-introduction",
+        "name": "Introduction to Revit for Structural Engineers",
+        "author": "Harriet Eldred",
+        "level": "Beginner",
+        "date": "Sep 22 2016",
+        "length": "3h 37m",
+        "rating": "(18)"
+    },
+    "silverlight-services": {
+        "url": "https://www.pluralsight.com/courses/silverlight-services",
+        "name": "Silverlight Server Communication",
+        "author": "Shawn Wildermuth",
+        "level": "Intermediate",
+        "date": "Oct 13 2011",
+        "length": "3h 6m",
+        "rating": "(23)"
+    },
+    "drawing-column-grid-autocad-1616": {
+        "url": "https://www.pluralsight.com/courses/drawing-column-grid-autocad-1616",
+        "name": "Drawing a Column Grid in AutoCAD",
+        "author": "Pierre Derenoncourt",
+        "level": "Beginner",
+        "date": "May 31 2014",
+        "length": "27m",
+        "rating": "none"
+    },
+    "opsec-penetration-testers": {
+        "url": "https://www.pluralsight.com/courses/opsec-penetration-testers",
+        "name": "OPSEC for Penetration Testers",
+        "author": "Peter Mosmans",
+        "level": "Intermediate",
+        "date": "Apr 11 2017",
+        "length": "1h 57m",
+        "rating": ""
+    },
+    "mobile-first-website-angularjs-sass-2081": {
+        "url": "https://www.pluralsight.com/courses/mobile-first-website-angularjs-sass-2081",
+        "name": "Creating a Mobile First Website with AngularJS and Sass",
+        "author": "Zulfeekar Cheriyampurath",
+        "level": "Intermediate",
+        "date": "Apr 21 2015",
+        "length": "1h 17m",
+        "rating": "(41)"
+    },
+    "developing-space-helmet-photoshop-1989": {
+        "url": "https://www.pluralsight.com/courses/developing-space-helmet-photoshop-1989",
+        "name": "Developing Space Helmet Options in Photoshop",
+        "author": "Lawrence Mann",
+        "level": "Advanced",
+        "date": "Feb 27 2015",
+        "length": "3h 52m",
+        "rating": "none"
+    },
+    "scaling-up-lindvall": {
+        "url": "https://www.pluralsight.com/courses/scaling-up-lindvall",
+        "name": "Scaling Up",
+        "author": "Geoffrey Grosenbach",
+        "level": "Advanced",
+        "date": "Dec 8 2012",
+        "length": "53m",
+        "rating": "(73)"
+    },
+    "fsintro": {
+        "url": "https://www.pluralsight.com/courses/fsintro",
+        "name": "Introduction to F#",
+        "author": "Oliver Sturm",
+        "level": "Beginner",
+        "date": "Mar 7 2012",
+        "length": "4h 17m",
+        "rating": "(388)"
+    },
+    "building-software-that-lasts-guide-to-maintainable-software": {
+        "url": "https://www.pluralsight.com/courses/building-software-that-lasts-guide-to-maintainable-software",
+        "name": "Building Software That Lasts - A Guide to Maintainable Software",
+        "author": "Dan Appleman",
+        "level": "Beginner",
+        "date": "May 31 2016",
+        "length": "2h 33m",
+        "rating": "(48)"
+    },
+    "quick-start-zbrush-5-1191": {
+        "url": "https://www.pluralsight.com/courses/quick-start-zbrush-5-1191",
+        "name": "Quick Start to ZBrush: Volume 5",
+        "author": "Justin Marshall",
+        "level": "Beginner",
+        "date": "Jul 1 2013",
+        "length": "1h 36m",
+        "rating": "(11)"
+    },
+    "solidworks-design-communication-documents-consumer-products": {
+        "url": "https://www.pluralsight.com/courses/solidworks-design-communication-documents-consumer-products",
+        "name": "SOLIDWORKS - Design Communication Documentation - Consumer Products",
+        "author": "Robert Murdock",
+        "level": "Intermediate",
+        "date": "Jan 19 2017",
+        "length": "1h 22m",
+        "rating": "none"
+    },
+    "mental-ray-nodes-reference-library-environment-geometry-562": {
+        "url": "https://www.pluralsight.com/courses/mental-ray-nodes-reference-library-environment-geometry-562",
+        "name": "mental ray Nodes Reference Library: Environment and Geometry",
+        "author": "Kyle Green",
+        "level": "Advanced",
+        "date": "Mar 25 2009",
+        "length": "26m",
+        "rating": "none"
+    },
+    "maya-2017-building-walk-cycles": {
+        "url": "https://www.pluralsight.com/courses/maya-2017-building-walk-cycles",
+        "name": "Building Walk Cycles in Maya 2017",
+        "author": "Eric Kunzendorf",
+        "level": "Beginner",
+        "date": "Jan 18 2017",
+        "length": "3h 14m",
+        "rating": "(17)"
+    },
+    "citrix-xendesktop-4-receiver-troubleshooting": {
+        "url": "https://www.pluralsight.com/courses/citrix-xendesktop-4-receiver-troubleshooting",
+        "name": "Citrix XenDesktop 4: Receiver and Troubleshooting",
+        "author": "Elias Khnaser",
+        "level": "Intermediate",
+        "date": "Feb 14 2010",
+        "length": "1h 47m",
+        "rating": "none"
+    },
+    "interior-lighting-rendering-arnold-maya-1547": {
+        "url": "https://www.pluralsight.com/courses/interior-lighting-rendering-arnold-maya-1547",
+        "name": "Interior Lighting and Rendering Using Arnold in Maya",
+        "author": "Miguel Delosrios",
+        "level": "Advanced",
+        "date": "Apr 16 2014",
+        "length": "3h 9m",
+        "rating": "none"
+    },
+    "cloud-computing": {
+        "url": "https://www.pluralsight.com/courses/cloud-computing",
+        "name": "Cloud Computing: The Big Picture",
+        "author": "David Chappell",
+        "level": "Beginner",
+        "date": "Feb 9 2012",
+        "length": "1h 8m",
+        "rating": "(1696)"
+    },
+    "developing-sharepoint-2013-javascript-part3": {
+        "url": "https://www.pluralsight.com/courses/developing-sharepoint-2013-javascript-part3",
+        "name": "Developing SharePoint 2013 Solutions with JavaScript - Part 3",
+        "author": "David Mann",
+        "level": "Advanced",
+        "date": "Nov 13 2015",
+        "length": "4h 53m",
+        "rating": "(31)"
+    },
+    "shader-recipes-brushed-metal-surfaces-maya-301": {
+        "url": "https://www.pluralsight.com/courses/shader-recipes-brushed-metal-surfaces-maya-301",
+        "name": "Shader Recipes: Brushed Metal Surfaces in Maya",
+        "author": "Kyle Green",
+        "level": "Intermediate",
+        "date": "Apr 1 2010",
+        "length": "23m",
+        "rating": "none"
+    },
+    "modeling-realistic-helicopter-lightwave-3d-1943": {
+        "url": "https://www.pluralsight.com/courses/modeling-realistic-helicopter-lightwave-3d-1943",
+        "name": "Modeling a Realistic Helicopter in LightWave 3D",
+        "author": "Phil Nolan",
+        "level": "Advanced",
+        "date": "Jan 19 2015",
+        "length": "4h 27m",
+        "rating": "none"
+    },
+    "user-roles-capabilities-wordpress": {
+        "url": "https://www.pluralsight.com/courses/user-roles-capabilities-wordpress",
+        "name": "Master Your Domain: User Roles & Capabilities in WordPress",
+        "author": "Chris Reynolds",
+        "level": "Intermediate",
+        "date": "Nov 11 2013",
+        "length": "59m",
+        "rating": "(31)"
+    },
+    "android-performance-barriers-overcoming-common": {
+        "url": "https://www.pluralsight.com/courses/android-performance-barriers-overcoming-common",
+        "name": "Overcoming Common Android Performance Barriers",
+        "author": "Omri Erez",
+        "level": "Beginner",
+        "date": "Jan 13 2017",
+        "length": "2h 4m",
+        "rating": "(38)"
+    },
+    "visual-studio-development-mac": {
+        "url": "https://www.pluralsight.com/courses/visual-studio-development-mac",
+        "name": "Visual Studio Development on a Mac",
+        "author": "Rag Dhiman",
+        "level": "Intermediate",
+        "date": "Oct 22 2014",
+        "length": "1h 4m",
+        "rating": "(132)"
+    },
+    "cisco-ccna-wireless-design-troubleshooting": {
+        "url": "https://www.pluralsight.com/courses/cisco-ccna-wireless-design-troubleshooting",
+        "name": "Cisco CCNA Wireless: Design and Troubleshooting",
+        "author": "Avril Salter",
+        "level": "Intermediate",
+        "date": "Nov 20 2012",
+        "length": "5h 1m",
+        "rating": "(17)"
+    },
+    "exploring-animation-principles-3ds-max-exaggeration-428": {
+        "url": "https://www.pluralsight.com/courses/exploring-animation-principles-3ds-max-exaggeration-428",
+        "name": "Exploring Animation Principles in 3ds Max: Exaggeration",
+        "author": "Delano Athias",
+        "level": "Intermediate",
+        "date": "Oct 31 2010",
+        "length": "35m",
+        "rating": "none"
+    },
+    "wheeled-vehicle-unreal-engine-1905": {
+        "url": "https://www.pluralsight.com/courses/wheeled-vehicle-unreal-engine-1905",
+        "name": "Creating a Wheeled Vehicle in Unreal Engine",
+        "author": "Jonathan Daley",
+        "level": "Advanced",
+        "date": "Dec 8 2014",
+        "length": "2h 18m",
+        "rating": "none"
+    },
+    "underscore-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/underscore-fundamentals",
+        "name": "Underscore.js Fundamentals",
+        "author": "Craig Shoemaker",
+        "level": "Intermediate",
+        "date": "May 8 2013",
+        "length": "2h 55m",
+        "rating": "(295)"
+    },
+    "soa-real-world-design-implementation": {
+        "url": "https://www.pluralsight.com/courses/soa-real-world-design-implementation",
+        "name": "Real World SOA: Design and Implementation",
+        "author": "Mohamad Halabi",
+        "level": "Intermediate",
+        "date": "Aug 1 2016",
+        "length": "9h 21m",
+        "rating": "(18)"
+    },
+    "dotnet-micro-orms-introduction": {
+        "url": "https://www.pluralsight.com/courses/dotnet-micro-orms-introduction",
+        "name": ".NET Micro ORMs",
+        "author": "Steve Michelotti",
+        "level": "Intermediate",
+        "date": "Aug 28 2013",
+        "length": "4h 8m",
+        "rating": "(287)"
+    },
+    "introduction-char-rigging-3ds-max-336": {
+        "url": "https://www.pluralsight.com/courses/introduction-char-rigging-3ds-max-336",
+        "name": "Introduction to Character Rigging in 3ds Max",
+        "author": "Delano Athias",
+        "level": "Beginner",
+        "date": "Jun 1 2010",
+        "length": "5h 2m",
+        "rating": "none"
+    },
+    "static-websites-with-jekyll": {
+        "url": "https://www.pluralsight.com/courses/static-websites-with-jekyll",
+        "name": "Static Websites with Jekyll",
+        "author": "Ryan Irelan",
+        "level": "Intermediate",
+        "date": "Jul 15 2014",
+        "length": "1h 4m",
+        "rating": "(103)"
+    },
+    "assembling-working-long-documents-indesign-550": {
+        "url": "https://www.pluralsight.com/courses/assembling-working-long-documents-indesign-550",
+        "name": "Assembling and Working with Long Documents in InDesign",
+        "author": "Eddie Russell",
+        "level": "Intermediate",
+        "date": "Nov 1 2011",
+        "length": "2h 40m",
+        "rating": "none"
+    },
+    "fusion-node-reference-library-blur-157": {
+        "url": "https://www.pluralsight.com/courses/fusion-node-reference-library-blur-157",
+        "name": "Fusion Node Reference Library: Blur",
+        "author": "Chris Glick",
+        "level": "Advanced",
+        "date": "Sep 10 2009",
+        "length": "55m",
+        "rating": "none"
+    },
+    "multi-part-greenscreen-keying-after-effects-470": {
+        "url": "https://www.pluralsight.com/courses/multi-part-greenscreen-keying-after-effects-470",
+        "name": "Multi-part Greenscreen Keying in After Effects CS5",
+        "author": "Chris Glick",
+        "level": "Intermediate",
+        "date": "Jan 3 2011",
+        "length": "1h 1m",
+        "rating": "none"
+    },
+    "veeam-backup-and-replication": {
+        "url": "https://www.pluralsight.com/courses/veeam-backup-and-replication",
+        "name": "Veeam Backup and Replication",
+        "author": "David Davis",
+        "level": "Intermediate",
+        "date": "Jul 12 2010",
+        "length": "2h 11m",
+        "rating": "(43)"
+    },
+    "quick-start-animation-maya-1-1694": {
+        "url": "https://www.pluralsight.com/courses/quick-start-animation-maya-1-1694",
+        "name": "Quick Start to Animation in Maya: Volume 1",
+        "author": "Delano Athias",
+        "level": "Beginner",
+        "date": "Jul 14 2014",
+        "length": "58m",
+        "rating": ""
+    },
+    "introduction-blueprint-unreal-engine-1688": {
+        "url": "https://www.pluralsight.com/courses/introduction-blueprint-unreal-engine-1688",
+        "name": "Introduction to Blueprint in Unreal Engine",
+        "author": "Joshua Kinney",
+        "level": "Intermediate",
+        "date": "Jul 17 2014",
+        "length": "1h 5m",
+        "rating": "(27)"
+    },
+    "digital-drawing-painting-illustrator-photoshop-2200": {
+        "url": "https://www.pluralsight.com/courses/digital-drawing-painting-illustrator-photoshop-2200",
+        "name": "Digital Drawing and Painting in Illustrator and Photoshop",
+        "author": "Eric Kunzendorf",
+        "level": "Advanced",
+        "date": "Aug 5 2015",
+        "length": "5h 10m",
+        "rating": "none"
+    },
+    "adobe-cc-color-grading-tips": {
+        "url": "https://www.pluralsight.com/courses/adobe-cc-color-grading-tips",
+        "name": "Adobe CC Color Grading Tips",
+        "author": "Chad Troftgruben",
+        "level": "Intermediate",
+        "date": "Jun 23 2016",
+        "length": "2h 14m",
+        "rating": "none"
+    },
+    "touch-motion-events-ios": {
+        "url": "https://www.pluralsight.com/courses/touch-motion-events-ios",
+        "name": "Touch and Motion Events for iOS",
+        "author": "James Wilson",
+        "level": "Intermediate",
+        "date": "Mar 24 2015",
+        "length": "4h 38m",
+        "rating": "(18)"
+    },
+    "relationship-management-tracking": {
+        "url": "https://www.pluralsight.com/courses/relationship-management-tracking",
+        "name": "Relationship Management and Tracking for Your Career",
+        "author": "Jason Alba",
+        "level": "Beginner",
+        "date": "Dec 4 2013",
+        "length": "1h 47m",
+        "rating": "(56)"
+    },
+    "deploy-azure-visual-studio-online": {
+        "url": "https://www.pluralsight.com/courses/deploy-azure-visual-studio-online",
+        "name": "Plan, Create, and Deploy to Azure With Visual Studio Online",
+        "author": "Esteban Garcia",
+        "level": "Intermediate",
+        "date": "Aug 21 2014",
+        "length": "3h 32m",
+        "rating": "(170)"
+    },
+    "sharepoint-2013-adv-solutions-pt3": {
+        "url": "https://www.pluralsight.com/courses/sharepoint-2013-adv-solutions-pt3",
+        "name": "SharePoint Server 2013 Advanced Solutions (70-332) Part 3",
+        "author": "Jeff Adkin",
+        "level": "Advanced",
+        "date": "Jun 24 2013",
+        "length": "2h 57m",
+        "rating": "(78)"
+    },
+    "organic-forms-adaptive-modeling-techniques-revit-1549": {
+        "url": "https://www.pluralsight.com/courses/organic-forms-adaptive-modeling-techniques-revit-1549",
+        "name": "Creating Organic Forms Using Adaptive Modeling Techniques in Revit",
+        "author": "Pierre Derenoncourt",
+        "level": "Beginner",
+        "date": "Apr 18 2014",
+        "length": "25m",
+        "rating": "none"
+    },
+    "material-creation-workflows-3ds-max-95": {
+        "url": "https://www.pluralsight.com/courses/material-creation-workflows-3ds-max-95",
+        "name": "Material Creation Workflows in 3ds Max",
+        "author": "Justin Marshall",
+        "level": "Intermediate",
+        "date": "Aug 4 2009",
+        "length": "1h",
+        "rating": "none"
+    },
+    "building-universal-store-apps-csharp-xaml": {
+        "url": "https://www.pluralsight.com/courses/building-universal-store-apps-csharp-xaml",
+        "name": "Introduction to Building Universal Store Apps With C# and XAML",
+        "author": "Iris Classon",
+        "level": "Intermediate",
+        "date": "Oct 31 2014",
+        "length": "5h 5m",
+        "rating": "(144)"
+    },
+    "substance-designer-creating-advanced-material": {
+        "url": "https://www.pluralsight.com/courses/substance-designer-creating-advanced-material",
+        "name": "Creating an Advanced Material with Substance Designer",
+        "author": "Arvin Villapando",
+        "level": "Advanced",
+        "date": "Nov 7 2017",
+        "length": "3h 18m",
+        "rating": "(21)"
+    },
+    "pmp-earning-retaining-certification": {
+        "url": "https://www.pluralsight.com/courses/pmp-earning-retaining-certification",
+        "name": "PMP\u00ae Exam Prep \u2013 Earning & Retaining Your PMP\u00ae Certification",
+        "author": "Casey Ayers",
+        "level": "Intermediate",
+        "date": "Oct 1 2015",
+        "length": "2h 17m",
+        "rating": "(49)"
+    },
+    "spa": {
+        "url": "https://www.pluralsight.com/courses/spa",
+        "name": "Single Page Apps with HTML5, Web API, Knockout and jQuery",
+        "author": "John Papa",
+        "level": "Intermediate",
+        "date": "Aug 29 2012",
+        "length": "6h 25m",
+        "rating": "(1228)"
+    },
+    "asp-dot-net-5-understanding": {
+        "url": "https://www.pluralsight.com/courses/asp-dot-net-5-understanding",
+        "name": "Understanding ASP.NET Core",
+        "author": "Roland Guijt",
+        "level": "Beginner",
+        "date": "Jan 13 2016",
+        "length": "2h 12m",
+        "rating": "(242)"
+    },
+    "building-react-with-introduction-to-flux": {
+        "url": "https://www.pluralsight.com/courses/building-react-with-introduction-to-flux",
+        "name": "Building in React with Introduction to Flux",
+        "author": "Ryan Florence",
+        "level": "Beginner",
+        "date": "May 8 2015",
+        "length": "4h 29m",
+        "rating": "(26)"
+    },
+    "realistic-candle-flame-maya-1383": {
+        "url": "https://www.pluralsight.com/courses/realistic-candle-flame-maya-1383",
+        "name": "Creating a Realistic Candle Flame in Maya",
+        "author": "Pankaj Malik",
+        "level": "Advanced",
+        "date": "Nov 25 2013",
+        "length": "1h 32m",
+        "rating": "none"
+    },
+    "silverlight-core": {
+        "url": "https://www.pluralsight.com/courses/silverlight-core",
+        "name": "Core Silverlight 4",
+        "author": "Ian Griffiths",
+        "level": "Beginner",
+        "date": "Sep 3 2010",
+        "length": "6h 19m",
+        "rating": "(157)"
+    },
+    "blood-fx-maya-realflow-1426": {
+        "url": "https://www.pluralsight.com/courses/blood-fx-maya-realflow-1426",
+        "name": "Creating Blood FX in Maya and RealFlow",
+        "author": "Andy Guest",
+        "level": "Intermediate",
+        "date": "Dec 16 2013",
+        "length": "3h 12m",
+        "rating": "none"
+    },
+    "artistic-playing-cards-photoshop-2235": {
+        "url": "https://www.pluralsight.com/courses/artistic-playing-cards-photoshop-2235",
+        "name": "Creating Artistic Playing Cards in Photoshop",
+        "author": "Valp Maciej Hajnrich",
+        "level": "Advanced",
+        "date": "Aug 22 2015",
+        "length": "4h 27m",
+        "rating": "none"
+    },
+    "character-skeleton-building-houdini-150": {
+        "url": "https://www.pluralsight.com/courses/character-skeleton-building-houdini-150",
+        "name": "Character Skeleton Building in Houdini",
+        "author": "Sunder Iyer",
+        "level": "Intermediate",
+        "date": "Aug 4 2009",
+        "length": "53m",
+        "rating": "none"
+    },
+    "windows-phone-testing-error-management": {
+        "url": "https://www.pluralsight.com/courses/windows-phone-testing-error-management",
+        "name": "Windows Phone Testing and Error Management",
+        "author": "Lars Klint",
+        "level": "Intermediate",
+        "date": "Dec 12 2013",
+        "length": "3h 26m",
+        "rating": "(23)"
+    },
+    "functional-architecture-fsharp": {
+        "url": "https://www.pluralsight.com/courses/functional-architecture-fsharp",
+        "name": "A Functional Architecture with F#",
+        "author": "Mark Seemann",
+        "level": "Intermediate",
+        "date": "Jan 22 2014",
+        "length": "2h 28m",
+        "rating": "(266)"
+    },
+    "azure-resource-manager-deep-dive": {
+        "url": "https://www.pluralsight.com/courses/azure-resource-manager-deep-dive",
+        "name": "Azure Resource Manager Deep Dive",
+        "author": "James Bannan",
+        "level": "Advanced",
+        "date": "Jun 17 2016",
+        "length": "4h 11m",
+        "rating": "(51)"
+    },
+    "webrtc-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/webrtc-fundamentals",
+        "name": "WebRTC Fundamentals",
+        "author": "Lisa Larson-Kelley",
+        "level": "Intermediate",
+        "date": "Feb 20 2014",
+        "length": "1h 40m",
+        "rating": "(329)"
+    },
+    "windows-server-2012-high-availability-pt1": {
+        "url": "https://www.pluralsight.com/courses/windows-server-2012-high-availability-pt1",
+        "name": "Windows Server 2012 High Availability: Networking and Clusters",
+        "author": "Ken Mauldin",
+        "level": "Intermediate",
+        "date": "Jul 10 2013",
+        "length": "6h 7m",
+        "rating": "(63)"
+    },
+    "traveling-loyalty-programs-best-practices": {
+        "url": "https://www.pluralsight.com/courses/traveling-loyalty-programs-best-practices",
+        "name": "Traveling and Loyalty Programs Best Practices",
+        "author": "Stephen W. Thomas",
+        "level": "Beginner",
+        "date": "Jul 7 2015",
+        "length": "3h 13m",
+        "rating": "(12)"
+    },
+    "windows-server-2012-designing-virtualization": {
+        "url": "https://www.pluralsight.com/courses/windows-server-2012-designing-virtualization",
+        "name": "Windows Server 2012 Designing Virtualization Infrastructure",
+        "author": "Mike Hammond",
+        "level": "Intermediate",
+        "date": "Mar 4 2014",
+        "length": "2h 47m",
+        "rating": "(60)"
+    },
+    "mocking-with-moq": {
+        "url": "https://www.pluralsight.com/courses/mocking-with-moq",
+        "name": "Mocking With Moq",
+        "author": "Donald Belcham",
+        "level": "Intermediate",
+        "date": "Jul 25 2012",
+        "length": "1h 53m",
+        "rating": "(874)"
+    },
+    "javascript-solve-math-problems": {
+        "url": "https://www.pluralsight.com/courses/javascript-solve-math-problems",
+        "name": "Solve Math Problems with JavaScript",
+        "author": "Terry Toy",
+        "level": "Beginner",
+        "date": "Jun 2 2016",
+        "length": "3h 40m",
+        "rating": "(35)"
+    },
+    "standards-practices-theory-comptia-network-plus-n10-006": {
+        "url": "https://www.pluralsight.com/courses/standards-practices-theory-comptia-network-plus-n10-006",
+        "name": "Standards, Practices, and Theory for CompTIA Network+ (N10-006)",
+        "author": "Tim Warner",
+        "level": "Beginner",
+        "date": "Jun 16 2015",
+        "length": "4h 9m",
+        "rating": "(76)"
+    },
+    "illustrator-creating-realistic-still-life-2500": {
+        "url": "https://www.pluralsight.com/courses/illustrator-creating-realistic-still-life-2500",
+        "name": "Creating a Realistic Still Life Scene in Illustrator",
+        "author": "Simeon Elson",
+        "level": "Advanced",
+        "date": "Jul 12 2016",
+        "length": "2h 14m",
+        "rating": "none"
+    },
+    "direct2d-fundamentals-part2": {
+        "url": "https://www.pluralsight.com/courses/direct2d-fundamentals-part2",
+        "name": "Direct2D Fundamentals - Part 2",
+        "author": "Kenny Kerr",
+        "level": "Intermediate",
+        "date": "Feb 15 2013",
+        "length": "3h 15m",
+        "rating": "(63)"
+    },
+    "cpt-sp2007-dev-ramp-part3": {
+        "url": "https://www.pluralsight.com/courses/cpt-sp2007-dev-ramp-part3",
+        "name": "SharePoint 2007 Developer Ramp-Up - Part 3",
+        "author": "David Mann",
+        "level": "Intermediate",
+        "date": "Sep 13 2012",
+        "length": "2h 4m",
+        "rating": "(13)"
+    },
+    "android-fundamentals-styles-themes": {
+        "url": "https://www.pluralsight.com/courses/android-fundamentals-styles-themes",
+        "name": "Android Fundamentals: Styles and Themes",
+        "author": "Sriyank Siddhartha",
+        "level": "Beginner",
+        "date": "Oct 10 2016",
+        "length": "2h 46m",
+        "rating": "(53)"
+    },
+    "lync-2013-planning-installing": {
+        "url": "https://www.pluralsight.com/courses/lync-2013-planning-installing",
+        "name": "Lync Server 2013 Core Solutions Pt. 1: Planning & Installing",
+        "author": "Stephen McCassey",
+        "level": "Intermediate",
+        "date": "Jul 13 2013",
+        "length": "3h 40m",
+        "rating": "(96)"
+    },
+    "mongodb-administration": {
+        "url": "https://www.pluralsight.com/courses/mongodb-administration",
+        "name": "MongoDB Administration",
+        "author": "Nuri Halperin",
+        "level": "Intermediate",
+        "date": "Jun 2 2015",
+        "length": "7h 20m",
+        "rating": "(155)"
+    },
+    "unreal-engine-4-creating-automotive-materials-2482": {
+        "url": "https://www.pluralsight.com/courses/unreal-engine-4-creating-automotive-materials-2482",
+        "name": "Creating Automotive Materials in Unreal Engine 4",
+        "author": "Chidi Mbadugha",
+        "level": "Intermediate",
+        "date": "Aug 8 2016",
+        "length": "2h 29m",
+        "rating": "none"
+    },
+    "learning-craft-cms": {
+        "url": "https://www.pluralsight.com/courses/learning-craft-cms",
+        "name": "Learning Craft",
+        "author": "Ryan Irelan",
+        "level": "Beginner",
+        "date": "Apr 30 2014",
+        "length": "2h 37m",
+        "rating": "none"
+    },
+    "google-compute-engine": {
+        "url": "https://www.pluralsight.com/courses/google-compute-engine",
+        "name": "Introduction to Google Compute Engine",
+        "author": "Lynn Langit",
+        "level": "Intermediate",
+        "date": "Mar 4 2013",
+        "length": "1h 26m",
+        "rating": "(41)"
+    },
+    "sencha-touch-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/sencha-touch-fundamentals",
+        "name": "Sencha Touch Fundamentals",
+        "author": "Peter Kellner",
+        "level": "Intermediate",
+        "date": "Jul 8 2013",
+        "length": "4h 32m",
+        "rating": "(146)"
+    },
+    "cinema-4d-lighting-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/cinema-4d-lighting-fundamentals",
+        "name": "Fundamentals of Lighting in Cinema 4D",
+        "author": "Nejc Kilar",
+        "level": "Beginner",
+        "date": "Mar 14 2017",
+        "length": "2h 35m",
+        "rating": "(18)"
+    },
+    "the-power-pre-comps-after-effects-2118": {
+        "url": "https://www.pluralsight.com/courses/the-power-pre-comps-after-effects-2118",
+        "name": "The Power of Pre-comps in After Effects",
+        "author": "Laura Hawk",
+        "level": "Beginner",
+        "date": "Sep 24 2014",
+        "length": "1h",
+        "rating": "(14)"
+    },
+    "professional-series-painting-rendering-zbrush-678": {
+        "url": "https://www.pluralsight.com/courses/professional-series-painting-rendering-zbrush-678",
+        "name": "Professional Series: Painting and Rendering in ZBrush",
+        "author": "Justin Marshall",
+        "level": "Advanced",
+        "date": "Apr 1 2012",
+        "length": "1h 23m",
+        "rating": "none"
+    },
+    "introduction-rendering-cinema-4d-365": {
+        "url": "https://www.pluralsight.com/courses/introduction-rendering-cinema-4d-365",
+        "name": "Introduction to Rendering in CINEMA 4D",
+        "author": "Kyle Green",
+        "level": "Beginner",
+        "date": "Aug 4 2010",
+        "length": "1h 26m",
+        "rating": "none"
+    },
+    "office-365-70-347-exchange-online": {
+        "url": "https://www.pluralsight.com/courses/office-365-70-347-exchange-online",
+        "name": "Enabling Office 365 (70-347) Exchange Online (End User and Planning)",
+        "author": "Jeff Adkin",
+        "level": "Intermediate",
+        "date": "Apr 19 2016",
+        "length": "3h 30m",
+        "rating": "(18)"
+    },
+    "photorealistic-camera-lens-effects-nuke-793": {
+        "url": "https://www.pluralsight.com/courses/photorealistic-camera-lens-effects-nuke-793",
+        "name": "Photorealistic Camera Lens Effects in NUKE",
+        "author": "Chris Glick",
+        "level": "Advanced",
+        "date": "Sep 1 2012",
+        "length": "1h 57m",
+        "rating": "none"
+    },
+    "tips-tricks-modo-977": {
+        "url": "https://www.pluralsight.com/courses/tips-tricks-modo-977",
+        "name": "Tips and Tricks in modo",
+        "author": "Justin Marshall",
+        "level": "Advanced",
+        "date": "Mar 2 2009",
+        "length": "31m",
+        "rating": "none"
+    },
+    "digital-humans-3-uv-mapping-3388": {
+        "url": "https://www.pluralsight.com/courses/digital-humans-3-uv-mapping-3388",
+        "name": "Creating Digital Humans 3: UV and Texture Mapping",
+        "author": "Justin Marshall",
+        "level": "Advanced",
+        "date": "Aug 27 2007",
+        "length": "6h 17m",
+        "rating": "none"
+    },
+    "unity-mobile-game-dev-player-functionality-601": {
+        "url": "https://www.pluralsight.com/courses/unity-mobile-game-dev-player-functionality-601",
+        "name": "Unity Mobile Game Development: Player Functionality",
+        "author": "Joshua Kinney",
+        "level": "Intermediate",
+        "date": "Jan 2 2012",
+        "length": "1h 22m",
+        "rating": "none"
+    },
+    "backbone-js-in-depth-testing-mocha-sinon": {
+        "url": "https://www.pluralsight.com/courses/backbone-js-in-depth-testing-mocha-sinon",
+        "name": "Backbone.JS In-Depth and Intro to Testing with Mocha and Sinon",
+        "author": "Sam Breed",
+        "level": "Intermediate",
+        "date": "Oct 16 2013",
+        "length": "5h 19m",
+        "rating": "(71)"
+    },
+    "rendering-flicker-free-final-gather-maya-890": {
+        "url": "https://www.pluralsight.com/courses/rendering-flicker-free-final-gather-maya-890",
+        "name": "Rendering Flicker-Free Final Gather in Maya",
+        "author": "Kyle Green",
+        "level": "Intermediate",
+        "date": "Jan 1 2013",
+        "length": "1h 20m",
+        "rating": "none"
+    },
+    "sculpting-zbrush-3d-printing-21": {
+        "url": "https://www.pluralsight.com/courses/sculpting-zbrush-3d-printing-21",
+        "name": "Sculpting Concepts in ZBrush for 3D printing in MakerBot Desktop",
+        "author": "Walter Carter",
+        "level": "Intermediate",
+        "date": "Apr 18 2015",
+        "length": "1h 31m",
+        "rating": "none"
+    },
+    "modeling-roof-formations-structures-materials-revit-1895": {
+        "url": "https://www.pluralsight.com/courses/modeling-roof-formations-structures-materials-revit-1895",
+        "name": "Modeling Roof Formations, Structures and Materials in Revit",
+        "author": "Pierre Derenoncourt",
+        "level": "Intermediate",
+        "date": "Nov 18 2014",
+        "length": "1h 35m",
+        "rating": "none"
+    },
+    "real-world-kendoui": {
+        "url": "https://www.pluralsight.com/courses/real-world-kendoui",
+        "name": "Developing a Real World Application With Kendo UI",
+        "author": "Keith Burnell",
+        "level": "Intermediate",
+        "date": "Jul 11 2013",
+        "length": "1h 53m",
+        "rating": "(264)"
+    },
+    "sculpting-human-eyes-zbrush-1040": {
+        "url": "https://www.pluralsight.com/courses/sculpting-human-eyes-zbrush-1040",
+        "name": "Sculpting Human Eyes in ZBrush",
+        "author": "Justin Marshall",
+        "level": "Intermediate",
+        "date": "Aug 26 2013",
+        "length": "34m",
+        "rating": "(11)"
+    },
+    "webmatrix-introduction": {
+        "url": "https://www.pluralsight.com/courses/webmatrix-introduction",
+        "name": "Introduction to WebMatrix",
+        "author": "Matt Milner",
+        "level": "Beginner",
+        "date": "May 1 2013",
+        "length": "3h 45m",
+        "rating": "(134)"
+    },
+    "cpt-sp2010-admin-ramp-part3": {
+        "url": "https://www.pluralsight.com/courses/cpt-sp2010-admin-ramp-part3",
+        "name": "SharePoint 2010 Administrator Ramp-Up - Part 3",
+        "author": "Ted Pattison",
+        "level": "Intermediate",
+        "date": "Sep 13 2012",
+        "length": "36m",
+        "rating": "(42)"
+    },
+    "big-picture-labview": {
+        "url": "https://www.pluralsight.com/courses/big-picture-labview",
+        "name": "LabVIEW\u2122: Big Picture",
+        "author": "Jeremy Willden",
+        "level": "Beginner",
+        "date": "Apr 11 2019",
+        "length": "1h 47m",
+        "rating": "none"
+    },
+    "retiming-footage-perfection-after-effects-1641": {
+        "url": "https://www.pluralsight.com/courses/retiming-footage-perfection-after-effects-1641",
+        "name": "Retiming Footage to Perfection in After Effects",
+        "author": "Laura Hawk",
+        "level": "Beginner",
+        "date": "Jul 8 2014",
+        "length": "53m",
+        "rating": "none"
+    },
+    "mse-advanced-topics": {
+        "url": "https://www.pluralsight.com/courses/mse-advanced-topics",
+        "name": "Managed Services Engine Advanced Topics",
+        "author": "Aaron Skonnard",
+        "level": "Advanced",
+        "date": "Nov 24 2009",
+        "length": "3h 55m",
+        "rating": "none"
+    },
+    "lighting-illustration-blending-modes-photoshop-1846": {
+        "url": "https://www.pluralsight.com/courses/lighting-illustration-blending-modes-photoshop-1846",
+        "name": "Lighting Your Illustration with Blending Modes in Photoshop",
+        "author": "Alex Alvarado",
+        "level": "Intermediate",
+        "date": "Nov 6 2014",
+        "length": "2h 2m",
+        "rating": "(14)"
+    },
+    "light-rigs-maya-848": {
+        "url": "https://www.pluralsight.com/courses/light-rigs-maya-848",
+        "name": "Creating Light Rigs in Maya",
+        "author": "Ed Whetstone",
+        "level": "Advanced",
+        "date": "Dec 1 2012",
+        "length": "2h 37m",
+        "rating": "none"
+    },
+    "introduction-substance-painter-1867": {
+        "url": "https://www.pluralsight.com/courses/introduction-substance-painter-1867",
+        "name": "Introduction to Substance Painter",
+        "author": "Eddie Russell",
+        "level": "Beginner",
+        "date": "Nov 2 2014",
+        "length": "3h 3m",
+        "rating": "(36)"
+    },
+    "photoshop-filters-reference-library-blur-sharpen-52": {
+        "url": "https://www.pluralsight.com/courses/photoshop-filters-reference-library-blur-sharpen-52",
+        "name": "Photoshop Filters Reference Library: Blur & Sharpen",
+        "author": "Eddie Russell",
+        "level": "Advanced",
+        "date": "Jul 2 2011",
+        "length": "1h 31m",
+        "rating": "none"
+    },
+    "game-ready-chains-ropes-vines-maya-udk-1298": {
+        "url": "https://www.pluralsight.com/courses/game-ready-chains-ropes-vines-maya-udk-1298",
+        "name": "Creating Game-Ready Chains, Ropes, and Vines in Maya and UDK",
+        "author": "Clinton Crumpler",
+        "level": "Advanced",
+        "date": "Sep 16 2013",
+        "length": "3h 41m",
+        "rating": "none"
+    },
+    "mental-ray-production-shaders-3ds-max-188": {
+        "url": "https://www.pluralsight.com/courses/mental-ray-production-shaders-3ds-max-188",
+        "name": "mental ray Production Shaders in 3ds Max",
+        "author": "Kyle Green",
+        "level": "Intermediate",
+        "date": "Sep 24 2009",
+        "length": "51m",
+        "rating": "none"
+    },
+    "creature-concept-sculpting-zbrush-598": {
+        "url": "https://www.pluralsight.com/courses/creature-concept-sculpting-zbrush-598",
+        "name": "Creature Concept Sculpting in ZBrush",
+        "author": "Pat Imrie",
+        "level": "Advanced",
+        "date": "Dec 1 2011",
+        "length": "3h 38m",
+        "rating": "none"
+    },
+    "sql-server-2016-new-features-developers": {
+        "url": "https://www.pluralsight.com/courses/sql-server-2016-new-features-developers",
+        "name": "SQL Server 2016 New Features for Developers",
+        "author": "Leonard Lobel",
+        "level": "Intermediate",
+        "date": "Oct 14 2016",
+        "length": "3h 42m",
+        "rating": "(85)"
+    },
+    "animation-tips-tricks-maya-173": {
+        "url": "https://www.pluralsight.com/courses/animation-tips-tricks-maya-173",
+        "name": "Animation Tips and Tricks in Maya",
+        "author": "Sunder Iyer",
+        "level": "Beginner",
+        "date": "Aug 4 2009",
+        "length": "41m",
+        "rating": "none"
+    },
+    "tflearn-implementing-multi-layer-neural-networks": {
+        "url": "https://www.pluralsight.com/courses/tflearn-implementing-multi-layer-neural-networks",
+        "name": "Implementing Multi-layer Neural Networks with TFLearn",
+        "author": "Thomas Henson",
+        "level": "Intermediate",
+        "date": "Jan 23 2019",
+        "length": "2h 9m",
+        "rating": "none"
+    },
+    "real-world-techniques-multipass-compositing-after-effects-2330": {
+        "url": "https://www.pluralsight.com/courses/real-world-techniques-multipass-compositing-after-effects-2330",
+        "name": "Real-world Techniques for Multipass Compositing in After Effects",
+        "author": "Renzo Reyes",
+        "level": "Advanced",
+        "date": "Nov 9 2015",
+        "length": "6h 45m",
+        "rating": "(13)"
+    },
+    "juniper-jncis-sec-junos-security-zones-intro": {
+        "url": "https://www.pluralsight.com/courses/juniper-jncis-sec-junos-security-zones-intro",
+        "name": "Juniper JNCIS-SEC \u2013 Introduction to Junos Security and Zones",
+        "author": "Chris Frisch",
+        "level": "Advanced",
+        "date": "May 13 2015",
+        "length": "1h 8m",
+        "rating": "(13)"
+    },
+    "play-2-scala": {
+        "url": "https://www.pluralsight.com/courses/play-2-scala",
+        "name": "Play! 2 for Scala",
+        "author": "James Hughes",
+        "level": "Intermediate",
+        "date": "Apr 14 2014",
+        "length": "1h 37m",
+        "rating": "(109)"
+    },
+    "mental-ray-nodes-reference-library-lenses-563": {
+        "url": "https://www.pluralsight.com/courses/mental-ray-nodes-reference-library-lenses-563",
+        "name": "mental ray Nodes Reference Library: Lenses",
+        "author": "Kyle Green",
+        "level": "Advanced",
+        "date": "Jul 2 2011",
+        "length": "54m",
+        "rating": "none"
+    },
+    "custom-templates-archicad-2161": {
+        "url": "https://www.pluralsight.com/courses/custom-templates-archicad-2161",
+        "name": "Creating Custom Templates in ARCHICAD",
+        "author": "Willard Williams",
+        "level": "Beginner",
+        "date": "Jul 7 2015",
+        "length": "2h 26m",
+        "rating": "none"
+    },
+    "creating-web-apis-developers-love": {
+        "url": "https://www.pluralsight.com/courses/creating-web-apis-developers-love",
+        "name": "Creating Web APIs That Developers Will Love",
+        "author": "Kirsten Hunter",
+        "level": "Beginner",
+        "date": "Nov 3 2016",
+        "length": "2h",
+        "rating": "(86)"
+    },
+    "apache-pig-data-transformations": {
+        "url": "https://www.pluralsight.com/courses/apache-pig-data-transformations",
+        "name": "Data Transformations with Apache Pig",
+        "author": "Janani Ravi",
+        "level": "Beginner",
+        "date": "May 12 2017",
+        "length": "3h 15m",
+        "rating": "(28)"
+    },
+    "beginner-facebook-development": {
+        "url": "https://www.pluralsight.com/courses/beginner-facebook-development",
+        "name": "Introduction to the Facebook Graph API",
+        "author": "Jesse Stay",
+        "level": "Beginner",
+        "date": "Jun 25 2013",
+        "length": "2h 10m",
+        "rating": "(65)"
+    },
+    "cisco-qos-intro": {
+        "url": "https://www.pluralsight.com/courses/cisco-qos-intro",
+        "name": "Intro to Cisco QoS",
+        "author": "Matt Carey",
+        "level": "Intermediate",
+        "date": "Nov 5 2015",
+        "length": "2h 10m",
+        "rating": "(32)"
+    },
+    "experience-design-cc-fundamentals": {
+        "url": "https://www.pluralsight.com/courses/experience-design-cc-fundamentals",
+        "name": "Adobe Experience Design CC (Preview) Fundamentals",
+        "author": "Matthew Pizzi",
+        "level": "Beginner",
+        "date": "Jun 23 2016",
+        "length": "1h 5m",
+        "rating": "(40)"
+    },
+    "powershell-web-access-server-implementing": {
+        "url": "https://www.pluralsight.com/courses/powershell-web-access-server-implementing",
+        "name": "Implementing PowerShell Web Access in Server",
+        "author": "Thomas Lee",
+        "level": "Intermediate",
+        "date": "Aug 11 2015",
+        "length": "1h 35m",
+        "rating": "(18)"
+    },
+    "sscp2015-incident-response-recovery": {
+        "url": "https://www.pluralsight.com/courses/sscp2015-incident-response-recovery",
+        "name": "SSCP\u00ae: Incident Response and Recovery",
+        "author": "Jason Helmick",
+        "level": "Beginner",
+        "date": "Oct 14 2015",
+        "length": "2h 26m",
+        "rating": "(32)"
+    },
+    "using-morph-magic-daemons-realflow-413": {
+        "url": "https://www.pluralsight.com/courses/using-morph-magic-daemons-realflow-413",
+        "name": "Using Morph and Magic Daemons in RealFlow",
+        "author": "Chris Glick",
+        "level": "Intermediate",
+        "date": "Oct 1 2010",
+        "length": "56m",
+        "rating": "none"
+    },
+    "modeling-bracelet-rhino-zbrush-2114": {
+        "url": "https://www.pluralsight.com/courses/modeling-bracelet-rhino-zbrush-2114",
+        "name": "Modeling a Bracelet in Rhino and ZBrush",
+        "author": "Jean Gorospe",
+        "level": "Advanced",
+        "date": "May 24 2015",
+        "length": "2h 30m",
+        "rating": "none"
+    },
+    "inverse-kinematic-animation-duik-after-effects-2140": {
+        "url": "https://www.pluralsight.com/courses/inverse-kinematic-animation-duik-after-effects-2140",
+        "name": "Inverse Kinematic Animation with DUIK in After Effects",
+        "author": "Laura Hawk",
+        "level": "Beginner",
+        "date": "Jun 23 2015",
+        "length": "1h 49m",
+        "rating": "(11)"
+    },
+    "rendering-interiors-mental-ray-maya-523": {
+        "url": "https://www.pluralsight.com/courses/rendering-interiors-mental-ray-maya-523",
+        "name": "Rendering Interiors with mental ray and Maya",
+        "author": "Kyle Green",
+        "level": "Intermediate",
+        "date": "Apr 4 2011",
+        "length": "2h 35m",
+        "rating": "none"
+    },
+    "call-monitoring-measure-quality": {
+        "url": "https://www.pluralsight.com/courses/call-monitoring-measure-quality",
+        "name": "Using Call Monitoring to Measure Quality",
+        "author": "Theresa Miller",
+        "level": "Beginner",
+        "date": "Jan 17 2017",
+        "length": "37m",
+        "rating": "none"
+    },
+    "introduction-motion-capture-motionbuilder-100": {
+        "url": "https://www.pluralsight.com/courses/introduction-motion-capture-motionbuilder-100",
+        "name": "Introduction to Motion Capture in MotionBuilder",
+        "author": "Chris Glick",
+        "level": "Beginner",
+        "date": "Aug 4 2009",
+        "length": "33m",
+        "rating": "none"
+    },
+    "your-first-day-unreal-engine-4-1701": {
+        "url": "https://www.pluralsight.com/courses/your-first-day-unreal-engine-4-1701",
+        "name": "Your First Day in Unreal Engine 4",
+        "author": "Joshua Kinney",
+        "level": "Beginner",
+        "date": "Aug 2 2014",
+        "length": "1h 39m",
+        "rating": "(27)"
+    },
+    "avatar-photo-reference-831": {
+        "url": "https://www.pluralsight.com/courses/avatar-photo-reference-831",
+        "name": "Creating a 2D Avatar from a Photo Reference",
+        "author": "Kurt Jones",
+        "level": "Intermediate",
+        "date": "Nov 1 2012",
+        "length": "1h 40m",
+        "rating": "none"
+    },
+    "painting-dynamic-dragon-photoshop-2073": {
+        "url": "https://www.pluralsight.com/courses/painting-dynamic-dragon-photoshop-2073",
+        "name": "Painting a Dynamic Dragon in Photoshop",
+        "author": "Lawrence Mann",
+        "level": "Advanced",
+        "date": "May 11 2015",
+        "length": "3h 51m",
+        "rating": "none"
+    },
+    "biztalk-server-by-example": {
+        "url": "https://www.pluralsight.com/courses/biztalk-server-by-example",
+        "name": "BizTalk Server by Example",
+        "author": "Matt Milner",
+        "level": "Beginner",
+        "date": "Jan 12 2010",
+        "length": "2h 27m",
+        "rating": "(48)"
+    },
+    "information-security-incidents-iso-iec-27002": {
+        "url": "https://www.pluralsight.com/courses/information-security-incidents-iso-iec-27002",
+        "name": "Managing Information Security Incidents (ISO/IEC 27002)",
+        "author": "Paul Gadbois",
+        "level": "Beginner",
+        "date": "Sep 19 2016",
+        "length": "1h 57m",
+        "rating": "(13)"
+    },
+    "getting-started-backburner-217": {
+        "url": "https://www.pluralsight.com/courses/getting-started-backburner-217",
+        "name": "Getting Started with Backburner",
+        "author": "Chris Glick",
+        "level": "Beginner",
+        "date": "Oct 29 2009",
+        "length": "54m",
+        "rating": "none"
+    },
+    "principles-graphic-design-278": {
+        "url": "https://www.pluralsight.com/courses/principles-graphic-design-278",
+        "name": "Principles of Graphic Design",
+        "author": "Eddie Russell",
+        "level": "Beginner",
+        "date": "Feb 18 2010",
+        "length": "2h",
+        "rating": "(23)"
+    },
+    "pmp-project-human-resource-management": {
+        "url": "https://www.pluralsight.com/courses/pmp-project-human-resource-management",
+        "name": "PMP\u00ae Exam Prep \u2013 Project Human Resource Management",
+        "author": "Casey Ayers",
+        "level": "Intermediate",
+        "date": "Jun 26 2015",
+        "length": "2h 55m",
+        "rating": "(46)"
+    },
+    "passive-reconnaissance-comptia-pentest-plus": {
+        "url": "https://www.pluralsight.com/courses/passive-reconnaissance-comptia-pentest-plus",
+        "name": "Conducting Passive Reconnaissance for CompTIA PenTest+",
+        "author": "Dale Meredith",
+        "level": "Beginner",
+        "date": "May 6 2019",
+        "length": "3h 1m",
+        "rating": "none"
+    },
+    "energy-simulation-revit-1403": {
+        "url": "https://www.pluralsight.com/courses/energy-simulation-revit-1403",
+        "name": "Energy Simulation in Revit",
+        "author": "Pierre Derenoncourt",
+        "level": "Beginner",
+        "date": "Dec 2 2013",
+        "length": "35m",
+        "rating": "none"
+    },
+    "full-stack-nodejs": {
+        "url": "https://www.pluralsight.com/courses/full-stack-nodejs",
+        "name": "Full Stack Node.js",
+        "author": "Geoffrey Grosenbach",
+        "level": "Intermediate",
+        "date": "Apr 27 2012",
+        "length": "2h 35m",
+        "rating": "(110)"
+    },
+    "adobe-muse-building-responsive-single-page-website-2478": {
+        "url": "https://www.pluralsight.com/courses/adobe-muse-building-responsive-single-page-website-2478",
+        "name": "Building a Responsive Single Page Website in Adobe Muse",
+        "author": "Mario Duilio Macari",
+        "level": "Intermediate",
+        "date": "Aug 30 2016",
+        "length": "2h 6m",
+        "rating": "none"
+    },
+    "project-management-case-studies": {
+        "url": "https://www.pluralsight.com/courses/project-management-case-studies",
+        "name": "Case Studies in Project Management",
+        "author": "Terri Wagner",
+        "level": "Beginner",
+        "date": "Oct 18 2016",
+        "length": "59m",
+        "rating": "(32)"
+    },
+    "sqlserver-database-corruption": {
+        "url": "https://www.pluralsight.com/courses/sqlserver-database-corruption",
+        "name": "SQL Server: Detecting and Correcting Database Corruption",
+        "author": "Paul Randal",
+        "level": "Intermediate",
+        "date": "Sep 18 2013",
+        "length": "3h 52m",
+        "rating": "(246)"
+    },
+    "cisco-ccnp-switch-design-high-availability": {
+        "url": "https://www.pluralsight.com/courses/cisco-ccnp-switch-design-high-availability",
+        "name": "Cisco CCNP SWITCH: Design and High Availability",
+        "author": "Joe Rinehart",
+        "level": "Intermediate",
+        "date": "Feb 7 2012",
+        "length": "2h 2m",
+        "rating": "none"
+    },
+    "painting-skateboard-graphics-illustrator-692": {
+        "url": "https://www.pluralsight.com/courses/painting-skateboard-graphics-illustrator-692",
+        "name": "Painting Skateboard Graphics in Illustrator",
+        "author": "Eddie Russell",
+        "level": "Intermediate",
+        "date": "May 1 2012",
+        "length": "2h 9m",
+        "rating": "none"
+    },
+    "azure-event-hub-c-sharp": {
+        "url": "https://www.pluralsight.com/courses/azure-event-hub-c-sharp",
+        "name": "Getting Started with Azure Event Hubs with C#",
+        "author": "Paul Mooney",
+        "level": "Intermediate",
+        "date": "Oct 25 2017",
+        "length": "1h 12m",
+        "rating": "(34)"
+    },
+    "linear-workflow-rendering-strategies-maya-611": {
+        "url": "https://www.pluralsight.com/courses/linear-workflow-rendering-strategies-maya-611",
+        "name": "Linear Workflow Rendering Strategies in Maya 2012",
+        "author": "Kyle Green",
+        "level": "Advanced",
+        "date": "Jan 2 2012",
+        "length": "1h 2m",
+        "rating": "none"
+    },
+    "hard-surface-modeling-modular-structure-games-3ds-max-2353": {
+        "url": "https://www.pluralsight.com/courses/hard-surface-modeling-modular-structure-games-3ds-max-2353",
+        "name": "Hard Surface Modeling a Modular Structure for Games in 3ds Max",
+        "author": "Dan John Cox",
+        "level": "Intermediate",
+        "date": "Dec 18 2015",
+        "length": "1h 52m",
+        "rating": ""
+    },
+    "facial-tracking-3dequalizer-maya-778": {
+        "url": "https://www.pluralsight.com/courses/facial-tracking-3dequalizer-maya-778",
+        "name": "Facial Tracking in 3DEqualizer and Maya",
+        "author": "Jean-Michel Bihorel",
+        "level": "Advanced",
+        "date": "Aug 1 2012",
+        "length": "1h 57m",
+        "rating": "none"
+    },
+    "jade-get-started-2431": {
+        "url": "https://www.pluralsight.com/courses/jade-get-started-2431",
+        "name": "Getting Started with Jade",
+        "author": "Gary Simon",
+        "level": "Intermediate",
+        "date": "Jul 26 2016",
+        "length": "1h 54m",
+        "rating": "(21)"
+    },
+    "introduction-mantra-houdini-3557": {
+        "url": "https://www.pluralsight.com/courses/introduction-mantra-houdini-3557",
+        "name": "Introduction to Mantra in Houdini",
+        "author": "Sunder Iyer",
+        "level": "Intermediate",
+        "date": "Oct 13 2008",
+        "length": "3h 33m",
+        "rating": "none"
+    },
+    "linear-workflow-rendering-strategies-maya-2133": {
+        "url": "https://www.pluralsight.com/courses/linear-workflow-rendering-strategies-maya-2133",
+        "name": "Linear Workflow Rendering Strategies in Maya 2016",
+        "author": "Eddie Russell",
+        "level": "Intermediate",
+        "date": "Sep 15 2015",
+        "length": "1h 42m",
+        "rating": "none"
+    }
+}
