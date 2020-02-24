@@ -2309,7 +2309,7 @@ class PluraDL(object):
             if version_tuple(latest_version) > version_tuple(__version__):
                 self.report_warning(
                     'You are using an outdated version (newest version: %s)! '
-                    'See https://yt-dl.org/update if you need help updating.' %
+                    'See https://github.com/rojter-tech/pluradl.py/wiki if you need help updating.' %
                     latest_version)
 
     def _setup_opener(self):

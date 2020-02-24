@@ -2311,8 +2311,8 @@ def bug_reports_message():
     if ytdl_is_updateable():
         update_cmd = 'type  plura-dl -U  to update'
     else:
-        update_cmd = 'see  https://yt-dl.org/update  on how to update'
-    msg = '; please report this issue on https://yt-dl.org/bug .'
+        update_cmd = 'see  https://github.com/rojter-tech/pluradl.py/wiki  on how to update'
+    msg = '; please report this issue on https://github.com/rojter-tech/pluradl.py/issues .'
     msg += ' Make sure you are using the latest version; %s.' % update_cmd
     msg += ' Be sure to call plura-dl with the --verbose flag and include its complete output.'
     return msg
