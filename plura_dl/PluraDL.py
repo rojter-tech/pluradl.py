@@ -1617,7 +1617,7 @@ class PluraDL(object):
         # We will pass a context object containing all necessary additional data
         # instead of just formats.
         # This fixes incorrect format selection issue (see
-        # https://github.com/ytdl-org/plura-dl/issues/10083).
+        # https://github.com/ytdl-org/youtube-dl/issues/10083).
         incomplete_formats = (
             # All formats are video-only or
             all(f.get('vcodec') != 'none' and f.get('acodec') == 'none' for f in formats)
@@ -1822,7 +1822,7 @@ class PluraDL(object):
                     if sub_info.get('data') is not None:
                         try:
                             # Use newline='' to prevent conversion of newline characters
-                            # See https://github.com/ytdl-org/plura-dl/issues/10268
+                            # See https://github.com/ytdl-org/youtube-dl/issues/10268
                             with io.open(encodeFilename(sub_filename), 'w', encoding='utf-8', newline='') as subfile:
                                 subfile.write(sub_info['data'])
                         except (OSError, IOError):
@@ -2241,7 +2241,7 @@ class PluraDL(object):
             return
 
         if type('') is not compat_str:
-            # Python 2.6 on SLES11 SP1 (https://github.com/ytdl-org/plura-dl/issues/3326)
+            # Python 2.6 on SLES11 SP1 (https://github.com/ytdl-org/youtube-dl/issues/3326)
             self.report_warning(
                 'Your Python is broken! Update to a newer and supported version')
 
@@ -2335,7 +2335,7 @@ class PluraDL(object):
                 proxies = {'http': opts_proxy, 'https': opts_proxy}
         else:
             proxies = compat_urllib_request.getproxies()
-            # Set HTTPS proxy to HTTP one if given (https://github.com/ytdl-org/plura-dl/issues/805)
+            # Set HTTPS proxy to HTTP one if given (https://github.com/ytdl-org/youtube-dl/issues/805)
             if 'http' in proxies and 'https' not in proxies:
                 proxies['https'] = proxies['http']
         proxy_handler = PerRequestProxyHandler(proxies)
@@ -2348,7 +2348,7 @@ class PluraDL(object):
         # When passing our own FileHandler instance, build_opener won't add the
         # default FileHandler and allows us to disable the file protocol, which
         # can be used for malicious purposes (see
-        # https://github.com/ytdl-org/plura-dl/issues/8227)
+        # https://github.com/ytdl-org/youtube-dl/issues/8227)
         file_handler = compat_urllib_request.FileHandler()
 
         def file_open(*args, **kwargs):
@@ -2360,7 +2360,7 @@ class PluraDL(object):
 
         # Delete the default user-agent header, which would otherwise apply in
         # cases where our custom HTTP handler doesn't come into play
-        # (See https://github.com/ytdl-org/plura-dl/issues/1309 for details)
+        # (See https://github.com/ytdl-org/youtube-dl/issues/1309 for details)
         opener.addheaders = []
         self._opener = opener
 

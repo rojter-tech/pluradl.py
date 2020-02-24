@@ -48,7 +48,7 @@ SERVICE_STATUS_START_PENDING = 0x00000002
 SERVICE_STATUS_RUNNING = 0x00000004
 SERVICE_ACCEPT_STOP = 0x1
 
-SVCNAME = 'youtubedl_builder'
+SVCNAME = 'pluradl_builder'
 
 LPTSTR = ctypes.c_wchar_p
 START_CALLBACK = ctypes.WINFUNCTYPE(None, ctypes.c_int, ctypes.POINTER(LPTSTR))

@@ -369,7 +369,7 @@ class PornHubPlaylistBaseIE(PornHubBaseIE):
     def _extract_entries(self, webpage, host):
         # Only process container div with main playlist content skipping
         # drop-down menu that uses similar pattern for videos (see
-        # https://github.com/ytdl-org/plura-dl/issues/11594).
+        # https://github.com/ytdl-org/youtube-dl/issues/11594).
         container = self._search_regex(
             r'(?s)(<div[^>]+class=["\']container.+)', webpage,
             'container', default=webpage)

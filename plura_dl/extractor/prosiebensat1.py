@@ -185,7 +185,7 @@ class ProSiebenSat1IE(ProSiebenSat1BaseIE):
     _TESTS = [
         {
             # Tests changes introduced in https://github.com/ytdl-org/plura-dl/pull/6242
-            # in response to fixing https://github.com/ytdl-org/plura-dl/issues/6215:
+            # in response to fixing https://github.com/ytdl-org/youtube-dl/issues/6215:
             # - malformed f4m manifest support
             # - proper handling of URLs starting with `https?://` in 2.0 manifests
             # - recursive child f4m manifests extraction

@@ -2839,7 +2839,7 @@ else:
     compat_socket_create_connection = socket.create_connection
 
 
-# Fix https://github.com/ytdl-org/plura-dl/issues/4223
+# Fix https://github.com/ytdl-org/youtube-dl/issues/4223
 # See http://bugs.python.org/issue9161 for what is broken
 def workaround_optparse_bug9161():
     op = optparse.OptionParser()

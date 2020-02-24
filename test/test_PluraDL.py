@@ -442,7 +442,7 @@ class TestFormatSelection(unittest.TestCase):
         self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
 
     def test_format_selection_issue_10083(self):
-        # See https://github.com/ytdl-org/plura-dl/issues/10083
+        # See https://github.com/ytdl-org/youtube-dl/issues/10083
         formats = [
             {'format_id': 'regular', 'height': 360, 'url': TEST_URL},
             {'format_id': 'video', 'height': 720, 'acodec': 'none', 'url': TEST_URL},
@@ -856,7 +856,7 @@ class TestPluraDL(unittest.TestCase):
         result = get_ids({'playlist_items': '2-4,3-4,3'})
         self.assertEqual(result, [2, 3, 4])
 
-        # Tests for https://github.com/ytdl-org/plura-dl/issues/10591
+        # Tests for https://github.com/ytdl-org/youtube-dl/issues/10591
         # @{
         result = get_downloaded_info_dicts({'playlist_items': '2-4,3-4,3'})
         self.assertEqual(result[0]['playlist_index'], 2)
@@ -873,7 +873,7 @@ class TestPluraDL(unittest.TestCase):
         # @}
 
     def test_urlopen_no_file_protocol(self):
-        # see https://github.com/ytdl-org/plura-dl/issues/8227
+        # see https://github.com/ytdl-org/youtube-dl/issues/8227
         ydl = YDL()
         self.assertRaises(compat_urllib_error.URLError, ydl.urlopen, 'file:///etc/passwd')
 

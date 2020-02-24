@@ -59,7 +59,7 @@ class TestMultipleSocks(unittest.TestCase):
             return
         ydl = FakeYDL()
         req = compat_urllib_request.Request('http://yt-dl.org/ip')
-        req.add_header('Ytdl-request-proxy', params['secondary_proxy'])
+        req.add_header('Pldl-request-proxy', params['secondary_proxy'])
         self.assertEqual(
             ydl.urlopen(req).read().decode('utf-8'),
             params['secondary_server_ip'])
@@ -70,7 +70,7 @@ class TestMultipleSocks(unittest.TestCase):
             return
         ydl = FakeYDL()
         req = compat_urllib_request.Request('https://yt-dl.org/ip')
-        req.add_header('Ytdl-request-proxy', params['secondary_proxy'])
+        req.add_header('Pldl-request-proxy', params['secondary_proxy'])
         self.assertEqual(
             ydl.urlopen(req).read().decode('utf-8'),
             params['secondary_server_ip'])

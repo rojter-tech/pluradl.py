@@ -305,7 +305,7 @@ class PBSIE(InfoExtractor):
         {
             # Video embedded in iframe containing angle brackets as attribute's value (e.g.
             # "<iframe style='position: absolute;<br />\ntop: 0; left: 0;' ...", see
-            # https://github.com/ytdl-org/plura-dl/issues/7059)
+            # https://github.com/ytdl-org/youtube-dl/issues/7059)
             'url': 'http://www.pbs.org/food/features/a-chefs-life-season-3-episode-5-prickly-business/',
             'md5': '59b0ef5009f9ac8a319cc5efebcd865e',
             'info_dict': {
@@ -348,7 +348,7 @@ class PBSIE(InfoExtractor):
             },
         },
         {
-            # https://github.com/ytdl-org/plura-dl/issues/13801
+            # https://github.com/ytdl-org/youtube-dl/issues/13801
             'url': 'https://www.pbs.org/video/pbs-newshour-full-episode-july-31-2017-1501539057/',
             'info_dict': {
                 'id': '3003333873',

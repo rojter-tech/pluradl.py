@@ -101,7 +101,7 @@ class BrightcoveLegacyIE(InfoExtractor):
         {
             # test flv videos served by akamaihd.net
             # From http://www.redbull.com/en/bike/stories/1331655643987/replay-uci-dh-world-cup-2014-from-fort-william
-            'url': 'http://c.brightcove.com/services/viewer/htmlFederated?%40videoPlayer=ref%3Aevent-stream-356&linkBaseURL=http%3A%2F%2Fwww.redbull.com%2Fen%2Fbike%2Fvideos%2F1331655630249%2Freplay-uci-fort-william-2014-dh&playerKey=AQ%7E%7E%2CAAAApYJ7UqE%7E%2Cxqr_zXk0I-zzNndy8NlHogrCb5QdyZRf&playerID=1398061561001#__youtubedl_smuggle=%7B%22Referer%22%3A+%22http%3A%2F%2Fwww.redbull.com%2Fen%2Fbike%2Fstories%2F1331655643987%2Freplay-uci-dh-world-cup-2014-from-fort-william%22%7D',
+            'url': 'http://c.brightcove.com/services/viewer/htmlFederated?%40videoPlayer=ref%3Aevent-stream-356&linkBaseURL=http%3A%2F%2Fwww.redbull.com%2Fen%2Fbike%2Fvideos%2F1331655630249%2Freplay-uci-fort-william-2014-dh&playerKey=AQ%7E%7E%2CAAAApYJ7UqE%7E%2Cxqr_zXk0I-zzNndy8NlHogrCb5QdyZRf&playerID=1398061561001#__pluradl_smuggle=%7B%22Referer%22%3A+%22http%3A%2F%2Fwww.redbull.com%2Fen%2Fbike%2Fstories%2F1331655643987%2Freplay-uci-dh-world-cup-2014-from-fort-william%22%7D',
             # The md5 checksum changes on each download
             'info_dict': {
                 'id': '3750436379001',
@@ -127,7 +127,7 @@ class BrightcoveLegacyIE(InfoExtractor):
             'skip': 'Unsupported URL',
         },
         {
-            # playlist with 'playlistTab' (https://github.com/ytdl-org/plura-dl/issues/9965)
+            # playlist with 'playlistTab' (https://github.com/ytdl-org/youtube-dl/issues/9965)
             'url': 'http://c.brightcove.com/services/json/experience/runtime/?command=get_programming_for_experience&playerKey=AQ%7E%7E,AAABXlLMdok%7E,NJ4EoMlZ4rZdx9eU1rkMVd8EaYPBBUlg',
             'info_dict': {
                 'id': '1522758701001',
@@ -151,10 +151,10 @@ class BrightcoveLegacyIE(InfoExtractor):
         <object class="BrightcoveExperience">{params}</object>
         """
 
-        # Fix up some stupid HTML, see https://github.com/ytdl-org/plura-dl/issues/1553
+        # Fix up some stupid HTML, see https://github.com/ytdl-org/youtube-dl/issues/1553
         object_str = re.sub(r'(<param(?:\s+[a-zA-Z0-9_]+="[^"]*")*)>',
                             lambda m: m.group(1) + '/>', object_str)
-        # Fix up some stupid XML, see https://github.com/ytdl-org/plura-dl/issues/1608
+        # Fix up some stupid XML, see https://github.com/ytdl-org/youtube-dl/issues/1608
         object_str = object_str.replace('<--', '<!--')
         # remove namespace to simplify extraction
         object_str = re.sub(r'(<object[^>]*)(xmlns=".*?")', r'\1', object_str)

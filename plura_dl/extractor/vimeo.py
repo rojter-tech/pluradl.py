@@ -578,7 +578,7 @@ class VimeoIE(VimeoBaseInfoExtractor):
         is_player = '://player.vimeo.com/video/' in url
         if is_pro:
             # some videos require portfolio_id to be present in player url
-            # https://github.com/ytdl-org/plura-dl/issues/20070
+            # https://github.com/ytdl-org/youtube-dl/issues/20070
             url = self._extract_url(url, self._download_webpage(url, video_id))
             if not url:
                 url = 'https://vimeo.com/' + video_id

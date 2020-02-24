@@ -2134,7 +2134,7 @@ def sanitize_url(url):
         return 'http:%s' % url
     # Fix some common typos seen so far
     COMMON_TYPOS = (
-        # https://github.com/ytdl-org/plura-dl/issues/15649
+        # https://github.com/ytdl-org/youtube-dl/issues/15649
         (r'^httpss://', r'https://'),
         # https://bx1.be/lives/direct-tv/
         (r'^rmtp([es]?)://', r'rtmp\1://'),
@@ -2184,7 +2184,7 @@ def _htmlentity_transform(entity_with_semicolon):
             numstr = '0%s' % numstr
         else:
             base = 10
-        # See https://github.com/ytdl-org/plura-dl/issues/7518
+        # See https://github.com/ytdl-org/youtube-dl/issues/7518
         try:
             return compat_chr(int(numstr, base))
         except ValueError:
@@ -2462,14 +2462,14 @@ class XAttrUnavailableError(PluraDLError):
     pass
 
 
-def _create_http_connection(ydl_handler, http_class, is_https, *args, **kwargs):
+def _create_http_connection(pdl_handler, http_class, is_https, *args, **kwargs):
     # Working around python 2 bug (see http://bugs.python.org/issue17849) by limiting
     # expected HTTP responses to meet HTTP/1.0 or later (see also
-    # https://github.com/ytdl-org/plura-dl/issues/6727)
+    # https://github.com/ytdl-org/youtube-dl/issues/6727)
     if sys.version_info < (3, 0):
         kwargs['strict'] = True
     hc = http_class(*args, **compat_kwargs(kwargs))
-    source_address = ydl_handler._params.get('source_address')
+    source_address = pdl_handler._params.get('source_address')
 
     if source_address is not None:
         # This is to workaround _create_connection() from socket where it will try all
@@ -2527,12 +2527,12 @@ def _create_http_connection(ydl_handler, http_class, is_https, *args, **kwargs):
     return hc
 
 
-def handle_youtubedl_headers(headers):
+def handle_pluradl_headers(headers):
     filtered_headers = headers
 
-    if 'Youtubedl-no-compression' in filtered_headers:
+    if 'Pluradl-no-compression' in filtered_headers:
         filtered_headers = dict((k, v) for k, v in filtered_headers.items() if k.lower() != 'accept-encoding')
-        del filtered_headers['Youtubedl-no-compression']
+        del filtered_headers['Pluradl-no-compression']
 
     return filtered_headers
 
@@ -2544,7 +2544,7 @@ class PluraDLHandler(compat_urllib_request.HTTPHandler):
     the standard headers to every HTTP request and handles gzipped and
     deflated responses from web servers. If compression is to be avoided in
     a particular request, the original request in the program code only has
-    to include the HTTP header "Youtubedl-no-compression", which will be
+    to include the HTTP header "Pluradl-no-compression", which will be
     removed before making the real request.
 
     Part of this code was copied from:
@@ -2562,10 +2562,10 @@ class PluraDLHandler(compat_urllib_request.HTTPHandler):
     def http_open(self, req):
         conn_class = compat_http_client.HTTPConnection
 
-        socks_proxy = req.headers.get('Ytdl-socks-proxy')
+        socks_proxy = req.headers.get('Pldl-socks-proxy')
         if socks_proxy:
             conn_class = make_socks_conn_class(conn_class, socks_proxy)
-            del req.headers['Ytdl-socks-proxy']
+            del req.headers['Pldl-socks-proxy']
 
         return self.do_open(functools.partial(
             _create_http_connection, self, conn_class, False),
@@ -2600,7 +2600,7 @@ class PluraDLHandler(compat_urllib_request.HTTPHandler):
             if h.capitalize() not in req.headers:
                 req.add_header(h, v)
 
-        req.headers = handle_youtubedl_headers(req.headers)
+        req.headers = handle_pluradl_headers(req.headers)
 
         if sys.version_info < (2, 7) and '#' in req.get_full_url():
             # Python 2.6 is brain-dead when it comes to fragments
@@ -2639,7 +2639,7 @@ class PluraDLHandler(compat_urllib_request.HTTPHandler):
             resp.msg = old_resp.msg
             del resp.headers['Content-encoding']
         # Percent-encode redirect URL of Location HTTP header to satisfy RFC 3986 (see
-        # https://github.com/ytdl-org/plura-dl/issues/6457).
+        # https://github.com/ytdl-org/youtube-dl/issues/6457).
         if 300 <= resp.code < 400:
             location = resp.headers.get('Location')
             if location:
@@ -2718,10 +2718,10 @@ class PluraDLHTTPSHandler(compat_urllib_request.HTTPSHandler):
         if hasattr(self, '_check_hostname'):  # python 3.x
             kwargs['check_hostname'] = self._check_hostname
 
-        socks_proxy = req.headers.get('Ytdl-socks-proxy')
+        socks_proxy = req.headers.get('Pldl-socks-proxy')
         if socks_proxy:
             conn_class = make_socks_conn_class(conn_class, socks_proxy)
-            del req.headers['Ytdl-socks-proxy']
+            del req.headers['Pldl-socks-proxy']
 
         return self.do_open(functools.partial(
             _create_http_connection, self, conn_class, True),
@@ -2778,7 +2778,7 @@ class PluraDLCookieProcessor(compat_urllib_request.HTTPCookieProcessor):
     def http_response(self, request, response):
         # Python 2 will choke on next HTTP request in row if there are non-ASCII
         # characters in Set-Cookie HTTP header of last response (see
-        # https://github.com/ytdl-org/plura-dl/issues/6769).
+        # https://github.com/ytdl-org/youtube-dl/issues/6769).
         # In order to at least prevent crashing we will percent encode Set-Cookie
         # header before HTTPCookieProcessor starts processing it.
         # if sys.version_info < (3, 0) and response.headers:
@@ -3234,15 +3234,15 @@ def smuggle_url(url, data):
     url, idata = unsmuggle_url(url, {})
     data.update(idata)
     sdata = compat_urllib_parse_urlencode(
-        {'__youtubedl_smuggle': json.dumps(data)})
+        {'__pluradl_smuggle': json.dumps(data)})
     return url + '#' + sdata
 
 
 def unsmuggle_url(smug_url, default=None):
-    if '#__youtubedl_smuggle' not in smug_url:
+    if '#__pluradl_smuggle' not in smug_url:
         return smug_url, default
     url, _, sdata = smug_url.rpartition('#')
-    jsond = compat_parse_qs(sdata)['__youtubedl_smuggle'][0]
+    jsond = compat_parse_qs(sdata)['__pluradl_smuggle'][0]
     data = json.loads(jsond)
     return url, data
 
@@ -3641,7 +3641,7 @@ def get_exe_version(exe, args=['--version'],
     try:
         # STDIN should be redirected too. On UNIX-like systems, ffmpeg triggers
         # SIGTTOU if plura-dl is run in the background.
-        # See https://github.com/ytdl-org/plura-dl/issues/955#issuecomment-209789656
+        # See https://github.com/ytdl-org/youtube-dl/issues/955#issuecomment-209789656
         out, _ = subprocess.Popen(
             [encodeArgument(exe)] + args,
             stdin=subprocess.PIPE,
@@ -4246,7 +4246,7 @@ def _match_one(filter_part, dct):
             # If the original field is a string and matching comparisonvalue is
             # a number we should respect the origin of the original field
             # and process comparison value as a string (see
-            # https://github.com/ytdl-org/plura-dl/issues/11082).
+            # https://github.com/ytdl-org/youtube-dl/issues/11082).
             or actual_value is not None and m.group('intval') is not None
                 and isinstance(actual_value, compat_str)):
             if m.group('op') not in ('=', '!='):
@@ -5251,15 +5251,15 @@ class PerRequestProxyHandler(compat_urllib_request.ProxyHandler):
         compat_urllib_request.ProxyHandler.__init__(self, proxies)
 
     def proxy_open(self, req, proxy, type):
-        req_proxy = req.headers.get('Ytdl-request-proxy')
+        req_proxy = req.headers.get('Pldl-request-proxy')
         if req_proxy is not None:
             proxy = req_proxy
-            del req.headers['Ytdl-request-proxy']
+            del req.headers['Pldl-request-proxy']
 
         if proxy == '__noproxy__':
             return None  # No Proxy
         if compat_urlparse.urlparse(proxy).scheme.lower() in ('socks', 'socks4', 'socks4a', 'socks5'):
-            req.add_header('Ytdl-socks-proxy', proxy)
+            req.add_header('Pldl-socks-proxy', proxy)
             # plura-dl's http/https handlers do wrapping the socket with socks
             return None
         return compat_urllib_request.ProxyHandler.proxy_open(
@@ -5412,7 +5412,7 @@ def urshift(val, n):
 
 
 # Based on png2str() written by @gdkchan and improved by @yokrysty
-# Originally posted at https://github.com/ytdl-org/plura-dl/issues/9706
+# Originally posted at https://github.com/ytdl-org/youtube-dl/issues/9706
 def decode_png(png_data):
     # Reference: https://www.w3.org/TR/PNG/
     header = png_data[8:]
@@ -5527,7 +5527,7 @@ def write_xattr(path, key, value):
         if hasattr(xattr, 'set'):  # pyxattr
             # Unicode arguments are not supported in python-pyxattr until
             # version 0.5.0
-            # See https://github.com/ytdl-org/plura-dl/issues/5498
+            # See https://github.com/ytdl-org/youtube-dl/issues/5498
             pyxattr_required_version = '0.5.0'
             if version_tuple(xattr.__version__) < version_tuple(pyxattr_required_version):
                 # TODO: fallback to CLI tools

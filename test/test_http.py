@@ -148,7 +148,7 @@ class TestProxy(unittest.TestCase):
         self.assertEqual(response, 'normal: {0}'.format(url))
 
         req = compat_urllib_request.Request(url)
-        req.add_header('Ytdl-request-proxy', geo_proxy)
+        req.add_header('Pldl-request-proxy', geo_proxy)
         response = ydl.urlopen(req).read().decode('utf-8')
         self.assertEqual(response, 'geo: {0}'.format(url))
 
