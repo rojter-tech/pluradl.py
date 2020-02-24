@@ -19,6 +19,7 @@ RATE_LIMIT     = 10**6  # download rate in bytes/s  #                           
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
+INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH = "", "", "", ""
 PDL_OPTS = {}
 SUBTITLE = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
@@ -87,20 +88,19 @@ def move_content(pdl, course_id, coursepath, completionpath):
         if os.path.exists(finalpath):
             shutil.rmtree(finalpath)
         shutil.move(coursepath,finalpath)
+        if os.path.exists(INPROGRESSPATH):
+            shutil.rmtree(INPROGRESSPATH)
     except PermissionError:
         print("Directory still in use, leaving it. Will be fixed in future releases.")
 
 
-def invoke_download(course_id, course_url, coursepath, finishpath, failpath, interruptpath):
+def invoke_download(course_id, course_url, coursepath):
     """Using plura_dl API to invoke download requests with associated parameters.
     
     Arguments:
         course_id {str} -- Course identifier
         course_url {str} -- Playlist url
         coursepath {str} -- Local temporary course storage path
-        finishpath {str} -- Local course storage path if playlist is complete
-        failpath {str} -- Local course storage path if playlist download failed
-        interruptpath {str} -- Local course storage path if playlist download was interrupted
     
     Returns:
         Bool -- Validation of completion level
@@ -113,8 +113,8 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
 
             # Moving content to _finished destination path if the download was sucessful
             pdl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
-            finalpath = os.path.join(finishpath,course_id)
-            move_content(pdl, course_id, coursepath, finishpath)
+            finalpath = os.path.join(FINISHPATH, course_id)
+            move_content(pdl, course_id, coursepath, FINISHPATH)
             return True
 
         except ExtractorError:
@@ -122,7 +122,7 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
             pdl.to_stdout("The course '" + course_id + "' may not be a part of your current licence.")
             pdl.to_stdout("Visit " + course_url + " for more information.\n")
             # Moving content to _failed destination 
-            move_content(pdl, course_id, coursepath, failpath)
+            move_content(pdl, course_id, coursepath, FAILPATH)
             return True
         
         except DownloadError:
@@ -132,14 +132,14 @@ def invoke_download(course_id, course_url, coursepath, finishpath, failpath, int
             pdl.to_stdout("Double check that " + course_url)
             pdl.to_stdout("exists or that your subscription is valid for accessing its content.\n")
             # Moving content to _failed destination path
-            move_content(pdl, course_id, coursepath, failpath)
+            move_content(pdl, course_id, coursepath, FAILPATH)
             return True
 
         except KeyboardInterrupt:
             # Handling the case of user interruption
             pdl.to_stdout("\n\nThe download stream for '" + course_id + "' was canceled by user.")
             # Moving content to _canceled destination 
-            move_content(pdl, course_id, coursepath, interruptpath)
+            move_content(pdl, course_id, coursepath, INTERRUPTPATH)
             return False
 
 
@@ -161,25 +161,23 @@ def pluradl(course):
     course_url = PLURAURL + course_id
 
     # OS parameters - Setting up paths metadata
-    coursepath = os.path.join(DLPATH,course_id)
-    failpath = os.path.join(DLPATH,"_failed")
-    finishpath = os.path.join(DLPATH,"_finished")
-    interruptpath = os.path.join(DLPATH,"_canceled")
+    coursepath = os.path.join(INPROGRESSPATH,course_id)
 
-    # Setting up logging metadata
-    logfile = course_id + ".log"
-    logpath = os.path.join(coursepath,logfile)
-    set_directory(coursepath)
-    PDL_OPTS["logger"] = Logger(logpath)
-
-    # Invoking download request
-    return invoke_download(course_id,
-                           course_url,
-                           coursepath,
-                           finishpath,
-                           failpath,
-                           interruptpath)
-
+    # Invoking download if not already finished
+    if not os.path.exists(os.path.join(FINISHPATH, course_id)):
+        # Setting progress structure
+        if not os.path.exists(INPROGRESSPATH):
+            os.mkdir(INPROGRESSPATH)
+        set_directory(coursepath)
+        # Setting up logging metadata
+        logfile = course_id + ".log"
+        logpath = os.path.join(coursepath,logfile)
+        PDL_OPTS["logger"] = Logger(logpath)
+        
+        return invoke_download(course_id, course_url, coursepath)
+    else:
+        print("Course", course_id, "already downloaded")
+        return True
 
 def flag_parser():
     """Argument handling of 4 or more arguments, interpreting arguments
@@ -383,7 +381,7 @@ def main():
     Using command line to store username and password, loops
     through the course IDs and invoking download requests.
     """
-    global DLPATH
+    global DLPATH, INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH
 
     if flag_parser():
         print("Executing by flag input ..\n")
@@ -397,9 +395,12 @@ def main():
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     
-    # Download directory path
-    dldirname = "courses"
-    DLPATH = os.path.join(scriptpath,dldirname)
+    # Download directory paths
+    DLPATH = os.path.join(scriptpath,"courses")
+    INPROGRESSPATH = os.path.join(DLPATH,"_inprogress")
+    FINISHPATH = os.path.join(DLPATH,"_finished")
+    INTERRUPTPATH = os.path.join(DLPATH,"_canceled")
+    FAILPATH = os.path.join(DLPATH,"_failed")
     set_directory(DLPATH)
 
     # Looping through the courses determined by get_courses() invoking download requests
