@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import os, json, re, datetime
 from selenium import webdriver
 if not os.path.exists('data'):

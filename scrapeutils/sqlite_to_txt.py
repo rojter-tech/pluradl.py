@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import sqlite3, os
 from sqlite3 import Error
 

@@ -1387,10 +1387,6 @@ Line 1
         self.assertEqual(caesar('abc', 'acegik', 2), 'ebg')
         self.assertEqual(caesar('ebg', 'acegik', -2), 'abc')
 
-    def test_rot47(self):
-        self.assertEqual(rot47('plura-dl'), r'J@FEF36\5=')
-        self.assertEqual(rot47('YOUTUBE-DL'), r'*~&%&qt\s{')
-
     def test_urshift(self):
         self.assertEqual(urshift(3, 1), 1)
         self.assertEqual(urshift(-3, 1), 2147483646)

@@ -12,7 +12,7 @@ import random
 import subprocess
 
 from test.helper import (
-    FakeYDL,
+    FakePDL,
     get_params,
 )
 from plura_dl.compat import (
@@ -35,44 +35,44 @@ class TestMultipleSocks(unittest.TestCase):
         params = self._check_params(['primary_proxy', 'primary_server_ip'])
         if params is None:
             return
-        ydl = FakeYDL({
+        pdl = FakePDL({
             'proxy': params['primary_proxy']
         })
         self.assertEqual(
-            ydl.urlopen('http://yt-dl.org/ip').read().decode('utf-8'),
+            pdl.urlopen('http://yt-dl.org/ip').read().decode('utf-8'),
             params['primary_server_ip'])
 
     def test_proxy_https(self):
         params = self._check_params(['primary_proxy', 'primary_server_ip'])
         if params is None:
             return
-        ydl = FakeYDL({
+        pdl = FakePDL({
             'proxy': params['primary_proxy']
         })
         self.assertEqual(
-            ydl.urlopen('https://yt-dl.org/ip').read().decode('utf-8'),
+            pdl.urlopen('https://yt-dl.org/ip').read().decode('utf-8'),
             params['primary_server_ip'])
 
     def test_secondary_proxy_http(self):
         params = self._check_params(['secondary_proxy', 'secondary_server_ip'])
         if params is None:
             return
-        ydl = FakeYDL()
+        pdl = FakePDL()
         req = compat_urllib_request.Request('http://yt-dl.org/ip')
         req.add_header('Pldl-request-proxy', params['secondary_proxy'])
         self.assertEqual(
-            ydl.urlopen(req).read().decode('utf-8'),
+            pdl.urlopen(req).read().decode('utf-8'),
             params['secondary_server_ip'])
 
     def test_secondary_proxy_https(self):
         params = self._check_params(['secondary_proxy', 'secondary_server_ip'])
         if params is None:
             return
-        ydl = FakeYDL()
+        pdl = FakePDL()
         req = compat_urllib_request.Request('https://yt-dl.org/ip')
         req.add_header('Pldl-request-proxy', params['secondary_proxy'])
         self.assertEqual(
-            ydl.urlopen(req).read().decode('utf-8'),
+            pdl.urlopen(req).read().decode('utf-8'),
             params['secondary_server_ip'])
 
 
@@ -99,10 +99,10 @@ class TestSocks(unittest.TestCase):
         if self._SKIP_SOCKS_TEST:
             return '127.0.0.1'
 
-        ydl = FakeYDL({
+        pdl = FakePDL({
             'proxy': '%s://127.0.0.1:%d' % (protocol, self.port),
         })
-        return ydl.urlopen('http://yt-dl.org/ip').read().decode('utf-8')
+        return pdl.urlopen('http://yt-dl.org/ip').read().decode('utf-8')
 
     def test_socks4(self):
         self.assertTrue(isinstance(self._get_ip('socks4'), compat_str))

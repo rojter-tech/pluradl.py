@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import os, json
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException

@@ -9,17 +9,15 @@ import sys
 import unittest
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from test.helper import FakeYDL, expect_dict, expect_value, http_server_port
+from test.helper import FakePDL, expect_dict, expect_value, http_server_port
 from plura_dl.compat import compat_etree_fromstring, compat_http_server
 from plura_dl.extractor.common import InfoExtractor
-from plura_dl.extractor import YoutubeIE, get_info_extractor
+from plura_dl.extractor import get_info_extractor
 from plura_dl.utils import encode_data_uri, strip_jsonp, ExtractorError, RegexNotFoundError
 import threading
 
-
 TEAPOT_RESPONSE_STATUS = 418
 TEAPOT_RESPONSE_BODY = "<h1>418 I'm a teapot</h1>"
-
 
 class InfoExtractorTestRequestHandler(compat_http_server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
@@ -41,10 +39,7 @@ class TestIE(InfoExtractor):
 
 class TestInfoExtractor(unittest.TestCase):
     def setUp(self):
-        self.ie = TestIE(FakeYDL())
-
-    def test_ie_key(self):
-        self.assertEqual(get_info_extractor(YoutubeIE.ie_key()), YoutubeIE)
+        self.ie = TestIE(FakePDL())
 
     def test_html_search_regex(self):
         html = '<p id="foo">Watch this <a href="http://www.youtube.com/watch?v=BaW_jenozKc">video</a></p>'

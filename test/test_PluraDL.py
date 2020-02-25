@@ -1,9 +1,6 @@
 #!/usr/bin/env python
-# coding: utf-8
-
 from __future__ import unicode_literals
 
-# Allow direct execution
 import os
 import sys
 import unittest
@@ -11,10 +8,9 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import copy
 
-from test.helper import FakeYDL, assertRegexpMatches
+from test.helper import FakePDL, assertRegexpMatches
 from plura_dl import PluraDL
 from plura_dl.compat import compat_str, compat_urllib_error
-from plura_dl.extractor import YoutubeIE
 from plura_dl.extractor.common import InfoExtractor
 from plura_dl.postprocessor.common import PostProcessor
 from plura_dl.utils import ExtractorError, match_filter_func
@@ -22,9 +18,9 @@ from plura_dl.utils import ExtractorError, match_filter_func
 TEST_URL = 'http://localhost/sample.mp4'
 
 
-class YDL(FakeYDL):
+class PDL(FakePDL):
     def __init__(self, *args, **kwargs):
-        super(YDL, self).__init__(*args, **kwargs)
+        super(PDL, self).__init__(*args, **kwargs)
         self.downloaded_info_dicts = []
         self.msgs = []
 
@@ -46,64 +42,30 @@ def _make_result(formats, **kwargs):
     res.update(**kwargs)
     return res
 
-
 class TestFormatSelection(unittest.TestCase):
     def test_prefer_free_formats(self):
         # Same resolution => download webm
-        ydl = YDL()
-        ydl.params['prefer_free_formats'] = True
+        pdl = PDL()
+        pdl.params['prefer_free_formats'] = True
         formats = [
             {'ext': 'webm', 'height': 460, 'url': TEST_URL},
             {'ext': 'mp4', 'height': 460, 'url': TEST_URL},
         ]
         info_dict = _make_result(formats)
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
+        self.assertEqual(downloaded['ext'], 'mp4')
+
+        pdl = PDL()
+        pdl.params['prefer_free_formats'] = False
+        formats = [
+            {'ext': 'flv', 'height': 720, 'url': TEST_URL},
+            {'ext': 'webm', 'height': 720, 'url': TEST_URL},
+        ]
+        info_dict['formats'] = formats
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['ext'], 'webm')
-
-        # Different resolution => download best quality (mp4)
-        ydl = YDL()
-        ydl.params['prefer_free_formats'] = True
-        formats = [
-            {'ext': 'webm', 'height': 720, 'url': TEST_URL},
-            {'ext': 'mp4', 'height': 1080, 'url': TEST_URL},
-        ]
-        info_dict['formats'] = formats
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['ext'], 'mp4')
-
-        # No prefer_free_formats => prefer mp4 and flv for greater compatibility
-        ydl = YDL()
-        ydl.params['prefer_free_formats'] = False
-        formats = [
-            {'ext': 'webm', 'height': 720, 'url': TEST_URL},
-            {'ext': 'mp4', 'height': 720, 'url': TEST_URL},
-            {'ext': 'flv', 'height': 720, 'url': TEST_URL},
-        ]
-        info_dict['formats'] = formats
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['ext'], 'mp4')
-
-        ydl = YDL()
-        ydl.params['prefer_free_formats'] = False
-        formats = [
-            {'ext': 'flv', 'height': 720, 'url': TEST_URL},
-            {'ext': 'webm', 'height': 720, 'url': TEST_URL},
-        ]
-        info_dict['formats'] = formats
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['ext'], 'flv')
 
     def test_format_selection(self):
         formats = [
@@ -115,34 +77,34 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': '20/47'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '20/47'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], '47')
 
-        ydl = YDL({'format': '20/71/worst'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '20/71/worst'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], '35')
 
-        ydl = YDL()
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL()
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], '2')
 
-        ydl = YDL({'format': 'webm/mp4'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'webm/mp4'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], '47')
 
-        ydl = YDL({'format': '3gp/40/mp4'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '3gp/40/mp4'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], '35')
 
-        ydl = YDL({'format': 'example-with-dashes'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'example-with-dashes'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'example-with-dashes')
 
     def test_format_selection_audio(self):
@@ -154,14 +116,14 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'bestaudio'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'bestaudio'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'audio-high')
 
-        ydl = YDL({'format': 'worstaudio'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'worstaudio'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'audio-low')
 
         formats = [
@@ -170,41 +132,10 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'bestaudio/worstaudio/best'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'bestaudio/worstaudio/best'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'vid-high')
-
-    def test_format_selection_audio_exts(self):
-        formats = [
-            {'format_id': 'mp3-64', 'ext': 'mp3', 'abr': 64, 'url': 'http://_', 'vcodec': 'none'},
-            {'format_id': 'ogg-64', 'ext': 'ogg', 'abr': 64, 'url': 'http://_', 'vcodec': 'none'},
-            {'format_id': 'aac-64', 'ext': 'aac', 'abr': 64, 'url': 'http://_', 'vcodec': 'none'},
-            {'format_id': 'mp3-32', 'ext': 'mp3', 'abr': 32, 'url': 'http://_', 'vcodec': 'none'},
-            {'format_id': 'aac-32', 'ext': 'aac', 'abr': 32, 'url': 'http://_', 'vcodec': 'none'},
-        ]
-
-        info_dict = _make_result(formats)
-        ydl = YDL({'format': 'best'})
-        ie = YoutubeIE(ydl)
-        ie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(copy.deepcopy(info_dict))
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['format_id'], 'aac-64')
-
-        ydl = YDL({'format': 'mp3'})
-        ie = YoutubeIE(ydl)
-        ie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(copy.deepcopy(info_dict))
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['format_id'], 'mp3-64')
-
-        ydl = YDL({'prefer_free_formats': True})
-        ie = YoutubeIE(ydl)
-        ie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(copy.deepcopy(info_dict))
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['format_id'], 'ogg-64')
 
     def test_format_selection_video(self):
         formats = [
@@ -214,19 +145,19 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'bestvideo'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'bestvideo'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'dash-video-high')
 
-        ydl = YDL({'format': 'worstvideo'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'worstvideo'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'dash-video-low')
 
-        ydl = YDL({'format': 'bestvideo[format_id^=dash][format_id$=low]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'bestvideo[format_id^=dash][format_id$=low]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'dash-video-low')
 
         formats = [
@@ -234,9 +165,9 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'bestvideo[vcodec=avc1.123456]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'bestvideo[vcodec=avc1.123456]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'vid-vcodec-dot')
 
     def test_format_selection_string_ops(self):
@@ -247,67 +178,67 @@ class TestFormatSelection(unittest.TestCase):
         info_dict = _make_result(formats)
 
         # equals (=)
-        ydl = YDL({'format': '[format_id=abc-cba]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id=abc-cba]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'abc-cba')
 
         # does not equal (!=)
-        ydl = YDL({'format': '[format_id!=abc-cba]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id!=abc-cba]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'zxc-cxz')
 
-        ydl = YDL({'format': '[format_id!=abc-cba][format_id!=zxc-cxz]'})
-        self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
+        pdl = PDL({'format': '[format_id!=abc-cba][format_id!=zxc-cxz]'})
+        self.assertRaises(ExtractorError, pdl.process_ie_result, info_dict.copy())
 
         # starts with (^=)
-        ydl = YDL({'format': '[format_id^=abc]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id^=abc]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'abc-cba')
 
         # does not start with (!^=)
-        ydl = YDL({'format': '[format_id!^=abc]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id!^=abc]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'zxc-cxz')
 
-        ydl = YDL({'format': '[format_id!^=abc][format_id!^=zxc]'})
-        self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
+        pdl = PDL({'format': '[format_id!^=abc][format_id!^=zxc]'})
+        self.assertRaises(ExtractorError, pdl.process_ie_result, info_dict.copy())
 
         # ends with ($=)
-        ydl = YDL({'format': '[format_id$=cba]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id$=cba]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'abc-cba')
 
         # does not end with (!$=)
-        ydl = YDL({'format': '[format_id!$=cba]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id!$=cba]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'zxc-cxz')
 
-        ydl = YDL({'format': '[format_id!$=cba][format_id!$=cxz]'})
-        self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
+        pdl = PDL({'format': '[format_id!$=cba][format_id!$=cxz]'})
+        self.assertRaises(ExtractorError, pdl.process_ie_result, info_dict.copy())
 
         # contains (*=)
-        ydl = YDL({'format': '[format_id*=bc-cb]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id*=bc-cb]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'abc-cba')
 
         # does not contain (!*=)
-        ydl = YDL({'format': '[format_id!*=bc-cb]'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[format_id!*=bc-cb]'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'zxc-cxz')
 
-        ydl = YDL({'format': '[format_id!*=abc][format_id!*=zxc]'})
-        self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
+        pdl = PDL({'format': '[format_id!*=abc][format_id!*=zxc]'})
+        self.assertRaises(ExtractorError, pdl.process_ie_result, info_dict.copy())
 
-        ydl = YDL({'format': '[format_id!*=-]'})
-        self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
+        pdl = PDL({'format': '[format_id!*=-]'})
+        self.assertRaises(ExtractorError, pdl.process_ie_result, info_dict.copy())
 
     def test_youtube_format_selection(self):
         order = [
@@ -323,90 +254,6 @@ class TestFormatSelection(unittest.TestCase):
             '141', '172', '140', '171', '139',
         ]
 
-        def format_info(f_id):
-            info = YoutubeIE._formats[f_id].copy()
-
-            # XXX: In real cases InfoExtractor._parse_mpd_formats() fills up 'acodec'
-            # and 'vcodec', while in tests such information is incomplete since
-            # commit a6c2c24479e5f4827ceb06f64d855329c0a6f593
-            # test_PluraDL.test_youtube_format_selection is broken without
-            # this fix
-            if 'acodec' in info and 'vcodec' not in info:
-                info['vcodec'] = 'none'
-            elif 'vcodec' in info and 'acodec' not in info:
-                info['acodec'] = 'none'
-
-            info['format_id'] = f_id
-            info['url'] = 'url:' + f_id
-            return info
-        formats_order = [format_info(f_id) for f_id in order]
-
-        info_dict = _make_result(list(formats_order), extractor='youtube')
-        ydl = YDL({'format': 'bestvideo+bestaudio'})
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['format_id'], '137+141')
-        self.assertEqual(downloaded['ext'], 'mp4')
-
-        info_dict = _make_result(list(formats_order), extractor='youtube')
-        ydl = YDL({'format': 'bestvideo[height>=999999]+bestaudio/best'})
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
-        self.assertEqual(downloaded['format_id'], '38')
-
-        info_dict = _make_result(list(formats_order), extractor='youtube')
-        ydl = YDL({'format': 'bestvideo/best,bestaudio'})
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded_ids = [info['format_id'] for info in ydl.downloaded_info_dicts]
-        self.assertEqual(downloaded_ids, ['137', '141'])
-
-        info_dict = _make_result(list(formats_order), extractor='youtube')
-        ydl = YDL({'format': '(bestvideo[ext=mp4],bestvideo[ext=webm])+bestaudio'})
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded_ids = [info['format_id'] for info in ydl.downloaded_info_dicts]
-        self.assertEqual(downloaded_ids, ['137+141', '248+141'])
-
-        info_dict = _make_result(list(formats_order), extractor='youtube')
-        ydl = YDL({'format': '(bestvideo[ext=mp4],bestvideo[ext=webm])[height<=720]+bestaudio'})
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded_ids = [info['format_id'] for info in ydl.downloaded_info_dicts]
-        self.assertEqual(downloaded_ids, ['136+141', '247+141'])
-
-        info_dict = _make_result(list(formats_order), extractor='youtube')
-        ydl = YDL({'format': '(bestvideo[ext=none]/bestvideo[ext=webm])+bestaudio'})
-        yie = YoutubeIE(ydl)
-        yie._sort_formats(info_dict['formats'])
-        ydl.process_ie_result(info_dict)
-        downloaded_ids = [info['format_id'] for info in ydl.downloaded_info_dicts]
-        self.assertEqual(downloaded_ids, ['248+141'])
-
-        for f1, f2 in zip(formats_order, formats_order[1:]):
-            info_dict = _make_result([f1, f2], extractor='youtube')
-            ydl = YDL({'format': 'best/bestvideo'})
-            yie = YoutubeIE(ydl)
-            yie._sort_formats(info_dict['formats'])
-            ydl.process_ie_result(info_dict)
-            downloaded = ydl.downloaded_info_dicts[0]
-            self.assertEqual(downloaded['format_id'], f1['format_id'])
-
-            info_dict = _make_result([f2, f1], extractor='youtube')
-            ydl = YDL({'format': 'best/bestvideo'})
-            yie = YoutubeIE(ydl)
-            yie._sort_formats(info_dict['formats'])
-            ydl.process_ie_result(info_dict)
-            downloaded = ydl.downloaded_info_dicts[0]
-            self.assertEqual(downloaded['format_id'], f1['format_id'])
-
     def test_audio_only_extractor_format_selection(self):
         # For extractors with incomplete formats (all formats are audio-only or
         # video-only) best and worst should fallback to corresponding best/worst
@@ -418,14 +265,14 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'best'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'best'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'high')
 
-        ydl = YDL({'format': 'worst'})
-        ydl.process_ie_result(info_dict.copy())
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'worst'})
+        pdl.process_ie_result(info_dict.copy())
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'low')
 
     def test_format_not_available(self):
@@ -438,8 +285,8 @@ class TestFormatSelection(unittest.TestCase):
         # This must fail since complete video-audio format does not match filter
         # and extractor does not provide incomplete only formats (i.e. only
         # video-only or audio-only).
-        ydl = YDL({'format': 'best[height>360]'})
-        self.assertRaises(ExtractorError, ydl.process_ie_result, info_dict.copy())
+        pdl = PDL({'format': 'best[height>360]'})
+        self.assertRaises(ExtractorError, pdl.process_ie_result, info_dict.copy())
 
     def test_format_selection_issue_10083(self):
         # See https://github.com/ytdl-org/youtube-dl/issues/10083
@@ -450,15 +297,15 @@ class TestFormatSelection(unittest.TestCase):
         ]
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'best[height>360]/bestvideo[height>360]+bestaudio'})
-        ydl.process_ie_result(info_dict.copy())
-        self.assertEqual(ydl.downloaded_info_dicts[0]['format_id'], 'video+audio')
+        pdl = PDL({'format': 'best[height>360]/bestvideo[height>360]+bestaudio'})
+        pdl.process_ie_result(info_dict.copy())
+        self.assertEqual(pdl.downloaded_info_dicts[0]['format_id'], 'video+audio')
 
     def test_invalid_format_specs(self):
         def assert_syntax_error(format_spec):
-            ydl = YDL({'format': format_spec})
+            pdl = PDL({'format': format_spec})
             info_dict = _make_result([{'format_id': 'foo', 'url': TEST_URL}])
-            self.assertRaises(SyntaxError, ydl.process_ie_result, info_dict)
+            self.assertRaises(SyntaxError, pdl.process_ie_result, info_dict)
 
         assert_syntax_error('bestvideo,,best')
         assert_syntax_error('+bestaudio')
@@ -480,74 +327,74 @@ class TestFormatSelection(unittest.TestCase):
             f['ext'] = 'unknown'
         info_dict = _make_result(formats)
 
-        ydl = YDL({'format': 'best[filesize<3000]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'best[filesize<3000]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'D')
 
-        ydl = YDL({'format': 'best[filesize<=3000]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'best[filesize<=3000]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'E')
 
-        ydl = YDL({'format': 'best[filesize <= ? 3000]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'best[filesize <= ? 3000]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'F')
 
-        ydl = YDL({'format': 'best [filesize = 1000] [width>450]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'best [filesize = 1000] [width>450]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'B')
 
-        ydl = YDL({'format': 'best [filesize = 1000] [width!=450]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': 'best [filesize = 1000] [width!=450]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'C')
 
-        ydl = YDL({'format': '[filesize>?1]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[filesize>?1]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'G')
 
-        ydl = YDL({'format': '[filesize<1M]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[filesize<1M]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'E')
 
-        ydl = YDL({'format': '[filesize<1MiB]'})
-        ydl.process_ie_result(info_dict)
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl = PDL({'format': '[filesize<1MiB]'})
+        pdl.process_ie_result(info_dict)
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['format_id'], 'G')
 
-        ydl = YDL({'format': 'all[width>=400][width<=600]'})
-        ydl.process_ie_result(info_dict)
-        downloaded_ids = [info['format_id'] for info in ydl.downloaded_info_dicts]
+        pdl = PDL({'format': 'all[width>=400][width<=600]'})
+        pdl.process_ie_result(info_dict)
+        downloaded_ids = [info['format_id'] for info in pdl.downloaded_info_dicts]
         self.assertEqual(downloaded_ids, ['B', 'C', 'D'])
 
-        ydl = YDL({'format': 'best[height<40]'})
+        pdl = PDL({'format': 'best[height<40]'})
         try:
-            ydl.process_ie_result(info_dict)
+            pdl.process_ie_result(info_dict)
         except ExtractorError:
             pass
-        self.assertEqual(ydl.downloaded_info_dicts, [])
+        self.assertEqual(pdl.downloaded_info_dicts, [])
 
     def test_default_format_spec(self):
-        ydl = YDL({'simulate': True})
-        self.assertEqual(ydl._default_format_spec({}), 'bestvideo+bestaudio/best')
+        pdl = PDL({'simulate': True})
+        self.assertEqual(pdl._default_format_spec({}), 'bestvideo+bestaudio/best')
 
-        ydl = YDL({})
-        self.assertEqual(ydl._default_format_spec({'is_live': True}), 'best/bestvideo+bestaudio')
+        pdl = PDL({})
+        self.assertEqual(pdl._default_format_spec({'is_live': True}), 'best/bestvideo+bestaudio')
 
-        ydl = YDL({'simulate': True})
-        self.assertEqual(ydl._default_format_spec({'is_live': True}), 'bestvideo+bestaudio/best')
+        pdl = PDL({'simulate': True})
+        self.assertEqual(pdl._default_format_spec({'is_live': True}), 'bestvideo+bestaudio/best')
 
-        ydl = YDL({'outtmpl': '-'})
-        self.assertEqual(ydl._default_format_spec({}), 'best/bestvideo+bestaudio')
+        pdl = PDL({'outtmpl': '-'})
+        self.assertEqual(pdl._default_format_spec({}), 'best/bestvideo+bestaudio')
 
-        ydl = YDL({})
-        self.assertEqual(ydl._default_format_spec({}, download=False), 'bestvideo+bestaudio/best')
-        self.assertEqual(ydl._default_format_spec({'is_live': True}), 'best/bestvideo+bestaudio')
+        pdl = PDL({})
+        self.assertEqual(pdl._default_format_spec({}, download=False), 'bestvideo+bestaudio/best')
+        self.assertEqual(pdl._default_format_spec({'is_live': True}), 'best/bestvideo+bestaudio')
 
 
 class TestPluraDL(unittest.TestCase):
@@ -571,9 +418,9 @@ class TestPluraDL(unittest.TestCase):
 
         def get_info(params={}):
             params.setdefault('simulate', True)
-            ydl = YDL(params)
-            ydl.report_warning = lambda *args, **kargs: None
-            return ydl.process_video_result(info_dict, download=False)
+            pdl = PDL(params)
+            pdl.report_warning = lambda *args, **kargs: None
+            return pdl.process_video_result(info_dict, download=False)
 
         result = get_info()
         self.assertFalse(result.get('requested_subtitles'))
@@ -618,7 +465,7 @@ class TestPluraDL(unittest.TestCase):
             'extractor': 'Bar',
             'playlist': 'funny videos',
         }
-        YDL.add_extra_info(test_dict, extra_info)
+        PDL.add_extra_info(test_dict, extra_info)
         self.assertEqual(test_dict['extractor'], 'Foo')
         self.assertEqual(test_dict['playlist'], 'funny videos')
 
@@ -633,8 +480,8 @@ class TestPluraDL(unittest.TestCase):
         }
 
         def fname(templ):
-            ydl = PluraDL({'outtmpl': templ})
-            return ydl.prepare_filename(info)
+            pdl = PluraDL({'outtmpl': templ})
+            return pdl.prepare_filename(info)
         self.assertEqual(fname('%(id)s.%(ext)s'), '1234.mp4')
         self.assertEqual(fname('%(id)s-%(width)s.%(ext)s'), '1234-NA.mp4')
         # Replace missing fields with 'NA'
@@ -658,12 +505,12 @@ class TestPluraDL(unittest.TestCase):
         self.assertEqual(fname('Hello %(title2)s'), 'Hello %PATH%')
 
     def test_format_note(self):
-        ydl = PluraDL()
-        self.assertEqual(ydl._format_note({}), '')
-        assertRegexpMatches(self, ydl._format_note({
+        pdl = PluraDL()
+        self.assertEqual(pdl._format_note({}), '')
+        assertRegexpMatches(self, pdl._format_note({
             'vbr': 10,
         }), r'^\s*10k$')
-        assertRegexpMatches(self, ydl._format_note({
+        assertRegexpMatches(self, pdl._format_note({
             'fps': 30,
         }), r'^30fps$')
 
@@ -680,9 +527,9 @@ class TestPluraDL(unittest.TestCase):
         def run_pp(params, PP):
             with open(filename, 'wt') as f:
                 f.write('EXAMPLE')
-            ydl = PluraDL(params)
-            ydl.add_post_processor(PP())
-            ydl.post_process(filename, {'filepath': filename})
+            pdl = PluraDL(params)
+            pdl.add_post_processor(PP())
+            pdl.post_process(filename, {'filepath': filename})
 
         run_pp({'keepvideo': True}, SimplePP)
         self.assertTrue(os.path.exists(filename), '%s doesn\'t exist' % filename)
@@ -706,16 +553,16 @@ class TestPluraDL(unittest.TestCase):
         os.unlink(filename)
 
     def test_match_filter(self):
-        class FilterYDL(YDL):
+        class FilterPDL(PDL):
             def __init__(self, *args, **kwargs):
-                super(FilterYDL, self).__init__(*args, **kwargs)
+                super(FilterPDL, self).__init__(*args, **kwargs)
                 self.params['simulate'] = True
 
             def process_info(self, info_dict):
-                super(YDL, self).process_info(info_dict)
+                super(PDL, self).process_info(info_dict)
 
             def _match_entry(self, info_dict, incomplete):
-                res = super(FilterYDL, self)._match_entry(info_dict, incomplete)
+                res = super(FilterPDL, self)._match_entry(info_dict, incomplete)
                 if res is None:
                     self.downloaded_info_dicts.append(info_dict)
                 return res
@@ -745,10 +592,10 @@ class TestPluraDL(unittest.TestCase):
         videos = [first, second]
 
         def get_videos(filter_=None):
-            ydl = FilterYDL({'match_filter': filter_})
+            pdl = FilterPDL({'match_filter': filter_})
             for v in videos:
-                ydl.process_ie_result(v, download=True)
-            return [v['id'] for v in ydl.downloaded_info_dicts]
+                pdl.process_ie_result(v, download=True)
+            return [v['id'] for v in pdl.downloaded_info_dicts]
 
         res = get_videos()
         self.assertEqual(res, ['1', '2'])
@@ -817,11 +664,11 @@ class TestPluraDL(unittest.TestCase):
         }
 
         def get_downloaded_info_dicts(params):
-            ydl = YDL(params)
+            pdl = PDL(params)
             # make a deep copy because the dictionary and nested entries
             # can be modified
-            ydl.process_ie_result(copy.deepcopy(playlist))
-            return ydl.downloaded_info_dicts
+            pdl.process_ie_result(copy.deepcopy(playlist))
+            return pdl.downloaded_info_dicts
 
         def get_ids(params):
             return [int(v['id']) for v in get_downloaded_info_dicts(params)]
@@ -874,11 +721,11 @@ class TestPluraDL(unittest.TestCase):
 
     def test_urlopen_no_file_protocol(self):
         # see https://github.com/ytdl-org/youtube-dl/issues/8227
-        ydl = YDL()
-        self.assertRaises(compat_urllib_error.URLError, ydl.urlopen, 'file:///etc/passwd')
+        pdl = PDL()
+        self.assertRaises(compat_urllib_error.URLError, pdl.urlopen, 'file:///etc/passwd')
 
     def test_do_not_override_ie_key_in_url_transparent(self):
-        ydl = YDL()
+        pdl = PDL()
 
         class Foo1IE(InfoExtractor):
             _VALID_URL = r'foo1:'
@@ -908,11 +755,11 @@ class TestPluraDL(unittest.TestCase):
             def _real_extract(self, url):
                 return _make_result([{'url': TEST_URL}], title='foo3 title')
 
-        ydl.add_info_extractor(Foo1IE(ydl))
-        ydl.add_info_extractor(Foo2IE(ydl))
-        ydl.add_info_extractor(Foo3IE(ydl))
-        ydl.extract_info('foo1:')
-        downloaded = ydl.downloaded_info_dicts[0]
+        pdl.add_info_extractor(Foo1IE(pdl))
+        pdl.add_info_extractor(Foo2IE(pdl))
+        pdl.add_info_extractor(Foo3IE(pdl))
+        pdl.extract_info('foo1:')
+        downloaded = pdl.downloaded_info_dicts[0]
         self.assertEqual(downloaded['url'], TEST_URL)
         self.assertEqual(downloaded['title'], 'foo1 title')
         self.assertEqual(downloaded['id'], 'testid')
