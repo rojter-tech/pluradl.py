@@ -53,7 +53,7 @@ offlinetest: codetest
 
 tar: plura-dl.tar.gz
 
-.PHONY: all clean install test tar bash-completion pypi-files zsh-completion fish-completion ot offlinetest codetest supportedsites
+.PHONY: all clean install test tar bash-completion pypi-files zsh-completion fish-completion ot offlinetest codetest
 
 pypi-files: plura-dl.bash-completion README.txt plura-dl.1 plura-dl.fish
 
@@ -71,9 +71,6 @@ plura-dl: plura_dl/*.py plura_dl/*/*.py
 	cat plura-dl.zip >> plura-dl
 	rm plura-dl.zip
 	chmod a+x plura-dl
-
-supportedsites:
-	$(PYTHON) devscripts/make_supportedsites.py docs/supportedsites.md
 
 README.txt: README.md
 	pandoc -f $(MARKDOWN) -t plain README.md -o README.txt
