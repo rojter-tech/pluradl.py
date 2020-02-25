@@ -10,7 +10,6 @@ from plura_dl import PluraDL
 from plura_dl.utils import ExtractorError, DownloadError
 scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
 
-
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
 SLEEP_OFFSET   = 50     # adding random sleep time  #  Change this at your own risk.  #
