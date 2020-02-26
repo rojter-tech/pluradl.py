@@ -105,3 +105,9 @@ wich would give you **three videos**, those that are numbered **2**, **10** and 
 The argument `SLEEP_INTERVAL = 150` parameter used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait at least 150s (2.5 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
 
 >We have blocked your account because our security systems have flagged your Pluralsight account for an unusual amount activity. This does mean a high volume of requests that are in the realm of a request every 10-30 seconds for a prolonged period of time. Please note that this high volume of activity is in violation of our terms of service [https://www.pluralsight.com/terms].
+
+> 403
+
+Your account has been blocked due to suspicious activity.
+
+Please contact support@pluralsight.com if you believe this was in error.
