@@ -107,7 +107,5 @@ The argument `SLEEP_INTERVAL = 150` parameter used in the [`pluradl.py`](https:/
 >We have blocked your account because our security systems have flagged your Pluralsight account for an unusual amount activity. This does mean a high volume of requests that are in the realm of a request every 10-30 seconds for a prolonged period of time. Please note that this high volume of activity is in violation of our terms of service [https://www.pluralsight.com/terms].
 
 > 403
-
 Your account has been blocked due to suspicious activity.
-
 Please contact support@pluralsight.com if you believe this was in error.
