@@ -6,17 +6,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
-from pluradl import get_courses, get_usr_pw, USERNAME, PASSWORD
+from pluradl import get_courses, get_usr_pw, set_directory
 
-login_url=r'https://app.pluralsight.com/id?'
-course_base=r'https://app.pluralsight.com/library/courses'
-username, password = "", ""
+LOGIN_URL=r'https://app.pluralsight.com/id?'
+COURSE_BASE=r'https://app.pluralsight.com/library/courses'
+DLPATH, USERNAME, PASSWORD = "", "", ""
 
-username_input=r'//*[@id="Username"]'
-password_input=r'//*[@id="Password"]'
-login_submit=r'//*[@id="login"]'
-download_exercise_file=r'//*[@id="ps-main"]/div/div[2]/section/div[3]/div/div/button'
-alt_download_excercise_file=r'/html/body/div[1]/div[3]/div/div[2]/section/div[4]/div/div/button'
+USERNAME_INPUT=r'//*[@id="Username"]'
+PASSWORD_INPUT=r'//*[@id="Password"]'
+LOGIN_SUBMIT=r'//*[@id="login"]'
+DOWNLOAD_EXERCISE_FILE=r'//*[@id="ps-main"]/div/div[2]/section/div[3]/div/div/button'
+ALT_DOWNLOAD_EXERCISE_FILE=r'/html/body/div[1]/div[3]/div/div[2]/section/div[4]/div/div/button'
+
 
 def set_driver():
     chrome_options = Options()
@@ -24,7 +25,7 @@ def set_driver():
     chrome_options.add_argument("--disable-notifications")
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_experimental_option("prefs", {
-            "download.default_directory": "/home/dreuter/Downloads/Exercise_Files",
+            "download.default_directory": DLPATH,
             "download.prompt_for_download": False,
             "download.directory_upgrade": True,
             "safebrowsing_for_trusted_sources_enabled": False,
@@ -42,34 +43,37 @@ def wait_for_access(driver, XPATH, timer=20):
     return element
 
 
-def login_routine(driver, login_url):
-    driver.get(login_url)
-    wait_for_access(driver, password_input)
-    driver.find_element_by_xpath(username_input).send_keys(username)
-    driver.find_element_by_xpath(password_input).send_keys(password)
-    driver.find_element_by_xpath(login_submit).click()
+def login_routine(driver, LOGIN_URL):
+    driver.get(LOGIN_URL)
+    wait_for_access(driver, PASSWORD_INPUT)
+    driver.find_element_by_xpath(USERNAME_INPUT).send_keys(USERNAME)
+    driver.find_element_by_xpath(PASSWORD_INPUT).send_keys(PASSWORD)
+    driver.find_element_by_xpath(LOGIN_SUBMIT).click()
 
 
 def download_routine(driver, excercise_url):
-    sleep(0.5)
     driver.get(excercise_url)
     try:
-        wait_for_access(driver, download_exercise_file, timer=3).click()
+        wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=3).click()
     except TimeoutException:
         try:
-            wait_for_access(driver, alt_download_excercise_file, timer=3).click()
+            wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=3).click()
         except TimeoutException:
             print(excercise_url, 'did not succeeded.')
 
 
 def main():
-    global username, password
-    username, password = get_usr_pw()
+    global DLPATH, USERNAME, PASSWORD
+    scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
+    DLPATH = os.path.join(scriptpath,"exercise_files")
+    USERNAME, PASSWORD = get_usr_pw()
     courses = get_courses(os.path.dirname(os.path.abspath(sys.argv[0])))
+    
     driver = set_driver()
-    login_routine(driver, login_url)
+    set_directory(DLPATH)
+    login_routine(driver, LOGIN_URL)
     for course in courses:
-        excercise_url = course_base + '/' + course[0] + '/' + 'exercise-files'
+        excercise_url = COURSE_BASE + '/' + course[0] + '/' + 'exercise-files'
         download_routine(driver, excercise_url)
 
 
