@@ -260,9 +260,6 @@ def get_usr_pw():
     Raises:
         ValueError: User enters an empty password too many times
     """
-    global USERNAME
-    global PASSWORD
-
     print("Enter you Pluralsight credentials")
     for i in range(3):
         u0 = input("Enter username: ")
@@ -380,14 +377,15 @@ def main():
     Using command line to store username and password, loops
     through the course IDs and invoking download requests.
     """
-    global DLPATH, INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH
+    global DLPATH, USERNAME, PASSWORD
+    global INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH
 
     if flag_parser():
         print("Executing by flag input ..\n")
     elif arg_parser():
         print("Executing by user input ..\n")
     else:
-        get_usr_pw()
+        USERNAME, PASSWORD = get_usr_pw()
     
     set_subtitle()
 

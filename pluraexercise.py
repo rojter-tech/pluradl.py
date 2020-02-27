@@ -1,5 +1,4 @@
 import os, sys
-from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
@@ -20,6 +19,12 @@ ALT_DOWNLOAD_EXERCISE_FILE=r'/html/body/div[1]/div[3]/div/div[2]/section/div[4]/
 
 
 def set_driver():
+    """Preparing a Chromoium browser instance ready for downloading
+    course exercise files.
+    
+    Returns:
+        WebDriver -- Selenium WebDriver object for Chromium
+    """
     chrome_options = Options()
     chrome_options.add_argument("--window-size=640x360")
     chrome_options.add_argument("--disable-notifications")
@@ -38,12 +43,30 @@ def set_driver():
 
 
 def wait_for_access(driver, XPATH, timer=20):
+    """[summary]
+    
+    Arguments:
+        driver {WebDriver} -- Selenium WebDriver
+        XPATH {str} -- XPATH element string
+    
+    Keyword Arguments:
+        timer {int} -- Default timer to wait for element (default: {20})
+    
+    Returns:
+        [WebDriver element] -- Element in interest
+    """
     element = WebDriverWait(driver, timer).until(
     EC.element_to_be_clickable((By.XPATH, XPATH)))
     return element
 
 
 def login_routine(driver, LOGIN_URL):
+    """Handles WebDriver login in to Pluralsight
+    
+    Arguments:
+        driver {WebDriver} -- WebDriver object to use
+        LOGIN_URL {str} -- Login url
+    """
     driver.get(LOGIN_URL)
     wait_for_access(driver, PASSWORD_INPUT)
     driver.find_element_by_xpath(USERNAME_INPUT).send_keys(USERNAME)
@@ -52,6 +75,12 @@ def login_routine(driver, LOGIN_URL):
 
 
 def download_routine(driver, excercise_url):
+    """Handling the download of exercise files from Pluralsight
+    
+    Arguments:
+        driver {WebDriver} -- WebDriver object to use
+        excercise_url {str} -- Exercise files page url
+    """
     driver.get(excercise_url)
     try:
         wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=3).click()
@@ -63,6 +92,10 @@ def download_routine(driver, excercise_url):
 
 
 def main():
+    """Main execution
+    Using Selenium WebDriver along with courselist.txt and Pluralsight
+    credentials to automate the downloading process of exercise files.
+    """
     global DLPATH, USERNAME, PASSWORD
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     DLPATH = os.path.join(scriptpath,"exercise_files")
