@@ -276,7 +276,7 @@ def get_usr_pw():
         p0 = getpass.getpass(': ')
         if p0 != "":
             PASSWORD = p0
-            break
+            return USERNAME, PASSWORD
         else:
             print('Password cannot be empty, enter password again')
     else:
