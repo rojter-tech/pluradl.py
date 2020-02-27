@@ -1,4 +1,5 @@
 import os, sys
+from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
@@ -74,21 +75,25 @@ def login_routine(driver, LOGIN_URL):
     driver.find_element_by_xpath(LOGIN_SUBMIT).click()
 
 
-def download_routine(driver, excercise_url):
+def download_routine(driver, course):
     """Handling the download of exercise files from Pluralsight
     
     Arguments:
         driver {WebDriver} -- WebDriver object to use
         excercise_url {str} -- Exercise files page url
     """
+    excercise_url = COURSE_BASE + '/' + course + '/' + 'exercise-files'
     driver.get(excercise_url)
     try:
         wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=3).click()
     except TimeoutException:
         try:
             wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=3).click()
+
         except TimeoutException:
-            print(excercise_url, 'did not succeeded.')
+            print(course, 'did not succeeded.')
+            with open(os.path.join(DLPATH,'failed_downloads.txt'), 'at') as f:
+                f.write(course + '\n')
 
 
 def main():
@@ -106,8 +111,9 @@ def main():
     set_directory(DLPATH)
     login_routine(driver, LOGIN_URL)
     for course in courses:
-        excercise_url = COURSE_BASE + '/' + course[0] + '/' + 'exercise-files'
-        download_routine(driver, excercise_url)
+        
+        download_routine(driver, course[0])
+        sleep(3)
 
 
 if __name__ == "__main__":
