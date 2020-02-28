@@ -26,7 +26,7 @@ def set_driver():
     return driver
 
 
-def wait_for_access(driver, XPATH, timer=20):
+def wait_for_access(driver, XPATH, timer=10):
     element = WebDriverWait(driver, timer).until(
     EC.element_to_be_clickable((By.XPATH, XPATH)))
     return element
@@ -130,7 +130,7 @@ def store_dict_as_json(dictionary, filepath):
 def main():
     print("Loading web driver ...")
     source_data = get_source()
-    print("Processing course metadata ", flush=True, end='')
+    print("Processing course metadata ...", flush=True, end='')
     soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
     courses = {}; i=0
