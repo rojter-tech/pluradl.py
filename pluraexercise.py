@@ -44,7 +44,7 @@ def set_driver():
 
 
 def wait_for_access(driver, XPATH, timer=20):
-    """[summary]
+    """Tracking an element, waiting for it to be available.
     
     Arguments:
         driver {WebDriver} -- Selenium WebDriver
