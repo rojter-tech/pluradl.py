@@ -44,7 +44,7 @@ def get_source(n_pages=500):
             driver.execute_script(LOAD_MORE_RESULTS)
             print("Loaded 25 courses from resultpage","{:03d}".format(i+1), "of ~385.", end=' ')
         except TimeoutException:
-            print('No more results could be found ...')
+            print('No more results could be found. Preparing data ...')
             break
     print('')
     output_html = driver.page_source
