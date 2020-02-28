@@ -42,7 +42,7 @@ def get_source(n_pages=350):
             if i > 0:
                 print("Loading more results ...")
             driver.execute_script(LOAD_MORE_RESULTS)
-            print("Loaded 25 courses from resultpage","{:03d}".format(i+1), "of ~300.", end=' ')
+            print("Loaded 25 courses from resultpage","{:03d}".format(i+1), "of ~385.", end=' ')
         except TimeoutException:
             print('No more results could be found ...')
             break
