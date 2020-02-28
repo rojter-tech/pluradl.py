@@ -130,13 +130,13 @@ def store_dict_as_json(dictionary, filepath):
 def main():
     print("Loading web driver ...")
     source_data = get_source()
-    print("Processing course metadata ", end='')
+    print("Processing course metadata ", flush=True, end='')
     soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
     courses = {}; i=0
     for this_course in course_results:
         if i%200 == 0:
-            print('.', end='')
+            print('.', flush=True, end='')
         i+=1
         course_elements = get_course_elements(this_course)
         course_texts = get_course_elements_texts(course_elements)
