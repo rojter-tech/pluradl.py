@@ -128,7 +128,7 @@ def store_dict_as_json(dictionary, filepath):
 
 
 def main():
-    output_html = get_source()
+    output_html = get_source(n_pages=500)
     print("Processing course metadata ...")
     soup = BeautifulSoup(output_html, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
