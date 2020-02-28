@@ -32,7 +32,7 @@ def wait_for_access(driver, XPATH, timer=20):
     return element
 
 
-def get_source(n_pages=350):
+def get_source(n_pages=500):
     driver = set_driver()
     driver.get(SEARCH_URL)
 
@@ -128,16 +128,19 @@ def store_dict_as_json(dictionary, filepath):
 
 
 def main():
-    output_html = get_source(n_pages=500)
-    print("Processing course metadata ...")
-    soup = BeautifulSoup(output_html, 'html.parser')
+    print("Loading web driver ...")
+    source_data = get_source()
+    print("Processing course metadata ", end='')
+    soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
-    courses = {}
+    courses = {}; i=0
     for this_course in course_results:
+        if i%200 == 0:
+            print('.', end='')
         course_elements = get_course_elements(this_course)
         course_texts = get_course_elements_texts(course_elements)
         courses[course_texts[0]] = get_course_dictionary(course_texts)
-
+    print('')
     print('Loaded', len(courses), 'courses.', 'Saving results to', JSON_OUTPUT_FILE)
     store_dict_as_json(courses, JSON_OUTPUT_FILE)
     print('Done.')
