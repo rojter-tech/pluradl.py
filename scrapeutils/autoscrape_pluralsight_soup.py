@@ -137,6 +137,7 @@ def main():
     for this_course in course_results:
         if i%200 == 0:
             print('.', end='')
+        i+=1
         course_elements = get_course_elements(this_course)
         course_texts = get_course_elements_texts(course_elements)
         courses[course_texts[0]] = get_course_dictionary(course_texts)
