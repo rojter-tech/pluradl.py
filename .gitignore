@@ -191,7 +191,6 @@ dmypy.json
 .pyre/
 
 # local files
-courselist.txt
 *.part
 *.log
 .logs
