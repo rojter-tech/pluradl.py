@@ -75,21 +75,21 @@ def login_routine(driver, LOGIN_URL):
     driver.find_element_by_xpath(LOGIN_SUBMIT).click()
 
 
-def download_routine(driver, course):
+def download_routine(driver, course, sleep_time=2):
     """Handling the download of exercise files from Pluralsight
     
     Arguments:
         driver {WebDriver} -- WebDriver object to use
         excercise_url {str} -- Exercise files page url
     """
-    sleep(2)
+    sleep(sleep_time)
     excercise_url = COURSE_BASE + '/' + course + '/' + 'exercise-files'
     driver.get(excercise_url)
     try:
-        wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=3).click()
+        wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
     except TimeoutException:
         try:
-            wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=3).click()
+            wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
 
         except TimeoutException:
             print(course, 'did not succeeded. Tagging it ...')
