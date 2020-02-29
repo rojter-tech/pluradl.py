@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import os, json, re
+import os, json, re, sys
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
+
 
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 JSON_OUTPUT_FILE = os.path.join("data", "courses.json")
@@ -46,6 +47,9 @@ def get_source(n_pages=500):
         except TimeoutException:
             print('No more results could be found. Preparing data ...')
             break
+    print("Finalizing reading from source.")
+    for i in range(1000):
+        driver.execute_script(LOAD_MORE_RESULTS)
     print('')
     output_html = driver.page_source
     driver.close()
@@ -128,15 +132,23 @@ def store_dict_as_json(dictionary, filepath):
 
 
 def main():
+    print(JSON_OUTPUT_FILE)
+    if os.path.exists(JSON_OUTPUT_FILE):
+        with open(JSON_OUTPUT_FILE) as json_file:
+            courses = json.load(json_file)
+    else:
+        courses = {}
     print("Loading web driver ...")
     source_data = get_source()
-    print("Processing course metadata ...", flush=True, end='')
     soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
-    courses = {}; i=0
+    i=0
+    out=sys.stdout
+    print("Processing course metadata ...", flush=True, end='')
     for this_course in course_results:
         if i%200 == 0:
-            print('.', flush=True, end='')
+            msg = '.'
+            out.write(msg)
         i+=1
         course_elements = get_course_elements(this_course)
         course_texts = get_course_elements_texts(course_elements)
