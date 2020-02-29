@@ -82,19 +82,33 @@ def download_routine(driver, course, sleep_time=2):
         driver {WebDriver} -- WebDriver object to use
         excercise_url {str} -- Exercise files page url
     """
-    sleep(sleep_time)
     excercise_url = COURSE_BASE + '/' + course + '/' + 'exercise-files'
+    no_materals_lookup = r'this course has no materials'
+    upgrade_lookup = r'Upgrade today'
+
     driver.get(excercise_url)
+    materials_check=True
     try:
         wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
     except TimeoutException:
-        try:
-            wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
-
-        except TimeoutException:
-            print(course, 'did not succeeded. Tagging it ...')
+        course_text = driver.find_element_by_class_name('l-course-page__content').text
+        if re.search(no_materals_lookup, course_text):
+            materials_check=False
+            print(course, 'did not have any course materials. Tagging it ...')
             with open(os.path.join(DLPATH,'tagged_courses.txt'), 'at') as f:
                 f.write(course + '\n')
+        elif re.search(upgrade_lookup, course_text):
+            materials_check=False
+            print(course, 'are not a part of your subscription. Tagging it ...')
+            with open(os.path.join(DLPATH,'tagged_courses.txt'), 'at') as f:
+                f.write(course + '\n')
+        if materials_check:
+            try:
+                wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
+            except TimeoutException:
+                print(course, 'did not succeeded. The course might not be in your subscription or it`s not available anymore. Tagging it ...')
+                with open(os.path.join(DLPATH,'tagged_courses.txt'), 'at') as f:
+                    f.write(course + '\n')
 
 
 def already_tagged_courses():
