@@ -82,6 +82,7 @@ def download_routine(driver, course, sleep_time=2):
         driver {WebDriver} -- WebDriver object to use
         excercise_url {str} -- Exercise files page url
     """
+    sleep(sleep_time)
     excercise_url = COURSE_BASE + '/' + course + '/' + 'exercise-files'
     no_materals_lookup = r'this course has no materials'
     upgrade_lookup = r'Upgrade today'
@@ -91,7 +92,10 @@ def download_routine(driver, course, sleep_time=2):
     try:
         wait_for_access(driver, DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
     except TimeoutException:
-        course_text = driver.find_element_by_class_name('l-course-page__content').text
+        try:
+            course_text = driver.find_element_by_class_name('l-course-page__content').text
+        except:
+            course_text = ""
         if re.search(no_materals_lookup, course_text):
             materials_check=False
             print(course, 'did not have any course materials. Tagging it ...')
