@@ -2322,6 +2322,7 @@ custom-patterns-illustrator-869
 custom-shaders-houdini-2282
 custom-staircase-revit-1465
 custom-templates-archicad-2161
+custom-typeface-illustrator-fontforge-2296
 custom-user-interfaces-maya-qt-designer-1167
 custom-vba-class-development
 customer-service-processes-procedures-understanding
@@ -4705,6 +4706,7 @@ kerberos-ssrs-configuring
 keying-greenscreens-composite-452
 keying-greenscreens-nuke-453
 keys-amazing-graphic-design-layouts-1030
+kit-bashing-game-assets-speed-up-workflows-3ds-max-unity-1859
 kit-bashing-mech-soldier-concept-photoshop-774
 kitchen-visualization-3ds-max-v-ray-1851
 knockout
