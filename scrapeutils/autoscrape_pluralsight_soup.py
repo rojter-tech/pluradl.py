@@ -74,7 +74,7 @@ def get_course_elements(course):
 
 def get_length(length_element):
     length_text = length_element.get_text()
-    hours=None; minutes=None;
+    hours=None; minutes=None
     if length_text:
         hours_search = re.search(r'[0-9]+(?=h)', length_text)
         minutes_search = re.search(r'[0-9]+(?=m)', length_text)
