@@ -7,7 +7,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
-
+if os.name == 'nt':
+    clear = lambda: os.system('cls')
+elif os.name == 'posix':
+    clear = lambda: os.system('clear')
+else:
+    clear = lambda: None
 
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 JSON_OUTPUT_FILE = os.path.join("data", "courses.json")
@@ -41,14 +46,15 @@ def get_source(n_pages=500):
         try:
             wait_for_access(driver, RESULT_BUTTON)
             if i > 0:
-                print("Loading more results ...")
+                clear()
+                print("Loading more results " + i*'.')
             driver.execute_script(LOAD_MORE_RESULTS)
             print("Loaded 25 courses from resultpage","{:03d}".format(i+1), "of ~385.", end=' ')
         except TimeoutException:
             print('No more results could be found. Preparing data ...')
             break
     print("Finalizing reading from source.")
-    for i in range(1000):
+    for i in range(10000):
         driver.execute_script(LOAD_MORE_RESULTS)
     print('')
     output_html = driver.page_source
