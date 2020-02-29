@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, re
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -102,19 +102,32 @@ def main():
     credentials to automate the downloading process of exercise files.
     """
     global DLPATH, USERNAME, PASSWORD
+
+    zip_reg = re.compile(r'.+\.zip$')
+    name_reg = re.compile(r'.*(?=.zip)')
+
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     DLPATH = os.path.join(scriptpath,"exercise_files")
     USERNAME, PASSWORD = get_usr_pw()
     courses = get_courses(os.path.dirname(os.path.abspath(sys.argv[0])))
     
+    print(DLPATH)
+    course_tags = []
+    for element in os.listdir(DLPATH):
+        if zip_reg.match(element):
+            course_tags.append(name_reg.search(element).group())
+            print(name_reg.search(element).group())
+
     driver = set_driver()
     set_directory(DLPATH)
     login_routine(driver, LOGIN_URL)
     for course in courses:
-        
-        download_routine(driver, course[0])
-        sleep(3)
-
+        if course not in course_tags:
+            download_routine(driver, course[0])
+            sleep(2)
+            pass
+        else:
+            print("Already downloaded, skipping it.")
 
 if __name__ == "__main__":
     main()
