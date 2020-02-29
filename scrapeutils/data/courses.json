@@ -7973,6 +7973,15 @@
         "title": "Managing Applications in AWS",
         "url": "https://www.pluralsight.com/courses/aws-managing-applications"
     },
+    "aws-managing-docker-containers": {
+        "author": "Jean Francois Landry",
+        "date": "Jun 4 2019",
+        "length": 68,
+        "level": "Beginner",
+        "rating": 14,
+        "title": "Managing Docker Container on AWS with the GUI",
+        "url": "https://www.pluralsight.com/courses/aws-managing-docker-containers"
+    },
     "aws-managing-ec2-instances": {
         "author": "Armen Avanesi",
         "date": "May 23 2019",
@@ -18404,6 +18413,15 @@
         "title": "Configuring and Managing SharePoint Online",
         "url": "https://www.pluralsight.com/courses/configuring-managing-sharepoint-online"
     },
+    "configuring-managing-spf-dkim-dmarc": {
+        "author": "Guillaume Fortin-Debigar\u00e9",
+        "date": "Aug 7 2019",
+        "length": 132,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Configuring and Managing SPF, DKIM, and DMARC",
+        "url": "https://www.pluralsight.com/courses/configuring-managing-spf-dkim-dmarc"
+    },
     "configuring-nat-vpn-using-palo-alto-firewalls": {
         "author": "Craig Stansbury",
         "date": "May 10 2019",
@@ -22804,6 +22822,15 @@
         "rating": "",
         "title": "Detailing Next-gen Characters in ZBrush",
         "url": "https://www.pluralsight.com/courses/detailing-next-gen-characters-zbrush-3461"
+    },
+    "detecting-analyzing-fileless-malware": {
+        "author": "Tyler Hudak",
+        "date": "Dec 18 2018",
+        "length": 100,
+        "level": "Intermediate",
+        "rating": 22,
+        "title": "Hunting for Fileless Malware",
+        "url": "https://www.pluralsight.com/courses/detecting-analyzing-fileless-malware"
     },
     "dev-guide-to-images": {
         "author": "Robert Boedigheimer",
@@ -33434,6 +33461,15 @@
         "title": "Architecting Serverless Big Data Solutions Using Google Dataflow",
         "url": "https://www.pluralsight.com/courses/google-dataflow-architecting-serverless-big-data-solutions"
     },
+    "google-dataproc-architecting-big-data-solutions": {
+        "author": "Janani Ravi",
+        "date": "Nov 1 2018",
+        "length": 137,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Architecting Big Data Solutions Using Google Dataproc",
+        "url": "https://www.pluralsight.com/courses/google-dataproc-architecting-big-data-solutions"
+    },
     "google-dialogflow-chatbots": {
         "author": "Janani Ravi",
         "date": "Feb 12 2018",
@@ -34847,6 +34883,15 @@
         "title": "Making .NET Data Types More Human With Humanizer",
         "url": "https://www.pluralsight.com/courses/humanizer-making-dotnet-types-more-human"
     },
+    "hybrid-cloud-infrastructure-foundations-anthos": {
+        "author": "Google Cloud",
+        "date": "Dec 10 2019",
+        "length": 128,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Hybrid Cloud Infrastructure Foundations with Anthos",
+        "url": "https://www.pluralsight.com/courses/hybrid-cloud-infrastructure-foundations-anthos"
+    },
     "hybrid-cloud-multi-cluster-anthos": {
         "author": "Google Cloud",
         "date": "Dec 10 2019",
@@ -35278,6 +35323,15 @@
         "rating": "",
         "title": "Creating Illustrations Using 3D Objects in Photoshop and CINEMA 4D",
         "url": "https://www.pluralsight.com/courses/illustrations-3d-objects-photoshop-cinema-4d-1714"
+    },
+    "illustrative-realistic-rendering-processes-photoshop-50": {
+        "author": "Yashar Kassai",
+        "date": "Jun 15 2011",
+        "length": 230,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Illustrative and Realistic Rendering Processes in Photoshop",
+        "url": "https://www.pluralsight.com/courses/illustrative-realistic-rendering-processes-photoshop-50"
     },
     "illustrative-storytelling-dev-photoshop-1323": {
         "author": "Kurt Jones",
@@ -36764,6 +36818,15 @@
         "title": "Information Security Manager: Information Security Incident Management",
         "url": "https://www.pluralsight.com/courses/infosec-manager-information-security-incident-management"
     },
+    "infosec-manager-information-security-program-management": {
+        "author": "Rogers",
+        "date": "Dec 12 2018",
+        "length": 252,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Information Security Manager: Information Security Program Management",
+        "url": "https://www.pluralsight.com/courses/infosec-manager-information-security-program-management"
+    },
     "infosec-manager-security-governance": {
         "author": "Rogers",
         "date": "Jul 31 2017",
@@ -37645,6 +37708,15 @@
         "rating": "",
         "title": "Introduction to ICE in XSI",
         "url": "https://www.pluralsight.com/courses/intro-ice-xsi-3531"
+    },
+    "intro-implement-veeam-backup-replication": {
+        "author": "Greg Shields",
+        "date": "Jan 22 2020",
+        "length": 130,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Introduce and Implement Veeam Backup and Replication",
+        "url": "https://www.pluralsight.com/courses/intro-implement-veeam-backup-replication"
     },
     "intro-lighting-3ds-max-2009-3562": {
         "author": "Kyle Green",
@@ -77075,6 +77147,15 @@
         "title": "Turning the Corporate Ladder into an Escalator",
         "url": "https://www.pluralsight.com/courses/turning-corporate-ladder-into-escalator"
     },
+    "twelve-principles-animation-3ds-max-351": {
+        "author": "Delano Athias",
+        "date": "Jun 1 2010",
+        "length": 156,
+        "level": "Beginner",
+        "rating": "",
+        "title": "12 Principles of Animation in 3ds Max",
+        "url": "https://www.pluralsight.com/courses/twelve-principles-animation-3ds-max-351"
+    },
     "twelve-principles-animation-maya-297": {
         "author": "Delano Athias",
         "date": "Mar 18 2010",
@@ -79342,6 +79423,15 @@
         "rating": 39,
         "title": "Using MiniProfiler in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/using-miniprofiler-aspdotnet-core"
+    },
+    "using-modeling-toolkit-maya-2014-1199": {
+        "author": "Justin Marshall",
+        "date": "Jun 24 2013",
+        "length": 69,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Using the Modeling Toolkit in Maya 2014",
+        "url": "https://www.pluralsight.com/courses/using-modeling-toolkit-maya-2014-1199"
     },
     "using-mongodb-aspdotnet-mvc": {
         "author": "Wes Higbee",
