@@ -92,21 +92,21 @@ def download_routine(driver, course):
             wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=3).click()
 
         except TimeoutException:
-            print(course, 'did not succeeded.')
-            with open(os.path.join(DLPATH,'failed_downloads.txt'), 'at') as f:
+            print(course, 'did not succeeded. Tagging it ...')
+            with open(os.path.join(DLPATH,'tagged_courses.txt'), 'at') as f:
                 f.write(course + '\n')
 
 
 def already_tagged_courses():
     """Courses get tagged if they are downloaded or if they not contain 
-    any course materials.
+    any valid course materials for this subscription.
     
     Returns:
         [str] -- List of tagged course_ids
     """
     zip_reg = re.compile(r'.+\.zip$')
     name_reg = re.compile(r'.*(?=.zip)')
-    failed_downloads = os.path.join(DLPATH, 'failed_downloads.txt')
+    failed_downloads = os.path.join(DLPATH, 'tagged_courses.txt')
 
     course_tags = []
     if os.path.exists(failed_downloads):
@@ -144,7 +144,7 @@ def main():
         if course[0] not in course_tags:
             download_routine(driver, course[0])
         else:
-            print(course[0], "already downloaded, skipping it.")
+            print(course[0], "is tagged, skipping it.")
 
 
 if __name__ == "__main__":
