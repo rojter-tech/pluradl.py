@@ -131,7 +131,11 @@ def main():
     DLPATH = os.path.join(scriptpath,"exercise_files")
     USERNAME, PASSWORD = get_usr_pw()
     courses = get_courses(os.path.dirname(os.path.abspath(sys.argv[0])))
-    course_tags = already_tagged_courses()
+
+    if os.path.exists(DLPATH):
+        course_tags = already_tagged_courses()
+    else:
+        course_tags = []
 
     driver = set_driver()
     set_directory(DLPATH)
@@ -141,6 +145,7 @@ def main():
             download_routine(driver, course[0])
         else:
             print(course[0], "already downloaded, skipping it.")
+
 
 if __name__ == "__main__":
     main()
