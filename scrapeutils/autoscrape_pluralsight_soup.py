@@ -54,7 +54,7 @@ def get_source(n_pages=500):
             print('No more results could be found. Preparing data ...')
             break
     print("Finalizing reading from source.")
-    for i in range(1000):
+    for i in range(10000):
         driver.execute_script(LOAD_MORE_RESULTS)
     print('')
     output_html = driver.page_source
