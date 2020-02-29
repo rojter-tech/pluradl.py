@@ -75,7 +75,7 @@ def login_routine(driver, LOGIN_URL):
     driver.find_element_by_xpath(LOGIN_SUBMIT).click()
 
 
-def download_routine(driver, course, sleep_time=2):
+def download_routine(driver, course, sleep_time=5):
     """Handling the download of exercise files from Pluralsight
     
     Arguments:
@@ -111,7 +111,7 @@ def download_routine(driver, course, sleep_time=2):
                 wait_for_access(driver, ALT_DOWNLOAD_EXERCISE_FILE, timer=sleep_time).click()
             except TimeoutException:
                 print(course, 'did not succeeded. The course might not be in your subscription or it`s not available anymore. Tagging it ...')
-                with open(os.path.join(DLPATH,'tagged_courses.txt'), 'at') as f:
+                with open(os.path.join(DLPATH,'failed_courses.txt'), 'at') as f:
                     f.write(course + '\n')
 
 
@@ -160,10 +160,12 @@ def main():
     login_routine(driver, LOGIN_URL)
     for course in courses:
         if course[0] not in course_tags:
-            download_routine(driver, course[0])
+            download_routine(driver, course[0], sleep_time=5)
         else:
             print(course[0], "is tagged, skipping it.")
-
+    print("End of list reached. Wait for downloads being finished before terminate this.")
+    sleep(5000)
+    driver.close()
 
 if __name__ == "__main__":
     main()
