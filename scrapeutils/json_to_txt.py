@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 import json, os, re
-JSON_FILE = os.path.join("...", "data", "courses.json")
+JSON_FILE = os.path.join("..", "data", "courses.json")
 mode = 'search'
 mode = 'all'
 

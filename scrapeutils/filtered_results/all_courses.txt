@@ -927,6 +927,7 @@ azure-adding-search-abilities-apps
 azure-administration-aws-administrators
 azure-administration-aws-administrators-update
 azure-advanced-storage
+azure-appfabric-course
 azure-application-services-implementing
 azure-architecture-getting-started
 azure-assets-security-auditing-best-practices
@@ -2776,6 +2777,7 @@ droidcon-boston-2019-session-30
 droidcon-boston-2019-session-31
 droidcon-boston-2019-session-32
 droidcon-nyc-19-life-changing-magic-kotlin-multiplatform-serialization
+droidcon-nyc-19-life-changing-magic-kotlin-multiplatform-serialization0
 droidcon-nyc-2019-session-01
 droidcon-nyc-2019-session-02
 droidcon-nyc-2019-session-03
