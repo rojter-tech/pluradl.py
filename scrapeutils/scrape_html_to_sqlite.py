@@ -5,8 +5,8 @@ import numpy as np
 from sqlite3 import Error
 from html.parser import HTMLParser
 
-HTML_DATA = os.path.join(r'data', r'search_results.html')
-DB_FILE = os.path.join(r'data', r'courses.db')
+HTML_DATA = os.path.join("...", "data", "search_results.html")
+DB_FILE = os.path.join("...", "data", "courses.db")
 course_params = []
 course_id = "";
 

@@ -2,11 +2,11 @@ from __future__ import unicode_literals
 import sqlite3, os
 from sqlite3 import Error
 
-DB_FILE = os.path.join(r'data', r'courses.db')
-ALL_COURSES_OUTPUT = os.path.join(r'filtered_results', r'all_courses.txt')
-BEGINNER_COURSES_OUTPUT = os.path.join(r'filtered_results', r'beginner_courses.txt')
-INTERMEDIATE_COURSES_OUTPUT = os.path.join(r'filtered_results', r'intermediate_courses.txt')
-ADVANCED_COURSES_OUTPUT = os.path.join(r'filtered_results', r'advanced_courses.txt')
+DB_FILE = os.path.join("...", "data", "courses.db")
+ALL_COURSES_OUTPUT = os.path.join('filtered_results', 'all_courses.txt')
+BEGINNER_COURSES_OUTPUT = os.path.join('filtered_results', 'beginner_courses.txt')
+INTERMEDIATE_COURSES_OUTPUT = os.path.join('filtered_results', 'intermediate_courses.txt')
+ADVANCED_COURSES_OUTPUT = os.path.join('filtered_results', 'advanced_courses.txt')
 
 def create_connection(db_file, con=None):    
     try:

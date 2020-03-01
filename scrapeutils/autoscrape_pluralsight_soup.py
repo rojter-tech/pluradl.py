@@ -15,7 +15,7 @@ else:
     clear = lambda: None
 
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
-JSON_OUTPUT_FILE = os.path.join("data", "courses.json")
+JSON_OUTPUT_FILE = os.path.join('..', "data", "courses.json")
 LOAD_MORE_RESULTS = r'jQuery(".button--secondary").click()'
 RESULT_BUTTON=r'//*[@id="search-results-section-load-more"]'
 

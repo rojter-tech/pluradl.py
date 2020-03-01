@@ -5,8 +5,8 @@ if not os.path.exists('data'):
     os.mkdir('data')
 
 SCRAPE_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
-HTML_OUTPUT_FILE = os.path.join("data", "search_results.html")
-JSON_OUTPUT_FILE = os.path.join("data", "courses.json")
+HTML_OUTPUT_FILE = os.path.join("...", "data", "search_results.html")
+JSON_OUTPUT_FILE = os.path.join("...", "data", "courses.json")
 
 
 def load_and_save_html(SCRAPE_URL, HTML_OUTPUT_FILE):
@@ -156,7 +156,7 @@ def main():
 
             if author_text and not '{' in author_text:
                 thiscourse['url'] = url_text
-                thiscourse['name'] = name_text
+                thiscourse['title'] = name_text
                 thiscourse['author'] = author_text.split('by ')[-1]
                 thiscourse['level'] = level_text
                 thiscourse['date'] = date_text
