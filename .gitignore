@@ -200,6 +200,5 @@ _failed
 _finished
 _canceled
 scratch*.py
-exercise_files
 *.zip
 *.crdownload
