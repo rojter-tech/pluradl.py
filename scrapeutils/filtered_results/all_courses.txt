@@ -2776,7 +2776,6 @@ droidcon-boston-2019-session-30
 droidcon-boston-2019-session-31
 droidcon-boston-2019-session-32
 droidcon-nyc-19-life-changing-magic-kotlin-multiplatform-serialization
-droidcon-nyc-19-life-changing-magic-kotlin-multiplatform-serialization0
 droidcon-nyc-2019-session-01
 droidcon-nyc-2019-session-02
 droidcon-nyc-2019-session-03
