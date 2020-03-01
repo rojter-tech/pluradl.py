@@ -8369,6 +8369,15 @@
         "title": "Implementing Azure Application Services",
         "url": "https://www.pluralsight.com/courses/azure-application-services-implementing"
     },
+    "azure-appfabric-course": {
+        "author": "Scott Seely",
+        "date": "Dec 26 2010",
+        "length": 259,
+        "level": "Intermediate",
+        "rating": 21,
+        "title": "Implementing Azure Application Services",
+        "url": "https://app.pluralsight.com/library/courses/azure-appfabric-course"
+    },
     "azure-architecture-getting-started": {
         "author": "Tim Warner",
         "date": "May 23 2017",
