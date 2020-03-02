@@ -2200,7 +2200,7 @@
         "date": "Dec 30 2019",
         "length": 18,
         "level": "Beginner",
-        "rating": 1,
+        "rating": 18,
         "title": "Agile Transformation: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/agile-transformation-executive-briefing"
     },
@@ -12316,7 +12316,7 @@
         "date": "Mar 2 2018",
         "length": 76,
         "level": "Beginner",
-        "rating": 120,
+        "rating": 72,
         "title": "Building Layouts with the CSS Grid",
         "url": "https://www.pluralsight.com/courses/building-layouts-css-grid"
     },
@@ -41611,7 +41611,7 @@
         "date": "Jun 10 2016",
         "length": 136,
         "level": "Beginner",
-        "rating": 1,
+        "rating": 327,
         "title": "JavaScript Module Fundamentals",
         "url": "https://www.pluralsight.com/courses/javascript-module-fundamentals"
     },
@@ -47731,7 +47731,7 @@
         "date": "Feb 11 2020",
         "length": 92,
         "level": "Intermediate",
-        "rating": 1,
+        "rating": 11,
         "title": "Design a Data Protection Strategy with Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-data-protection-strategy-design"
     },
@@ -48868,6 +48868,15 @@
         "rating": 14,
         "title": "Managing Microsoft Azure Security",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-security-managing"
+    },
+    "microsoft-azure-security-privacy-concepts": {
+        "author": "Michael Brown",
+        "date": "Mar 2 2020",
+        "length": 134,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Microsoft Azure Security and Privacy Concepts",
+        "url": "https://www.pluralsight.com/courses/microsoft-azure-security-privacy-concepts"
     },
     "microsoft-azure-security-tools-protect-ai-solutions": {
         "author": "Sahil Malik",
@@ -72949,7 +72958,7 @@
         "date": "May 29 2015",
         "length": 284,
         "level": "Beginner",
-        "rating": 2,
+        "rating": 69,
         "title": "Starting in Symfony2",
         "url": "https://www.pluralsight.com/courses/starting-in-symfony2"
     },
@@ -74866,7 +74875,7 @@
         "date": "Jun 12 2017",
         "length": 82,
         "level": "Intermediate",
-        "rating": 1,
+        "rating": 44,
         "title": "Automating AWS and vSphere with Terraform",
         "url": "https://www.pluralsight.com/courses/terraform-automating-aws-vsphere"
     },
@@ -83605,7 +83614,7 @@
         "date": "Jul 23 2013",
         "length": 381,
         "level": "Intermediate",
-        "rating": 1,
+        "rating": 160,
         "title": "Microsoft Azure Mobile Services",
         "url": "https://www.pluralsight.com/courses/windows-azure-mobile-services"
     },
@@ -84334,7 +84343,7 @@
         "date": "Apr 30 2015",
         "length": 158,
         "level": "Intermediate",
-        "rating": 2012,
+        "rating": 118,
         "title": "Windows Server 2012 R2 (70-411) Deploy and Manage Servers",
         "url": "https://www.pluralsight.com/courses/windows-server-2012-70-411-deploy-manage-servers"
     },
