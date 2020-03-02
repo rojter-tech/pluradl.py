@@ -13,20 +13,18 @@ def main():
     course_results = soup.find_all("div", class_="search-result__info")
     out.write("Done.\n"); out.flush()
     i=0
-    print("Processing course metadata ...", flush=True, end='')
+    out.write("Processing course metadata ."); out.flush()
     for this_course in course_results:
-        if i%200 == 0:
-            msg = '.'
-            out.write(msg); out.flush()
+        if i%250 == 0:
+            out.write('.'); out.flush()
         i+=1
         course_elements = get_course_elements(this_course)
         course_texts = get_course_elements_texts(course_elements)
         course_dict[course_texts[0]] = get_course_dictionary(course_texts)
-    print('')
-    print('Loaded', len(course_dict), 'courses.', '\nSaving results to', JSON_OUTPUT_FILE)
+    msg = ' Loaded', len(course_dict), 'courses.', '\nSaving results to', JSON_OUTPUT_FILE
+    out.write(msg); out.flush()
     store_dict_as_json(course_dict, JSON_OUTPUT_FILE)
-    print('Done.')
-
+    print('Done scraping courses.')
 
 if __name__ == "__main__":
     main()

@@ -48,11 +48,11 @@ def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
             elif i%5 == 0:
                 out.write('.'); out.flush()
         except TimeoutException:
-            msg = "\nNo more courses could be found.\n"
+            msg = "\nNo more courses could be found."
             out.write(msg)
             break
     
-    out.write("Scanning done.\nFinalizing result data .")
+    out.write(" Scanning done.\nFinalizing result data .")
     for i in range(finish_rounds):
         driver.execute_script(LOAD_MORE_RESULTS)
         if i%10 == 0:
