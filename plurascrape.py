@@ -24,7 +24,7 @@ def main():
     msg = ' Loaded ' + str(len(course_dict)) + ' courses.' + '\nSaving results to ' + JSON_OUTPUT_FILE
     out.write(msg); out.flush()
     store_dict_as_json(course_dict, JSON_OUTPUT_FILE)
-    out.write('\nDone scraping courses.'); out.flush()
+    out.write('\nDone scraping courses.\n'); out.flush()
 
 if __name__ == "__main__":
     main()
