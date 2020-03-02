@@ -123,10 +123,8 @@ def load_stored_json(json_path):
     
     return json_dict
 
-
 ############################# Regex functions ############################
 ##########################################################################
-
 
 def outer_search_snippet(snippet, class_name):
     read_state=False; track=0; search_result = None
@@ -174,11 +172,8 @@ def return_lookaround_text(lookaround_search):
         lookaround_text = lookaround_search.group()
         return lookaround_text
 
-
-
 ######################## Beautuful soup functions ########################
 ##########################################################################
-
 
 def get_course_elements(course):
     title = course.find("div", class_="search-result__title")
@@ -200,4 +195,3 @@ def get_course_elements_texts(course_elements):
     length = get_length(course_elements[4].get_text())
     rating = get_rating(course_elements[5])
     return courseid, url, title, author, level, date, length, rating
-

@@ -38,7 +38,7 @@ def outer_search_html(source_html, class_name):
 
 def main():
     course_dict = load_stored_json(JSON_OUTPUT_FILE)
-    source_data = get_courselist_source(SEARCH_URL, n_pages=1)
+    source_data = get_courselist_source(SEARCH_URL, n_pages=500)
 
     class_name = r'search-result columns'
     search_snippets = outer_search_html(source_data, class_name)
