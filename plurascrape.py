@@ -8,7 +8,7 @@ SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 def main():
     course_dict = load_stored_json(JSON_OUTPUT_FILE)
     print("Loading web driver ...")
-    source_data = get_courselist_source(SEARCH_URL, n_pages=10, finish_rounds=1)
+    source_data = get_courselist_source(SEARCH_URL, n_pages=400, finish_rounds=100)
     soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
     i=0
