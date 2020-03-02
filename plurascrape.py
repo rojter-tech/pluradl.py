@@ -5,6 +5,7 @@ JSON_OUTPUT_FILE = os.path.abspath(os.path.join(SCRIPTPATH, "data", "courses.jso
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 
 def main():
+    start = time()
     out=sys.stdout
     course_dict = load_stored_json(JSON_OUTPUT_FILE)
     source_data = get_courselist_source(SEARCH_URL, n_pages=400, finish_rounds=100)
@@ -24,7 +25,11 @@ def main():
     msg = ' Loaded ' + str(len(course_dict)) + ' courses.' + '\nSaving results to ' + JSON_OUTPUT_FILE
     out.write(msg); out.flush()
     store_dict_as_json(course_dict, JSON_OUTPUT_FILE)
-    out.write('\nDone scraping courses.\n'); out.flush()
+    end = time()
+    timedelta = end - start
+    minutes = int(timedelta/60)
+    seconds = int(timedelta%60)
+    out.write('\nDone scraping courses in ' + str(minutes) + 'm' + str(seconds) + 's' + '.\n'); out.flush()
 
 if __name__ == "__main__":
     main()

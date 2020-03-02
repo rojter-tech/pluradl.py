@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 import os, json, re, sys, codecs
+from time import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
