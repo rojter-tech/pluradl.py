@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import os, json, re, sys
+import os, json, re, sys, codecs
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
@@ -54,7 +54,7 @@ def get_source(n_pages=500):
             print('No more results could be found. Preparing data ...')
             break
     print("Finalizing reading from source.")
-    for i in range(10000):
+    for i in range(5000):
         driver.execute_script(LOAD_MORE_RESULTS)
     print('')
     output_html = driver.page_source
@@ -133,21 +133,19 @@ def store_dict_as_json(dictionary, filepath):
     path = os.path.dirname(filepath)
     if not os.path.exists(path):
         os.mkdir(path)
-    with open(filepath, 'wt') as f:
-        json_string = json.dumps(dictionary, sort_keys=True, indent=4, ensure_ascii=False).encode('utf8')
-        decoded_json = json_string.decode()
-        f.write(decoded_json)
-
+    with codecs.open(filepath, 'w', "utf-8") as f:
+        json_string = json.dumps(dictionary, sort_keys=True, indent=4, ensure_ascii=False)
+        f.write(json_string)
 
 def main():
     print(JSON_OUTPUT_FILE)
     if os.path.exists(JSON_OUTPUT_FILE):
-        with open(JSON_OUTPUT_FILE) as json_file:
+        with codecs.open(JSON_OUTPUT_FILE, 'r', 'utf-8') as json_file:
             courses = json.load(json_file)
     else:
         courses = {}
     print("Loading web driver ...")
-    source_data = get_source()
+    source_data = get_source(n_pages=400)
     soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
     i=0
