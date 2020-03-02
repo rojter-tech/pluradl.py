@@ -5428,6 +5428,7 @@ microsoft-azure-search-solution-implementing
 microsoft-azure-securing-application-lifecycle
 microsoft-azure-security-getting-started
 microsoft-azure-security-managing
+microsoft-azure-security-privacy-concepts
 microsoft-azure-security-tools-protect-ai-solutions
 microsoft-azure-select-implement-appropriate-deployment-pattern
 microsoft-azure-serverless-computing-configuring
