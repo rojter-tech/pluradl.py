@@ -44,14 +44,14 @@ def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
             driver.execute_script(LOAD_MORE_RESULTS)
             if i == 0:
                 msg_part1 = "Page loaded successfully.\n"
-                msg_part2 = "              0%[.................................................]100%"
-                msg_part3 = "\nScanning courses ."
+                msg_part2 = "                 0%[.................................................]100%"
+                msg_part3 = "\nScanning courses 0%[."
                 msg       = msg_part1+msg_part2+msg_part3
                 out.write(msg); out.flush()
             elif i%8 == 0:
                 out.write('.'); out.flush()
         except TimeoutException:
-            msg = "\nNo more courses could be found."
+            msg = "]100%\nNo more courses could be found."
             out.write(msg)
             break
     
