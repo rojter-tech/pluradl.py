@@ -21,7 +21,7 @@ def main():
         course_elements = get_course_elements(this_course)
         course_texts = get_course_elements_texts(course_elements)
         course_dict[course_texts[0]] = get_course_dictionary(course_texts)
-    msg = ' Loaded', len(course_dict), 'courses.', '\nSaving results to', JSON_OUTPUT_FILE
+    msg = ' Loaded ' + len(course_dict) + ' courses.' + '\nSaving results to ' + JSON_OUTPUT_FILE
     out.write(msg); out.flush()
     store_dict_as_json(course_dict, JSON_OUTPUT_FILE)
     print('Done scraping courses.')
