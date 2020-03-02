@@ -5,6 +5,7 @@ laying-foundation-penetration-testing
 metasploit-penetration-testing-introduction
 network-penetration-testing-python-kali-linux
 opsec-penetration-testers
+penetration-testing-action
 penetration-testing-automation-using-python-kali-linux
 penetration-testing-big-picture
 penetration-testing-identity-authentication-authorization-mechanism
@@ -12,7 +13,9 @@ penetration-testing-lifecycle-explained
 penetration-testing-metasploit-framework
 penetration-testing-sharepoint
 play-by-play-penetration-testers-guide-social-engineering
+recon-ng-penetration-testing-osint-gathering
 session-management-testing-web-application-penetration-testing
 web-application-penetration-testing-with-burp-suite
 wireless-network-penetration-testing
+wireless-network-penetration-testing-advanced-techniques
 writing-penetration-testing-reports
