@@ -593,6 +593,7 @@ apex-soql-salesforce
 api-design-nodejs-express-mongo
 api-testing-hp-unified-functional-testing
 app-deployment-debugging-performance
+app-deployment-debugging-performance-1
 app-repackaging-using-orca
 appfabric-hosting
 appfabriccache
@@ -1307,6 +1308,7 @@ building-apps-angular-firebase-angularfire
 building-apps-durandal-2-mvc5-breeze
 building-aspdotnet-core-mvc-web-applications
 building-async-api-aspdotnet-core
+building-authorization-azure-active-directory-developers
 building-batch-data-pipelines-gcp
 building-blocks-biml
 building-blocks-hadoop-hdfs-mapreduce-yarn
@@ -3537,6 +3539,7 @@ getting-started-analyzing-network-traffic-wireshark
 getting-started-ansible
 getting-started-ansible-windows
 getting-started-application-development
+getting-started-application-development-1
 getting-started-aspdotnet-mvcservice-stack-bootstrap
 getting-started-assets-maya-99
 getting-started-audition-2297
@@ -5750,6 +5753,7 @@ modern-web-layout-flexbox-css-grid
 modernizing-data-lakes-data-warehouses-gcp
 modernizing-dotnet-framework-apps-docker
 modernizing-websites-microsoft-azure
+modify-data-couchbase-n1ql
 modifying-an-existing-prosthetic-design-tinkercad-2258
 modo-cinema-4d-artists-2190
 modo-creating-photorealistic-beverage-ad-2512
@@ -7490,6 +7494,7 @@ securing-docker-container-workloads
 securing-docker-platform
 securing-iis-websites
 securing-integrating-components-application
+securing-integrating-components-application-1
 securing-java-web-application-data
 securing-linux-servers
 securing-microsoft-azure-subscriptions
