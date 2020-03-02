@@ -194,8 +194,6 @@ dmypy.json
 *.part
 *.log
 .logs
-.logs/
-.logs/*
 _failed
 _finished
 _canceled
