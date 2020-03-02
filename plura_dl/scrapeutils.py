@@ -32,26 +32,36 @@ def set_headless_firefox_driver():
 def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
     RESULT_BUTTON=r'//*[@id="search-results-section-load-more"]'
     LOAD_MORE_RESULTS = r'jQuery(".button--secondary").click()'
+    out=sys.stdout
+    out.write("Loading the web driver ... "); out.flush()
     driver = set_headless_firefox_driver()
+    out.write("Done. \n"); out.flush()
+    out.write("Loading searchpage ... "); out.flush()
     driver.get(SEARCH_URL)
-
     for i in range(n_pages):
         try:
             wait_for_access(driver, RESULT_BUTTON)
-            if i > 0:
-                clear()
-                print("Page loaded successfully, loading more more results " + i*'.')
-            print("Loading 25 courses from resultpage","{:03d}".format(i+1), "of ~385.", end=' ')
             driver.execute_script(LOAD_MORE_RESULTS)
+            if i == 0:
+                msg = "Page loaded successfully.\nScanning courses ."
+                out.write(msg); out.flush()
+            elif i%5 == 0:
+                out.write('.'); out.flush()
         except TimeoutException:
-            print('No more results could be found. Preparing data ...')
+            msg = "\nNo more courses could be found.\n"
+            out.write(msg)
             break
-    print("\nDone.\nFinalizing reading from source.")
+    
+    out.write("Scanning done.\nFinalizing result data .")
     for i in range(finish_rounds):
         driver.execute_script(LOAD_MORE_RESULTS)
-    print('')
+        if i%10 == 0:
+            out.write('.'); out.flush()
+    out.write(' Done.\n')
     output_html = driver.page_source
+    out.write('Closing web driver ... '); out.flush()
     driver.close()
+    out.write('Done.\n')
     return output_html
 
 
@@ -115,8 +125,10 @@ def store_dict_as_json(dictionary, filepath):
 
 
 def load_stored_json(json_path):
+    out = sys.stdout
     if os.path.exists(json_path):
         with codecs.open(json_path, 'r', 'utf-8') as json_file:
+            out.write("Loading coursedata from: " + json_path + '\n')
             json_dict = json.load(json_file)
     else:
         json_dict = {}
