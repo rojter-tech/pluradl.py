@@ -1,9 +1,8 @@
 from __future__ import unicode_literals
 import json, os, re, sys
 
-SCRIPTPATH = os.path.abspath(sys.argv[0])
-print(SCRIPTPATH)
-JSON_FILE = os.path.abspath(os.path.join("..", "data", "courses.json"))
+SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
+JSON_FILE = os.path.abspath(os.path.join(SCRIPTPATH, "..", "data", "courses.json"))
 mode = 'all'
 
 with open(JSON_FILE, 'rt') as f:
@@ -14,7 +13,7 @@ course_ids = list(json_load.keys())
 search_string = r'kali-linux'
 
 if mode == 'all':
-    results_path = os.path.join("filtered_results", r"all_courses" + r'.txt')
+    results_path = os.path.join(SCRIPTPATH, "filtered_results", r"all_courses" + r'.txt')
 else:
     results_path = None
 
