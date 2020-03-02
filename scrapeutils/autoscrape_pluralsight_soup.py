@@ -134,7 +134,9 @@ def store_dict_as_json(dictionary, filepath):
     if not os.path.exists(path):
         os.mkdir(path)
     with open(filepath, 'wt') as f:
-        json.dump(dictionary, f, sort_keys=True, indent=4)
+        json_string = json.dumps(dictionary, sort_keys=True, indent=4, ensure_ascii=False).encode('utf8')
+        decoded_json = json_string.decode()
+        f.write(decoded_json)
 
 
 def main():
