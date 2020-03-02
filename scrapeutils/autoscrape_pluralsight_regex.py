@@ -1,4 +1,7 @@
-from utils import *
+try:
+    from utils import *
+except ImportError:
+    from scrapeutils.utils import *
 
 SCRIPTPATH=os.path.dirname(os.path.abspath(sys.argv[0]))
 JSON_OUTPUT_FILE = os.path.abspath(os.path.join(SCRIPTPATH, '..', "data", "courses.json"))

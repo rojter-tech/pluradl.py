@@ -1,17 +1,14 @@
-try:
-    from utils import *
-except ImportError:
-    from scrapeutils.utils import *
+from plura_dl.scrapeutils import *
 
 SCRIPTPATH=os.path.dirname(os.path.abspath(sys.argv[0]))
-JSON_OUTPUT_FILE = os.path.abspath(os.path.join(SCRIPTPATH, '..', "data", "courses.json"))
+JSON_OUTPUT_FILE = os.path.abspath(os.path.join("data", "courses.json"))
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 
 
 def main():
     course_dict = load_stored_json(JSON_OUTPUT_FILE)
     print("Loading web driver ...")
-    source_data = get_courselist_source(SEARCH_URL, n_pages=500)
+    source_data = get_courselist_source(SEARCH_URL, n_pages=10, finish_rounds=1)
     soup = BeautifulSoup(source_data, 'html.parser')
     course_results = soup.find_all("div", class_="search-result__info")
     i=0
