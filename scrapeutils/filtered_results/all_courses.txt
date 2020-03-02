@@ -3964,6 +3964,7 @@ implement-ssl-offload-citrix-adc
 implementing-3d-touch-ios
 implementing-aad-azure-infrastructure-70-533
 implementing-authentication-sharepoint-2019
+implementing-aws-networking-security-groups
 implementing-bas-relief-techniques-photoshop-illustrator-1835
 implementing-cis-critical-security-controls
 implementing-cisco-ucs-installing-and-configuring
