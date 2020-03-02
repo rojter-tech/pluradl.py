@@ -1138,7 +1138,6 @@ big-data-ldn-session-25
 big-data-ldn-session-28
 big-data-ldn-session-31
 big-data-ldn-session-32
-big-data-ldn-session-33
 big-data-ldn-session-34
 big-data-ldn-session-35
 big-data-ldn-session-37
@@ -2776,6 +2775,7 @@ droidcon-boston-2019-session-30
 droidcon-boston-2019-session-31
 droidcon-boston-2019-session-32
 droidcon-nyc-19-life-changing-magic-kotlin-multiplatform-serialization
+droidcon-nyc-19-life-changing-magic-kotlin-multiplatform-serialization0
 droidcon-nyc-2019-session-01
 droidcon-nyc-2019-session-02
 droidcon-nyc-2019-session-03
@@ -3964,7 +3964,6 @@ implement-ssl-offload-citrix-adc
 implementing-3d-touch-ios
 implementing-aad-azure-infrastructure-70-533
 implementing-authentication-sharepoint-2019
-implementing-aws-networking-security-groups
 implementing-bas-relief-techniques-photoshop-illustrator-1835
 implementing-cis-critical-security-controls
 implementing-cisco-ucs-installing-and-configuring

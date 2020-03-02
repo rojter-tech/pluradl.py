@@ -9782,6 +9782,15 @@
         "title": "The Database Is Only Half Done",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-01"
     },
+    "big-data-ldn-session-04": {
+        "author": "Big Data LDN",
+        "date": "Dec 13 2019",
+        "length": 23,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Your AI Is Wrong! Lessons from Decision-making with Imperfect AI",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-04"
+    },
     "big-data-ldn-session-05": {
         "author": "Big Data LDN",
         "date": "Dec 13 2019",
@@ -9800,6 +9809,15 @@
         "title": "Achieving 100% Adoption of Analytics in the Enterprise",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-06"
     },
+    "big-data-ldn-session-100": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Credit Card Fraud – Why the Database Matters",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-100"
+    },
     "big-data-ldn-session-102": {
         "author": "Big Data LDN",
         "date": "Dec 17 2019",
@@ -9808,6 +9826,15 @@
         "rating": "",
         "title": "Data Science at SEGA",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-102"
+    },
+    "big-data-ldn-session-104": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 21,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "British Telecom: Data-driven Digital Transformation",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-104"
     },
     "big-data-ldn-session-105": {
         "author": "Big Data LDN",
@@ -9926,6 +9953,15 @@
         "title": "Consent, Compliance, and the Impact on Customer Experience",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-131"
     },
+    "big-data-ldn-session-133": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 26,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "AI & Communication: Meaningful Data from New Sources",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-133"
+    },
     "big-data-ldn-session-134": {
         "author": "Big Data LDN",
         "date": "Dec 17 2019",
@@ -9952,6 +9988,15 @@
         "rating": "",
         "title": "Self-service and Tableau Community at Lloyds Banking Group",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-136"
+    },
+    "big-data-ldn-session-137": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 21,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "The Digital Hero’s Journey: Using Big Data to Uncover Business Value and Meaning at Work",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-137"
     },
     "big-data-ldn-session-138": {
         "author": "Big Data LDN",
@@ -9997,6 +10042,15 @@
         "rating": "",
         "title": "At Last! The Real-time Customer Experience",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-146"
+    },
+    "big-data-ldn-session-147": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 23,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Data Privacy Mythbusting",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-147"
     },
     "big-data-ldn-session-148": {
         "author": "Big Data LDN",
@@ -10141,6 +10195,15 @@
         "rating": "",
         "title": "Real-time Data Analytics at Scale Using Cloud Services",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-19"
+    },
+    "big-data-ldn-session-20": {
+        "author": "Big Data LDN",
+        "date": "Dec 13 2019",
+        "length": 23,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Quick and Easy Access to Data through a Logical Data Warehouse Environment",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-20"
     },
     "big-data-ldn-session-21": {
         "author": "Big Data LDN",
@@ -10511,6 +10574,15 @@
         "title": "The Next Generation of Data Architecture",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-88"
     },
+    "big-data-ldn-session-89": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 18,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Modern Enterprise Data Engineering",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-89"
+    },
     "big-data-ldn-session-90": {
         "author": "Big Data LDN",
         "date": "Dec 17 2019",
@@ -10528,6 +10600,15 @@
         "rating": "",
         "title": "Flex Your Data(Ops) Muscles",
         "url": "https://www.pluralsight.com/courses/big-data-ldn-session-91"
+    },
+    "big-data-ldn-session-92": {
+        "author": "Big Data LDN",
+        "date": "Dec 17 2019",
+        "length": 29,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "You Love Big Data, so Does R",
+        "url": "https://www.pluralsight.com/courses/big-data-ldn-session-92"
     },
     "big-data-ldn-session-93": {
         "author": "Big Data LDN",
@@ -25766,6 +25847,15 @@
         "title": "The Facebook Mobile Performance Tooling Ecosystem: An Overview",
         "url": "https://www.pluralsight.com/courses/droidcon-sf-session-09"
     },
+    "droidcon-sf-session-10": {
+        "author": "droidcon SF",
+        "date": "Dec 19 2019",
+        "length": 15,
+        "level": "Beginner",
+        "rating": "",
+        "title": "The Journey from Legacy Code to Idiomatic Kotlin",
+        "url": "https://www.pluralsight.com/courses/droidcon-sf-session-10"
+    },
     "droidcon-sf-session-11": {
         "author": "droidcon SF",
         "date": "Dec 19 2019",
@@ -25846,6 +25936,15 @@
         "rating": "",
         "title": "TP3 & KTP: Simple, Fast, and Boilerplate-free DI for Kotlin",
         "url": "https://www.pluralsight.com/courses/droidcon-sf-session-19"
+    },
+    "droidcon-sf-session-20": {
+        "author": "droidcon SF",
+        "date": "Dec 19 2019",
+        "length": 32,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Results of Scanning the Top 45 Android Mobile Banking Apps",
+        "url": "https://www.pluralsight.com/courses/droidcon-sf-session-20"
     },
     "droidcon-sf-session-21": {
         "author": "droidcon SF",
@@ -44297,6 +44396,15 @@
         "title": "Managing Data in R Using Data Frames",
         "url": "https://www.pluralsight.com/courses/managing-data-r-data-frames"
     },
+    "managing-delivery-portfolio": {
+        "author": "Tommy van Schaik",
+        "date": "Dec 13 2019",
+        "length": 123,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Managing the Delivery Portfolio",
+        "url": "https://www.pluralsight.com/courses/managing-delivery-portfolio"
+    },
     "managing-developers": {
         "author": "Kevin Murray",
         "date": "Jun 17 2015",
@@ -47122,6 +47230,15 @@
         "rating": "",
         "title": "Building Features from Nominal and Numeric Data in Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-building-features-nominal-numeric-data"
+    },
+    "microsoft-azure-building-features-text-data": {
+        "author": "Michael Heydt",
+        "date": "Dec 17 2019",
+        "length": 114,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building Features from Text Data in Microsoft Azure",
+        "url": "https://www.pluralsight.com/courses/microsoft-azure-building-features-text-data"
     },
     "microsoft-azure-building-first-data-science-project": {
         "author": "Jared Rhodes",
@@ -66221,6 +66338,15 @@
         "title": "Scenic Environment Creation in Vue",
         "url": "https://www.pluralsight.com/courses/scenic-environment-creation-vue-785"
     },
+    "schema-modeling-patterns-best-practices-document-databases": {
+        "author": "Nuri Halperin",
+        "date": "Dec 18 2019",
+        "length": 106,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Schema Modeling Patterns and Best Practices for Document Databases",
+        "url": "https://www.pluralsight.com/courses/schema-modeling-patterns-best-practices-document-databases"
+    },
     "sci-fi-concept-art-photoshop-maya-2306": {
         "author": "Dong Kyun Ryu",
         "date": "Oct 14 2015",
@@ -77219,6 +77345,15 @@
         "title": "A Practical Start with TypeScript",
         "url": "https://www.pluralsight.com/courses/typescript-practical-start"
     },
+    "typescript-projects-configuring-compiling-debugging": {
+        "author": "Daniel Stern",
+        "date": "Dec 20 2019",
+        "length": 127,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Configuring, Compiling, and Debugging TypeScript Projects",
+        "url": "https://www.pluralsight.com/courses/typescript-projects-configuring-compiling-debugging"
+    },
     "typescript-specialized-types-language-features": {
         "author": "Hendrik Swanepoel",
         "date": "Nov 22 2019",
@@ -77767,6 +77902,15 @@
         "rating": 200,
         "title": "Understanding SharePoint 2013: Part 5 - REST and CSOM",
         "url": "https://www.pluralsight.com/courses/understanding-sharepoint2013-rest-client-side-object-model"
+    },
+    "understanding-statistical-mathematical-models": {
+        "author": "Janani Ravi",
+        "date": "Dec 17 2019",
+        "length": 154,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Understanding Statistical Models and Mathematical Models",
+        "url": "https://www.pluralsight.com/courses/understanding-statistical-mathematical-models"
     },
     "understanding-surface-modeling-tools-solidworks-2196": {
         "author": "Chris Scarlett",
