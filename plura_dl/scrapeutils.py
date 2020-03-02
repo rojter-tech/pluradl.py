@@ -43,7 +43,10 @@ def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
             wait_for_access(driver, RESULT_BUTTON)
             driver.execute_script(LOAD_MORE_RESULTS)
             if i == 0:
-                msg = "Page loaded successfully.\nScanning courses ."
+                msg_part1 = "Page loaded successfully.\n"
+                msg_part2 = "              0%[.................................................]100%"
+                msg_part3 = "\nScanning courses ."
+                msg       = msg_part1+msg_part2+msg_part3
                 out.write(msg); out.flush()
             elif i%8 == 0:
                 out.write('.'); out.flush()
