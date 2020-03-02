@@ -359,6 +359,15 @@
         "title": "802.11 Technology Fundamentals for Cisco WIFUND (200-355)",
         "url": "https://www.pluralsight.com/courses/802-11-technology-fundamentals-cisco-wifund-200-355"
     },
+    "a-designers-guide-printing-illustrator-830": {
+        "author": "Eddie Russell",
+        "date": "Nov 1 2012",
+        "length": 98,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "A Designer's Guide to Printing with Illustrator",
+        "url": "https://www.pluralsight.com/courses/a-designers-guide-printing-illustrator-830"
+    },
     "a-designers-guide-printing-indesign-855": {
         "author": "Eddie Russell",
         "date": "Dec 1 2012",
@@ -3032,6 +3041,15 @@
         "title": "Android File System",
         "url": "https://www.pluralsight.com/courses/android-file-system"
     },
+    "android-firebase-cloud-messaging-storage-crash-reporting": {
+        "author": "Mitch Tabian",
+        "date": "Jan 4 2018",
+        "length": 126,
+        "level": "Intermediate",
+        "rating": 25,
+        "title": "Firebase on Android: Cloud Messaging, Cloud Functions and Crashlytics",
+        "url": "https://www.pluralsight.com/courses/android-firebase-cloud-messaging-storage-crash-reporting"
+    },
     "android-firebase-database-cloud-storage": {
         "author": "Mitch Tabian",
         "date": "Nov 20 2017",
@@ -4930,6 +4948,15 @@
         "rating": "",
         "title": "Animating a Walking Quadruped in Toon Boom Harmony Premium",
         "url": "https://www.pluralsight.com/courses/animating-walking-quadruped-toon-boom-harmony-premium-2321"
+    },
+    "animating-water-splash-harmony-2351": {
+        "author": "Kurt Jones",
+        "date": "Dec 30 2015",
+        "length": 74,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Animating a Water Splash in Harmony",
+        "url": "https://www.pluralsight.com/courses/animating-water-splash-harmony-2351"
     },
     "animation-ask-dts-maya-971": {
         "author": "Dan LeFebvre",
@@ -11276,6 +11303,15 @@
         "title": "Advanced BizTalk Server 2009",
         "url": "https://www.pluralsight.com/courses/bts09-custom-ms"
     },
+    "bts09-fundamentals": {
+        "author": "Matt Milner",
+        "date": "Nov 24 2009",
+        "length": 232,
+        "level": "Beginner",
+        "rating": 239,
+        "title": "BizTalk 2009 Fundamentals",
+        "url": "https://www.pluralsight.com/courses/bts09-fundamentals"
+    },
     "bts09-wcf": {
         "author": "Matt Milner",
         "date": "Nov 12 2010",
@@ -15739,6 +15775,15 @@
         "rating": 47,
         "title": "Code School: Git Real",
         "url": "https://www.pluralsight.com/courses/code-school-git-real"
+    },
+    "code-school-git-real-2": {
+        "author": "Gregg Pollack",
+        "date": "May 9 2013",
+        "length": 50,
+        "level": "Intermediate",
+        "rating": 24,
+        "title": "Code School: Git Real 2",
+        "url": "https://www.pluralsight.com/courses/code-school-git-real-2"
     },
     "code-school-javascript-best-practices": {
         "author": "Jason Millhouse",
@@ -20753,6 +20798,15 @@
         "title": "Customizable Characters in Unity",
         "url": "https://www.pluralsight.com/courses/customizable-characters-unity-732"
     },
+    "customizing-materials-textures-autocad-1653": {
+        "author": "Pierre Derenoncourt",
+        "date": "Sep 28 2015",
+        "length": 45,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Customizing Your Materials and Textures in AutoCAD",
+        "url": "https://www.pluralsight.com/courses/customizing-materials-textures-autocad-1653"
+    },
     "customizing-team-workflow-best-of-kanban-scrum": {
         "author": "Milena Pajic",
         "date": "Feb 28 2014",
@@ -23669,6 +23723,15 @@
         "title": "Continuous Delivery Using Docker And Ansible",
         "url": "https://www.pluralsight.com/courses/docker-ansible-continuous-delivery"
     },
+    "docker-aws-elastic-beanstalk": {
+        "author": "David Clinton",
+        "date": "Apr 6 2017",
+        "length": 57,
+        "level": "Beginner",
+        "rating": 17,
+        "title": "Using Docker with AWS Elastic Beanstalk",
+        "url": "https://www.pluralsight.com/courses/docker-aws-elastic-beanstalk"
+    },
     "docker-deep-dive-update": {
         "author": "Nigel Poulton",
         "date": "Jan 4 2018",
@@ -24263,6 +24326,15 @@
         "title": "Drawing Foundation Plans in AutoCAD",
         "url": "https://www.pluralsight.com/courses/drawing-foundation-plans-autocad-2021"
     },
+    "drawing-fundamentals": {
+        "author": "Shayna Piascik",
+        "date": "Nov 15 2016",
+        "length": 226,
+        "level": "Beginner",
+        "rating": 45,
+        "title": "Drawing Fundamentals",
+        "url": "https://www.pluralsight.com/courses/drawing-fundamentals"
+    },
     "drawing-human-eye-photoshop-1620": {
         "author": "Kurt Jones",
         "date": "Jun 6 2014",
@@ -24568,6 +24640,15 @@
         "rating": "",
         "title": "Droidcon Boston '19: Using Automation to Spark Joy for Developers and Boost App Quality",
         "url": "https://www.pluralsight.com/courses/droidcon-boston-2019-session-14"
+    },
+    "droidcon-boston-2019-session-15": {
+        "author": "Droidcon Boston",
+        "date": "May 10 2019",
+        "length": 14,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Droidcon Boston '19: How We Seamlessly Internally Test Our Android Apps Within Microsoft",
+        "url": "https://www.pluralsight.com/courses/droidcon-boston-2019-session-15"
     },
     "droidcon-boston-2019-session-16": {
         "author": "Droidcon Boston",
@@ -27449,6 +27530,15 @@
         "title": "Essential Strategies for Hand Painting Textures in MARI",
         "url": "https://www.pluralsight.com/courses/essential-strategies-hand-painting-textures-mari-1603"
     },
+    "essential-strategies-hand-painting-textures-mari-625": {
+        "author": "Eddie Russell",
+        "date": "Feb 1 2012",
+        "length": 181,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Essential Strategies for Hand Painting Textures in MARI 1.4v1",
+        "url": "https://www.pluralsight.com/courses/essential-strategies-hand-painting-textures-mari-625"
+    },
     "essential-strategies-hand-painting-textures-mudbox-1585": {
         "author": "Eddie Russell",
         "date": "Apr 29 2014",
@@ -27844,6 +27934,15 @@
         "rating": 493,
         "title": "Excel 2013 Fundamentals",
         "url": "https://www.pluralsight.com/courses/excel-2013-fundamentals"
+    },
+    "excel-2013-tables-introduction": {
+        "author": "Diane McSorley",
+        "date": "Aug 27 2013",
+        "length": 26,
+        "level": "Beginner",
+        "rating": 77,
+        "title": "Introduction to Excel 2013 Tables",
+        "url": "https://www.pluralsight.com/courses/excel-2013-tables-introduction"
     },
     "excel-2016-data": {
         "author": "Diane McSorley",
@@ -31318,6 +31417,15 @@
         "rating": 24,
         "title": "General Data Protection Regulation (GDPR): Executive Briefing",
         "url": "https://www.pluralsight.com/courses/gdpr-executive-briefing"
+    },
+    "gemfire-developer-pivotal": {
+        "author": "Pivotal Education",
+        "date": "Apr 18 2017",
+        "length": 731,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Pivotal GemFire Developer",
+        "url": "https://www.pluralsight.com/courses/gemfire-developer-pivotal"
     },
     "generating-arch-visualization-concepts-rhino-1758": {
         "author": "Nigel Gough",
@@ -35351,6 +35459,24 @@
         "title": "Pre 2017 - Implementing Active Directory for Azure Infrastructure (70-533)",
         "url": "https://www.pluralsight.com/courses/implementing-aad-azure-infrastructure-70-533"
     },
+    "implementing-authentication-sharepoint-2019": {
+        "author": "Liam Cleary",
+        "date": "Oct 29 2019",
+        "length": 202,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing Authentication in SharePoint 2019",
+        "url": "https://www.pluralsight.com/courses/implementing-authentication-sharepoint-2019"
+    },
+    "implementing-aws-networking-security-groups": {
+        "author": "Craig Golightly",
+        "date": "May 2 2019",
+        "length": 40,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing AWS Networking Security Groups",
+        "url": "https://www.pluralsight.com/courses/implementing-aws-networking-security-groups"
+    },
     "implementing-bas-relief-techniques-photoshop-illustrator-1835": {
         "author": "Valp Maciej Hajnrich",
         "date": "Nov 20 2015",
@@ -35620,6 +35746,15 @@
         "rating": 31,
         "title": "Pre 2017 - Implementing Virtual Networks for Azure Infrastructure (70-533)",
         "url": "https://www.pluralsight.com/courses/implementing-virtual-networks-azure-infrastructure-70-533"
+    },
+    "implementing-websites-azure-infrastructure-70-533": {
+        "author": "Tim Warner",
+        "date": "Mar 15 2016",
+        "length": 267,
+        "level": "Beginner",
+        "rating": 66,
+        "title": "Pre 2017 - Implementing Web Apps for Azure Infrastructure (70-533)",
+        "url": "https://www.pluralsight.com/courses/implementing-websites-azure-infrastructure-70-533"
     },
     "implementing-windows-10": {
         "author": "Glenn Weadock",
@@ -40157,6 +40292,15 @@
         "title": "IoT Full Stack Development: Getting Started",
         "url": "https://www.pluralsight.com/courses/iot-full-stack-development-getting-started"
     },
+    "iot-internet-of-things-device-security-executive-briefing": {
+        "author": "Jeremy Willden",
+        "date": "Oct 9 2018",
+        "length": 23,
+        "level": "Beginner",
+        "rating": 12,
+        "title": "IoT Device Security: Executive Briefing",
+        "url": "https://www.pluralsight.com/courses/iot-internet-of-things-device-security-executive-briefing"
+    },
     "iota-fundamentals": {
         "author": "Jan-Erik Sandberg",
         "date": "Jun 19 2018",
@@ -41506,6 +41650,15 @@
         "rating": 602,
         "title": "jQuery Advanced Topics",
         "url": "https://www.pluralsight.com/courses/jquery-adv"
+    },
+    "jquery-animation": {
+        "author": "Mark Zamoyta",
+        "date": "Oct 8 2013",
+        "length": 221,
+        "level": "Intermediate",
+        "rating": 141,
+        "title": "jQuery Animation",
+        "url": "https://www.pluralsight.com/courses/jquery-animation"
     },
     "jquery-forms-bootstrap3": {
         "author": "Mark Zamoyta",
@@ -43118,6 +43271,15 @@
         "title": "Linux: Network Client Management (LPIC-2)",
         "url": "https://www.pluralsight.com/courses/linux-network-client-management-lpic-2"
     },
+    "linux-network-programming": {
+        "author": "Chris Brown",
+        "date": "Mar 14 2016",
+        "length": 204,
+        "level": "Intermediate",
+        "rating": 44,
+        "title": "Linux Network Programming",
+        "url": "https://www.pluralsight.com/courses/linux-network-programming"
+    },
     "linux-network-security-lpic-3-303": {
         "author": "David Clinton",
         "date": "Jul 13 2016",
@@ -44278,6 +44440,15 @@
         "rating": "",
         "title": "Managing SELinux Policies in Enterprise Linux",
         "url": "https://www.pluralsight.com/courses/managing-selinux-policies-enterprise-linux"
+    },
+    "managing-sharepoint-2016-powershell": {
+        "author": "Liam Cleary",
+        "date": "Sep 11 2018",
+        "length": 177,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Managing SharePoint 2016 with PowerShell",
+        "url": "https://www.pluralsight.com/courses/managing-sharepoint-2016-powershell"
     },
     "managing-source-control-aws-codecommit": {
         "author": "Saravanan Dhandapani",
@@ -46195,6 +46366,15 @@
         "rating": "",
         "title": "Merging Data Sources with R",
         "url": "https://www.pluralsight.com/courses/merging-data-sources-r"
+    },
+    "merging-predictive-prescriptive-analytics-data-literacy-executive-briefing": {
+        "author": "Jordan Morrow",
+        "date": "Jan 8 2020",
+        "length": 11,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Merging Predictive and Prescriptive Analytics with Data Literacy: Executive Briefing",
+        "url": "https://www.pluralsight.com/courses/merging-predictive-prescriptive-analytics-data-literacy-executive-briefing"
     },
     "mesh-creation-concepts-zbrush-1872": {
         "author": "Justin Marshall",
@@ -50876,6 +51056,15 @@
         "title": "Modeling Plumbing Systems in Revit MEP",
         "url": "https://www.pluralsight.com/courses/modeling-plumbing-systems-revit-mep-1432"
     },
+    "modeling-precast-concrete-structures-revit-1406": {
+        "author": "Pierre Derenoncourt",
+        "date": "Dec 9 2013",
+        "length": 59,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Modeling Precast Concrete Structures in Revit",
+        "url": "https://www.pluralsight.com/courses/modeling-precast-concrete-structures-revit-1406"
+    },
     "modeling-press-frame-support-assembly-solidworks-1759": {
         "author": "Chris Scarlett",
         "date": "Sep 23 2014",
@@ -51055,6 +51244,15 @@
         "rating": "",
         "title": "Modeling Tips and Tricks in 3ds Max",
         "url": "https://www.pluralsight.com/courses/modeling-tips-tricks-3ds-max-930"
+    },
+    "modeling-tips-tricks-cinema-4d-934": {
+        "author": "Justin Marshall",
+        "date": "Dec 10 2009",
+        "length": 117,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Modeling Tips and Tricks in CINEMA 4D",
+        "url": "https://www.pluralsight.com/courses/modeling-tips-tricks-cinema-4d-934"
     },
     "modeling-tips-tricks-houdini-943": {
         "author": "Sunder Iyer",
@@ -52747,6 +52945,15 @@
         "rating": "",
         "title": "ng-conf '19: The Control Value Accessor - Like a Wormhole in Space for Your Forms But More Useful",
         "url": "https://www.pluralsight.com/courses/ng-conf-19-control-value-accessor"
+    },
+    "ng-conf-19-convince-your-boss-upgrade": {
+        "author": "ng-conf",
+        "date": "Jun 1 2019",
+        "length": 5,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "ng-conf '19: Convince Your Boss to Upgrade in 5 Minutes",
+        "url": "https://www.pluralsight.com/courses/ng-conf-19-convince-your-boss-upgrade"
     },
     "ng-conf-19-cross-platform-angular-ionic-4": {
         "author": "ng-conf",
@@ -56528,6 +56735,15 @@
         "title": "Pipeline Development with Maya and XNA",
         "url": "https://www.pluralsight.com/courses/pipeline-development-maya-xna-3489"
     },
+    "pipeline-integration-maya-realflow-414": {
+        "author": "Kyle Green",
+        "date": "Oct 1 2010",
+        "length": 185,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Pipeline Integration with Maya and RealFlow",
+        "url": "https://www.pluralsight.com/courses/pipeline-integration-maya-realflow-414"
+    },
     "pipeline-integration-maya-zbrush-458": {
         "author": "Justin Marshall",
         "date": "Dec 1 2010",
@@ -56996,6 +57212,15 @@
         "title": "Play by Play: Test-Driven PHP with Chris Hartjes",
         "url": "https://www.pluralsight.com/courses/play-by-play-chris-hartjes"
     },
+    "play-by-play-converting-to-asynch-calls": {
+        "author": "John Papa",
+        "date": "Sep 29 2017",
+        "length": 56,
+        "level": "Intermediate",
+        "rating": 66,
+        "title": "Play by Play: Converting Synchronous Calls to Asynchronous in ASP.NET Core and Entity Framework Core",
+        "url": "https://www.pluralsight.com/courses/play-by-play-converting-to-asynch-calls"
+    },
     "play-by-play-crafting-a-brand-for-growth-and-prosperity": {
         "author": "Troy Hunt",
         "date": "Apr 6 2017",
@@ -57130,6 +57355,15 @@
         "rating": 524,
         "title": "Play by Play: Discovering PowerShell with Mark Minasi",
         "url": "https://www.pluralsight.com/courses/play-by-play-discovering-powershell-minasi"
+    },
+    "play-by-play-docker-java-developers-arun-gupta-michael-hoffman": {
+        "author": "Arun Gupta",
+        "date": "Oct 12 2016",
+        "length": 118,
+        "level": "Beginner",
+        "rating": 71,
+        "title": "Play by Play: Docker for Java Developers with Arun Gupta and Michael Hoffman",
+        "url": "https://www.pluralsight.com/courses/play-by-play-docker-java-developers-arun-gupta-michael-hoffman"
     },
     "play-by-play-docker-web-developers-john-papa-dan-wahlin": {
         "author": "John Papa",
@@ -59300,6 +59534,15 @@
         "title": "Practical Cryptography in .NET",
         "url": "https://www.pluralsight.com/courses/practical-cryptography-dotnet"
     },
+    "practical-cryptography-node-js": {
+        "author": "Justin Boyer",
+        "date": "Feb 5 2019",
+        "length": 82,
+        "level": "Intermediate",
+        "rating": 24,
+        "title": "Practical Cryptography in Node.js",
+        "url": "https://www.pluralsight.com/courses/practical-cryptography-node-js"
+    },
     "practical-data-modeling-csharp-sql-server": {
         "author": "Jason Sauer",
         "date": "Jun 21 2014",
@@ -59624,6 +59867,15 @@
         "title": "Preparing for the COBIT5® Foundation Exam",
         "url": "https://www.pluralsight.com/courses/preparing-cobit5-foundation-exam"
     },
+    "preparing-data-feature-engineering-machine-learning": {
+        "author": "Janani Ravi",
+        "date": "Oct 29 2019",
+        "length": 197,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Preparing Data for Feature Engineering and Machine Learning",
+        "url": "https://www.pluralsight.com/courses/preparing-data-feature-engineering-machine-learning"
+    },
     "preparing-data-machine-learning": {
         "author": "Janani Ravi",
         "date": "Oct 29 2019",
@@ -59677,6 +59929,15 @@
         "rating": 82,
         "title": "Pre 2017 - Preparing to Pass the Microsoft Azure (70-533) Exam",
         "url": "https://www.pluralsight.com/courses/preparing-pass-microsoft-azure-70-533-exam"
+    },
+    "preparing-spot-color-illustrator-files-contest-submission-349": {
+        "author": "Eddie Russell",
+        "date": "Aug 4 2010",
+        "length": 74,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Preparing Spot Color Illustrator Files for Contest Submission",
+        "url": "https://www.pluralsight.com/courses/preparing-spot-color-illustrator-files-contest-submission-349"
     },
     "preparing-views-competition-boards-revit-1517": {
         "author": "Pierre Derenoncourt",
@@ -59956,6 +60217,15 @@
         "rating": "",
         "title": "Creating Procedural Rigs and Controlling Motion in Houdini",
         "url": "https://www.pluralsight.com/courses/procedural-rigs-controlling-motion-houdini-552"
+    },
+    "procedural-terrain-houdini-1907": {
+        "author": "Andreas Vrhovsek",
+        "date": "Dec 2 2014",
+        "length": 202,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Creating a Procedural Terrain in Houdini",
+        "url": "https://www.pluralsight.com/courses/procedural-terrain-houdini-1907"
     },
     "procedural-tree-growth-l-systems-houdini-570": {
         "author": "Jonah Hall",
@@ -61639,6 +61909,15 @@
         "rating": "",
         "title": "Quick and Effective Character Illustration in Photoshop",
         "url": "https://www.pluralsight.com/courses/quick-effective-char-illustration-photoshop-1255"
+    },
+    "quick-effective-environment-illustration-photoshop-1580": {
+        "author": "Alex Kosakowski",
+        "date": "May 6 2014",
+        "length": 144,
+        "level": "Advanced",
+        "rating": 23,
+        "title": "Quick and Effective Environment Illustration in Photoshop",
+        "url": "https://www.pluralsight.com/courses/quick-effective-environment-illustration-photoshop-1580"
     },
     "quick-sketch-models-solidworks-1684": {
         "author": "Michael Lozano",
@@ -64313,6 +64592,15 @@
         "title": "Revit MEP Fittings Family Creation",
         "url": "https://www.pluralsight.com/courses/revit-mep-fittings-family-creation"
     },
+    "revit-mep-testing-analyzing-fabricating-building-systems": {
+        "author": "Troy Crandell",
+        "date": "Jul 14 2017",
+        "length": 76,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Testing, Analyzing, and Fabricating Building Systems in Revit MEP",
+        "url": "https://www.pluralsight.com/courses/revit-mep-testing-analyzing-fabricating-building-systems"
+    },
     "revit-modeling-building-exteriors-pattern-based-curtain-panels": {
         "author": "Pierre Derenoncourt",
         "date": "Sep 22 2015",
@@ -65888,6 +66176,15 @@
         "title": "Scripted Item Swapping in Maya",
         "url": "https://www.pluralsight.com/courses/scripted-item-swapping-maya-747"
     },
+    "scripting-python-houdini-1855": {
+        "author": "Chris Roda",
+        "date": "Nov 1 2014",
+        "length": 155,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Scripting with Python in Houdini",
+        "url": "https://www.pluralsight.com/courses/scripting-python-houdini-1855"
+    },
     "scripting-realflow-3578": {
         "author": "Sunder Iyer",
         "date": "Nov 12 2008",
@@ -65941,6 +66238,15 @@
         "rating": 322,
         "title": "Scrum Master Fundamentals - Foundations",
         "url": "https://www.pluralsight.com/courses/scrum-master-fundamentals-foundations"
+    },
+    "scrum-master-fundamentals-growing-team": {
+        "author": "Jeremy Jarrell",
+        "date": "Dec 5 2016",
+        "length": 86,
+        "level": "Intermediate",
+        "rating": 93,
+        "title": "Scrum Master Fundamentals - Growing Yourself and Your Team",
+        "url": "https://www.pluralsight.com/courses/scrum-master-fundamentals-growing-team"
     },
     "scrum-master-fundamentals-scrum-master": {
         "author": "Jeremy Jarrell",
@@ -67769,6 +68075,15 @@
         "title": "SharePoint Server 2013 Advanced Solutions (70-332) Part 3",
         "url": "https://www.pluralsight.com/courses/sharepoint-2013-adv-solutions-pt3"
     },
+    "sharepoint-2013-business-professionals": {
+        "author": "Diane McSorley",
+        "date": "Oct 15 2013",
+        "length": 202,
+        "level": "Beginner",
+        "rating": 102,
+        "title": "SharePoint 2013 Fundamentals for Business Professionals",
+        "url": "https://www.pluralsight.com/courses/sharepoint-2013-business-professionals"
+    },
     "sharepoint-2013-client-object-model-rest": {
         "author": "Rob Windsor",
         "date": "May 28 2013",
@@ -68380,6 +68695,15 @@
         "rating": "",
         "title": "SharePoint Conference '19: What's New and What's Next: Microsoft Kaizala",
         "url": "https://www.pluralsight.com/courses/sharepoint-conference-2019-session-49"
+    },
+    "sharepoint-conference-2019-session-50": {
+        "author": "SharePoint Conference",
+        "date": "Jun 19 2019",
+        "length": 56,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "SharePoint Conference '19: What's New and What's Next: Microsoft OneDrive",
+        "url": "https://www.pluralsight.com/courses/sharepoint-conference-2019-session-50"
     },
     "sharepoint-conference-2019-session-51": {
         "author": "SharePoint Conference",
@@ -69073,6 +69397,15 @@
         "rating": "",
         "title": "Simulating a Shattering Light Bulb in Maya",
         "url": "https://www.pluralsight.com/courses/simulating-shattering-light-bulb-maya-1555"
+    },
+    "simulating-smoke-characters-maya-nuke-2137": {
+        "author": "Peter Gend",
+        "date": "Jun 4 2015",
+        "length": 176,
+        "level": "Advanced",
+        "rating": 15,
+        "title": "Simulating Fast-moving Smoke Characters in Maya and NUKE",
+        "url": "https://www.pluralsight.com/courses/simulating-smoke-characters-maya-nuke-2137"
     },
     "simulating-volcano-blast-maya-1877": {
         "author": "Pankaj Malik",
@@ -70063,6 +70396,15 @@
         "rating": 29,
         "title": "Introduction to SOLIDWORKS",
         "url": "https://www.pluralsight.com/courses/solidworks-introduction"
+    },
+    "solidworks-layout-based-assembly-modeling": {
+        "author": "Shivani Patel",
+        "date": "Jan 27 2016",
+        "length": 73,
+        "level": "Beginner",
+        "rating": "",
+        "title": "SOLIDWORKS - Layout Based Assembly Modeling",
+        "url": "https://www.pluralsight.com/courses/solidworks-layout-based-assembly-modeling"
     },
     "solidworks-mold-tools-3d-printing-mold": {
         "author": "Robert Murdock",
@@ -71189,6 +71531,15 @@
         "title": "Practical SQL Server High Availability and Disaster Recovery",
         "url": "https://www.pluralsight.com/courses/sql-server-high-availability-disaster-recovery"
     },
+    "sql-server-hybrid-cloud-solution-azure": {
+        "author": "Tim Radney",
+        "date": "Dec 8 2017",
+        "length": 139,
+        "level": "Beginner",
+        "rating": 16,
+        "title": "SQL Server: Implementing a Hybrid Cloud Solution in Azure",
+        "url": "https://www.pluralsight.com/courses/sql-server-hybrid-cloud-solution-azure"
+    },
     "sql-server-in-memory-oltp-tables-objects": {
         "author": "Russ Thomas",
         "date": "May 13 2016",
@@ -71404,6 +71755,15 @@
         "rating": 58,
         "title": "SQL Server: Advanced Extended Events",
         "url": "https://www.pluralsight.com/courses/sqlserver-advanced-xevents"
+    },
+    "sqlserver-azure-database": {
+        "author": "Erin Stellato",
+        "date": "Jan 9 2018",
+        "length": 87,
+        "level": "Intermediate",
+        "rating": 27,
+        "title": "SQL Server: Automatic Tuning in SQL Server 2017 and Azure SQL Database",
+        "url": "https://www.pluralsight.com/courses/sqlserver-azure-database"
     },
     "sqlserver-basicxevents": {
         "author": "Jonathan Kehayias",
@@ -72052,6 +72412,15 @@
         "rating": 26,
         "title": "Starting and Running a Successful User Group",
         "url": "https://www.pluralsight.com/courses/starting-running-user-group"
+    },
+    "startup-best-practices": {
+        "author": "Stephen Forte",
+        "date": "Sep 19 2012",
+        "length": 194,
+        "level": "Beginner",
+        "rating": 250,
+        "title": "Best Practices for Software Startups",
+        "url": "https://www.pluralsight.com/courses/startup-best-practices"
     },
     "state-of-blockchain-executive-briefing": {
         "author": "Stephen Haunts",
@@ -72853,6 +73222,24 @@
         "rating": "",
         "title": "SwiftFest Boston '19: Straying from the Happy Path: Taking Control of Errors in Swift",
         "url": "https://www.pluralsight.com/courses/swiftfest-boston-2019-session-06"
+    },
+    "swiftfest-boston-2019-session-07": {
+        "author": "SwiftFest Boston",
+        "date": "Sep 4 2019",
+        "length": 24,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "SwiftFest Boston '19: Testing. Testing. One. Two.",
+        "url": "https://www.pluralsight.com/courses/swiftfest-boston-2019-session-07"
+    },
+    "swiftfest-boston-2019-session-08": {
+        "author": "SwiftFest Boston",
+        "date": "Sep 4 2019",
+        "length": 50,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "SwiftFest Boston '19: Swift Generics - It Isn't Supposed to Hurt",
+        "url": "https://www.pluralsight.com/courses/swiftfest-boston-2019-session-08"
     },
     "swiftfest-boston-2019-session-09": {
         "author": "SwiftFest Boston",
@@ -74095,6 +74482,15 @@
         "rating": "",
         "title": "Texture Projection Techniques in MARI",
         "url": "https://www.pluralsight.com/courses/texture-projection-techniques-mari-1437"
+    },
+    "textures-that-tell-story-zbrush-photoshop-2069": {
+        "author": "Andy Jones",
+        "date": "Apr 23 2015",
+        "length": 76,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Creating Textures That Tell a Story in ZBrush and Photoshop",
+        "url": "https://www.pluralsight.com/courses/textures-that-tell-story-zbrush-photoshop-2069"
     },
     "texturing-animal-eyes-maya-917": {
         "author": "Justin Marshall",
@@ -80360,6 +80756,15 @@
         "title": "VMware vSphere Performance Monitoring: vSphere Resources",
         "url": "https://www.pluralsight.com/courses/vmware-vsphere-performance-monitoring-pt1"
     },
+    "vmware-vsphere-performance-monitoring-pt2": {
+        "author": "David Davis",
+        "date": "May 24 2011",
+        "length": 217,
+        "level": "Advanced",
+        "rating": "",
+        "title": "VMware vSphere Performance Monitoring: Tuning vSphere Resources",
+        "url": "https://www.pluralsight.com/courses/vmware-vsphere-performance-monitoring-pt2"
+    },
     "vmware-vsphere-performance-monitoring-pt3": {
         "author": "David Davis",
         "date": "May 24 2011",
@@ -80647,6 +81052,15 @@
         "rating": 186,
         "title": "Solution Modeling with UML in Visual Studio 2010",
         "url": "https://www.pluralsight.com/courses/vs2010-uml"
+    },
+    "vs2010-vsx": {
+        "author": "Kate Gregory",
+        "date": "Jul 25 2010",
+        "length": 295,
+        "level": "Beginner",
+        "rating": 46,
+        "title": "Customizing and Extending Visual Studio 2010 Without Code",
+        "url": "https://www.pluralsight.com/courses/vs2010-vsx"
     },
     "vs2010-vsx-code": {
         "author": "Kate Gregory",
@@ -81871,6 +82285,15 @@
         "rating": 247,
         "title": "Introduction to Building Windows 8 Applications",
         "url": "https://www.pluralsight.com/courses/win8-intro"
+    },
+    "win8appdata": {
+        "author": "Yacine Khammal",
+        "date": "Apr 23 2012",
+        "length": 226,
+        "level": "Intermediate",
+        "rating": 17,
+        "title": "Windows 8 Metro Application Data",
+        "url": "https://www.pluralsight.com/courses/win8appdata"
     },
     "win8apps-javascript-html": {
         "author": "Craig Shoemaker",
@@ -83528,6 +83951,15 @@
         "title": "Windows Server 2012 R2 (70-413) MCSE and the 70-413 Exam",
         "url": "https://www.pluralsight.com/courses/windows-server-2012-mcse-70-413"
     },
+    "windows-server-2012-mcse-70-414": {
+        "author": "Greg Shields",
+        "date": "Dec 31 2014",
+        "length": 56,
+        "level": "Intermediate",
+        "rating": 29,
+        "title": "Windows Server 2012 R2 (70-414) MCSE and the 70-414 Exam",
+        "url": "https://www.pluralsight.com/courses/windows-server-2012-mcse-70-414"
+    },
     "windows-server-2012-r2-certificate-services": {
         "author": "Orin Thomas",
         "date": "Nov 24 2014",
@@ -83860,6 +84292,15 @@
         "rating": 21,
         "title": "Windows Virus and Malware Troubleshooting",
         "url": "https://www.pluralsight.com/courses/windows-virus-malware-troubleshooting"
+    },
+    "windows-vista-pt1-install": {
+        "author": "Scott Skinger",
+        "date": "Mar 22 2007",
+        "length": 167,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Windows Vista (70-620) Part 1: Install and Getting Started",
+        "url": "https://www.pluralsight.com/courses/windows-vista-pt1-install"
     },
     "windows-vista-pt2-users-groups-networking": {
         "author": "Scott Skinger",
@@ -84653,6 +85094,15 @@
         "title": "Windows Phone 7 \"Mango\" Multitasking",
         "url": "https://www.pluralsight.com/courses/wp7-mango-multitask"
     },
+    "wp75-data": {
+        "author": "Yacine Khammal",
+        "date": "Sep 6 2011",
+        "length": 171,
+        "level": "Intermediate",
+        "rating": 18,
+        "title": "Windows Phone 7.5 Data",
+        "url": "https://www.pluralsight.com/courses/wp75-data"
+    },
     "wp75-integration": {
         "author": "Yacine Khammal",
         "date": "Aug 1 2011",
@@ -85318,6 +85768,15 @@
         "rating": 377,
         "title": "Your First Day with HTML",
         "url": "https://www.pluralsight.com/courses/your-first-day-html-1665"
+    },
+    "your-first-day-mari-1468": {
+        "author": "Eddie Russell",
+        "date": "Feb 14 2015",
+        "length": 198,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Your First Day in MARI",
+        "url": "https://www.pluralsight.com/courses/your-first-day-mari-1468"
     },
     "your-first-day-mocha-after-effects-1748": {
         "author": "Alex Hernandez",
