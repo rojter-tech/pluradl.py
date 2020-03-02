@@ -5,37 +5,6 @@ JSON_OUTPUT_FILE = os.path.abspath(os.path.join(SCRIPTPATH, '..', "data", "cours
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 
 
-def load_and_save_html(SEARCH_URL, HTML_OUTPUT_FILE):
-    driver = webdriver.Firefox()
-    driver.get(SEARCH_URL)
-    load_more_results = r'jQuery(".button--secondary").click()'
-
-    for i in range(50000):
-        driver.execute_script(load_more_results)
-
-    with open(HTML_OUTPUT_FILE, 'wt') as f:
-        f.write(driver.page_source)
-
-    driver.close()
-
-
-def outer_search_html(source_html, class_name):
-    read_state=False; track=0; search_snippets=[]
-    for line in source_html.split('\n'):
-        if re.search(r'class=' + r'"' + class_name + r'"', line):
-            read_state = True
-            search_result = []
-        if read_state:
-            search_result.append(line)
-            n_open = len(re.findall(r'<div', line))
-            n_close = len(re.findall(r'/div>', line))
-            track+=n_open;   track-=n_close
-            if track == 0:
-                read_state = False
-                search_snippets.append(''.join(search_result))
-    return search_snippets
-
-
 def main():
     course_dict = load_stored_json(JSON_OUTPUT_FILE)
     source_data = get_courselist_source(SEARCH_URL, n_pages=500)
@@ -73,7 +42,7 @@ def main():
             lenght = get_length(length_text)
             rating_snippet = outer_search_snippet(html_input, r'search-result__rating')
             rating = return_rating(rating_snippet)
-
+            
             if author_text and not '{' in author_text:
                 thiscourse['url'] = url_text.strip()
                 thiscourse['title'] = name_text.strip()

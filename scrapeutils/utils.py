@@ -126,6 +126,24 @@ def load_stored_json(json_path):
 ############################# Regex functions ############################
 ##########################################################################
 
+
+def outer_search_html(source_html, class_name):
+    read_state=False; track=0; search_snippets=[]
+    for line in source_html.split('\n'):
+        if re.search(r'class=' + r'"' + class_name + r'"', line):
+            read_state = True
+            search_result = []
+        if read_state:
+            search_result.append(line)
+            n_open = len(re.findall(r'<div', line))
+            n_close = len(re.findall(r'/div>', line))
+            track+=n_open;   track-=n_close
+            if track == 0:
+                read_state = False
+                search_snippets.append(''.join(search_result))
+    return search_snippets
+
+
 def outer_search_snippet(snippet, class_name):
     read_state=False; track=0; search_result = None
     for line in snippet.split('\n'):
@@ -146,7 +164,7 @@ def return_rating(rating_snippet):
     rating = 'none'
     if rating_snippet:
         for row in rating_snippet:
-            number = re.search(r'[0-9]+', row)
+            number = re.search(r'\([0-9]+\)', row)
             if number:
                 rating = number.group()
     if rating != 'none':
