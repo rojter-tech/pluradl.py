@@ -3050,6 +3050,15 @@
         "title": "Android File System",
         "url": "https://www.pluralsight.com/courses/android-file-system"
     },
+    "android-firebase-cloud-messaging-storage-crash-reporting": {
+        "author": "Mitch Tabian",
+        "date": "Jan 4 2018",
+        "length": 126,
+        "level": "Intermediate",
+        "rating": 25,
+        "title": "Firebase on Android: Cloud Messaging, Cloud Functions and Crashlytics",
+        "url": "https://www.pluralsight.com/courses/android-firebase-cloud-messaging-storage-crash-reporting"
+    },
     "android-firebase-database-cloud-storage": {
         "author": "Mitch Tabian",
         "date": "Nov 20 2017",
@@ -11339,6 +11348,15 @@
         "title": "Advanced BizTalk Server 2009",
         "url": "https://www.pluralsight.com/courses/bts09-custom-ms"
     },
+    "bts09-fundamentals": {
+        "author": "Matt Milner",
+        "date": "Nov 24 2009",
+        "length": 232,
+        "level": "Beginner",
+        "rating": 239,
+        "title": "BizTalk 2009 Fundamentals",
+        "url": "https://www.pluralsight.com/courses/bts09-fundamentals"
+    },
     "bts09-wcf": {
         "author": "Matt Milner",
         "date": "Nov 12 2010",
@@ -15838,6 +15856,15 @@
         "rating": 47,
         "title": "Code School: Git Real",
         "url": "https://www.pluralsight.com/courses/code-school-git-real"
+    },
+    "code-school-git-real-2": {
+        "author": "Gregg Pollack",
+        "date": "May 9 2013",
+        "length": 50,
+        "level": "Intermediate",
+        "rating": 24,
+        "title": "Code School: Git Real 2",
+        "url": "https://www.pluralsight.com/courses/code-school-git-real-2"
     },
     "code-school-javascript-best-practices": {
         "author": "Jason Millhouse",
@@ -28007,6 +28034,15 @@
         "title": "Excel 2013 Fundamentals",
         "url": "https://www.pluralsight.com/courses/excel-2013-fundamentals"
     },
+    "excel-2013-tables-introduction": {
+        "author": "Diane McSorley",
+        "date": "Aug 27 2013",
+        "length": 26,
+        "level": "Beginner",
+        "rating": 77,
+        "title": "Introduction to Excel 2013 Tables",
+        "url": "https://www.pluralsight.com/courses/excel-2013-tables-introduction"
+    },
     "excel-2016-data": {
         "author": "Diane McSorley",
         "date": "Jan 6 2016",
@@ -35558,6 +35594,18 @@
         "title": "Implementing Authentication in SharePoint 2019",
         "url": "https://www.pluralsight.com/courses/implementing-authentication-sharepoint-2019"
     },
+<<<<<<< HEAD
+=======
+    "implementing-aws-networking-security-groups": {
+        "author": "Craig Golightly",
+        "date": "May 2 2019",
+        "length": 40,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing AWS Networking Security Groups",
+        "url": "https://www.pluralsight.com/courses/implementing-aws-networking-security-groups"
+    },
+>>>>>>> 8ae23dea06e5994e58fe397c6be6aa6bcf3799a9
     "implementing-bas-relief-techniques-photoshop-illustrator-1835": {
         "author": "Valp Maciej Hajnrich",
         "date": "Nov 20 2015",
@@ -35827,6 +35875,15 @@
         "rating": 31,
         "title": "Pre 2017 - Implementing Virtual Networks for Azure Infrastructure (70-533)",
         "url": "https://www.pluralsight.com/courses/implementing-virtual-networks-azure-infrastructure-70-533"
+    },
+    "implementing-websites-azure-infrastructure-70-533": {
+        "author": "Tim Warner",
+        "date": "Mar 15 2016",
+        "length": 267,
+        "level": "Beginner",
+        "rating": 66,
+        "title": "Pre 2017 - Implementing Web Apps for Azure Infrastructure (70-533)",
+        "url": "https://www.pluralsight.com/courses/implementing-websites-azure-infrastructure-70-533"
     },
     "implementing-windows-10": {
         "author": "Glenn Weadock",
@@ -43369,6 +43426,15 @@
         "rating": "",
         "title": "Linux: Network Client Management (LPIC-2)",
         "url": "https://www.pluralsight.com/courses/linux-network-client-management-lpic-2"
+    },
+    "linux-network-programming": {
+        "author": "Chris Brown",
+        "date": "Mar 14 2016",
+        "length": 204,
+        "level": "Intermediate",
+        "rating": 44,
+        "title": "Linux Network Programming",
+        "url": "https://www.pluralsight.com/courses/linux-network-programming"
     },
     "linux-network-security-lpic-3-303": {
         "author": "David Clinton",
@@ -72062,6 +72128,15 @@
         "title": "SQL Server: Advanced Extended Events",
         "url": "https://www.pluralsight.com/courses/sqlserver-advanced-xevents"
     },
+    "sqlserver-azure-database": {
+        "author": "Erin Stellato",
+        "date": "Jan 9 2018",
+        "length": 87,
+        "level": "Intermediate",
+        "rating": 27,
+        "title": "SQL Server: Automatic Tuning in SQL Server 2017 and Azure SQL Database",
+        "url": "https://www.pluralsight.com/courses/sqlserver-azure-database"
+    },
     "sqlserver-basicxevents": {
         "author": "Jonathan Kehayias",
         "date": "Sep 25 2012",
@@ -74869,6 +74944,15 @@
         "rating": "",
         "title": "Texture Projection Techniques in MARI",
         "url": "https://www.pluralsight.com/courses/texture-projection-techniques-mari-1437"
+    },
+    "textures-that-tell-story-zbrush-photoshop-2069": {
+        "author": "Andy Jones",
+        "date": "Apr 23 2015",
+        "length": 76,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Creating Textures That Tell a Story in ZBrush and Photoshop",
+        "url": "https://www.pluralsight.com/courses/textures-that-tell-story-zbrush-photoshop-2069"
     },
     "texturing-animal-eyes-maya-917": {
         "author": "Justin Marshall",
@@ -81152,6 +81236,15 @@
         "title": "VMware vSphere Performance Monitoring: vSphere Resources",
         "url": "https://www.pluralsight.com/courses/vmware-vsphere-performance-monitoring-pt1"
     },
+    "vmware-vsphere-performance-monitoring-pt2": {
+        "author": "David Davis",
+        "date": "May 24 2011",
+        "length": 217,
+        "level": "Advanced",
+        "rating": "",
+        "title": "VMware vSphere Performance Monitoring: Tuning vSphere Resources",
+        "url": "https://www.pluralsight.com/courses/vmware-vsphere-performance-monitoring-pt2"
+    },
     "vmware-vsphere-performance-monitoring-pt3": {
         "author": "David Davis",
         "date": "May 24 2011",
@@ -81439,6 +81532,15 @@
         "rating": 186,
         "title": "Solution Modeling with UML in Visual Studio 2010",
         "url": "https://www.pluralsight.com/courses/vs2010-uml"
+    },
+    "vs2010-vsx": {
+        "author": "Kate Gregory",
+        "date": "Jul 25 2010",
+        "length": 295,
+        "level": "Beginner",
+        "rating": 46,
+        "title": "Customizing and Extending Visual Studio 2010 Without Code",
+        "url": "https://www.pluralsight.com/courses/vs2010-vsx"
     },
     "vs2010-vsx-code": {
         "author": "Kate Gregory",
@@ -85471,6 +85573,15 @@
         "rating": "",
         "title": "Windows Phone 7 \"Mango\" Multitasking",
         "url": "https://www.pluralsight.com/courses/wp7-mango-multitask"
+    },
+    "wp75-data": {
+        "author": "Yacine Khammal",
+        "date": "Sep 6 2011",
+        "length": 171,
+        "level": "Intermediate",
+        "rating": 18,
+        "title": "Windows Phone 7.5 Data",
+        "url": "https://www.pluralsight.com/courses/wp75-data"
     },
     "wp75-integration": {
         "author": "Yacine Khammal",
