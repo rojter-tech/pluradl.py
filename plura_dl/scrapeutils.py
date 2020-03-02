@@ -45,7 +45,7 @@ def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
             if i == 0:
                 msg = "Page loaded successfully.\nScanning courses ."
                 out.write(msg); out.flush()
-            elif i%5 == 0:
+            elif i%8 == 0:
                 out.write('.'); out.flush()
         except TimeoutException:
             msg = "\nNo more courses could be found."
