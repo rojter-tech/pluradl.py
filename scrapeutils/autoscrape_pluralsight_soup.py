@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import os, json, re, sys, codecs
+import os, json, re, sys, codecs, sys
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
@@ -14,8 +14,9 @@ elif os.name == 'posix':
 else:
     clear = lambda: None
 
+SCRIPTPATH=os.path.dirname(os.path.abspath(sys.argv[0]))
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
-JSON_OUTPUT_FILE = os.path.abspath(os.path.join('..', "data", "courses.json"))
+JSON_OUTPUT_FILE = os.path.abspath(os.path.join(SCRIPTPATH, '..', "data", "courses.json"))
 LOAD_MORE_RESULTS = r'jQuery(".button--secondary").click()'
 RESULT_BUTTON=r'//*[@id="search-results-section-load-more"]'
 
@@ -139,7 +140,6 @@ def store_dict_as_json(dictionary, filepath):
 
 
 def main():
-    print(JSON_OUTPUT_FILE)
     if os.path.exists(JSON_OUTPUT_FILE):
         with codecs.open(JSON_OUTPUT_FILE, 'r', 'utf-8') as json_file:
             courses = json.load(json_file)
