@@ -22,6 +22,8 @@ pip install selenium
 python pluraexercise.py
 ```
 
+Dowloaded exercise files will be placed in [exercise_files](https://github.com/rojter-tech/pluradl.py/tree/master/exercise_files) directory.
+
 ## Usage
 
 ### Download from **Pluralsight** with `pluradl.py`
