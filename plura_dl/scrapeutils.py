@@ -22,6 +22,11 @@ else:
 ###############################################################################
 
 def set_headless_firefox_driver():
+    """Preparing a headless Firefox browser driver instance.
+    
+    Returns:
+        WebDriver -- Selenium WebDriver object for Firefox
+    """
     firefox_options = FirefoxOptions()
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("--window-size=640x360")
@@ -34,8 +39,7 @@ def set_headless_firefox_driver():
 
 
 def set_chrome_driver(DLPATH):
-    """Preparing a Chromium browser instance ready for downloading
-    course exercise files.
+    """Preparing a Chromium browser instance ready for downloading files.
     
     Returns:
         WebDriver -- Selenium WebDriver object for Chromium
@@ -177,7 +181,7 @@ def load_stored_json(json_path):
     return json_dict
 
 
-def enter_hibernation():
+def enter_hibernation(driver):
     print("End of list reached. Downloads might still be in progress. [Ctrl-C to terminate]")
     print("Waiting ...")
     while True:
@@ -194,10 +198,12 @@ def enter_hibernation():
                 except KeyboardInterrupt:
                     clear()
                     print("Terminating ...")
+                    driver.close()
                     break
             
             if userinput in ['y','Y','yes','YES']:
                 print("Terminating ...")
+                driver.close()
                 break
             elif userinput in ['n','N','no','NO']:
                 print("Waiting ...")

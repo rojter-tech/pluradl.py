@@ -127,8 +127,7 @@ def main():
             download_routine(driver, course[0], sleep_time=5)
         else:
             print(course[0], "is tagged, skipping it.")
-    enter_hibernation()
-    driver.close()
+    enter_hibernation(driver)
 
 
 if __name__ == "__main__":
