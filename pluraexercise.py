@@ -4,9 +4,11 @@ from plura_dl.scrapeutils import (
     re,
     sleep,
     Path,
+    clear,
     TimeoutException,
     set_chrome_driver,
-    wait_for_access
+    wait_for_access,
+    enter_hibernation
 )
 
 from selenium.webdriver.chrome.options import Options
@@ -125,8 +127,7 @@ def main():
             download_routine(driver, course[0], sleep_time=5)
         else:
             print(course[0], "is tagged, skipping it.")
-    print("End of list reached. Waiting for downloads being finished before terminating.")
-    sleep(5000)
+    enter_hibernation()
     driver.close()
 
 

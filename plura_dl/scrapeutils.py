@@ -18,7 +18,7 @@ elif os.name == 'posix':
 else:
     clear = lambda: None
 
-############################### GENERAL functions #############################
+############################### General functions #############################
 ###############################################################################
 
 def set_headless_firefox_driver():
@@ -175,6 +175,34 @@ def load_stored_json(json_path):
         json_dict = {}
     
     return json_dict
+
+
+def enter_hibernation():
+    print("End of list reached. Downloads might still be in progress. [Ctrl-C to terminate]")
+    print("Waiting ...")
+    while True:
+        try:
+            sleep(5000)
+        except KeyboardInterrupt:
+            try:
+                clear()
+                userinput = input("Are you sure that you want to terminate this? [y/N] : ")
+            except KeyboardInterrupt:
+                try:
+                    clear()
+                    userinput = input("Press Ctrl-C again to terminate.")
+                except KeyboardInterrupt:
+                    clear()
+                    print("Terminating ...")
+                    break
+            
+            if userinput in ['y','Y','yes','YES']:
+                print("Terminating ...")
+                break
+            elif userinput in ['n','N','no','NO']:
+                print("Waiting ...")
+                continue
+
 
 ################################ Regex functions ##############################
 ###############################################################################
