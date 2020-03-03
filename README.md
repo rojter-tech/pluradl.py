@@ -69,7 +69,7 @@ wich would give you the **25 first videoclips** in the course c-sharp-fundamenta
 
 ### Example output
 
-![Directory tree of pluradl.py root](https://raw.githubusercontent.com/rojter-tech/pluradl.py/master/Image/example_output_tree.png)
+![Directory tree of pluradl.py root](https://raw.githubusercontent.com/rojter-tech/pluradl.py/master/image/example_output_tree.png)
 
 # IMPORTANT
 The argument `SLEEP_INTERVAL = 150` parameter used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait at least 150s (2.5 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
