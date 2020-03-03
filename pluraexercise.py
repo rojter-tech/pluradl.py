@@ -78,7 +78,7 @@ def download_routine(driver, course, sleep_time=5):
 
 
 def already_tagged_courses():
-    """Courses get tagged if they are allready downloaded, if they do 
+    """Courses get tagged if they are already downloaded, if they do 
     not contain any materials at all or if the do not contain authorized  
     materials for this subscription. Getting information from tagged_courses.txt.
     
