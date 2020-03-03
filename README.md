@@ -15,7 +15,7 @@ cd pluradl.py
 python pluradl.py
 ```
 
-## Download exercise files
+## Download exercise files (optional)
 To download exercise files you need the selenium external library. Then you will need an [appropriate Chrome driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and make it availaible in system/user PATH. Selenium documentation can be [found here](https://selenium-python.readthedocs.io/).
 ```bash
 pip install selenium
