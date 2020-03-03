@@ -92,6 +92,7 @@ from .utils import (
     PluraDLCookieJar,
     PluraDLCookieProcessor,
     PluraDLHandler,
+    PluraDLRedirectHandler,
 )
 from .cache import Cache
 from .extractor import get_info_extractor, gen_extractor_classes, _LAZY_LOADER
@@ -892,7 +893,7 @@ class PluraDL(object):
             # url_transparent. In such cases outer metadata (from ie_result)
             # should be propagated to inner one (info). For this to happen
             # _type of info should be overridden with url_transparent. This
-            # fixes issue from https://github.com/ytdl-org/plura-dl/pull/11163.
+            # fixes issue from https://github.com/ytdl-org/youtube-dl/pull/11163.
             if new_result.get('_type') == 'url':
                 new_result['_type'] = 'url_transparent'
 
@@ -1609,7 +1610,7 @@ class PluraDL(object):
         # by extractor are incomplete or not (i.e. whether extractor provides only
         # video-only or audio-only formats) for proper formats selection for
         # extractors with such incomplete formats (see
-        # https://github.com/ytdl-org/plura-dl/pull/5556).
+        # https://github.com/ytdl-org/youtube-dl/pull/5556).
         # Since formats may be filtered during format selection and may not match
         # the original formats the results may be incorrect. Thus original formats
         # or pre-calculated metrics should be passed to format selection routines
@@ -2343,6 +2344,7 @@ class PluraDL(object):
         debuglevel = 1 if self.params.get('debug_printtraffic') else 0
         https_handler = make_HTTPS_handler(self.params, debuglevel=debuglevel)
         ydlh = PluraDLHandler(self.params, debuglevel=debuglevel)
+        redirect_handler = PluraDLRedirectHandler()
         data_handler = compat_urllib_request_DataHandler()
 
         # When passing our own FileHandler instance, build_opener won't add the
@@ -2356,7 +2358,7 @@ class PluraDL(object):
         file_handler.file_open = file_open
 
         opener = compat_urllib_request.build_opener(
-            proxy_handler, https_handler, cookie_processor, ydlh, data_handler, file_handler)
+            proxy_handler, https_handler, cookie_processor, ydlh, redirect_handler, data_handler, file_handler)
 
         # Delete the default user-agent header, which would otherwise apply in
         # cases where our custom HTTP handler doesn't come into play
