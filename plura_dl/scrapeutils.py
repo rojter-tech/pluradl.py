@@ -1,8 +1,10 @@
 from __future__ import unicode_literals
 import os, json, re, sys, codecs
-from time import time
+from sys import stdout as out
+from time import time, sleep
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -19,7 +21,7 @@ else:
 ###############################################################################
 
 def set_headless_firefox_driver():
-    firefox_options = Options()
+    firefox_options = FirefoxOptions()
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("--window-size=640x360")
     firefox_options.add_argument("--disable-notifications")
@@ -30,10 +32,33 @@ def set_headless_firefox_driver():
     return driver
 
 
+def set_chrome_driver(DLPATH):
+    """Preparing a Chromium browser instance ready for downloading
+    course exercise files.
+    
+    Returns:
+        WebDriver -- Selenium WebDriver object for Chromium
+    """
+    chrome_options = ChromeOptions()
+    chrome_options.add_argument("--window-size=640x360")
+    chrome_options.add_argument("--disable-notifications")
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_experimental_option("prefs", {
+            "download.default_directory": DLPATH,
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing_for_trusted_sources_enabled": False,
+            "safebrowsing.enabled": False
+    })
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--disable-software-rasterizer')
+    driver = webdriver.Chrome(options=chrome_options)
+    return driver
+
+
 def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
     RESULT_BUTTON=r'//*[@id="search-results-section-load-more"]'
     LOAD_MORE_RESULTS = r'jQuery(".button--secondary").click()'
-    out=sys.stdout
     out.write("Loading the web driver ... "); out.flush()
     driver = set_headless_firefox_driver()
     out.write("Done. \n"); out.flush()
@@ -45,9 +70,10 @@ def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
             driver.execute_script(LOAD_MORE_RESULTS)
             if i == 0:
                 msg_part1 = "Page loaded successfully.\n"
-                msg_part2 = "                  0%[.................................................]100%"
-                msg_part3 = "\nScanning courses:   [."
-                msg       = msg_part1+msg_part2+msg_part3
+                msg_part2 = "                  "
+                msg_part3 = "0%[.................................................]100%"
+                msg_part4 = "\nScanning courses:   [."
+                msg       = msg_part1+msg_part2+msg_part3+msg_part4
                 out.write(msg); out.flush()
             elif i%8 == 0:
                 out.write('.'); out.flush()
@@ -55,7 +81,6 @@ def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
             msg = "]\nNo more courses could be found."
             out.write(msg)
             break
-    
     out.write(" Scanning done.\nFinalizing result data .")
     for i in range(finish_rounds):
         driver.execute_script(LOAD_MORE_RESULTS)
@@ -102,6 +127,18 @@ def get_rating(rating_elem):
 
 
 def wait_for_access(driver, XPATH, timer=10):
+    """Tracking an element, waiting for it to be available.
+    
+    Arguments:
+        driver {WebDriver} -- Selenium WebDriver
+        XPATH {str} -- XPATH element string
+    
+    Keyword Arguments:
+        timer {int} -- Default timer to wait for element (default: {20})
+    
+    Returns:
+        [WebDriver element] -- Element in interest
+    """
     element = WebDriverWait(driver, timer).until(
     EC.element_to_be_clickable((By.XPATH, XPATH)))
     return element
@@ -129,7 +166,6 @@ def store_dict_as_json(dictionary, filepath):
 
 
 def load_stored_json(json_path):
-    out = sys.stdout
     if os.path.exists(json_path):
         with codecs.open(json_path, 'r', 'utf-8') as json_file:
             out.write("Loading coursedata from: " + json_path + '\n')

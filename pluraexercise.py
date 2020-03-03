@@ -1,11 +1,14 @@
-import os, sys, re
-from time import sleep
-from selenium import webdriver
+from plura_dl.scrapeutils import (
+    os,
+    sys,
+    re,
+    sleep,
+    TimeoutException,
+    set_chrome_driver,
+    wait_for_access
+)
+
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import TimeoutException
 from pluradl import get_courses, get_usr_pw, set_directory
 
 LOGIN_URL=r'https://app.pluralsight.com/id?'
@@ -17,48 +20,6 @@ PASSWORD_INPUT=r'//*[@id="Password"]'
 LOGIN_SUBMIT=r'//*[@id="login"]'
 DOWNLOAD_EXERCISE_FILE=r'//*[@id="ps-main"]/div/div[2]/section/div[3]/div/div/button'
 ALT_DOWNLOAD_EXERCISE_FILE=r'/html/body/div[1]/div[3]/div/div[2]/section/div[4]/div/div/button'
-
-
-def set_driver():
-    """Preparing a Chromoium browser instance ready for downloading
-    course exercise files.
-    
-    Returns:
-        WebDriver -- Selenium WebDriver object for Chromium
-    """
-    chrome_options = Options()
-    chrome_options.add_argument("--window-size=640x360")
-    chrome_options.add_argument("--disable-notifications")
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_experimental_option("prefs", {
-            "download.default_directory": DLPATH,
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "safebrowsing_for_trusted_sources_enabled": False,
-            "safebrowsing.enabled": False
-    })
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--disable-software-rasterizer')
-    driver = webdriver.Chrome(options=chrome_options)
-    return driver
-
-
-def wait_for_access(driver, XPATH, timer=20):
-    """Tracking an element, waiting for it to be available.
-    
-    Arguments:
-        driver {WebDriver} -- Selenium WebDriver
-        XPATH {str} -- XPATH element string
-    
-    Keyword Arguments:
-        timer {int} -- Default timer to wait for element (default: {20})
-    
-    Returns:
-        [WebDriver element] -- Element in interest
-    """
-    element = WebDriverWait(driver, timer).until(
-    EC.element_to_be_clickable((By.XPATH, XPATH)))
-    return element
 
 
 def login_routine(driver, LOGIN_URL):
@@ -155,7 +116,7 @@ def main():
     else:
         course_tags = []
 
-    driver = set_driver()
+    driver = set_chrome_driver(DLPATH)
     set_directory(DLPATH)
     login_routine(driver, LOGIN_URL)
     for course in courses:

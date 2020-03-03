@@ -1,12 +1,24 @@
-from plura_dl.scrapeutils import *
+from plura_dl.scrapeutils import (
+    os,
+    sys,
+    out,
+    time,
+    BeautifulSoup,
+    load_stored_json,
+    get_courselist_source,
+    get_course_elements,
+    get_course_elements_texts,
+    get_course_dictionary,
+    store_dict_as_json
+)
 
 SCRIPTPATH=os.path.dirname(os.path.abspath(sys.argv[0]))
 JSON_OUTPUT_FILE = os.path.abspath(os.path.join(SCRIPTPATH, "data", "courses.json"))
 SEARCH_URL = r'https://www.pluralsight.com/search?categories=course&sort=title'
 
+
 def main():
     start = time()
-    out=sys.stdout
     course_dict = load_stored_json(JSON_OUTPUT_FILE)
     source_data = get_courselist_source(SEARCH_URL, n_pages=400, finish_rounds=100)
     out.write("Parsing html data ... "); out.flush()
@@ -30,6 +42,7 @@ def main():
     minutes = int(timedelta/60)
     seconds = int(timedelta%60)
     out.write('\nDone scraping courses in ' + str(minutes) + 'm' + str(seconds) + 's' + '.\n'); out.flush()
+
 
 if __name__ == "__main__":
     main()
