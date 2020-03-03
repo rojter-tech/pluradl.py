@@ -6040,6 +6040,7 @@ object-oriented-php-classical-inheritance-model
 object-oriented-php-essential-constructs
 object-oriented-programming-fundamentals-csharp
 object-oriented-programming-java
+object-oriented-programming-kotlin
 object-replacement-magic-realflow-412
 object-space-normal-maps-softimage-141
 object-tracking-matchmover-composite-471

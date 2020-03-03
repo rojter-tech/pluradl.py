@@ -54377,6 +54377,15 @@
         "title": "Mastering Object-oriented Programming in Java",
         "url": "https://www.pluralsight.com/courses/object-oriented-programming-java"
     },
+    "object-oriented-programming-kotlin": {
+        "author": "Kevin Jones",
+        "date": "Mar 3 2020",
+        "length": 178,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Object Oriented Programming with Kotlin",
+        "url": "https://www.pluralsight.com/courses/object-oriented-programming-kotlin"
+    },
     "object-replacement-magic-realflow-412": {
         "author": "Chris Glick",
         "date": "Oct 1 2010",
