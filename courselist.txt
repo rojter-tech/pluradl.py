@@ -2101,6 +2101,7 @@ copic-marker-illustrations-sketchbook-pro-1182
 coping-missing-invalid-duplicate-data-r
 cordova-apps-angular-typescript-vscode
 core-data-fundamentals
+core-python-functions-functional-programming
 core-python-organizing-larger-programs
 coreos-getting-started
 correlating-events-transactions-splunk
