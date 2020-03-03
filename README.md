@@ -15,6 +15,13 @@ cd pluradl.py
 python pluradl.py
 ```
 
+## Download exercise files
+To download exercise files you need the selenium external library
+```bash
+pip install selenium
+python pluraexercise.py
+```
+
 ## Usage
 
 ### Download from **Pluralsight** with `pluradl.py`
