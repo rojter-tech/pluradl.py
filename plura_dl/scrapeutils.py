@@ -181,33 +181,22 @@ def load_stored_json(json_path):
     return json_dict
 
 
-def enter_hibernation(driver):
-    print("End of list reached. Downloads might still be in progress. [Ctrl-C to terminate]")
-    print("Waiting ...")
+def enter_hibernation():
     while True:
-        try:
-            sleep(5000)
-        except KeyboardInterrupt:
-            try:
-                clear()
-                userinput = input("Are you sure that you want to terminate this? [y/N] : ")
-            except KeyboardInterrupt:
-                try:
-                    clear()
-                    userinput = input("Press Ctrl-C again to terminate.")
-                except KeyboardInterrupt:
-                    clear()
-                    print("Terminating ...")
-                    driver.close()
-                    break
-            
+        userinput = input("Waiting for user input ... [Press Enter to terminate]\n:")
+        userinput = input("Do you want to terminate? [y/N]: ")
+        if userinput in ['y','Y','yes','YES']:
+            print("Terminating ...")
+            break
+        elif userinput in ['n','N','no','NO']:
+            continue
+        else:
+            userinput = input("Not entering valid option again will terminate. This is you last chance [y/N] :")
             if userinput in ['y','Y','yes','YES']:
-                print("Terminating ...")
-                driver.close()
-                break
-            elif userinput in ['n','N','no','NO']:
-                print("Waiting ...")
                 continue
+            else:
+                print("Terminating ...")
+                break
 
 
 ################################ Regex functions ##############################
