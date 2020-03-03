@@ -29051,6 +29051,15 @@
         "title": "Exploring Data with PivotTables",
         "url": "https://www.pluralsight.com/courses/exploring-data-pivottables"
     },
+    "exploring-data-quantitative-techniques-r": {
+        "author": "Martin Burger",
+        "date": "Mar 3 2020",
+        "length": 122,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Exploring Data with Quantitative Techniques Using R",
+        "url": "https://www.pluralsight.com/courses/exploring-data-quantitative-techniques-r"
+    },
     "exploring-data-visually-r": {
         "author": "Martin Burger",
         "date": "Oct 7 2019",
@@ -48988,7 +48997,7 @@
     },
     "microsoft-azure-stack-development-environments-creating": {
         "author": "Jason Helmick",
-        "date": "Dec 14 2018",
+        "date": "Mar 3 2020",
         "length": 60,
         "level": "Intermediate",
         "rating": "",

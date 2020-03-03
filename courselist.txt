@@ -3226,6 +3226,7 @@ exploring-animation-principles-maya-timing-spacing-411
 exploring-assembly-options-methods-solidworks-2056
 exploring-benefits-symbols-toon-boom-harmony-1556
 exploring-data-pivottables
+exploring-data-quantitative-techniques-r
 exploring-data-visually-r
 exploring-different-explosion-types-fumefx-1085
 exploring-different-smoke-types-3ds-max-fumefx-1120
