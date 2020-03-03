@@ -3,6 +3,7 @@ from plura_dl.scrapeutils import (
     sys,
     re,
     sleep,
+    Path,
     TimeoutException,
     set_chrome_driver,
     wait_for_access
@@ -77,25 +78,25 @@ def download_routine(driver, course, sleep_time=5):
 
 
 def already_tagged_courses():
-    """Courses get tagged if they are downloaded or if they not contain 
-    any valid course materials for this subscription.
+    """Courses get tagged if they are allready downloaded, if they do 
+    not contain any materials at all or if the do not contain authorized  
+    materials for this subscription. Getting information from tagged_courses.txt.
     
     Returns:
         [str] -- List of tagged course_ids
     """
     zip_reg = re.compile(r'.+\.zip$')
     name_reg = re.compile(r'.*(?=.zip)')
-    failed_downloads = os.path.join(DLPATH, 'tagged_courses.txt')
-
+    tagged_courses = os.path.join(DLPATH, 'tagged_courses.txt')
     course_tags = []
-    if os.path.exists(failed_downloads):
-        with open(failed_downloads, 'rt') as f:
+    if os.path.exists(tagged_courses):
+        with open(tagged_courses, 'rt') as f:
             for line in f.readlines():
                 course_tags.append(line.strip())
-    for element in os.listdir(DLPATH):
-        if zip_reg.match(element):
-            course_tags.append(name_reg.search(element).group())
-
+    for element in Path(DLPATH).rglob('*.zip'):
+        filename = element.name
+        if zip_reg.match(filename):
+            course_tags.append(name_reg.search(filename).group())
     return course_tags
 
 
@@ -124,7 +125,7 @@ def main():
             download_routine(driver, course[0], sleep_time=5)
         else:
             print(course[0], "is tagged, skipping it.")
-    print("End of list reached. Wait for downloads being finished before terminate this.")
+    print("End of list reached. Waiting for downloads being finished before terminating.")
     sleep(5000)
     driver.close()
 

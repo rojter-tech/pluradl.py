@@ -1498,3 +1498,10 @@ windows-81-introduction
 word-2019-essentials
 word-2019-power-users
 word-2019-pro
+app-deployment-debugging-performance-1
+building-authorization-azure-active-directory-developers
+getting-started-application-development-1
+microsoft-azure-security-privacy-concepts
+modify-data-couchbase-n1ql
+object-oriented-programming-kotlin
+securing-integrating-components-application-1

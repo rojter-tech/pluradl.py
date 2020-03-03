@@ -2,6 +2,7 @@ from __future__ import unicode_literals
 import os, json, re, sys, codecs
 from sys import stdout as out
 from time import time, sleep
+from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.chrome.options import Options as ChromeOptions
