@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.pluralsight.com	TRUE	/	FALSE	1585910122	__cfduid	d1c45b3c0512b3ddab9c9c14dc29821e91583318122
+.pluralsight.com	TRUE	/	TRUE	0	__cfruid	2d120df963f68e454285dcaafe8636f29bae78c6-1583318123

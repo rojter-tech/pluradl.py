@@ -1,4 +1,4 @@
-Update - 2020-03-04 - **Attention:** Athentication issues at the moment, no video downloads are possible right now.
+Update - 2020-03-04 - **Attention:** Athentication issues at the moment, no video downloads are possible right now on several platforms. Some might work. Refering to [relevant issue](https://github.com/ytdl-org/youtube-dl/issues/24008).
 ---
 # Automated download from Pluralsight with `pluradl.py`
 This project, `pluradl.py`, is aiming for automating the process of downloading **a whole sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
@@ -63,8 +63,8 @@ python pluradl.py --pass "mypassword" --user "example@somemail.com"
 ```
 where the order doesn't matter.
 
-#### Set subtitle
-To supplement with english subtitles use the **-s**, **--sub** or **--subtitle** flag
+#### Turn off subtitle
+To turn off recording of subtitles use the **-s**, **--sub** or **--subtitle** flag
 ```bash
 $ python pluradl.py --subtitle
 ^C
@@ -111,7 +111,7 @@ python pluraexercise.py
 ![Directory tree of pluradl.py root](https://raw.githubusercontent.com/rojter-tech/pluradl.py/master/image/example_output_tree.png)
 
 # IMPORTANT
-The argument `SLEEP_INTERVAL = 150` parameter used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait at least 150s (2.5 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
+The argument `SLEEP_INTERVAL = 40` and `SLEEP_OFFSET = 120` parameters used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait in average 100s (~1.7 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
 
 >We have blocked your account because our security systems have flagged your Pluralsight account for an unusual amount activity. This does mean a high volume of requests that are in the realm of a request every 10-30 seconds for a prolonged period of time. Please note that this high volume of activity is in violation of our terms of service [https://www.pluralsight.com/terms].
 

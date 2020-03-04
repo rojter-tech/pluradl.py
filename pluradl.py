@@ -1,18 +1,27 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, certifi
+import sys, os, shutil, re, getpass, io, certifi, plura_dl
+from plura_dl import PluraDL
+from plura_dl.utils import ExtractorError, DownloadError, std_headers
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
 certpath = os.path.abspath(certifi.where())
 os.environ["SSL_CERT_FILE"] = certpath
 
-from plura_dl import PluraDL
-from plura_dl.utils import ExtractorError, DownloadError
-scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
+std_headers['User-Agent'] = r"Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0"
+std_headers['Accept'] = r'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+std_headers['Referer'] = r'https://app.pluralsight.com/id/'
+std_headers['Host'] = r'app.pluralsight.com'
+std_headers['Cache-Control'] = r'max-age=0'
+std_headers['Upgrade-Insecure-Requests'] = r'1'
+std_headers['TE'] = r'Trailers'
+std_headers['DNT'] = r'1'
+std_headers['Connection'] = r'keep-alive'
+std_headers['Accept-Charset'] = r'ISO-8859-1,utf-8;q=0.7,*;q=0.7'
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
-SLEEP_INTERVAL = 150    # minimum sleep time        #                                 #
-SLEEP_OFFSET   = 50     # adding random sleep time  #  Change this at your own risk.  #
+SLEEP_INTERVAL = 40     # minimum sleep time        #                                 #
+SLEEP_OFFSET   = 120    # adding random sleep time  #  Change this at your own risk.  #
 RATE_LIMIT     = 10**6  # download rate in bytes/s  #                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -23,6 +32,11 @@ PDL_OPTS = {}
 SUBTITLE = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = r"https://app.pluralsight.com/library/courses/"
+SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
+COOKIEFILE = os.path.join(SCRIPTPATH, 'cookies', 'cookies.txt')
+if os.path.exists(COOKIEFILE):
+    os.remove(COOKIEFILE)
+    pass
 
 
 class Logger(object):
@@ -177,6 +191,7 @@ def pluradl(course):
     else:
         print("Course", course_id, "already downloaded")
         return True
+
 
 def flag_parser():
     """Argument handling of 4 or more arguments, interpreting arguments
@@ -361,8 +376,14 @@ def download_courses(courses):
     PDL_OPTS["verbose"] = True
     PDL_OPTS["restrictfilenames"] = True
     PDL_OPTS["format"] = "bestaudio/best"
+    PDL_OPTS["cookiefile"] = COOKIEFILE
+    PDL_OPTS["writesubtitles"] = True
+    PDL_OPTS["allsubtitles"] = True
+    PDL_OPTS["subtitlesformat"] = r'srt'
+    PDL_OPTS["verbose"] = True
     if SUBTITLE:
-        PDL_OPTS["writesubtitles"] = True
+        PDL_OPTS["writesubtitles"] = False
+        PDL_OPTS["allsubtitles"] = False
 
     for course in courses:
         if pluradl(course):
