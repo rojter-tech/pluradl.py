@@ -2661,6 +2661,7 @@ django-1-7-whats-new
 django-angularjs-web-development
 django-cms-getting-started
 django-fundamentals-update
+django-getting-started
 dns-deep-dive
 docker-ansible-continuous-delivery
 docker-aws-elastic-beanstalk

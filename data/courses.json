@@ -23966,6 +23966,15 @@
         "title": "Django Fundamentals",
         "url": "https://www.pluralsight.com/courses/django-fundamentals-update"
     },
+    "django-getting-started": {
+        "author": "Reindert-Jan Ekker",
+        "date": "Mar 4 2020",
+        "length": 154,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Django: Getting Started",
+        "url": "https://www.pluralsight.com/courses/django-getting-started"
+    },
     "dns-deep-dive": {
         "author": "Rhonda Layfield-Dwyer",
         "date": "Mar 17 2017",
