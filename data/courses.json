@@ -81098,6 +81098,15 @@
         "title": "VMware Horizon 7.10 ESB: Create and Configure Desktop Pools",
         "url": "https://www.pluralsight.com/courses/vmware-horizon-7-10-esb-create-configure-desktop-pools"
     },
+    "vmware-horizon-7-10-esb-implement-jmp-dem-app-volumes-workspace-one-access": {
+        "author": "Greg Shields",
+        "date": "Mar 4 2020",
+        "length": 164,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "VMware Horizon 7.10 ESB: Implement JMP with DEM, App Volumes, and Workspace ONE Access",
+        "url": "https://www.pluralsight.com/courses/vmware-horizon-7-10-esb-implement-jmp-dem-app-volumes-workspace-one-access"
+    },
     "vmware-horizon-7-10-esb-install-configure-horizon-server-components": {
         "author": "Greg Shields",
         "date": "Feb 14 2020",

@@ -9009,6 +9009,7 @@ vmware-esx-server-pt2
 vmware-esx-server-pt3
 vmware-fusion-6-it-pro
 vmware-horizon-7-10-esb-create-configure-desktop-pools
+vmware-horizon-7-10-esb-implement-jmp-dem-app-volumes-workspace-one-access
 vmware-horizon-7-10-esb-install-configure-horizon-server-components
 vmware-horizon-7-10-esb-introduction
 vmware-horizon-7-app-volumes
