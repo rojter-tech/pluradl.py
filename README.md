@@ -15,13 +15,6 @@ cd pluradl.py
 python pluradl.py
 ```
 
-## Download exercise files (optional)
-To download exercise files you need the selenium external library. Then you will need an [appropriate Chrome driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and make it availaible in system/user PATH. Selenium documentation can be [found here](https://selenium-python.readthedocs.io/).
-```bash
-pip install selenium
-python pluraexercise.py
-```
-
 Dowloaded exercise files will be placed in [exercise_files](https://github.com/rojter-tech/pluradl.py/tree/master/exercise_files) directory.
 
 ## Usage
@@ -105,6 +98,13 @@ csharp-best-practices-collections-generics 5 3 10 11
 ```
 
 wich would give you **three videos**, those that are numbered **2**, **10** and **15**, in the course c-sharp-fundamentals-with-visual-studio-2015 and the **four specific videos** with indicies **5**, **3**, **10** and **11** in csharp-best-practices-collections-generics.
+
+### Download exercise files (optional)
+To download exercise files you need the selenium external library. Then you will need an [appropriate Chrome driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and make it availaible in system/user PATH. Selenium documentation can be [found here](https://selenium-python.readthedocs.io/).
+```bash
+pip install selenium
+python pluraexercise.py
+```
 
 ### Example output
 
