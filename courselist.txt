@@ -1384,6 +1384,7 @@ building-modern-navigation-designs-photoshop-html-2279
 building-multi-client-end-to-end-service-oriented-applications
 building-multi-client-end-to-end-soa-angular
 building-multidimensional-models-ssas
+building-multistep-applications-aws-step-functions
 building-native-mobile-apps-sap-business-warehouse
 building-native-mobile-apps-sap-business-warehouse-part2
 building-neural-networks-scikit-learn

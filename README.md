@@ -1,4 +1,4 @@
-**Update: 2020-03-03** - [Version 1.0.0b2 released](https://github.com/rojter-tech/pluradl.py/releases/latest).
+Update - 2020-03-04 - **Attention:** Athentication issues at the moment, no video downloads are possible right now.
 ---
 # Automated download from Pluralsight with `pluradl.py`
 This project, `pluradl.py`, is aiming for automating the process of downloading **a whole sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
