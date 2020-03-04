@@ -5926,7 +5926,7 @@
         "date": "Dec 13 2019",
         "length": 74,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "Artificial Intelligence: The Big Picture",
         "url": "https://www.pluralsight.com/courses/artificial-intelligence-big-picture"
     },
@@ -16078,7 +16078,7 @@
         "date": "Sep 28 2016",
         "length": 75,
         "level": "Beginner",
-        "rating": 66,
+        "rating": 67,
         "title": "Code School: On Track with Golang",
         "url": "https://www.pluralsight.com/courses/code-school-on-track-with-golang"
     },
@@ -18058,7 +18058,7 @@
         "date": "Jan 14 2019",
         "length": 162,
         "level": "Beginner",
-        "rating": 18,
+        "rating": 20,
         "title": "Computer Fundamentals: Hardware",
         "url": "https://www.pluralsight.com/courses/computer-fundamentals-hardware"
     },
@@ -32017,7 +32017,7 @@
         "date": "Dec 9 2019",
         "length": 169,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 41,
         "title": "Blazor: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-blazor"
     },
@@ -32809,7 +32809,7 @@
         "date": "Nov 26 2019",
         "length": 146,
         "level": "Intermediate",
-        "rating": 161,
+        "rating": 162,
         "title": "Getting Started with Asynchronous Programming in .NET",
         "url": "https://www.pluralsight.com/courses/getting-started-with-asynchronous-programming-dotnet"
     },
@@ -40000,7 +40000,7 @@
         "date": "Dec 20 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 3065,
+        "rating": 3066,
         "title": "Introduction to SQL",
         "url": "https://www.pluralsight.com/courses/introduction-to-sql"
     },
@@ -58747,7 +58747,7 @@
         "date": "Apr 1 2019",
         "length": 36,
         "level": "Beginner",
-        "rating": 42,
+        "rating": 43,
         "title": "Play by Play: Visual Studio Live Share",
         "url": "https://www.pluralsight.com/courses/play-by-play-visual-studio-live-share"
     },
@@ -75766,7 +75766,7 @@
         "date": "Sep 6 2019",
         "length": 61,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "THAT Conference '19: The Absolute Beginner's Guide to Docker",
         "url": "https://www.pluralsight.com/courses/that-conference-2019-session-33"
     },
@@ -79771,7 +79771,7 @@
         "date": "May 3 2019",
         "length": 113,
         "level": "Beginner",
-        "rating": 72,
+        "rating": 73,
         "title": "Using React Hooks",
         "url": "https://www.pluralsight.com/courses/using-react-hooks"
     },
@@ -82579,7 +82579,7 @@
         "date": "Mar 18 2014",
         "length": 123,
         "level": "Intermediate",
-        "rating": 1216,
+        "rating": 1217,
         "title": "Web Security and the OWASP Top 10: The Big Picture",
         "url": "https://www.pluralsight.com/courses/web-security-owasp-top10-big-picture"
     },
