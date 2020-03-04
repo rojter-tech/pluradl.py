@@ -6223,7 +6223,7 @@
         "date": "May 11 2016",
         "length": 269,
         "level": "Beginner",
-        "rating": 94,
+        "rating": 95,
         "title": "Building a Consistent RESTful API with OData V4 in ASP.NET",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-odata-v4-restful-api"
     },
@@ -13414,7 +13414,7 @@
         "date": "Aug 6 2018",
         "length": 97,
         "level": "Intermediate",
-        "rating": 70,
+        "rating": 71,
         "title": "Error Handling in C# with Exceptions",
         "url": "https://www.pluralsight.com/courses/c-sharp-error-handling-exceptions"
     },
@@ -15727,7 +15727,7 @@
         "date": "Sep 20 2018",
         "length": 51,
         "level": "Beginner",
-        "rating": 71,
+        "rating": 73,
         "title": "Cloud-native Architecture: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cloud-native-architecture-big-picture"
     },
@@ -61960,7 +61960,7 @@
         "date": "Jan 26 2018",
         "length": 65,
         "level": "Beginner",
-        "rating": 560,
+        "rating": 563,
         "title": "Python: The Big Picture",
         "url": "https://www.pluralsight.com/courses/python-big-picture"
     },
