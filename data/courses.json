@@ -21482,6 +21482,15 @@
         "title": "Debugging Chronicles II",
         "url": "https://www.pluralsight.com/courses/dbg-chron2"
     },
+    "ddd-ef-core-preserving-encapsulation": {
+        "author": "Vladimir Khorikov",
+        "date": "Mar 4 2020",
+        "length": 218,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "DDD and EF Core: Preserving Encapsulation",
+        "url": "https://www.pluralsight.com/courses/ddd-ef-core-preserving-encapsulation"
+    },
     "dealing-with-new-company-culture": {
         "author": "Doru Catana",
         "date": "Nov 30 2017",
@@ -32817,7 +32826,7 @@
         "author": "Nicolae Caprarescu",
         "date": "Jan 22 2020",
         "length": 112,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Getting Started with EasyMock",
         "url": "https://www.pluralsight.com/courses/getting-started-with-easy-mock"

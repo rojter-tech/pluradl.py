@@ -2385,6 +2385,7 @@ daydreamer-production-pipeline-6-dynamics-2247
 daydreamer-production-pipeline-7-compositing-2249
 dbg-chron1
 dbg-chron2
+ddd-ef-core-preserving-encapsulation
 dealing-with-new-company-culture
 debugging-chronicles3
 debugging-powershell-vs-code
