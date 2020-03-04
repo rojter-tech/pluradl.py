@@ -12473,6 +12473,15 @@
         "title": "Building Multidimensional Models in SSAS",
         "url": "https://www.pluralsight.com/courses/building-multidimensional-models-ssas"
     },
+    "building-multistep-applications-aws-step-functions": {
+        "author": "Nertil Poci",
+        "date": "Mar 3 2020",
+        "length": 75,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building Multi-step Applications with AWS Step Functions",
+        "url": "https://www.pluralsight.com/courses/building-multistep-applications-aws-step-functions"
+    },
     "building-native-mobile-apps-sap-business-warehouse": {
         "author": "Laszlo Meszaros",
         "date": "Jul 23 2014",
