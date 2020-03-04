@@ -575,6 +575,15 @@
         "title": "Accessibility: Exploring Images and Media",
         "url": "https://www.pluralsight.com/courses/accessibility-exploring-images-media"
     },
+    "accessibility-website-structure-comprehension": {
+        "author": "Matt Henry",
+        "date": "Mar 4 2020",
+        "length": 95,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Accessibility: Website Structure and Comprehension",
+        "url": "https://www.pluralsight.com/courses/accessibility-website-structure-comprehension"
+    },
     "accessing-data-fsharp-type-providers": {
         "author": "Tomas Petricek",
         "date": "Nov 3 2015",
@@ -18602,6 +18611,15 @@
         "title": "Conflict Resolution in the Workplace",
         "url": "https://www.pluralsight.com/courses/conflict-resolution-workplace"
     },
+    "confluence-getting-started": {
+        "author": "Jim Weaver",
+        "date": "Mar 4 2020",
+        "length": 134,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Confluence: Getting Started",
+        "url": "https://www.pluralsight.com/courses/confluence-getting-started"
+    },
     "connect-powershell-to-azure-subscription": {
         "author": "Russell Smith",
         "date": "Apr 7 2015",
@@ -23137,6 +23155,15 @@
         "rating": 25,
         "title": "Developing Unified Asset Systems in Illustrator",
         "url": "https://www.pluralsight.com/courses/developing-unified-asset-systems-illustrator-2295"
+    },
+    "developing-web-applications-apis-protected-azure-active-directory": {
+        "author": "Sahil Malik",
+        "date": "Mar 4 2020",
+        "length": 146,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Developing Web Applications and Web APIs Protected by Azure Active Directory",
+        "url": "https://www.pluralsight.com/courses/developing-web-applications-apis-protected-azure-active-directory"
     },
     "developing-workflow-rendering-fur-v-ray-2154": {
         "author": "Shane Simpson",

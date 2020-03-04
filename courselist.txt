@@ -62,6 +62,7 @@ access-control-lists-cisco-ccna-200-125-100-105
 access-control-mechanisms-linux
 access-low-cost-sap-development-system
 accessibility-exploring-images-media
+accessibility-website-structure-comprehension
 accessing-data-fsharp-type-providers
 accountability-five-steps
 achieving-advanced-insights-bigquery
@@ -2065,6 +2066,7 @@ configuring-windows-10-devices-manage-data-access-creators
 configuring-windows-10-devices-manage-updates-creators
 configuring-windows-firewall-windows-server-2019
 conflict-resolution-workplace
+confluence-getting-started
 connect-powershell-to-azure-subscription
 connecting-our-macs-directory-services
 construct2-fundamentals
@@ -2569,6 +2571,7 @@ developing-space-helmet-photoshop-1989
 developing-symbol-systems-illustrator-1874
 developing-team-culture
 developing-unified-asset-systems-illustrator-2295
+developing-web-applications-apis-protected-azure-active-directory
 developing-workflow-rendering-fur-v-ray-2154
 device-driven-web-solutions-wurfl
 device-hardening-cnd
