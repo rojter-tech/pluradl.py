@@ -8628,6 +8628,7 @@ understanding-appreciating-differences
 understanding-aspdotnet-core-2x
 understanding-aspdotnet-core-3x
 understanding-audience
+understanding-aws-core-services
 understanding-basic-matchmoving-techniques-pftrack-matchmover-1366
 understanding-basics-grid-based-design-440
 understanding-basics-nhair-maya-1081
