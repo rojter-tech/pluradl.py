@@ -575,6 +575,15 @@
         "title": "Accessibility: Exploring Images and Media",
         "url": "https://www.pluralsight.com/courses/accessibility-exploring-images-media"
     },
+    "accessibility-keyboard-input-forms": {
+        "author": "Fiona Holder",
+        "date": "Mar 5 2020",
+        "length": 75,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Accessibility: Keyboard Input and Forms",
+        "url": "https://www.pluralsight.com/courses/accessibility-keyboard-input-forms"
+    },
     "accessibility-website-structure-comprehension": {
         "author": "Matt Henry",
         "date": "Mar 4 2020",
@@ -48016,7 +48025,7 @@
     },
     "microsoft-azure-developers-what-to-use": {
         "author": "Barry Luijbregts",
-        "date": "Apr 10 2019",
+        "date": "Jan 30 2020",
         "length": 222,
         "level": "Beginner",
         "rating": 127,
