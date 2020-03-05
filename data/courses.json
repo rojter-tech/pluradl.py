@@ -17324,6 +17324,15 @@
         "title": "Command and Control with Covenant",
         "url": "https://www.pluralsight.com/courses/command-control-covenant"
     },
+    "command-control-privilege-escalation-collection-pupy": {
+        "author": "Matt Glass",
+        "date": "Mar 5 2020",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Command and Control with Pupy",
+        "url": "https://www.pluralsight.com/courses/command-control-privilege-escalation-collection-pupy"
+    },
     "commodity-san-storage-windows-server-2016": {
         "author": "Robert McMillen",
         "date": "Jan 25 2018",
@@ -48394,7 +48403,7 @@
     },
     "microsoft-azure-information-protection-managing": {
         "author": "Ned Bellavance",
-        "date": "Oct 11 2018",
+        "date": "Feb 21 2020",
         "length": 102,
         "level": "Intermediate",
         "rating": 24,

@@ -1923,6 +1923,7 @@ combining-procedural-animation-rigid-body-dynamics-houdini-535
 combining-shaping-data
 comic-book-cover-illustrator-photoshop-2170
 command-control-covenant
+command-control-privilege-escalation-collection-pupy
 commodity-san-storage-windows-server-2016
 common-data-service-introduction
 common-dax-expressions-scenarios-power-bi-playbook
