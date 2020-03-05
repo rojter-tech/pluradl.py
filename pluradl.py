@@ -33,10 +33,12 @@ SUBTITLE_OFF = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = r"https://app.pluralsight.com/library/courses/"
 SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
-COOKIEFILE = os.path.join(SCRIPTPATH, 'cookies', 'cookies.txt')
-if os.path.exists(COOKIEFILE):
+COOKIEPATH = os.path.join(SCRIPTPATH, 'cookies')
+COOKIEFILE = os.path.join(COOKIEPATH, 'cookies.txt')
+if not os.path.exists(COOKIEPATH):
+    os.mkdir(COOKIEPATH)
+elif os.path.exists(COOKIEFILE):
     os.remove(COOKIEFILE)
-    pass
 
 
 class Logger(object):
