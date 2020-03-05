@@ -66266,6 +66266,15 @@
         "title": "Scala: Getting Started",
         "url": "https://www.pluralsight.com/courses/scala-getting-started"
     },
+    "scala-specific-design-patterns": {
+        "author": "Vikash Sharma",
+        "date": "Jan 23 2020",
+        "length": 76,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Scala Specific Design Patterns",
+        "url": "https://www.pluralsight.com/courses/scala-specific-design-patterns"
+    },
     "scala-thinking-functionally": {
         "author": "Vitthal Srinivasan",
         "date": "Dec 7 2016",
