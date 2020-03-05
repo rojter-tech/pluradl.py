@@ -29,7 +29,7 @@ RATE_LIMIT     = 10**6  # download rate in bytes/s  #                           
 DLPATH, USERNAME, PASSWORD = "", "", ""
 INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH = "", "", "", ""
 PDL_OPTS = {}
-SUBTITLE = False
+SUBTITLE_OFF = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = r"https://app.pluralsight.com/library/courses/"
 SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -204,7 +204,7 @@ def flag_parser():
     
     global USERNAME
     global PASSWORD
-    global SUBTITLE
+    global SUBTITLE_OFF
 
     usn_psw_flag_state = False
     flag_states = {"usn":[False],"psw":[False]}
@@ -275,10 +275,11 @@ def get_usr_pw():
         ValueError: User enters an empty password too many times
     """
     print("Enter you Pluralsight credentials")
-    for i in range(3):
+    for attempt in ["First","Second","Last"]:
         u0 = input("Enter username: ")
         if u0 == "":
             print("Username cannot be empty, enter username again")
+            print(attempt, "attempt failed")
             continue
         else:
             USERNAME = u0
@@ -297,14 +298,14 @@ def get_usr_pw():
 def set_subtitle():
     """Determines whether subtitle parameters should be turned on or not.
     """
-    global SUBTITLE
+    global SUBTITLE_OFF
     subtitle_flags = ("--sub", "--subtitle", "-s",
                       "--SUB", "--SUBTITLE", "-S")
     if len(sys.argv) > 1:
         for arg in sys.argv[1:]:
             if arg in subtitle_flags:
-                SUBTITLE = True
-                print("Subtitles will be appended to videoclips")
+                SUBTITLE_OFF = True
+                print("Subtitles will not be appended to videoclips")
 
 
 def set_directory(path):
@@ -380,7 +381,7 @@ def download_courses(courses):
     PDL_OPTS["allsubtitles"] = True
     PDL_OPTS["subtitlesformat"] = r'srt'
     PDL_OPTS["verbose"] = True
-    if SUBTITLE:
+    if SUBTITLE_OFF:
         PDL_OPTS["writesubtitles"] = False
         PDL_OPTS["allsubtitles"] = False
 
