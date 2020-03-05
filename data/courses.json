@@ -13400,6 +13400,15 @@
         "title": "C# Design Patterns: Mediator",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-mediator"
     },
+    "c-sharp-design-patterns-prototype": {
+        "author": "Harrison Ferrone",
+        "date": "Mar 5 2020",
+        "length": 23,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "C# Design Patterns: Prototype",
+        "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-prototype"
+    },
     "c-sharp-design-patterns-state": {
         "author": "Marc Gilbert",
         "date": "Nov 9 2019",

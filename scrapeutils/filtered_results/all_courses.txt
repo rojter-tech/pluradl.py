@@ -1487,6 +1487,7 @@ c-sharp-design-patterns-chain-responsibility
 c-sharp-design-patterns-composite
 c-sharp-design-patterns-decorator
 c-sharp-design-patterns-mediator
+c-sharp-design-patterns-prototype
 c-sharp-design-patterns-state
 c-sharp-design-patterns-strategy
 c-sharp-dynamic-fundamentals
