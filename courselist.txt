@@ -1483,6 +1483,7 @@ c-sharp-attributes-power-flexibility-code
 c-sharp-code-more-object-oriented
 c-sharp-command-pattern
 c-sharp-design-patterns-adapter
+c-sharp-design-patterns-builder
 c-sharp-design-patterns-chain-responsibility
 c-sharp-design-patterns-composite
 c-sharp-design-patterns-decorator

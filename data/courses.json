@@ -13364,6 +13364,15 @@
         "title": "C# Design Patterns: Adapter",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter"
     },
+    "c-sharp-design-patterns-builder": {
+        "author": "Harrison Ferrone",
+        "date": "Mar 5 2020",
+        "length": 28,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "C# Design Patterns: Builder",
+        "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-builder"
+    },
     "c-sharp-design-patterns-chain-responsibility": {
         "author": "Filip Ekberg",
         "date": "Nov 6 2019",
