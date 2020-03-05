@@ -70145,6 +70145,15 @@
         "title": "Site Design and Modeling in Revit",
         "url": "https://www.pluralsight.com/courses/site-design-modeling-revit-1321"
     },
+    "site-reliability-engineering-big-picture": {
+        "author": "Elton Stoneman",
+        "date": "Mar 5 2020",
+        "length": 101,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Site Reliability Engineering (SRE): The Big Picture",
+        "url": "https://www.pluralsight.com/courses/site-reliability-engineering-big-picture"
+    },
     "site-reliability-engineering-measuring-managing-reliability": {
         "author": "Google Cloud",
         "date": "Jan 23 2020",
