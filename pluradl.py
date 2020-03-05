@@ -126,7 +126,6 @@ def invoke_download(course_id, course_url, coursepath):
 
             # Moving content to _finished destination path if the download was sucessful
             pdl.to_stdout("The course '" + course_id + "' was downloaded successfully.")
-            finalpath = os.path.join(FINISHPATH, course_id)
             move_content(pdl, course_id, coursepath, FINISHPATH)
             return True
 
