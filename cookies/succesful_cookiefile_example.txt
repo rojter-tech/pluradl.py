@@ -1,0 +1,10 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.pluralsight.com	TRUE	/	TRUE	1584065193	PsJwt-production	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJoYW5kbGUiOiI0MGIwNWIwZC1mZDFlLTRiZTctYjIzNy03NDQwNzdjYmY3ODMiLCJpYXQiOjE1ODM0NjAzOTMsImV4cCI6MTU4NDA2NTE5M30.Fwvo1yTV2YIZbLM1kkYbFHpVBHNbellxJ_R3JRcS1cw
+.pluralsight.com	TRUE	/	TRUE	1583462192	__cf_bm	d4e9ff5bbf2b4d0c3771321cb77072ed2199f5f3-1583460392-1800-AfdlgIuuaT+YwZG7akEL1N+9eefiZCyxzhuXxJt/LZ1Zza71azK8xnxo4a/w3mVyKfCg9YZPrwBpMw7lTbO2AMs=
+.pluralsight.com	TRUE	/	FALSE	1586052392	__cfduid	da05ad1baa29cf0a1ff89e497719aa08c1583460392
+.pluralsight.com	TRUE	/	TRUE	0	__cfruid	99c8d6350e6448a13034df5d4e0b8b0b04d60a8d-1583460392
+.pluralsight.com	TRUE	/	TRUE	1584065193	www-status-production	1
+app.pluralsight.com	FALSE	/	FALSE	0	__RequestVerificationToken_L2lk0	XtkEngsOSQ7rVR2BZixvT0c6xV3f3L9geAcD9kYc8GLdjcrro4g45C322ZV1wsa7gGEfhTuDNb7CyFiKwKPPlJoLw0c1
