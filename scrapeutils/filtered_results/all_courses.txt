@@ -1461,6 +1461,7 @@ business-analysis-managing-requirements
 business-analysis-needs-assessment-introduction
 business-analysis-planning
 business-analysis-planning-monitoring-tasks-techniques
+business-analysis-strategic-planning-delivering-value
 business-analysis-techniques-conducting-strategy-analysis
 business-analysis-techniques-evaluating-solutions
 business-analysis-techniques-planning-monitoring
