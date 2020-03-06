@@ -23057,6 +23057,15 @@
         "title": "Developer's Guide to SQL Server CLR Integration",
         "url": "https://www.pluralsight.com/courses/developers-guide-sql-server-clr"
     },
+    "developing-applications-aws-lightsail": {
+        "author": "Tom Compagno",
+        "date": "Mar 6 2020",
+        "length": 71,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Developing Applications with AWS Lightsail",
+        "url": "https://www.pluralsight.com/courses/developing-applications-aws-lightsail"
+    },
     "developing-creature-concepts-games-1778": {
         "author": "Kurt Jones",
         "date": "Sep 5 2014",
