@@ -15011,6 +15011,15 @@
         "title": "Cisco Core Security: Secure Network Access Using Cisco ISE",
         "url": "https://www.pluralsight.com/courses/cisco-core-security-secure-network-access-cisco-ise"
     },
+    "cisco-core-security-secure-network-access-visibility-enforcement": {
+        "author": "Craig Stansbury",
+        "date": "Mar 6 2020",
+        "length": 91,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cisco Core Security: Secure Network Access, Visibility, and Enforcement",
+        "url": "https://www.pluralsight.com/courses/cisco-core-security-secure-network-access-visibility-enforcement"
+    },
     "cisco-core-security-security-concepts": {
         "author": "Craig Stansbury",
         "date": "Oct 14 2019",
