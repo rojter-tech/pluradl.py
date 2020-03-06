@@ -197,7 +197,9 @@ dmypy.json
 _failed
 _finished
 _canceled
+_inprogress
 scratch*.py
 *.zip
 *.crdownload
 dev
+cookies.txt
