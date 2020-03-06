@@ -9168,6 +9168,7 @@ web-api-design
 web-app-hacking-password-reset-functionality
 web-app-pentesting-configuration-deployment-management
 web-app-pentesting-fundamentals
+web-app-pentesting-input-validation
 web-app-pentesting-insecure-error-handling
 web-app-prototypes-invision-2014
 web-application-penetration-testing-with-burp-suite

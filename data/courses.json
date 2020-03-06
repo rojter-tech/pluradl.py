@@ -82529,6 +82529,15 @@
         "title": "Web Application Penetration Testing Fundamentals",
         "url": "https://www.pluralsight.com/courses/web-app-pentesting-fundamentals"
     },
+    "web-app-pentesting-input-validation": {
+        "author": "Dawid Czagan",
+        "date": "Mar 6 2020",
+        "length": 49,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Web Application Penetration Testing: Input Validation",
+        "url": "https://www.pluralsight.com/courses/web-app-pentesting-input-validation"
+    },
     "web-app-pentesting-insecure-error-handling": {
         "author": "Dawid Czagan",
         "date": "Feb 11 2020",
