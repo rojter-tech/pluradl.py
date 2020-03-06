@@ -1674,6 +1674,7 @@ cisco-data-center-core-configuring-networking
 cisco-data-center-core-implementing-automation
 cisco-e164-dial-plan-multisite-deployments
 cisco-edge-network-design-ccda-desgn-200-310
+cisco-enterprise-networks-basic-networking-ip-fundamentals
 cisco-enterprise-networks-implementing-ospf
 cisco-firepower-fundamentals
 cisco-icnd2-640816
