@@ -1,4 +1,4 @@
-Update - 2020-03-06 - **HTTP Error 403** Is sometimes responded during login process. Refering to [relevant issue on youtube-dl](https://github.com/ytdl-org/youtube-dl/issues/24008) and the corresponing [issue on this git](https://github.com/rojter-tech/pluradl.py/issues/12).
+Update [2020-03-06] -- **HTTP Error 403** Is sometimes responded during login process. Refering to [relevant issue on youtube-dl](https://github.com/ytdl-org/youtube-dl/issues/24008) and the corresponing [issue on this git](https://github.com/rojter-tech/pluradl.py/issues/12).
 ---
 # Automated download from Pluralsight with `pluradl.py`
 This project, `pluradl.py`, is aiming for automating the process of downloading **a whole sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
