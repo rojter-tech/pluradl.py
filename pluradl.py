@@ -363,18 +363,20 @@ def download_courses(courses):
         courses {[(str,[])]} -- List of tuples with course ID and playlist parameters.
     
     """
-    global PDL_OPTS
     # General PluraDL settings
+    global PDL_OPTS
+    # Globals
     PDL_OPTS["username"] = USERNAME
     PDL_OPTS["password"] = PASSWORD
     PDL_OPTS["sleep_interval"] = SLEEP_INTERVAL
     PDL_OPTS["max_sleep_interval"] = SLEEP_INTERVAL + SLEEP_OFFSET
     PDL_OPTS["ratelimit"] = RATE_LIMIT
     PDL_OPTS["outtmpl"] = FILENAME_TEMPLATE
+    PDL_OPTS["cookiefile"] = COOKIEFILE
+    # Tweaks
     PDL_OPTS["verbose"] = True
     PDL_OPTS["restrictfilenames"] = True
     PDL_OPTS["format"] = "bestaudio/best"
-    PDL_OPTS["cookiefile"] = COOKIEFILE
     PDL_OPTS["writesubtitles"] = True
     PDL_OPTS["allsubtitles"] = True
     PDL_OPTS["subtitlesformat"] = r'srt'
@@ -406,7 +408,7 @@ def main():
     else:
         USERNAME, PASSWORD = get_usr_pw()
     print("Setting username to:", USERNAME)
-    
+
     set_subtitle()
     print("SUBTITLE_OFF is set to:", SUBTITLE_OFF, '\n')
 
