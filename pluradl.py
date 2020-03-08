@@ -8,17 +8,6 @@ if sys.version_info[0] <3:
 certpath = os.path.abspath(certifi.where())
 os.environ["SSL_CERT_FILE"] = certpath
 
-std_headers['User-Agent'] = r"Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0"
-std_headers['Accept'] = r'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-std_headers['Referer'] = r'https://app.pluralsight.com/id/'
-std_headers['Host'] = r'app.pluralsight.com'
-std_headers['Cache-Control'] = r'max-age=0'
-std_headers['Upgrade-Insecure-Requests'] = r'1'
-std_headers['TE'] = r'Trailers'
-std_headers['DNT'] = r'1'
-std_headers['Connection'] = r'keep-alive'
-std_headers['Accept-Charset'] = r'ISO-8859-1,utf-8;q=0.7,*;q=0.7'
-
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
 SLEEP_INTERVAL = 40     # minimum sleep time        #                                 #
 SLEEP_OFFSET   = 120    # adding random sleep time  #  Change this at your own risk.  #

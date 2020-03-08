@@ -1668,10 +1668,18 @@ def random_user_agent():
 
 std_headers = {
     'User-Agent': random_user_agent(),
+    'Host': 'app.pluralsight.com',
+    'Referer': 'https://app.pluralsight.com/id/',
     'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'en-us,en;q=0.5',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Cache-Control': 'max-age=0',
+    'Upgrade-Insecure-Requests': '1',
+    'TE': 'Trailers',
+    'DNT': '1',
+    'Connection': 'keep-alive',
 }
 
 
