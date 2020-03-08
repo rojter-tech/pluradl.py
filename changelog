@@ -1,0 +1,5 @@
+What's new in v1.0.0-beta3
+
+- Fix flag parsing error (resolves [#11](https://github.com/rojter-tech/pluradl.py/issues/11)).
+- Defines Pluralsight specific request headers.
+- Keeps login session between playlist downloads.
