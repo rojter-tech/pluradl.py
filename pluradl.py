@@ -195,13 +195,27 @@ def flag_parser():
     
     global USERNAME
     global PASSWORD
-    global SUBTITLE_OFF
 
+    def _check_flags(key, flag_states, arg_string=' '.join(sys.argv[1:])):
+        for flag in flag_states[key][1:]:
+            if flag in all_flags:
+                lookaroundflag = r'(?<=' + flag + ' ' +  ')'
+                lookaroundflag+=r".*?[\S]+"
+        return re.findall(lookaroundflag, arg_string)
+
+    def _check_inputs(key, user_inputs):
+        for user_input in user_inputs:
+            user_input = user_input.strip()
+            if user_input not in (all_flags):
+                flag_inputs[key] = user_input
+                break # will take the first valid input
+    
     usn_psw_flag_state = False
     flag_states = {"usn":[False],"psw":[False]}
     flag_inputs = {}
     username_flags = ("--user", "--username", "-u")
     password_flags = ("--pass", "--password", "-p")
+    all_flags=(username_flags+password_flags)
     
     for arg in sys.argv[1:]:
         if arg in username_flags:
@@ -213,19 +227,12 @@ def flag_parser():
     
     if flag_states["usn"][0] and flag_states["psw"][0]:
         usn_psw_flag_state = True
-
-    arg_string = ' '.join(sys.argv[1:])
+    
     for key in flag_states.keys():
         if flag_states[key][0]:
-            for flag in flag_states[key][1:]:
-                lookbehind = r"(?<=" + flag + r' ' +  r')'
-                lookbehind+=r".*?[\w]{1,}"
-                user_input = re.findall(lookbehind, arg_string)
-                if user_input:
-                    user_input=user_input[0].strip()
-                    if user_input[0] != '-':
-                        flag_inputs[key] = user_input
-                        break
+            user_inputs = _check_flags(key, flag_states)
+            if user_inputs:
+                _check_inputs(key, user_inputs)
     
     if (not "usn" in flag_inputs.keys()) or (not "psw" in flag_inputs.keys()):
         usn_psw_flag_state = False
@@ -393,13 +400,15 @@ def main():
     global INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH
 
     if flag_parser():
-        print("Executing by flag input ..\n")
+        print("Executing by flag input ..")
     elif arg_parser():
-        print("Executing by user input ..\n")
+        print("Executing by user input ..")
     else:
         USERNAME, PASSWORD = get_usr_pw()
+    print("Setting username to:", USERNAME)
     
     set_subtitle()
+    print("SUBTITLE_OFF is set to:", SUBTITLE_OFF, '\n')
 
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
