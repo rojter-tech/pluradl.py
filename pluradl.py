@@ -378,12 +378,10 @@ def download_courses(courses):
     PDL_OPTS["restrictfilenames"] = True
     PDL_OPTS["format"] = "bestaudio/best"
     PDL_OPTS["writesubtitles"] = True
-    PDL_OPTS["allsubtitles"] = True
     PDL_OPTS["subtitlesformat"] = r'srt'
     PDL_OPTS["verbose"] = True
     if SUBTITLE_OFF:
         PDL_OPTS["writesubtitles"] = False
-        PDL_OPTS["allsubtitles"] = False
 
     for course in courses:
         if pluradl(course):
