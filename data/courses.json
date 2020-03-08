@@ -4234,7 +4234,7 @@
         "date": "Aug 20 2019",
         "length": 289,
         "level": "Intermediate",
-        "rating": 452,
+        "rating": 453,
         "title": "Angular Routing",
         "url": "https://www.pluralsight.com/courses/angular-routing"
     },
@@ -13369,7 +13369,7 @@
         "date": "Jan 15 2020",
         "length": 24,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "C# Design Patterns: Adapter",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter"
     },
@@ -13468,7 +13468,7 @@
         "date": "Oct 1 2019",
         "length": 86,
         "level": "Beginner",
-        "rating": 30,
+        "rating": 31,
         "title": "C# Extension Methods",
         "url": "https://www.pluralsight.com/courses/c-sharp-extension-methods"
     },
@@ -18139,7 +18139,7 @@
         "date": "Jan 14 2019",
         "length": 118,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Computer Fundamentals: Hardware and Network Troubleshooting",
         "url": "https://www.pluralsight.com/courses/computer-fundamentals-hardware-network-troubleshooting"
     },
@@ -22495,7 +22495,7 @@
         "date": "Jul 12 2019",
         "length": 147,
         "level": "Beginner",
-        "rating": 37,
+        "rating": 38,
         "title": "Designing Event-driven Applications Using Apache Kafka Ecosystem",
         "url": "https://www.pluralsight.com/courses/designing-event-driven-applications-apache-kafka-ecosystem"
     },
@@ -32404,7 +32404,7 @@
         "date": "Feb 13 2019",
         "length": 70,
         "level": "Beginner",
-        "rating": 31,
+        "rating": 32,
         "title": "Getting Started with Linux System Administration",
         "url": "https://www.pluralsight.com/courses/getting-started-linux-system-administration"
     },
@@ -32782,7 +32782,7 @@
         "date": "Oct 2 2019",
         "length": 210,
         "level": "Beginner",
-        "rating": 37,
+        "rating": 38,
         "title": "Terraform - Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-terraform"
     },
@@ -41332,7 +41332,7 @@
         "date": "Dec 2 2015",
         "length": 462,
         "level": "Beginner",
-        "rating": 1442,
+        "rating": 1443,
         "title": "Java Fundamentals: The Java Language",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-language"
     },
@@ -47218,7 +47218,7 @@
         "date": "Jan 3 2020",
         "length": 195,
         "level": "Advanced",
-        "rating": 44,
+        "rating": 45,
         "title": "Designing an API Management Strategy for Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-api-management-strategy-designing"
     },
@@ -47335,7 +47335,7 @@
         "date": "Aug 14 2019",
         "length": 130,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Microsoft Azure DevOps Engineer: Leveraging ARM Templates for Infrastructure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-arm-templates-infrastructure-devops"
     },
@@ -47695,7 +47695,7 @@
         "date": "Apr 9 2019",
         "length": 157,
         "level": "Beginner",
-        "rating": 36,
+        "rating": 37,
         "title": "Configure Microsoft Azure Files",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-configure-files"
     },
@@ -48100,7 +48100,7 @@
         "date": "Jan 30 2020",
         "length": 222,
         "level": "Beginner",
-        "rating": 127,
+        "rating": 128,
         "title": "Microsoft Azure for Developers: What to Use When",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-developers-what-to-use"
     },
@@ -56065,7 +56065,7 @@
         "date": "Oct 10 2017",
         "length": 80,
         "level": "Beginner",
-        "rating": 104,
+        "rating": 105,
         "title": "Pandas Fundamentals",
         "url": "https://www.pluralsight.com/courses/pandas-fundamentals"
     },
@@ -62518,7 +62518,7 @@
         "date": "Sep 19 2019",
         "length": 127,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 41,
         "title": "Querying Data Using T-SQL",
         "url": "https://www.pluralsight.com/courses/querying-data-using-tsql"
     },
@@ -63445,7 +63445,7 @@
         "date": "Nov 30 2018",
         "length": 198,
         "level": "Intermediate",
-        "rating": 72,
+        "rating": 73,
         "title": "Securing React Apps with Auth0",
         "url": "https://www.pluralsight.com/courses/react-auth0-authentication-security"
     },
@@ -63517,7 +63517,7 @@
         "date": "Feb 25 2019",
         "length": 241,
         "level": "Beginner",
-        "rating": 2072,
+        "rating": 2073,
         "title": "React: Getting Started",
         "url": "https://www.pluralsight.com/courses/react-js-getting-started"
     },
@@ -66082,7 +66082,7 @@
         "date": "Mar 5 2019",
         "length": 62,
         "level": "Beginner",
-        "rating": 81,
+        "rating": 82,
         "title": "RxJS: The Big Picture",
         "url": "https://www.pluralsight.com/courses/rxjs-big-picture"
     },
@@ -74425,7 +74425,7 @@
         "date": "Sep 27 2019",
         "length": 174,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "T-SQL Data Manipulation Playbook",
         "url": "https://www.pluralsight.com/courses/t-sql-data-manipulation-playbook"
     },
