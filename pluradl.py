@@ -18,7 +18,7 @@ RATE_LIMIT     = 10**6  # download rate in bytes/s  #                           
 DLPATH, USERNAME, PASSWORD = "", "", ""
 INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH = "", "", "", ""
 PDL_OPTS = {}
-SUBTITLE = False
+SUBTITLE_OFF = False
 FILENAME_TEMPLATE = r"%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s"
 PLURAURL = r"https://app.pluralsight.com/library/courses/"
 SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -296,13 +296,13 @@ def get_usr_pw():
 def set_subtitle():
     """Determines whether subtitle parameters should be turned on or not.
     """
-    global SUBTITLE
+    global SUBTITLE_OFF
     subtitle_flags = ("--sub", "--subtitle", "-s",
                       "--SUB", "--SUBTITLE", "-S")
     if len(sys.argv) > 1:
         for arg in sys.argv[1:]:
             if arg in subtitle_flags:
-                SUBTITLE = True
+                SUBTITLE_OFF = True
                 print("Subtitles will not be appended to videoclips")
 
 
@@ -377,8 +377,13 @@ def download_courses(courses):
     PDL_OPTS["verbose"] = True
     PDL_OPTS["restrictfilenames"] = True
     PDL_OPTS["format"] = "bestaudio/best"
-    if SUBTITLE:
-        PDL_OPTS["writesubtitles"] = True
+    PDL_OPTS["writesubtitles"] = True
+    PDL_OPTS["allsubtitles"] = True
+    PDL_OPTS["subtitlesformat"] = r'srt'
+    PDL_OPTS["verbose"] = True
+    if SUBTITLE_OFF:
+        PDL_OPTS["writesubtitles"] = False
+        PDL_OPTS["allsubtitles"] = False
 
     for course in courses:
         if pluradl(course):
@@ -405,8 +410,12 @@ def main():
     print("Setting username to:", USERNAME)
 
     set_subtitle()
-    print("SUBTITLE is set to:", SUBTITLE, '\n')
-
+    if SUBTITLE_OFF:
+        subtite_state = "off"
+    else:
+        subtite_state = "on"
+    print("Downloading subtitles is set to:", subtite_state, '\n')
+    
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     
