@@ -377,8 +377,6 @@ def download_courses(courses):
     PDL_OPTS["verbose"] = True
     PDL_OPTS["restrictfilenames"] = True
     PDL_OPTS["format"] = "bestaudio/best"
-    PDL_OPTS["subtitlesformat"] = r'srt'
-    PDL_OPTS["verbose"] = True
     if SUBTITLE:
         PDL_OPTS["writesubtitles"] = True
 
