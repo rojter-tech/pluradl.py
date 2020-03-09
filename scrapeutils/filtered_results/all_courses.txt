@@ -3625,6 +3625,7 @@ getting-started-power-bi-business-professionals
 getting-started-powershell-core-linux-macos
 getting-started-powersploit
 getting-started-programming-java
+getting-started-puppet
 getting-started-puppet-bolt
 getting-started-puppet-tool-after-effects-1617
 getting-started-python-core

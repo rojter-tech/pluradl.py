@@ -32642,6 +32642,15 @@
         "title": "Getting Started with Programming in Java",
         "url": "https://www.pluralsight.com/courses/getting-started-programming-java"
     },
+    "getting-started-puppet": {
+        "author": "Philip Agaba",
+        "date": "Mar 9 2020",
+        "length": 187,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Getting Started with Puppet",
+        "url": "https://www.pluralsight.com/courses/getting-started-puppet"
+    },
     "getting-started-puppet-bolt": {
         "author": "Russell Smith",
         "date": "Jun 27 2019",
