@@ -7661,7 +7661,7 @@
     "aws-comprehend-analyzing-text": {
         "author": "Mark Nunnikhoven",
         "date": "Jun 28 2019",
-        "length": 116,
+        "length": 128,
         "level": "Intermediate",
         "rating": "",
         "title": "Analyzing Text on AWS with Amazon Comprehend",
