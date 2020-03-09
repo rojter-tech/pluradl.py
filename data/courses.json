@@ -5735,7 +5735,7 @@
     "architecting-security-aws": {
         "author": "Ben Piper",
         "date": "Sep 6 2018",
-        "length": 248,
+        "length": 253,
         "level": "Intermediate",
         "rating": 29,
         "title": "Architecting for Security on AWS",
@@ -49006,7 +49006,7 @@
     },
     "microsoft-azure-roles-responsibilities-identifying": {
         "author": "Jason Edleman",
-        "date": "Sep 12 2018",
+        "date": "Apr 9 2020",
         "length": 31,
         "level": "Beginner",
         "rating": 19,
