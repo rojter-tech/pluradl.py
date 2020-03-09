@@ -24115,7 +24115,7 @@
         "date": "Aug 1 2016",
         "length": 132,
         "level": "Beginner",
-        "rating": 1003,
+        "rating": 1005,
         "title": "Getting Started with Docker",
         "url": "https://www.pluralsight.com/courses/docker-getting-started"
     },
@@ -24142,7 +24142,7 @@
         "date": "Feb 13 2019",
         "length": 107,
         "level": "Beginner",
-        "rating": 528,
+        "rating": 530,
         "title": "Docker and Kubernetes: The Big Picture",
         "url": "https://www.pluralsight.com/courses/docker-kubernetes-big-picture"
     },
@@ -32764,7 +32764,7 @@
         "date": "Feb 27 2018",
         "length": 162,
         "level": "Beginner",
-        "rating": 48,
+        "rating": 49,
         "title": "Spring WebFlux: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-spring-webflux"
     },
@@ -44518,7 +44518,7 @@
         "date": "Jan 6 2020",
         "length": 119,
         "level": "Advanced",
-        "rating": "",
+        "rating": 11,
         "title": "Managing Advanced Kubernetes Logging and Tracing",
         "url": "https://www.pluralsight.com/courses/managing-advanced-kubernetes-logging-tracing"
     },
@@ -53266,7 +53266,7 @@
         "date": "Dec 13 2017",
         "length": 67,
         "level": "Beginner",
-        "rating": 325,
+        "rating": 326,
         "title": "Angular: The Big Picture",
         "url": "https://www.pluralsight.com/courses/ng-big-picture"
     },
@@ -53995,7 +53995,7 @@
         "date": "Feb 16 2017",
         "length": 225,
         "level": "Advanced",
-        "rating": 311,
+        "rating": 312,
         "title": "Advanced Node.js",
         "url": "https://www.pluralsight.com/courses/nodejs-advanced"
     },
@@ -54544,7 +54544,7 @@
         "date": "Mar 11 2019",
         "length": 206,
         "level": "Beginner",
-        "rating": 2792,
+        "rating": 2793,
         "title": "Object-Oriented Programming Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/object-oriented-programming-fundamentals-csharp"
     },
@@ -77845,7 +77845,7 @@
         "date": "Aug 20 2019",
         "length": 178,
         "level": "Beginner",
-        "rating": 54,
+        "rating": 55,
         "title": "Understanding ASP.NET Core 3.x",
         "url": "https://www.pluralsight.com/courses/understanding-aspdotnet-core-3x"
     },
