@@ -204,3 +204,4 @@ scratch*.py
 dev
 cookies.txt
 pipe
+cli-pipe
