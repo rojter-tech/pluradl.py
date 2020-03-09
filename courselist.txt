@@ -6386,6 +6386,7 @@ planning-executing-geit-implementation
 planning-implementing-hybrid-sharepoint-2019-deployment
 planning-implementing-networking-security-o365
 planning-m365-implementation
+planning-managing-device-application-compliance-microsoft-365
 planning-office-365-workload-application-deployment
 planning-sharepoint-server-2016-architecture-integrations
 planning-sharepoint-server-2016-topology-services
