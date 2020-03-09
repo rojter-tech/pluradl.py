@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 import sys, os, shutil, re, getpass, io, certifi, plura_dl
 from plura_dl import PluraDL
-from plura_dl.utils import ExtractorError, DownloadError, std_headers
+from plura_dl.utils import ExtractorError, DownloadError
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
