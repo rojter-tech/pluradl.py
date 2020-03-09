@@ -3622,7 +3622,7 @@
         "date": "Aug 14 2019",
         "length": 341,
         "level": "Beginner",
-        "rating": 3720,
+        "rating": 3721,
         "title": "Angular: Getting Started",
         "url": "https://www.pluralsight.com/courses/angular-2-getting-started-update"
     },
@@ -6160,7 +6160,7 @@
         "date": "Sep 30 2019",
         "length": 51,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Configuring Security Headers in ASP.NET and ASP.NET Core Applications",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-and-core-configuring-security-headers"
     },
@@ -6295,7 +6295,7 @@
         "date": "Aug 29 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 67,
+        "rating": 68,
         "title": "ASP.NET MVC 5 Fundamentals",
         "url": "https://www.pluralsight.com/courses/asp-net-mvc5-web-apps"
     },
@@ -11803,7 +11803,7 @@
         "date": "Sep 20 2019",
         "length": 258,
         "level": "Beginner",
-        "rating": 58,
+        "rating": 60,
         "title": "Building Web Applications with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/building-aspdotnet-core-mvc-web-applications"
     },
