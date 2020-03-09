@@ -4024,6 +4024,7 @@ implementing-windows-10
 implementing-windows-10-creators
 implementing-windows-server-2016-dhcp
 implementing-windows-server-2019-distributed-networking-services
+implementing-windows-server-2019-hyper-v
 implementing-wireless-network-cisco-wifund-200-355
 implementing-wireless-security-byod
 importing-common-data-file-formats-r-playbook

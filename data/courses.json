@@ -36233,6 +36233,15 @@
         "title": "Implementing Windows Server 2019 Distributed Networking Services",
         "url": "https://www.pluralsight.com/courses/implementing-windows-server-2019-distributed-networking-services"
     },
+    "implementing-windows-server-2019-hyper-v": {
+        "author": "Glenn Weadock",
+        "date": "Mar 9 2020",
+        "length": 165,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing Windows Server 2019 Hyper-V",
+        "url": "https://www.pluralsight.com/courses/implementing-windows-server-2019-hyper-v"
+    },
     "implementing-wireless-network-cisco-wifund-200-355": {
         "author": "Andrew Crouthamel",
         "date": "Jul 26 2017",
