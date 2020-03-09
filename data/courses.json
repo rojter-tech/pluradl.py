@@ -46916,6 +46916,15 @@
         "title": "Message Queue Fundamentals in .NET",
         "url": "https://www.pluralsight.com/courses/message-queue-fundamentals-dotnet"
     },
+    "message-queuing-amazon-sqs": {
+        "author": "Daniel Donbavand",
+        "date": "Mar 9 2020",
+        "length": 82,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Message Queuing with Amazon Simple Queue Service (SQS)",
+        "url": "https://www.pluralsight.com/courses/message-queuing-amazon-sqs"
+    },
     "metasploit-basics-protecting-sharepoint": {
         "author": "Liam Cleary",
         "date": "Oct 15 2015",

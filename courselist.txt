@@ -5211,6 +5211,7 @@ mesh-creation-concepts-zbrush-1872
 mesh-insert-techniques-zbrush-810
 meshfusion-workflows-modo-2254
 message-queue-fundamentals-dotnet
+message-queuing-amazon-sqs
 metasploit-basics-protecting-sharepoint
 metasploit-penetration-testing-introduction
 meteor-vfx-shot-after-effects-1922
