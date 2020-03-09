@@ -71783,6 +71783,15 @@
         "title": "Spring Framework: Spring Data MongoDB",
         "url": "https://www.pluralsight.com/courses/spring-framework-data-mongodb"
     },
+    "spring-framework-documenting-spring-data-rest-apis-swagger-springfox": {
+        "author": "Craig Golightly",
+        "date": "Mar 9 2020",
+        "length": 29,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Spring Framework: Documenting Spring Data Rest APIs with Swagger and Springfox",
+        "url": "https://www.pluralsight.com/courses/spring-framework-documenting-spring-data-rest-apis-swagger-springfox"
+    },
     "spring-framework-overview-spring-data": {
         "author": "Andrew Morgan",
         "date": "Dec 6 2019",

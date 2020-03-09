@@ -7974,6 +7974,7 @@ spring-data-jpa-getting-started
 spring-data-mongo-getting-started
 spring-data-rest-getting-started
 spring-framework-data-mongodb
+spring-framework-documenting-spring-data-rest-apis-swagger-springfox
 spring-framework-overview-spring-data
 spring-framework-spel
 spring-framework-spring-boot-actuator
