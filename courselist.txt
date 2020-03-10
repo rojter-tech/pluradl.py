@@ -4033,6 +4033,7 @@ importing-data-relational-databases-r
 importing-formatted-text-files-r-playbook
 importing-rendering-stylized-environment-unreal-engine-2234
 improve-animation-workflow-maya-964
+improve-n1ql-query-performance-using-indexes
 improve-sql-server-performance-compression
 improving-css-with-postcss
 improving-css-with-stylus
