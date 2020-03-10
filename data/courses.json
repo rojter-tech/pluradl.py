@@ -77471,6 +77471,15 @@
         "title": "Tuning and Creating Correlation Searches in Splunk Enterprise Security",
         "url": "https://www.pluralsight.com/courses/tuning-creating-correlation-searches-splunk-enterprise-security"
     },
+    "tuning-ssas-models": {
+        "author": "Stacia Misner Varga",
+        "date": "Mar 10 2020",
+        "length": 183,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Tuning SSAS Models",
+        "url": "https://www.pluralsight.com/courses/tuning-ssas-models"
+    },
     "turn-based-game-unity-playmaker-2160": {
         "author": "Shane Whelan",
         "date": "Jul 2 2015",
