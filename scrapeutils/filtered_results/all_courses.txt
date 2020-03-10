@@ -612,6 +612,7 @@ applying-functional-programming-techniques-java
 applying-functions-r
 applying-linear-algebra-with-r
 applying-machine-learning-data-gcp
+applying-mathematical-mass-model-r
 applying-matte-painting-techniques-image-editing-web-photoshop-1756
 applying-post-production-techniques-silhouettefx-2193
 applying-r-built-in-functions
