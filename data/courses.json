@@ -19043,6 +19043,15 @@
         "title": "Core Python: Functions and Functional Programming",
         "url": "https://www.pluralsight.com/courses/core-python-functions-functional-programming"
     },
+    "core-python-numeric-types-dates-times": {
+        "author": "Austin Bingham",
+        "date": "Mar 10 2020",
+        "length": 55,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Core Python: Numeric Types, Dates, and Times",
+        "url": "https://www.pluralsight.com/courses/core-python-numeric-types-dates-times"
+    },
     "core-python-organizing-larger-programs": {
         "author": "Robert Smallshire",
         "date": "Mar 8 2019",

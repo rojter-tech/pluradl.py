@@ -2114,6 +2114,7 @@ coping-missing-invalid-duplicate-data-r
 cordova-apps-angular-typescript-vscode
 core-data-fundamentals
 core-python-functions-functional-programming
+core-python-numeric-types-dates-times
 core-python-organizing-larger-programs
 coreos-getting-started
 correlating-events-transactions-splunk
