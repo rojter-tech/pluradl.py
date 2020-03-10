@@ -2173,7 +2173,7 @@
         "date": "Jan 2 2020",
         "length": 160,
         "level": "Intermediate",
-        "rating": 1487,
+        "rating": 1488,
         "title": "Agile Fundamentals",
         "url": "https://www.pluralsight.com/courses/agile-fundamentals"
     },
@@ -2929,7 +2929,7 @@
         "date": "Feb 15 2018",
         "length": 144,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Building Apps with Android Architecture Components",
         "url": "https://www.pluralsight.com/courses/android-architecture-components-building-apps"
     },
@@ -5332,7 +5332,7 @@
         "date": "Nov 18 2019",
         "length": 143,
         "level": "Beginner",
-        "rating": 466,
+        "rating": 467,
         "title": "Apex Academy: Absolute Beginner's Guide to Coding in Salesforce",
         "url": "https://www.pluralsight.com/courses/apex-absolute-beginner-guide-coding-salesforce"
     },
@@ -6178,7 +6178,7 @@
         "date": "Oct 10 2019",
         "length": 301,
         "level": "Beginner",
-        "rating": 65,
+        "rating": 66,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -7231,7 +7231,7 @@
         "date": "Jan 6 2015",
         "length": 301,
         "level": "Beginner",
-        "rating": 105,
+        "rating": 106,
         "title": "Automated Testing in ASP.NET With SpecsFor and SpecsFor.Mvc",
         "url": "https://www.pluralsight.com/courses/automated-testing-aspdotnet-specsfor"
     },
@@ -12415,7 +12415,7 @@
         "date": "Dec 18 2019",
         "length": 166,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Building Microservices",
         "url": "https://www.pluralsight.com/courses/building-microservices"
     },
@@ -14629,7 +14629,7 @@
         "date": "Mar 25 2016",
         "length": 190,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "Chocolatey NuGet Essentials for Automation Pros",
         "url": "https://www.pluralsight.com/courses/chocolatey-nuget-automation-pros"
     },
@@ -18913,7 +18913,7 @@
         "date": "Sep 12 2018",
         "length": 103,
         "level": "Intermediate",
-        "rating": 19,
+        "rating": 20,
         "title": "Continuously Deliver IIS-based .NET Applications",
         "url": "https://www.pluralsight.com/courses/continuously-deliver-iis-dotnet-applications"
     },
@@ -20776,7 +20776,7 @@
         "date": "Oct 26 2014",
         "length": 50,
         "level": "Beginner",
-        "rating": 903,
+        "rating": 905,
         "title": "CSS Positioning",
         "url": "https://www.pluralsight.com/courses/css-positioning-1834"
     },
@@ -21631,7 +21631,7 @@
         "date": "Feb 6 2018",
         "length": 219,
         "level": "Intermediate",
-        "rating": 38,
+        "rating": 39,
         "title": "Deep Dive - Terraform",
         "url": "https://www.pluralsight.com/courses/deep-dive-terraform"
     },
@@ -31117,7 +31117,7 @@
         "date": "Jan 25 2017",
         "length": 68,
         "level": "Beginner",
-        "rating": 18,
+        "rating": 19,
         "title": "Fusion 360 Essentials - Patterns and Symmetry",
         "url": "https://www.pluralsight.com/courses/fusion-360-essentials-patterns-symmetry"
     },
@@ -33880,7 +33880,7 @@
         "date": "Aug 8 2019",
         "length": 77,
         "level": "Beginner",
-        "rating": 98,
+        "rating": 99,
         "title": "GraphQL: The Big Picture",
         "url": "https://www.pluralsight.com/courses/graphql-big-picture"
     },
@@ -45112,7 +45112,7 @@
         "date": "Jan 5 2015",
         "length": 76,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Map Baking Techniques for Games in Maya",
         "url": "https://www.pluralsight.com/courses/map-baking-techniques-games-maya-1930"
     },
@@ -45157,7 +45157,7 @@
         "date": "Sep 22 2016",
         "length": 108,
         "level": "Beginner",
-        "rating": 153,
+        "rating": 154,
         "title": "Understanding the MapReduce Programming Model",
         "url": "https://www.pluralsight.com/courses/mapreduce-understanding"
     },
@@ -47146,7 +47146,7 @@
         "date": "Jun 6 2019",
         "length": 86,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 14,
         "title": "Microsoft 365 Services and Concepts",
         "url": "https://www.pluralsight.com/courses/microsoft-365-services-concepts"
     },
@@ -48487,7 +48487,7 @@
         "date": "Sep 20 2019",
         "length": 236,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Implementing Web and Mobile Services on Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-implementing-web-mobile-services-update"
     },
@@ -55768,7 +55768,7 @@
         "date": "Feb 8 2019",
         "length": 197,
         "level": "Intermediate",
-        "rating": 29,
+        "rating": 30,
         "title": "An Overview of Enterprise and IT Architecture 9.2",
         "url": "https://www.pluralsight.com/courses/overview-enterprise-it-architecture-9-2"
     },
@@ -67657,7 +67657,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -77404,7 +77404,7 @@
         "date": "Jun 5 2019",
         "length": 182,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Troubleshooting Slow Networks with Wireshark",
         "url": "https://www.pluralsight.com/courses/troubleshooting-slow-networks-wireshark"
     },
@@ -77620,7 +77620,7 @@
         "date": "Nov 22 2019",
         "length": 44,
         "level": "Beginner",
-        "rating": 64,
+        "rating": 65,
         "title": "TypeScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/typescript-big-picture"
     },
@@ -77737,7 +77737,7 @@
         "date": "Dec 18 2017",
         "length": 171,
         "level": "Beginner",
-        "rating": 91,
+        "rating": 92,
         "title": "Introduction to the Azure Data Lake and U-SQL",
         "url": "https://www.pluralsight.com/courses/u-sql-azure-data-lake"
     },
@@ -78574,7 +78574,7 @@
         "date": "May 20 2019",
         "length": 153,
         "level": "Intermediate",
-        "rating": 33,
+        "rating": 34,
         "title": "C# Scripting in Unity: Beyond the Basics",
         "url": "https://www.pluralsight.com/courses/unity-c-sharp-scripting-beyond-basics"
     },
@@ -84595,7 +84595,7 @@
         "date": "Feb 27 2015",
         "length": 176,
         "level": "Intermediate",
-        "rating": 213,
+        "rating": 214,
         "title": "Windows Server 2012 R2 (70-410) Manage Group Policy",
         "url": "https://www.pluralsight.com/courses/windows-server-2012-70-410-group-policy"
     },
@@ -85198,7 +85198,7 @@
         "date": "Apr 30 2014",
         "length": 247,
         "level": "Beginner",
-        "rating": 434,
+        "rating": 435,
         "title": "Windows Server Administration Fundamentals Part 1",
         "url": "https://www.pluralsight.com/courses/windows-server-administration-fundamentals-part1"
     },
