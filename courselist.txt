@@ -1516,6 +1516,7 @@ capturing-essence-caricatures-1575
 capturing-human-form-through-figure-drawing-1101
 capturing-logic-stored-procedures-mariadb
 capturing-logic-with-stored-procedures-tsql
+capturing-requirements-value
 car-crash-maya-1978
 cara-vr-nuke
 career-management-2dot0
@@ -3690,6 +3691,7 @@ go-big-picture
 go-build-distributed-applications
 go-cli-playbook
 go-concurrent-programming
+go-create-test-applications
 go-delve-debugging-applications
 go-fundamentals
 go-horizontal-scaling-apps

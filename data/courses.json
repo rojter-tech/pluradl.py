@@ -13661,6 +13661,15 @@
         "title": "Capturing Logic with Stored Procedures in T-SQL",
         "url": "https://www.pluralsight.com/courses/capturing-logic-with-stored-procedures-tsql"
     },
+    "capturing-requirements-value": {
+        "author": "Jamie Champagne",
+        "date": "Mar 11 2020",
+        "length": 48,
+        "level": "Beginner",
+        "rating": "",
+        "title": "The Value of Capturing Requirements",
+        "url": "https://www.pluralsight.com/courses/capturing-requirements-value"
+    },
     "car-crash-maya-1978": {
         "author": "Todd Palamar",
         "date": "Feb 23 2015",
@@ -33226,6 +33235,15 @@
         "rating": 184,
         "title": "Concurrent Programming with Go",
         "url": "https://www.pluralsight.com/courses/go-concurrent-programming"
+    },
+    "go-create-test-applications": {
+        "author": "Mike Van Sickle",
+        "date": "Mar 11 2020",
+        "length": 86,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Creating Well-tested Applications in Go",
+        "url": "https://www.pluralsight.com/courses/go-create-test-applications"
     },
     "go-delve-debugging-applications": {
         "author": "Mike Van Sickle",
