@@ -14057,6 +14057,15 @@
         "title": "CCSP®: Cloud Infrastructure Security",
         "url": "https://www.pluralsight.com/courses/ccsp-cloud-infrastructure-security"
     },
+    "ccsp-cloud-physical-logical-infrastructure": {
+        "author": "Lyron Andrews",
+        "date": "Mar 11 2020",
+        "length": 78,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "CCSP®: Cloud Physical and Logical Infrastructure",
+        "url": "https://www.pluralsight.com/courses/ccsp-cloud-physical-logical-infrastructure"
+    },
     "ccsp-cloud-platform-security": {
         "author": "Lyron Andrews",
         "date": "Feb 4 2020",
