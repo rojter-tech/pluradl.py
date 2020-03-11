@@ -30482,6 +30482,15 @@
         "title": "Foundational Elements of Art for the Rest of Your Life",
         "url": "https://www.pluralsight.com/courses/foundational-elements-art-rest-life-1011"
     },
+    "foundational-tcp-analysis-wireshark": {
+        "author": "Christopher Greer",
+        "date": "Mar 11 2020",
+        "length": 127,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Foundational TCP Analysis with Wireshark",
+        "url": "https://www.pluralsight.com/courses/foundational-tcp-analysis-wireshark"
+    },
     "foundations-pytorch": {
         "author": "Janani Ravi",
         "date": "Apr 1 2019",
