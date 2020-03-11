@@ -6745,7 +6745,7 @@
         "date": "Oct 7 2019",
         "length": 593,
         "level": "Beginner",
-        "rating": 510,
+        "rating": 511,
         "title": "Building a Web App with ASP.NET Core, MVC, Entity Framework Core, Bootstrap, and Angular",
         "url": "https://www.pluralsight.com/courses/aspnetcore-mvc-efcore-bootstrap-angular-web"
     },
@@ -20443,7 +20443,7 @@
         "date": "Sep 5 2019",
         "length": 148,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 18,
         "title": "ADO.NET Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/csharp-ado-dotnet-fundamentals"
     },
@@ -20794,7 +20794,7 @@
         "date": "Oct 26 2014",
         "length": 50,
         "level": "Beginner",
-        "rating": 905,
+        "rating": 906,
         "title": "CSS Positioning",
         "url": "https://www.pluralsight.com/courses/css-positioning-1834"
     },
@@ -27355,7 +27355,7 @@
         "date": "Dec 6 2019",
         "length": 128,
         "level": "Beginner",
-        "rating": 330,
+        "rating": 331,
         "title": "Introduction to Emotional Intelligence",
         "url": "https://www.pluralsight.com/courses/emotional-intelligence-introduction"
     },
@@ -27589,7 +27589,7 @@
         "date": "Aug 19 2019",
         "length": 72,
         "level": "Beginner",
-        "rating": 111,
+        "rating": 112,
         "title": "Big Picture: Enterprise Data Management",
         "url": "https://www.pluralsight.com/courses/enterprise-data-management"
     },
@@ -32044,7 +32044,7 @@
         "date": "Jan 13 2020",
         "length": 285,
         "level": "Beginner",
-        "rating": 15,
+        "rating": 16,
         "title": "Getting Started with Ansible",
         "url": "https://www.pluralsight.com/courses/getting-started-ansible"
     },
@@ -32395,7 +32395,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1028,
+        "rating": 1029,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -32863,7 +32863,7 @@
         "date": "Aug 28 2019",
         "length": 181,
         "level": "Beginner",
-        "rating": 60,
+        "rating": 61,
         "title": "TypeScript: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-typescript"
     },
@@ -34780,7 +34780,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6848,
+        "rating": 6851,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -40180,7 +40180,7 @@
         "date": "Dec 20 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 3067,
+        "rating": 3068,
         "title": "Introduction to SQL",
         "url": "https://www.pluralsight.com/courses/introduction-to-sql"
     },
@@ -42790,7 +42790,7 @@
         "date": "Jan 11 2019",
         "length": 157,
         "level": "Intermediate",
-        "rating": 160,
+        "rating": 161,
         "title": "Kubernetes Installation and Configuration Fundamentals",
         "url": "https://www.pluralsight.com/courses/kubernetes-installation-configuration-fundamentals"
     },
@@ -45400,7 +45400,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1278,
+        "rating": 1279,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -47497,7 +47497,7 @@
         "date": "Sep 13 2019",
         "length": 166,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Configuring and Using Microsoft Azure Blob Storage",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-blob-storage-configuring-using"
     },
@@ -54499,7 +54499,7 @@
         "date": "Aug 31 2018",
         "length": 131,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Nutanix: The Big Picture",
         "url": "https://www.pluralsight.com/courses/nutanix-big-picture"
     },
@@ -63571,7 +63571,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1328,
+        "rating": 1330,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -66865,7 +66865,7 @@
         "date": "Jun 6 2019",
         "length": 67,
         "level": "Advanced",
-        "rating": 18,
+        "rating": 20,
         "title": "Scraping Dynamic Web Pages with Python and Selenium",
         "url": "https://www.pluralsight.com/courses/scraping-dynamic-web-pages-python-selenium"
     },
@@ -67684,7 +67684,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 23,
+        "rating": 24,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -72985,7 +72985,7 @@
         "date": "Jun 28 2012",
         "length": 271,
         "level": "Intermediate",
-        "rating": 445,
+        "rating": 446,
         "title": "SQL Server: Performance Troubleshooting Using Wait Statistics",
         "url": "https://www.pluralsight.com/courses/sqlserver-waits"
     },
@@ -78133,7 +78133,7 @@
         "date": "Jul 18 2015",
         "length": 81,
         "level": "Intermediate",
-        "rating": 84,
+        "rating": 85,
         "title": "Understanding the Java Virtual Machine: Security",
         "url": "https://www.pluralsight.com/courses/understanding-java-vm-security"
     },
@@ -82327,7 +82327,7 @@
         "date": "Jun 21 2018",
         "length": 305,
         "level": "Intermediate",
-        "rating": 171,
+        "rating": 172,
         "title": "Vue.js Fundamentals",
         "url": "https://www.pluralsight.com/courses/vuejs-fundamentals"
     },
@@ -86989,7 +86989,7 @@
         "date": "Jun 23 2015",
         "length": 233,
         "level": "Beginner",
-        "rating": 26,
+        "rating": 27,
         "title": "Introduction to the z/OS TSO/ISPF Environment",
         "url": "https://www.pluralsight.com/courses/z-os-tso-ispf-environment-introduction"
     },
