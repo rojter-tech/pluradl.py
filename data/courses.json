@@ -44531,6 +44531,15 @@
         "title": "Deploy Azure Virtual Networks, VPNs, and Gateways",
         "url": "https://www.pluralsight.com/courses/manage-azure-virtual-networks-vpn-gateway"
     },
+    "manage-couchbase-lite": {
+        "author": "Pluralsight",
+        "date": "Mar 12 2020",
+        "length": 89,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Manage Couchbase Lite",
+        "url": "https://www.pluralsight.com/courses/manage-couchbase-lite"
+    },
     "manage-it-projects-office-365": {
         "author": "Ron Schindler",
         "date": "Sep 29 2014",

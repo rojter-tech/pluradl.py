@@ -4946,6 +4946,7 @@ malware-analysis-identifying-defeating-obfuscation
 malware-analysis-identifying-defeating-packing
 malware-analysis-malicious-documents-performing
 manage-azure-virtual-networks-vpn-gateway
+manage-couchbase-lite
 manage-it-projects-office-365
 manage-office-data-sharepoint-2013
 manage-security-privacy-risk-nist-risk-management-framework
