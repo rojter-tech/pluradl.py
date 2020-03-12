@@ -22445,6 +22445,15 @@
         "title": "Designing Custom Sites Using Child Themes in WordPress and CSS",
         "url": "https://www.pluralsight.com/courses/designing-custom-sites-child-themes-wordpress-css-1811"
     },
+    "designing-data-pipelines-tensorflow": {
+        "author": "Chase DeHan",
+        "date": "Mar 12 2020",
+        "length": 113,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Designing Data Pipelines with TensorFlow 2.0",
+        "url": "https://www.pluralsight.com/courses/designing-data-pipelines-tensorflow"
+    },
     "designing-deploying-exchange-2016-70-345-client-access": {
         "author": "Paul Cunningham",
         "date": "Aug 19 2016",
@@ -56572,6 +56581,15 @@
         "rating": "",
         "title": "Performance-Based Dynamics in Maya",
         "url": "https://www.pluralsight.com/courses/performance-based-dynamics-maya-1574"
+    },
+    "performing-continuous-delivery-aws-codestar": {
+        "author": "Armen Avanesi",
+        "date": "Mar 12 2020",
+        "length": 54,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Performing Continuous Delivery with AWS CodeStar",
+        "url": "https://www.pluralsight.com/courses/performing-continuous-delivery-aws-codestar"
     },
     "performing-nontechnical-tests-comptia-pentest": {
         "author": "Dale Meredith",

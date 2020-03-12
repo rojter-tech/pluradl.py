@@ -2492,6 +2492,7 @@ designing-controls-deformation-feedback-maya-1879
 designing-cosmetic-billboard-illustrator-photoshop-2212
 designing-creature-3d-photoshop-330
 designing-custom-sites-child-themes-wordpress-css-1811
+designing-data-pipelines-tensorflow
 designing-deploying-exchange-2016-70-345-client-access
 designing-deploying-exchange-2016-70-345-compliance-archiving
 designing-deploying-exchange-2016-70-345-hybrid-migrations
@@ -6284,6 +6285,7 @@ penetration-testing-sharepoint
 pentesting-red-blue-purple-teams-exec-briefing
 pentesting-setting-scope-engagement
 performance-based-dynamics-maya-1574
+performing-continuous-delivery-aws-codestar
 performing-nontechnical-tests-comptia-pentest
 performing-windows-10-post-installation-tasks
 personal-portfolio-site-behance-prosite-1687
