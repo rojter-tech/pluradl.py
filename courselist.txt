@@ -5291,6 +5291,7 @@ microsoft-azure-choosing-appropriate-services-features
 microsoft-azure-cleaning-preparing-data
 microsoft-azure-cloud-patterns-architecture
 microsoft-azure-code-refactoring
+microsoft-azure-cognitive-services-anomaly-detector
 microsoft-azure-cognitive-services-big-picture
 microsoft-azure-cognitive-services-bing-image-search-api
 microsoft-azure-cognitive-services-bing-spell-check-api

@@ -47636,6 +47636,15 @@
         "title": "Microsoft Azure Developer: Refactoring Code",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-code-refactoring"
     },
+    "microsoft-azure-cognitive-services-anomaly-detector": {
+        "author": "Reza Salehi",
+        "date": "Mar 12 2020",
+        "length": 61,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Microsoft Azure Cognitive Services: Anomaly Detector",
+        "url": "https://www.pluralsight.com/courses/microsoft-azure-cognitive-services-anomaly-detector"
+    },
     "microsoft-azure-cognitive-services-big-picture": {
         "author": "Barry Luijbregts",
         "date": "Jan 12 2018",
