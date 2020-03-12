@@ -13337,6 +13337,15 @@
         "title": "C Programming Language Fundamentals",
         "url": "https://www.pluralsight.com/courses/c-lang-fundamentals"
     },
+    "c-plus-plus-standard-library-associative-containers": {
+        "author": "Giovanni Dicanio",
+        "date": "Mar 12 2020",
+        "length": 88,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "C++ Standard Library: Associative Containers",
+        "url": "https://www.pluralsight.com/courses/c-plus-plus-standard-library-associative-containers"
+    },
     "c-programming-language-in-action": {
         "author": "Kenny Kerr",
         "date": "Mar 10 2014",

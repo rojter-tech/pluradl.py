@@ -1480,6 +1480,7 @@ business-information-technology-introduction
 business-solutions-mdx
 byfs
 c-lang-fundamentals
+c-plus-plus-standard-library-associative-containers
 c-programming-language-in-action
 c-sharp-attributes-power-flexibility-code
 c-sharp-code-more-object-oriented
