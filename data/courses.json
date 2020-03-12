@@ -1633,7 +1633,7 @@
         "date": "Jun 24 2017",
         "length": 233,
         "level": "Advanced",
-        "rating": 78,
+        "rating": 79,
         "title": "Advanced Python",
         "url": "https://www.pluralsight.com/courses/advanced-python"
     },
@@ -6664,7 +6664,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 289,
+        "rating": 290,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -24736,7 +24736,7 @@
         "date": "Nov 15 2016",
         "length": 226,
         "level": "Beginner",
-        "rating": 45,
+        "rating": 46,
         "title": "Drawing Fundamentals",
         "url": "https://www.pluralsight.com/courses/drawing-fundamentals"
     },
@@ -27148,7 +27148,7 @@
         "date": "Jun 16 2017",
         "length": 166,
         "level": "Intermediate",
-        "rating": 176,
+        "rating": 177,
         "title": "Searching and Analyzing Data with Elasticsearch: Getting Started",
         "url": "https://www.pluralsight.com/courses/elasticsearch-analyzing-data"
     },
@@ -27247,7 +27247,7 @@
         "date": "Mar 4 2020",
         "length": 166,
         "level": "Beginner",
-        "rating": 81,
+        "rating": 82,
         "title": "Getting Started with Elixir",
         "url": "https://www.pluralsight.com/courses/elixir-getting-started"
     },
@@ -30883,7 +30883,7 @@
         "date": "Feb 7 2020",
         "length": 83,
         "level": "Beginner",
-        "rating": 18,
+        "rating": 19,
         "title": "Fundamental Cloud Concepts for AWS",
         "url": "https://www.pluralsight.com/courses/fundamental-cloud-concepts-aws"
     },
@@ -33106,7 +33106,7 @@
         "date": "Dec 17 2019",
         "length": 66,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 37,
         "title": "Git: The Big Picture",
         "url": "https://www.pluralsight.com/courses/git-big-picture"
     },
@@ -34816,7 +34816,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6851,
+        "rating": 6854,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -39325,7 +39325,7 @@
         "date": "May 8 2019",
         "length": 59,
         "level": "Beginner",
-        "rating": 45,
+        "rating": 46,
         "title": "Introduction to Microsoft Cloud Services",
         "url": "https://www.pluralsight.com/courses/introduction-microsoft-cloud-services"
     },
@@ -41548,7 +41548,7 @@
         "date": "May 10 2019",
         "length": 255,
         "level": "Intermediate",
-        "rating": 457,
+        "rating": 458,
         "title": "Java Persistence API 2.2",
         "url": "https://www.pluralsight.com/courses/java-persistence-api-21"
     },
@@ -41719,7 +41719,7 @@
         "date": "Apr 5 2016",
         "length": 159,
         "level": "Intermediate",
-        "rating": 509,
+        "rating": 510,
         "title": "JavaScript Best Practices",
         "url": "https://www.pluralsight.com/courses/javascript-best-practices"
     },
@@ -43312,7 +43312,7 @@
         "date": "May 3 2018",
         "length": 403,
         "level": "Beginner",
-        "rating": 238,
+        "rating": 239,
         "title": "Learning the Essentials of CentOS Enterprise Linux 7 Administration",
         "url": "https://www.pluralsight.com/courses/lfcs-red-hat-7-essentials"
     },
@@ -45436,7 +45436,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1279,
+        "rating": 1281,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -47488,7 +47488,7 @@
         "date": "May 21 2019",
         "length": 112,
         "level": "Intermediate",
-        "rating": 43,
+        "rating": 44,
         "title": "Implementing Microsoft Azure Backup",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-backup-implementing"
     },
@@ -49387,7 +49387,7 @@
         "date": "Sep 30 2019",
         "length": 159,
         "level": "Beginner",
-        "rating": 26,
+        "rating": 27,
         "title": "Microsoft Azure: The Big Picture",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-the-big-picture"
     },
@@ -54247,7 +54247,7 @@
         "date": "Dec 11 2015",
         "length": 58,
         "level": "Beginner",
-        "rating": 341,
+        "rating": 342,
         "title": "NPM Playbook",
         "url": "https://www.pluralsight.com/courses/npm-playbook"
     },
@@ -59053,7 +59053,7 @@
         "date": "Nov 15 2017",
         "length": 45,
         "level": "Beginner",
-        "rating": 39,
+        "rating": 40,
         "title": "Play by Play: Getting Started with Yarn as a Package Manager",
         "url": "https://www.pluralsight.com/courses/play-by-play-yarn-package-manager"
     },
@@ -62194,7 +62194,7 @@
         "date": "Jan 26 2018",
         "length": 65,
         "level": "Beginner",
-        "rating": 568,
+        "rating": 570,
         "title": "Python: The Big Picture",
         "url": "https://www.pluralsight.com/courses/python-big-picture"
     },
@@ -65425,7 +65425,7 @@
         "date": "Jul 3 2018",
         "length": 63,
         "level": "Intermediate",
-        "rating": 59,
+        "rating": 60,
         "title": "Rewriting Git History",
         "url": "https://www.pluralsight.com/courses/rewriting-git-history"
     },
