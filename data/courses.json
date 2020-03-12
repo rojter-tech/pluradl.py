@@ -11404,7 +11404,7 @@
     },
     "bsides-jax-session-16": {
         "author": "BSides Jacksonville",
-        "date": "Dec 9 2019",
+        "date": "Dec 10 2019",
         "length": 23,
         "level": "Intermediate",
         "rating": "",
@@ -83320,6 +83320,177 @@
         "rating": "",
         "title": "Creating a Wheeled Vehicle in Unreal Engine",
         "url": "https://www.pluralsight.com/courses/wheeled-vehicle-unreal-engine-1905"
+    },
+    "wia-2019-session-01": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 59,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Ethics in Algorithms Panel",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-01"
+    },
+    "wia-2019-session-02": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 44,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Designing a User-centric Data Science Product",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-02"
+    },
+    "wia-2019-session-03": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 29,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Women in Analytics Speaker Q&A Day 2",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-03"
+    },
+    "wia-2019-session-04": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 40,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "The Importance of Ethics in Data Science",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-04"
+    },
+    "wia-2019-session-05": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 47,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Women in Analytics Speaker Q&A Day 1",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-05"
+    },
+    "wia-2019-session-06": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 41,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Measuring Analytics Maturity: What We Know 5 Years In",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-06"
+    },
+    "wia-2019-session-07": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 43,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Data-driven Product Improvements",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-07"
+    },
+    "wia-2019-session-08": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 47,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Data Science Adoption: Bringing Insights to Business",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-08"
+    },
+    "wia-2019-session-09": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 46,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "The Influence of the Chief Data Officer on Enterprise Analytics",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-09"
+    },
+    "wia-2019-session-10": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 47,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Diversity in Analytics",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-10"
+    },
+    "wia-2019-session-11": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 43,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Setting Expectations on Data Science Projects",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-11"
+    },
+    "wia-2019-session-12": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 36,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing Vision based Deep Learning Solution Using Open Source Tools",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-12"
+    },
+    "wia-2019-session-13": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 24,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Level Up: Start Contributing to Open Source",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-13"
+    },
+    "wia-2019-session-14": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 30,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Transitioning from Academia to Industry",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-14"
+    },
+    "wia-2019-session-15": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 23,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Enhancing AI in Wearable Devices Using Topological Data Analysis",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-15"
+    },
+    "wia-2019-session-16": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 35,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Using Embeddings to Understand the Variance and Evolution of Data Science Skill Sets",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-16"
+    },
+    "wia-2019-session-17": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 32,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Using Visual Diagnostic Tools to Gain Insight into the Model Selection Process",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-17"
+    },
+    "wia-2019-session-18": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 29,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Data Visualization with Tableau",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-18"
+    },
+    "wia-2019-session-19": {
+        "author": "Women in Analytics",
+        "date": "Mar 12 2020",
+        "length": 40,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Introduction to Data Science in R",
+        "url": "https://www.pluralsight.com/courses/wia-2019-session-19"
     },
     "wide-area-networking-vpn-operation": {
         "author": "Ross Bagurdes",
