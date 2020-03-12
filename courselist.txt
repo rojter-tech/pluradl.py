@@ -5664,6 +5664,7 @@ migrate-sccm-2007-2012
 migrating-applications-angular-2
 migrating-applications-angularjs-angular
 migrating-exchange-server-2016
+migrating-gcp
 migrating-inet-azure
 migrating-to-sharepoint-online
 migrating-wpf-windows-forms-apps-to-dotnet-core

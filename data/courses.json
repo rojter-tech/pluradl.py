@@ -50993,6 +50993,15 @@
         "title": "Migrating to Exchange Server 2016",
         "url": "https://www.pluralsight.com/courses/migrating-exchange-server-2016"
     },
+    "migrating-gcp": {
+        "author": "Google Cloud",
+        "date": "Mar 12 2020",
+        "length": 233,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Migrating to GCP",
+        "url": "https://www.pluralsight.com/courses/migrating-gcp"
+    },
     "migrating-inet-azure": {
         "author": "Scott Seely",
         "date": "Nov 1 2012",
