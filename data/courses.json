@@ -49492,11 +49492,11 @@
     },
     "microsoft-azure-vsts-code-reviews-managing": {
         "author": "Patrick Neborg",
-        "date": "Oct 16 2018",
-        "length": 133,
+        "date": "Mar 13 2020",
+        "length": 134,
         "level": "Beginner",
         "rating": 15,
-        "title": "Microsoft Azure Developer: Managing Code Reviews with VSTS",
+        "title": "Microsoft Azure Developer: Managing Code Reviews with Azure DevOps",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-vsts-code-reviews-managing"
     },
     "microsoft-azure-web-applications-services-deploying": {
