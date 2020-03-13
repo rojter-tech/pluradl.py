@@ -70919,6 +70919,42 @@
         "title": "How to Weaponize Scratch Orgs",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-02"
     },
+    "snowforce-2020-session-03": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 29,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "It's Time to Give a BAM",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-03"
+    },
+    "snowforce-2020-session-06": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Lessons Learned in Transitioning from Customized Case Routing to Omni Channel",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-06"
+    },
+    "snowforce-2020-session-08": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 35,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Closing Keynote: OrgConfessions",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-08"
+    },
+    "snowforce-2020-session-17": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 48,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Dramatically Improve the Service Experience When Moving to Lightning",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-17"
+    },
     "snowforce-2020-session-18": {
         "author": "Snowforce",
         "date": "Mar 13 2020",
@@ -70936,6 +70972,15 @@
         "rating": "",
         "title": "#Subscribe to Platform Events",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-23"
+    },
+    "snowforce-2020-session-25": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 38,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building a Single Page App on LWC - npx create-lwc-app Snowforce",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-25"
     },
     "so-you-want-to-be-a-business-analyst": {
         "author": "Casey Ayers",
