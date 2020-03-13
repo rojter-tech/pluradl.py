@@ -70910,6 +70910,15 @@
         "title": "Snowforce '19: Spreading the Word: How to Demonstrate the Value of Salesforce",
         "url": "https://www.pluralsight.com/courses/snowforce-2019-session-21"
     },
+    "snowforce-2020-session-01": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 39,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Learn. Do. Teach. Innovate.",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-01"
+    },
     "snowforce-2020-session-02": {
         "author": "Snowforce",
         "date": "Mar 13 2020",
@@ -70928,6 +70937,15 @@
         "title": "It's Time to Give a BAM",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-03"
     },
+    "snowforce-2020-session-04": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 29,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Using DX as an Admin",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-04"
+    },
     "snowforce-2020-session-06": {
         "author": "Snowforce",
         "date": "Mar 13 2020",
@@ -70937,6 +70955,15 @@
         "title": "Lessons Learned in Transitioning from Customized Case Routing to Omni Channel",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-06"
     },
+    "snowforce-2020-session-07": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 28,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Action Plans for Everyone!",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-07"
+    },
     "snowforce-2020-session-08": {
         "author": "Snowforce",
         "date": "Mar 13 2020",
@@ -70945,6 +70972,60 @@
         "rating": "",
         "title": "Closing Keynote: OrgConfessions",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-08"
+    },
+    "snowforce-2020-session-09": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 34,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Salesforce CPQ for Beginners",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-09"
+    },
+    "snowforce-2020-session-10": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 23,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Worlds Collide: How Pardot and Salesforce Automation Work in Tandem for Amazing Results",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-10"
+    },
+    "snowforce-2020-session-11": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 30,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Approach Reporting Like Never Before: The Ultimate Guide to Report Types",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-11"
+    },
+    "snowforce-2020-session-12": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 35,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Campaign Influence and Reporting on the Marketing Metrics that Matter",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-12"
+    },
+    "snowforce-2020-session-13": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Leveraging Pardot for the Entire Customer Lifecycle: Marketing, Sales, and Service",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-13"
+    },
+    "snowforce-2020-session-14": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "How to Roll-out Changes Your Users Will Actually Adopt",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-14"
     },
     "snowforce-2020-session-17": {
         "author": "Snowforce",
@@ -70964,6 +71045,24 @@
         "title": "Find Answers Hiding in Your Salesforce Email, Text, and Chatter",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-18"
     },
+    "snowforce-2020-session-19": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 41,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Advanced Reporting Tips and Tricks for New Admins",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-19"
+    },
+    "snowforce-2020-session-21": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 42,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Salesforce + AWS Lambda: A Serverless Microservice Match Made in Heaven",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-21"
+    },
     "snowforce-2020-session-23": {
         "author": "Snowforce",
         "date": "Mar 13 2020",
@@ -70972,6 +71071,15 @@
         "rating": "",
         "title": "#Subscribe to Platform Events",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-23"
+    },
+    "snowforce-2020-session-24": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 35,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Monitor Salesforce Limits on Salesforce with an Unlocked Package",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-24"
     },
     "snowforce-2020-session-25": {
         "author": "Snowforce",
