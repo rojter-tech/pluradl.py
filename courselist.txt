@@ -7877,6 +7877,9 @@ snowforce-2019-session-18
 snowforce-2019-session-19
 snowforce-2019-session-20
 snowforce-2019-session-21
+snowforce-2020-session-02
+snowforce-2020-session-18
+snowforce-2020-session-23
 so-you-want-to-be-a-business-analyst
 soa-real-world-analysis-design
 soa-real-world-design-implementation

@@ -65818,8 +65818,8 @@
     },
     "risk-management": {
         "author": "Kirk Marshall",
-        "date": "Mar 12 2015",
-        "length": 41,
+        "date": "Mar 13 2020",
+        "length": 39,
         "level": "Beginner",
         "rating": 254,
         "title": "Risk Management",
@@ -70909,6 +70909,33 @@
         "rating": "",
         "title": "Snowforce '19: Spreading the Word: How to Demonstrate the Value of Salesforce",
         "url": "https://www.pluralsight.com/courses/snowforce-2019-session-21"
+    },
+    "snowforce-2020-session-02": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 21,
+        "level": "Beginner",
+        "rating": "",
+        "title": "How to Weaponize Scratch Orgs",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-02"
+    },
+    "snowforce-2020-session-18": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 24,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Find Answers Hiding in Your Salesforce Email, Text, and Chatter",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-18"
+    },
+    "snowforce-2020-session-23": {
+        "author": "Snowforce",
+        "date": "Mar 13 2020",
+        "length": 23,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "#Subscribe to Platform Events",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-23"
     },
     "so-you-want-to-be-a-business-analyst": {
         "author": "Casey Ayers",
