@@ -2597,6 +2597,7 @@ device-driven-web-solutions-wurfl
 device-hardening-cnd
 devintersection-azureai-session-01
 devintersection-azureai-session-02
+devintersection-azureai-session-03
 devintersection-azureai-session-04
 devintersection-azureai-session-05
 devintersection-azureai-session-06
