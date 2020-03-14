@@ -814,7 +814,7 @@
         "date": "Dec 10 2018",
         "length": 205,
         "level": "Intermediate",
-        "rating": 19,
+        "rating": 20,
         "title": "Administering Amazon Aurora on Amazon RDS",
         "url": "https://www.pluralsight.com/courses/administering-amazon-aurora-amazon-rds"
     },
@@ -17365,7 +17365,7 @@
         "date": "Sep 10 2019",
         "length": 189,
         "level": "Beginner",
-        "rating": 24,
+        "rating": 25,
         "title": "Combining and Filtering Data with T-SQL",
         "url": "https://www.pluralsight.com/courses/combining-filtering-data-tsql"
     },
@@ -18013,7 +18013,7 @@
         "date": "Apr 20 2018",
         "length": 326,
         "level": "Beginner",
-        "rating": 265,
+        "rating": 266,
         "title": "Networking Concepts and Protocols",
         "url": "https://www.pluralsight.com/courses/comptia-network-plus-networking-concepts"
     },
@@ -18139,7 +18139,7 @@
         "date": "Oct 24 2017",
         "length": 203,
         "level": "Beginner",
-        "rating": 114,
+        "rating": 115,
         "title": "Threats, Attacks, and Vulnerabilities for CompTIA Security+",
         "url": "https://www.pluralsight.com/courses/comptia-security-plus-threats-attacks-vulnerabilities"
     },
@@ -21613,7 +21613,7 @@
         "date": "Mar 4 2020",
         "length": 218,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 19,
         "title": "DDD and EF Core: Preserving Encapsulation",
         "url": "https://www.pluralsight.com/courses/ddd-ef-core-preserving-encapsulation"
     },
@@ -23152,7 +23152,7 @@
         "date": "May 14 2018",
         "length": 290,
         "level": "Beginner",
-        "rating": 535,
+        "rating": 536,
         "title": "Developing with .NET on Microsoft Azure - Getting Started",
         "url": "https://www.pluralsight.com/courses/developing-dotnet-microsoft-azure-getting-started"
     },
@@ -28489,7 +28489,7 @@
         "date": "Oct 21 2019",
         "length": 33,
         "level": "Advanced",
-        "rating": 12,
+        "rating": 13,
         "title": "Excel Data Lookup Function Playbook",
         "url": "https://www.pluralsight.com/courses/excel-data-lookup-function-playbook"
     },
@@ -32818,7 +32818,7 @@
         "date": "Nov 1 2019",
         "length": 123,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Getting Started with Sitecore Helix",
         "url": "https://www.pluralsight.com/courses/getting-started-sitecore"
     },
@@ -41233,7 +41233,7 @@
         "date": "Aug 9 2014",
         "length": 255,
         "level": "Intermediate",
-        "rating": 646,
+        "rating": 647,
         "title": "What's New in Java 8",
         "url": "https://www.pluralsight.com/courses/java-8-whats-new"
     },
@@ -43240,7 +43240,7 @@
         "date": "Sep 19 2018",
         "length": 71,
         "level": "Intermediate",
-        "rating": 35,
+        "rating": 36,
         "title": "Less: Getting Started",
         "url": "https://www.pluralsight.com/courses/less-getting-started"
     },
@@ -52933,7 +52933,7 @@
         "date": "Jul 17 2012",
         "length": 121,
         "level": "Intermediate",
-        "rating": 899,
+        "rating": 900,
         "title": "Creating N-Tier Applications in C#, Part 1",
         "url": "https://www.pluralsight.com/courses/n-tier-apps-part1"
     },
@@ -54724,7 +54724,7 @@
         "date": "Mar 11 2019",
         "length": 206,
         "level": "Beginner",
-        "rating": 2795,
+        "rating": 2796,
         "title": "Object-Oriented Programming Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/object-oriented-programming-fundamentals-csharp"
     },
@@ -56425,7 +56425,7 @@
         "date": "Jan 5 2017",
         "length": 110,
         "level": "Beginner",
-        "rating": 73,
+        "rating": 74,
         "title": "Payment Card Security, Processing, and the PCI Standards",
         "url": "https://www.pluralsight.com/courses/payment-card-security-processing-pci-standards"
     },
@@ -60349,7 +60349,7 @@
         "date": "May 21 2015",
         "length": 239,
         "level": "Intermediate",
-        "rating": 242,
+        "rating": 243,
         "title": "Practical Cryptography in .NET",
         "url": "https://www.pluralsight.com/courses/practical-cryptography-dotnet"
     },
@@ -68404,7 +68404,7 @@
         "date": "Jul 19 2019",
         "length": 82,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 18,
         "title": "Semantic HTML",
         "url": "https://www.pluralsight.com/courses/semantic-html"
     },
@@ -80842,7 +80842,7 @@
         "date": "Apr 20 2017",
         "length": 65,
         "level": "Beginner",
-        "rating": 167,
+        "rating": 168,
         "title": "UX Fundamentals",
         "url": "https://www.pluralsight.com/courses/ux-fundamentals-2426"
     },
