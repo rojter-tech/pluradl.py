@@ -7898,6 +7898,7 @@ snowforce-2020-session-17
 snowforce-2020-session-18
 snowforce-2020-session-19
 snowforce-2020-session-21
+snowforce-2020-session-22
 snowforce-2020-session-23
 snowforce-2020-session-24
 snowforce-2020-session-25
