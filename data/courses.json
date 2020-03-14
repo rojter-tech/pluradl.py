@@ -13319,6 +13319,15 @@
         "title": "Business Solutions with MDX",
         "url": "https://www.pluralsight.com/courses/business-solutions-mdx"
     },
+    "business-transformation-google-cloud": {
+        "author": "Google Cloud",
+        "date": "Mar 14 2020",
+        "length": 180,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Business Transformation with Google Cloud",
+        "url": "https://www.pluralsight.com/courses/business-transformation-google-cloud"
+    },
     "byfs": {
         "author": "Doug Turnure",
         "date": "Dec 14 2012",
@@ -33703,6 +33712,15 @@
         "rating": "",
         "title": "Architecting Stream Processing Solutions Using Google Cloud Pub/Sub",
         "url": "https://www.pluralsight.com/courses/google-cloud-platform-pubsub-architecting-stream-processing-solutions"
+    },
+    "google-cloud-product-fundamentals": {
+        "author": "Google Cloud",
+        "date": "Mar 14 2020",
+        "length": 131,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Google Cloud Product Fundamentals",
+        "url": "https://www.pluralsight.com/courses/google-cloud-product-fundamentals"
     },
     "google-cloud-spanner-creating-administering-instances": {
         "author": "Vitthal Srinivasan",

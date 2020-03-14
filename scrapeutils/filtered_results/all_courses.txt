@@ -1478,6 +1478,7 @@ business-dashboard-fundamentals
 business-expectations-communicating
 business-information-technology-introduction
 business-solutions-mdx
+business-transformation-google-cloud
 byfs
 c-lang-fundamentals
 c-plus-plus-standard-library-associative-containers
@@ -3743,6 +3744,7 @@ google-cloud-platform-leveraging-architectural-design-patterns
 google-cloud-platform-leveraging-load-balancing-options
 google-cloud-platform-memorystore-redis-leveraging-fully-managed-datastores
 google-cloud-platform-pubsub-architecting-stream-processing-solutions
+google-cloud-product-fundamentals
 google-cloud-spanner-creating-administering-instances
 google-cloud-sql-creating-administering-instances
 google-compute-engine
