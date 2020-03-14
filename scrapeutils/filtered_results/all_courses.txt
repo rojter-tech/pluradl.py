@@ -5432,6 +5432,7 @@ microsoft-azure-network-load-balancing-managing
 microsoft-azure-networking-strategy-design
 microsoft-azure-networks-securing
 microsoft-azure-nodejs-cloud-architecture
+microsoft-azure-nodejs-cloud-architecture-update
 microsoft-azure-nodejs-secure-services-applications
 microsoft-azure-nodejs-secure-services-applications-update
 microsoft-azure-non-functional-requirements-gathering
