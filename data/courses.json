@@ -5705,6 +5705,15 @@
         "title": "Architecting with Google Kubernetes Engine - Production",
         "url": "https://www.pluralsight.com/courses/architecting-google-kubernetes-engine-production"
     },
+    "architecting-google-kubernetes-engine-production-update": {
+        "author": "Google Cloud",
+        "date": "Mar 16 2020",
+        "length": 107,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Architecting with Google Kubernetes Engine - Production",
+        "url": "https://www.pluralsight.com/courses/architecting-google-kubernetes-engine-production-update"
+    },
     "architecting-google-kubernetes-engine-workloads": {
         "author": "Google Cloud",
         "date": "Oct 10 2019",

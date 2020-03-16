@@ -632,6 +632,7 @@ architecting-azure-solutions-70-534-web-apps
 architecting-cisco-secure-communications
 architecting-google-kubernetes-engine-foundations
 architecting-google-kubernetes-engine-production
+architecting-google-kubernetes-engine-production-update
 architecting-google-kubernetes-engine-workloads
 architecting-iam-security-aws
 architecting-operational-excellence-aws
