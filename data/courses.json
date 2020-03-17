@@ -5294,7 +5294,7 @@
     "apache-spark-fundamentals": {
         "author": "Justin Pihony",
         "date": "Oct 27 2015",
-        "length": 267,
+        "length": 268,
         "level": "Intermediate",
         "rating": 260,
         "title": "Apache Spark Fundamentals",
@@ -36151,6 +36151,15 @@
         "rating": "",
         "title": "Implementing Incident Management with System Center Service Manager 2016 (SCSM)",
         "url": "https://www.pluralsight.com/courses/implementing-incident-management-scsm-2016"
+    },
+    "implementing-managing-office-365-advanced-threat-protection": {
+        "author": "Michael Bender",
+        "date": "Mar 17 2020",
+        "length": 92,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing and Managing Office 365 Advanced Threat Protection",
+        "url": "https://www.pluralsight.com/courses/implementing-managing-office-365-advanced-threat-protection"
     },
     "implementing-mobile-device-management-microsoft-365": {
         "author": "Brian Alderman",

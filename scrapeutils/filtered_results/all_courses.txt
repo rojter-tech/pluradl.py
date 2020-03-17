@@ -4015,6 +4015,7 @@ implementing-docker-containers-windows-server-2019
 implementing-eigrp-ccnp-routing-switching-300-101-route
 implementing-failover-clustering-storage-spaces-direct-windows-server-2019
 implementing-incident-management-scsm-2016
+implementing-managing-office-365-advanced-threat-protection
 implementing-mobile-device-management-microsoft-365
 implementing-netscaler-12-high-availability
 implementing-ospf-ccnp-routing-switching-300-101-route
