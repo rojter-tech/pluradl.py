@@ -5653,6 +5653,7 @@ microsoft-operating-system-fundamentals
 microsoft-orleans-introduction
 microsoft-planner-introduction
 microsoft-powershell-implementing-jea
+microsoft-project-creating-printing-project-plans
 microsoft-publisher-2013-introduction
 microsoft-server-virtualization-adv-admin
 microsoft-server-virtualization-hyper-v

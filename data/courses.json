@@ -32144,7 +32144,7 @@
         "length": 146,
         "level": "Beginner",
         "rating": "",
-        "title": "Getting Started With Application Development",
+        "title": "Getting Started With Application Development on Google Cloud",
         "url": "https://www.pluralsight.com/courses/getting-started-application-development-1"
     },
     "getting-started-aspdotnet-mvcservice-stack-bootstrap": {
@@ -50894,6 +50894,15 @@
         "title": "Implementing Microsoft PowerShell Just Enough Administration (JEA)",
         "url": "https://www.pluralsight.com/courses/microsoft-powershell-implementing-jea"
     },
+    "microsoft-project-creating-printing-project-plans": {
+        "author": "Ben Howard",
+        "date": "Mar 17 2020",
+        "length": 64,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Creating and Printing Project Plans Using Microsoft Project",
+        "url": "https://www.pluralsight.com/courses/microsoft-project-creating-printing-project-plans"
+    },
     "microsoft-publisher-2013-introduction": {
         "author": "Alan Wright",
         "date": "May 19 2014",
@@ -67901,7 +67910,7 @@
         "length": 80,
         "level": "Beginner",
         "rating": "",
-        "title": "Securing and Integrating Components of your Application",
+        "title": "Securing and Integrating Components of your Application on Google Cloud",
         "url": "https://www.pluralsight.com/courses/securing-integrating-components-application-1"
     },
     "securing-java-web-application-data": {
@@ -68495,7 +68504,7 @@
         "length": 271,
         "level": "Beginner",
         "rating": "",
-        "title": "Sequence Models for Time Series and Natural Language Processing",
+        "title": "Sequence Models for Time Series and Natural Language Processing on Google Cloud",
         "url": "https://www.pluralsight.com/courses/sequence-models-time-series-natural-language-processing"
     },
     "serialization-dotnet-4-5": {
