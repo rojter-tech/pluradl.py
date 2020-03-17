@@ -6744,6 +6744,7 @@ premiere-pro-cc-titles
 premiere-pro-media-encoder-mastering-compression-settings-2502
 premiere-pro-psychological-editing-2490
 premierepro-cc-fundamentals
+premises-management-security-upgrade-google-clouds-apigee-api-platform
 preparing-cobit5-foundation-exam
 preparing-data-feature-engineering-machine-learning
 preparing-data-machine-learning
