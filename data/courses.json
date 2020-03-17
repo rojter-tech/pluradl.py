@@ -40103,6 +40103,15 @@
         "title": "Introduction to Scripting in Unity",
         "url": "https://www.pluralsight.com/courses/introduction-scripting-unity-627"
     },
+    "introduction-security-architecture-aws": {
+        "author": "David Tucker",
+        "date": "Mar 17 2020",
+        "length": 115,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Introduction to Security and Architecture on AWS",
+        "url": "https://www.pluralsight.com/courses/introduction-security-architecture-aws"
+    },
     "introduction-shading-networks-maya-2088": {
         "author": "Eddie Russell",
         "date": "Dec 25 2015",
