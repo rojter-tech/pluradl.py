@@ -4189,7 +4189,7 @@
         "date": "Jan 5 2018",
         "length": 188,
         "level": "Beginner",
-        "rating": 167,
+        "rating": 168,
         "title": "Angular Material",
         "url": "https://www.pluralsight.com/courses/angular-material"
     },
@@ -6574,7 +6574,7 @@
         "date": "Jan 7 2014",
         "length": 204,
         "level": "Intermediate",
-        "rating": 480,
+        "rating": 481,
         "title": "ASP.NET Security Secrets Revealed",
         "url": "https://www.pluralsight.com/courses/aspdotnet-security-secrets-revealed"
     },
@@ -11785,7 +11785,7 @@
         "date": "Apr 27 2017",
         "length": 153,
         "level": "Intermediate",
-        "rating": 71,
+        "rating": 72,
         "title": "Building Applications Using Spring JDBC",
         "url": "https://www.pluralsight.com/courses/building-applications-spring-jdbc"
     },
@@ -20488,7 +20488,7 @@
         "date": "Sep 5 2019",
         "length": 148,
         "level": "Intermediate",
-        "rating": 19,
+        "rating": 20,
         "title": "ADO.NET Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/csharp-ado-dotnet-fundamentals"
     },
@@ -32377,7 +32377,7 @@
         "date": "Feb 10 2020",
         "length": 122,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Getting Started with Git",
         "url": "https://www.pluralsight.com/courses/getting-started-git"
     },
@@ -32764,7 +32764,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 53,
+        "rating": 54,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -41233,7 +41233,7 @@
         "date": "Sep 15 2015",
         "length": 241,
         "level": "Intermediate",
-        "rating": 321,
+        "rating": 322,
         "title": "From Collections to Streams in Java 8 Using Lambda Expressions",
         "url": "https://www.pluralsight.com/courses/java-8-lambda-expressions-collections-streams"
     },
@@ -45769,7 +45769,7 @@
         "date": "Jun 28 2019",
         "length": 144,
         "level": "Intermediate",
-        "rating": 1713,
+        "rating": 1714,
         "title": "Maven Fundamentals",
         "url": "https://www.pluralsight.com/courses/maven-fundamentals"
     },
@@ -47083,7 +47083,7 @@
         "date": "Jun 16 2016",
         "length": 217,
         "level": "Beginner",
-        "rating": 51,
+        "rating": 52,
         "title": "Introduction to Penetration Testing Using Metasploit",
         "url": "https://www.pluralsight.com/courses/metasploit-penetration-testing-introduction"
     },
@@ -76324,7 +76324,7 @@
         "date": "Sep 6 2019",
         "length": 61,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "THAT Conference '19: The Absolute Beginner's Guide to Docker",
         "url": "https://www.pluralsight.com/courses/that-conference-2019-session-33"
     },
@@ -77998,7 +77998,7 @@
         "date": "Nov 27 2019",
         "length": 131,
         "level": "Beginner",
-        "rating": 18,
+        "rating": 19,
         "title": "Creating Object-oriented TypeScript Code",
         "url": "https://www.pluralsight.com/courses/typescript-creating-object-oriented-code"
     },
@@ -79969,7 +79969,7 @@
         "date": "Apr 1 2019",
         "length": 123,
         "level": "Intermediate",
-        "rating": 93,
+        "rating": 94,
         "title": "Using Git for Source Control in Visual Studio 2019",
         "url": "https://www.pluralsight.com/courses/using-git-source-control-visual-studio"
     },
@@ -82876,7 +82876,7 @@
         "date": "Jul 17 2014",
         "length": 109,
         "level": "Beginner",
-        "rating": 1737,
+        "rating": 1738,
         "title": "WCF Jumpstart",
         "url": "https://www.pluralsight.com/courses/wcf-jumpstart"
     },
