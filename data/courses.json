@@ -41114,7 +41114,7 @@
     "istio-managing-apps-kubernetes": {
         "author": "Elton Stoneman",
         "date": "Feb 7 2020",
-        "length": 258,
+        "length": 214,
         "level": "Intermediate",
         "rating": "",
         "title": "Managing Apps on Kubernetes with Istio",
@@ -41218,6 +41218,15 @@
         "rating": 28,
         "title": "What's New in Java 12",
         "url": "https://www.pluralsight.com/courses/java-12-whats-new"
+    },
+    "java-14-whats-new": {
+        "author": "Sander Mak",
+        "date": "Mar 17 2020",
+        "length": 68,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "What's New in Java 14",
+        "url": "https://www.pluralsight.com/courses/java-14-whats-new"
     },
     "java-8-data-processing-streams-collectors-optionals": {
         "author": "Jose Paumard",
