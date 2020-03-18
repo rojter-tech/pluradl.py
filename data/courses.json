@@ -3622,7 +3622,7 @@
         "date": "Aug 14 2019",
         "length": 341,
         "level": "Beginner",
-        "rating": 3728,
+        "rating": 3729,
         "title": "Angular: Getting Started",
         "url": "https://www.pluralsight.com/courses/angular-2-getting-started-update"
     },
@@ -6313,7 +6313,7 @@
         "date": "Aug 29 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 73,
+        "rating": 75,
         "title": "ASP.NET MVC 5 Fundamentals",
         "url": "https://www.pluralsight.com/courses/asp-net-mvc5-web-apps"
     },
@@ -7735,7 +7735,7 @@
         "date": "Oct 9 2019",
         "length": 94,
         "level": "Beginner",
-        "rating": 675,
+        "rating": 676,
         "title": "AWS Developer: The Big Picture",
         "url": "https://www.pluralsight.com/courses/aws-developer-big-picture"
     },
@@ -17374,7 +17374,7 @@
         "date": "Sep 10 2019",
         "length": 189,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "Combining and Filtering Data with T-SQL",
         "url": "https://www.pluralsight.com/courses/combining-filtering-data-tsql"
     },
@@ -18535,7 +18535,7 @@
         "date": "Jan 21 2020",
         "length": 167,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "Configuring and Managing Kubernetes Storage and Scheduling",
         "url": "https://www.pluralsight.com/courses/configuring-managing-kubernetes-storage-scheduling"
     },
@@ -19687,7 +19687,7 @@
         "date": "Dec 23 2019",
         "length": 80,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 20,
         "title": "Creating Blazor Components",
         "url": "https://www.pluralsight.com/courses/creating-blazor-components"
     },
@@ -22198,7 +22198,7 @@
         "date": "Sep 16 2019",
         "length": 162,
         "level": "Intermediate",
-        "rating": 296,
+        "rating": 297,
         "title": "Design Patterns in Java: Structural",
         "url": "https://www.pluralsight.com/courses/design-patterns-java-structural"
     },
@@ -22342,7 +22342,7 @@
         "date": "Jan 31 2020",
         "length": 151,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "Designing and Building Enterprise Blazor Applications",
         "url": "https://www.pluralsight.com/courses/designing-building-enterprise-blazor-applications"
     },
@@ -35077,7 +35077,7 @@
         "date": "Mar 3 2017",
         "length": 227,
         "level": "Beginner",
-        "rating": 683,
+        "rating": 684,
         "title": "HTML5 Fundamentals",
         "url": "https://www.pluralsight.com/courses/html5-fundamentals"
     },
@@ -41611,7 +41611,7 @@
         "date": "Apr 4 2016",
         "length": 159,
         "level": "Intermediate",
-        "rating": 387,
+        "rating": 388,
         "title": "Applying Concurrency and Multi-threading to Common Java Patterns",
         "url": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading"
     },
@@ -44044,6 +44044,15 @@
         "rating": "",
         "title": "Live-action Matte Painting and Compositing in NUKE",
         "url": "https://www.pluralsight.com/courses/live-action-matte-painting-compositing-nuke-2265"
+    },
+    "live-europe-2020-kickoff": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 17 2020",
+        "length": 1,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Pluralsight LIVE Europe Kickoff Video",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-kickoff"
     },
     "load-testing-visual-studio-2012": {
         "author": "Benjamin Day",
@@ -55354,7 +55363,7 @@
         "date": "Oct 29 2019",
         "length": 191,
         "level": "Intermediate",
-        "rating": 135,
+        "rating": 136,
         "title": "Securing Angular Apps with OpenID Connect and OAuth 2",
         "url": "https://www.pluralsight.com/courses/openid-and-oauth2-securing-angular-apps"
     },
@@ -62779,7 +62788,7 @@
         "date": "Sep 19 2019",
         "length": 127,
         "level": "Beginner",
-        "rating": 43,
+        "rating": 44,
         "title": "Querying Data Using T-SQL",
         "url": "https://www.pluralsight.com/courses/querying-data-using-tsql"
     },
@@ -71203,7 +71212,7 @@
         "date": "Oct 5 2018",
         "length": 110,
         "level": "Beginner",
-        "rating": 21,
+        "rating": 22,
         "title": "So You Want to Be a Business Analyst",
         "url": "https://www.pluralsight.com/courses/so-you-want-to-be-a-business-analyst"
     },
@@ -72121,7 +72130,7 @@
         "date": "May 15 2018",
         "length": 75,
         "level": "Beginner",
-        "rating": 289,
+        "rating": 290,
         "title": "Spring: The Big Picture",
         "url": "https://www.pluralsight.com/courses/spring-big-picture"
     },
@@ -72157,7 +72166,7 @@
         "date": "Jun 6 2017",
         "length": 215,
         "level": "Intermediate",
-        "rating": 150,
+        "rating": 151,
         "title": "Spring Cloud Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-cloud-fundamentals"
     },
@@ -72166,7 +72175,7 @@
         "date": "Feb 5 2015",
         "length": 196,
         "level": "Intermediate",
-        "rating": 250,
+        "rating": 251,
         "title": "Getting Started with Spring Data JPA",
         "url": "https://www.pluralsight.com/courses/spring-data-jpa-getting-started"
     },
@@ -72238,7 +72247,7 @@
         "date": "Nov 7 2019",
         "length": 147,
         "level": "Beginner",
-        "rating": 50,
+        "rating": 51,
         "title": "Spring Framework: Spring Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-framework-spring-fundamentals"
     },
@@ -73912,7 +73921,7 @@
         "date": "Dec 12 2011",
         "length": 130,
         "level": "Intermediate",
-        "rating": 1690,
+        "rating": 1691,
         "title": "Structuring JavaScript Code",
         "url": "https://www.pluralsight.com/courses/structuring-javascript"
     },
@@ -75487,7 +75496,7 @@
         "date": "May 3 2017",
         "length": 158,
         "level": "Beginner",
-        "rating": 188,
+        "rating": 189,
         "title": "TensorFlow: Getting Started",
         "url": "https://www.pluralsight.com/courses/tensorflow-getting-started"
     },
