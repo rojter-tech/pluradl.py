@@ -1566,6 +1566,7 @@ ccsp-cloud-governance-data-privacy-audit
 ccsp-cloud-infrastructure-security
 ccsp-cloud-physical-logical-infrastructure
 ccsp-cloud-platform-security
+ccsp-cloud-security-operations-controls
 centaur-zbrush-1099
 centralized-logging-elastic-stack
 cg101-12-principles-animation-715
