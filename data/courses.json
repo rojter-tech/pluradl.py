@@ -679,7 +679,7 @@
         "date": "May 29 2013",
         "length": 100,
         "level": "Intermediate",
-        "rating": 313,
+        "rating": 314,
         "title": "Active Directory Programming for Developers",
         "url": "https://www.pluralsight.com/courses/active-directory-programming"
     },
@@ -715,7 +715,7 @@
         "date": "Jul 12 2019",
         "length": 113,
         "level": "Advanced",
-        "rating": 14,
+        "rating": 15,
         "title": "Adapting CLEAN Architecture in Android Apps",
         "url": "https://www.pluralsight.com/courses/adapting-clean-architecture-android-apps"
     },
@@ -8896,7 +8896,7 @@
         "date": "Aug 15 2017",
         "length": 247,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Building Serverless Applications in Azure",
         "url": "https://www.pluralsight.com/courses/azure-serverless-applications"
     },
@@ -23782,7 +23782,7 @@
         "date": "Sep 19 2016",
         "length": 427,
         "level": "Intermediate",
-        "rating": 135,
+        "rating": 136,
         "title": "DevOps Skills for Developers with Visual Studio & TFS 2015",
         "url": "https://www.pluralsight.com/courses/devops-skills-developers-visual-studio-tfs-2015"
     },
@@ -28183,7 +28183,7 @@
         "date": "Sep 16 2019",
         "length": 207,
         "level": "Beginner",
-        "rating": 257,
+        "rating": 258,
         "title": "Ethical Hacking: Session Hijacking",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-session-hijacking"
     },
@@ -34942,7 +34942,7 @@
         "date": "Mar 15 2016",
         "length": 127,
         "level": "Beginner",
-        "rating": 56,
+        "rating": 57,
         "title": "How to Speak to Business Leaders",
         "url": "https://www.pluralsight.com/courses/how-to-speak-to-business-leaders"
     },
@@ -41332,7 +41332,7 @@
         "date": "Mar 13 2017",
         "length": 208,
         "level": "Advanced",
-        "rating": 127,
+        "rating": 128,
         "title": "Advanced Java Concurrent Patterns",
         "url": "https://www.pluralsight.com/courses/java-concurrent-patterns-advanced"
     },
@@ -41539,7 +41539,7 @@
         "date": "Jan 18 2019",
         "length": 190,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 26,
         "title": "Java Fundamentals: The Java Reflection API Method Handles",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-reflection-api-method-handles"
     },
@@ -43042,7 +43042,7 @@
         "date": "May 2 2019",
         "length": 65,
         "level": "Beginner",
-        "rating": 19,
+        "rating": 20,
         "title": "Leadership for Non-managers",
         "url": "https://www.pluralsight.com/courses/leadership-for-non-managers"
     },
@@ -47443,7 +47443,7 @@
         "date": "Aug 6 2019",
         "length": 116,
         "level": "Beginner",
-        "rating": 46,
+        "rating": 47,
         "title": "Managing Microsoft Azure App Services",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-app-services-managing"
     },
@@ -54652,7 +54652,7 @@
         "date": "Feb 22 2019",
         "length": 113,
         "level": "Intermediate",
-        "rating": 35,
+        "rating": 36,
         "title": "Mocking with Moq and NUnit",
         "url": "https://www.pluralsight.com/courses/nunit-moq-mocking"
     },
