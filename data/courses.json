@@ -18782,6 +18782,15 @@
         "title": "Connecting PowerShell to Your Azure Subscription",
         "url": "https://www.pluralsight.com/courses/connect-powershell-to-azure-subscription"
     },
+    "connecting-amazon-dynamodb": {
+        "author": "Fernando Medina Corey",
+        "date": "Mar 18 2020",
+        "length": 126,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Connecting Amazon DynamoDB to Your Application",
+        "url": "https://www.pluralsight.com/courses/connecting-amazon-dynamodb"
+    },
     "connecting-our-macs-directory-services": {
         "author": "Ken Mauldin",
         "date": "May 9 2016",

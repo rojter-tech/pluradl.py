@@ -2085,6 +2085,7 @@ configuring-windows-firewall-windows-server-2019
 conflict-resolution-workplace
 confluence-getting-started
 connect-powershell-to-azure-subscription
+connecting-amazon-dynamodb
 connecting-our-macs-directory-services
 construct2-fundamentals
 constructing-commercial-storyboards-photoshop-1766
