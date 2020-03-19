@@ -2538,6 +2538,7 @@ designing-proper-invitation-illustrator-2366
 designing-prototypes-websites-balsamiq-mockups-2115
 designing-restful-web-apis
 designing-rocket-3d-printing-tinkercad-1986
+designing-scalable-systems-aws
 designing-scary-female-monster-zbrush-1125
 designing-scary-film-monsters-zbrush-752
 designing-sea-creature-zbrush-1958
