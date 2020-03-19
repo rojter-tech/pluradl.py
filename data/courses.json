@@ -7069,7 +7069,7 @@
         "date": "Dec 12 2019",
         "length": 151,
         "level": "Advanced",
-        "rating": 16,
+        "rating": 17,
         "title": "Authentication and Authorization in Blazor Applications",
         "url": "https://www.pluralsight.com/courses/authentication-authorization-blazor-applications"
     },
@@ -20515,7 +20515,7 @@
         "date": "Sep 5 2019",
         "length": 148,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 21,
         "title": "ADO.NET Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/csharp-ado-dotnet-fundamentals"
     },
@@ -23782,7 +23782,7 @@
         "date": "Jan 23 2019",
         "length": 81,
         "level": "Beginner",
-        "rating": 1210,
+        "rating": 1211,
         "title": "DevOps: The Big Picture",
         "url": "https://www.pluralsight.com/courses/devops-big-picture"
     },
@@ -24223,7 +24223,7 @@
         "date": "Aug 1 2016",
         "length": 132,
         "level": "Beginner",
-        "rating": 1005,
+        "rating": 1007,
         "title": "Getting Started with Docker",
         "url": "https://www.pluralsight.com/courses/docker-getting-started"
     },
@@ -32791,7 +32791,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 54,
+        "rating": 55,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -35194,7 +35194,7 @@
         "date": "Jan 11 2019",
         "length": 200,
         "level": "Intermediate",
-        "rating": 110,
+        "rating": 112,
         "title": "Using HttpClient to Consume APIs in .NET Core",
         "url": "https://www.pluralsight.com/courses/httpclient-consume-apis-dotnet-core"
     },
@@ -41899,7 +41899,7 @@
         "date": "Nov 15 2019",
         "length": 48,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 14,
         "title": "JavaScript: Functions",
         "url": "https://www.pluralsight.com/courses/javascript-functions"
     },
@@ -48016,10 +48016,10 @@
     },
     "microsoft-azure-consumption-strategy-optimizing": {
         "author": "James Bannan",
-        "date": "Sep 14 2018",
-        "length": 173,
+        "date": "Mar 16 2020",
+        "length": 174,
         "level": "Intermediate",
-        "rating": 27,
+        "rating": 28,
         "title": "Optimizing Consumption Strategy in Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-consumption-strategy-optimizing"
     },
@@ -48793,7 +48793,7 @@
         "date": "Aug 7 2019",
         "length": 118,
         "level": "Beginner",
-        "rating": 41,
+        "rating": 42,
         "title": "Microsoft Azure Developer: Creating IoT Solutions",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-iot-solutions-creating"
     },
@@ -56335,7 +56335,7 @@
         "date": "Apr 7 2016",
         "length": 149,
         "level": "Beginner",
-        "rating": 55,
+        "rating": 56,
         "title": "Pair Programming",
         "url": "https://www.pluralsight.com/courses/pair-programming"
     },
@@ -69151,7 +69151,7 @@
         "date": "May 6 2013",
         "length": 244,
         "level": "Intermediate",
-        "rating": 386,
+        "rating": 387,
         "title": "SharePoint Server 2013 Core Solutions (70-331) Part 1",
         "url": "https://www.pluralsight.com/courses/sharepoint-2013-core-solutions-pt1"
     },
@@ -73309,7 +73309,7 @@
         "date": "Jun 30 2016",
         "length": 148,
         "level": "Intermediate",
-        "rating": 75,
+        "rating": 76,
         "title": "SQL Server: Replacing Profiler with Extended Events",
         "url": "https://www.pluralsight.com/courses/sqlserver-replacing-profiler-extended-events"
     },
@@ -82768,7 +82768,7 @@
         "date": "Aug 31 2018",
         "length": 66,
         "level": "Beginner",
-        "rating": 178,
+        "rating": 179,
         "title": "Vue.js: Big Picture",
         "url": "https://www.pluralsight.com/courses/vuejs-big-picture"
     },
@@ -85729,7 +85729,7 @@
         "date": "Jun 19 2017",
         "length": 205,
         "level": "Intermediate",
-        "rating": 34,
+        "rating": 35,
         "title": "Implementing Windows Server 2016 Identity Federation and Access",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-identity-federation-access-solutions"
     },
@@ -86170,7 +86170,7 @@
         "date": "Oct 9 2017",
         "length": 85,
         "level": "Advanced",
-        "rating": 62,
+        "rating": 63,
         "title": "Troubleshooting with Wireshark: Analyzing and Decrypting TLS Traffic in Wireshark (Using HTTPs)",
         "url": "https://www.pluralsight.com/courses/wireshark-troubleshooting-analyzing-decrypting-tls-traffic"
     },
@@ -87610,7 +87610,7 @@
         "date": "Jun 23 2015",
         "length": 233,
         "level": "Beginner",
-        "rating": 27,
+        "rating": 28,
         "title": "Introduction to the z/OS TSO/ISPF Environment",
         "url": "https://www.pluralsight.com/courses/z-os-tso-ispf-environment-introduction"
     },
