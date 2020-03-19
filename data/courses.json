@@ -11834,6 +11834,15 @@
         "title": "Building Web Applications with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/building-aspdotnet-core-mvc-web-applications"
     },
+    "building-aspnet-core-hosted-services-net-core-worker-services": {
+        "author": "Steve Gordon",
+        "date": "Mar 19 2020",
+        "length": 136,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building ASP.NET Core Hosted Services and .NET Core Worker Services",
+        "url": "https://www.pluralsight.com/courses/building-aspnet-core-hosted-services-net-core-worker-services"
+    },
     "building-async-api-aspdotnet-core": {
         "author": "Kevin Dockx",
         "date": "Aug 14 2018",

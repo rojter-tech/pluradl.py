@@ -1313,6 +1313,7 @@ building-applications-with-elm
 building-apps-angular-firebase-angularfire
 building-apps-durandal-2-mvc5-breeze
 building-aspdotnet-core-mvc-web-applications
+building-aspnet-core-hosted-services-net-core-worker-services
 building-async-api-aspdotnet-core
 building-authorization-azure-active-directory-developers
 building-batch-data-pipelines-gcp
