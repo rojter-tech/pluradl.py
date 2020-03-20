@@ -2938,7 +2938,7 @@
         "date": "Feb 15 2018",
         "length": 144,
         "level": "Beginner",
-        "rating": 36,
+        "rating": 37,
         "title": "Building Apps with Android Architecture Components",
         "url": "https://www.pluralsight.com/courses/android-architecture-components-building-apps"
     },
@@ -6205,7 +6205,7 @@
         "date": "Oct 10 2019",
         "length": 301,
         "level": "Beginner",
-        "rating": 70,
+        "rating": 71,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -15835,7 +15835,7 @@
         "date": "Jan 3 2020",
         "length": 47,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "Cloud: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/cloud-executive-briefing"
     },
@@ -21451,7 +21451,7 @@
         "date": "Dec 7 2018",
         "length": 56,
         "level": "Intermediate",
-        "rating": 33,
+        "rating": 35,
         "title": "Data Transactions with Spring",
         "url": "https://www.pluralsight.com/courses/data-transactions-spring"
     },
@@ -24223,7 +24223,7 @@
         "date": "Jan 4 2018",
         "length": 275,
         "level": "Intermediate",
-        "rating": 454,
+        "rating": 455,
         "title": "Docker Deep Dive",
         "url": "https://www.pluralsight.com/courses/docker-deep-dive-update"
     },
@@ -28156,7 +28156,7 @@
         "date": "Dec 18 2018",
         "length": 192,
         "level": "Beginner",
-        "rating": 165,
+        "rating": 166,
         "title": "Ethical Hacking: Enumeration",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-enumeration"
     },
@@ -32521,7 +32521,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1032,
+        "rating": 1033,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -32818,7 +32818,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 55,
+        "rating": 56,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -33430,7 +33430,7 @@
         "date": "Jul 6 2016",
         "length": 207,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Google Analytics for Creative Professionals",
         "url": "https://www.pluralsight.com/courses/google-analytics-creative-professionals"
     },
@@ -34924,7 +34924,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6864,
+        "rating": 6866,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -35005,7 +35005,7 @@
         "date": "Jan 16 2020",
         "length": 90,
         "level": "Beginner",
-        "rating": 575,
+        "rating": 576,
         "title": "HTML, CSS, and JavaScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/html-css-javascript-big-picture"
     },
@@ -41314,7 +41314,7 @@
         "date": "Sep 15 2015",
         "length": 241,
         "level": "Intermediate",
-        "rating": 323,
+        "rating": 324,
         "title": "From Collections to Streams in Java 8 Using Lambda Expressions",
         "url": "https://www.pluralsight.com/courses/java-8-lambda-expressions-collections-streams"
     },
@@ -42610,7 +42610,7 @@
         "date": "Nov 15 2017",
         "length": 187,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 32,
         "title": "JUnit 5 Fundamentals",
         "url": "https://www.pluralsight.com/courses/junit-5-fundamentals"
     },
@@ -45634,7 +45634,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1284,
+        "rating": 1286,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -46822,7 +46822,7 @@
         "date": "Jun 18 2013",
         "length": 125,
         "level": "Intermediate",
-        "rating": 180,
+        "rating": 181,
         "title": "Meet Elixir",
         "url": "https://www.pluralsight.com/courses/meet-elixir"
     },
@@ -49108,7 +49108,7 @@
         "date": "Dec 13 2018",
         "length": 62,
         "level": "Beginner",
-        "rating": 24,
+        "rating": 25,
         "title": "Gathering Non-functional Requirements for Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-non-functional-requirements-gathering"
     },
@@ -63877,7 +63877,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1336,
+        "rating": 1337,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -66451,7 +66451,7 @@
         "date": "Jul 17 2019",
         "length": 228,
         "level": "Beginner",
-        "rating": 114,
+        "rating": 116,
         "title": "RxJS in Angular: Reactive Development",
         "url": "https://www.pluralsight.com/courses/rxjs-angular-reactive-development"
     },
@@ -67963,7 +67963,7 @@
         "date": "Dec 6 2019",
         "length": 51,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Securing Application Secrets in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/securing-application-secrets-in-asp-net-core"
     },
@@ -78169,7 +78169,7 @@
         "date": "Nov 12 2019",
         "length": 49,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "Creating and Using Generics in TypeScript",
         "url": "https://www.pluralsight.com/courses/typescript-generics-creating-using"
     },
@@ -78232,7 +78232,7 @@
         "date": "Nov 22 2019",
         "length": 92,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Using Specialized Types and Language Features in TypeScript",
         "url": "https://www.pluralsight.com/courses/typescript-specialized-types-language-features"
     },
@@ -81625,7 +81625,7 @@
         "date": "Apr 1 2019",
         "length": 58,
         "level": "Beginner",
-        "rating": 110,
+        "rating": 111,
         "title": "What's New in Visual Studio 2019",
         "url": "https://www.pluralsight.com/courses/visual-studio-whats-new"
     },
