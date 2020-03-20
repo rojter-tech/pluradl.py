@@ -29051,6 +29051,15 @@
         "title": "Exploitation: Evading Detection and Bypassing Countermeasures",
         "url": "https://www.pluralsight.com/courses/exploitation-evading-detection-bypassing-countermeasures"
     },
+    "exploiting-host-based-vulnerabilities-comptia-pentest": {
+        "author": "Dale Meredith",
+        "date": "Mar 20 2020",
+        "length": 140,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Exploiting Host-based Vulnerabilities for CompTIA PenTest+",
+        "url": "https://www.pluralsight.com/courses/exploiting-host-based-vulnerabilities-comptia-pentest"
+    },
     "exploratory-data-analysis-python": {
         "author": "Guillermo Fernandez",
         "date": "Jun 27 2019",

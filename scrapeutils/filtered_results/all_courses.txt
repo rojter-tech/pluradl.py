@@ -3226,6 +3226,7 @@ explaining-complex-topics-motion-graphics-after-effects-1562
 exploit-development-execution-metasploit-framework
 exploit-development-security-hackers-developers
 exploitation-evading-detection-bypassing-countermeasures
+exploiting-host-based-vulnerabilities-comptia-pentest
 exploratory-data-analysis-python
 exploring-2d-features-unity-1471
 exploring-android-studio
