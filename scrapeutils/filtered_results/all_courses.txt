@@ -1520,6 +1520,7 @@ camworks-milling-2dot5-3-axis-fundamentals
 capistrano-2
 capturing-essence-caricatures-1575
 capturing-human-form-through-figure-drawing-1101
+capturing-logic-custom-functions-postgresql
 capturing-logic-stored-procedures-mariadb
 capturing-logic-with-stored-procedures-tsql
 capturing-requirements-value
@@ -6314,6 +6315,7 @@ pentesting-red-blue-purple-teams-exec-briefing
 pentesting-setting-scope-engagement
 performance-based-dynamics-maya-1574
 performing-continuous-delivery-aws-codestar
+performing-dimension-analysis-r
 performing-nontechnical-tests-comptia-pentest
 performing-windows-10-post-installation-tasks
 personal-portfolio-site-behance-prosite-1687

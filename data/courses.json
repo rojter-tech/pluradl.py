@@ -13697,6 +13697,15 @@
         "title": "Capturing the Human Form Through Figure Drawing",
         "url": "https://www.pluralsight.com/courses/capturing-human-form-through-figure-drawing-1101"
     },
+    "capturing-logic-custom-functions-postgresql": {
+        "author": "Gerald Britton",
+        "date": "Mar 20 2020",
+        "length": 114,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Capturing Logic with Custom Functions in PostgreSQL",
+        "url": "https://www.pluralsight.com/courses/capturing-logic-custom-functions-postgresql"
+    },
     "capturing-logic-stored-procedures-mariadb": {
         "author": "Pinal Dave",
         "date": "Nov 8 2019",
@@ -56842,6 +56851,15 @@
         "rating": "",
         "title": "Performing Continuous Delivery with AWS CodeStar",
         "url": "https://www.pluralsight.com/courses/performing-continuous-delivery-aws-codestar"
+    },
+    "performing-dimension-analysis-r": {
+        "author": "Janani Ravi",
+        "date": "Mar 20 2020",
+        "length": 131,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Performing Dimension Analysis with R",
+        "url": "https://www.pluralsight.com/courses/performing-dimension-analysis-r"
     },
     "performing-nontechnical-tests-comptia-pentest": {
         "author": "Dale Meredith",
