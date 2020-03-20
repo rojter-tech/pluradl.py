@@ -5537,6 +5537,7 @@ microsoft-dynamics-365-crm-customization-configuration
 microsoft-dynamics-365-crm-getting-started
 microsoft-dynamics-365-customer-service
 microsoft-dynamics-365-field-service
+microsoft-dynamics-365-getting-started
 microsoft-dynamics-365-project-service-automation
 microsoft-dynamics-365-sales
 microsoft-edge-developers
