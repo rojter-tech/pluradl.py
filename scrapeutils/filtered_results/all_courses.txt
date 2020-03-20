@@ -6177,6 +6177,7 @@ operationalizing-cisco-firepower
 operationalizing-cyber-threat-intel-pivoting-hunting
 opsec-penetration-testers
 optical-character-recognition-windows-runtime
+optimize-n1ql-queries
 optimized-game-character-modeling
 optimizing-fields-tags-event-types-splunk
 optimizing-google-cloud-platform-gcp-costs
@@ -6738,6 +6739,7 @@ practical-networking
 practical-phonegap
 practical-reflection-dotnet
 practical-team-management-software-engineers
+practicing-cicd-aws-codepipeline
 pragmatic-bdd-dotnet
 pragmatic-self-service-bi-powerpivot-excel
 pragmatic-unit-testing

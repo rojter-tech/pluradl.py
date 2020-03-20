@@ -55610,6 +55610,15 @@
         "title": "Optical Character Recognition with Windows Runtime",
         "url": "https://www.pluralsight.com/courses/optical-character-recognition-windows-runtime"
     },
+    "optimize-n1ql-queries": {
+        "author": "Kishan Iyer",
+        "date": "Mar 20 2020",
+        "length": 187,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Optimize N1QL Queries",
+        "url": "https://www.pluralsight.com/courses/optimize-n1ql-queries"
+    },
     "optimized-game-character-modeling": {
         "author": "Dan John Cox",
         "date": "May 24 2018",
@@ -60658,6 +60667,15 @@
         "rating": 21,
         "title": "Practical Team Management for Software Engineers",
         "url": "https://www.pluralsight.com/courses/practical-team-management-software-engineers"
+    },
+    "practicing-cicd-aws-codepipeline": {
+        "author": "Ryan Lewis",
+        "date": "Mar 20 2020",
+        "length": 63,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Practicing CI/CD with AWS CodePipeline",
+        "url": "https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline"
     },
     "pragmatic-bdd-dotnet": {
         "author": "Rob Conery",
