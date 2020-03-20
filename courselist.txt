@@ -3145,6 +3145,7 @@ ethical-hacking-web-applications
 ethical-hacking-web-servers
 ethical-hacking-wireless-networks
 evaluating-data-mining-model
+evaluating-need-enterprise-cloud-strategy
 evaluating-organizations-security-posture
 evaluating-vsphere-environment-security
 event-tracing-windows-etw-dotnet
