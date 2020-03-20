@@ -83213,6 +83213,15 @@
         "title": "HTML5 Web Component Fundamentals",
         "url": "https://www.pluralsight.com/courses/web-components-shadow-dom"
     },
+    "web-crawling-and-scraping-using-rcrawler": {
+        "author": "Dan Tofan",
+        "date": "Mar 20 2020",
+        "length": 103,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Web Crawling and Scraping Using Rcrawler",
+        "url": "https://www.pluralsight.com/courses/web-crawling-and-scraping-using-rcrawler"
+    },
     "web-debug": {
         "author": "Shawn Wildermuth",
         "date": "May 31 2012",
