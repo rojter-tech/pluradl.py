@@ -7279,6 +7279,7 @@ reusing-control-rigs-maya-597
 reusing-custom-rigs-char-component-cinema-4d-694
 revel-go-web-app-framework
 reverse-engineering-getting-started
+reverse-engineering-malware-ghidra
 reverse-engineering-security-hackers-developers
 reverse-engineering-zbrush-rhino-2016
 revit-architecture-design-development-fundamentals
