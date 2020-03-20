@@ -1679,6 +1679,7 @@ cisco-core-security-network-security-cisco-ios
 cisco-core-security-secure-network-access-cisco-ise
 cisco-core-security-secure-network-access-visibility-enforcement
 cisco-core-security-security-concepts
+cisco-data-center-core-applying-network-compute-storage-security
 cisco-data-center-core-configuring-compute
 cisco-data-center-core-configuring-network-storage
 cisco-data-center-core-configuring-networking
