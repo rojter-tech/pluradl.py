@@ -6904,6 +6904,7 @@ provable-code
 providing-network-services-actc-10-11
 providing-secure-cloud-applications
 provision-configure-web-applications-sharepoint-2016
+provisioning-managing-networks-common-automation-tools
 ps-live-2018
 ps-live-2018-get-your-geek-on-data-analytics
 ps-live-2018-get-your-geek-on-design
