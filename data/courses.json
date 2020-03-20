@@ -7334,6 +7334,15 @@
         "title": "Automating AWS Operations with the AWS CLI",
         "url": "https://www.pluralsight.com/courses/automating-aws-operations-aws-cli"
     },
+    "automating-jenkins-groovy": {
+        "author": "Chris Behrens",
+        "date": "Mar 20 2020",
+        "length": 121,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Automating Jenkins with Groovy",
+        "url": "https://www.pluralsight.com/courses/automating-jenkins-groovy"
+    },
     "automating-networks-ansible-right-way": {
         "author": "Nick Russo",
         "date": "Mar 27 2019",
