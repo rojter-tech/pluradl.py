@@ -4908,6 +4908,7 @@ live-europe-2020-cloud-story
 live-europe-2020-devops-culture-in-action
 live-europe-2020-fujitsu
 live-europe-2020-fujitsu-story
+live-europe-2020-innovation-in-risk
 live-europe-2020-kickoff
 live-europe-2020-kubernetes
 live-europe-2020-legacy-systems
