@@ -11272,7 +11272,7 @@
         "date": "Aug 19 2015",
         "length": 184,
         "level": "Intermediate",
-        "rating": 231,
+        "rating": 232,
         "title": "Introduction to Browser Security Headers",
         "url": "https://www.pluralsight.com/courses/browser-security-headers"
     },
@@ -13378,7 +13378,7 @@
         "date": "Sep 4 2012",
         "length": 86,
         "level": "Beginner",
-        "rating": 1005,
+        "rating": 1006,
         "title": "C Programming Language Fundamentals",
         "url": "https://www.pluralsight.com/courses/c-lang-fundamentals"
     },
@@ -27841,7 +27841,7 @@
         "date": "Mar 11 2020",
         "length": 156,
         "level": "Beginner",
-        "rating": 1414,
+        "rating": 1416,
         "title": "Getting Started with Entity Framework 6",
         "url": "https://www.pluralsight.com/courses/entity-framework-6-getting-started"
     },
@@ -32557,7 +32557,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1033,
+        "rating": 1034,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -32854,7 +32854,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 56,
+        "rating": 58,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -33025,7 +33025,7 @@
         "date": "Aug 28 2019",
         "length": 181,
         "level": "Beginner",
-        "rating": 63,
+        "rating": 64,
         "title": "TypeScript: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-typescript"
     },
@@ -34078,7 +34078,7 @@
         "date": "Aug 8 2019",
         "length": 77,
         "level": "Beginner",
-        "rating": 103,
+        "rating": 104,
         "title": "GraphQL: The Big Picture",
         "url": "https://www.pluralsight.com/courses/graphql-big-picture"
     },
@@ -35257,7 +35257,7 @@
         "date": "Jan 11 2019",
         "length": 200,
         "level": "Intermediate",
-        "rating": 112,
+        "rating": 113,
         "title": "Using HttpClient to Consume APIs in .NET Core",
         "url": "https://www.pluralsight.com/courses/httpclient-consume-apis-dotnet-core"
     },
@@ -38110,7 +38110,7 @@
         "date": "Dec 20 2017",
         "length": 113,
         "level": "Beginner",
-        "rating": 79,
+        "rating": 80,
         "title": "Introduction to Data Warehousing and Business Intelligence",
         "url": "https://www.pluralsight.com/courses/intro-dwbi-course-2017"
     },
@@ -38542,7 +38542,7 @@
         "date": "Aug 13 2019",
         "length": 47,
         "level": "Beginner",
-        "rating": 19,
+        "rating": 20,
         "title": "Introducing Scrum",
         "url": "https://www.pluralsight.com/courses/introducing-scrum"
     },
@@ -41359,7 +41359,7 @@
         "date": "Sep 15 2015",
         "length": 241,
         "level": "Intermediate",
-        "rating": 324,
+        "rating": 325,
         "title": "From Collections to Streams in Java 8 Using Lambda Expressions",
         "url": "https://www.pluralsight.com/courses/java-8-lambda-expressions-collections-streams"
     },
@@ -54994,7 +54994,7 @@
         "date": "Sep 19 2019",
         "length": 192,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Effective Oauth2 with Spring Security and Spring Boot",
         "url": "https://www.pluralsight.com/courses/oauth2-spring-security-spring-boot"
     },
@@ -66640,7 +66640,7 @@
         "date": "Jul 17 2019",
         "length": 228,
         "level": "Beginner",
-        "rating": 116,
+        "rating": 117,
         "title": "RxJS in Angular: Reactive Development",
         "url": "https://www.pluralsight.com/courses/rxjs-angular-reactive-development"
     },
@@ -68179,7 +68179,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 26,
+        "rating": 27,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -73471,7 +73471,7 @@
         "date": "Nov 16 2012",
         "length": 465,
         "level": "Intermediate",
-        "rating": 295,
+        "rating": 296,
         "title": "SQL Server: Logging, Recovery, and the Transaction Log",
         "url": "https://www.pluralsight.com/courses/sqlserver-logging"
     },
