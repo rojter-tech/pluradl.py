@@ -4906,6 +4906,7 @@ live-action-composite-from-various-elements-nuke-2155
 live-action-matte-painting-compositing-nuke-2265
 live-europe-2020-cloud-story
 live-europe-2020-devops-culture-in-action
+live-europe-2020-fujitsu
 live-europe-2020-fujitsu-story
 live-europe-2020-kickoff
 live-europe-2020-kubernetes
