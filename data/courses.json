@@ -44207,6 +44207,15 @@
         "title": "Why Kubernetes",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-kubernetes"
     },
+    "live-europe-2020-legacy-systems": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 14,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Modernization of Legacy Systems for Digital Transformation with Eveque Mutabaruka",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-legacy-systems"
+    },
     "live-europe-2020-multi-cloud-security": {
         "author": "Pluralsight LIVE",
         "date": "Mar 21 2020",
@@ -44234,6 +44243,15 @@
         "title": "A Nomura Story: Investing in Emerging Tech Skills to Deliver Innovation",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-nomura"
     },
+    "live-europe-2020-rabobank": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 31,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Fireside Chat: Sander Ettema, Rabobank",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-rabobank"
+    },
     "live-europe-2020-ryan-chasteauneuf": {
         "author": "Pluralsight LIVE",
         "date": "Mar 18 2020",
@@ -44242,6 +44260,15 @@
         "rating": "",
         "title": "From Soldier to IT Specialist: Ryan Chasteauneuf's Story",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-ryan-chasteauneuf"
+    },
+    "live-europe-2020-sage": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 23,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Fireside Chat: Linz Phillips, Sage",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-sage"
     },
     "live-europe-2020-tech-talent": {
         "author": "Pluralsight LIVE",

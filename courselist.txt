@@ -4910,10 +4910,13 @@ live-europe-2020-fujitsu
 live-europe-2020-fujitsu-story
 live-europe-2020-kickoff
 live-europe-2020-kubernetes
+live-europe-2020-legacy-systems
 live-europe-2020-multi-cloud-security
 live-europe-2020-multi-cloud-strategy
 live-europe-2020-nomura
+live-europe-2020-rabobank
 live-europe-2020-ryan-chasteauneuf
+live-europe-2020-sage
 live-europe-2020-tech-talent
 live-europe-2020-working-remotely
 load-testing-visual-studio-2012
