@@ -44162,6 +44162,15 @@
         "title": "Deliver on Your Cloud Strategy",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-cloud-story"
     },
+    "live-europe-2020-devops-culture-in-action": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 26,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "DevOps Culture in Action: A Case Study of DevOps Standardization with Daniel Krzyczkowski",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-devops-culture-in-action"
+    },
     "live-europe-2020-fujitsu-story": {
         "author": "Pluralsight LIVE",
         "date": "Mar 18 2020",
@@ -44180,6 +44189,33 @@
         "title": "Pluralsight LIVE Europe Kickoff Video",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-kickoff"
     },
+    "live-europe-2020-kubernetes": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 44,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Why Kubernetes",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-kubernetes"
+    },
+    "live-europe-2020-multi-cloud-security": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 44,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Addressing Security in a Multi-Cloud World [Recorded 2/20/20]",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-multi-cloud-security"
+    },
+    "live-europe-2020-multi-cloud-strategy": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 44,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building a Successful, Multi-Cloud Strategy",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-multi-cloud-strategy"
+    },
     "live-europe-2020-nomura": {
         "author": "Pluralsight LIVE",
         "date": "Mar 18 2020",
@@ -44197,6 +44233,24 @@
         "rating": "",
         "title": "From Soldier to IT Specialist: Ryan Chasteauneuf's Story",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-ryan-chasteauneuf"
+    },
+    "live-europe-2020-tech-talent": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 70,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Growing Your Tech Talent: How to Align Your Team and Foster Growth [Recorded 2/27/20]",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-tech-talent"
+    },
+    "live-europe-2020-working-remotely": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 21 2020",
+        "length": 33,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Working Remotely: From Isolation to Inclusion to Innovation with Craig Golightly",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-working-remotely"
     },
     "load-testing-visual-studio-2012": {
         "author": "Benjamin Day",

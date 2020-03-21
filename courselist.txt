@@ -4905,10 +4905,16 @@ liquid-markup-adobe-business-catalyst
 live-action-composite-from-various-elements-nuke-2155
 live-action-matte-painting-compositing-nuke-2265
 live-europe-2020-cloud-story
+live-europe-2020-devops-culture-in-action
 live-europe-2020-fujitsu-story
 live-europe-2020-kickoff
+live-europe-2020-kubernetes
+live-europe-2020-multi-cloud-security
+live-europe-2020-multi-cloud-strategy
 live-europe-2020-nomura
 live-europe-2020-ryan-chasteauneuf
+live-europe-2020-tech-talent
+live-europe-2020-working-remotely
 load-testing-visual-studio-2012
 load-testing-visual-studio-2013
 loading-data-excel
