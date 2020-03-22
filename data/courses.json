@@ -44171,6 +44171,24 @@
         "title": "DevOps Culture in Action: A Case Study of DevOps Standardization with Daniel Krzyczkowski",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-devops-culture-in-action"
     },
+    "live-europe-2020-digital-literacy": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 22 2020",
+        "length": 3,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Deep Dive: Digital Literacy",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-digital-literacy"
+    },
+    "live-europe-2020-flow-demo": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 22 2020",
+        "length": 3,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Deep Dive: Flow Proficiency Report and Mob/Pair programming",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-flow-demo"
+    },
     "live-europe-2020-fujitsu": {
         "author": "Pluralsight LIVE",
         "date": "Mar 21 2020",
@@ -44252,6 +44270,15 @@
         "title": "A Nomura Story: Investing in Emerging Tech Skills to Deliver Innovation",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-nomura"
     },
+    "live-europe-2020-opening-message": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 22 2020",
+        "length": 14,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Opening Message and Announcements from Pluralsight CEO Aaron Skonnard",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-opening-message"
+    },
     "live-europe-2020-rabobank": {
         "author": "Pluralsight LIVE",
         "date": "Mar 21 2020",
@@ -44278,6 +44305,33 @@
         "rating": "",
         "title": "Fireside Chat: Linz Phillips, Sage",
         "url": "https://www.pluralsight.com/courses/live-europe-2020-sage"
+    },
+    "live-europe-2020-skills-demo": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 22 2020",
+        "length": 5,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Deep Dive: Conferences, Guides and Visual Studio Code Extension",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-skills-demo"
+    },
+    "live-europe-2020-sue-perkins": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 22 2020",
+        "length": 32,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Tech Insights and Comedy with Sue Perkins",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-sue-perkins"
+    },
+    "live-europe-2020-tech-consequences": {
+        "author": "Pluralsight LIVE",
+        "date": "Mar 22 2020",
+        "length": 19,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Technology Trends and Consequences",
+        "url": "https://www.pluralsight.com/courses/live-europe-2020-tech-consequences"
     },
     "live-europe-2020-tech-talent": {
         "author": "Pluralsight LIVE",
