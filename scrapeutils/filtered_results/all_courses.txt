@@ -4899,6 +4899,7 @@ linux-server-skills-windows-administrators
 linux-server-virtualization-lpic3-304-1
 linux-service-management-advanced-email-services
 linux-system-administration-fundamentals
+linux-system-maintenance-troubleshooting
 linux-system-optimization
 linux-system-security-lpic-2
 linux-systems-programming

@@ -44108,6 +44108,15 @@
         "title": "Linux System Administration Fundamentals",
         "url": "https://www.pluralsight.com/courses/linux-system-administration-fundamentals"
     },
+    "linux-system-maintenance-troubleshooting": {
+        "author": "David Clinton",
+        "date": "Mar 23 2020",
+        "length": 71,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Linux System Maintenance and Troubleshooting",
+        "url": "https://www.pluralsight.com/courses/linux-system-maintenance-troubleshooting"
+    },
     "linux-system-optimization": {
         "author": "David Clinton",
         "date": "Dec 27 2019",
