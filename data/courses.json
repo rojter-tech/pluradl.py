@@ -9028,11 +9028,11 @@
     },
     "azure-stack-operating": {
         "author": "Ned Bellavance",
-        "date": "Jun 25 2019",
+        "date": "Mar 23 2020",
         "length": 90,
         "level": "Beginner",
         "rating": "",
-        "title": "Operating Azure Stack",
+        "title": "Operating Azure Stack Hub",
         "url": "https://www.pluralsight.com/courses/azure-stack-operating"
     },
     "azure-storage-understanding-using": {
