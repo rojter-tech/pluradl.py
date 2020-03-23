@@ -1356,6 +1356,7 @@ building-features-text-data
 building-first-app-with-spring-boot-angularjs
 building-first-aspdotnet-core-2-mvc-application
 building-first-python-analytics-solution
+building-first-r-analytics-solution
 building-first-scikit-learn-solution
 building-first-vba-module
 building-flare-tool-nuke-2067

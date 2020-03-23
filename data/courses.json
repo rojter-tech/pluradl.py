@@ -12221,6 +12221,15 @@
         "title": "Building Your First Python Analytics Solution",
         "url": "https://www.pluralsight.com/courses/building-first-python-analytics-solution"
     },
+    "building-first-r-analytics-solution": {
+        "author": "Charlotte Wickham",
+        "date": "Mar 20 2020",
+        "length": 126,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Building Your First R Analytics Solution",
+        "url": "https://www.pluralsight.com/courses/building-first-r-analytics-solution"
+    },
     "building-first-scikit-learn-solution": {
         "author": "Janani Ravi",
         "date": "May 2 2019",
