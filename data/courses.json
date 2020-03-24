@@ -6682,7 +6682,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 292,
+        "rating": 294,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -20560,7 +20560,7 @@
         "date": "Sep 5 2019",
         "length": 148,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "ADO.NET Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/csharp-ado-dotnet-fundamentals"
     },
@@ -24259,7 +24259,7 @@
         "date": "Jan 4 2018",
         "length": 275,
         "level": "Intermediate",
-        "rating": 455,
+        "rating": 456,
         "title": "Docker Deep Dive",
         "url": "https://www.pluralsight.com/courses/docker-deep-dive-update"
     },
@@ -32566,7 +32566,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1035,
+        "rating": 1036,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -32863,7 +32863,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 62,
+        "rating": 63,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -40396,7 +40396,7 @@
         "date": "Dec 20 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 3068,
+        "rating": 3069,
         "title": "Introduction to SQL",
         "url": "https://www.pluralsight.com/courses/introduction-to-sql"
     },
@@ -42097,7 +42097,7 @@
         "date": "Oct 30 2019",
         "length": 108,
         "level": "Advanced",
-        "rating": 17,
+        "rating": 18,
         "title": "JavaScript Objects, Prototypes, and Classes",
         "url": "https://www.pluralsight.com/courses/javascript-objects-prototypes-classes"
     },
@@ -43024,7 +43024,7 @@
         "date": "Jan 11 2019",
         "length": 157,
         "level": "Intermediate",
-        "rating": 162,
+        "rating": 163,
         "title": "Kubernetes Installation and Configuration Fundamentals",
         "url": "https://www.pluralsight.com/courses/kubernetes-installation-configuration-fundamentals"
     },
@@ -47632,7 +47632,7 @@
         "date": "Jun 6 2019",
         "length": 86,
         "level": "Beginner",
-        "rating": 15,
+        "rating": 16,
         "title": "Microsoft 365 Services and Concepts",
         "url": "https://www.pluralsight.com/courses/microsoft-365-services-concepts"
     },
@@ -57109,7 +57109,7 @@
         "date": "Sep 11 2017",
         "length": 94,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Program Management: Engaging Your Stakeholders",
         "url": "https://www.pluralsight.com/courses/pgmp-engaging-stakeholders"
     },
@@ -59611,7 +59611,7 @@
         "date": "Oct 24 2018",
         "length": 92,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Java Fundamentals: The Regular Expressions Playbook",
         "url": "https://www.pluralsight.com/courses/playbook-regular-expressions-java-fundamentals"
     },
@@ -64147,7 +64147,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1337,
+        "rating": 1338,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -67450,7 +67450,7 @@
         "date": "Jun 6 2019",
         "length": 67,
         "level": "Advanced",
-        "rating": 20,
+        "rating": 21,
         "title": "Scraping Dynamic Web Pages with Python and Selenium",
         "url": "https://www.pluralsight.com/courses/scraping-dynamic-web-pages-python-selenium"
     },
@@ -81796,7 +81796,7 @@
         "date": "Apr 2 2019",
         "length": 130,
         "level": "Beginner",
-        "rating": 36,
+        "rating": 37,
         "title": "Visual Studio 2019 Getting Started",
         "url": "https://www.pluralsight.com/courses/visual-studio-2019-getting-started"
     },
@@ -87322,7 +87322,7 @@
         "date": "May 23 2018",
         "length": 254,
         "level": "Advanced",
-        "rating": 81,
+        "rating": 82,
         "title": "Writing Purely Functional Code in C#",
         "url": "https://www.pluralsight.com/courses/writing-purely-functional-code-csharp"
     },
