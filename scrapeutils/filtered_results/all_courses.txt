@@ -3627,6 +3627,7 @@ getting-started-memory-forensics-volatility
 getting-started-microservices
 getting-started-microsoft-flow-usage-administration
 getting-started-microsoft-operations-management-suite
+getting-started-microsoft-teams-office-365-groups-administration
 getting-started-mocha-after-effects-234
 getting-started-modeling-fusion-360-2271
 getting-started-modeling-rhino-1421
