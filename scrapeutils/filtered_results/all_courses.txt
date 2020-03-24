@@ -3220,6 +3220,7 @@ exchange-server-2016-first-look
 exchange-server-2016-recipient-administration
 exchange-server-managing-messaging-infrastructure
 executable-specifications-specflow
+execute-analytics-queries-couchbase
 executing-an-context-assembly-design-solidworks-1674
 executing-program-increment
 executing-team-iteration
