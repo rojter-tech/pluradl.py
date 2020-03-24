@@ -19673,6 +19673,15 @@
         "title": "Create a Couchbase Function",
         "url": "https://www.pluralsight.com/courses/create-couchbase-function"
     },
+    "create-couchbase-views": {
+        "author": "Kishan Iyer",
+        "date": "Mar 24 2020",
+        "length": 155,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Create Couchbase Views",
+        "url": "https://www.pluralsight.com/courses/create-couchbase-views"
+    },
     "create-hair-fibermesh-zbrush-707": {
         "author": "Joseph Drust",
         "date": "May 1 2012",
