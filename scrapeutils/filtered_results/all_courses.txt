@@ -4582,6 +4582,7 @@ isomorphic-react
 isr-initial-setup-configuration-cisco-ucm-express
 istio-managing-apps-kubernetes
 it-business-strategies-aligning
+it-goverance-foundations
 it-innovation-what-and-how
 it-outsourcing-preparing-initiative
 it-outsourcing-risks
