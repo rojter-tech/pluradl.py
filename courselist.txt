@@ -199,6 +199,7 @@ advanced-troubleshooting-windows-server
 advanced-unit-testing
 advanced-v-ray-techniques-film-tv-2399
 advanced-web-application-penetration-testing-burp-suite
+advanced-web-scraping-tactics-python-playbook
 advanced-web-scraping-tactics-r-playbook
 advancing-skills-pfdepth-2302
 aem-advanced-methods-enhancing-website-2551
