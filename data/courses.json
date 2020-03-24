@@ -58130,6 +58130,15 @@
         "title": "Planning and Managing Device and Application Compliance in Microsoft 365",
         "url": "https://www.pluralsight.com/courses/planning-managing-device-application-compliance-microsoft-365"
     },
+    "planning-microsoft-365-windows-10-deployment": {
+        "author": "Brian Alderman",
+        "date": "Mar 24 2020",
+        "length": 48,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Planning for Microsoft 365 Windows 10 Deployment",
+        "url": "https://www.pluralsight.com/courses/planning-microsoft-365-windows-10-deployment"
+    },
     "planning-office-365-workload-application-deployment": {
         "author": "Brian Alderman",
         "date": "Dec 23 2019",
