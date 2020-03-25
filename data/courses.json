@@ -38852,6 +38852,15 @@
         "title": "Introduction to Azure App Services",
         "url": "https://www.pluralsight.com/courses/introduction-azure-app-services"
     },
+    "introduction-azure-data-migration-service": {
+        "author": "Robert Cain",
+        "date": "Mar 25 2020",
+        "length": 45,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Introduction to the Azure Data Migration Service",
+        "url": "https://www.pluralsight.com/courses/introduction-azure-data-migration-service"
+    },
     "introduction-bash-shell-linux-mac-os": {
         "author": "Reindert-Jan Ekker",
         "date": "Jul 2 2013",
