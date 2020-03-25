@@ -13459,7 +13459,7 @@
         "date": "Sep 24 2019",
         "length": 26,
         "level": "Beginner",
-        "rating": 38,
+        "rating": 39,
         "title": "C# Design Patterns: Command",
         "url": "https://www.pluralsight.com/courses/c-sharp-command-pattern"
     },
@@ -20830,7 +20830,7 @@
         "date": "Apr 2 2019",
         "length": 128,
         "level": "Beginner",
-        "rating": 163,
+        "rating": 164,
         "title": "SOLID Principles for C# Developers",
         "url": "https://www.pluralsight.com/courses/csharp-solid-principles"
     },
@@ -45445,7 +45445,7 @@
         "date": "Feb 2 2019",
         "length": 83,
         "level": "Beginner",
-        "rating": 41,
+        "rating": 42,
         "title": "Managing Python Packages and Virtual Environments",
         "url": "https://www.pluralsight.com/courses/managing-python-packages-virtual-environments"
     },
