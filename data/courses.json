@@ -38834,6 +38834,15 @@
         "title": "Introduction to AutoCAD Civil 3D",
         "url": "https://www.pluralsight.com/courses/introduction-autocad-civil-3d-2143"
     },
+    "introduction-automating-cisco-enterprise-solutions-enauto-300-435-exam": {
+        "author": "Nick Russo",
+        "date": "Mar 25 2020",
+        "length": 15,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Introduction to the Automating Cisco Enterprise Solutions (ENAUTO 300-435) Exam",
+        "url": "https://www.pluralsight.com/courses/introduction-automating-cisco-enterprise-solutions-enauto-300-435-exam"
+    },
     "introduction-axure-1965": {
         "author": "Antonia Anni",
         "date": "Jan 27 2015",
@@ -66914,6 +66923,15 @@
         "title": "Salesforce Administration: The Big Picture",
         "url": "https://www.pluralsight.com/courses/salesforce-administration-big-picture"
     },
+    "salesforce-appexchange-admin-needs": {
+        "author": "Otto Warner",
+        "date": "Mar 25 2020",
+        "length": 40,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Salesforce AppExchange: What Every Admin Needs to Know",
+        "url": "https://www.pluralsight.com/courses/salesforce-appexchange-admin-needs"
+    },
     "salesforce-automation-flow-builder": {
         "author": "Jeff Susich",
         "date": "May 3 2019",
@@ -68407,6 +68425,15 @@
         "rating": "",
         "title": "Securing AWS Infrastructure",
         "url": "https://www.pluralsight.com/courses/securing-aws-infrastructure"
+    },
+    "securing-aws-networks": {
+        "author": "Saravanan Dhandapani",
+        "date": "Mar 25 2020",
+        "length": 124,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Securing AWS Networks",
+        "url": "https://www.pluralsight.com/courses/securing-aws-networks"
     },
     "securing-data-aws": {
         "author": "Mark Wilkins",

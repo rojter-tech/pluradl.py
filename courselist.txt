@@ -4313,6 +4313,7 @@ introduction-animation-modo-1376
 introduction-animation-softimage-1188
 introduction-autocad-1703
 introduction-autocad-civil-3d-2143
+introduction-automating-cisco-enterprise-solutions-enauto-300-435-exam
 introduction-axure-1965
 introduction-azure-app-services
 introduction-azure-data-migration-service
@@ -7433,6 +7434,7 @@ safer-digital-communications-cyber-security
 salesforce-accidental-admin-reports-dashboards-classic-lightning
 salesforce-admin-essential-testing-techniques
 salesforce-administration-big-picture
+salesforce-appexchange-admin-needs
 salesforce-automation-flow-builder
 salesforce-building-first-lightning-web-component
 salesforce-developers-career-strategies-opportunities
@@ -7599,6 +7601,7 @@ securing-aspdotnet-core2-oauth2-openid-connect
 securing-aspnet-core-3-oauth2-openid-connect
 securing-aws-cis-foundations
 securing-aws-infrastructure
+securing-aws-networks
 securing-data-aws
 securing-docker-container-workloads
 securing-docker-platform
