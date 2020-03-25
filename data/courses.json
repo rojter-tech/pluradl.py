@@ -19781,6 +19781,15 @@
         "title": "Creating Apps With AngularJS, Node, and Token Authentication",
         "url": "https://www.pluralsight.com/courses/creating-apps-angular-node-token-authentication"
     },
+    "creating-automated-browser-tests-selenium-c-sharp": {
+        "author": "Jason Roberts",
+        "date": "Mar 25 2020",
+        "length": 244,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Creating Automated Browser Tests with Selenium in C#",
+        "url": "https://www.pluralsight.com/courses/creating-automated-browser-tests-selenium-c-sharp"
+    },
     "creating-blazor-components": {
         "author": "Roland Guijt",
         "date": "Dec 23 2019",
