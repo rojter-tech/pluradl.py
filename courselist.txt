@@ -814,6 +814,7 @@ automated-tests-phpunit
 automated-web-testing-selenium-webdriver-java
 automatic-dotnet-code-weaving-fody
 automating-aws-operations-aws-cli
+automating-cisco-meraki-operations-using-apis
 automating-jenkins-groovy
 automating-networks-ansible-right-way
 automating-networks-python

@@ -7343,6 +7343,15 @@
         "title": "Automating AWS Operations with the AWS CLI",
         "url": "https://www.pluralsight.com/courses/automating-aws-operations-aws-cli"
     },
+    "automating-cisco-meraki-operations-using-apis": {
+        "author": "Nick Russo",
+        "date": "Mar 25 2020",
+        "length": 88,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Automating Cisco Meraki Operations Using APIs",
+        "url": "https://www.pluralsight.com/courses/automating-cisco-meraki-operations-using-apis"
+    },
     "automating-jenkins-groovy": {
         "author": "Chris Behrens",
         "date": "Mar 20 2020",
