@@ -21455,6 +21455,15 @@
         "title": "Data Mining and the Analytics Workflow",
         "url": "https://www.pluralsight.com/courses/data-mining-analytics-workflow"
     },
+    "data-modeling-partitioning-patterns-azure-cosmos-db": {
+        "author": "Leonard Lobel",
+        "date": "Mar 25 2020",
+        "length": 107,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Data Modeling and Partitioning Patterns in Azure Cosmos DB",
+        "url": "https://www.pluralsight.com/courses/data-modeling-partitioning-patterns-azure-cosmos-db"
+    },
     "data-protector-10-backing-up-data": {
         "author": "Ed Hjorth",
         "date": "Sep 27 2017",

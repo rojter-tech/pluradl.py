@@ -2382,6 +2382,7 @@ data-binding-xamarin-forms
 data-center-network-design-ccda-desgn-200-310
 data-mining-algorithms-ssas-excel-r
 data-mining-analytics-workflow
+data-modeling-partitioning-patterns-azure-cosmos-db
 data-protector-10-backing-up-data
 data-science-big-picture
 data-science-business-requirements-analyzing
