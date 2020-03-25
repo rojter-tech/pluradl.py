@@ -4346,6 +4346,7 @@ introduction-cryengine-787
 introduction-css-1753
 introduction-developing-custom-components-aria
 introduction-drafting-annotation-autocad-2016-2220
+introduction-dynamic-routing
 introduction-emc-vplex
 introduction-final-cut-pro-x-2010
 introduction-flash-8-527
@@ -5956,6 +5957,7 @@ network-fundamentals-protocols
 network-icnd1-skills-cisco-ccna-200-125-100-105
 network-interface-ethernet-cisco-ccna-200-125-100-105
 network-layer-addressing-cisco-ccna-200-125-100-105
+network-layer-addressing-subnetting
 network-management-operations
 network-penetration-testing-python-kali-linux
 network-reconnaissance-performing-analyzing

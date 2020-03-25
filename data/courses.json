@@ -39131,6 +39131,15 @@
         "title": "Introduction to Drafting and Annotation in AutoCAD",
         "url": "https://www.pluralsight.com/courses/introduction-drafting-annotation-autocad-2016-2220"
     },
+    "introduction-dynamic-routing": {
+        "author": "Ross Bagurdes",
+        "date": "Mar 25 2020",
+        "length": 200,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Introduction to Dynamic Routing",
+        "url": "https://www.pluralsight.com/courses/introduction-dynamic-routing"
+    },
     "introduction-emc-vplex": {
         "author": "Joe Kelly",
         "date": "Feb 13 2015",
@@ -53620,6 +53629,15 @@
         "rating": 138,
         "title": "Network Layer Addressing and Operation for Cisco CCNA 200-125/100-105",
         "url": "https://www.pluralsight.com/courses/network-layer-addressing-cisco-ccna-200-125-100-105"
+    },
+    "network-layer-addressing-subnetting": {
+        "author": "Ross Bagurdes",
+        "date": "Mar 25 2020",
+        "length": 229,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Network Layer Addressing and Subnetting",
+        "url": "https://www.pluralsight.com/courses/network-layer-addressing-subnetting"
     },
     "network-management-operations": {
         "author": "Ross Bagurdes",
