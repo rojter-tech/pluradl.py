@@ -77795,6 +77795,15 @@
         "title": "Overview of the TOGAF® 9.1 Enterprise Architecture Framework",
         "url": "https://www.pluralsight.com/courses/togaf-9-1-enterprise-architecture-framework-overview"
     },
+    "tomcat-java-development": {
+        "author": "Richard Monson-Haefel",
+        "date": "Mar 26 2020",
+        "length": 101,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Tomcat for Java Development",
+        "url": "https://www.pluralsight.com/courses/tomcat-java-development"
+    },
     "toon-boom-harmony-effects-reference-library-1233": {
         "author": "Kurt Jones",
         "date": "Sep 11 2015",
