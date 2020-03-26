@@ -55808,6 +55808,15 @@
         "title": "Inspecting Open Source Software Packages for Security and License Compliance",
         "url": "https://www.pluralsight.com/courses/open-source-software-package-security-license-compliance"
     },
+    "open-source-your-github-project": {
+        "author": "Piotr Gaczkowski",
+        "date": "Mar 26 2020",
+        "length": 125,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Open Source Your GitHub Project",
+        "url": "https://www.pluralsight.com/courses/open-source-your-github-project"
+    },
     "openid-and-oauth2-securing-angular-apps": {
         "author": "Brian Noyes",
         "date": "Oct 29 2019",
