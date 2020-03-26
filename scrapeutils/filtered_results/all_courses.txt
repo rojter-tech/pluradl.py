@@ -713,6 +713,7 @@ aspdotnet-bestpractices-models
 aspdotnet-core-2-razor-playbook
 aspdotnet-core-2-upgrading-web-api
 aspdotnet-core-api-openapi-swagger
+aspdotnet-core-bestpractices-models
 aspdotnet-core-dependency-injection
 aspdotnet-core-identity-deep-dive
 aspdotnet-core-migrating-legacy-http-modules

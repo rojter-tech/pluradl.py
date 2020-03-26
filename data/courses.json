@@ -6434,6 +6434,15 @@
         "title": "Documenting an ASP.NET Core API with OpenAPI / Swagger",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-api-openapi-swagger"
     },
+    "aspdotnet-core-bestpractices-models": {
+        "author": "Shawn Wildermuth",
+        "date": "Mar 26 2020",
+        "length": 150,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Best Practices in ASP.NET Core: Entities, Validation, and View Models",
+        "url": "https://www.pluralsight.com/courses/aspdotnet-core-bestpractices-models"
+    },
     "aspdotnet-core-dependency-injection": {
         "author": "Steve Gordon",
         "date": "Mar 6 2019",
