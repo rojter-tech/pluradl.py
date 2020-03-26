@@ -1293,6 +1293,7 @@ build-contribute-documentation-git-based-workflow
 build-customized-sharepoint-team-site-no-code
 build-dynamic-web-sites-mysql-php
 build-excel-addins-office-js-apis
+build-first-data-visualization-google-charts
 build-go-apps-gorilla-toolkit
 build-ios-apps-react-native
 build-isomorphic-app-react-flux-webpack-firebase

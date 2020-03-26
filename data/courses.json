@@ -11654,6 +11654,15 @@
         "title": "Build Excel Add-ins with Office JS APIs",
         "url": "https://www.pluralsight.com/courses/build-excel-addins-office-js-apis"
     },
+    "build-first-data-visualization-google-charts": {
+        "author": "Pinal Dave",
+        "date": "Mar 26 2020",
+        "length": 48,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Build Your First Data Visualization with Google Charts",
+        "url": "https://www.pluralsight.com/courses/build-first-data-visualization-google-charts"
+    },
     "build-go-apps-gorilla-toolkit": {
         "author": "Mike Van Sickle",
         "date": "Aug 28 2015",
