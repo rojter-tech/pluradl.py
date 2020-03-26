@@ -72665,6 +72665,15 @@
         "title": "Splunk Enterprise Administration: Working with Configuration Files and Indexes",
         "url": "https://www.pluralsight.com/courses/splunk-enterprise-admin-configuration-files-indexes"
     },
+    "splunk-enterprise-admin-users-authentication": {
+        "author": "Karun Subramanian",
+        "date": "Mar 26 2020",
+        "length": 85,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Splunk Enterprise Administration: Managing Users and Authentication",
+        "url": "https://www.pluralsight.com/courses/splunk-enterprise-admin-users-authentication"
+    },
     "splunk-performing-basic-searches": {
         "author": "Thomas Henson",
         "date": "Aug 9 2019",
