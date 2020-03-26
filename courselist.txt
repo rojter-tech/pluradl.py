@@ -2061,6 +2061,7 @@ configuration-client-connectivity-cisco-wifund-200-355
 configuration-deployment-cloud-cv0-002
 configuring-aad-microsoft-azure-workloads
 configuring-accounts-apple-certified-technical-coordinator-10-11
+configuring-cisco-router
 configuring-cisco-telepresence-conferences
 configuring-cisco-unity-connection-call-handlers-video-greetings-unified-messaging
 configuring-cisco-video-collaboration-endpoints
