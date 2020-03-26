@@ -33263,6 +33263,15 @@
         "title": "Go: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-with-go"
     },
+    "getting-started-with-netapp-ontap": {
+        "author": "Peter Van der Weerd",
+        "date": "Mar 26 2020",
+        "length": 123,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Getting Started with NetApp ONTAP",
+        "url": "https://www.pluralsight.com/courses/getting-started-with-netapp-ontap"
+    },
     "getting-started-zbrush-169": {
         "author": "Justin Marshall",
         "date": "Aug 4 2009",
@@ -48160,7 +48169,7 @@
     },
     "microsoft-azure-cache-implementing": {
         "author": "Barry Luijbregts",
-        "date": "Sep 4 2018",
+        "date": "Mar 26 2020",
         "length": 62,
         "level": "Intermediate",
         "rating": 56,
@@ -87453,7 +87462,7 @@
         "url": "https://www.pluralsight.com/courses/writing-better-technical-reports"
     },
     "writing-burp-suite-macros-plugins": {
-        "author": "Sunny Wear",
+        "author": "Dr. Sunny Wear",
         "date": "Nov 20 2017",
         "length": 168,
         "level": "Advanced",
