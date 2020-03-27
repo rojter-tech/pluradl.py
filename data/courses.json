@@ -6394,7 +6394,7 @@
         "date": "Sep 5 2019",
         "length": 94,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "ASP.NET Authentication: The Big Picture",
         "url": "https://www.pluralsight.com/courses/aspdotnet-authentication-big-picture"
     },
@@ -6790,7 +6790,7 @@
         "date": "Oct 7 2019",
         "length": 593,
         "level": "Beginner",
-        "rating": 512,
+        "rating": 513,
         "title": "Building a Web App with ASP.NET Core, MVC, Entity Framework Core, Bootstrap, and Angular",
         "url": "https://www.pluralsight.com/courses/aspnetcore-mvc-efcore-bootstrap-angular-web"
     },
@@ -10786,7 +10786,7 @@
         "date": "May 25 2017",
         "length": 78,
         "level": "Beginner",
-        "rating": 98,
+        "rating": 99,
         "title": "Knowing Yourself and Others Through the Big Five Personality Traits",
         "url": "https://www.pluralsight.com/courses/big-five-personality-traits"
     },
@@ -13432,7 +13432,7 @@
         "date": "Sep 4 2012",
         "length": 86,
         "level": "Beginner",
-        "rating": 1006,
+        "rating": 1007,
         "title": "C Programming Language Fundamentals",
         "url": "https://www.pluralsight.com/courses/c-lang-fundamentals"
     },
@@ -13450,7 +13450,7 @@
         "date": "Mar 10 2014",
         "length": 253,
         "level": "Intermediate",
-        "rating": 305,
+        "rating": 306,
         "title": "The C Programming Language in Action",
         "url": "https://www.pluralsight.com/courses/c-programming-language-in-action"
     },
@@ -20875,7 +20875,7 @@
         "date": "Jan 29 2020",
         "length": 146,
         "level": "Beginner",
-        "rating": 19,
+        "rating": 20,
         "title": "Test Driven Development in C#",
         "url": "https://www.pluralsight.com/courses/csharp-test-driven-development"
     },
@@ -27787,7 +27787,7 @@
         "date": "Jul 16 2019",
         "length": 178,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Introduction to Developing AWS Lambdas in Java",
         "url": "https://www.pluralsight.com/courses/enterprise-aws-lambdas-java-eclipse-ide"
     },
@@ -32314,7 +32314,7 @@
         "date": "Jan 13 2020",
         "length": 285,
         "level": "Beginner",
-        "rating": 20,
+        "rating": 21,
         "title": "Getting Started with Ansible",
         "url": "https://www.pluralsight.com/courses/getting-started-ansible"
     },
@@ -34204,7 +34204,7 @@
         "date": "Aug 8 2019",
         "length": 77,
         "level": "Beginner",
-        "rating": 104,
+        "rating": 105,
         "title": "GraphQL: The Big Picture",
         "url": "https://www.pluralsight.com/courses/graphql-big-picture"
     },
@@ -35086,7 +35086,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6873,
+        "rating": 6874,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -36328,7 +36328,7 @@
         "date": "Jan 27 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 133,
+        "rating": 134,
         "title": "Implementing DevOps in the Real World",
         "url": "https://www.pluralsight.com/courses/implementing-devops-real-world"
     },
@@ -39991,7 +39991,7 @@
         "date": "Apr 8 2015",
         "length": 149,
         "level": "Beginner",
-        "rating": 42,
+        "rating": 43,
         "title": "Introduction to Particles in Houdini",
         "url": "https://www.pluralsight.com/courses/introduction-particles-houdini-900"
     },
@@ -41116,7 +41116,7 @@
         "date": "Aug 20 2019",
         "length": 90,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "iOS Networking with REST APIs",
         "url": "https://www.pluralsight.com/courses/ios-networking-rest-apis"
     },
@@ -42250,7 +42250,7 @@
         "date": "Oct 30 2019",
         "length": 108,
         "level": "Advanced",
-        "rating": 19,
+        "rating": 20,
         "title": "JavaScript Objects, Prototypes, and Classes",
         "url": "https://www.pluralsight.com/courses/javascript-objects-prototypes-classes"
     },
@@ -43177,7 +43177,7 @@
         "date": "Jan 11 2019",
         "length": 157,
         "level": "Intermediate",
-        "rating": 163,
+        "rating": 164,
         "title": "Kubernetes Installation and Configuration Fundamentals",
         "url": "https://www.pluralsight.com/courses/kubernetes-installation-configuration-fundamentals"
     },
@@ -43447,7 +43447,7 @@
         "date": "Jul 22 2013",
         "length": 417,
         "level": "Beginner",
-        "rating": 826,
+        "rating": 827,
         "title": "Learn How to Program with C++",
         "url": "https://www.pluralsight.com/courses/learn-programming-cplusplus"
     },
@@ -46012,7 +46012,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1286,
+        "rating": 1287,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -54139,7 +54139,7 @@
         "date": "Jun 12 2019",
         "length": 105,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "ng-conf '19: Crash Course: Angular and ngRx",
         "url": "https://www.pluralsight.com/courses/ng-conf-19-angular-ngrx"
     },
@@ -65605,7 +65605,7 @@
         "date": "Jan 20 2015",
         "length": 173,
         "level": "Beginner",
-        "rating": 1402,
+        "rating": 1403,
         "title": "Responsive Websites With Bootstrap 3",
         "url": "https://www.pluralsight.com/courses/responsive-websites-bootstrap3"
     },
@@ -68458,7 +68458,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 32,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -68791,7 +68791,7 @@
         "date": "Jul 11 2018",
         "length": 53,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Security Engineering",
         "url": "https://www.pluralsight.com/courses/security-engineering"
     },
@@ -69124,7 +69124,7 @@
         "date": "Sep 5 2018",
         "length": 147,
         "level": "Intermediate",
-        "rating": 23,
+        "rating": 24,
         "title": "Introduction to Sequelize ORM for Node.js",
         "url": "https://www.pluralsight.com/courses/sequelize-orm-nodejs-introduction"
     },
@@ -74074,7 +74074,7 @@
         "date": "Aug 18 2016",
         "length": 41,
         "level": "Intermediate",
-        "rating": 56,
+        "rating": 57,
         "title": "Protocol Deep Dive: SSH and Telnet",
         "url": "https://www.pluralsight.com/courses/ssh-telnet-protocol-deep-dive"
     },
@@ -83686,7 +83686,7 @@
         "date": "Jul 11 2018",
         "length": 42,
         "level": "Beginner",
-        "rating": 115,
+        "rating": 116,
         "title": "WebAssembly: The Big Picture",
         "url": "https://www.pluralsight.com/courses/web-assembly-big-picture"
     },
