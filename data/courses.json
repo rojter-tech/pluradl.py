@@ -6212,7 +6212,7 @@
     "asp-dot-net-core-3-advanced-restful-concerns": {
         "author": "Kevin Dockx",
         "date": "Oct 10 2019",
-        "length": 231,
+        "length": 233,
         "level": "Intermediate",
         "rating": 26,
         "title": "Implementing Advanced RESTful Concerns with ASP.NET Core 3",
@@ -6221,7 +6221,7 @@
     "asp-dot-net-core-3-restful-api-building": {
         "author": "Kevin Dockx",
         "date": "Oct 10 2019",
-        "length": 301,
+        "length": 302,
         "level": "Beginner",
         "rating": 76,
         "title": "Building a RESTful API with ASP.NET Core 3",
