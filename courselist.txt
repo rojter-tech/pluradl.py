@@ -5030,6 +5030,7 @@ managing-cloud-identities-o365
 managing-configuring-skype-for-business
 managing-crowd-systems-udk-1198
 managing-data-r-data-frames
+managing-data-salesforce
 managing-delivery-portfolio
 managing-developers
 managing-devices-configuration-profiles-actc-10-11

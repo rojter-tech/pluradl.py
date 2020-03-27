@@ -45287,6 +45287,15 @@
         "title": "Managing Data in R Using Data Frames",
         "url": "https://www.pluralsight.com/courses/managing-data-r-data-frames"
     },
+    "managing-data-salesforce": {
+        "author": "Zach Bohn",
+        "date": "Mar 27 2020",
+        "length": 53,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Managing Data in Salesforce",
+        "url": "https://www.pluralsight.com/courses/managing-data-salesforce"
+    },
     "managing-delivery-portfolio": {
         "author": "Tommy van Schaik",
         "date": "Dec 13 2019",
