@@ -35660,7 +35660,7 @@
     "identifying-drivers-it-governance-implementation": {
         "author": "Frederico Aranha",
         "date": "Jan 21 2020",
-        "length": 125,
+        "length": 126,
         "level": "Intermediate",
         "rating": "",
         "title": "Identifying Drivers for IT Governance Implementation",
@@ -72412,6 +72412,15 @@
         "rating": "",
         "title": "Play by Play: Solving Problems, Changing Lives",
         "url": "https://www.pluralsight.com/courses/solving-problems-changing-lives"
+    },
+    "solving-problems-numerical-methods": {
+        "author": "Janani Ravi",
+        "date": "Mar 27 2020",
+        "length": 221,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Solving Problems with Numerical Methods",
+        "url": "https://www.pluralsight.com/courses/solving-problems-numerical-methods"
     },
     "solving-real-world-problems-sql-server-2016-query-store": {
         "author": "Gail Shaw",

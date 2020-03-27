@@ -8044,6 +8044,7 @@ solidworks-working-curves-splines
 solving-common-issues-matchmoving-pftrack-maya-1887
 solving-multiple-shot-types-pftrack-1597
 solving-problems-changing-lives
+solving-problems-numerical-methods
 solving-real-world-problems-sql-server-2016-query-store
 sp2010-basics
 sp2010-client-object-model
