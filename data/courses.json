@@ -1507,7 +1507,7 @@
         "date": "Apr 10 2015",
         "length": 415,
         "level": "Advanced",
-        "rating": 2207,
+        "rating": 2208,
         "title": "Advanced JavaScript",
         "url": "https://www.pluralsight.com/courses/advanced-javascript"
     },
@@ -6223,7 +6223,7 @@
         "date": "Oct 10 2019",
         "length": 301,
         "level": "Beginner",
-        "rating": 75,
+        "rating": 76,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -7087,7 +7087,7 @@
         "date": "Feb 21 2020",
         "length": 175,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 21,
         "title": "Authentication and Authorization in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/authentication-authorization-aspnet-core"
     },
@@ -11902,7 +11902,7 @@
         "date": "Aug 14 2018",
         "length": 162,
         "level": "Intermediate",
-        "rating": 145,
+        "rating": 146,
         "title": "Building an Async API with ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/building-async-api-aspdotnet-core"
     },
@@ -13549,7 +13549,7 @@
         "date": "Nov 9 2019",
         "length": 43,
         "level": "Intermediate",
-        "rating": 29,
+        "rating": 30,
         "title": "C# Design Patterns: State",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-state"
     },
@@ -14854,7 +14854,7 @@
         "date": "Nov 16 2017",
         "length": 332,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "CINEMA 4D Modeling Fundamentals",
         "url": "https://www.pluralsight.com/courses/cinema-4d-modeling-fundamentals"
     },
@@ -23917,7 +23917,7 @@
         "date": "Jan 23 2019",
         "length": 81,
         "level": "Beginner",
-        "rating": 1215,
+        "rating": 1216,
         "title": "DevOps: The Big Picture",
         "url": "https://www.pluralsight.com/courses/devops-big-picture"
     },
@@ -36085,7 +36085,7 @@
         "date": "Feb 23 2016",
         "length": 69,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Illustrator CC Web Patterns",
         "url": "https://www.pluralsight.com/courses/illustrator-cc-webpatterns"
     },
@@ -42259,7 +42259,7 @@
         "date": "Jan 15 2016",
         "length": 190,
         "level": "Intermediate",
-        "rating": 600,
+        "rating": 601,
         "title": "Practical Design Patterns in JavaScript",
         "url": "https://www.pluralsight.com/courses/javascript-practical-design-patterns"
     },
@@ -45238,7 +45238,7 @@
         "date": "Sep 23 2019",
         "length": 140,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Managing Cisco Networks via Infrastructure as Code",
         "url": "https://www.pluralsight.com/courses/managing-cisco-networks-infrastructure-as-code"
     },
@@ -45535,7 +45535,7 @@
         "date": "Feb 2 2019",
         "length": 83,
         "level": "Beginner",
-        "rating": 42,
+        "rating": 44,
         "title": "Managing Python Packages and Virtual Environments",
         "url": "https://www.pluralsight.com/courses/managing-python-packages-virtual-environments"
     },
@@ -55156,7 +55156,7 @@
         "date": "Feb 22 2019",
         "length": 113,
         "level": "Intermediate",
-        "rating": 36,
+        "rating": 37,
         "title": "Mocking with Moq and NUnit",
         "url": "https://www.pluralsight.com/courses/nunit-moq-mocking"
     },
@@ -56551,7 +56551,7 @@
         "date": "Jul 30 2019",
         "length": 158,
         "level": "Intermediate",
-        "rating": 50,
+        "rating": 51,
         "title": "Packaging Applications with Helm for Kubernetes",
         "url": "https://www.pluralsight.com/courses/packaging-applications-helm-kubernetes"
     },
@@ -56560,7 +56560,7 @@
         "date": "Apr 4 2016",
         "length": 122,
         "level": "Beginner",
-        "rating": 83,
+        "rating": 84,
         "title": "Designing Immutable Infrastructure with Packer",
         "url": "https://www.pluralsight.com/courses/packer-designing-immutable-infrastructure"
     },
@@ -62293,7 +62293,7 @@
         "date": "Jun 30 2017",
         "length": 92,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "Defining Project Scope and Managing Resources",
         "url": "https://www.pluralsight.com/courses/project-scope-managing-resources-defining"
     },
@@ -62986,7 +62986,7 @@
         "date": "Oct 10 2014",
         "length": 137,
         "level": "Intermediate",
-        "rating": 165,
+        "rating": 166,
         "title": "Python Desktop Application Development: Part 2 - Design",
         "url": "https://www.pluralsight.com/courses/python-desktop-application-development-design-part2"
     },
@@ -63031,7 +63031,7 @@
         "date": "Apr 27 2017",
         "length": 179,
         "level": "Beginner",
-        "rating": 1343,
+        "rating": 1344,
         "title": "Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/python-getting-started"
     },
@@ -65407,7 +65407,7 @@
         "date": "Jun 19 2019",
         "length": 165,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Representing, Processing, and Preparing Data",
         "url": "https://www.pluralsight.com/courses/representing-processing-preparing-data"
     },
@@ -67162,7 +67162,7 @@
         "date": "May 2 2018",
         "length": 136,
         "level": "Beginner",
-        "rating": 67,
+        "rating": 68,
         "title": "Scala: The Big Picture",
         "url": "https://www.pluralsight.com/courses/scala-big-picture"
     },
@@ -71104,7 +71104,7 @@
         "date": "Mar 5 2020",
         "length": 101,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Site Reliability Engineering (SRE): The Big Picture",
         "url": "https://www.pluralsight.com/courses/site-reliability-engineering-big-picture"
     },
@@ -73309,7 +73309,7 @@
         "date": "Mar 29 2019",
         "length": 121,
         "level": "Beginner",
-        "rating": 56,
+        "rating": 57,
         "title": "Programming SQL Server Database Stored Procedures",
         "url": "https://www.pluralsight.com/courses/sql-server-database-programming-stored-procedures"
     },
