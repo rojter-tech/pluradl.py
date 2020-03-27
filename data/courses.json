@@ -27785,7 +27785,7 @@
     "enterprise-aws-lambdas-java-eclipse-ide": {
         "author": "Richard Monson-Haefel",
         "date": "Jul 16 2019",
-        "length": 178,
+        "length": 177,
         "level": "Beginner",
         "rating": 11,
         "title": "Introduction to Developing AWS Lambdas in Java",
