@@ -3694,7 +3694,7 @@
         "date": "Jan 15 2019",
         "length": 321,
         "level": "Intermediate",
-        "rating": 159,
+        "rating": 160,
         "title": "Angular Architecture and Best Practices",
         "url": "https://www.pluralsight.com/courses/angular-architecture-best-practices"
     },
@@ -6223,7 +6223,7 @@
         "date": "Oct 10 2019",
         "length": 302,
         "level": "Beginner",
-        "rating": 76,
+        "rating": 77,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -6709,7 +6709,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 297,
+        "rating": 298,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -6790,7 +6790,7 @@
         "date": "Oct 7 2019",
         "length": 593,
         "level": "Beginner",
-        "rating": 513,
+        "rating": 514,
         "title": "Building a Web App with ASP.NET Core, MVC, Entity Framework Core, Bootstrap, and Angular",
         "url": "https://www.pluralsight.com/courses/aspnetcore-mvc-efcore-bootstrap-angular-web"
     },
@@ -13252,7 +13252,7 @@
         "date": "Dec 22 2015",
         "length": 178,
         "level": "Beginner",
-        "rating": 220,
+        "rating": 221,
         "title": "Introduction to Business Analysis & Needs Assessment",
         "url": "https://www.pluralsight.com/courses/business-analysis-needs-assessment-introduction"
     },
@@ -23926,7 +23926,7 @@
         "date": "Jan 23 2019",
         "length": 81,
         "level": "Beginner",
-        "rating": 1216,
+        "rating": 1217,
         "title": "DevOps: The Big Picture",
         "url": "https://www.pluralsight.com/courses/devops-big-picture"
     },
@@ -32323,7 +32323,7 @@
         "date": "Jan 13 2020",
         "length": 285,
         "level": "Beginner",
-        "rating": 21,
+        "rating": 22,
         "title": "Getting Started with Ansible",
         "url": "https://www.pluralsight.com/courses/getting-started-ansible"
     },
@@ -33646,7 +33646,7 @@
         "date": "Jun 7 2013",
         "length": 135,
         "level": "Beginner",
-        "rating": 120,
+        "rating": 121,
         "title": "Google Charts By Example",
         "url": "https://www.pluralsight.com/courses/google-charts-by-example"
     },
@@ -35419,7 +35419,7 @@
         "date": "Apr 12 2017",
         "length": 204,
         "level": "Beginner",
-        "rating": 287,
+        "rating": 288,
         "title": "What Every Developer Must Know About HTTPS",
         "url": "https://www.pluralsight.com/courses/https-every-developer-must-know"
     },
@@ -46030,7 +46030,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1287,
+        "rating": 1288,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -47839,7 +47839,7 @@
         "date": "Aug 6 2018",
         "length": 138,
         "level": "Intermediate",
-        "rating": 84,
+        "rating": 85,
         "title": "Managing Identities in Microsoft Azure Active Directory",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-active-directory-managing-identities"
     },
@@ -49054,7 +49054,7 @@
         "date": "Nov 18 2019",
         "length": 165,
         "level": "Beginner",
-        "rating": 31,
+        "rating": 32,
         "title": "Design Identity Management in Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-identity-management-design"
     },
@@ -53716,7 +53716,7 @@
         "date": "Jul 12 2016",
         "length": 228,
         "level": "Intermediate",
-        "rating": 138,
+        "rating": 139,
         "title": "Network Layer Addressing and Operation for Cisco CCNA 200-125/100-105",
         "url": "https://www.pluralsight.com/courses/network-layer-addressing-cisco-ccna-200-125-100-105"
     },
@@ -60376,7 +60376,7 @@
         "date": "Jul 28 2016",
         "length": 186,
         "level": "Intermediate",
-        "rating": 48,
+        "rating": 49,
         "title": "PostgreSQL: Index Tuning and Performance Optimization",
         "url": "https://www.pluralsight.com/courses/postgresql-index-tuning-performance-optimization"
     },
@@ -60979,7 +60979,7 @@
         "date": "Jun 21 2014",
         "length": 153,
         "level": "Beginner",
-        "rating": 408,
+        "rating": 409,
         "title": "Practical Data Modeling With C# and SQL Server",
         "url": "https://www.pluralsight.com/courses/practical-data-modeling-csharp-sql-server"
     },
@@ -64957,7 +64957,7 @@
         "date": "Nov 13 2017",
         "length": 216,
         "level": "Intermediate",
-        "rating": 208,
+        "rating": 210,
         "title": "Refactoring from Anemic Domain Model Towards a Rich One",
         "url": "https://www.pluralsight.com/courses/refactoring-anemic-domain-model"
     },
@@ -78970,7 +78970,7 @@
         "date": "Mar 3 2020",
         "length": 150,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Understanding AWS Core Services",
         "url": "https://www.pluralsight.com/courses/understanding-aws-core-services"
     },
