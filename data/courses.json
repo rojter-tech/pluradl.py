@@ -1219,7 +1219,7 @@
         "date": "Aug 15 2011",
         "length": 193,
         "level": "Beginner",
-        "rating": 1152,
+        "rating": 1153,
         "title": "Algorithms and Data Structures - Part 1",
         "url": "https://www.pluralsight.com/courses/ads-part1"
     },
@@ -12451,7 +12451,7 @@
         "date": "Mar 2 2018",
         "length": 76,
         "level": "Beginner",
-        "rating": 75,
+        "rating": 76,
         "title": "Building Layouts with the CSS Grid",
         "url": "https://www.pluralsight.com/courses/building-layouts-css-grid"
     },
@@ -15925,7 +15925,7 @@
         "date": "Jan 3 2020",
         "length": 47,
         "level": "Beginner",
-        "rating": 29,
+        "rating": 30,
         "title": "Cloud: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/cloud-executive-briefing"
     },
@@ -23332,7 +23332,7 @@
         "date": "May 14 2018",
         "length": 290,
         "level": "Beginner",
-        "rating": 538,
+        "rating": 539,
         "title": "Developing with .NET on Microsoft Azure - Getting Started",
         "url": "https://www.pluralsight.com/courses/developing-dotnet-microsoft-azure-getting-started"
     },
@@ -24448,7 +24448,7 @@
         "date": "Jul 20 2018",
         "length": 352,
         "level": "Beginner",
-        "rating": 564,
+        "rating": 566,
         "title": "Docker for Web Developers",
         "url": "https://www.pluralsight.com/courses/docker-web-development"
     },
@@ -30757,7 +30757,7 @@
         "date": "Apr 1 2019",
         "length": 171,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Foundations of PyTorch",
         "url": "https://www.pluralsight.com/courses/foundations-pytorch"
     },
@@ -43186,7 +43186,7 @@
         "date": "Jan 11 2019",
         "length": 157,
         "level": "Intermediate",
-        "rating": 164,
+        "rating": 165,
         "title": "Kubernetes Installation and Configuration Fundamentals",
         "url": "https://www.pluralsight.com/courses/kubernetes-installation-configuration-fundamentals"
     },
@@ -43672,7 +43672,7 @@
         "date": "Dec 20 2018",
         "length": 192,
         "level": "Beginner",
-        "rating": 26,
+        "rating": 27,
         "title": "CentOS Enterprise Linux 7 Virtualization Management",
         "url": "https://www.pluralsight.com/courses/lfcs-linux-virtualization-management"
     },
@@ -44050,7 +44050,7 @@
         "date": "Dec 8 2014",
         "length": 240,
         "level": "Intermediate",
-        "rating": 185,
+        "rating": 186,
         "title": "Linux Administration with sed and awk",
         "url": "https://www.pluralsight.com/courses/linux-administration-sed-awk"
     },
@@ -46030,7 +46030,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1288,
+        "rating": 1289,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -47839,7 +47839,7 @@
         "date": "Aug 6 2018",
         "length": 138,
         "level": "Intermediate",
-        "rating": 85,
+        "rating": 86,
         "title": "Managing Identities in Microsoft Azure Active Directory",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-active-directory-managing-identities"
     },
@@ -66703,7 +66703,7 @@
         "date": "Aug 30 2016",
         "length": 285,
         "level": "Intermediate",
-        "rating": 51,
+        "rating": 52,
         "title": "Routing IPv4 and IPv6 for Cisco CCNA 200-125/100-105",
         "url": "https://www.pluralsight.com/courses/routing-ipv4-ipv6-cisco-ccna-200-125-100-105"
     },
@@ -69061,7 +69061,7 @@
         "date": "May 5 2016",
         "length": 144,
         "level": "Intermediate",
-        "rating": 123,
+        "rating": 124,
         "title": "Automated Business Readable Web Tests with Selenium and SpecFlow",
         "url": "https://www.pluralsight.com/courses/selenium-specflow-automated-business-readable-web-tests"
     },
@@ -70888,7 +70888,7 @@
         "date": "Aug 17 2016",
         "length": 166,
         "level": "Intermediate",
-        "rating": 84,
+        "rating": 85,
         "title": "Simplified .NET Background Tasks with Hangfire",
         "url": "https://www.pluralsight.com/courses/simplified-dotnet-background-tasks-hangfire"
     },
@@ -82066,7 +82066,7 @@
         "date": "Aug 28 2015",
         "length": 251,
         "level": "Beginner",
-        "rating": 485,
+        "rating": 486,
         "title": "Visual Studio Code",
         "url": "https://www.pluralsight.com/courses/visual-studio-code"
     },
