@@ -1579,7 +1579,7 @@
         "date": "Jan 12 2017",
         "length": 345,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "LFCE: Advanced Network and System Administration",
         "url": "https://www.pluralsight.com/courses/advanced-network-system-administration-lfce"
     },
@@ -8248,7 +8248,7 @@
         "date": "Jul 22 2019",
         "length": 160,
         "level": "Advanced",
-        "rating": "",
+        "rating": 11,
         "title": "Build, Train, and Deploy Machine Learning Models with AWS SageMaker",
         "url": "https://www.pluralsight.com/courses/aws-sagemaker-machine-learning-models"
     },
@@ -13459,7 +13459,7 @@
         "date": "Mar 10 2014",
         "length": 253,
         "level": "Intermediate",
-        "rating": 306,
+        "rating": 307,
         "title": "The C Programming Language in Action",
         "url": "https://www.pluralsight.com/courses/c-programming-language-in-action"
     },
@@ -27796,7 +27796,7 @@
         "date": "Jul 16 2019",
         "length": 177,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 13,
         "title": "Introduction to Developing AWS Lambdas in Java",
         "url": "https://www.pluralsight.com/courses/enterprise-aws-lambdas-java-eclipse-ide"
     },
@@ -27823,7 +27823,7 @@
         "date": "Aug 19 2019",
         "length": 72,
         "level": "Beginner",
-        "rating": 115,
+        "rating": 116,
         "title": "Big Picture: Enterprise Data Management",
         "url": "https://www.pluralsight.com/courses/enterprise-data-management"
     },
@@ -34213,7 +34213,7 @@
         "date": "Aug 8 2019",
         "length": 77,
         "level": "Beginner",
-        "rating": 105,
+        "rating": 106,
         "title": "GraphQL: The Big Picture",
         "url": "https://www.pluralsight.com/courses/graphql-big-picture"
     },
@@ -34861,7 +34861,7 @@
         "date": "Apr 25 2017",
         "length": 182,
         "level": "Intermediate",
-        "rating": 49,
+        "rating": 50,
         "title": "Writing Complex Analytical Queries with Hive",
         "url": "https://www.pluralsight.com/courses/hive-complex-analytical-queries"
     },
@@ -45418,7 +45418,7 @@
         "date": "Sep 12 2019",
         "length": 160,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Managing Kubernetes Controllers and Deployments",
         "url": "https://www.pluralsight.com/courses/managing-kubernetes-controllers-deployments"
     },
@@ -72751,7 +72751,7 @@
         "date": "May 15 2018",
         "length": 75,
         "level": "Beginner",
-        "rating": 292,
+        "rating": 293,
         "title": "Spring: The Big Picture",
         "url": "https://www.pluralsight.com/courses/spring-big-picture"
     },
@@ -79618,7 +79618,7 @@
         "date": "May 20 2019",
         "length": 153,
         "level": "Intermediate",
-        "rating": 35,
+        "rating": 36,
         "title": "C# Scripting in Unity: Beyond the Basics",
         "url": "https://www.pluralsight.com/courses/unity-c-sharp-scripting-beyond-basics"
     },
