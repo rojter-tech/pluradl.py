@@ -20438,6 +20438,15 @@
         "title": "Creature Texturing in MARI 1.2",
         "url": "https://www.pluralsight.com/courses/creature-texturing-mari-32"
     },
+    "credential-access-mimikatz": {
+        "author": "Lee Allen",
+        "date": "Mar 30 2020",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Credential Access with Mimikatz",
+        "url": "https://www.pluralsight.com/courses/credential-access-mimikatz"
+    },
     "credential-access-thc-hydra": {
         "author": "Lee Allen",
         "date": "Jan 27 2020",

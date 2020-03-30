@@ -2269,6 +2269,7 @@ creature-rigging-games
 creature-rigging-maya-insects-3522
 creature-texturing-mari-1458
 creature-texturing-mari-32
+credential-access-mimikatz
 credential-access-thc-hydra
 crisis-communication-technology-colleagues
 critical-analytical-skills-data-literacy-executive-briefing
