@@ -6211,7 +6211,7 @@
     },
     "asp-dot-net-core-3-advanced-restful-concerns": {
         "author": "Kevin Dockx",
-        "date": "Oct 10 2019",
+        "date": "Mar 27 2020",
         "length": 233,
         "level": "Intermediate",
         "rating": 26,
@@ -6220,10 +6220,10 @@
     },
     "asp-dot-net-core-3-restful-api-building": {
         "author": "Kevin Dockx",
-        "date": "Oct 10 2019",
+        "date": "Mar 27 2020",
         "length": 302,
         "level": "Beginner",
-        "rating": 77,
+        "rating": 78,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
