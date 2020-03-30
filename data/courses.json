@@ -20450,7 +20450,7 @@
     "credential-access-thc-hydra": {
         "author": "Lee Allen",
         "date": "Jan 27 2020",
-        "length": 24,
+        "length": 21,
         "level": "Intermediate",
         "rating": "",
         "title": "Credential Access with THC Hydra",
