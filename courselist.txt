@@ -5973,6 +5973,7 @@ network-penetration-testing-python-kali-linux
 network-reconnaissance-performing-analyzing
 network-security-fundamentals
 network-security-testing-nmap
+network-services-cisco-ccna
 network-services-cisco-ccna-200-125-200-105
 network-troubleshooting-tools
 network-vulnerability-analysis-conducting
