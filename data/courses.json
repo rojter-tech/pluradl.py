@@ -29888,6 +29888,15 @@
         "title": "Extracting Database Information: Business Coding Playbook",
         "url": "https://www.pluralsight.com/courses/extracting-database-information-business-coding-playbook"
     },
+    "extracting-text-data-amazon-textract": {
+        "author": "Eduardo Freitas",
+        "date": "Mar 31 2020",
+        "length": 80,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Extracting Text and Data with Amazon Textract",
+        "url": "https://www.pluralsight.com/courses/extracting-text-data-amazon-textract"
+    },
     "extracting-transforming-data-ssis": {
         "author": "Emilio Melo",
         "date": "Sep 17 2019",
@@ -44228,7 +44237,7 @@
     "linux-monitoring-maintenance": {
         "author": "Andrew Mallett",
         "date": "Feb 5 2015",
-        "length": 394,
+        "length": 393,
         "level": "Intermediate",
         "rating": 88,
         "title": "Linux Monitoring and Maintenance (LPIC-2)",
@@ -48026,7 +48035,7 @@
     "microsoft-azure-appropriate-compute-solution-choosing": {
         "author": "Matt Milner",
         "date": "Jun 28 2019",
-        "length": 132,
+        "length": 136,
         "level": "Beginner",
         "rating": 33,
         "title": "Microsoft Azure Developer: Choosing an Appropriate Compute Solution",
@@ -87725,7 +87734,7 @@
     "xamarin-continuous-integration-teamcity-fake": {
         "author": "Skip Krenek",
         "date": "Feb 4 2015",
-        "length": 101,
+        "length": 100,
         "level": "Intermediate",
         "rating": 35,
         "title": "Xamarin Continuous Integration Using TeamCity and FAKE",

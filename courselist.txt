@@ -3319,6 +3319,7 @@ extjs-desktop-fundamentals
 extracting-data-from-html-with-r
 extracting-data-html-beautifulsoup
 extracting-database-information-business-coding-playbook
+extracting-text-data-amazon-textract
 extracting-transforming-data-ssis
 facial-animation-maya-65
 facial-animation-maya-7-1768
