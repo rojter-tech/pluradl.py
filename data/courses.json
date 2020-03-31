@@ -18560,7 +18560,7 @@
     "conducting-business-analysis-developing-requirements": {
         "author": "Casey Ayers",
         "date": "Jun 13 2016",
-        "length": 201,
+        "length": 200,
         "level": "Beginner",
         "rating": 60,
         "title": "Conducting Business Analysis & Developing Requirements",
@@ -19999,8 +19999,8 @@
     },
     "creating-effective-user-stories": {
         "author": "Jeremy Jarrell",
-        "date": "Jul 25 2014",
-        "length": 137,
+        "date": "Dec 27 2019",
+        "length": 136,
         "level": "Intermediate",
         "rating": 526,
         "title": "Creating Effective User Stories",
@@ -61481,7 +61481,7 @@
     "presentation-design-introduction": {
         "author": "Boris Hristov",
         "date": "Dec 29 2014",
-        "length": 66,
+        "length": 64,
         "level": "Beginner",
         "rating": 197,
         "title": "Introduction to Presentation Design",
@@ -72860,7 +72860,7 @@
         "length": 196,
         "level": "Intermediate",
         "rating": 251,
-        "title": "Getting Started with Spring Data JPA",
+        "title": "Spring Framework: Spring Data JPA",
         "url": "https://www.pluralsight.com/courses/spring-data-jpa-getting-started"
     },
     "spring-data-mongo-getting-started": {
@@ -75566,7 +75566,7 @@
     "system-center-orchestrator-2012-r2-fundamentals": {
         "author": "Kunal D Mehta",
         "date": "Jan 13 2015",
-        "length": 216,
+        "length": 215,
         "level": "Beginner",
         "rating": 115,
         "title": "System Center Orchestrator 2012 R2 Fundamentals",
