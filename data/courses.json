@@ -15299,6 +15299,15 @@
         "title": "Cisco Enterprise Networks: Implementing OSPF",
         "url": "https://www.pluralsight.com/courses/cisco-enterprise-networks-implementing-ospf"
     },
+    "cisco-enterprise-networks-vlans-trunking": {
+        "author": "Ben Piper",
+        "date": "Mar 31 2020",
+        "length": 144,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cisco Enterprise Networks: VLANs and Trunking",
+        "url": "https://www.pluralsight.com/courses/cisco-enterprise-networks-vlans-trunking"
+    },
     "cisco-firepower-fundamentals": {
         "author": "Martin Brown",
         "date": "Feb 12 2019",
