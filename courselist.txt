@@ -5966,6 +5966,7 @@ netinstall-netrestore-mac-management-basics
 netscaler-essentials-getting-started
 network-access-authentication-cnd
 network-address-translation-cisco-ccna-200-125-100-105
+network-address-translation-operation-configuration
 network-fundamentals-protocols
 network-icnd1-skills-cisco-ccna-200-125-100-105
 network-interface-ethernet-cisco-ccna-200-125-100-105

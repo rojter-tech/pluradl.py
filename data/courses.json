@@ -53711,6 +53711,15 @@
         "title": "Network Address Translation (NAT) for Cisco CCNA 200-125/100-105",
         "url": "https://www.pluralsight.com/courses/network-address-translation-cisco-ccna-200-125-100-105"
     },
+    "network-address-translation-operation-configuration": {
+        "author": "Ross Bagurdes",
+        "date": "Mar 31 2020",
+        "length": 98,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Network Address Translation Operation and Configuration",
+        "url": "https://www.pluralsight.com/courses/network-address-translation-operation-configuration"
+    },
     "network-fundamentals-protocols": {
         "author": "Daniel Lachance",
         "date": "Nov 22 2016",
