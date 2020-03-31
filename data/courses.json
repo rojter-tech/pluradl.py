@@ -155,7 +155,7 @@
     "3ds-max-animation-fundamentals": {
         "author": "Billy Reiter",
         "date": "Oct 10 2017",
-        "length": 94,
+        "length": 97,
         "level": "Beginner",
         "rating": "",
         "title": "3ds Max Animation Fundamentals",
@@ -281,7 +281,7 @@
     "3ds-max-rigging-fundamentals": {
         "author": "Stewart Jones",
         "date": "May 25 2018",
-        "length": 287,
+        "length": 284,
         "level": "Beginner",
         "rating": "",
         "title": "3ds Max Rigging Fundamentals",
@@ -13111,6 +13111,15 @@
         "rating": 20,
         "title": "Building Websites with Foundation 6",
         "url": "https://www.pluralsight.com/courses/building-websites-foundation-6"
+    },
+    "building-websites-html": {
+        "author": "Gill Cleeren",
+        "date": "Mar 31 2020",
+        "length": 179,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Building Websites with HTML",
+        "url": "https://www.pluralsight.com/courses/building-websites-html"
     },
     "building-websites-skeleton-css": {
         "author": "Gary Simon",
@@ -63011,7 +63020,7 @@
     "python-data-analysts": {
         "author": "Janani Ravi",
         "date": "Oct 29 2019",
-        "length": 210,
+        "length": 212,
         "level": "Intermediate",
         "rating": 13,
         "title": "Python for Data Analysts",
@@ -67367,7 +67376,7 @@
     "scaling-scikit-learn-solutions": {
         "author": "Janani Ravi",
         "date": "Oct 30 2019",
-        "length": 173,
+        "length": 175,
         "level": "Advanced",
         "rating": "",
         "title": "Scaling scikit-learn Solutions",
