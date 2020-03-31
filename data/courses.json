@@ -47863,8 +47863,8 @@
     },
     "microsoft-azure-ad-privileged-identity-management-configuring": {
         "author": "Tim Warner",
-        "date": "Jun 21 2019",
-        "length": 90,
+        "date": "Mar 31 2020",
+        "length": 93,
         "level": "Beginner",
         "rating": "",
         "title": "Configuring Microsoft Azure Active Directory Privileged Identity Management",
@@ -68608,8 +68608,8 @@
     },
     "securing-microsoft-azure-subscriptions": {
         "author": "Tim Warner",
-        "date": "Jun 6 2019",
-        "length": 143,
+        "date": "Mar 31 2020",
+        "length": 147,
         "level": "Advanced",
         "rating": "",
         "title": "Securing Microsoft Azure Subscriptions",
