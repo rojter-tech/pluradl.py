@@ -1214,6 +1214,15 @@
         "title": "Adopting AWS: Watch This First",
         "url": "https://www.pluralsight.com/courses/adopting-aws-watch-this-first"
     },
+    "adopting-innersource-culture-github": {
+        "author": "Aaron Stewart",
+        "date": "Mar 30 2020",
+        "length": 102,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Adopting an InnerSource Culture with GitHub",
+        "url": "https://www.pluralsight.com/courses/adopting-innersource-culture-github"
+    },
     "ads-part1": {
         "author": "Robert Horvick",
         "date": "Aug 15 2011",
@@ -6709,7 +6718,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 299,
+        "rating": 301,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -6790,7 +6799,7 @@
         "date": "Oct 7 2019",
         "length": 593,
         "level": "Beginner",
-        "rating": 514,
+        "rating": 517,
         "title": "Building a Web App with ASP.NET Core, MVC, Entity Framework Core, Bootstrap, and Angular",
         "url": "https://www.pluralsight.com/courses/aspnetcore-mvc-efcore-bootstrap-angular-web"
     },
@@ -12505,7 +12514,7 @@
         "date": "Dec 9 2019",
         "length": 161,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Building Your First Machine Learning Solution",
         "url": "https://www.pluralsight.com/courses/building-machine-learning-solution"
     },
@@ -19354,7 +19363,7 @@
         "date": "Jan 17 2020",
         "length": 120,
         "level": "Beginner",
-        "rating": 73,
+        "rating": 74,
         "title": "C++ Unit Testing Fundamentals Using Catch2",
         "url": "https://www.pluralsight.com/courses/cplusplus-unit-testing-fundamentals-using-catch"
     },
@@ -27598,7 +27607,7 @@
         "date": "Dec 6 2019",
         "length": 128,
         "level": "Beginner",
-        "rating": 334,
+        "rating": 335,
         "title": "Introduction to Emotional Intelligence",
         "url": "https://www.pluralsight.com/courses/emotional-intelligence-introduction"
     },
@@ -27805,7 +27814,7 @@
         "date": "Jul 16 2019",
         "length": 177,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 14,
         "title": "Introduction to Developing AWS Lambdas in Java",
         "url": "https://www.pluralsight.com/courses/enterprise-aws-lambdas-java-eclipse-ide"
     },
@@ -32593,7 +32602,7 @@
         "date": "Feb 10 2020",
         "length": 122,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Getting Started with Git",
         "url": "https://www.pluralsight.com/courses/getting-started-git"
     },
@@ -32683,7 +32692,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1038,
+        "rating": 1039,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -32989,7 +32998,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 72,
+        "rating": 74,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -35104,7 +35113,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6876,
+        "rating": 6878,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -36265,7 +36274,7 @@
         "date": "May 2 2019",
         "length": 40,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Implementing AWS Networking Security Groups",
         "url": "https://www.pluralsight.com/courses/implementing-aws-networking-security-groups"
     },
@@ -40567,7 +40576,7 @@
         "date": "Dec 20 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 3069,
+        "rating": 3070,
         "title": "Introduction to SQL",
         "url": "https://www.pluralsight.com/courses/introduction-to-sql"
     },
@@ -41278,7 +41287,7 @@
         "date": "Mar 1 2017",
         "length": 40,
         "level": "Beginner",
-        "rating": 45,
+        "rating": 46,
         "title": "Dealing with Irrational Customers and Escalating Complaints",
         "url": "https://www.pluralsight.com/courses/irrational-customers-escalating-complaints-dealing"
     },
@@ -41413,7 +41422,7 @@
         "date": "Feb 7 2020",
         "length": 214,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Managing Apps on Kubernetes with Istio",
         "url": "https://www.pluralsight.com/courses/istio-managing-apps-kubernetes"
     },
@@ -48001,7 +48010,7 @@
         "date": "Dec 14 2018",
         "length": 103,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "Microsoft Azure Developer: Identifying an Appropriate Integration Solution",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-appropriate-integration-solution-identifying"
     },
@@ -48091,7 +48100,7 @@
         "date": "May 21 2019",
         "length": 112,
         "level": "Intermediate",
-        "rating": 44,
+        "rating": 45,
         "title": "Implementing Microsoft Azure Backup",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-backup-implementing"
     },
@@ -54877,7 +54886,7 @@
         "date": "Jan 26 2015",
         "length": 201,
         "level": "Intermediate",
-        "rating": 147,
+        "rating": 148,
         "title": "Introduction to NopCommerce Plugin Development",
         "url": "https://www.pluralsight.com/courses/nopcommerce-plugin-development"
     },
@@ -64876,7 +64885,7 @@
         "date": "Aug 6 2014",
         "length": 131,
         "level": "Beginner",
-        "rating": 454,
+        "rating": 455,
         "title": "Red Hat Enterprise Linux Shell Fundamentals",
         "url": "https://www.pluralsight.com/courses/red-hat-enterprise-linux-shell-fundamentals"
     },
@@ -64984,7 +64993,7 @@
         "date": "Aug 22 2019",
         "length": 137,
         "level": "Intermediate",
-        "rating": 36,
+        "rating": 37,
         "title": "Refactoring for C# Developers",
         "url": "https://www.pluralsight.com/courses/refactoring-csharp-developers"
     },
@@ -68494,7 +68503,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 34,
+        "rating": 35,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -72769,7 +72778,7 @@
         "date": "May 15 2018",
         "length": 75,
         "level": "Beginner",
-        "rating": 293,
+        "rating": 294,
         "title": "Spring: The Big Picture",
         "url": "https://www.pluralsight.com/courses/spring-big-picture"
     },
@@ -72859,7 +72868,7 @@
         "date": "Dec 6 2019",
         "length": 58,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Spring Framework: Overview of Spring Data",
         "url": "https://www.pluralsight.com/courses/spring-framework-overview-spring-data"
     },
@@ -72895,7 +72904,7 @@
         "date": "Feb 12 2020",
         "length": 152,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Spring Framework: Spring MVC Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-framework-spring-mvc-fundamentals"
     },
@@ -73381,7 +73390,7 @@
         "date": "Mar 12 2019",
         "length": 120,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Getting Started with Your First SQL Server Instance",
         "url": "https://www.pluralsight.com/courses/sql-server-first-instance-getting-started"
     },
@@ -74362,7 +74371,7 @@
         "date": "Mar 28 2018",
         "length": 264,
         "level": "Beginner",
-        "rating": 48,
+        "rating": 49,
         "title": "Statistics Foundations: Understanding Probability and Distributions",
         "url": "https://www.pluralsight.com/courses/statistics-foundations-probability-distributions"
     },
@@ -86269,7 +86278,7 @@
         "date": "Mar 7 2017",
         "length": 144,
         "level": "Intermediate",
-        "rating": 59,
+        "rating": 60,
         "title": "Implementing Containers on Windows Server 2016",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-containers-implementing"
     },
