@@ -4027,6 +4027,7 @@ implement-manage-identities-azure-ad-o365
 implement-ssl-offload-citrix-adc
 implementing-3d-touch-ios
 implementing-aad-azure-infrastructure-70-533
+implementing-application-layer-protocols-cisco-networks
 implementing-authentication-sharepoint-2019
 implementing-aws-networking-security-groups
 implementing-bas-relief-techniques-photoshop-illustrator-1835
