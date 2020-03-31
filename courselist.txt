@@ -2244,6 +2244,7 @@ creating-selling-digital-product
 creating-server-side-excel-workbooks
 creating-shell-scripts-enterprise-linux
 creating-special-purpose-plots-r-playbook
+creating-typescript-declaration-file
 creating-user-friendly-custom-windows-scriptable-objects
 creating-using-typescript-decorators
 creating-visualizations-base-r-graphics
