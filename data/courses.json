@@ -66797,6 +66797,15 @@
         "title": "Routing for CCNA Data Center (200-150/200-155)",
         "url": "https://www.pluralsight.com/courses/routing-ccna-data-center-200-150-200-155"
     },
+    "routing-ipv4-ipv6": {
+        "author": "Ross Bagurdes",
+        "date": "Apr 1 2020",
+        "length": 285,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Routing IPv4 and IPv6",
+        "url": "https://www.pluralsight.com/courses/routing-ipv4-ipv6"
+    },
     "routing-ipv4-ipv6-cisco-ccna-200-125-100-105": {
         "author": "Ross Bagurdes",
         "date": "Aug 30 2016",
