@@ -8088,6 +8088,7 @@ splunk-analyzing-machine-data
 splunk-big-picture
 splunk-enterprise-admin-configuration-files-indexes
 splunk-enterprise-admin-users-authentication
+splunk-enterprise-security-big-picture
 splunk-performing-basic-searches
 sports-bottle-package-design-photoshop-illustrator-2270
 sports-magazine-cover-illustrator-photoshop-2095
