@@ -2603,6 +2603,7 @@ developing-expert-product-viz-maya-v-ray-1256
 developing-extensible-software
 developing-html5-games-construct-2-2377
 developing-implementing-vulnerability-management-programs
+developing-javascript-single-page-applications-protected-azure-active-directory
 developing-killer-personal-brand
 developing-nodejs-microsoft-azure-getting-started
 developing-project-schedules-budgets
