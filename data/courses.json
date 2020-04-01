@@ -56105,6 +56105,15 @@
         "title": "Optimized Game Character Modeling",
         "url": "https://www.pluralsight.com/courses/optimized-game-character-modeling"
     },
+    "optimizing-data-warehouse-microsoft-sql-server-platform": {
+        "author": "Thomas LeBlanc",
+        "date": "Apr 1 2020",
+        "length": 183,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Optimizing a Data Warehouse on the Microsoft SQL Server Platform",
+        "url": "https://www.pluralsight.com/courses/optimizing-data-warehouse-microsoft-sql-server-platform"
+    },
     "optimizing-fields-tags-event-types-splunk": {
         "author": "Joe Abraham",
         "date": "Feb 28 2019",

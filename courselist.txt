@@ -6232,6 +6232,7 @@ opsec-penetration-testers
 optical-character-recognition-windows-runtime
 optimize-n1ql-queries
 optimized-game-character-modeling
+optimizing-data-warehouse-microsoft-sql-server-platform
 optimizing-fields-tags-event-types-splunk
 optimizing-google-cloud-platform-gcp-costs
 optimizing-images-web-photoshop-1655
