@@ -61697,7 +61697,7 @@
     "privilege-escalation-client-execution-msfvenom": {
         "author": "Matt Glass",
         "date": "Jan 21 2020",
-        "length": 22,
+        "length": 23,
         "level": "Intermediate",
         "rating": "",
         "title": "Privilege Escalation and Client Execution with MSFVenom",
