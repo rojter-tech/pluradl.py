@@ -7633,6 +7633,7 @@ securing-microsoft-azure-subscriptions
 securing-network-devices-ccna-security-210-260-iins
 securing-node-js-web-app
 securing-spring-data-rest-apis
+securing-switch
 securing-switch-cisco-ccna-200-125-100-105
 securing-virtual-machines-azure-key-vault
 securing-windows-ten-data-at-rest-in-use-in-transit

@@ -68714,6 +68714,15 @@
         "title": "Securing Spring Data REST APIs",
         "url": "https://www.pluralsight.com/courses/securing-spring-data-rest-apis"
     },
+    "securing-switch": {
+        "author": "Ross Bagurdes",
+        "date": "Apr 1 2020",
+        "length": 145,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Securing the Switch",
+        "url": "https://www.pluralsight.com/courses/securing-switch"
+    },
     "securing-switch-cisco-ccna-200-125-100-105": {
         "author": "Ross Bagurdes",
         "date": "Oct 10 2016",
