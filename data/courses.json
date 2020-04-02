@@ -87695,6 +87695,15 @@
         "title": "Writing Highly Maintainable Unit Tests",
         "url": "https://www.pluralsight.com/courses/writing-highly-maintainable-unit-tests"
     },
+    "writing-maintainable-ui-test-automation-appium": {
+        "author": "Marcel de Vries",
+        "date": "Apr 2 2020",
+        "length": 78,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Writing Maintainable UI Test Automation with Appium",
+        "url": "https://www.pluralsight.com/courses/writing-maintainable-ui-test-automation-appium"
+    },
     "writing-marketing-book": {
         "author": "Jason Alba",
         "date": "Dec 2 2013",

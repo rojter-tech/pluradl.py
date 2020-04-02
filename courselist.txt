@@ -9742,6 +9742,7 @@ writing-clean-code-humans
 writing-content-with-markdown
 writing-custom-scripts-owasp-zed-attack-proxy
 writing-highly-maintainable-unit-tests
+writing-maintainable-ui-test-automation-appium
 writing-marketing-book
 writing-penetration-testing-reports
 writing-purely-functional-code-csharp
