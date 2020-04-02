@@ -2044,6 +2044,7 @@ computer-fundamentals-operational-procedures
 computer-fundamentals-security
 computer-fundamentals-software-troubleshooting
 computer-fundamentals-virtualization-cloud-computing
+computer-vision-executive-briefing
 computing-communication-business-integration-casp-cas-002
 concept-art-photoshop-zbrush-803
 concept-designing-mech-weapon-photoshop-1629
