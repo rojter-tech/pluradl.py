@@ -1442,6 +1442,7 @@ building-structures-profiles-components-sketchup-2008
 building-stunning-style-frames-after-effects-1074
 building-stylized-vehicles-maya-97
 building-successful-blog
+building-tabular-models-ssas
 building-toy-plane-3d-printing-maya-mudbox-2284
 building-tracking-pipeline-maya-syntheyes-1297
 building-trust-commitment-your-team
