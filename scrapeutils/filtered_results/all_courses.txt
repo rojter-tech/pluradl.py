@@ -8818,6 +8818,7 @@ understanding-object-transformations-indesign-443
 understanding-pen-tool-photoshop-1712
 understanding-perspective-drawing-illustrator-415
 understanding-profiting-online-advertising
+understanding-r-function-scoping-closures
 understanding-relationship-between-logo-identity-brand-1110
 understanding-saas
 understanding-sharepoint2013-basics
