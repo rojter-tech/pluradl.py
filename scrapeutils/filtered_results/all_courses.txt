@@ -1339,6 +1339,7 @@ building-complex-polyhedron-revit-1305
 building-complex-surface-geometry-solidworks-2210
 building-components-angular-1-5
 building-conferences-telepresence-ciptv1-300-070
+building-configuring-troubleshooting-acls
 building-context-menu-shell-extensions-cplusplus
 building-conversational-experiences-dialogflow
 building-cross-platform-apps-ionic-electron
@@ -7632,6 +7633,7 @@ securing-integrating-components-application-1
 securing-java-web-application-data
 securing-linux-servers
 securing-microsoft-azure-subscriptions
+securing-network-communication-cisco-vpns
 securing-network-devices-ccna-security-210-260-iins
 securing-node-js-web-app
 securing-spring-data-rest-apis

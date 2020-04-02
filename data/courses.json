@@ -12068,6 +12068,15 @@
         "title": "Building Conferences with Telepresence and Managing Media Resources for Cisco Collaboration (300-070) CIPTV1",
         "url": "https://www.pluralsight.com/courses/building-conferences-telepresence-ciptv1-300-070"
     },
+    "building-configuring-troubleshooting-acls": {
+        "author": "Ross Bagurdes",
+        "date": "Apr 2 2020",
+        "length": 158,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building, Configuring, and Troubleshooting ACLs",
+        "url": "https://www.pluralsight.com/courses/building-configuring-troubleshooting-acls"
+    },
     "building-context-menu-shell-extensions-cplusplus": {
         "author": "Giovanni Dicanio",
         "date": "Nov 1 2013",
@@ -68704,6 +68713,15 @@
         "rating": "",
         "title": "Securing Microsoft Azure Subscriptions",
         "url": "https://www.pluralsight.com/courses/securing-microsoft-azure-subscriptions"
+    },
+    "securing-network-communication-cisco-vpns": {
+        "author": "Martin Brown",
+        "date": "Apr 2 2020",
+        "length": 178,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Securing Network Communication with Cisco VPNs",
+        "url": "https://www.pluralsight.com/courses/securing-network-communication-cisco-vpns"
     },
     "securing-network-devices-ccna-security-210-260-iins": {
         "author": "Brandon Carroll",
