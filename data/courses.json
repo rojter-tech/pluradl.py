@@ -3703,7 +3703,7 @@
         "date": "Jan 15 2019",
         "length": 321,
         "level": "Intermediate",
-        "rating": 160,
+        "rating": 161,
         "title": "Angular Architecture and Best Practices",
         "url": "https://www.pluralsight.com/courses/angular-architecture-best-practices"
     },
@@ -75721,7 +75721,7 @@
         "date": "Jul 9 2019",
         "length": 98,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Manipulating Data in Tableau Desktop",
         "url": "https://www.pluralsight.com/courses/tableau-desktop-manipulating-data"
     },
