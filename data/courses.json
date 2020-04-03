@@ -63458,6 +63458,15 @@
         "title": "Quantum Computing: The Big Picture",
         "url": "https://www.pluralsight.com/courses/quantum-computing-big-picture"
     },
+    "quantum-computing-getting-started-q-sharp": {
+        "author": "Chuck Bates",
+        "date": "Apr 3 2020",
+        "length": 82,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Quantum Computing: Getting Started with Q#",
+        "url": "https://www.pluralsight.com/courses/quantum-computing-getting-started-q-sharp"
+    },
     "query-data-couchbase-n1ql": {
         "author": "Kishan Iyer",
         "date": "Jan 30 2020",

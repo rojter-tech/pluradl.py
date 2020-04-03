@@ -7049,6 +7049,7 @@ qt-quick-fundamentals
 quadrupeds-maya-8-5-3272
 quadrupeds-maya-8-5-3305
 quantum-computing-big-picture
+quantum-computing-getting-started-q-sharp
 query-data-couchbase-n1ql
 query-tuning-introduction
 querying-converting-data-types-r
