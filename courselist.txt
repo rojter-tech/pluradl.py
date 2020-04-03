@@ -8997,6 +8997,7 @@ using-indesign-as-powerpoint-alternative-1528
 using-kinect-interaction-wpf
 using-lagoa-softimage-490
 using-lights-create-shadows-animated-layers-after-effects-920
+using-managing-jenkins-plugins
 using-match-photo-sketchup-2087
 using-memory-optimized-tables-native-stored-procedures
 using-microsoft-office-online-2016
