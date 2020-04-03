@@ -2200,7 +2200,7 @@
         "date": "Jan 2 2020",
         "length": 160,
         "level": "Intermediate",
-        "rating": 1489,
+        "rating": 1490,
         "title": "Agile Fundamentals",
         "url": "https://www.pluralsight.com/courses/agile-fundamentals"
     },
@@ -8257,7 +8257,7 @@
         "date": "Jul 22 2019",
         "length": 160,
         "level": "Advanced",
-        "rating": 11,
+        "rating": 12,
         "title": "Build, Train, and Deploy Machine Learning Models with AWS SageMaker",
         "url": "https://www.pluralsight.com/courses/aws-sagemaker-machine-learning-models"
     },
@@ -12541,7 +12541,7 @@
         "date": "Dec 18 2019",
         "length": 166,
         "level": "Intermediate",
-        "rating": 26,
+        "rating": 27,
         "title": "Building Microservices",
         "url": "https://www.pluralsight.com/courses/building-microservices"
     },
@@ -15970,7 +15970,7 @@
         "date": "Jan 3 2020",
         "length": 47,
         "level": "Beginner",
-        "rating": 30,
+        "rating": 31,
         "title": "Cloud: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/cloud-executive-briefing"
     },
@@ -19759,7 +19759,7 @@
         "date": "Oct 11 2018",
         "length": 262,
         "level": "Intermediate",
-        "rating": 189,
+        "rating": 190,
         "title": "CQRS in Practice",
         "url": "https://www.pluralsight.com/courses/cqrs-in-practice"
     },
@@ -22027,7 +22027,7 @@
         "date": "May 17 2019",
         "length": 122,
         "level": "Intermediate",
-        "rating": 27,
+        "rating": 28,
         "title": "Demystifying the AWS Certified Solutions Architect: Associate Exam",
         "url": "https://www.pluralsight.com/courses/demystifying-aws-certified-solutions-architect-associate-exam"
     },
@@ -28579,7 +28579,7 @@
         "date": "Feb 4 2014",
         "length": 167,
         "level": "Intermediate",
-        "rating": 131,
+        "rating": 132,
         "title": "Event Tracing for Windows (ETW) in .NET",
         "url": "https://www.pluralsight.com/courses/event-tracing-windows-etw-dotnet"
     },
@@ -33079,7 +33079,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 77,
+        "rating": 79,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -33169,7 +33169,7 @@
         "date": "May 7 2018",
         "length": 105,
         "level": "Beginner",
-        "rating": 37,
+        "rating": 38,
         "title": "Getting Started with Spring Batch",
         "url": "https://www.pluralsight.com/courses/getting-started-spring-batch"
     },
@@ -35275,7 +35275,7 @@
         "date": "Jan 16 2020",
         "length": 88,
         "level": "Beginner",
-        "rating": 578,
+        "rating": 581,
         "title": "HTML, CSS, and JavaScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/html-css-javascript-big-picture"
     },
@@ -40675,7 +40675,7 @@
         "date": "Dec 20 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 3075,
+        "rating": 3076,
         "title": "Introduction to SQL",
         "url": "https://www.pluralsight.com/courses/introduction-to-sql"
     },
@@ -42376,7 +42376,7 @@
         "date": "Oct 30 2019",
         "length": 108,
         "level": "Advanced",
-        "rating": 22,
+        "rating": 23,
         "title": "JavaScript Objects, Prototypes, and Classes",
         "url": "https://www.pluralsight.com/courses/javascript-objects-prototypes-classes"
     },
@@ -43096,7 +43096,7 @@
         "date": "Mar 26 2018",
         "length": 153,
         "level": "Intermediate",
-        "rating": 63,
+        "rating": 64,
         "title": "Deep Learning with Keras",
         "url": "https://www.pluralsight.com/courses/keras-deep-learning"
     },
@@ -43573,7 +43573,7 @@
         "date": "Jul 22 2013",
         "length": 417,
         "level": "Beginner",
-        "rating": 828,
+        "rating": 829,
         "title": "Learn How to Program with C++",
         "url": "https://www.pluralsight.com/courses/learn-programming-cplusplus"
     },
@@ -55399,7 +55399,7 @@
         "date": "Sep 19 2019",
         "length": 192,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Effective Oauth2 with Spring Security and Spring Boot",
         "url": "https://www.pluralsight.com/courses/oauth2-spring-security-spring-boot"
     },
@@ -60835,7 +60835,7 @@
         "date": "May 8 2017",
         "length": 106,
         "level": "Beginner",
-        "rating": 128,
+        "rating": 129,
         "title": "Your First Day with PowerShell",
         "url": "https://www.pluralsight.com/courses/powershell-first-day"
     },
@@ -64489,7 +64489,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1344,
+        "rating": 1345,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -80851,7 +80851,7 @@
         "date": "Apr 1 2019",
         "length": 123,
         "level": "Intermediate",
-        "rating": 97,
+        "rating": 98,
         "title": "Using Git for Source Control in Visual Studio 2019",
         "url": "https://www.pluralsight.com/courses/using-git-source-control-visual-studio"
     },
@@ -80860,7 +80860,7 @@
         "date": "Mar 8 2016",
         "length": 158,
         "level": "Beginner",
-        "rating": 234,
+        "rating": 236,
         "title": "Using Git with a GUI",
         "url": "https://www.pluralsight.com/courses/using-git-with-gui"
     },
@@ -81220,7 +81220,7 @@
         "date": "May 3 2019",
         "length": 113,
         "level": "Beginner",
-        "rating": 76,
+        "rating": 77,
         "title": "Using React Hooks",
         "url": "https://www.pluralsight.com/courses/using-react-hooks"
     },
@@ -86458,7 +86458,7 @@
         "date": "Mar 7 2017",
         "length": 144,
         "level": "Intermediate",
-        "rating": 60,
+        "rating": 61,
         "title": "Implementing Containers on Windows Server 2016",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-containers-implementing"
     },
