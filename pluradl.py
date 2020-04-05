@@ -191,7 +191,7 @@ def flag_parser():
         Bool -- Validation of argument input
     """
     if len(sys.argv) < 5:
-        return False
+        return False, "", ""
     
     global USERNAME
     global PASSWORD
@@ -240,9 +240,9 @@ def flag_parser():
     if usn_psw_flag_state:
         USERNAME = flag_inputs["usn"]
         PASSWORD = flag_inputs["psw"]
-        return True
+        return True, USERNAME, PASSWORD
     else:
-        return False
+        return False, "", ""
 
 
 def arg_parser():
@@ -261,9 +261,9 @@ def arg_parser():
     if username[0] != '-' and password[0] != '-':
         USERNAME = sys.argv[1]
         PASSWORD = sys.argv[2]
-        return True
+        return True, USERNAME, PASSWORD
     else:
-        return False
+        return False, "", ""
 
 
 def get_usr_pw():
@@ -401,10 +401,14 @@ def main():
     global DLPATH, USERNAME, PASSWORD
     global INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH
 
-    if flag_parser():
+    flag_state = flag_parser()
+    arg_state = arg_parser()
+    if flag_state[0]:
         print("Executing by flag input ..")
-    elif arg_parser():
+        USERNAME, PASSWORD = flag_state[1], flag_state[2]
+    elif arg_state[0]:
         print("Executing by user input ..")
+        USERNAME, PASSWORD = arg_state[1], arg_state[2]
     else:
         USERNAME, PASSWORD = get_usr_pw()
     print("Setting username to:", USERNAME)

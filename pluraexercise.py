@@ -12,7 +12,7 @@ from plura_dl.scrapeutils import (
 )
 
 from selenium.webdriver.chrome.options import Options
-from pluradl import get_courses, get_usr_pw, set_directory
+from pluradl import get_courses, get_usr_pw, flag_parser, arg_parser, set_directory
 
 LOGIN_URL=r'https://app.pluralsight.com/id?'
 COURSE_BASE=r'https://app.pluralsight.com/library/courses'
@@ -111,7 +111,19 @@ def main():
 
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     DLPATH = os.path.join(scriptpath,"exercise_files")
-    USERNAME, PASSWORD = get_usr_pw()
+    flag_state = flag_parser()
+    print(flag_state)
+    arg_state = arg_parser()
+    print(arg_state)
+    if flag_state[0]:
+        print("Executing by flag input ..")
+        USERNAME, PASSWORD = flag_state[1], flag_state[2]
+    elif arg_state[0]:
+        print("Executing by user input ..")
+        USERNAME, PASSWORD = arg_state[1], arg_state[2]
+    else:
+        USERNAME, PASSWORD = get_usr_pw()
+    print("Setting username to:", USERNAME)
     courses = get_courses(os.path.dirname(os.path.abspath(sys.argv[0])))
 
     if os.path.exists(DLPATH):
