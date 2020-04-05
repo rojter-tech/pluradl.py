@@ -26,7 +26,7 @@ ALT_DOWNLOAD_EXERCISE_FILE=r'/html/body/div[1]/div[3]/div/div[2]/section/div[4]/
 
 
 def login_routine(driver, LOGIN_URL):
-    """Handles WebDriver login in to Pluralsight
+    """Handles WebDriver login into Pluralsight
     
     Arguments:
         driver {WebDriver} -- WebDriver object to use
