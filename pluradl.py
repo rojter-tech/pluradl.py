@@ -253,7 +253,7 @@ def arg_parser():
         Bool -- Validation of argument input
     """
     if len(sys.argv) < 3:
-        return False
+        return False, "", ""
     global USERNAME
     global PASSWORD
 

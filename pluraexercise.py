@@ -112,9 +112,7 @@ def main():
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     DLPATH = os.path.join(scriptpath,"exercise_files")
     flag_state = flag_parser()
-    print(flag_state)
     arg_state = arg_parser()
-    print(arg_state)
     if flag_state[0]:
         print("Executing by flag input ..")
         USERNAME, PASSWORD = flag_state[1], flag_state[2]
