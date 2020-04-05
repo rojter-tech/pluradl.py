@@ -8,11 +8,12 @@ if sys.version_info[0] <3:
 certpath = os.path.abspath(certifi.where())
 os.environ["SSL_CERT_FILE"] = certpath
 
-# IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # #
-SLEEP_INTERVAL = 40     # minimum sleep time        #                                 #
-SLEEP_OFFSET   = 120    # adding random sleep time  #  Change this at your own risk.  #
-RATE_LIMIT     = 10**6  # download rate in bytes/s  #                                 #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # # # # # # # #
+SLEEP_INTERVAL = 60     # minimum sleep time                   #                                  #
+SLEEP_OFFSET   = 120    # adding random sleep time up to       #  Change this at your own risk.   #
+SLEEP_PLAYLIST = 60     # sleep time between playlist requests #                                  #
+RATE_LIMIT     = 10**6  # download rate in bytes/s             #                                  #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
 DLPATH, USERNAME, PASSWORD = "", "", ""
@@ -364,7 +365,7 @@ def download_courses(courses):
     
     """
     # General PluraDL settings
-    global PDL_OPTS
+    global PDL_OPTS, SLEEP_PLAYLIST
     # Globals
     PDL_OPTS["username"] = USERNAME
     PDL_OPTS["password"] = PASSWORD
@@ -384,12 +385,12 @@ def download_courses(courses):
     if SUBTITLE_OFF:
         PDL_OPTS["writesubtitles"] = False
         PDL_OPTS["allsubtitles"] = False
-    
+
     for course in courses:
         if pluradl(course):
             print("Moving to next course playlist\n")
-            print("Sleeping for 60 seconds ...")
-            time.sleep(60)
+            print("Sleeping for", SLEEP_PLAYLIST, "seconds ...")
+            time.sleep(SLEEP_PLAYLIST)
         else:
             print("\nTerminating requests.\n")
             break
