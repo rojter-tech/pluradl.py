@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import sys, os, shutil, re, getpass, io, certifi, plura_dl
+import sys, os, time, shutil, re, getpass, io, certifi, plura_dl
 from plura_dl import PluraDL
 from plura_dl.utils import ExtractorError, DownloadError
 if sys.version_info[0] <3:
@@ -384,10 +384,12 @@ def download_courses(courses):
     if SUBTITLE_OFF:
         PDL_OPTS["writesubtitles"] = False
         PDL_OPTS["allsubtitles"] = False
-
+    
     for course in courses:
         if pluradl(course):
             print("Moving to next course playlist\n")
+            print("Sleeping for 60 seconds ...")
+            time.sleep(60)
         else:
             print("\nTerminating requests.\n")
             break
