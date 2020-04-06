@@ -10,7 +10,7 @@ os.environ["SSL_CERT_FILE"] = certpath
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # # # # # # # #
 SLEEP_INTERVAL = 60     # minimum sleep time                   #                                  #
-SLEEP_OFFSET   = 120    # adding random sleep time up to       #  Change this at your own risk.   #
+SLEEP_OFFSET   = 120    # set random sleep time up to          #  Change this at your own risk.   #
 SLEEP_PLAYLIST = 60     # sleep time between playlist requests #                                  #
 RATE_LIMIT     = 10**6  # download rate in bytes/s             #                                  #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
