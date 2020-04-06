@@ -8101,8 +8101,8 @@
     },
     "aws-managing-ec2-instances": {
         "author": "Armen Avanesi",
-        "date": "May 23 2019",
-        "length": 78,
+        "date": "Apr 6 2020",
+        "length": 77,
         "level": "Beginner",
         "rating": 12,
         "title": "Managing AWS EC2 Instances",
@@ -48097,8 +48097,8 @@
     },
     "microsoft-azure-applications-securing": {
         "author": "Reza Salehi",
-        "date": "Jun 5 2019",
-        "length": 167,
+        "date": "Apr 6 2020",
+        "length": 196,
         "level": "Beginner",
         "rating": "",
         "title": "Securing Applications in Microsoft Azure",
