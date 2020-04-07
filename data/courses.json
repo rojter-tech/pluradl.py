@@ -6493,7 +6493,7 @@
         "date": "Sep 18 2017",
         "length": 398,
         "level": "Intermediate",
-        "rating": 89,
+        "rating": 90,
         "title": "Building an Enterprise Application with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-mvc-enterprise-application"
     },
@@ -39775,7 +39775,7 @@
         "date": "May 8 2019",
         "length": 59,
         "level": "Beginner",
-        "rating": 51,
+        "rating": 52,
         "title": "Introduction to Microsoft Cloud Services",
         "url": "https://www.pluralsight.com/courses/introduction-microsoft-cloud-services"
     },
@@ -44176,7 +44176,7 @@
         "date": "Mar 1 2016",
         "length": 266,
         "level": "Intermediate",
-        "rating": 237,
+        "rating": 238,
         "title": "More Effective LINQ",
         "url": "https://www.pluralsight.com/courses/linq-more-effective"
     },
@@ -55399,7 +55399,7 @@
         "date": "Jun 26 2013",
         "length": 143,
         "level": "Intermediate",
-        "rating": 1280,
+        "rating": 1281,
         "title": "Introduction to OAuth2, OpenID Connect and JSON Web Tokens (JWT)",
         "url": "https://www.pluralsight.com/courses/oauth2-json-web-tokens-openid-connect-introduction"
     },
@@ -69205,7 +69205,7 @@
         "date": "Apr 13 2018",
         "length": 79,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 12,
         "title": "Personnel Security",
         "url": "https://www.pluralsight.com/courses/security-personnel"
     },
