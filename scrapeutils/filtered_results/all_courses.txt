@@ -1687,6 +1687,7 @@ cisco-ccnp-security-secure-design-principles
 cisco-cicd-210-060-troubleshooting
 cisco-core-security-describing-configuring-vpns
 cisco-core-security-network-security
+cisco-core-security-network-security-cisco-asa
 cisco-core-security-network-security-cisco-ios
 cisco-core-security-secure-network-access-cisco-ise
 cisco-core-security-secure-network-access-visibility-enforcement
