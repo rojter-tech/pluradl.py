@@ -45575,6 +45575,15 @@
         "title": "Managing Load Balancing and Scale in Docker Swarm Mode Clusters",
         "url": "https://www.pluralsight.com/courses/managing-load-balancing-scale-docker-swarm-clusters"
     },
+    "managing-maintaining-sharepoint-2019-farm": {
+        "author": "Liam Cleary",
+        "date": "Apr 7 2020",
+        "length": 243,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Managing and Maintaining a SharePoint 2019 Farm",
+        "url": "https://www.pluralsight.com/courses/managing-maintaining-sharepoint-2019-farm"
+    },
     "managing-maintaining-windows-10": {
         "author": "Glenn Weadock",
         "date": "Aug 16 2017",
@@ -62512,6 +62521,15 @@
         "rating": "",
         "title": "Projection Painting with Spotlight in ZBrush",
         "url": "https://www.pluralsight.com/courses/projection-painting-spotlight-zbrush-480"
+    },
+    "protecting-against-xml-external-entity-deserialization-attacks-aspnet-aspnetcore": {
+        "author": "David Berry",
+        "date": "Apr 7 2020",
+        "length": 28,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Protecting Against XML External Entity and Deserialization Attacks in ASP.NET and ASP.NET Core",
+        "url": "https://www.pluralsight.com/courses/protecting-against-xml-external-entity-deserialization-attacks-aspnet-aspnetcore"
     },
     "protocol-buffers-beyond-json-xml": {
         "author": "Mike Van Sickle",

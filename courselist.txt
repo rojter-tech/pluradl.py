@@ -5062,6 +5062,7 @@ managing-kubernetes-api-server-pods
 managing-kubernetes-controllers-deployments
 managing-line-weights-linetype-autocad-1742
 managing-load-balancing-scale-docker-swarm-clusters
+managing-maintaining-sharepoint-2019-farm
 managing-maintaining-windows-10
 managing-maintaining-windows-10-creators
 managing-maintaining-windows-server-2019-active-directory-domain-services
@@ -6944,6 +6945,7 @@ project-server-2010-2013-administration
 project-server-2013-installation
 project-server-online-delegation-introduction
 projection-painting-spotlight-zbrush-480
+protecting-against-xml-external-entity-deserialization-attacks-aspnet-aspnetcore
 protocol-buffers-beyond-json-xml
 protocol-deep-dive-arp
 protocol-deep-dive-dhcp
