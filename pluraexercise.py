@@ -129,17 +129,22 @@ def main():
     else:
         course_tags = []
 
-    driver = set_chrome_driver(DLPATH)
-    set_directory(DLPATH)
-    login_routine(driver, LOGIN_URL)
+    courses_to_fetch = []
     for course in courses:
         if course[0] not in course_tags:
-            download_routine(driver, course[0], sleep_time=5)
+            courses_to_fetch.append(course)
         else:
             print(course[0], "is tagged, skipping it.")
-    print("\nEnd of list reached. Downloads might still be in progress.")
-    enter_hibernation()
-    driver.close()
+
+    if courses_to_fetch:
+        driver = set_chrome_driver(DLPATH)
+        set_directory(DLPATH)
+        login_routine(driver, LOGIN_URL)
+        for course in courses_to_fetch:
+            download_routine(driver, course[0], sleep_time=5)
+        print("\nEnd of list reached. Downloads might still be in progress.")
+        enter_hibernation()
+        driver.close()
 
 
 if __name__ == "__main__":
