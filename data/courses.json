@@ -56240,6 +56240,15 @@
         "title": "Optimizing SQL Queries in Oracle",
         "url": "https://www.pluralsight.com/courses/optimizing-sql-queries-oracle"
     },
+    "optimizing-sql-server-statistics-indexes": {
+        "author": "Gail Shaw",
+        "date": "Apr 8 2020",
+        "length": 109,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Optimizing SQL Server Statistics and Indexes",
+        "url": "https://www.pluralsight.com/courses/optimizing-sql-server-statistics-indexes"
+    },
     "optimizing-video-footage-after-effects-1608": {
         "author": "Alex Hernandez",
         "date": "Jun 18 2014",
