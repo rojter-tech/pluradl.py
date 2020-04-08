@@ -71954,6 +71954,15 @@
         "title": "How to Roll-out Changes Your Users Will Actually Adopt",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-14"
     },
+    "snowforce-2020-session-15": {
+        "author": "Snowforce",
+        "date": "Apr 8 2020",
+        "length": 30,
+        "level": "Beginner",
+        "rating": "",
+        "title": "The Hidden Treasure of Data in Your Users' Inbox, and the Way to Automate Everything Around It",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-15"
+    },
     "snowforce-2020-session-17": {
         "author": "Snowforce",
         "date": "Mar 13 2020",
@@ -72025,6 +72034,15 @@
         "rating": "",
         "title": "Building a Single Page App on LWC - npx create-lwc-app Snowforce",
         "url": "https://www.pluralsight.com/courses/snowforce-2020-session-25"
+    },
+    "snowforce-2020-session-26": {
+        "author": "Snowforce",
+        "date": "Apr 8 2020",
+        "length": 16,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "5 Steps to Salesforce DevOps Enlightenment",
+        "url": "https://www.pluralsight.com/courses/snowforce-2020-session-26"
     },
     "so-you-want-to-be-a-business-analyst": {
         "author": "Casey Ayers",

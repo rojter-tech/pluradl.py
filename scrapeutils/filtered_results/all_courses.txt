@@ -7993,6 +7993,7 @@ snowforce-2020-session-11
 snowforce-2020-session-12
 snowforce-2020-session-13
 snowforce-2020-session-14
+snowforce-2020-session-15
 snowforce-2020-session-17
 snowforce-2020-session-18
 snowforce-2020-session-19
@@ -8001,6 +8002,7 @@ snowforce-2020-session-22
 snowforce-2020-session-23
 snowforce-2020-session-24
 snowforce-2020-session-25
+snowforce-2020-session-26
 so-you-want-to-be-a-business-analyst
 soa-real-world-analysis-design
 soa-real-world-design-implementation
