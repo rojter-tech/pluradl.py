@@ -2200,7 +2200,7 @@
         "date": "Jan 2 2020",
         "length": 160,
         "level": "Intermediate",
-        "rating": 1494,
+        "rating": 1497,
         "title": "Agile Fundamentals",
         "url": "https://www.pluralsight.com/courses/agile-fundamentals"
     },
@@ -4216,7 +4216,7 @@
         "date": "Jan 5 2018",
         "length": 188,
         "level": "Beginner",
-        "rating": 168,
+        "rating": 170,
         "title": "Angular Material",
         "url": "https://www.pluralsight.com/courses/angular-material"
     },
@@ -5359,7 +5359,7 @@
         "date": "Nov 18 2019",
         "length": 143,
         "level": "Beginner",
-        "rating": 473,
+        "rating": 474,
         "title": "Apex Academy: Absolute Beginner's Guide to Coding in Salesforce",
         "url": "https://www.pluralsight.com/courses/apex-absolute-beginner-guide-coding-salesforce"
     },
@@ -7582,7 +7582,7 @@
         "date": "May 10 2019",
         "length": 305,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Architecting for Cost on AWS",
         "url": "https://www.pluralsight.com/courses/aws-architecting-cost"
     },
@@ -13441,7 +13441,7 @@
         "date": "Jun 5 2015",
         "length": 114,
         "level": "Beginner",
-        "rating": 246,
+        "rating": 248,
         "title": "Introduction to Business Information Technology",
         "url": "https://www.pluralsight.com/courses/business-information-technology-introduction"
     },
@@ -18382,7 +18382,7 @@
         "date": "Jan 14 2019",
         "length": 153,
         "level": "Beginner",
-        "rating": 14,
+        "rating": 15,
         "title": "Computer Fundamentals: Mobile Devices",
         "url": "https://www.pluralsight.com/courses/computer-fundamentals-mobile-devices"
     },
@@ -21073,7 +21073,7 @@
         "date": "Oct 26 2014",
         "length": 50,
         "level": "Beginner",
-        "rating": 912,
+        "rating": 914,
         "title": "CSS Positioning",
         "url": "https://www.pluralsight.com/courses/css-positioning-1834"
     },
@@ -32692,7 +32692,7 @@
         "date": "Feb 10 2020",
         "length": 122,
         "level": "Beginner",
-        "rating": 22,
+        "rating": 23,
         "title": "Getting Started with Git",
         "url": "https://www.pluralsight.com/courses/getting-started-git"
     },
@@ -33088,7 +33088,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 85,
+        "rating": 90,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -33259,7 +33259,7 @@
         "date": "Aug 28 2019",
         "length": 181,
         "level": "Beginner",
-        "rating": 66,
+        "rating": 67,
         "title": "TypeScript: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-typescript"
     },
@@ -35320,7 +35320,7 @@
         "date": "Jun 21 2019",
         "length": 140,
         "level": "Beginner",
-        "rating": 2641,
+        "rating": 2643,
         "title": "HTML Fundamentals",
         "url": "https://www.pluralsight.com/courses/html-fundamentals"
     },
@@ -35500,7 +35500,7 @@
         "date": "Jan 11 2019",
         "length": 200,
         "level": "Intermediate",
-        "rating": 114,
+        "rating": 115,
         "title": "Using HttpClient to Consume APIs in .NET Core",
         "url": "https://www.pluralsight.com/courses/httpclient-consume-apis-dotnet-core"
     },
@@ -40684,7 +40684,7 @@
         "date": "Dec 20 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 3078,
+        "rating": 3081,
         "title": "Introduction to SQL",
         "url": "https://www.pluralsight.com/courses/introduction-to-sql"
     },
@@ -43528,7 +43528,7 @@
         "date": "Dec 19 2016",
         "length": 83,
         "level": "Beginner",
-        "rating": 75,
+        "rating": 76,
         "title": "Truth About Data: Getting Started with Lean Six Sigma Analytics",
         "url": "https://www.pluralsight.com/courses/lean-six-sigma-analytics-truth-about-data-getting-started"
     },
@@ -43591,7 +43591,7 @@
         "date": "Jul 22 2013",
         "length": 417,
         "level": "Beginner",
-        "rating": 831,
+        "rating": 832,
         "title": "Learn How to Program with C++",
         "url": "https://www.pluralsight.com/courses/learn-programming-cplusplus"
     },
@@ -51637,7 +51637,7 @@
         "date": "Jan 6 2020",
         "length": 138,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 23,
         "title": "Microsoft Teams (2019)",
         "url": "https://www.pluralsight.com/courses/microsoft-teams-2019"
     },
@@ -59413,7 +59413,7 @@
         "date": "Apr 6 2018",
         "length": 128,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Play by Play: Obliterate the Tedium - Practical VBA for the Excel Practitioner",
         "url": "https://www.pluralsight.com/courses/play-by-play-obliterate-tedium-practical-vba-excel-practitioner"
     },
@@ -73192,7 +73192,7 @@
         "date": "Apr 3 2014",
         "length": 248,
         "level": "Intermediate",
-        "rating": 392,
+        "rating": 393,
         "title": "Spring Security Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-security-fundamentals"
     },
@@ -81283,7 +81283,7 @@
         "date": "May 3 2019",
         "length": 113,
         "level": "Beginner",
-        "rating": 77,
+        "rating": 78,
         "title": "Using React Hooks",
         "url": "https://www.pluralsight.com/courses/using-react-hooks"
     },
@@ -86584,7 +86584,7 @@
         "date": "Jun 19 2017",
         "length": 205,
         "level": "Intermediate",
-        "rating": 35,
+        "rating": 36,
         "title": "Implementing Windows Server 2016 Identity Federation and Access",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-identity-federation-access-solutions"
     },
