@@ -60989,7 +60989,7 @@
         "length": 242,
         "level": "Intermediate",
         "rating": 61,
-        "title": "PowerShell Remoting Fundamentals",
+        "title": "Windows PowerShell Remoting Fundamentals",
         "url": "https://www.pluralsight.com/courses/powershell-remoting-fundamentals"
     },
     "powershell-studio-2015-creating-guis-essentials": {
@@ -73607,7 +73607,7 @@
         "length": 55,
         "level": "Beginner",
         "rating": 42,
-        "title": "Accessing SQL Server Databases from PowerShell",
+        "title": "Accessing SQL Server Databases from Windows PowerShell",
         "url": "https://www.pluralsight.com/courses/sql-server-databases-powershell"
     },
     "sql-server-distributed-replay": {
