@@ -6247,6 +6247,7 @@ optimizing-google-cloud-platform-gcp-costs
 optimizing-images-web-photoshop-1655
 optimizing-oltp-data-warehousing-sql-server-2014
 optimizing-sql-queries-oracle
+optimizing-sql-server-statistics-indexes
 optimizing-video-footage-after-effects-1608
 oracle-12-point-2-upgrade
 oracle-autonomous-data-warehouse-cloud
