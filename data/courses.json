@@ -7439,7 +7439,7 @@
         "length": 175,
         "level": "Beginner",
         "rating": 36,
-        "title": "Automation with PowerShell Scripts",
+        "title": "Automation with Windows PowerShell Scripts",
         "url": "https://www.pluralsight.com/courses/automation-powershell-scripts"
     },
     "automotive-concepts-sketchbook-pro-1232": {
@@ -13327,6 +13327,15 @@
         "rating": "",
         "title": "Agile Business Analysis: From Strategic Planning to Delivering Value",
         "url": "https://www.pluralsight.com/courses/business-analysis-strategic-planning-delivering-value"
+    },
+    "business-analysis-techniques-agile-environments": {
+        "author": "Milena Pajic",
+        "date": "Apr 8 2020",
+        "length": 65,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Applying Business Analysis Techniques in Agile Environments",
+        "url": "https://www.pluralsight.com/courses/business-analysis-techniques-agile-environments"
     },
     "business-analysis-techniques-conducting-strategy-analysis": {
         "author": "Casey Ayers",
@@ -27940,7 +27949,7 @@
         "date": "Jul 16 2019",
         "length": 177,
         "level": "Beginner",
-        "rating": 14,
+        "rating": 15,
         "title": "Introduction to Developing AWS Lambdas in Java",
         "url": "https://www.pluralsight.com/courses/enterprise-aws-lambdas-java-eclipse-ide"
     },
@@ -35392,7 +35401,7 @@
         "date": "Jun 21 2019",
         "length": 140,
         "level": "Beginner",
-        "rating": 2643,
+        "rating": 2644,
         "title": "HTML Fundamentals",
         "url": "https://www.pluralsight.com/courses/html-fundamentals"
     },
@@ -59404,7 +59413,7 @@
         "date": "Jul 19 2014",
         "length": 135,
         "level": "Advanced",
-        "rating": 506,
+        "rating": 508,
         "title": "Play by Play: HTML, CSS, and JavaScript with Lea Verou",
         "url": "https://www.pluralsight.com/courses/play-by-play-lea-verou"
     },
@@ -59530,7 +59539,7 @@
         "date": "Apr 6 2018",
         "length": 128,
         "level": "Beginner",
-        "rating": 36,
+        "rating": 37,
         "title": "Play by Play: Obliterate the Tedium - Practical VBA for the Excel Practitioner",
         "url": "https://www.pluralsight.com/courses/play-by-play-obliterate-tedium-practical-vba-excel-practitioner"
     },
