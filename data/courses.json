@@ -14246,6 +14246,15 @@
         "title": "CCSP®: Cloud Platform Security",
         "url": "https://www.pluralsight.com/courses/ccsp-cloud-platform-security"
     },
+    "ccsp-cloud-risk-compliance": {
+        "author": "Lyron Andrews",
+        "date": "Apr 9 2020",
+        "length": 63,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "CCSP®: Cloud Risk and Compliance",
+        "url": "https://www.pluralsight.com/courses/ccsp-cloud-risk-compliance"
+    },
     "ccsp-cloud-security-operations-controls": {
         "author": "Lyron Andrews",
         "date": "Mar 18 2020",
@@ -20518,6 +20527,15 @@
         "rating": "",
         "title": "Credential Access with Mimikatz",
         "url": "https://www.pluralsight.com/courses/credential-access-mimikatz"
+    },
+    "credential-access-responder": {
+        "author": "Ricardo Reimao",
+        "date": "Apr 2 2020",
+        "length": 20,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Credential Access with Responder",
+        "url": "https://www.pluralsight.com/courses/credential-access-responder"
     },
     "credential-access-thc-hydra": {
         "author": "Lee Allen",
@@ -30221,6 +30239,15 @@
         "title": "File Storage Using AWS S3 and Glacier: Developer Deep Dive",
         "url": "https://www.pluralsight.com/courses/file-storage-aws-s3-glacier-developer-deep-dive"
     },
+    "files-java-nio-api": {
+        "author": "Jose Paumard",
+        "date": "Apr 3 2020",
+        "length": 54,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Working with Files in Java Using the Java NIO API",
+        "url": "https://www.pluralsight.com/courses/files-java-nio-api"
+    },
     "film-noir-styled-artwork-illustrator-1269": {
         "author": "Eddie Russell",
         "date": "Aug 26 2013",
@@ -33803,6 +33830,24 @@
         "title": "Designing and Implementing Solutions Using Google Cloud AutoML",
         "url": "https://www.pluralsight.com/courses/google-cloud-automl-designing-implementing-solutions"
     },
+    "google-cloud-aws-professionals": {
+        "author": "Google Cloud",
+        "date": "Mar 31 2020",
+        "length": 231,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Google Cloud Fundamentals for AWS Professionals",
+        "url": "https://www.pluralsight.com/courses/google-cloud-aws-professionals"
+    },
+    "google-cloud-azure-windows-professionals": {
+        "author": "Google Cloud",
+        "date": "Mar 31 2020",
+        "length": 225,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Google Cloud Fundamentals for Azure Professionals",
+        "url": "https://www.pluralsight.com/courses/google-cloud-azure-windows-professionals"
+    },
     "google-cloud-big-query": {
         "author": "Lynn Langit",
         "date": "Mar 29 2013",
@@ -36431,6 +36476,15 @@
         "title": "Implementing Cisco UCS: Managing and Troubleshooting",
         "url": "https://www.pluralsight.com/courses/implementing-cisco-ucs-managing-and-troubleshooting"
     },
+    "implementing-cloud-app-security-microsoft-365": {
+        "author": "Brian Alderman",
+        "date": "Mar 31 2020",
+        "length": 44,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing Cloud App Security in Microsoft 365",
+        "url": "https://www.pluralsight.com/courses/implementing-cloud-app-security-microsoft-365"
+    },
     "implementing-cloud-services-azure-infrastructure": {
         "author": "Razi bin Rais",
         "date": "Jul 10 2015",
@@ -36520,6 +36574,15 @@
         "rating": "",
         "title": "Implementing and Managing Office 365 Advanced Threat Protection",
         "url": "https://www.pluralsight.com/courses/implementing-managing-office-365-advanced-threat-protection"
+    },
+    "implementing-message-brokering-amazon-mq": {
+        "author": "Michael Heydt",
+        "date": "Apr 9 2020",
+        "length": 97,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing Message Brokering with Amazon MQ",
+        "url": "https://www.pluralsight.com/courses/implementing-message-brokering-amazon-mq"
     },
     "implementing-mobile-device-management-microsoft-365": {
         "author": "Brian Alderman",
@@ -48463,6 +48526,15 @@
         "rating": 21,
         "title": "Microsoft Azure Cognitive Services: Face API",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-cognitive-services-face-api"
+    },
+    "microsoft-azure-cognitive-services-immersive-reader": {
+        "author": "Reza Salehi",
+        "date": "Apr 1 2020",
+        "length": 50,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Microsoft Azure Cognitive Services: Immersive Reader",
+        "url": "https://www.pluralsight.com/courses/microsoft-azure-cognitive-services-immersive-reader"
     },
     "microsoft-azure-cognitive-services-language-services": {
         "author": "William Myers",
@@ -61495,6 +61567,15 @@
         "rating": "",
         "title": "On Premises Capacity Upgrade and Monitoring with Google Cloud's Apigee API Platform",
         "url": "https://www.pluralsight.com/courses/premises-capacity-upgrade-monitoring-google-clouds-apigee-api-platform"
+    },
+    "premises-installation-fundamentals-google-clouds-apigee-api-platform": {
+        "author": "Google Cloud",
+        "date": "Apr 3 2020",
+        "length": 82,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "On Premises Installation and Fundamentals with Google Cloud's Apigee API Platform",
+        "url": "https://www.pluralsight.com/courses/premises-installation-fundamentals-google-clouds-apigee-api-platform"
     },
     "premises-management-security-upgrade-google-clouds-apigee-api-platform": {
         "author": "Google Cloud",
@@ -87353,6 +87434,15 @@
         "title": "Working with Excel on the iPad",
         "url": "https://www.pluralsight.com/courses/working-excel-ipad"
     },
+    "working-geolocation-html": {
+        "author": "Paul D. Sheriff",
+        "date": "Apr 6 2020",
+        "length": 96,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Working with Geolocation in HTML",
+        "url": "https://www.pluralsight.com/courses/working-geolocation-html"
+    },
     "working-geometric-constraints-autocad-1798": {
         "author": "Pierre Derenoncourt",
         "date": "Sep 25 2014",
@@ -88142,7 +88232,7 @@
         "length": 68,
         "level": "Beginner",
         "rating": 25,
-        "title": "Working with XML Data in PowerShell",
+        "title": "Working with XML Data in Windows PowerShell",
         "url": "https://www.pluralsight.com/courses/xml-data-powershell"
     },
     "xml-fund": {

@@ -1581,6 +1581,7 @@ ccsp-cloud-governance-data-privacy-audit
 ccsp-cloud-infrastructure-security
 ccsp-cloud-physical-logical-infrastructure
 ccsp-cloud-platform-security
+ccsp-cloud-risk-compliance
 ccsp-cloud-security-operations-controls
 centaur-zbrush-1099
 centralized-logging-elastic-stack
@@ -2278,6 +2279,7 @@ creature-rigging-maya-insects-3522
 creature-texturing-mari-1458
 creature-texturing-mari-32
 credential-access-mimikatz
+credential-access-responder
 credential-access-thc-hydra
 crisis-communication-technology-colleagues
 critical-analytical-skills-data-literacy-executive-briefing
@@ -3356,6 +3358,7 @@ fiddler-chrome-developer-tools-debugging-website
 field-guide-binary
 fiery-skin-effects-nukex-2178
 file-storage-aws-s3-glacier-developer-deep-dive
+files-java-nio-api
 film-noir-styled-artwork-illustrator-1269
 film-sound-production
 filter-data-couchbase-n1ql
@@ -3754,6 +3757,8 @@ google-charts-creating-interactive-dashboards
 google-cloud-architecting-storage-configurations
 google-cloud-armor-security-scanner-data-loss-prevention-api-leveraging
 google-cloud-automl-designing-implementing-solutions
+google-cloud-aws-professionals
+google-cloud-azure-windows-professionals
 google-cloud-big-query
 google-cloud-compute-engine-creating-configuring-virtual-machines
 google-cloud-compute-engine-solutions-choosing-implementing
@@ -4046,6 +4051,7 @@ implementing-bas-relief-techniques-photoshop-illustrator-1835
 implementing-cis-critical-security-controls
 implementing-cisco-ucs-installing-and-configuring
 implementing-cisco-ucs-managing-and-troubleshooting
+implementing-cloud-app-security-microsoft-365
 implementing-cloud-services-azure-infrastructure
 implementing-custom-middleware-components-aspdotnet-core
 implementing-deployment-solutions-actc-10-11
@@ -4056,6 +4062,7 @@ implementing-eigrp-ccnp-routing-switching-300-101-route
 implementing-failover-clustering-storage-spaces-direct-windows-server-2019
 implementing-incident-management-scsm-2016
 implementing-managing-office-365-advanced-threat-protection
+implementing-message-brokering-amazon-mq
 implementing-mobile-device-management-microsoft-365
 implementing-netscaler-12-high-availability
 implementing-ospf-ccnp-routing-switching-300-101-route
@@ -5383,6 +5390,7 @@ microsoft-azure-cognitive-services-computer-vision-api
 microsoft-azure-cognitive-services-content-moderator
 microsoft-azure-cognitive-services-custom-vision-api
 microsoft-azure-cognitive-services-face-api
+microsoft-azure-cognitive-services-immersive-reader
 microsoft-azure-cognitive-services-language-services
 microsoft-azure-cognitive-services-qna-maker
 microsoft-azure-cognitive-services-recognition-bing-speech-api
@@ -6831,6 +6839,7 @@ premiere-pro-media-encoder-mastering-compression-settings-2502
 premiere-pro-psychological-editing-2490
 premierepro-cc-fundamentals
 premises-capacity-upgrade-monitoring-google-clouds-apigee-api-platform
+premises-installation-fundamentals-google-clouds-apigee-api-platform
 premises-management-security-upgrade-google-clouds-apigee-api-platform
 preparing-cobit5-foundation-exam
 preparing-data-feature-engineering-machine-learning
@@ -9704,6 +9713,7 @@ working-drawings-construction-documents-autocad-1534
 working-dwg-files-revit-1444
 working-enlighten-image-effects-unity-2339
 working-excel-ipad
+working-geolocation-html
 working-geometric-constraints-autocad-1798
 working-git-branches
 working-javascript-modules
