@@ -5323,7 +5323,7 @@
         "date": "Mar 7 2020",
         "length": 255,
         "level": "Intermediate",
-        "rating": 265,
+        "rating": 266,
         "title": "Apache Spark Fundamentals",
         "url": "https://www.pluralsight.com/courses/apache-spark-fundamentals"
     },
@@ -5998,7 +5998,7 @@
         "date": "Dec 13 2019",
         "length": 74,
         "level": "Beginner",
-        "rating": 34,
+        "rating": 35,
         "title": "Artificial Intelligence: The Big Picture of AI",
         "url": "https://www.pluralsight.com/courses/artificial-intelligence-big-picture"
     },
@@ -11690,6 +11690,15 @@
         "title": "Build Your First Data Visualization with Google Charts",
         "url": "https://www.pluralsight.com/courses/build-first-data-visualization-google-charts"
     },
+    "build-first-data-visualization-seaborn": {
+        "author": "Pratheerth Padman",
+        "date": "Apr 8 2020",
+        "length": 35,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Build Your First Data Visualization with Seaborn",
+        "url": "https://www.pluralsight.com/courses/build-first-data-visualization-seaborn"
+    },
     "build-go-apps-gorilla-toolkit": {
         "author": "Mike Van Sickle",
         "date": "Aug 28 2015",
@@ -13648,7 +13657,7 @@
         "date": "May 10 2017",
         "length": 45,
         "level": "Beginner",
-        "rating": 61,
+        "rating": 63,
         "title": "Web App Hacking: Caching Problems",
         "url": "https://www.pluralsight.com/courses/caching-problems-web-app-hacking"
     },
@@ -21388,7 +21397,7 @@
         "date": "Oct 17 2016",
         "length": 62,
         "level": "Intermediate",
-        "rating": 36,
+        "rating": 38,
         "title": "Understanding Customer Service Processes and Procedures",
         "url": "https://www.pluralsight.com/courses/customer-service-processes-procedures-understanding"
     },
@@ -22129,6 +22138,15 @@
         "rating": "",
         "title": "Deploying Cisco Unified IM and Presence with Jabber",
         "url": "https://www.pluralsight.com/courses/deploying-cisco-unified-im-presence-jabber"
+    },
+    "deploying-code-aws-codedeploy": {
+        "author": "Joshua Edwards",
+        "date": "Apr 8 2020",
+        "length": 71,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Deploying Code with AWS CodeDeploy",
+        "url": "https://www.pluralsight.com/courses/deploying-code-aws-codedeploy"
     },
     "deploying-databases-octopus": {
         "author": "Chris Behrens",
@@ -43559,6 +43577,15 @@
         "title": "Leading with Emotional Intelligence",
         "url": "https://www.pluralsight.com/courses/leading-emotional-intelligence"
     },
+    "leading-through-crisis-executive-briefing": {
+        "author": "Matthew Pizzi",
+        "date": "Apr 1 2020",
+        "length": 17,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Leading through Crisis: Executive Briefing",
+        "url": "https://www.pluralsight.com/courses/leading-through-crisis-executive-briefing"
+    },
     "lean-agile-enterprise-architecture-getting-started": {
         "author": "Joseph Anthony",
         "date": "Mar 9 2017",
@@ -63382,7 +63409,7 @@
         "date": "Nov 14 2016",
         "length": 103,
         "level": "Beginner",
-        "rating": 206,
+        "rating": 207,
         "title": "Getting Started with Natural Language Processing with Python",
         "url": "https://www.pluralsight.com/courses/python-natural-language-processing"
     },
@@ -67175,6 +67202,15 @@
         "title": "Running the Business of Information Security",
         "url": "https://www.pluralsight.com/courses/running-business-information-security"
     },
+    "running-jenkins-docker": {
+        "author": "Chris Behrens",
+        "date": "Apr 8 2020",
+        "length": 127,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Running Jenkins in Docker",
+        "url": "https://www.pluralsight.com/courses/running-jenkins-docker"
+    },
     "running-large-solution-at-scale": {
         "author": "Tommy van Schaik",
         "date": "Nov 7 2019",
@@ -68875,6 +68911,15 @@
         "rating": 28,
         "title": "Securing Linux Servers",
         "url": "https://www.pluralsight.com/courses/securing-linux-servers"
+    },
+    "securing-microsoft-365-messaging-environments": {
+        "author": "Robert McMillen",
+        "date": "Apr 9 2020",
+        "length": 141,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Securing Microsoft 365 Messaging Environments",
+        "url": "https://www.pluralsight.com/courses/securing-microsoft-365-messaging-environments"
     },
     "securing-microsoft-azure-subscriptions": {
         "author": "Tim Warner",

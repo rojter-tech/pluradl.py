@@ -1297,6 +1297,7 @@ build-dynamic-web-sites-mysql-php
 build-excel-addins-office-js-apis
 build-first-data-visualization-ggplot2
 build-first-data-visualization-google-charts
+build-first-data-visualization-seaborn
 build-go-apps-gorilla-toolkit
 build-ios-apps-react-native
 build-isomorphic-app-react-flux-webpack-firebase
@@ -2457,6 +2458,7 @@ deploying-chef-cookbooks
 deploying-cisco-enterprise-voicemail-unity-express-mediasense-server
 deploying-cisco-prime-collab-telepresence-management-server
 deploying-cisco-unified-im-presence-jabber
+deploying-code-aws-codedeploy
 deploying-databases-octopus
 deploying-enterprise-voicemail-cisco-unity-connection
 deploying-gamesalad-games-for-testing
@@ -4838,6 +4840,7 @@ leadership-communication-software-engineers
 leadership-for-non-managers
 leadership-getting-started
 leading-emotional-intelligence
+leading-through-crisis-executive-briefing
 lean-agile-enterprise-architecture-getting-started
 lean-front-end-engineering
 lean-in-navigating-gender-bias-at-work
@@ -7462,6 +7465,7 @@ run-cycles-maya-1062
 run-effective-meetings
 running-applications-microsoft-azure-getting-started
 running-business-information-security
+running-jenkins-docker
 running-large-solution-at-scale
 running-node-applications-io-js
 running-xenmobile-vsphere
@@ -7651,6 +7655,7 @@ securing-integrating-components-application
 securing-integrating-components-application-1
 securing-java-web-application-data
 securing-linux-servers
+securing-microsoft-365-messaging-environments
 securing-microsoft-azure-subscriptions
 securing-network-communication-cisco-vpns
 securing-network-devices-ccna-security-210-260-iins
