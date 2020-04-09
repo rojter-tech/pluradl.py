@@ -18391,7 +18391,7 @@
         "date": "Jan 22 2019",
         "length": 132,
         "level": "Beginner",
-        "rating": 27,
+        "rating": 28,
         "title": "Computer Fundamentals: Networking",
         "url": "https://www.pluralsight.com/courses/computer-fundamentals-networking"
     },
@@ -22585,7 +22585,7 @@
         "date": "Jan 31 2020",
         "length": 151,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "Designing and Building Enterprise Blazor Applications",
         "url": "https://www.pluralsight.com/courses/designing-building-enterprise-blazor-applications"
     },
@@ -24466,7 +24466,7 @@
         "date": "Aug 1 2016",
         "length": 132,
         "level": "Beginner",
-        "rating": 1022,
+        "rating": 1024,
         "title": "Getting Started with Docker",
         "url": "https://www.pluralsight.com/courses/docker-getting-started"
     },
@@ -87052,7 +87052,7 @@
         "date": "Oct 9 2017",
         "length": 85,
         "level": "Advanced",
-        "rating": 64,
+        "rating": 65,
         "title": "Troubleshooting with Wireshark: Analyzing and Decrypting TLS Traffic in Wireshark (Using HTTPs)",
         "url": "https://www.pluralsight.com/courses/wireshark-troubleshooting-analyzing-decrypting-tls-traffic"
     },
