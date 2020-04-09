@@ -21595,7 +21595,7 @@
         "date": "Sep 15 2017",
         "length": 69,
         "level": "Beginner",
-        "rating": 584,
+        "rating": 585,
         "title": "Data Science: The Big Picture",
         "url": "https://www.pluralsight.com/courses/data-science-big-picture"
     },
@@ -32665,7 +32665,7 @@
         "date": "Jan 11 2020",
         "length": 222,
         "level": "Beginner",
-        "rating": 34,
+        "rating": 35,
         "title": "Entity Framework Core: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-entity-framework-core"
     },
@@ -33655,7 +33655,7 @@
         "date": "Aug 11 2017",
         "length": 102,
         "level": "Intermediate",
-        "rating": 55,
+        "rating": 56,
         "title": "Object-oriented Programming with Go",
         "url": "https://www.pluralsight.com/courses/go-object-oriented-programming"
     },
@@ -35518,7 +35518,7 @@
         "date": "Jan 25 2020",
         "length": 47,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Implementing HTTPS in ASP.NET and ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/https-aspnet-and-aspnet-core"
     },
@@ -45031,7 +45031,7 @@
         "date": "Jul 11 2019",
         "length": 39,
         "level": "Beginner",
-        "rating": 160,
+        "rating": 161,
         "title": "Machine Learning: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/machine-learning-executive-briefing"
     },
@@ -48532,7 +48532,7 @@
         "date": "Nov 19 2019",
         "length": 253,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 21,
         "title": "Design a Compute Strategy for Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-compute-strategy-design"
     },
@@ -54949,7 +54949,7 @@
         "date": "Mar 31 2014",
         "length": 319,
         "level": "Intermediate",
-        "rating": 1346,
+        "rating": 1347,
         "title": "Node.js for .NET Developers",
         "url": "https://www.pluralsight.com/courses/nodejs-dotnet-developers"
     },
@@ -59008,7 +59008,7 @@
         "date": "Sep 26 2016",
         "length": 89,
         "level": "Beginner",
-        "rating": 53,
+        "rating": 54,
         "title": "Play by Play: Ethical Hacking - Deconstructing the Hack",
         "url": "https://www.pluralsight.com/courses/play-by-play-ethical-hacking-deconstructing-hack"
     },
@@ -68539,7 +68539,7 @@
         "date": "Jul 26 2019",
         "length": 71,
         "level": "Beginner",
-        "rating": "",
+        "rating": 12,
         "title": "Searching and Manipulating Data in Excel",
         "url": "https://www.pluralsight.com/courses/searching-manipulating-data-excel"
     },
