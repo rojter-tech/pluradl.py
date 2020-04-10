@@ -18685,7 +18685,7 @@
     },
     "configuring-aad-microsoft-azure-workloads": {
         "author": "Tim Warner",
-        "date": "Mar 31 2020",
+        "date": "Apr 10 2020",
         "length": 180,
         "level": "Intermediate",
         "rating": 11,
@@ -22039,6 +22039,15 @@
         "rating": 30,
         "title": "Defending Against JavaScript Keylogger Attacks on Payment Card Information",
         "url": "https://www.pluralsight.com/courses/defending-javascript-keylogger-attacks-pci"
+    },
+    "defense-evasion-invoke-obfuscation": {
+        "author": "Ricardo Reimao",
+        "date": "Apr 10 2020",
+        "length": 24,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Defense Evasion with Invoke-Obfuscation",
+        "url": "https://www.pluralsight.com/courses/defense-evasion-invoke-obfuscation"
     },
     "defensive-coding-csharp": {
         "author": "Deborah Kurata",
@@ -48142,7 +48151,7 @@
     },
     "microsoft-azure-ad-privileged-identity-management-configuring": {
         "author": "Tim Warner",
-        "date": "Mar 31 2020",
+        "date": "Apr 10 2020",
         "length": 94,
         "level": "Beginner",
         "rating": "",

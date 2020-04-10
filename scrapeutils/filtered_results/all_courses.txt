@@ -2447,6 +2447,7 @@ defeating-anti-reverse-engineering-anti-debugging-techniques
 defeating-cross-site-scripting-content-security-policy
 defeating-injection-attacks-aspnet-aspnet-core
 defending-javascript-keylogger-attacks-pci
+defense-evasion-invoke-obfuscation
 defensive-coding-csharp
 defensive-programming-java
 deformers-ref-library-modo-1441
