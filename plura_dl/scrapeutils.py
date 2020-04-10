@@ -1,16 +1,8 @@
 from __future__ import unicode_literals
-import os, json, re, sys, codecs
+import os, json, re, sys, codecs, getpass
 from sys import stdout as out
 from time import time, sleep
 from pathlib import Path
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
-from selenium.webdriver.chrome.options import Options as ChromeOptions
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
-from bs4 import BeautifulSoup
 if os.name == 'nt':
     clear = lambda: os.system('cls')
 elif os.name == 'posix':
@@ -18,85 +10,151 @@ elif os.name == 'posix':
 else:
     clear = lambda: None
 
+
 ############################### General functions #############################
 ###############################################################################
 
-def set_headless_firefox_driver():
-    """Preparing a headless Firefox browser driver instance.
+
+class Logger(object):
+    """Handling logging mechanism of PluraDL.
+    
+    Arguments:
+        logpath {str} -- Path to logfile
+    """
+    def __init__(self,logpath):
+        self.logpath = logpath
+        with open(self.logpath, 'wt') as f: f.close
+
+    def debug(self, msg):
+        print(msg)
+        with open(self.logpath, 'at') as f: f.write(msg+'\n')
+
+    def warning(self, msg):
+        print(msg)
+        with open(self.logpath, 'at') as f: f.write(msg+'\n')
+
+    def error(self, msg):
+        print(msg)
+        with open(self.logpath, 'at') as f: f.write(msg+'\n')
+
+
+def extract_user_credentials():
+    flag_state = _flag_parser()
+    arg_state = _arg_parser()
+    if flag_state[0]:
+        print("Executing by flag input ..")
+        USERNAME, PASSWORD = flag_state[1], flag_state[2]
+    elif arg_state[0]:
+        print("Executing by user input ..")
+        USERNAME, PASSWORD = arg_state[1], arg_state[2]
+    else:
+        USERNAME, PASSWORD = _get_usr_pw()
+    return USERNAME, PASSWORD
+
+
+def _flag_parser():
+    """Argument handling of 4 or more arguments, interpreting arguments
+    as flags with associated values.
     
     Returns:
-        WebDriver -- Selenium WebDriver object for Firefox
+        (Bool, str, str) -- Validation of argument input, and credentials.
     """
-    firefox_options = FirefoxOptions()
-    firefox_options.add_argument("--headless")
-    firefox_options.add_argument("--window-size=640x360")
-    firefox_options.add_argument("--disable-notifications")
-    firefox_options.add_argument('--no-sandbox')
-    firefox_options.add_argument('--disable-gpu')
-    firefox_options.add_argument('--disable-software-rasterizer')
-    driver = webdriver.Firefox(options=firefox_options)
-    return driver
+    if len(sys.argv) < 5:
+        return False, "", ""
+
+    def _check_flags(key, flag_states, arg_string=' '.join(sys.argv[1:])):
+        for flag in flag_states[key][1:]:
+            if flag in all_flags:
+                lookaroundflag = r'(?<=' + flag + ' ' +  ')'
+                lookaroundflag+=r".*?[\S]+"
+        return re.findall(lookaroundflag, arg_string)
+
+    def _check_inputs(key, user_inputs):
+        for user_input in user_inputs:
+            user_input = user_input.strip()
+            if user_input not in (all_flags):
+                flag_inputs[key] = user_input
+                break # will take the first valid input
+    
+    usn_psw_flag_state = False
+    flag_states = {"usn":[False],"psw":[False]}
+    flag_inputs = {}
+    username_flags = ("--user", "--username", "-u")
+    password_flags = ("--pass", "--password", "-p")
+    all_flags=(username_flags+password_flags)
+    
+    for arg in sys.argv[1:]:
+        if arg in username_flags:
+            flag_states["usn"][0] = True
+            flag_states["usn"].append(arg)
+        if arg in password_flags:
+            flag_states["psw"][0] = True
+            flag_states["psw"].append(arg)
+    
+    if flag_states["usn"][0] and flag_states["psw"][0]:
+        usn_psw_flag_state = True
+    
+    for key in flag_states.keys():
+        if flag_states[key][0]:
+            user_inputs = _check_flags(key, flag_states)
+            if user_inputs:
+                _check_inputs(key, user_inputs)
+    
+    if (not "usn" in flag_inputs.keys()) or (not "psw" in flag_inputs.keys()):
+        usn_psw_flag_state = False
+    
+    if usn_psw_flag_state:
+        USERNAME = flag_inputs["usn"]
+        PASSWORD = flag_inputs["psw"]
+        return True, USERNAME, PASSWORD
+    else:
+        return False, "", ""
 
 
-def set_chrome_driver(DLPATH):
-    """Preparing a Chromium browser instance ready for downloading files.
+def _arg_parser():
+    """Handling of simple username and password argument input.
     
     Returns:
-        WebDriver -- Selenium WebDriver object for Chromium
+        (Bool, str, str) -- Validation of argument input, and credentials.
     """
-    chrome_options = ChromeOptions()
-    chrome_options.add_argument("--window-size=640x360")
-    chrome_options.add_argument("--disable-notifications")
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_experimental_option("prefs", {
-            "download.default_directory": DLPATH,
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "safebrowsing_for_trusted_sources_enabled": False,
-            "safebrowsing.enabled": False
-    })
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--disable-software-rasterizer')
-    driver = webdriver.Chrome(options=chrome_options)
-    return driver
+    if len(sys.argv) < 3:
+        return False, "", ""
+
+    username = sys.argv[1]
+    password = sys.argv[2]
+    if username[0] != '-' and password[0] != '-':
+        USERNAME = sys.argv[1]
+        PASSWORD = sys.argv[2]
+        return True, USERNAME, PASSWORD
+    else:
+        return False, "", ""
 
 
-def get_courselist_source(SEARCH_URL, n_pages=500, finish_rounds=100):
-    RESULT_BUTTON=r'//*[@id="search-results-section-load-more"]'
-    LOAD_MORE_RESULTS = r'jQuery(".button--secondary").click()'
-    out.write("Loading the web driver ... "); out.flush()
-    driver = set_headless_firefox_driver()
-    out.write("Done. \n"); out.flush()
-    out.write("Loading searchpage ... "); out.flush()
-    driver.get(SEARCH_URL)
-    for i in range(n_pages):
-        try:
-            wait_for_access(driver, RESULT_BUTTON)
-            driver.execute_script(LOAD_MORE_RESULTS)
-            if i == 0:
-                msg_part1 = "Page loaded successfully.\n"
-                msg_part2 = "                  "
-                msg_part3 = "0%[.................................................]100%"
-                msg_part4 = "\nScanning courses:   [."
-                msg       = msg_part1+msg_part2+msg_part3+msg_part4
-                out.write(msg); out.flush()
-            elif i%8 == 0:
-                out.write('.'); out.flush()
-        except TimeoutException:
-            msg = "]\nNo more courses could be found."
-            out.write(msg)
-            break
-    out.write(" Scanning done.\nFinalizing result data .")
-    for i in range(finish_rounds):
-        driver.execute_script(LOAD_MORE_RESULTS)
-        if i%10 == 0:
-            out.write('.'); out.flush()
-    out.write(' Done.\n')
-    output_html = driver.page_source
-    out.write('Closing web driver ... '); out.flush()
-    driver.close()
-    out.write('Done.\n')
-    return output_html
+def _get_usr_pw():
+    """Requesting credentials from the user.
+    
+    Raises:
+        ValueError: User enters an empty password too many times
+    """
+    print("Enter you Pluralsight credentials")
+    for attempt in ["First","Second","Last"]:
+        u0 = input("Enter username: ")
+        if u0 == "":
+            print("Username cannot be empty, enter username again")
+            print(attempt, "attempt failed")
+            continue
+        else:
+            USERNAME = u0
+        
+        print("Enter password (will not be displayed)")
+        p0 = getpass.getpass(': ')
+        if p0 != "":
+            PASSWORD = p0
+            return USERNAME, PASSWORD
+        else:
+            print('Password cannot be empty, enter password again')
+    else:
+        raise ValueError('Username or password was not given.')
 
 
 def get_length(length_text):
@@ -129,24 +187,6 @@ def get_rating(rating_elem):
     else:
         rating = ""
     return rating
-
-
-def wait_for_access(driver, XPATH, timer=10):
-    """Tracking an element, waiting for it to be available.
-    
-    Arguments:
-        driver {WebDriver} -- Selenium WebDriver
-        XPATH {str} -- XPATH element string
-    
-    Keyword Arguments:
-        timer {int} -- Default timer to wait for element (default: {20})
-    
-    Returns:
-        [WebDriver element] -- Element in interest
-    """
-    element = WebDriverWait(driver, timer).until(
-    EC.element_to_be_clickable((By.XPATH, XPATH)))
-    return element
 
 
 def get_course_dictionary(course_texts):
@@ -266,26 +306,3 @@ def return_lookaround_text(lookaround_search):
         lookaround_text = lookaround_search.group()
         return lookaround_text
 
-########################### Beautuful soup functions ##########################
-###############################################################################
-
-def get_course_elements(course):
-    title = course.find("div", class_="search-result__title")
-    author = course.find("div", class_="search-result__author")
-    level = course.find("div", class_="search-result__level")
-    date = course.find("div", class_="search-result__date")
-    length = course.find("div", class_="search-result__length")
-    rating = course.find("div", class_="search-result__rating")
-    return title, author, level, date, length, rating
-
-
-def get_course_elements_texts(course_elements):
-    title = course_elements[0].get_text()
-    url = course_elements[0].find('a').get('href')
-    courseid = url.split('/')[-1]
-    author = course_elements[1].get_text()
-    level = course_elements[2].get_text()
-    date = course_elements[3].get_text()
-    length = get_length(course_elements[4].get_text())
-    rating = get_rating(course_elements[5])
-    return courseid, url, title, author, level, date, length, rating

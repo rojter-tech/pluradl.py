@@ -5,14 +5,18 @@ from plura_dl.scrapeutils import (
     sleep,
     Path,
     clear,
+    enter_hibernation,
+    extract_user_credentials
+)
+from plura_dl.dependentutils import (
     TimeoutException,
     set_chrome_driver,
-    wait_for_access,
-    enter_hibernation
+    wait_for_access
 )
 
 from selenium.webdriver.chrome.options import Options
-from pluradl import get_courses, get_usr_pw, flag_parser, arg_parser, set_directory
+from pluradl import get_courses, set_directory
+from plura_dl.scrapeutils import extract_user_credentials, Logger
 
 LOGIN_URL=r'https://app.pluralsight.com/id?'
 COURSE_BASE=r'https://app.pluralsight.com/library/courses'
@@ -111,16 +115,7 @@ def main():
 
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     DLPATH = os.path.join(scriptpath,"exercise_files")
-    flag_state = flag_parser()
-    arg_state = arg_parser()
-    if flag_state[0]:
-        print("Executing by flag input ..")
-        USERNAME, PASSWORD = flag_state[1], flag_state[2]
-    elif arg_state[0]:
-        print("Executing by user input ..")
-        USERNAME, PASSWORD = arg_state[1], arg_state[2]
-    else:
-        USERNAME, PASSWORD = get_usr_pw()
+    USERNAME, PASSWORD = extract_user_credentials()
     print("Setting username to:", USERNAME)
     courses = get_courses(os.path.dirname(os.path.abspath(sys.argv[0])))
 
@@ -145,6 +140,7 @@ def main():
         print("\nEnd of list reached. Downloads might still be in progress.")
         enter_hibernation()
         driver.close()
+
 
 if __name__ == "__main__":
     main()

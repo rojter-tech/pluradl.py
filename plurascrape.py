@@ -3,13 +3,18 @@ from plura_dl.scrapeutils import (
     sys,
     out,
     time,
-    BeautifulSoup,
     load_stored_json,
+
+
+
+    get_course_dictionary,
+    store_dict_as_json
+)
+from plura_dl.dependentutils import (
+    BeautifulSoup,
     get_courselist_source,
     get_course_elements,
     get_course_elements_texts,
-    get_course_dictionary,
-    store_dict_as_json
 )
 
 SCRIPTPATH=os.path.dirname(os.path.abspath(sys.argv[0]))

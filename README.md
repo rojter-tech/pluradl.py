@@ -1,4 +1,12 @@
-Update [2020-03-06] -- **HTTP Error 403** is sometimes responded during login process. Refering to [relevant issue on youtube-dl](https://github.com/ytdl-org/youtube-dl/issues/24008) and the corresponing [issue on this git](https://github.com/rojter-tech/pluradl.py/issues/12).
+# IMPORTANT
+The parameters `SLEEP_INTERVAL`, `SLEEP_OFFSET`, `SLEEP_PLAYLIST` and `RATE_LIMIT` used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will regulate the time before it downloads the next video within a playlist and the time between playlist download requests. The rate limit regulator sets an upper limit of the download speed to satify load balancing issues from the server side.  If you don't use these settings carefully _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
+
+>We have blocked your account because our security systems have flagged your Pluralsight account for an unusual amount activity. This does mean a high volume of requests that are in the realm of a request every 10-30 seconds for a prolonged period of time. Please note that this high volume of activity is in violation of our terms of service [https://www.pluralsight.com/terms].
+
+> 403    
+Your account has been blocked due to suspicious activity.
+Please contact support@pluralsight.com if you believe this was in error.
+
 ---
 # Automated download from Pluralsight with `pluradl.py`
 This project, `pluradl.py`, is aiming for automating the process of downloading **a whole sequence of Pluralsight courses** at once with safe parameters. Below I give an example of how to use `pluradl.py` with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
