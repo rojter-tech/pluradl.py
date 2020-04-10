@@ -598,6 +598,7 @@ apex-fundamental-coding
 apex-soql-salesforce
 api-design-fundamentals-google-clouds-apigee-api-platform
 api-design-nodejs-express-mongo
+api-development-google-clouds-apigee-api-platform
 api-security-google-clouds-apigee-api-platform
 api-testing-hp-unified-functional-testing
 app-deployment-debugging-performance

@@ -5399,6 +5399,15 @@
         "title": "API Design in Node.js Featuring Express & Mongo",
         "url": "https://www.pluralsight.com/courses/api-design-nodejs-express-mongo"
     },
+    "api-development-google-clouds-apigee-api-platform": {
+        "author": "Google Cloud",
+        "date": "Apr 10 2020",
+        "length": 94,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "API Development on Google Cloud's Apigee API Platform",
+        "url": "https://www.pluralsight.com/courses/api-development-google-clouds-apigee-api-platform"
+    },
     "api-security-google-clouds-apigee-api-platform": {
         "author": "Google Cloud",
         "date": "Mar 25 2020",
