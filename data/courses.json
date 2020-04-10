@@ -20663,6 +20663,15 @@
         "title": "Web App Hacking: Cross-Site Request Forgery (CSRF)",
         "url": "https://www.pluralsight.com/courses/cross-site-forgery-request-web-app"
     },
+    "cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications": {
+        "author": "Roland Guijt",
+        "date": "Apr 10 2020",
+        "length": 22,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cross Site Request Forgery (CSRF) Prevention for ASP.NET Core and ASP.NET Applications",
+        "url": "https://www.pluralsight.com/courses/cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications"
+    },
     "crowdfunding-fundamentals": {
         "author": "Devin Thorpe",
         "date": "Feb 11 2014",

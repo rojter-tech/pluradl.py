@@ -2294,6 +2294,7 @@ cross-platform-mobile-game-html5-javascript-1961
 cross-platform-native-apps-appcelerator-studio-alloy
 cross-platform-sql-server-management-developers-vs-code
 cross-site-forgery-request-web-app
+cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications
 crowdfunding-fundamentals
 crowds-houdini-15-2387
 crowds-populate-3ds-max-1207
