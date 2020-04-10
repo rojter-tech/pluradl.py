@@ -10,10 +10,10 @@ certpath = os.path.abspath(certifi.where())
 os.environ["SSL_CERT_FILE"] = certpath
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # # # # # # # #
-SLEEP_INTERVAL = 60     # minimum sleep time                   #                                  #
-SLEEP_OFFSET   = 120    # set random sleep time up to          #  Change this at your own risk.   #
-SLEEP_PLAYLIST = 60     # sleep time between playlist requests #                                  #
-RATE_LIMIT     = 10**6  # download rate in bytes/s             #                                  #
+SLEEP_INTERVAL = 80     # minimum sleep time (s)                   #                                  #
+SLEEP_OFFSET   = 150    # set random sleep time (s) up to          #  Change this at your own risk.   #
+SLEEP_PLAYLIST = 80     # sleep time (s) between playlist requests #                                  #
+RATE_LIMIT     = 1000   # download rate (kb/s)                     #                                  #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
@@ -26,6 +26,7 @@ PLURAURL = r"https://app.pluralsight.com/library/courses/"
 SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
 COOKIEPATH = os.path.join(SCRIPTPATH, 'cookies')
 COOKIEFILE = os.path.join(COOKIEPATH, 'cookies.txt')
+RATE_LIMIT = RATE_LIMIT*10**3
 if not os.path.exists(COOKIEPATH):
     os.mkdir(COOKIEPATH)
 elif os.path.exists(COOKIEFILE):

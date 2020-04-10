@@ -118,11 +118,3 @@ python pluraexercise.py
 
 ![Directory tree of pluradl.py root](https://raw.githubusercontent.com/rojter-tech/pluradl.py/master/image/example_output_tree.png)
 
-# IMPORTANT
-The parameters `SLEEP_INTERVAL = 60`, `SLEEP_OFFSET = 120`, `SLEEP_PLAYLIST = 60` and `RATE_LIMIT = 10**6` used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait in average 90s (1.5 minutes) before it downloads the next video and 60s (1 minute) between playlist download requests. If you don't use these settings _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
-
->We have blocked your account because our security systems have flagged your Pluralsight account for an unusual amount activity. This does mean a high volume of requests that are in the realm of a request every 10-30 seconds for a prolonged period of time. Please note that this high volume of activity is in violation of our terms of service [https://www.pluralsight.com/terms].
-
-> 403    
-Your account has been blocked due to suspicious activity.
-Please contact support@pluralsight.com if you believe this was in error.
