@@ -4648,6 +4648,7 @@ java-9-micro-experimentation-tools
 java-9-modularity-first-look
 java-9-whats-new
 java-api-websockets-introduction
+java-application-development-tomcat
 java-bdd-cucumber-gherkin-getting-started
 java-bdd-fundamentals
 java-concurrent-patterns-advanced

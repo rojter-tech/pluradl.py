@@ -41849,6 +41849,15 @@
         "title": "Introduction to the Java API for WebSockets",
         "url": "https://www.pluralsight.com/courses/java-api-websockets-introduction"
     },
+    "java-application-development-tomcat": {
+        "author": "Richard Monson-Haefel",
+        "date": "Apr 10 2020",
+        "length": 120,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Java Application Development with Tomcat",
+        "url": "https://www.pluralsight.com/courses/java-application-development-tomcat"
+    },
     "java-bdd-cucumber-gherkin-getting-started": {
         "author": "John Smart",
         "date": "May 16 2019",
