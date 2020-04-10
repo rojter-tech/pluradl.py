@@ -5083,6 +5083,7 @@ managing-microsoft-365-user-roles
 managing-microsoft-desktops-apps-data
 managing-microsoft-desktops-managing-protecting-devices
 managing-microsoft-exchange-server-mail-flow-topology
+managing-microsoft-teams-phone-numbers-systems
 managing-modern-software-dependency-ecosystem
 managing-openstack-authentication-authorization-keystone
 managing-pc-devices-with-microsoft-intune
