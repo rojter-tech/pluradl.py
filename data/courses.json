@@ -7388,6 +7388,15 @@
         "title": "Automating AWS Operations with the AWS CLI",
         "url": "https://www.pluralsight.com/courses/automating-aws-operations-aws-cli"
     },
+    "automating-cisco-dna-center-operations-using-apis": {
+        "author": "Nick Russo",
+        "date": "Apr 10 2020",
+        "length": 85,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Automating Cisco DNA Center Operations Using APIs",
+        "url": "https://www.pluralsight.com/courses/automating-cisco-dna-center-operations-using-apis"
+    },
     "automating-cisco-meraki-operations-using-apis": {
         "author": "Nick Russo",
         "date": "Mar 25 2020",
@@ -50302,7 +50311,7 @@
     },
     "microsoft-azure-table-storage-implementing": {
         "author": "Filip Ekberg",
-        "date": "Jun 19 2019",
+        "date": "Apr 10 2020",
         "length": 92,
         "level": "Intermediate",
         "rating": 50,
