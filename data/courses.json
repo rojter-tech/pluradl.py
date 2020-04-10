@@ -68986,7 +68986,7 @@
     },
     "securing-microsoft-azure-subscriptions": {
         "author": "Tim Warner",
-        "date": "Mar 31 2020",
+        "date": "Apr 1 2020",
         "length": 147,
         "level": "Advanced",
         "rating": "",
@@ -69028,6 +69028,15 @@
         "rating": "",
         "title": "Securing Spring Data REST APIs",
         "url": "https://www.pluralsight.com/courses/securing-spring-data-rest-apis"
+    },
+    "securing-ssas-models": {
+        "author": "Stacia Misner Varga",
+        "date": "Apr 10 2020",
+        "length": 100,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Securing SSAS Models",
+        "url": "https://www.pluralsight.com/courses/securing-ssas-models"
     },
     "securing-switch": {
         "author": "Ross Bagurdes",
