@@ -18668,7 +18668,7 @@
     "configuring-aad-microsoft-azure-workloads": {
         "author": "Tim Warner",
         "date": "Mar 31 2020",
-        "length": 178,
+        "length": 180,
         "level": "Intermediate",
         "rating": 11,
         "title": "Configuring Azure Active Directory for Microsoft Azure Workloads",
@@ -48116,7 +48116,7 @@
     "microsoft-azure-ad-privileged-identity-management-configuring": {
         "author": "Tim Warner",
         "date": "Mar 31 2020",
-        "length": 93,
+        "length": 94,
         "level": "Beginner",
         "rating": "",
         "title": "Configuring Microsoft Azure Active Directory Privileged Identity Management",
