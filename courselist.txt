@@ -6856,6 +6856,7 @@ preparing-data-feature-engineering-machine-learning
 preparing-data-machine-learning
 preparing-data-modeling-scikit-learn
 preparing-existing-dotnet-applications-continuous-delivery
+preparing-google-cloud-professional-data-engineer-exam
 preparing-migrate-office-365
 preparing-organization-iso-27001-2013-certification
 preparing-pass-microsoft-azure-70-533-exam
@@ -7267,6 +7268,7 @@ regular-expressions-fundamentals
 relational-database-design
 relationship-management-tracking
 reliable-cloud-infrastructure-design-process
+reliable-google-cloud-infrastructure-design-process
 removing-objects-camera-projection-nuke-386
 render-passes-maya-3575
 render-scripting-python-maya-pdplayer-1587

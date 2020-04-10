@@ -61721,6 +61721,15 @@
         "title": "Preparing Existing .NET Applications for Continuous Delivery",
         "url": "https://www.pluralsight.com/courses/preparing-existing-dotnet-applications-continuous-delivery"
     },
+    "preparing-google-cloud-professional-data-engineer-exam": {
+        "author": "Google Cloud",
+        "date": "Apr 10 2020",
+        "length": 145,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Preparing for the Google Cloud Professional Data Engineer Exam",
+        "url": "https://www.pluralsight.com/courses/preparing-google-cloud-professional-data-engineer-exam"
+    },
     "preparing-migrate-office-365": {
         "author": "Paul Cunningham",
         "date": "Aug 6 2018",
@@ -65419,6 +65428,15 @@
         "rating": "",
         "title": "Reliable Cloud Infrastructure - Design and Process",
         "url": "https://www.pluralsight.com/courses/reliable-cloud-infrastructure-design-process"
+    },
+    "reliable-google-cloud-infrastructure-design-process": {
+        "author": "Google Cloud",
+        "date": "Apr 10 2020",
+        "length": 255,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Reliable Google Cloud Infrastructure: Design and Process",
+        "url": "https://www.pluralsight.com/courses/reliable-google-cloud-infrastructure-design-process"
     },
     "removing-objects-camera-projection-nuke-386": {
         "author": "Chris Glick",
