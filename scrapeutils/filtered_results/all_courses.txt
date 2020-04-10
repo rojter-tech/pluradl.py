@@ -4321,6 +4321,7 @@ intro-zbrush-4r7-2090
 introducing-cisco-data-center-networking
 introducing-office-ui-fabric
 introducing-scrum
+introducing-scrum-events
 introducing-scrum-roles
 introduction-25d-relighting-nuke-381
 introduction-3d-after-effects-1573
