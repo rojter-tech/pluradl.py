@@ -13634,6 +13634,15 @@
         "title": "C# Design Patterns: Prototype",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-prototype"
     },
+    "c-sharp-design-patterns-proxy": {
+        "author": "Steve Smith",
+        "date": "Apr 10 2020",
+        "length": 35,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "C# Design Patterns: Proxy",
+        "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy"
+    },
     "c-sharp-design-patterns-state": {
         "author": "Marc Gilbert",
         "date": "Nov 9 2019",
