@@ -5381,6 +5381,15 @@
         "title": "Apex Academy: The Power of SOQL",
         "url": "https://www.pluralsight.com/courses/apex-soql-salesforce"
     },
+    "api-design-fundamentals-google-clouds-apigee-api-platform": {
+        "author": "Google Cloud",
+        "date": "Apr 10 2020",
+        "length": 73,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "API Design and Fundamentals of Google Cloud's Apigee API Platform",
+        "url": "https://www.pluralsight.com/courses/api-design-fundamentals-google-clouds-apigee-api-platform"
+    },
     "api-design-nodejs-express-mongo": {
         "author": "Scott Moss",
         "date": "Apr 5 2018",

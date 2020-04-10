@@ -596,6 +596,7 @@ apache-web-server-install-config
 apex-absolute-beginner-guide-coding-salesforce
 apex-fundamental-coding
 apex-soql-salesforce
+api-design-fundamentals-google-clouds-apigee-api-platform
 api-design-nodejs-express-mongo
 api-security-google-clouds-apigee-api-platform
 api-testing-hp-unified-functional-testing
