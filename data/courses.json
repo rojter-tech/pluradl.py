@@ -8698,7 +8698,7 @@
         "date": "Jun 21 2019",
         "length": 121,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Continuous Delivery and DevOps with Azure DevOps: Release Pipelines",
         "url": "https://www.pluralsight.com/courses/azure-devops-continuous-delivery-release-pipelines"
     },
@@ -13144,7 +13144,7 @@
         "date": "Oct 27 2017",
         "length": 102,
         "level": "Intermediate",
-        "rating": 30,
+        "rating": 31,
         "title": "Building Websites with Bulma",
         "url": "https://www.pluralsight.com/courses/building-websites-bulma"
     },
@@ -13432,7 +13432,7 @@
         "date": "May 14 2019",
         "length": 61,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Business Automation with Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/business-automation-python-getting-started"
     },
@@ -41305,7 +41305,7 @@
         "date": "Jan 24 2018",
         "length": 262,
         "level": "Beginner",
-        "rating": 216,
+        "rating": 217,
         "title": "iOS 11 Fundamentals",
         "url": "https://www.pluralsight.com/courses/ios-11-fundamentals"
     },
@@ -41944,7 +41944,7 @@
         "date": "Dec 27 2018",
         "length": 109,
         "level": "Beginner",
-        "rating": 20,
+        "rating": 21,
         "title": "Design Patterns in Java: The Big Picture",
         "url": "https://www.pluralsight.com/courses/java-design-patterns-big-picture"
     },
@@ -43501,7 +43501,7 @@
         "date": "Jun 20 2018",
         "length": 273,
         "level": "Beginner",
-        "rating": 44,
+        "rating": 45,
         "title": "Kusto Query Language (KQL) from Scratch",
         "url": "https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch"
     },
@@ -64777,7 +64777,7 @@
         "date": "Feb 25 2019",
         "length": 241,
         "level": "Beginner",
-        "rating": 2110,
+        "rating": 2113,
         "title": "React: Getting Started",
         "url": "https://www.pluralsight.com/courses/react-js-getting-started"
     },
@@ -69601,7 +69601,7 @@
         "date": "Oct 31 2013",
         "length": 187,
         "level": "Intermediate",
-        "rating": 375,
+        "rating": 376,
         "title": "SEO Fundamentals",
         "url": "https://www.pluralsight.com/courses/seo-fundamentals"
     },
@@ -84163,7 +84163,7 @@
         "date": "Aug 5 2019",
         "length": 111,
         "level": "Beginner",
-        "rating": 143,
+        "rating": 145,
         "title": "Meeting Web Accessibility Guidelines (Section 508/ WCAG 2.1)",
         "url": "https://www.pluralsight.com/courses/web-accessibility-meeting-guidelines"
     },
