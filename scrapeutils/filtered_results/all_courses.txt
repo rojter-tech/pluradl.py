@@ -4168,6 +4168,7 @@ information-security-incidents-iso-iec-27002
 information-security-introduction
 information-security-measures-iso-iec-27002
 information-security-threats-risks-iso-iec-27002
+information-systems-asset-protection-asset-security
 information-systems-auditing-acquisition-development
 information-systems-auditing-big-picture
 information-systems-auditing-implementation
