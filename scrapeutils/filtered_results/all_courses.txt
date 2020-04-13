@@ -5405,6 +5405,7 @@ microsoft-azure-cognitive-services-content-moderator
 microsoft-azure-cognitive-services-custom-vision-api
 microsoft-azure-cognitive-services-face-api
 microsoft-azure-cognitive-services-immersive-reader
+microsoft-azure-cognitive-services-ink-recognizer
 microsoft-azure-cognitive-services-language-services
 microsoft-azure-cognitive-services-qna-maker
 microsoft-azure-cognitive-services-recognition-bing-speech-api

@@ -48662,6 +48662,15 @@
         "title": "Microsoft Azure Cognitive Services: Immersive Reader",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-cognitive-services-immersive-reader"
     },
+    "microsoft-azure-cognitive-services-ink-recognizer": {
+        "author": "Reza Salehi",
+        "date": "Apr 13 2020",
+        "length": 39,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Microsoft Azure Cognitive Services: Ink Recognizer",
+        "url": "https://www.pluralsight.com/courses/microsoft-azure-cognitive-services-ink-recognizer"
+    },
     "microsoft-azure-cognitive-services-language-services": {
         "author": "William Myers",
         "date": "Aug 7 2019",
