@@ -7429,7 +7429,7 @@
         "date": "Jun 7 2019",
         "length": 215,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Automating Networks with Python",
         "url": "https://www.pluralsight.com/courses/automating-networks-python"
     },
@@ -7852,7 +7852,7 @@
         "date": "Jan 30 2020",
         "length": 260,
         "level": "Intermediate",
-        "rating": 43,
+        "rating": 46,
         "title": "AWS Developer: Designing and Developing",
         "url": "https://www.pluralsight.com/courses/aws-developer-designing-developing"
     },
@@ -8104,7 +8104,7 @@
         "date": "Mar 14 2019",
         "length": 85,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Implementing AWS Load Balancing",
         "url": "https://www.pluralsight.com/courses/aws-load-balancing-implementing"
     },
@@ -9004,7 +9004,7 @@
         "date": "Sep 19 2018",
         "length": 208,
         "level": "Intermediate",
-        "rating": 29,
+        "rating": 30,
         "title": "Using Azure Service Fabric in Production",
         "url": "https://www.pluralsight.com/courses/azure-service-fabric-production"
     },
@@ -16006,7 +16006,7 @@
         "date": "May 15 2017",
         "length": 129,
         "level": "Beginner",
-        "rating": 237,
+        "rating": 239,
         "title": "Fundamentals of Cloud Computing",
         "url": "https://www.pluralsight.com/courses/cloud-computing-fundamentals"
     },
@@ -18661,7 +18661,7 @@
         "date": "Feb 13 2020",
         "length": 91,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Concurrent Programming with Go",
         "url": "https://www.pluralsight.com/courses/concurrent-programming-go"
     },
@@ -19966,7 +19966,7 @@
         "date": "Dec 23 2019",
         "length": 80,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 26,
         "title": "Creating Blazor Components",
         "url": "https://www.pluralsight.com/courses/creating-blazor-components"
     },
@@ -21676,7 +21676,7 @@
         "date": "Sep 15 2017",
         "length": 69,
         "level": "Beginner",
-        "rating": 587,
+        "rating": 588,
         "title": "Data Science: The Big Picture",
         "url": "https://www.pluralsight.com/courses/data-science-big-picture"
     },
@@ -32665,7 +32665,7 @@
         "date": "Dec 9 2019",
         "length": 169,
         "level": "Beginner",
-        "rating": 73,
+        "rating": 76,
         "title": "Blazor: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-blazor"
     },
@@ -33772,7 +33772,7 @@
         "date": "Aug 11 2017",
         "length": 102,
         "level": "Intermediate",
-        "rating": 56,
+        "rating": 57,
         "title": "Object-oriented Programming with Go",
         "url": "https://www.pluralsight.com/courses/go-object-oriented-programming"
     },
@@ -35986,7 +35986,7 @@
         "date": "Feb 22 2019",
         "length": 103,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "Identity and Access Management on AWS: Users",
         "url": "https://www.pluralsight.com/courses/identity-access-management-aws-users"
     },
@@ -48145,7 +48145,7 @@
         "date": "Jun 27 2016",
         "length": 267,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Microsoft Access (2016)",
         "url": "https://www.pluralsight.com/courses/microsoft-access-2016"
     },
@@ -49000,7 +49000,7 @@
         "date": "Feb 19 2020",
         "length": 77,
         "level": "Intermediate",
-        "rating": 33,
+        "rating": 34,
         "title": "Plan for Data Warehousing with Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-data-warehousing-plan"
     },
@@ -50026,7 +50026,7 @@
         "date": "Nov 22 2019",
         "length": 64,
         "level": "Intermediate",
-        "rating": 26,
+        "rating": 27,
         "title": "Monitoring Microsoft Azure Resources and Workloads",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring-update"
     },
@@ -63328,7 +63328,7 @@
         "date": "Jul 18 2014",
         "length": 442,
         "level": "Intermediate",
-        "rating": 556,
+        "rating": 557,
         "title": "Python – Beyond the Basics",
         "url": "https://www.pluralsight.com/courses/python-beyond-basics"
     },
@@ -64444,7 +64444,7 @@
         "date": "Mar 11 2016",
         "length": 181,
         "level": "Beginner",
-        "rating": 82,
+        "rating": 83,
         "title": "Beginning Data Visualization with R",
         "url": "https://www.pluralsight.com/courses/r-data-visualization-beginner"
     },
@@ -66973,7 +66973,7 @@
         "date": "Oct 27 2016",
         "length": 71,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "Risk Management and Information Systems Control: Introduction to Risk",
         "url": "https://www.pluralsight.com/courses/risk-management-information-systems-control-risk"
     },
@@ -68773,7 +68773,7 @@
         "date": "Jul 26 2019",
         "length": 71,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Searching and Manipulating Data in Excel",
         "url": "https://www.pluralsight.com/courses/searching-manipulating-data-excel"
     },
@@ -79186,7 +79186,7 @@
         "date": "Nov 22 2019",
         "length": 44,
         "level": "Beginner",
-        "rating": 95,
+        "rating": 98,
         "title": "TypeScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/typescript-big-picture"
     },
