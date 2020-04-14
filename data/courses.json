@@ -5201,6 +5201,24 @@
         "title": "Annotating ggplot2 Visualizations in R",
         "url": "https://www.pluralsight.com/courses/annotating-ggplot2-visualizations-r"
     },
+    "ansible-fundamentals": {
+        "author": "Red Hat",
+        "date": "Apr 14 2020",
+        "length": 223,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Ansible Fundamentals",
+        "url": "https://www.pluralsight.com/courses/ansible-fundamentals"
+    },
+    "ansible-windows-fundamentals": {
+        "author": "Red Hat",
+        "date": "Apr 14 2020",
+        "length": 121,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Ansible on Windows Fundamentals",
+        "url": "https://www.pluralsight.com/courses/ansible-windows-fundamentals"
+    },
     "ansible-windows-getting-started": {
         "author": "JP Toto",
         "date": "Jun 21 2016",

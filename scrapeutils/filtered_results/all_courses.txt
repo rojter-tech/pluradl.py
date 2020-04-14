@@ -576,6 +576,8 @@ animation-tips-tricks-maya-173
 animation-video-editing-photoshop-cs6-1060
 annotating-arch-drawings-autocad-1920
 annotating-ggplot2-visualizations-r
+ansible-fundamentals
+ansible-windows-fundamentals
 ansible-windows-getting-started
 ansys-introduction
 aop
