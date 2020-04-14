@@ -7582,6 +7582,7 @@ scripting-realflow-3578
 scrum-development-jira-agile
 scrum-essentials-exam-prep
 scrum-executive-briefing
+scrum-executives-leaders-boss
 scrum-fundamentals
 scrum-master-fundamentals-foundations
 scrum-master-fundamentals-growing-team
