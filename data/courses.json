@@ -3505,7 +3505,7 @@
         "date": "Dec 9 2015",
         "length": 63,
         "level": "Beginner",
-        "rating": 624,
+        "rating": 625,
         "title": "Start Developing for Android",
         "url": "https://www.pluralsight.com/courses/android-start-developing"
     },
@@ -6016,7 +6016,7 @@
         "date": "Dec 13 2019",
         "length": 74,
         "level": "Beginner",
-        "rating": 42,
+        "rating": 43,
         "title": "Artificial Intelligence: The Big Picture of AI",
         "url": "https://www.pluralsight.com/courses/artificial-intelligence-big-picture"
     },
@@ -7609,7 +7609,7 @@
         "date": "May 10 2019",
         "length": 305,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Architecting for Cost on AWS",
         "url": "https://www.pluralsight.com/courses/aws-architecting-cost"
     },
@@ -12559,7 +12559,7 @@
         "date": "Dec 9 2019",
         "length": 161,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 29,
         "title": "Building Your First Machine Learning Solution",
         "url": "https://www.pluralsight.com/courses/building-machine-learning-solution"
     },
@@ -12694,7 +12694,7 @@
         "date": "Jan 25 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 124,
+        "rating": 125,
         "title": "Building Offline Web Apps with Service Worker",
         "url": "https://www.pluralsight.com/courses/building-offline-web-apps-service-worker"
     },
@@ -13486,7 +13486,7 @@
         "date": "Jun 5 2015",
         "length": 114,
         "level": "Beginner",
-        "rating": 249,
+        "rating": 250,
         "title": "Introduction to Business Information Technology",
         "url": "https://www.pluralsight.com/courses/business-information-technology-introduction"
     },
@@ -13522,7 +13522,7 @@
         "date": "Sep 4 2012",
         "length": 86,
         "level": "Beginner",
-        "rating": 1012,
+        "rating": 1013,
         "title": "C Programming Language Fundamentals",
         "url": "https://www.pluralsight.com/courses/c-lang-fundamentals"
     },
@@ -13540,7 +13540,7 @@
         "date": "Mar 10 2014",
         "length": 253,
         "level": "Intermediate",
-        "rating": 307,
+        "rating": 308,
         "title": "The C Programming Language in Action",
         "url": "https://www.pluralsight.com/courses/c-programming-language-in-action"
     },
@@ -18994,7 +18994,7 @@
         "date": "Dec 6 2019",
         "length": 101,
         "level": "Beginner",
-        "rating": 156,
+        "rating": 157,
         "title": "Conflict Resolution in the Workplace",
         "url": "https://www.pluralsight.com/courses/conflict-resolution-workplace"
     },
@@ -20803,7 +20803,7 @@
         "date": "Sep 5 2019",
         "length": 148,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "ADO.NET Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/csharp-ado-dotnet-fundamentals"
     },
@@ -22540,7 +22540,7 @@
         "date": "Sep 16 2019",
         "length": 162,
         "level": "Intermediate",
-        "rating": 301,
+        "rating": 302,
         "title": "Design Patterns in Java: Structural",
         "url": "https://www.pluralsight.com/courses/design-patterns-java-structural"
     },
@@ -32809,7 +32809,7 @@
         "date": "Feb 10 2020",
         "length": 122,
         "level": "Beginner",
-        "rating": 29,
+        "rating": 32,
         "title": "Getting Started with Git",
         "url": "https://www.pluralsight.com/courses/getting-started-git"
     },
@@ -33205,7 +33205,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 110,
+        "rating": 115,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -33376,7 +33376,7 @@
         "date": "Aug 28 2019",
         "length": 181,
         "level": "Beginner",
-        "rating": 71,
+        "rating": 72,
         "title": "TypeScript: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-typescript"
     },
@@ -33610,7 +33610,7 @@
         "date": "May 23 2012",
         "length": 111,
         "level": "Intermediate",
-        "rating": 2326,
+        "rating": 2327,
         "title": "Git Fundamentals",
         "url": "https://www.pluralsight.com/courses/git-fundamentals"
     },
@@ -35455,7 +35455,7 @@
         "date": "Jun 21 2019",
         "length": 140,
         "level": "Beginner",
-        "rating": 2653,
+        "rating": 2654,
         "title": "HTML Fundamentals",
         "url": "https://www.pluralsight.com/courses/html-fundamentals"
     },
@@ -41701,7 +41701,7 @@
         "date": "Feb 7 2020",
         "length": 214,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Managing Apps on Kubernetes with Istio",
         "url": "https://www.pluralsight.com/courses/istio-managing-apps-kubernetes"
     },
@@ -42088,7 +42088,7 @@
         "date": "Dec 19 2017",
         "length": 236,
         "level": "Intermediate",
-        "rating": 41,
+        "rating": 42,
         "title": "Java Fundamentals: Input/Output",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-input-output"
     },
@@ -43042,7 +43042,7 @@
         "date": "Jan 16 2018",
         "length": 41,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Juniper Networks JNCIA-Junos (JN0-102): Junos Operating System Fundamentals",
         "url": "https://www.pluralsight.com/courses/juniper-jncia-junos-jn0-102-os-fundamentals"
     },
@@ -43780,7 +43780,7 @@
         "date": "Jul 22 2013",
         "length": 417,
         "level": "Beginner",
-        "rating": 838,
+        "rating": 840,
         "title": "Learn How to Program with C++",
         "url": "https://www.pluralsight.com/courses/learn-programming-cplusplus"
     },
@@ -57631,7 +57631,7 @@
         "date": "Jul 30 2019",
         "length": 85,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Performing Non-Technical Tests for CompTIA PenTest+",
         "url": "https://www.pluralsight.com/courses/performing-nontechnical-tests-comptia-pentest"
     },
@@ -61087,7 +61087,7 @@
         "date": "May 8 2017",
         "length": 106,
         "level": "Beginner",
-        "rating": 131,
+        "rating": 132,
         "title": "Your First Day with Windows PowerShell",
         "url": "https://www.pluralsight.com/courses/powershell-first-day"
     },
@@ -62824,7 +62824,7 @@
         "date": "Feb 26 2019",
         "length": 121,
         "level": "Intermediate",
-        "rating": 16,
+        "rating": 17,
         "title": "Protocol Deep Dive: ICMP",
         "url": "https://www.pluralsight.com/courses/protocol-deep-dive-icmp"
     },
@@ -81580,7 +81580,7 @@
         "date": "May 3 2019",
         "length": 113,
         "level": "Beginner",
-        "rating": 85,
+        "rating": 87,
         "title": "Using React Hooks",
         "url": "https://www.pluralsight.com/courses/using-react-hooks"
     },
