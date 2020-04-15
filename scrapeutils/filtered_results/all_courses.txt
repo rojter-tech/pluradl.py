@@ -3332,6 +3332,7 @@ extending-aem-foundations
 extending-bootstrap-css-javascript-jquery
 extending-capabilities-of-vrealize-automation-7
 extending-powershell
+extending-xamarin-forms
 extending-xaml-applications-behaviors
 exterior-rendering-techniques-mental-ray-3ds-max-632
 exterior-rendering-techniques-mental-ray-maya-634

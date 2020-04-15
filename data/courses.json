@@ -30005,6 +30005,15 @@
         "title": "Extending Powershell",
         "url": "https://www.pluralsight.com/courses/extending-powershell"
     },
+    "extending-xamarin-forms": {
+        "author": "Jared Rhodes",
+        "date": "Apr 15 2020",
+        "length": 73,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Extending Xamarin.Forms",
+        "url": "https://www.pluralsight.com/courses/extending-xamarin-forms"
+    },
     "extending-xaml-applications-behaviors": {
         "author": "Brian Noyes",
         "date": "May 23 2014",
@@ -37811,7 +37820,7 @@
     "initial-access-wifi-pumpkin": {
         "author": "Ricardo Reimao",
         "date": "Mar 20 2020",
-        "length": 23,
+        "length": 22,
         "level": "Intermediate",
         "rating": "",
         "title": "Initial Access with WiFi-Pumpkin",
