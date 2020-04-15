@@ -2615,6 +2615,7 @@ developers-guide-photo-design-techniques
 developers-guide-sql-server-clr
 developing-applications-aws-lightsail
 developing-creature-concepts-games-1778
+developing-daemons-services-protected-azure-active-directory
 developing-dotnet-microsoft-azure-getting-started
 developing-effective-agile-sprint-plans
 developing-enemy-archetypes-games-1802
