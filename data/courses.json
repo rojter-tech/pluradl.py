@@ -5202,7 +5202,7 @@
         "url": "https://www.pluralsight.com/courses/annotating-ggplot2-visualizations-r"
     },
     "ansible-fundamentals": {
-        "author": "Red Hat",
+        "author": "Pluralsight",
         "date": "Apr 14 2020",
         "length": 223,
         "level": "Intermediate",
@@ -5457,7 +5457,7 @@
         "author": "Google Cloud",
         "date": "Mar 2 2020",
         "length": 96,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "App Deployment, Debugging, and Performance on Google Cloud",
         "url": "https://www.pluralsight.com/courses/app-deployment-debugging-performance-1"
@@ -5763,7 +5763,7 @@
         "author": "Google Cloud",
         "date": "Mar 10 2020",
         "length": 122,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Architecting with Google Kubernetes Engine - Foundations",
         "url": "https://www.pluralsight.com/courses/architecting-google-kubernetes-engine-foundations"
@@ -5781,7 +5781,7 @@
         "author": "Google Cloud",
         "date": "Mar 16 2020",
         "length": 107,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Architecting with Google Kubernetes Engine - Production",
         "url": "https://www.pluralsight.com/courses/architecting-google-kubernetes-engine-production-update"
@@ -5790,7 +5790,7 @@
         "author": "Google Cloud",
         "date": "Oct 10 2019",
         "length": 171,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Architecting with Google Kubernetes Engine - Workloads",
         "url": "https://www.pluralsight.com/courses/architecting-google-kubernetes-engine-workloads"
@@ -12000,7 +12000,7 @@
         "author": "Google Cloud",
         "date": "Jan 14 2020",
         "length": 163,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Building Batch Data Pipelines on GCP",
         "url": "https://www.pluralsight.com/courses/building-batch-data-pipelines-gcp"
@@ -12846,7 +12846,7 @@
         "author": "Google Cloud",
         "date": "Jan 14 2020",
         "length": 192,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Building Resilient Streaming Analytics Systems on GCP",
         "url": "https://www.pluralsight.com/courses/building-resilient-streaming-analytics-systems-gcp"
@@ -27597,7 +27597,7 @@
         "author": "Google Cloud",
         "date": "Dec 20 2019",
         "length": 177,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Elastic Cloud Infrastructure - Scaling and Automation",
         "url": "https://www.pluralsight.com/courses/elastic-cloud-infrastructure-scaling-automation"
@@ -28380,7 +28380,7 @@
         "author": "Google Cloud",
         "date": "Dec 20 2019",
         "length": 189,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Essential Cloud Infrastructure - Core Services",
         "url": "https://www.pluralsight.com/courses/essential-cloud-infrastructure-core-services"
@@ -28389,7 +28389,7 @@
         "author": "Google Cloud",
         "date": "Dec 20 2019",
         "length": 190,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Essential Cloud Infrastructure - Foundation",
         "url": "https://www.pluralsight.com/courses/essential-cloud-infrastructure-foundation"
@@ -32610,7 +32610,7 @@
         "author": "Google Cloud",
         "date": "Mar 2 2020",
         "length": 146,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Getting Started With Application Development on Google Cloud",
         "url": "https://www.pluralsight.com/courses/getting-started-application-development-1"
@@ -33951,7 +33951,7 @@
         "author": "Google Cloud",
         "date": "Mar 31 2020",
         "length": 231,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Google Cloud Fundamentals for AWS Professionals",
         "url": "https://www.pluralsight.com/courses/google-cloud-aws-professionals"
@@ -34176,7 +34176,7 @@
         "author": "Google Cloud",
         "date": "Feb 1 2020",
         "length": 197,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": 11,
         "title": "Google Cloud Platform Fundamentals - Core Infrastructure",
         "url": "https://www.pluralsight.com/courses/google-cloud-platform-fundamentals-core-infrastructure"
@@ -53112,7 +53112,7 @@
         "author": "Google Cloud",
         "date": "Jan 14 2020",
         "length": 214,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Modernizing Data Lakes and Data Warehouses with GCP",
         "url": "https://www.pluralsight.com/courses/modernizing-data-lakes-data-warehouses-gcp"
@@ -54264,7 +54264,7 @@
         "author": "Google Cloud",
         "date": "Oct 24 2019",
         "length": 205,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Networking in GCP - Defining and Implementing Networks",
         "url": "https://www.pluralsight.com/courses/networking-gcp-defining-implementing-networks"
@@ -54273,7 +54273,7 @@
         "author": "Google Cloud",
         "date": "Oct 24 2019",
         "length": 195,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Networking in GCP - Hybrid Connectivity and Network Management",
         "url": "https://www.pluralsight.com/courses/networking-gcp-hybrid-connectivity-network-management"
@@ -56469,7 +56469,7 @@
         "author": "Google Cloud",
         "date": "Jan 23 2020",
         "length": 68,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Optimizing Your Google Cloud Platform (GCP) Costs",
         "url": "https://www.pluralsight.com/courses/optimizing-google-cloud-platform-gcp-costs"
@@ -65298,7 +65298,7 @@
         "author": "Google Cloud",
         "date": "Oct 29 2019",
         "length": 406,
-        "level": "Beginner",
+        "level": "Advanced",
         "rating": "",
         "title": "Recommendation Systems with TensorFlow on GCP",
         "url": "https://www.pluralsight.com/courses/recommendation-systems-tensorflow-gcp"
@@ -65523,7 +65523,7 @@
         "author": "Google Cloud",
         "date": "Apr 10 2020",
         "length": 255,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Reliable Google Cloud Infrastructure: Design and Process",
         "url": "https://www.pluralsight.com/courses/reliable-google-cloud-infrastructure-design-process"
@@ -69069,7 +69069,7 @@
         "author": "Google Cloud",
         "date": "Mar 2 2020",
         "length": 80,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Securing and Integrating Components of your Application on Google Cloud",
         "url": "https://www.pluralsight.com/courses/securing-integrating-components-application-1"
@@ -69699,7 +69699,7 @@
         "author": "Google Cloud",
         "date": "Oct 29 2019",
         "length": 271,
-        "level": "Beginner",
+        "level": "Advanced",
         "rating": "",
         "title": "Sequence Models for Time Series and Natural Language Processing on Google Cloud",
         "url": "https://www.pluralsight.com/courses/sequence-models-time-series-natural-language-processing"
@@ -71679,7 +71679,7 @@
         "author": "Google Cloud",
         "date": "Jan 23 2020",
         "length": 149,
-        "level": "Beginner",
+        "level": "Advanced",
         "rating": "",
         "title": "Site Reliability Engineering: Measuring and Managing Reliability",
         "url": "https://www.pluralsight.com/courses/site-reliability-engineering-measuring-managing-reliability"
@@ -71958,7 +71958,7 @@
         "author": "Google Cloud",
         "date": "Jan 14 2020",
         "length": 100,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Smart Analytics, Machine Learning, and AI on GCP",
         "url": "https://www.pluralsight.com/courses/smart-analytics-machine-learning-ai-gcp"
