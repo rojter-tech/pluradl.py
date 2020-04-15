@@ -61769,7 +61769,7 @@
     "preparing-cobit5-foundation-exam": {
         "author": "Frederico Aranha",
         "date": "Sep 13 2019",
-        "length": 58,
+        "length": 57,
         "level": "Beginner",
         "rating": "",
         "title": "Preparing for the COBIT5® Foundation Exam",
@@ -76923,7 +76923,7 @@
         "url": "https://www.pluralsight.com/courses/testing-automation-big-picture"
     },
     "testing-debugging-ansible-automation": {
-        "author": "Red Hat",
+        "author": "Pluralsight",
         "date": "Apr 15 2020",
         "length": 31,
         "level": "Intermediate",
