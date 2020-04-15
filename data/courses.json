@@ -65321,6 +65321,15 @@
         "title": "Recording and Managing Excel Macros",
         "url": "https://www.pluralsight.com/courses/recording-managing-excel-macros"
     },
+    "red-hat-ansible-tower-managing": {
+        "author": "Pluralsight",
+        "date": "Apr 15 2020",
+        "length": 54,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Managing Ansible with Red Hat Ansible Tower",
+        "url": "https://www.pluralsight.com/courses/red-hat-ansible-tower-managing"
+    },
     "red-hat-enterprise-linux-6-booting-runlevels": {
         "author": "Nigel Poulton",
         "date": "Jul 15 2014",

@@ -7256,6 +7256,7 @@ recoloring-artwork-illustrator-1899
 recommendation-systems-tensorflow-gcp
 recon-ng-penetration-testing-osint-gathering
 recording-managing-excel-macros
+red-hat-ansible-tower-managing
 red-hat-enterprise-linux-6-booting-runlevels
 red-hat-enterprise-linux-shell-fundamentals
 red-hat-enterprise-linux-shell-scripting-fundamentals
