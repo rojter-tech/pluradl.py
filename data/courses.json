@@ -76886,6 +76886,15 @@
         "title": "Testing Automation: The Big Picture",
         "url": "https://www.pluralsight.com/courses/testing-automation-big-picture"
     },
+    "testing-debugging-ansible-automation": {
+        "author": "Red Hat",
+        "date": "Apr 15 2020",
+        "length": 31,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Testing and Debugging Ansible Automation",
+        "url": "https://www.pluralsight.com/courses/testing-debugging-ansible-automation"
+    },
     "testing-django-applications": {
         "author": "Jamie Counsell",
         "date": "Oct 17 2017",

@@ -8541,6 +8541,7 @@ testcafe-end-to-end-web-testing-getting-started
 testing-and-prototyping-javascript-apps
 testing-angularjs-from-scratch
 testing-automation-big-picture
+testing-debugging-ansible-automation
 testing-django-applications
 testing-fundamentals-ios
 testing-javascript
