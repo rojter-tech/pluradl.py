@@ -5211,7 +5211,7 @@
         "url": "https://www.pluralsight.com/courses/ansible-fundamentals"
     },
     "ansible-windows-fundamentals": {
-        "author": "Red Hat",
+        "author": "Pluralsight",
         "date": "Apr 14 2020",
         "length": 121,
         "level": "Intermediate",
