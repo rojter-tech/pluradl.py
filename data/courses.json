@@ -5592,7 +5592,7 @@
         "author": "Google Cloud",
         "date": "Oct 1 2019",
         "length": 172,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Applying Machine Learning to your Data with GCP",
         "url": "https://www.pluralsight.com/courses/applying-machine-learning-data-gcp"
@@ -12900,7 +12900,7 @@
         "author": "Google Cloud",
         "date": "Sep 30 2019",
         "length": 32,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Building Scalable Java Microservices with Spring Boot and Spring Cloud on Google Cloud",
         "url": "https://www.pluralsight.com/courses/building-scalable-java-microservices-spring-boot-spring-cloud"
@@ -45984,7 +45984,7 @@
         "author": "Google Cloud",
         "date": "Sep 30 2019",
         "length": 104,
-        "level": "Beginner",
+        "level": "Intermediate",
         "rating": "",
         "title": "Managing Security in Google Cloud Platform",
         "url": "https://www.pluralsight.com/courses/managing-security-google-cloud-platform"
@@ -61815,7 +61815,7 @@
         "author": "Google Cloud",
         "date": "Apr 10 2020",
         "length": 145,
-        "level": "Beginner",
+        "level": "Advanced",
         "rating": "",
         "title": "Preparing for the Google Cloud Professional Data Engineer Exam",
         "url": "https://www.pluralsight.com/courses/preparing-google-cloud-professional-data-engineer-exam"
