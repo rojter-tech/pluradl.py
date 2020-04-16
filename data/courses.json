@@ -56465,6 +56465,15 @@
         "title": "Optimize N1QL Queries",
         "url": "https://www.pluralsight.com/courses/optimize-n1ql-queries"
     },
+    "optimize-performance-react": {
+        "author": "Hendrik Swanepoel",
+        "date": "Apr 16 2020",
+        "length": 56,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Optimize Performance for React",
+        "url": "https://www.pluralsight.com/courses/optimize-performance-react"
+    },
     "optimized-game-character-modeling": {
         "author": "Dan John Cox",
         "date": "May 24 2018",

@@ -6272,6 +6272,7 @@ operationalizing-cyber-threat-intel-pivoting-hunting
 opsec-penetration-testers
 optical-character-recognition-windows-runtime
 optimize-n1ql-queries
+optimize-performance-react
 optimized-game-character-modeling
 optimizing-data-warehouse-microsoft-sql-server-platform
 optimizing-fields-tags-event-types-splunk
