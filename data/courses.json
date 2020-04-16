@@ -15425,6 +15425,15 @@
         "title": "Cisco Enterprise Networks: Implementing OSPF",
         "url": "https://www.pluralsight.com/courses/cisco-enterprise-networks-implementing-ospf"
     },
+    "cisco-enterprise-networks-spanning-tree-protocols-etherchannels": {
+        "author": "Ben Piper",
+        "date": "Apr 16 2020",
+        "length": 155,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cisco Enterprise Networks: Spanning Tree Protocols and EtherChannels",
+        "url": "https://www.pluralsight.com/courses/cisco-enterprise-networks-spanning-tree-protocols-etherchannels"
+    },
     "cisco-enterprise-networks-vlans-trunking": {
         "author": "Ben Piper",
         "date": "Mar 31 2020",
