@@ -5548,6 +5548,7 @@ microsoft-azure-non-functional-requirements-gathering
 microsoft-azure-nosql-databases-implementing
 microsoft-azure-on-premises-networks-virtual-networks-connecting
 microsoft-azure-one-time-costs-estimating-recurring
+microsoft-azure-one-time-costs-estimating-recurring-update
 microsoft-azure-operationalizing-ai-solutions
 microsoft-azure-optimize-feedback-mechanisms
 microsoft-azure-optimizing-ai-solutions
