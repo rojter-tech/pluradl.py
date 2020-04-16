@@ -11744,6 +11744,15 @@
         "title": "Build Your First Data Visualization with Google Charts",
         "url": "https://www.pluralsight.com/courses/build-first-data-visualization-google-charts"
     },
+    "build-first-data-visualization-matplotlib": {
+        "author": "Martin Burger",
+        "date": "Apr 16 2020",
+        "length": 68,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Build Your First Data Visualization with Matplotlib",
+        "url": "https://www.pluralsight.com/courses/build-first-data-visualization-matplotlib"
+    },
     "build-first-data-visualization-seaborn": {
         "author": "Pratheerth Padman",
         "date": "Apr 8 2020",
@@ -23542,6 +23551,15 @@
         "rating": "",
         "title": "Developing Applications with AWS Lightsail",
         "url": "https://www.pluralsight.com/courses/developing-applications-aws-lightsail"
+    },
+    "developing-azure-active-directory-b2c-applications": {
+        "author": "Matthew Soucoup",
+        "date": "Apr 16 2020",
+        "length": 123,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Developing Azure Active Directory B2C Applications",
+        "url": "https://www.pluralsight.com/courses/developing-azure-active-directory-b2c-applications"
     },
     "developing-creature-concepts-games-1778": {
         "author": "Kurt Jones",
