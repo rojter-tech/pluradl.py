@@ -55349,6 +55349,15 @@
         "title": "Introduction to npm as a Build Tool",
         "url": "https://www.pluralsight.com/courses/npm-build-tool-introduction"
     },
+    "npm-getting-started": {
+        "author": "Joe Eames",
+        "date": "Apr 16 2020",
+        "length": 59,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Getting Started with npm",
+        "url": "https://www.pluralsight.com/courses/npm-getting-started"
+    },
     "npm-playbook": {
         "author": "Joe Eames",
         "date": "Dec 11 2015",
