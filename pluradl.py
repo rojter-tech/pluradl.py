@@ -69,11 +69,13 @@ def move_content(pdl, course_id, coursepath, completionpath):
     pdl.to_stdout("Moving content to " + finalpath)
     set_directory(completionpath)
     try:
-        if os.path.exists(finalpath):
-            shutil.rmtree(finalpath)
-        shutil.move(coursepath,finalpath)
-        if os.path.exists(INPROGRESSPATH):
-            shutil.rmtree(INPROGRESSPATH)
+        os.makedirs(finalpath)
+        for completed_file in os.listdir(coursepath):
+            final_file = os.path.join(finalpath, completed_file)
+            if os.path.exists(final_file):
+                shutil.rmtree(final_file)
+            shutil.move(os.path.join(coursepath, completed_file), final_file)
+        shutil.rmtree(coursepath)
     except PermissionError:
         print("Directory still in use, leaving it. Will be fixed in future releases.")
 
