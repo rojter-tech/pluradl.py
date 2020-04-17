@@ -9081,6 +9081,7 @@ using-outlook-2016
 using-paintstop-zbrush-197
 using-pattern-based-modeling-create-exterior-glazing-families-1964
 using-photoshop-alter-lighting-an-image-484
+using-powerapps-with-excel-onedrive-and-sharepoint
 using-predictive-analytics-improve-customer-journey
 using-ptex-texturing-look-dev-mudbox-renderman-ris-2281
 using-pytorch-in-the-cloud-playbook
