@@ -69830,6 +69830,15 @@
         "title": "Understanding Server Hardware",
         "url": "https://www.pluralsight.com/courses/server-hardware"
     },
+    "server-rendering-react-components": {
+        "author": "Daniel Stern",
+        "date": "Apr 17 2020",
+        "length": 91,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Server Rendering React Components",
+        "url": "https://www.pluralsight.com/courses/server-rendering-react-components"
+    },
     "server-side-swift-vapor-getting-started": {
         "author": "Jonathan Wong",
         "date": "Jan 5 2019",
