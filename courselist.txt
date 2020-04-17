@@ -2517,6 +2517,7 @@ design-patterns-swift-structural
 design-stop-motion-snask
 design-tech-logo-stands-out-2528
 design-to-development-for-developers
+designing-advanced-security-aws
 designing-album-artwork-photoshop-325
 designing-an-album-cover-photoshop-538
 designing-an-iphone-app-axure-2185
