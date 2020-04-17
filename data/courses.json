@@ -5413,7 +5413,7 @@
         "date": "Apr 5 2018",
         "length": 632,
         "level": "Intermediate",
-        "rating": 65,
+        "rating": 66,
         "title": "API Design in Node.js Featuring Express & Mongo",
         "url": "https://www.pluralsight.com/courses/api-design-nodejs-express-mongo"
     },
@@ -10912,7 +10912,7 @@
         "date": "Jun 15 2016",
         "length": 206,
         "level": "Beginner",
-        "rating": 193,
+        "rating": 194,
         "title": "Introduction to Bitcoin and Decentralized Technology",
         "url": "https://www.pluralsight.com/courses/bitcoin-decentralized-technology"
     },
@@ -14233,7 +14233,7 @@
         "date": "Jan 16 2014",
         "length": 304,
         "level": "Advanced",
-        "rating": 38,
+        "rating": 39,
         "title": "Cisco CCIE Routing and Switching: Implement BGP",
         "url": "https://www.pluralsight.com/courses/ccie-routing-switching-implement-bgp"
     },
@@ -15709,7 +15709,7 @@
         "date": "Mar 14 2018",
         "length": 176,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "Citrix XenDesktop 7.15 LTSR: Machine Creation Services",
         "url": "https://www.pluralsight.com/courses/citrix-xendesktop-7-15-machine-creation-services"
     },
@@ -42727,7 +42727,7 @@
         "date": "Nov 12 2019",
         "length": 102,
         "level": "Beginner",
-        "rating": 20,
+        "rating": 21,
         "title": "JavaScript Syntax and Operators",
         "url": "https://www.pluralsight.com/courses/javascript-syntax-operators"
     },
@@ -43618,7 +43618,7 @@
         "date": "Dec 20 2016",
         "length": 158,
         "level": "Beginner",
-        "rating": 152,
+        "rating": 154,
         "title": "Getting Started with Laravel (PHP Framework) - The Basics",
         "url": "https://www.pluralsight.com/courses/laravel-php-framework-getting-started-the-basics"
     },
@@ -59818,7 +59818,7 @@
         "date": "Jun 20 2014",
         "length": 103,
         "level": "Advanced",
-        "rating": 235,
+        "rating": 236,
         "title": "Play by Play: SQL Server Administration with Pinal Dave",
         "url": "https://www.pluralsight.com/courses/play-by-play-pinal-dave"
     },
@@ -65389,7 +65389,7 @@
         "date": "Sep 23 2019",
         "length": 31,
         "level": "Beginner",
-        "rating": 32,
+        "rating": 33,
         "title": "Recording and Managing Excel Macros",
         "url": "https://www.pluralsight.com/courses/recording-managing-excel-macros"
     },
@@ -74515,7 +74515,7 @@
         "date": "Jan 31 2017",
         "length": 182,
         "level": "Beginner",
-        "rating": 67,
+        "rating": 68,
         "title": "SQL Server: Introduction to Query Store",
         "url": "https://www.pluralsight.com/courses/sqlserver-query-store-introduction"
     },
