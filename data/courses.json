@@ -20294,6 +20294,15 @@
         "title": "Creating Machine Learning Models",
         "url": "https://www.pluralsight.com/courses/creating-machine-learning-models"
     },
+    "creating-managing-custom-standard-objects-salesforce": {
+        "author": "Mehdi Maujood",
+        "date": "Apr 17 2020",
+        "length": 149,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Creating and Managing Custom and Standard Objects in Salesforce",
+        "url": "https://www.pluralsight.com/courses/creating-managing-custom-standard-objects-salesforce"
+    },
     "creating-mixed-media-illustration-photoshop-painter-2139": {
         "author": "Igor Scekic",
         "date": "Jun 16 2015",
@@ -50723,6 +50732,15 @@
         "title": "Microsoft Dynamics 365 for Sales",
         "url": "https://www.pluralsight.com/courses/microsoft-dynamics-365-sales"
     },
+    "microsoft-edge": {
+        "author": "ClipTraining",
+        "date": "Apr 17 2020",
+        "length": 90,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Microsoft Edge",
+        "url": "https://www.pluralsight.com/courses/microsoft-edge"
+    },
     "microsoft-edge-developers": {
         "author": "Alex Mackey",
         "date": "Oct 19 2015",
@@ -56563,6 +56581,15 @@
         "rating": 160,
         "title": "Optimizing OLTP and Data Warehousing with SQL Server 2014",
         "url": "https://www.pluralsight.com/courses/optimizing-oltp-data-warehousing-sql-server-2014"
+    },
+    "optimizing-query-performance-columnstore-indexes": {
+        "author": "Jared Westover",
+        "date": "Apr 17 2020",
+        "length": 174,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Optimizing Query Performance with Columnstore Indexes",
+        "url": "https://www.pluralsight.com/courses/optimizing-query-performance-columnstore-indexes"
     },
     "optimizing-sql-queries-oracle": {
         "author": "Scott Hecht",
@@ -88657,6 +88684,15 @@
         "rating": 146,
         "title": "Testing .NET Code with xUnit.net 2",
         "url": "https://www.pluralsight.com/courses/xunitdotnet2-dotnet-code-testing"
+    },
+    "yammer-2020": {
+        "author": "ClipTraining",
+        "date": "Apr 17 2020",
+        "length": 108,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Yammer (2020)",
+        "url": "https://www.pluralsight.com/courses/yammer-2020"
     },
     "yammer-business-professionals": {
         "author": "Heather Fitzpatrick",

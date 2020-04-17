@@ -2253,6 +2253,7 @@ creating-leading-effective-teams-for-managers
 creating-list-based-screens-xamarin-forms
 creating-living-style-guide-sass-vanilla-javascript
 creating-machine-learning-models
+creating-managing-custom-standard-objects-salesforce
 creating-mixed-media-illustration-photoshop-painter-2139
 creating-mobile-apps-hybrid-cross-platform-native
 creating-mobile-games-gamesalad
@@ -5634,6 +5635,7 @@ microsoft-dynamics-365-field-service
 microsoft-dynamics-365-getting-started
 microsoft-dynamics-365-project-service-automation
 microsoft-dynamics-365-sales
+microsoft-edge
 microsoft-edge-developers
 microsoft-enterprise-mobility-suite-getting-started
 microsoft-fakes
@@ -6283,6 +6285,7 @@ optimizing-fields-tags-event-types-splunk
 optimizing-google-cloud-platform-gcp-costs
 optimizing-images-web-photoshop-1655
 optimizing-oltp-data-warehousing-sql-server-2014
+optimizing-query-performance-columnstore-indexes
 optimizing-sql-queries-oracle
 optimizing-sql-server-statistics-indexes
 optimizing-video-footage-after-effects-1608
@@ -9849,6 +9852,7 @@ xpath-3-0-whats-new
 xslt-3-0-whats-new-part1
 xslt-foundations-part1
 xunitdotnet2-dotnet-code-testing
+yammer-2020
 yammer-business-professionals
 yeoman-fundamentals
 your-first-day-3ds-max-1704
