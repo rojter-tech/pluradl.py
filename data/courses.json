@@ -9355,7 +9355,7 @@
         "date": "Nov 27 2017",
         "length": 27,
         "level": "Intermediate",
-        "rating": 41,
+        "rating": 43,
         "title": "Becoming a More Valuable UX Professional",
         "url": "https://www.pluralsight.com/courses/becoming-more-valuable-ux-professional"
     },
@@ -20965,7 +20965,7 @@
         "date": "Dec 3 2019",
         "length": 13,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "C# Design Patterns: Null Object",
         "url": "https://www.pluralsight.com/courses/csharp-design-patterns-null-object"
     },
@@ -24223,7 +24223,7 @@
         "date": "Jan 23 2019",
         "length": 81,
         "level": "Beginner",
-        "rating": 1230,
+        "rating": 1232,
         "title": "DevOps: The Big Picture",
         "url": "https://www.pluralsight.com/courses/devops-big-picture"
     },
@@ -24745,7 +24745,7 @@
         "date": "Jul 20 2018",
         "length": 352,
         "level": "Beginner",
-        "rating": 572,
+        "rating": 574,
         "title": "Docker for Web Developers",
         "url": "https://www.pluralsight.com/courses/docker-web-development"
     },
@@ -48190,7 +48190,7 @@
         "date": "Apr 16 2018",
         "length": 105,
         "level": "Beginner",
-        "rating": 323,
+        "rating": 326,
         "title": "Microservices: The Big Picture",
         "url": "https://www.pluralsight.com/courses/microservices-big-picture"
     },
@@ -53374,7 +53374,7 @@
         "date": "Jul 11 2013",
         "length": 147,
         "level": "Intermediate",
-        "rating": 1748,
+        "rating": 1749,
         "title": "Introduction to MongoDB",
         "url": "https://www.pluralsight.com/courses/mongodb-introduction"
     },
@@ -76486,7 +76486,7 @@
         "date": "Jan 23 2019",
         "length": 132,
         "level": "Intermediate",
-        "rating": 30,
+        "rating": 31,
         "title": "TDD with Spring and JUnit 5",
         "url": "https://www.pluralsight.com/courses/tdd-spring-junit5"
     },
