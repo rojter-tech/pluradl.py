@@ -3649,7 +3649,7 @@
         "date": "Aug 14 2019",
         "length": 341,
         "level": "Beginner",
-        "rating": 3816,
+        "rating": 3819,
         "title": "Angular: Getting Started",
         "url": "https://www.pluralsight.com/courses/angular-2-getting-started-update"
     },
@@ -3703,7 +3703,7 @@
         "date": "Jan 15 2019",
         "length": 321,
         "level": "Intermediate",
-        "rating": 176,
+        "rating": 177,
         "title": "Angular Architecture and Best Practices",
         "url": "https://www.pluralsight.com/courses/angular-architecture-best-practices"
     },
@@ -16123,7 +16123,7 @@
         "date": "Sep 20 2018",
         "length": 51,
         "level": "Beginner",
-        "rating": 75,
+        "rating": 76,
         "title": "Cloud-native Architecture: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cloud-native-architecture-big-picture"
     },
@@ -20866,7 +20866,7 @@
         "date": "Apr 8 2016",
         "length": 208,
         "level": "Intermediate",
-        "rating": 356,
+        "rating": 357,
         "title": "Applying Functional Principles in C#",
         "url": "https://www.pluralsight.com/courses/csharp-applying-functional-principles"
     },
@@ -22081,7 +22081,7 @@
         "date": "Feb 8 2018",
         "length": 87,
         "level": "Beginner",
-        "rating": 293,
+        "rating": 295,
         "title": "Deep Learning: The Big Picture",
         "url": "https://www.pluralsight.com/courses/deep-learning-big-picture"
     },
@@ -22549,7 +22549,7 @@
         "date": "Jan 28 2016",
         "length": 252,
         "level": "Intermediate",
-        "rating": 94,
+        "rating": 95,
         "title": "Design Patterns in C++: Creational",
         "url": "https://www.pluralsight.com/courses/design-patterns-cpp-creational"
     },
@@ -28615,7 +28615,7 @@
         "date": "Sep 28 2018",
         "length": 226,
         "level": "Beginner",
-        "rating": 165,
+        "rating": 166,
         "title": "Ethical Hacking: Malware Threats",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-malware-threats"
     },
@@ -28660,7 +28660,7 @@
         "date": "Sep 16 2019",
         "length": 207,
         "level": "Beginner",
-        "rating": 258,
+        "rating": 259,
         "title": "Ethical Hacking: Session Hijacking",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-session-hijacking"
     },
@@ -28705,7 +28705,7 @@
         "date": "Sep 17 2019",
         "length": 457,
         "level": "Beginner",
-        "rating": 1163,
+        "rating": 1165,
         "title": "Ethical Hacking: Understanding Ethical Hacking",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-understanding"
     },
@@ -28741,7 +28741,7 @@
         "date": "Oct 2 2018",
         "length": 195,
         "level": "Beginner",
-        "rating": 136,
+        "rating": 137,
         "title": "Ethical Hacking: Hacking Wireless Networks",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-wireless-networks"
     },
@@ -30775,7 +30775,7 @@
         "date": "Nov 9 2019",
         "length": 124,
         "level": "Beginner",
-        "rating": 29,
+        "rating": 31,
         "title": "Flask: Getting Started",
         "url": "https://www.pluralsight.com/courses/flask-getting-started"
     },
@@ -31369,7 +31369,7 @@
         "date": "May 25 2016",
         "length": 334,
         "level": "Beginner",
-        "rating": 1152,
+        "rating": 1153,
         "title": "Become a Full-stack .NET Developer",
         "url": "https://www.pluralsight.com/courses/full-stack-dot-net-developer-fundamentals"
     },
@@ -33529,7 +33529,7 @@
         "date": "Dec 11 2017",
         "length": 41,
         "level": "Beginner",
-        "rating": 98,
+        "rating": 100,
         "title": "Getting Started in UX Design",
         "url": "https://www.pluralsight.com/courses/getting-started-ux-design"
     },
@@ -37615,7 +37615,7 @@
         "date": "Aug 14 2018",
         "length": 173,
         "level": "Beginner",
-        "rating": 19,
+        "rating": 20,
         "title": "Introduction to Information Security",
         "url": "https://www.pluralsight.com/courses/information-security-introduction"
     },
@@ -42781,7 +42781,7 @@
         "date": "Aug 19 2019",
         "length": 43,
         "level": "Intermediate",
-        "rating": 19,
+        "rating": 20,
         "title": "JavaScript Variables and Types",
         "url": "https://www.pluralsight.com/courses/javascript-variables-types"
     },
@@ -48190,7 +48190,7 @@
         "date": "Apr 16 2018",
         "length": 105,
         "level": "Beginner",
-        "rating": 326,
+        "rating": 327,
         "title": "Microservices: The Big Picture",
         "url": "https://www.pluralsight.com/courses/microservices-big-picture"
     },
@@ -55237,7 +55237,7 @@
         "date": "Jan 24 2019",
         "length": 122,
         "level": "Intermediate",
-        "rating": 101,
+        "rating": 102,
         "title": "RESTful Web Services with Node.js and Express",
         "url": "https://www.pluralsight.com/courses/node-js-express-rest-web-services-update"
     },
@@ -61528,7 +61528,7 @@
         "date": "Feb 5 2019",
         "length": 82,
         "level": "Intermediate",
-        "rating": 26,
+        "rating": 27,
         "title": "Practical Cryptography in Node.js",
         "url": "https://www.pluralsight.com/courses/practical-cryptography-node-js"
     },
@@ -65083,7 +65083,7 @@
         "date": "Feb 10 2020",
         "length": 59,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Reading Legacy C++",
         "url": "https://www.pluralsight.com/courses/reading-legacy-cplusplus"
     },
@@ -68197,7 +68197,7 @@
         "date": "Sep 30 2016",
         "length": 90,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "Testing C# Code in Production with Scientist.NET",
         "url": "https://www.pluralsight.com/courses/scientist-dotnet-csharp-testing-code-production"
     },
@@ -81337,7 +81337,7 @@
         "date": "Jun 12 2019",
         "length": 84,
         "level": "Beginner",
-        "rating": 15,
+        "rating": 16,
         "title": "Using Docker on AWS with the Command Line",
         "url": "https://www.pluralsight.com/courses/using-docker-aws"
     },
