@@ -36791,6 +36791,15 @@
         "title": "Implementing Mobile Device Management for Microsoft 365",
         "url": "https://www.pluralsight.com/courses/implementing-mobile-device-management-microsoft-365"
     },
+    "implementing-monitoring-threat-management-microsoft-365": {
+        "author": "Brian Alderman",
+        "date": "Apr 20 2020",
+        "length": 72,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing and Monitoring Threat Management in Microsoft 365",
+        "url": "https://www.pluralsight.com/courses/implementing-monitoring-threat-management-microsoft-365"
+    },
     "implementing-netscaler-12-high-availability": {
         "author": "Jo Harder",
         "date": "Aug 16 2018",

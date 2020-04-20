@@ -4086,6 +4086,7 @@ implementing-incident-management-scsm-2016
 implementing-managing-office-365-advanced-threat-protection
 implementing-message-brokering-amazon-mq
 implementing-mobile-device-management-microsoft-365
+implementing-monitoring-threat-management-microsoft-365
 implementing-netscaler-12-high-availability
 implementing-ospf-ccnp-routing-switching-300-101-route
 implementing-performing-risk-management-iso-iec-27005
