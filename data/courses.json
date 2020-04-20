@@ -6713,6 +6713,15 @@
         "title": "ASP.NET Core Internationalization Deep Dive",
         "url": "https://www.pluralsight.com/courses/aspdotnetcore-internationalization-deep-dive"
     },
+    "aspect-oriented-programming-spring-aop": {
+        "author": "Catalin Tudose",
+        "date": "Apr 20 2020",
+        "length": 86,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Spring Framework: Aspect Oriented Programming with Spring AOP",
+        "url": "https://www.pluralsight.com/courses/aspect-oriented-programming-spring-aop"
+    },
     "aspect-oriented-programming-spring-aspectj": {
         "author": "Eberhard Wolff",
         "date": "Oct 14 2013",

@@ -744,6 +744,7 @@ aspdotnet-webforms4-intro
 aspdotnet-xml-reporting-by-example
 aspdotnet4-delta
 aspdotnetcore-internationalization-deep-dive
+aspect-oriented-programming-spring-aop
 aspect-oriented-programming-spring-aspectj
 aspnet-bundling-minification-resource-optimization
 aspnet-core-3-mvc-request-life-cycle
