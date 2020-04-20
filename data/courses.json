@@ -84419,6 +84419,15 @@
         "title": "Web App Hacking: Hacking Password Reset Functionality",
         "url": "https://www.pluralsight.com/courses/web-app-hacking-password-reset-functionality"
     },
+    "web-app-pen-testing-weak-cryptography": {
+        "author": "Dawid Czagan",
+        "date": "Apr 20 2020",
+        "length": 51,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Web Application Penetration Testing: Weak Cryptography",
+        "url": "https://www.pluralsight.com/courses/web-app-pen-testing-weak-cryptography"
+    },
     "web-app-pentesting-configuration-deployment-management": {
         "author": "Lee Allen",
         "date": "Feb 12 2019",

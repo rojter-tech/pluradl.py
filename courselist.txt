@@ -9378,6 +9378,7 @@ web-accessibility-meeting-guidelines
 web-animations-api-building-uis
 web-api-design
 web-app-hacking-password-reset-functionality
+web-app-pen-testing-weak-cryptography
 web-app-pentesting-configuration-deployment-management
 web-app-pentesting-fundamentals
 web-app-pentesting-input-validation
