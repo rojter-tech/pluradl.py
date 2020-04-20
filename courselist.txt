@@ -163,6 +163,7 @@ advanced-defensive-programming-techniques
 advanced-editing-theories-techniques-premiere-pro-1624
 advanced-editing-workflows-lightroom-2273
 advanced-editor-scripting-unity-monodevelop-1992
+advanced-entity-framework-six-ninja-features
 advanced-generators-and-coroutines
 advanced-git
 advanced-git-techniques
