@@ -823,6 +823,7 @@ automatic-dotnet-code-weaving-fody
 automating-aws-operations-aws-cli
 automating-cisco-dna-center-operations-using-apis
 automating-cisco-meraki-operations-using-apis
+automating-container-management-ansible
 automating-deployment-amazon-ec2-ansible
 automating-jenkins-groovy
 automating-networks-ansible-right-way

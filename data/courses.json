@@ -7424,6 +7424,15 @@
         "title": "Automating Cisco Meraki Operations Using APIs",
         "url": "https://www.pluralsight.com/courses/automating-cisco-meraki-operations-using-apis"
     },
+    "automating-container-management-ansible": {
+        "author": "Pluralsight",
+        "date": "Apr 20 2020",
+        "length": 51,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Automating Container Management with Ansible",
+        "url": "https://www.pluralsight.com/courses/automating-container-management-ansible"
+    },
     "automating-deployment-amazon-ec2-ansible": {
         "author": "Pluralsight",
         "date": "Apr 15 2020",
