@@ -6268,7 +6268,7 @@
         "date": "Oct 10 2019",
         "length": 302,
         "level": "Beginner",
-        "rating": 102,
+        "rating": 103,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -12028,7 +12028,7 @@
         "date": "Nov 4 2016",
         "length": 138,
         "level": "Beginner",
-        "rating": 339,
+        "rating": 341,
         "title": "The Building Blocks of Hadoop - HDFS, MapReduce, and YARN",
         "url": "https://www.pluralsight.com/courses/building-blocks-hadoop-hdfs-mapreduce-yarn"
     },
@@ -12379,7 +12379,7 @@
         "date": "May 2 2019",
         "length": 127,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "Building Your First scikit-learn Solution",
         "url": "https://www.pluralsight.com/courses/building-first-scikit-learn-solution"
     },
@@ -20848,7 +20848,7 @@
         "date": "Sep 30 2019",
         "length": 108,
         "level": "Intermediate",
-        "rating": 50,
+        "rating": 51,
         "title": "What’s New in C# 8.0 and .NET Core 3.0",
         "url": "https://www.pluralsight.com/courses/csharp-8-dotnet-core-3-whats-new"
     },
@@ -28597,7 +28597,7 @@
         "date": "May 3 2016",
         "length": 180,
         "level": "Beginner",
-        "rating": 59,
+        "rating": 61,
         "title": "Ethical Hacking: Evading IDS, Firewalls, and Honeypots",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-evading-ids-firewalls-honeypots"
     },
@@ -28714,7 +28714,7 @@
         "date": "Sep 28 2018",
         "length": 194,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Ethical Hacking: Vulnerability Analysis",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-vulnerability-analysis"
     },
@@ -42016,7 +42016,7 @@
         "date": "May 16 2019",
         "length": 119,
         "level": "Beginner",
-        "rating": 38,
+        "rating": 39,
         "title": "Java: BDD with Cucumber and Gherkin Getting Started",
         "url": "https://www.pluralsight.com/courses/java-bdd-cucumber-gherkin-getting-started"
     },
@@ -57415,7 +57415,7 @@
         "date": "Oct 9 2018",
         "length": 131,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 22,
         "title": "Pandas Playbook: Visualization",
         "url": "https://www.pluralsight.com/courses/pandas-playbook-visualization"
     },
@@ -74308,7 +74308,7 @@
         "date": "Jan 10 2019",
         "length": 164,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "SQL Server 2017: Diagnosing Performance Issues with DMVs",
         "url": "https://www.pluralsight.com/courses/sqlserver-2017-diagnosing-performance-issues-dmvs"
     },
