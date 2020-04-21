@@ -1948,7 +1948,7 @@
         "date": "Mar 13 2019",
         "length": 358,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "After Effects CC Fundamentals",
         "url": "https://www.pluralsight.com/courses/after-effects-cc-2019-fundamentals"
     },
@@ -20884,7 +20884,7 @@
         "date": "Sep 30 2019",
         "length": 108,
         "level": "Intermediate",
-        "rating": 51,
+        "rating": 52,
         "title": "What’s New in C# 8.0 and .NET Core 3.0",
         "url": "https://www.pluralsight.com/courses/csharp-8-dotnet-core-3-whats-new"
     },
@@ -24799,7 +24799,7 @@
         "date": "Dec 13 2016",
         "length": 341,
         "level": "Beginner",
-        "rating": 357,
+        "rating": 358,
         "title": "Getting Started with Docker on Windows",
         "url": "https://www.pluralsight.com/courses/docker-windows-getting-started"
     },
@@ -36751,7 +36751,7 @@
         "date": "Jul 15 2019",
         "length": 188,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Implementing Design Patterns Using Java 8 Lambda",
         "url": "https://www.pluralsight.com/courses/implementing-design-patterns-java-8-lambda-expression"
     },
@@ -42808,7 +42808,7 @@
         "date": "Nov 12 2019",
         "length": 102,
         "level": "Beginner",
-        "rating": 22,
+        "rating": 25,
         "title": "JavaScript Syntax and Operators",
         "url": "https://www.pluralsight.com/courses/javascript-syntax-operators"
     },
@@ -44023,7 +44023,7 @@
         "date": "Jan 1 2014",
         "length": 95,
         "level": "Beginner",
-        "rating": 1600,
+        "rating": 1601,
         "title": "Learning Technology in the Information Age",
         "url": "https://www.pluralsight.com/courses/learning-technology-information-age"
     },
@@ -63571,7 +63571,7 @@
         "date": "Jan 26 2018",
         "length": 65,
         "level": "Beginner",
-        "rating": 677,
+        "rating": 682,
         "title": "Python: The Big Picture",
         "url": "https://www.pluralsight.com/courses/python-big-picture"
     },
@@ -69520,7 +69520,7 @@
         "date": "Jun 7 2018",
         "length": 59,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Security Controls and Control Frameworks",
         "url": "https://www.pluralsight.com/courses/security-controls-frameworks"
     },
