@@ -9116,6 +9116,15 @@
         "title": "Azure Site Recovery: IaaS Migration and Disaster Recovery",
         "url": "https://www.pluralsight.com/courses/azure-site-recovery-iaas-migration-disaster-recovery"
     },
+    "azure-site-recovery-strategy-designing-update": {
+        "author": "Anthony Nocentino",
+        "date": "Apr 22 2020",
+        "length": 130,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Designing a Site Recovery Strategy on Microsoft Azure",
+        "url": "https://www.pluralsight.com/courses/azure-site-recovery-strategy-designing-update"
+    },
     "azure-solutions-70-534-storage-data-access": {
         "author": "Orin Thomas",
         "date": "Feb 24 2016",

@@ -1011,6 +1011,7 @@ azure-service-fabric-production
 azure-service-fabric-programming-models
 azure-services-providing-disaster-recovery
 azure-site-recovery-iaas-migration-disaster-recovery
+azure-site-recovery-strategy-designing-update
 azure-solutions-70-534-storage-data-access
 azure-solutions-prepare-pass-exam-70-532
 azure-solutions-web-apps-70-532
