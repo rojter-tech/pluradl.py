@@ -600,8 +600,10 @@ apex-absolute-beginner-guide-coding-salesforce
 apex-fundamental-coding
 apex-soql-salesforce
 api-design-fundamentals-google-clouds-apigee-api-platform
+api-design-fundamentals-google-clouds-apigee-api-platform-update
 api-design-nodejs-express-mongo
 api-development-google-clouds-apigee-api-platform
+api-development-google-clouds-apigee-api-platform-update
 api-security-google-clouds-apigee-api-platform
 api-testing-hp-unified-functional-testing
 app-deployment-debugging-performance

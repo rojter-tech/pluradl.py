@@ -5417,6 +5417,15 @@
         "title": "API Design and Fundamentals of Google Cloud's Apigee API Platform",
         "url": "https://www.pluralsight.com/courses/api-design-fundamentals-google-clouds-apigee-api-platform"
     },
+    "api-design-fundamentals-google-clouds-apigee-api-platform-update": {
+        "author": "Google Cloud",
+        "date": "Apr 22 2020",
+        "length": 73,
+        "level": "Beginner",
+        "rating": "",
+        "title": "API Design and Fundamentals of Google Cloud's Apigee API Platform",
+        "url": "https://www.pluralsight.com/courses/api-design-fundamentals-google-clouds-apigee-api-platform-update"
+    },
     "api-design-nodejs-express-mongo": {
         "author": "Scott Moss",
         "date": "Apr 5 2018",
@@ -5434,6 +5443,15 @@
         "rating": "",
         "title": "API Development on Google Cloud's Apigee API Platform",
         "url": "https://www.pluralsight.com/courses/api-development-google-clouds-apigee-api-platform"
+    },
+    "api-development-google-clouds-apigee-api-platform-update": {
+        "author": "Google Cloud",
+        "date": "Apr 22 2020",
+        "length": 83,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "API Development on Google Cloud's Apigee API Platform",
+        "url": "https://www.pluralsight.com/courses/api-development-google-clouds-apigee-api-platform-update"
     },
     "api-security-google-clouds-apigee-api-platform": {
         "author": "Google Cloud",
