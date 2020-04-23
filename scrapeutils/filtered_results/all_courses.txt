@@ -3329,6 +3329,7 @@ exploring-go-modules
 exploring-hidden-gems-sysinternals-toolkit
 exploring-human-muscles-setup-maya-2395
 exploring-layer-effects-styles-photoshop-1810
+exploring-lean-principles
 exploring-maya-2016-2022
 exploring-mental-ray-materials-maya-650
 exploring-modeling-workflows-maya-397
