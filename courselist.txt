@@ -8572,6 +8572,7 @@ testable-windows-8
 testcafe-end-to-end-web-testing-getting-started
 testing-and-prototyping-javascript-apps
 testing-angularjs-from-scratch
+testing-applications-comptia-pentest
 testing-automation-big-picture
 testing-debugging-ansible-automation
 testing-django-applications
