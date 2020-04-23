@@ -2734,6 +2734,7 @@ disaster-recovery-for-comptia-server-plus-sk0-004
 disaster-recovery-planning
 discovering-business-analysis-information-through-elicitation
 discovering-use-weldments-sheet-metal-design-solidworks-1848
+discovery-adrecon
 discovery-bloodhound
 disintegration-teleportation-reintegration-effects-houdini-2322
 displaying-tables-with-excel
