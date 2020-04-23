@@ -43,7 +43,8 @@ def set_playlist_options(digits):
 
     n = len(digits)
     if n == 0:
-        pass
+        PDL_OPTS.pop("playliststart", None)
+        PDL_OPTS.pop("playlistend", None)
     elif n == 1:
         print("Downloading video indicies up to",digits[0],"to")
         PDL_OPTS["playlistend"]   = digits[0]
