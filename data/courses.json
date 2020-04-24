@@ -12338,6 +12338,15 @@
         "title": "10 Ways to Build Web Services in .NET",
         "url": "https://www.pluralsight.com/courses/building-dotnet-web-services-10ways"
     },
+    "building-end-to-end-machine-learning-workflows-kubeflow": {
+        "author": "Abhishek Kumar",
+        "date": "Apr 24 2020",
+        "length": 210,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Building End-to-end Machine Learning Workflows with Kubeflow",
+        "url": "https://www.pluralsight.com/courses/building-end-to-end-machine-learning-workflows-kubeflow"
+    },
     "building-enterprise-distributed-online-analytics-platform": {
         "author": "Kobi Hikri",
         "date": "May 8 2017",

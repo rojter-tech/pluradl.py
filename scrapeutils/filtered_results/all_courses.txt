@@ -1369,6 +1369,7 @@ building-data-literate-culture-executive-briefing
 building-deploying-monitoring-apache-nifi-dataflow
 building-dotnet-console-applications-csharp
 building-dotnet-web-services-10ways
+building-end-to-end-machine-learning-workflows-kubeflow
 building-enterprise-distributed-online-analytics-platform
 building-etl-pipeline-microsoft-azure-databricks
 building-f-sharp-type-providers
