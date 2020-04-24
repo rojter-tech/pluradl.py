@@ -50554,8 +50554,8 @@
     },
     "microsoft-azure-storage-cors-access-configuring": {
         "author": "Kamran Ayub",
-        "date": "Jun 11 2019",
-        "length": 60,
+        "date": "Apr 24 2020",
+        "length": 64,
         "level": "Advanced",
         "rating": 12,
         "title": "Microsoft Azure Developer: Configuring CORS Access for Storage",
