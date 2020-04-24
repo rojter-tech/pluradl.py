@@ -7688,6 +7688,7 @@ section-drawings-revit-1501
 secure-account-management-fundamentals
 secure-coding-identifying-mitigating-xxe-vulnerabilities
 secure-coding-insecure-deserialization-preventing
+secure-coding-preventing-broken-access-control
 secure-coding-preventing-insufficient-logging-monitoring
 secure-coding-preventing-sensitive-data-exposure
 secure-coding-using-components-known-vulnerabilities

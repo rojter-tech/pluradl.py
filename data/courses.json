@@ -69209,6 +69209,15 @@
         "title": "Secure Coding: Preventing Insecure Deserialization",
         "url": "https://www.pluralsight.com/courses/secure-coding-insecure-deserialization-preventing"
     },
+    "secure-coding-preventing-broken-access-control": {
+        "author": "Gavin Johnson-Lynn",
+        "date": "Apr 24 2020",
+        "length": 115,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Secure Coding: Preventing Broken Access Control",
+        "url": "https://www.pluralsight.com/courses/secure-coding-preventing-broken-access-control"
+    },
     "secure-coding-preventing-insufficient-logging-monitoring": {
         "author": "Peter Mosmans",
         "date": "Jul 25 2018",
