@@ -84,6 +84,7 @@ add-dev-console-to-your-app-with-javascript-increase-productivity
 add-profit-to-business-by-adding-purpose
 adding-dynamics-mermaid-animation-bifrost-maya-1909
 adding-facial-topology-maya-294
+adding-graphics-web-pages-using-canvas-svg
 adding-keyframe-animation-motion-capture-maya-1813
 adfs-logon-server-by-example
 adfs2-and-wif35
