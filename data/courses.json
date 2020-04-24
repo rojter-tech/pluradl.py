@@ -20834,6 +20834,15 @@
         "title": "Cross Site Request Forgery (CSRF) Prevention for ASP.NET Core and ASP.NET Applications",
         "url": "https://www.pluralsight.com/courses/cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications"
     },
+    "cross-site-scripting-xss-prevention-asp-dot-net-core-applications": {
+        "author": "Roland Guijt",
+        "date": "Apr 24 2020",
+        "length": 25,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cross Site Scripting (XSS) Prevention for ASP.NET Core and ASP.NET Applications",
+        "url": "https://www.pluralsight.com/courses/cross-site-scripting-xss-prevention-asp-dot-net-core-applications"
+    },
     "crowdfunding-fundamentals": {
         "author": "Devin Thorpe",
         "date": "Feb 11 2014",
