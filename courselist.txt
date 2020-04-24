@@ -2547,6 +2547,7 @@ designing-cisco-sd-wan-architecture-components
 designing-cisco-wireless-networks-wireless-site-surveys
 designing-cnc-laser-cutting-tinkercad-2103
 designing-complexity-aws
+designing-computing-data-center-infrastructure-cisco
 designing-concert-poster-photoshop-2304
 designing-controls-deformation-feedback-maya-1879
 designing-cosmetic-billboard-illustrator-photoshop-2212
