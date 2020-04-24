@@ -43766,6 +43766,15 @@
         "title": "Kubernetes for Developers: Deploying Your Code",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-deploying-code"
     },
+    "kubernetes-developers-integrating-volumes-using-multi-container-pods": {
+        "author": "Nigel Poulton",
+        "date": "Apr 24 2020",
+        "length": 146,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Kubernetes for Developers: Integrating Volumes and Using Multi-container Pods",
+        "url": "https://www.pluralsight.com/courses/kubernetes-developers-integrating-volumes-using-multi-container-pods"
+    },
     "kubernetes-developers-moving-cloud": {
         "author": "Craig Golightly",
         "date": "Dec 20 2019",

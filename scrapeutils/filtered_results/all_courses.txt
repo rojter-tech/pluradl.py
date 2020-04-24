@@ -4861,6 +4861,7 @@ kotlin-junit5-unit-testing
 kotlin-using-coroutines
 kubernetes-developers-core-concepts
 kubernetes-developers-deploying-code
+kubernetes-developers-integrating-volumes-using-multi-container-pods
 kubernetes-developers-moving-cloud
 kubernetes-installation-configuration-fundamentals
 kusto-query-language-kql-from-scratch
