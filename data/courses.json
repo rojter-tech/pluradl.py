@@ -11789,6 +11789,15 @@
         "title": "Build Excel Add-ins with Office JS APIs",
         "url": "https://www.pluralsight.com/courses/build-excel-addins-office-js-apis"
     },
+    "build-first-data-visualization-bokeh": {
+        "author": "Pratheerth Padman",
+        "date": "Apr 23 2020",
+        "length": 39,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Build Your First Data Visualization with Bokeh",
+        "url": "https://www.pluralsight.com/courses/build-first-data-visualization-bokeh"
+    },
     "build-first-data-visualization-ggplot2": {
         "author": "Martin Burger",
         "date": "Mar 28 2020",
@@ -48364,6 +48373,15 @@
         "rating": 45,
         "title": "Building Microservices REST APIs Using Spring Data REST",
         "url": "https://www.pluralsight.com/courses/microservices-rest-apis-spring-data"
+    },
+    "microservices-security-fundamentals": {
+        "author": "Wojciech Lesniak",
+        "date": "Apr 23 2020",
+        "length": 185,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Microservices Security Fundamentals",
+        "url": "https://www.pluralsight.com/courses/microservices-security-fundamentals"
     },
     "microsoft-365-security-concepts": {
         "author": "Vlad Catrinescu",
