@@ -37817,6 +37817,15 @@
         "title": "Information Systems Asset Protection: Asset Security",
         "url": "https://www.pluralsight.com/courses/information-systems-asset-protection-asset-security"
     },
+    "information-systems-asset-protection-securing-system-components": {
+        "author": "Kevin Henry",
+        "date": "Apr 25 2020",
+        "length": 180,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Information Systems Asset Protection: Securing System Components",
+        "url": "https://www.pluralsight.com/courses/information-systems-asset-protection-securing-system-components"
+    },
     "information-systems-auditing-acquisition-development": {
         "author": "Kevin Henry",
         "date": "Dec 10 2019",
@@ -52639,6 +52648,15 @@
         "rating": "",
         "title": "Modeling Automotive Interiors in modo",
         "url": "https://www.pluralsight.com/courses/modeling-automotive-interiors-modo-3491"
+    },
+    "modeling-aws-machine-learning": {
+        "author": "Saravanan Dhandapani",
+        "date": "Apr 25 2020",
+        "length": 133,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Modeling with AWS Machine Learning",
+        "url": "https://www.pluralsight.com/courses/modeling-aws-machine-learning"
     },
     "modeling-bracelet-rhino-zbrush-2114": {
         "author": "Jean Gorospe",

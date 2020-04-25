@@ -4200,6 +4200,7 @@ information-security-introduction
 information-security-measures-iso-iec-27002
 information-security-threats-risks-iso-iec-27002
 information-systems-asset-protection-asset-security
+information-systems-asset-protection-securing-system-components
 information-systems-auditing-acquisition-development
 information-systems-auditing-big-picture
 information-systems-auditing-implementation
@@ -5847,6 +5848,7 @@ modeling-architectural-ideas-3ds-max-2036
 modeling-ask-dts-maya-966
 modeling-assault-rifle-blender-2333
 modeling-automotive-interiors-modo-3491
+modeling-aws-machine-learning
 modeling-bracelet-rhino-zbrush-2114
 modeling-cartoon-props-3ds-max-96
 modeling-char-3d-printing-zbrush-887
