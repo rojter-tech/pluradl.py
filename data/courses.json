@@ -3568,7 +3568,7 @@
         "date": "Oct 2 2019",
         "length": 171,
         "level": "Beginner",
-        "rating": 54,
+        "rating": 55,
         "title": "Working with Android Tools and Testing",
         "url": "https://www.pluralsight.com/courses/android-tools-testing"
     },
@@ -6808,7 +6808,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 328,
+        "rating": 331,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -21091,7 +21091,7 @@
         "date": "Sep 10 2014",
         "length": 291,
         "level": "Intermediate",
-        "rating": 615,
+        "rating": 616,
         "title": "C# Equality and Comparisons",
         "url": "https://www.pluralsight.com/courses/csharp-equality-comparisons"
     },
@@ -21784,7 +21784,7 @@
         "date": "May 3 2019",
         "length": 148,
         "level": "Beginner",
-        "rating": 22,
+        "rating": 23,
         "title": "Data Binding in Xamarin.Forms",
         "url": "https://www.pluralsight.com/courses/data-binding-xamarin-forms"
     },
@@ -49954,7 +49954,7 @@
         "date": "Feb 10 2020",
         "length": 178,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Managing Microsoft Azure Active Directory",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-managing-active-directory"
     },
@@ -79654,7 +79654,7 @@
         "date": "Nov 12 2019",
         "length": 49,
         "level": "Intermediate",
-        "rating": 40,
+        "rating": 41,
         "title": "Creating and Using Generics in TypeScript",
         "url": "https://www.pluralsight.com/courses/typescript-generics-creating-using"
     },
