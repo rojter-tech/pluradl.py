@@ -27809,6 +27809,15 @@
         "title": "Elastic Cloud Infrastructure - Scaling and Automation",
         "url": "https://www.pluralsight.com/courses/elastic-cloud-infrastructure-scaling-automation"
     },
+    "elastic-google-cloud-infrastructure-scaling-automation": {
+        "author": "Google Cloud",
+        "date": "Apr 27 2020",
+        "length": 178,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Elastic Google Cloud Infrastructure: Scaling and Automation",
+        "url": "https://www.pluralsight.com/courses/elastic-google-cloud-infrastructure-scaling-automation"
+    },
     "elasticsearch-analyzing-data": {
         "author": "Janani Ravi",
         "date": "Jun 16 2017",
@@ -28618,6 +28627,15 @@
         "rating": "",
         "title": "Essential Google Cloud Infrastructure: Core Services",
         "url": "https://www.pluralsight.com/courses/essential-google-cloud-infrastructure-core-services"
+    },
+    "essential-google-cloud-infrastructure-foundation": {
+        "author": "Google Cloud",
+        "date": "Apr 27 2020",
+        "length": 197,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Essential Google Cloud Infrastructure: Foundation",
+        "url": "https://www.pluralsight.com/courses/essential-google-cloud-infrastructure-foundation"
     },
     "essential-strategies-hand-painting-textures-mari-1603": {
         "author": "Eddie Russell",
@@ -54583,6 +54601,15 @@
         "rating": "",
         "title": "Networking in GCP - Hybrid Connectivity and Network Management",
         "url": "https://www.pluralsight.com/courses/networking-gcp-hybrid-connectivity-network-management"
+    },
+    "networking-google-cloud-defining-implementing-networks": {
+        "author": "Google Cloud",
+        "date": "Apr 27 2020",
+        "length": 210,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Networking in Google Cloud: Defining and Implementing Networks",
+        "url": "https://www.pluralsight.com/courses/networking-google-cloud-defining-implementing-networks"
     },
     "networking-google-cloud-hybrid-connectivity-network-management": {
         "author": "Google Cloud",
