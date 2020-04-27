@@ -6816,6 +6816,7 @@ power-bi-quick-insights-qna
 power-bi-reports-deploying-publishing
 power-bi-rest-api-building-first-application
 power-bi-users-talk-to-data-engineers
+power-platform-administration-foundation
 power-query-data-retrieve-transform-combine
 powercli-vmware-vsphere-automated-reporting
 powerful-lighting-effects-photoshop-1640
