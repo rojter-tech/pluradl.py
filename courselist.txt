@@ -8538,6 +8538,7 @@ teaching-kids-programming
 team-collaboration-communication
 team-foundation-build-2010-intro
 team-foundation-server-2013-new-features
+team-time-management-techniques
 teamcity-getting-started
 teched-2011-bonus-sessions
 technical-business-analyst
