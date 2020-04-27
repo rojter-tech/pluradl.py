@@ -598,7 +598,7 @@
         "date": "Nov 3 2015",
         "length": 134,
         "level": "Beginner",
-        "rating": 83,
+        "rating": 84,
         "title": "Accessing Data with F# Type Providers",
         "url": "https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers"
     },
@@ -6817,7 +6817,7 @@
         "date": "Nov 20 2019",
         "length": 152,
         "level": "Intermediate",
-        "rating": 27,
+        "rating": 28,
         "title": "Using gRPC in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/aspnet-core-grpc"
     },
