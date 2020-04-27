@@ -18926,6 +18926,15 @@
         "title": "Configuring Exchange Server 2013 with SharePoint 2013",
         "url": "https://www.pluralsight.com/courses/configuring-exchange-server-2013-with-sharepoint-2013"
     },
+    "configuring-managing-cisco-data-center-lab": {
+        "author": "Sean Douglas",
+        "date": "Apr 27 2020",
+        "length": 164,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cisco Data Center Core: Configuring and Managing a Cisco Data Center Lab",
+        "url": "https://www.pluralsight.com/courses/configuring-managing-cisco-data-center-lab"
+    },
     "configuring-managing-kubernetes-storage-scheduling": {
         "author": "Anthony Nocentino",
         "date": "Jan 21 2020",
@@ -30895,6 +30904,15 @@
         "rating": "",
         "title": "Scripting a 1st Person Assault Course in Unreal Engine",
         "url": "https://www.pluralsight.com/courses/first-person-shooter-unreal-engine-2074"
+    },
+    "first-steps-it-governance-management": {
+        "author": "Chris Ward",
+        "date": "Apr 27 2020",
+        "length": 41,
+        "level": "Beginner",
+        "rating": "",
+        "title": "IT Governance and Management: First Steps",
+        "url": "https://www.pluralsight.com/courses/first-steps-it-governance-management"
     },
     "five-architecture-facades-3ds-max-v-ray-1452": {
         "author": "Micha Koren",

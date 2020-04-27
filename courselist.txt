@@ -2101,6 +2101,7 @@ configuring-cisco-video-collaboration-endpoints
 configuring-complex-ip-routing-arubaos-switch
 configuring-cors-in-aspnet-and-aspnet-core
 configuring-exchange-server-2013-with-sharepoint-2013
+configuring-managing-cisco-data-center-lab
 configuring-managing-kubernetes-storage-scheduling
 configuring-managing-monitoring-mobile-devices-mdm
 configuring-managing-office-365-security
@@ -3431,6 +3432,7 @@ first-day-edge-animate-1697
 first-day-rendering-autocad-1647
 first-day-storyboard-pro-1538
 first-person-shooter-unreal-engine-2074
+first-steps-it-governance-management
 five-architecture-facades-3ds-max-v-ray-1452
 five-essential-tools-building-rest-api
 fixie-introduction
