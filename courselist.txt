@@ -5189,6 +5189,7 @@ master-detail-workflow-ef-mvc-identity-modals
 master-domain
 master-modeling-multi-body-parts-solidworks-2052
 mastercam-introduction-basics
+mastering-bash-z-shell-scripting-syntax
 mastering-css-animations-2135
 mastering-displacement-maps-maya-661
 mastering-git
