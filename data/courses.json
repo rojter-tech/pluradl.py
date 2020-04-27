@@ -28610,6 +28610,15 @@
         "title": "Maya Dynamics: Quick Tips for Essential Effects",
         "url": "https://www.pluralsight.com/courses/essential-effects-vfx-animation"
     },
+    "essential-google-cloud-infrastructure-core-services": {
+        "author": "Google Cloud",
+        "date": "Apr 27 2020",
+        "length": 197,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Essential Google Cloud Infrastructure: Core Services",
+        "url": "https://www.pluralsight.com/courses/essential-google-cloud-infrastructure-core-services"
+    },
     "essential-strategies-hand-painting-textures-mari-1603": {
         "author": "Eddie Russell",
         "date": "May 11 2014",
@@ -54574,6 +54583,15 @@
         "rating": "",
         "title": "Networking in GCP - Hybrid Connectivity and Network Management",
         "url": "https://www.pluralsight.com/courses/networking-gcp-hybrid-connectivity-network-management"
+    },
+    "networking-google-cloud-hybrid-connectivity-network-management": {
+        "author": "Google Cloud",
+        "date": "Apr 27 2020",
+        "length": 198,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Networking in Google Cloud: Hybrid Connectivity and Network Management",
+        "url": "https://www.pluralsight.com/courses/networking-google-cloud-hybrid-connectivity-network-management"
     },
     "networking-tunnels-junos-os": {
         "author": "Martin Brown",

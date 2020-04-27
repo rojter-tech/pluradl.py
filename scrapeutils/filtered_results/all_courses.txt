@@ -3177,6 +3177,7 @@ eslint-better-code-quality
 essential-cloud-infrastructure-core-services
 essential-cloud-infrastructure-foundation
 essential-effects-vfx-animation
+essential-google-cloud-infrastructure-core-services
 essential-strategies-hand-painting-textures-mari-1603
 essential-strategies-hand-painting-textures-mari-625
 essential-strategies-hand-painting-textures-mudbox-1585
@@ -6062,6 +6063,7 @@ networking-fundamentals-pt1
 networking-fundamentals-pt2
 networking-gcp-defining-implementing-networks
 networking-gcp-hybrid-connectivity-network-management
+networking-google-cloud-hybrid-connectivity-network-management
 networking-tunnels-junos-os
 new-bigquery-datasets-visualizing-insights
 new-features-hdr-light-studio-2-491
