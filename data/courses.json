@@ -22121,6 +22121,15 @@
         "title": "DDD and EF Core: Preserving Encapsulation",
         "url": "https://www.pluralsight.com/courses/ddd-ef-core-preserving-encapsulation"
     },
+    "dealing-credentials-when-securing-aspdotnet-core-3-application": {
+        "author": "Kevin Dockx",
+        "date": "Apr 27 2020",
+        "length": 234,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Dealing with Credentials When Securing an ASP.NET Core 3 Application",
+        "url": "https://www.pluralsight.com/courses/dealing-credentials-when-securing-aspdotnet-core-3-application"
+    },
     "dealing-with-new-company-culture": {
         "author": "Doru Catana",
         "date": "Nov 30 2017",

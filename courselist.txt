@@ -2456,6 +2456,7 @@ daydreamer-production-pipeline-7-compositing-2249
 dbg-chron1
 dbg-chron2
 ddd-ef-core-preserving-encapsulation
+dealing-credentials-when-securing-aspdotnet-core-3-application
 dealing-with-new-company-culture
 debugging-chronicles3
 debugging-powershell-vs-code
