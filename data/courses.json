@@ -37025,6 +37025,15 @@
         "title": "Implementing and Monitoring Threat Management in Microsoft 365",
         "url": "https://www.pluralsight.com/courses/implementing-monitoring-threat-management-microsoft-365"
     },
+    "implementing-monte-carlo-method-r": {
+        "author": "Chase DeHan",
+        "date": "Apr 28 2020",
+        "length": 102,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Implementing Monte Carlo Method in R",
+        "url": "https://www.pluralsight.com/courses/implementing-monte-carlo-method-r"
+    },
     "implementing-netscaler-12-high-availability": {
         "author": "Jo Harder",
         "date": "Aug 16 2018",
