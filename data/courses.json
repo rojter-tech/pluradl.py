@@ -13742,6 +13742,15 @@
         "title": "C# Design Patterns: Decorator",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-decorator"
     },
+    "c-sharp-design-patterns-flyweight": {
+        "author": "Harrison Ferrone",
+        "date": "Apr 28 2020",
+        "length": 35,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "C# Design Patterns: Flyweight",
+        "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-flyweight"
+    },
     "c-sharp-design-patterns-mediator": {
         "author": "Steve Michelotti",
         "date": "Dec 17 2019",
@@ -28276,6 +28285,15 @@
         "rating": "",
         "title": "Enhancing Rigs with Maya Muscle",
         "url": "https://www.pluralsight.com/courses/enhancing-rigs-maya-muscle-578"
+    },
+    "enroll-devices-microsoft-intune": {
+        "author": "Greg Shields",
+        "date": "Apr 28 2020",
+        "length": 126,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Enroll Devices into Microsoft Intune",
+        "url": "https://www.pluralsight.com/courses/enroll-devices-microsoft-intune"
     },
     "enrolling-securing-managing-devices-microsoft-intune": {
         "author": "Andrew Bettany",
@@ -79144,6 +79162,15 @@
         "rating": "",
         "title": "TQ Artificial Intelligence (AI)",
         "url": "https://www.pluralsight.com/courses/tq-artificial-intelligence"
+    },
+    "tracing-leveraging-requirements": {
+        "author": "Jamie Champagne",
+        "date": "Apr 28 2020",
+        "length": 62,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Tracing and Leveraging Requirements",
+        "url": "https://www.pluralsight.com/courses/tracing-leveraging-requirements"
     },
     "track-mattes-after-effects-1610": {
         "author": "Laura Hawk",

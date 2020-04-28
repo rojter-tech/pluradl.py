@@ -1525,6 +1525,7 @@ c-sharp-design-patterns-builder
 c-sharp-design-patterns-chain-responsibility
 c-sharp-design-patterns-composite
 c-sharp-design-patterns-decorator
+c-sharp-design-patterns-flyweight
 c-sharp-design-patterns-mediator
 c-sharp-design-patterns-prototype
 c-sharp-design-patterns-proxy
@@ -3140,6 +3141,7 @@ enhancing-maya-toolset-mel-1338
 enhancing-maya-toolsets-python-1410
 enhancing-rigs-driven-keys-maya-1194
 enhancing-rigs-maya-muscle-578
+enroll-devices-microsoft-intune
 enrolling-securing-managing-devices-microsoft-intune
 enterprise-aws-lambdas-java-eclipse-ide
 enterprise-business-intelligence-tableau-server
@@ -8792,6 +8794,7 @@ toy-model-rapid-prototyping-rhino-1306
 tpl-async
 tq-ai-channel-introduction
 tq-artificial-intelligence
+tracing-leveraging-requirements
 track-mattes-after-effects-1610
 tracking-after-effects-1500
 tracking-syntheyes-maya-1866
