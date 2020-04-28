@@ -13787,6 +13787,15 @@
         "title": "C# Design Patterns: Strategy",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-strategy"
     },
+    "c-sharp-design-patterns-visitor": {
+        "author": "Harrison Ferrone",
+        "date": "Apr 28 2020",
+        "length": 27,
+        "level": "Advanced",
+        "rating": "",
+        "title": "C# Design Patterns: Visitor",
+        "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-visitor"
+    },
     "c-sharp-dynamic-fundamentals": {
         "author": "Jason Roberts",
         "date": "Jun 7 2016",

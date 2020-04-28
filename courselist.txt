@@ -1530,6 +1530,7 @@ c-sharp-design-patterns-prototype
 c-sharp-design-patterns-proxy
 c-sharp-design-patterns-state
 c-sharp-design-patterns-strategy
+c-sharp-design-patterns-visitor
 c-sharp-dynamic-fundamentals
 c-sharp-error-handling-exceptions
 c-sharp-extension-methods
