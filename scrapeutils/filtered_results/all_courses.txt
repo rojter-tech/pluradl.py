@@ -5156,6 +5156,7 @@ managing-source-control-aws-codecommit
 managing-sql-server-database-maintenance
 managing-sql-server-database-performance
 managing-stakeholder-relationships
+managing-strategy-vision
 managing-subscription-tenant-health
 managing-synchronizing-microsoft-365-azure-identities
 managing-technical-professionals
