@@ -8542,6 +8542,7 @@ tdd-spring-junit5
 teaching-kids-basic-html
 teaching-kids-programming
 team-collaboration-communication
+team-communication-collaboration-confluence
 team-foundation-build-2010-intro
 team-foundation-server-2013-new-features
 team-time-management-techniques
