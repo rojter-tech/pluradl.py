@@ -15551,6 +15551,15 @@
         "title": "Cisco Enterprise Networks: Basic Networking and IP Fundamentals",
         "url": "https://www.pluralsight.com/courses/cisco-enterprise-networks-basic-networking-ip-fundamentals"
     },
+    "cisco-enterprise-networks-implementing-eigrp": {
+        "author": "Ben Piper",
+        "date": "Apr 29 2020",
+        "length": 154,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Cisco Enterprise Networks: Implementing EIGRP",
+        "url": "https://www.pluralsight.com/courses/cisco-enterprise-networks-implementing-eigrp"
+    },
     "cisco-enterprise-networks-implementing-ospf": {
         "author": "Ben Piper",
         "date": "Feb 26 2020",
