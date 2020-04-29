@@ -3001,7 +3001,7 @@
         "date": "May 8 2019",
         "length": 50,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Android: Getting Started with Dagger2",
         "url": "https://www.pluralsight.com/courses/android-dagger-2-getting-started"
     },
@@ -3667,7 +3667,7 @@
         "date": "Apr 21 2020",
         "length": 353,
         "level": "Beginner",
-        "rating": 3862,
+        "rating": 3868,
         "title": "Angular: Getting Started",
         "url": "https://www.pluralsight.com/courses/angular-2-getting-started-update"
     },
@@ -42619,7 +42619,7 @@
         "date": "Apr 4 2016",
         "length": 159,
         "level": "Intermediate",
-        "rating": 399,
+        "rating": 400,
         "title": "Applying Concurrency and Multi-threading to Common Java Patterns",
         "url": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading"
     },
@@ -43888,7 +43888,7 @@
         "date": "Sep 16 2019",
         "length": 274,
         "level": "Beginner",
-        "rating": 100,
+        "rating": 101,
         "title": "Kubernetes for Developers: Core Concepts",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-core-concepts"
     },
@@ -55795,7 +55795,7 @@
         "date": "Apr 16 2020",
         "length": 59,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Getting Started with npm",
         "url": "https://www.pluralsight.com/courses/npm-getting-started"
     },
@@ -63247,7 +63247,7 @@
         "date": "Jun 30 2017",
         "length": 100,
         "level": "Beginner",
-        "rating": 70,
+        "rating": 71,
         "title": "Beginner's Guide to Project Management",
         "url": "https://www.pluralsight.com/courses/project-management-beginners-guide"
     },
@@ -63940,7 +63940,7 @@
         "date": "Dec 28 2017",
         "length": 385,
         "level": "Beginner",
-        "rating": 209,
+        "rating": 210,
         "title": "Doing Data Science with Python",
         "url": "https://www.pluralsight.com/courses/python-data-science"
     },
@@ -67927,7 +67927,7 @@
         "date": "May 27 2016",
         "length": 277,
         "level": "Beginner",
-        "rating": 96,
+        "rating": 97,
         "title": "Rust Fundamentals",
         "url": "https://www.pluralsight.com/courses/rust-fundamentals"
     },
@@ -69502,7 +69502,7 @@
         "date": "Jun 21 2018",
         "length": 202,
         "level": "Intermediate",
-        "rating": 142,
+        "rating": 143,
         "title": "Securing ASP.NET Core 2 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspdotnet-core2-oauth2-openid-connect"
     },
@@ -84199,7 +84199,7 @@
         "date": "Mar 7 2017",
         "length": 101,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 21,
         "title": "Exterior Rendering Strategies with V-Ray and 3ds Max",
         "url": "https://www.pluralsight.com/courses/vray-3ds-max-exterior-rendering-strategies"
     },
@@ -88285,7 +88285,7 @@
         "date": "Jan 31 2020",
         "length": 78,
         "level": "Intermediate",
-        "rating": 34,
+        "rating": 35,
         "title": "Working with Git Branches",
         "url": "https://www.pluralsight.com/courses/working-git-branches"
     },
