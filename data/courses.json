@@ -44162,6 +44162,15 @@
         "title": "Kubernetes Installation and Configuration Fundamentals",
         "url": "https://www.pluralsight.com/courses/kubernetes-installation-configuration-fundamentals"
     },
+    "kubernetes-packaging-applications-helm": {
+        "author": "Philippe Collignon",
+        "date": "Apr 29 2020",
+        "length": 177,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Packaging Applications with Helm for Kubernetes",
+        "url": "https://www.pluralsight.com/courses/kubernetes-packaging-applications-helm"
+    },
     "kusto-query-language-kql-from-scratch": {
         "author": "Robert Cain",
         "date": "Jun 20 2018",

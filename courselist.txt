@@ -4905,6 +4905,7 @@ kubernetes-developers-deploying-code
 kubernetes-developers-integrating-volumes-using-multi-container-pods
 kubernetes-developers-moving-cloud
 kubernetes-installation-configuration-fundamentals
+kubernetes-packaging-applications-helm
 kusto-query-language-kql-from-scratch
 language-data-executive-briefing
 laravel-php-framework-getting-started-models-data
