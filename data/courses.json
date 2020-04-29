@@ -13742,6 +13742,15 @@
         "title": "C# Design Patterns: Composite",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-composite"
     },
+    "c-sharp-design-patterns-data-access-patterns": {
+        "author": "Filip Ekberg",
+        "date": "Apr 29 2020",
+        "length": 83,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "C# Design Patterns: Data Access Patterns",
+        "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-data-access-patterns"
+    },
     "c-sharp-design-patterns-decorator": {
         "author": "David Berry",
         "date": "Jan 2 2020",

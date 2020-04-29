@@ -1525,6 +1525,7 @@ c-sharp-design-patterns-adapter
 c-sharp-design-patterns-builder
 c-sharp-design-patterns-chain-responsibility
 c-sharp-design-patterns-composite
+c-sharp-design-patterns-data-access-patterns
 c-sharp-design-patterns-decorator
 c-sharp-design-patterns-flyweight
 c-sharp-design-patterns-mediator
