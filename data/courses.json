@@ -18863,6 +18863,15 @@
         "title": "Configuration and Deployment for the Cloud",
         "url": "https://www.pluralsight.com/courses/configuration-deployment-cloud-cv0-002"
     },
+    "configure-protect-devices-microsoft-intune": {
+        "author": "Greg Shields",
+        "date": "Apr 28 2020",
+        "length": 143,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Configure and Protect Devices with Microsoft Intune",
+        "url": "https://www.pluralsight.com/courses/configure-protect-devices-microsoft-intune"
+    },
     "configuring-aad-microsoft-azure-workloads": {
         "author": "Tim Warner",
         "date": "Apr 10 2020",
