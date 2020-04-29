@@ -7480,7 +7480,7 @@
     },
     "automating-container-management-ansible": {
         "author": "Pluralsight",
-        "date": "Apr 20 2020",
+        "date": "Apr 29 2020",
         "length": 51,
         "level": "Beginner",
         "rating": "",
@@ -19582,6 +19582,159 @@
         "rating": 14,
         "title": "CouchDB with Rails",
         "url": "https://www.pluralsight.com/courses/couchdb-with-rails"
+    },
+    "covid-19-closing-thoughts": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 37,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Closing Thoughts with Dr. Tiffany Vora",
+        "url": "https://www.pluralsight.com/courses/covid-19-closing-thoughts"
+    },
+    "covid-19-coronavirus-pandemic-new-normal": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 36,
+        "level": "Beginner",
+        "rating": "",
+        "title": "The Future of the Past: The Coronavirus Pandemic and the New Normal",
+        "url": "https://www.pluralsight.com/courses/covid-19-coronavirus-pandemic-new-normal"
+    },
+    "covid-19-crowdsourcing-monitor-epidemics": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 43,
+        "level": "Beginner",
+        "rating": "",
+        "title": "How Crowdsourcing and Mobile Devices Helped to Monitor Epidemics during the 2014 World Cup and Olympics 2016",
+        "url": "https://www.pluralsight.com/courses/covid-19-crowdsourcing-monitor-epidemics"
+    },
+    "covid-19-curing-diseases": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 51,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Curing Diseases & DNA",
+        "url": "https://www.pluralsight.com/courses/covid-19-curing-diseases"
+    },
+    "covid-19-fake-news-global-emergencies": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 46,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Fake News and Media’s Role in Global Emergencies",
+        "url": "https://www.pluralsight.com/courses/covid-19-fake-news-global-emergencies"
+    },
+    "covid-19-food-earth": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 33,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Food for Earth: Unleash the Regenerative Power of Food during and beyond the CoronaV-ERA",
+        "url": "https://www.pluralsight.com/courses/covid-19-food-earth"
+    },
+    "covid-19-government-organization-responses": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 55,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Updates from the Field: How Governments and Organizations Are Responding",
+        "url": "https://www.pluralsight.com/courses/covid-19-government-organization-responses"
+    },
+    "covid-19-leadership": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 33,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Leadership in the Time of COVID-19",
+        "url": "https://www.pluralsight.com/courses/covid-19-leadership"
+    },
+    "covid-19-leverage-ai-pandemics": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 28,
+        "level": "Beginner",
+        "rating": "",
+        "title": "How AI Can Be Leveraged for the Increasing Threats of Future Pandemics",
+        "url": "https://www.pluralsight.com/courses/covid-19-leverage-ai-pandemics"
+    },
+    "covid-19-pandemics-resilient-cities": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 50,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Pandemics and Resilient Cities",
+        "url": "https://www.pluralsight.com/courses/covid-19-pandemics-resilient-cities"
+    },
+    "covid-19-polarizing-pandemics": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 51,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Polarizing the Positive and Negative of Pandemics and Putting it into Action",
+        "url": "https://www.pluralsight.com/courses/covid-19-polarizing-pandemics"
+    },
+    "covid-19-self-reliant-neighborhoods": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 35,
+        "level": "Beginner",
+        "rating": "",
+        "title": "The Future of Safe Living in Self-Reliant Neighborhoods",
+        "url": "https://www.pluralsight.com/courses/covid-19-self-reliant-neighborhoods"
+    },
+    "covid-19-slowing-contagion": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 34,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Slowing Contagion",
+        "url": "https://www.pluralsight.com/courses/covid-19-slowing-contagion"
+    },
+    "covid-19-staying-healthy": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 35,
+        "level": "Beginner",
+        "rating": "",
+        "title": "A Practical Guide to Staying Healthy during COVID-19",
+        "url": "https://www.pluralsight.com/courses/covid-19-staying-healthy"
+    },
+    "covid-19-take-action-uncertainty": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 49,
+        "level": "Beginner",
+        "rating": "",
+        "title": "How You Can Take Action during Times of Uncertainty",
+        "url": "https://www.pluralsight.com/courses/covid-19-take-action-uncertainty"
+    },
+    "covid-19-use-data-boost-resilience": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 32,
+        "level": "Beginner",
+        "rating": "",
+        "title": "How Can You Use Data to Monitor Your Lifestyle (From Food to Exercise) to Boost Your Body’s Resilience Against Diseases?",
+        "url": "https://www.pluralsight.com/courses/covid-19-use-data-boost-resilience"
+    },
+    "covid-19-virtual-worlds": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 38,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Using Virtual Worlds in a Time of Travel Disruption",
+        "url": "https://www.pluralsight.com/courses/covid-19-virtual-worlds"
     },
     "cplusplus-11-from-scratch": {
         "author": "Giovanni Dicanio",
