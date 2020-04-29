@@ -12527,6 +12527,15 @@
         "title": "Building GraphQL APIs with ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/building-graphql-apis-aspdotnet-core"
     },
+    "building-hardware-labs-ccna-study": {
+        "author": "Ross Bagurdes",
+        "date": "Apr 29 2020",
+        "length": 251,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building Hardware Labs for CCNA Study",
+        "url": "https://www.pluralsight.com/courses/building-hardware-labs-ccna-study"
+    },
     "building-healthy-interpersonal-relationships-work": {
         "author": "Stephen Haunts",
         "date": "Feb 12 2020",
@@ -50020,6 +50029,15 @@
         "rating": 48,
         "title": "Microsoft Azure Developer: Aligning Functional and Non-functional Requirements",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-functional-non-functional-requirements-aligning"
+    },
+    "microsoft-azure-functional-non-functional-requirements-aligning-update": {
+        "author": "Sahil Malik",
+        "date": "Apr 29 2020",
+        "length": 105,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Microsoft Azure Developer: Aligning Functional and Non-functional Requirements",
+        "url": "https://www.pluralsight.com/courses/microsoft-azure-functional-non-functional-requirements-aligning-update"
     },
     "microsoft-azure-governance-mastering": {
         "author": "James Bannan",

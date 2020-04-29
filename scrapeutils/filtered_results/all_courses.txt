@@ -1390,6 +1390,7 @@ building-flare-tool-nuke-2067
 building-futuristic-armor-zbrush-806
 building-fx-tools-houdini-2202
 building-graphql-apis-aspdotnet-core
+building-hardware-labs-ccna-study
 building-healthy-interpersonal-relationships-work
 building-high-performance-team
 building-high-performance-windows8-applications
@@ -5556,6 +5557,7 @@ microsoft-azure-feasibility-determining-requirements-refining
 microsoft-azure-feature-selection-extraction
 microsoft-azure-file-storage-implementing
 microsoft-azure-functional-non-functional-requirements-aligning
+microsoft-azure-functional-non-functional-requirements-aligning-update
 microsoft-azure-governance-mastering
 microsoft-azure-high-availability-designing
 microsoft-azure-host-security-implementing
