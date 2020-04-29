@@ -1619,6 +1619,15 @@
         "title": "Advanced Networking on AWS",
         "url": "https://www.pluralsight.com/courses/advanced-networking-aws"
     },
+    "advanced-networking-security-aws": {
+        "author": "Miguel  Saavedra",
+        "date": "Apr 29 2020",
+        "length": 95,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Advanced Network Security on AWS",
+        "url": "https://www.pluralsight.com/courses/advanced-networking-security-aws"
+    },
     "advanced-persistent-threats-big-picture": {
         "author": "Rithwik Jayasimha",
         "date": "Jul 26 2017",
@@ -19619,6 +19628,15 @@
         "title": "Curing Diseases & DNA",
         "url": "https://www.pluralsight.com/courses/covid-19-curing-diseases"
     },
+    "covid-19-digital-epidemic-management": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 31,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Emerging Digital Technologies for Epidemic Management: Obstacles, Opportunities and Outcomes",
+        "url": "https://www.pluralsight.com/courses/covid-19-digital-epidemic-management"
+    },
     "covid-19-fake-news-global-emergencies": {
         "author": "Singularity University",
         "date": "Apr 29 2020",
@@ -19655,6 +19673,15 @@
         "title": "Leadership in the Time of COVID-19",
         "url": "https://www.pluralsight.com/courses/covid-19-leadership"
     },
+    "covid-19-leadership-change-remote-work": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 46,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Five Ways Your Leadership Must Change To Thrive With Remote Work",
+        "url": "https://www.pluralsight.com/courses/covid-19-leadership-change-remote-work"
+    },
     "covid-19-leverage-ai-pandemics": {
         "author": "Singularity University",
         "date": "Apr 29 2020",
@@ -19681,6 +19708,24 @@
         "rating": "",
         "title": "Polarizing the Positive and Negative of Pandemics and Putting it into Action",
         "url": "https://www.pluralsight.com/courses/covid-19-polarizing-pandemics"
+    },
+    "covid-19-remote-distributed-work-crises": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 48,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Remote & Distributed Work during Crises",
+        "url": "https://www.pluralsight.com/courses/covid-19-remote-distributed-work-crises"
+    },
+    "covid-19-responding-other-outbreaks": {
+        "author": "Singularity University",
+        "date": "Apr 29 2020",
+        "length": 26,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Perspectives from Responding to Other Outbreaks including SARS, Monkeypox, and Influenza",
+        "url": "https://www.pluralsight.com/courses/covid-19-responding-other-outbreaks"
     },
     "covid-19-self-reliant-neighborhoods": {
         "author": "Singularity University",

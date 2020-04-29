@@ -178,6 +178,7 @@ advanced-maya-fur-menus-263
 advanced-modeling-tools-revit-1509
 advanced-network-system-administration-lfce
 advanced-networking-aws
+advanced-networking-security-aws
 advanced-persistent-threats-big-picture
 advanced-powershell-dsc
 advanced-production-techniques-3dequalizer-nuke-1679
@@ -2178,13 +2179,17 @@ covid-19-closing-thoughts
 covid-19-coronavirus-pandemic-new-normal
 covid-19-crowdsourcing-monitor-epidemics
 covid-19-curing-diseases
+covid-19-digital-epidemic-management
 covid-19-fake-news-global-emergencies
 covid-19-food-earth
 covid-19-government-organization-responses
 covid-19-leadership
+covid-19-leadership-change-remote-work
 covid-19-leverage-ai-pandemics
 covid-19-pandemics-resilient-cities
 covid-19-polarizing-pandemics
+covid-19-remote-distributed-work-crises
+covid-19-responding-other-outbreaks
 covid-19-self-reliant-neighborhoods
 covid-19-slowing-contagion
 covid-19-staying-healthy
