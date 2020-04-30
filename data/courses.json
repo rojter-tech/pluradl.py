@@ -1579,7 +1579,7 @@
         "date": "Jan 24 2019",
         "length": 89,
         "level": "Advanced",
-        "rating": 14,
+        "rating": 15,
         "title": "Advanced Malware Analysis: Ransomware",
         "url": "https://www.pluralsight.com/courses/advanced-malware-analysis-ransomware"
     },
@@ -13801,7 +13801,7 @@
         "date": "Apr 10 2020",
         "length": 35,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "C# Design Patterns: Proxy",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy"
     },
@@ -20830,7 +20830,7 @@
         "date": "May 13 2013",
         "length": 81,
         "level": "Advanced",
-        "rating": "",
+        "rating": 11,
         "title": "Creation and Integration of a Display Font in Illustrator",
         "url": "https://www.pluralsight.com/courses/creation-integration-display-font-illustrator-1139"
     },
@@ -22963,7 +22963,7 @@
         "date": "Sep 16 2019",
         "length": 114,
         "level": "Intermediate",
-        "rating": 581,
+        "rating": 582,
         "title": "Design Patterns in Java: Creational",
         "url": "https://www.pluralsight.com/courses/design-patterns-java-creational"
     },
@@ -28561,7 +28561,7 @@
         "date": "Nov 14 2013",
         "length": 96,
         "level": "Intermediate",
-        "rating": 129,
+        "rating": 130,
         "title": "Enterprise Business Intelligence with Tableau Server",
         "url": "https://www.pluralsight.com/courses/enterprise-business-intelligence-tableau-server"
     },
@@ -29965,7 +29965,7 @@
         "date": "Mar 20 2020",
         "length": 140,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Exploiting Host-based Vulnerabilities for CompTIA PenTest+",
         "url": "https://www.pluralsight.com/courses/exploiting-host-based-vulnerabilities-comptia-pentest"
     },
@@ -45895,7 +45895,7 @@
         "date": "Jul 11 2019",
         "length": 39,
         "level": "Beginner",
-        "rating": 180,
+        "rating": 181,
         "title": "Machine Learning: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/machine-learning-executive-briefing"
     },
@@ -50341,7 +50341,7 @@
         "date": "Dec 4 2018",
         "length": 139,
         "level": "Advanced",
-        "rating": 19,
+        "rating": 20,
         "title": "Creating & Deploying Microsoft Azure Machine Learning Studio Solutions",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-machine-learning-studio-solutions-deploy-create"
     },
@@ -52753,7 +52753,7 @@
         "date": "May 31 2019",
         "length": 99,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Mining Data from Images",
         "url": "https://www.pluralsight.com/courses/mining-data-images"
     },
@@ -77125,7 +77125,7 @@
         "date": "Jul 23 2018",
         "length": 77,
         "level": "Intermediate",
-        "rating": 144,
+        "rating": 145,
         "title": "TDD with JUnit 5",
         "url": "https://www.pluralsight.com/courses/tdd-junit5"
     },
@@ -84784,7 +84784,7 @@
         "date": "Sep 5 2019",
         "length": 224,
         "level": "Beginner",
-        "rating": 72,
+        "rating": 73,
         "title": "Vue: Getting Started",
         "url": "https://www.pluralsight.com/courses/vue-getting-started"
     },
