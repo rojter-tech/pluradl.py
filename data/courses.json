@@ -2920,7 +2920,7 @@
         "date": "Jun 7 2018",
         "length": 255,
         "level": "Beginner",
-        "rating": 79,
+        "rating": 80,
         "title": "Android Apps with Kotlin: Build Your First App",
         "url": "https://www.pluralsight.com/courses/android-apps-kotlin-build-first-app"
     },
@@ -3514,7 +3514,7 @@
         "date": "Aug 22 2011",
         "length": 183,
         "level": "Advanced",
-        "rating": 193,
+        "rating": 194,
         "title": "Android Async Programming and Services",
         "url": "https://www.pluralsight.com/courses/android-services"
     },
@@ -4234,7 +4234,7 @@
         "date": "Feb 5 2019",
         "length": 146,
         "level": "Intermediate",
-        "rating": 198,
+        "rating": 199,
         "title": "Angular HTTP Communication",
         "url": "https://www.pluralsight.com/courses/angular-http-communication"
     },
@@ -6898,7 +6898,7 @@
         "date": "Oct 7 2019",
         "length": 593,
         "level": "Beginner",
-        "rating": 534,
+        "rating": 535,
         "title": "Building a Web App with ASP.NET Core, MVC, Entity Framework Core, Bootstrap, and Angular",
         "url": "https://www.pluralsight.com/courses/aspnetcore-mvc-efcore-bootstrap-angular-web"
     },
@@ -13702,7 +13702,7 @@
         "date": "Oct 19 2016",
         "length": 424,
         "level": "Intermediate",
-        "rating": 800,
+        "rating": 801,
         "title": "Making Your C# Code More Object-oriented",
         "url": "https://www.pluralsight.com/courses/c-sharp-code-more-object-oriented"
     },
@@ -19327,7 +19327,7 @@
         "date": "Jul 26 2018",
         "length": 115,
         "level": "Intermediate",
-        "rating": 58,
+        "rating": 59,
         "title": "Containerizing Angular Applications with Docker",
         "url": "https://www.pluralsight.com/courses/containerizing-angular-apps-docker"
     },
@@ -19336,7 +19336,7 @@
         "date": "Aug 25 2017",
         "length": 140,
         "level": "Intermediate",
-        "rating": 110,
+        "rating": 111,
         "title": "Containerizing a Software Application with Docker",
         "url": "https://www.pluralsight.com/courses/containerizing-software-application-docker"
     },
@@ -21496,7 +21496,7 @@
         "date": "Dec 8 2016",
         "length": 128,
         "level": "Intermediate",
-        "rating": 138,
+        "rating": 139,
         "title": "Effective C# Unit Testing for Enterprise Applications",
         "url": "https://www.pluralsight.com/courses/csharp-unit-testing-enterprise-applications"
     },
@@ -22729,7 +22729,7 @@
         "date": "Oct 30 2019",
         "length": 185,
         "level": "Advanced",
-        "rating": 12,
+        "rating": 13,
         "title": "Deploying Machine Learning Solutions",
         "url": "https://www.pluralsight.com/courses/deploying-machine-learning-solutions"
     },
@@ -23485,7 +23485,7 @@
         "date": "Jul 29 2014",
         "length": 393,
         "level": "Advanced",
-        "rating": 16,
+        "rating": 17,
         "title": "Designing Impressive Architectural Plans in AutoCAD",
         "url": "https://www.pluralsight.com/courses/designing-impressive-arch-plans-autocad-1673"
     },
@@ -25213,7 +25213,7 @@
         "date": "Jun 25 2014",
         "length": 256,
         "level": "Intermediate",
-        "rating": 1637,
+        "rating": 1639,
         "title": "Domain-Driven Design Fundamentals",
         "url": "https://www.pluralsight.com/courses/domain-driven-design-fundamentals"
     },
@@ -28138,7 +28138,7 @@
         "date": "Mar 22 2018",
         "length": 166,
         "level": "Intermediate",
-        "rating": 23,
+        "rating": 24,
         "title": "Indexing Data in Elasticsearch",
         "url": "https://www.pluralsight.com/courses/elasticsearch-indexing-data"
     },
@@ -32647,7 +32647,7 @@
         "date": "Dec 20 2016",
         "length": 261,
         "level": "Beginner",
-        "rating": 50,
+        "rating": 51,
         "title": "Game Prop Modeling Fundamentals",
         "url": "https://www.pluralsight.com/courses/game-prop-modeling-fundamentals"
     },
@@ -35950,7 +35950,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6957,
+        "rating": 6962,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -42844,7 +42844,7 @@
         "date": "Nov 9 2016",
         "length": 282,
         "level": "Intermediate",
-        "rating": 203,
+        "rating": 204,
         "title": "Java Microservices with Spring Cloud: Developing Services",
         "url": "https://www.pluralsight.com/courses/java-microservices-spring-cloud-developing-services"
     },
@@ -47065,7 +47065,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1324,
+        "rating": 1325,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -48793,7 +48793,7 @@
         "date": "Nov 1 2019",
         "length": 133,
         "level": "Beginner",
-        "rating": 91,
+        "rating": 92,
         "title": "Microservices Fundamentals",
         "url": "https://www.pluralsight.com/courses/microservices-fundamentals"
     },
@@ -62536,7 +62536,7 @@
         "date": "Oct 29 2019",
         "length": 197,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Preparing Data for Feature Engineering and Machine Learning",
         "url": "https://www.pluralsight.com/courses/preparing-data-feature-engineering-machine-learning"
     },
@@ -66208,7 +66208,7 @@
         "date": "Aug 22 2019",
         "length": 137,
         "level": "Intermediate",
-        "rating": 53,
+        "rating": 55,
         "title": "Refactoring for C# Developers",
         "url": "https://www.pluralsight.com/courses/refactoring-csharp-developers"
     },
@@ -66262,7 +66262,7 @@
         "date": "Jan 6 2014",
         "length": 453,
         "level": "Intermediate",
-        "rating": 361,
+        "rating": 362,
         "title": "Relational Database Design",
         "url": "https://www.pluralsight.com/courses/relational-database-design"
     },
@@ -68206,7 +68206,7 @@
         "date": "Mar 5 2019",
         "length": 62,
         "level": "Beginner",
-        "rating": 87,
+        "rating": 88,
         "title": "RxJS: The Big Picture",
         "url": "https://www.pluralsight.com/courses/rxjs-big-picture"
     },
@@ -76171,7 +76171,7 @@
         "date": "Jan 23 2017",
         "length": 136,
         "level": "Beginner",
-        "rating": 108,
+        "rating": 109,
         "title": "Substance Painter Fundamentals",
         "url": "https://www.pluralsight.com/courses/substance-painter-fundamentals"
     },
@@ -76936,7 +76936,7 @@
         "date": "Jun 3 2019",
         "length": 117,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "Using Calculated Fields in Tableau Desktop",
         "url": "https://www.pluralsight.com/courses/tableau-desktop-calculated-fields"
     },
@@ -77764,7 +77764,7 @@
         "date": "May 11 2018",
         "length": 216,
         "level": "Intermediate",
-        "rating": 148,
+        "rating": 149,
         "title": "Testing React Applications with Jest",
         "url": "https://www.pluralsight.com/courses/testing-react-applications-jest"
     },
@@ -87979,7 +87979,7 @@
         "date": "Feb 10 2017",
         "length": 86,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "Windows Virus and Malware Troubleshooting",
         "url": "https://www.pluralsight.com/courses/windows-virus-malware-troubleshooting"
     },
