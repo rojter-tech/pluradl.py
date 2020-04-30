@@ -3568,7 +3568,7 @@
         "date": "Nov 15 2018",
         "length": 139,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Android Threads: Getting Started",
         "url": "https://www.pluralsight.com/courses/android-threads-getting-started"
     },
@@ -29119,7 +29119,7 @@
         "date": "Sep 28 2018",
         "length": 222,
         "level": "Beginner",
-        "rating": 335,
+        "rating": 336,
         "title": "Ethical Hacking: Reconnaissance/Footprinting",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-reconnaissance-footprinting"
     },
@@ -34033,7 +34033,7 @@
         "date": "Dec 11 2017",
         "length": 41,
         "level": "Beginner",
-        "rating": 104,
+        "rating": 105,
         "title": "Getting Started in UX Design",
         "url": "https://www.pluralsight.com/courses/getting-started-ux-design"
     },
@@ -43141,7 +43141,7 @@
         "date": "Dec 31 2019",
         "length": 85,
         "level": "Intermediate",
-        "rating": 30,
+        "rating": 31,
         "title": "Javascript Generators and Iterators",
         "url": "https://www.pluralsight.com/courses/javascript-generators-iterators"
     },
@@ -50944,7 +50944,7 @@
         "date": "Aug 6 2019",
         "length": 126,
         "level": "Intermediate",
-        "rating": 35,
+        "rating": 36,
         "title": "Microsoft Azure Developer: Managing Azure SQL Database",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-sql-database-managing"
     },
@@ -69763,7 +69763,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 56,
+        "rating": 59,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -74227,7 +74227,7 @@
         "date": "Nov 7 2019",
         "length": 147,
         "level": "Beginner",
-        "rating": 104,
+        "rating": 105,
         "title": "Spring Framework: Spring Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-framework-spring-fundamentals"
     },
