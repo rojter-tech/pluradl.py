@@ -2839,7 +2839,7 @@
         "date": "Feb 8 2017",
         "length": 137,
         "level": "Beginner",
-        "rating": 22,
+        "rating": 23,
         "title": "Getting Started Analyzing Malware Infections",
         "url": "https://www.pluralsight.com/courses/analyzing-malware-infections-getting-started"
     },
@@ -3676,7 +3676,7 @@
         "date": "Apr 21 2020",
         "length": 353,
         "level": "Beginner",
-        "rating": 3868,
+        "rating": 3872,
         "title": "Angular: Getting Started",
         "url": "https://www.pluralsight.com/courses/angular-2-getting-started-update"
     },
@@ -4216,7 +4216,7 @@
         "date": "Apr 2 2019",
         "length": 123,
         "level": "Beginner",
-        "rating": 111,
+        "rating": 112,
         "title": "Angular Forms",
         "url": "https://www.pluralsight.com/courses/angular-forms"
     },
@@ -4288,7 +4288,7 @@
         "date": "Aug 20 2019",
         "length": 289,
         "level": "Intermediate",
-        "rating": 481,
+        "rating": 482,
         "title": "Angular Routing",
         "url": "https://www.pluralsight.com/courses/angular-routing"
     },
@@ -9238,7 +9238,7 @@
         "date": "Feb 9 2016",
         "length": 123,
         "level": "Beginner",
-        "rating": 90,
+        "rating": 91,
         "title": "Babel: Get Started",
         "url": "https://www.pluralsight.com/courses/babel-get-started"
     },
@@ -13072,7 +13072,7 @@
         "date": "Oct 2 2013",
         "length": 366,
         "level": "Intermediate",
-        "rating": 234,
+        "rating": 235,
         "title": "Building Data-Centric Single Page Apps with Breeze",
         "url": "https://www.pluralsight.com/courses/building-single-page-applications-breeze"
     },
@@ -17806,7 +17806,7 @@
         "date": "Sep 10 2019",
         "length": 189,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 41,
         "title": "Combining and Filtering Data with T-SQL",
         "url": "https://www.pluralsight.com/courses/combining-filtering-data-tsql"
     },
@@ -22459,7 +22459,7 @@
         "date": "Feb 8 2018",
         "length": 87,
         "level": "Beginner",
-        "rating": 302,
+        "rating": 304,
         "title": "Deep Learning: The Big Picture",
         "url": "https://www.pluralsight.com/courses/deep-learning-big-picture"
     },
@@ -34303,7 +34303,7 @@
         "date": "May 22 2019",
         "length": 107,
         "level": "Beginner",
-        "rating": 71,
+        "rating": 74,
         "title": "Go: The Big Picture",
         "url": "https://www.pluralsight.com/courses/go-big-picture"
     },
@@ -34996,7 +34996,7 @@
         "date": "Feb 2 2016",
         "length": 245,
         "level": "Intermediate",
-        "rating": 25,
+        "rating": 26,
         "title": "GORM: An Object Relational Mapper for Go",
         "url": "https://www.pluralsight.com/courses/gorm-go-object-relational-mapper"
     },
@@ -39478,7 +39478,7 @@
         "date": "Jan 24 2011",
         "length": 129,
         "level": "Beginner",
-        "rating": 1420,
+        "rating": 1421,
         "title": "Introduction to SQL Server",
         "url": "https://www.pluralsight.com/courses/intro-sql-server"
     },
@@ -43249,7 +43249,7 @@
         "date": "Oct 26 2018",
         "length": 76,
         "level": "Beginner",
-        "rating": 150,
+        "rating": 151,
         "title": "Hands-on JavaScript Project: JSON",
         "url": "https://www.pluralsight.com/courses/javascript-project-json"
     },
@@ -45220,7 +45220,7 @@
         "date": "Aug 15 2016",
         "length": 165,
         "level": "Intermediate",
-        "rating": 54,
+        "rating": 56,
         "title": "LFCE: Advanced Linux Networking",
         "url": "https://www.pluralsight.com/courses/linux-networking-advanced-lfce"
     },
@@ -50656,7 +50656,7 @@
         "date": "Jul 24 2019",
         "length": 85,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 41,
         "title": "Microsoft Azure Developer: Monitoring Performance",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-performance-monitoring"
     },
@@ -77143,7 +77143,7 @@
         "date": "Jul 30 2014",
         "length": 69,
         "level": "Beginner",
-        "rating": 526,
+        "rating": 527,
         "title": "Basic HTML for Kids",
         "url": "https://www.pluralsight.com/courses/teaching-kids-basic-html"
     },
@@ -84793,7 +84793,7 @@
         "date": "Oct 10 2017",
         "length": 191,
         "level": "Intermediate",
-        "rating": 97,
+        "rating": 98,
         "title": "Single Page Applications with Vue.js",
         "url": "https://www.pluralsight.com/courses/vue-js-single-page-applications"
     },
