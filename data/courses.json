@@ -3217,7 +3217,7 @@
         "date": "May 24 2018",
         "length": 85,
         "level": "Beginner",
-        "rating": 89,
+        "rating": 91,
         "title": "Android Fundamentals: ConstraintLayout",
         "url": "https://www.pluralsight.com/courses/android-fundamentals-constraint-layout"
     },
@@ -6412,7 +6412,7 @@
         "date": "Sep 11 2017",
         "length": 247,
         "level": "Beginner",
-        "rating": 855,
+        "rating": 856,
         "title": "Building Your First API with ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/asp-dotnet-core-api-building-first"
     },
@@ -6547,7 +6547,7 @@
         "date": "Mar 6 2019",
         "length": 116,
         "level": "Intermediate",
-        "rating": 155,
+        "rating": 156,
         "title": "Dependency Injection in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-dependency-injection"
     },
@@ -11299,7 +11299,7 @@
         "date": "Jun 20 2018",
         "length": 245,
         "level": "Intermediate",
-        "rating": 163,
+        "rating": 165,
         "title": "Bootstrap 4 for the Developer",
         "url": "https://www.pluralsight.com/courses/bootstrap-4-developer"
     },
@@ -20542,7 +20542,7 @@
         "date": "Oct 31 2019",
         "length": 115,
         "level": "Beginner",
-        "rating": 85,
+        "rating": 86,
         "title": "Spring Framework: Creating Your First Spring Boot Application",
         "url": "https://www.pluralsight.com/courses/creating-first-spring-boot-application"
     },
@@ -21379,7 +21379,7 @@
         "date": "Sep 30 2011",
         "length": 164,
         "level": "Intermediate",
-        "rating": 2024,
+        "rating": 2025,
         "title": "C# Programming Paradigms",
         "url": "https://www.pluralsight.com/courses/csharp-fundamentals-2"
     },
@@ -22099,7 +22099,7 @@
         "date": "Sep 15 2017",
         "length": 69,
         "level": "Beginner",
-        "rating": 604,
+        "rating": 606,
         "title": "Data Science: The Big Picture",
         "url": "https://www.pluralsight.com/courses/data-science-big-picture"
     },
@@ -39892,7 +39892,7 @@
         "date": "Aug 17 2015",
         "length": 304,
         "level": "Beginner",
-        "rating": 213,
+        "rating": 214,
         "title": "Introduction to Building Website Layouts",
         "url": "https://www.pluralsight.com/courses/introduction-building-website-layouts-2184"
     },
@@ -41980,7 +41980,7 @@
         "date": "Jun 27 2016",
         "length": 258,
         "level": "Intermediate",
-        "rating": 43,
+        "rating": 44,
         "title": "iOS Auto Layout Fundamentals",
         "url": "https://www.pluralsight.com/courses/ios-auto-layout-fundamentals"
     },
@@ -43150,7 +43150,7 @@
         "date": "Jan 21 2020",
         "length": 236,
         "level": "Beginner",
-        "rating": 779,
+        "rating": 784,
         "title": "JavaScript: Getting Started",
         "url": "https://www.pluralsight.com/courses/javascript-getting-started"
     },
@@ -49837,7 +49837,7 @@
         "date": "Dec 6 2019",
         "length": 100,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "Designing Machine Learning Solutions on Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-designing-machine-learning-solutions"
     },
@@ -51079,7 +51079,7 @@
         "date": "Feb 26 2020",
         "length": 85,
         "level": "Intermediate",
-        "rating": 30,
+        "rating": 31,
         "title": "Microsoft Azure Developer: Enabling Search of Textual Content",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-textual-content-search-enabling"
     },
@@ -57037,7 +57037,7 @@
         "date": "Oct 29 2019",
         "length": 191,
         "level": "Intermediate",
-        "rating": 153,
+        "rating": 154,
         "title": "Securing Angular Apps with OpenID Connect and OAuth 2",
         "url": "https://www.pluralsight.com/courses/openid-and-oauth2-securing-angular-apps"
     },
@@ -61645,7 +61645,7 @@
         "date": "Jun 3 2019",
         "length": 97,
         "level": "Beginner",
-        "rating": 97,
+        "rating": 99,
         "title": "Building Your First Power BI Report",
         "url": "https://www.pluralsight.com/courses/power-bi-building-first-report"
     },
