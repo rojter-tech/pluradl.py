@@ -6871,7 +6871,7 @@
         "date": "Mar 25 2019",
         "length": 162,
         "level": "Intermediate",
-        "rating": 79,
+        "rating": 80,
         "title": "Building an API with ASP.NET Web API",
         "url": "https://www.pluralsight.com/courses/aspnet-web-api-building"
     },
@@ -10957,7 +10957,7 @@
         "date": "Apr 22 2015",
         "length": 167,
         "level": "Intermediate",
-        "rating": 172,
+        "rating": 173,
         "title": "Big Scrum",
         "url": "https://www.pluralsight.com/courses/big-scrum"
     },
@@ -11920,7 +11920,7 @@
         "date": "Jan 23 2020",
         "length": 167,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Build, Train, and Deploy Your First Neural Network with TensorFlow",
         "url": "https://www.pluralsight.com/courses/build-train-deploy-first-neural-network-tensorflow"
     },
@@ -21100,7 +21100,7 @@
         "date": "Apr 10 2020",
         "length": 22,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 18,
         "title": "Cross Site Request Forgery (CSRF) Prevention for ASP.NET Core and ASP.NET Applications",
         "url": "https://www.pluralsight.com/courses/cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications"
     },
@@ -22198,7 +22198,7 @@
         "date": "Jul 27 2017",
         "length": 88,
         "level": "Intermediate",
-        "rating": 171,
+        "rating": 173,
         "title": "Introduction to Data Visualization with Python",
         "url": "https://www.pluralsight.com/courses/data-visualization-with-python-introduction"
     },
@@ -23413,7 +23413,7 @@
         "date": "Mar 1 2016",
         "length": 118,
         "level": "Advanced",
-        "rating": 197,
+        "rating": 198,
         "title": "Designing Fluent APIs in C#",
         "url": "https://www.pluralsight.com/courses/designing-fluent-apis-c-sharp"
     },
@@ -31783,7 +31783,7 @@
         "date": "Mar 10 2016",
         "length": 340,
         "level": "Beginner",
-        "rating": 98,
+        "rating": 100,
         "title": "F# Fundamentals",
         "url": "https://www.pluralsight.com/courses/fsharp-fundamentals"
     },
@@ -33385,7 +33385,7 @@
         "date": "Jan 11 2020",
         "length": 222,
         "level": "Beginner",
-        "rating": 52,
+        "rating": 53,
         "title": "Entity Framework Core: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-entity-framework-core"
     },
@@ -41701,7 +41701,7 @@
         "date": "Apr 1 2013",
         "length": 371,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Introduction to ZBrush",
         "url": "https://www.pluralsight.com/courses/introduction-zbrush-1093"
     },
@@ -42934,7 +42934,7 @@
         "date": "May 11 2015",
         "length": 234,
         "level": "Beginner",
-        "rating": 517,
+        "rating": 518,
         "title": "Introduction to Testing in Java",
         "url": "https://www.pluralsight.com/courses/java-testing-introduction"
     },
@@ -49117,7 +49117,7 @@
         "date": "Dec 14 2018",
         "length": 104,
         "level": "Advanced",
-        "rating": 39,
+        "rating": 40,
         "title": "Microsoft Azure Developer: Developing for Autoscaling",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-autoscaling-developing"
     },
@@ -59179,7 +59179,7 @@
         "date": "Feb 11 2019",
         "length": 308,
         "level": "Beginner",
-        "rating": 324,
+        "rating": 325,
         "title": "PHP Fundamentals",
         "url": "https://www.pluralsight.com/courses/php-fundamentals"
     },
@@ -64309,7 +64309,7 @@
         "date": "Apr 28 2017",
         "length": 227,
         "level": "Intermediate",
-        "rating": 57,
+        "rating": 59,
         "title": "Python Quick Start for Linux System Administrators",
         "url": "https://www.pluralsight.com/courses/python-linux-system-administrators"
     },
@@ -76423,7 +76423,7 @@
         "date": "Jan 10 2019",
         "length": 228,
         "level": "Beginner",
-        "rating": 521,
+        "rating": 522,
         "title": "Swift Fundamentals",
         "url": "https://www.pluralsight.com/courses/swift3-fundamentals"
     },
@@ -88546,7 +88546,7 @@
         "date": "Oct 8 2019",
         "length": 45,
         "level": "Beginner",
-        "rating": 43,
+        "rating": 44,
         "title": "Working with JavaScript Modules",
         "url": "https://www.pluralsight.com/courses/working-javascript-modules"
     },
