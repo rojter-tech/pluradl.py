@@ -7429,7 +7429,7 @@
         "date": "Feb 5 2019",
         "length": 98,
         "level": "Intermediate",
-        "rating": 88,
+        "rating": 90,
         "title": "Automated Tests in Java with Fluent Interface Using WebDriver Selenium",
         "url": "https://www.pluralsight.com/courses/automated-tests-java-fluent-interface-webdriver-selenium"
     },
@@ -8275,7 +8275,7 @@
         "date": "Jan 25 2018",
         "length": 150,
         "level": "Intermediate",
-        "rating": 43,
+        "rating": 44,
         "title": "AWS Networking Deep Dive: Elastic Load Balancing (ELB)",
         "url": "https://www.pluralsight.com/courses/aws-networking-deep-dive-elb"
     },
@@ -19912,7 +19912,7 @@
         "date": "Nov 19 2018",
         "length": 302,
         "level": "Intermediate",
-        "rating": 29,
+        "rating": 30,
         "title": "Beautiful C++: Updating Legacy Code",
         "url": "https://www.pluralsight.com/courses/cpp-updating-legacy-code"
     },
