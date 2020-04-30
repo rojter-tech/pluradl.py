@@ -7345,6 +7345,7 @@ red-hat-enterprise-linux-6-booting-runlevels
 red-hat-enterprise-linux-shell-fundamentals
 red-hat-enterprise-linux-shell-scripting-fundamentals
 red-hat-enterprise-linux-storage-fundamentals
+red-team-tools-adversary-techniques-mitre-attack
 redgate-sql-prompt
 redhat-openstack-rhcsa-compute-network-services
 redhat-openstack-rhcsa-storage-orchestration

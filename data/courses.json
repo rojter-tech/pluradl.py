@@ -66122,6 +66122,15 @@
         "title": "Red Hat Enterprise Linux Storage Fundamentals",
         "url": "https://www.pluralsight.com/courses/red-hat-enterprise-linux-storage-fundamentals"
     },
+    "red-team-tools-adversary-techniques-mitre-attack": {
+        "author": "Aaron Rosenmund",
+        "date": "Apr 30 2020",
+        "length": 17,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Red Team Tools for Emulated Adversary Techniques with MITRE ATT&CK",
+        "url": "https://www.pluralsight.com/courses/red-team-tools-adversary-techniques-mitre-attack"
+    },
     "redgate-sql-prompt": {
         "author": "Dan Sullivan",
         "date": "Feb 14 2011",
