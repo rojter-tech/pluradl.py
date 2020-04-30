@@ -42581,7 +42581,7 @@
     "java-core-libraries-jdbc": {
         "author": "Richard Monson-Haefel",
         "date": "Oct 14 2019",
-        "length": 105,
+        "length": 107,
         "level": "Beginner",
         "rating": 23,
         "title": "Java Core Libraries: JDBC",
