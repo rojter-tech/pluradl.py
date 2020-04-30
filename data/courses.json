@@ -6961,7 +6961,7 @@
         "date": "Dec 19 2019",
         "length": 63,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Assessing Red Team Post Exploitation Activity",
         "url": "https://www.pluralsight.com/courses/assessing-red-team-post-exploitation-activity"
     },
@@ -36184,7 +36184,7 @@
         "date": "May 7 2019",
         "length": 103,
         "level": "Advanced",
-        "rating": 33,
+        "rating": 34,
         "title": "Building on HTML5: Optimizing for Data, Communication and Offline Apps",
         "url": "https://www.pluralsight.com/courses/html5-optimizing-data-communication-offline-apps"
     },
