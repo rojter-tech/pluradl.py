@@ -2983,7 +2983,7 @@
         "date": "Feb 15 2018",
         "length": 144,
         "level": "Beginner",
-        "rating": 41,
+        "rating": 43,
         "title": "Building Apps with Android Architecture Components",
         "url": "https://www.pluralsight.com/courses/android-architecture-components-building-apps"
     },
@@ -4315,7 +4315,7 @@
         "date": "Nov 19 2018",
         "length": 148,
         "level": "Intermediate",
-        "rating": 155,
+        "rating": 156,
         "title": "Angular Services",
         "url": "https://www.pluralsight.com/courses/angular-services"
     },
@@ -5359,7 +5359,7 @@
         "date": "Oct 20 2016",
         "length": 117,
         "level": "Beginner",
-        "rating": 92,
+        "rating": 93,
         "title": "Beginning Data Exploration and Analysis with Apache Spark",
         "url": "https://www.pluralsight.com/courses/apache-spark-beginning-data-exploration-analysis"
     },
@@ -6817,7 +6817,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 336,
+        "rating": 337,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -8284,7 +8284,7 @@
         "date": "May 18 2018",
         "length": 250,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 32,
         "title": "AWS Networking Deep Dive: Route 53 DNS",
         "url": "https://www.pluralsight.com/courses/aws-networking-deep-dive-route-53-dns"
     },
@@ -16123,7 +16123,7 @@
         "date": "Mar 2 2018",
         "length": 119,
         "level": "Intermediate",
-        "rating": 45,
+        "rating": 46,
         "title": "Client Side React Router 4",
         "url": "https://www.pluralsight.com/courses/client-side-react-router-4"
     },
@@ -20650,7 +20650,7 @@
         "date": "Oct 29 2019",
         "length": 163,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Creating Machine Learning Models",
         "url": "https://www.pluralsight.com/courses/creating-machine-learning-models"
     },
@@ -21451,7 +21451,7 @@
         "date": "Apr 2 2019",
         "length": 128,
         "level": "Beginner",
-        "rating": 192,
+        "rating": 193,
         "title": "SOLID Principles for C# Developers",
         "url": "https://www.pluralsight.com/courses/csharp-solid-principles"
     },
@@ -42214,7 +42214,7 @@
         "date": "Mar 1 2017",
         "length": 40,
         "level": "Beginner",
-        "rating": 48,
+        "rating": 49,
         "title": "Dealing with Irrational Customers and Escalating Complaints",
         "url": "https://www.pluralsight.com/courses/irrational-customers-escalating-complaints-dealing"
     },
@@ -46714,7 +46714,7 @@
         "date": "Jan 19 2018",
         "length": 90,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 41,
         "title": "Managing Remote Teams",
         "url": "https://www.pluralsight.com/courses/managing-virtual-teams"
     },
@@ -48631,7 +48631,7 @@
         "date": "Mar 9 2020",
         "length": 82,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Message Queuing with Amazon Simple Queue Service (SQS)",
         "url": "https://www.pluralsight.com/courses/message-queuing-amazon-sqs"
     },
@@ -57451,7 +57451,7 @@
         "date": "Mar 3 2014",
         "length": 268,
         "level": "Beginner",
-        "rating": 636,
+        "rating": 638,
         "title": "Oracle PL/SQL Fundamentals - Part 1",
         "url": "https://www.pluralsight.com/courses/oracle-plsql-fundamentals"
     },
@@ -73282,7 +73282,7 @@
         "date": "Dec 19 2018",
         "length": 194,
         "level": "Beginner",
-        "rating": 103,
+        "rating": 104,
         "title": "Secure Software Development",
         "url": "https://www.pluralsight.com/courses/software-development-secure"
     },
@@ -79906,7 +79906,7 @@
         "date": "Jan 23 2020",
         "length": 184,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "T-SQL Functions Playbook",
         "url": "https://www.pluralsight.com/courses/tsql-functions-playbook"
     },
@@ -88357,7 +88357,7 @@
         "date": "Mar 19 2019",
         "length": 63,
         "level": "Beginner",
-        "rating": 51,
+        "rating": 52,
         "title": "Work Life Balance: A New Perspective",
         "url": "https://www.pluralsight.com/courses/work-life-balance"
     },
