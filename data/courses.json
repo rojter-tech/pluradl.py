@@ -5026,7 +5026,7 @@
         "date": "Oct 14 2015",
         "length": 164,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Animating a Walk Cycle in Blender",
         "url": "https://www.pluralsight.com/courses/animating-walk-cycle-blender-2311"
     },
@@ -6592,7 +6592,7 @@
         "date": "Jun 19 2017",
         "length": 176,
         "level": "Intermediate",
-        "rating": 71,
+        "rating": 72,
         "title": "ASP.NET Core MVC Testing Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-mvc-testing-fundamentals"
     },
@@ -7717,7 +7717,7 @@
         "date": "May 16 2018",
         "length": 214,
         "level": "Intermediate",
-        "rating": 81,
+        "rating": 82,
         "title": "Architecting for Reliability on AWS",
         "url": "https://www.pluralsight.com/courses/aws-architecting-reliability"
     },
@@ -7960,7 +7960,7 @@
         "date": "Sep 20 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 290,
+        "rating": 291,
         "title": "AWS Developer: Getting Started",
         "url": "https://www.pluralsight.com/courses/aws-developer-getting-started"
     },
@@ -7978,7 +7978,7 @@
         "date": "Jul 2 2018",
         "length": 198,
         "level": "Intermediate",
-        "rating": 51,
+        "rating": 52,
         "title": "AWS Developer: Lambda Deep Dive",
         "url": "https://www.pluralsight.com/courses/aws-developer-lambda-deep-dive"
     },
@@ -18913,7 +18913,7 @@
         "date": "Apr 10 2020",
         "length": 180,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 17,
         "title": "Configuring Azure Active Directory for Microsoft Azure Workloads",
         "url": "https://www.pluralsight.com/courses/configuring-aad-microsoft-azure-workloads"
     },
@@ -20362,7 +20362,7 @@
         "date": "Mar 25 2020",
         "length": 244,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Creating Automated Browser Tests with Selenium in C#",
         "url": "https://www.pluralsight.com/courses/creating-automated-browser-tests-selenium-c-sharp"
     },
@@ -22108,7 +22108,7 @@
         "date": "Nov 13 2019",
         "length": 50,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Analyzing Business Requirements for Data Science",
         "url": "https://www.pluralsight.com/courses/data-science-business-requirements-analyzing"
     },
@@ -35239,7 +35239,7 @@
         "date": "Mar 2 2018",
         "length": 219,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "Eclipse Guided Tour for Java",
         "url": "https://www.pluralsight.com/courses/guided-tour-eclipse-for-java"
     },
@@ -42889,7 +42889,7 @@
         "date": "Jan 10 2020",
         "length": 86,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "Java: Refactoring to Design Patterns",
         "url": "https://www.pluralsight.com/courses/java-refactoring-design-patterns"
     },
@@ -44509,7 +44509,7 @@
         "date": "Jun 10 2013",
         "length": 192,
         "level": "Beginner",
-        "rating": 1265,
+        "rating": 1266,
         "title": "Learning To Program - Part 1: Getting Started",
         "url": "https://www.pluralsight.com/courses/learning-programming-javascript"
     },
@@ -51052,7 +51052,7 @@
         "date": "Jul 16 2019",
         "length": 119,
         "level": "Beginner",
-        "rating": 85,
+        "rating": 86,
         "title": "Managing Microsoft Azure Subscriptions",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-subscriptions-managing"
     },
@@ -61204,7 +61204,7 @@
         "date": "Mar 19 2018",
         "length": 140,
         "level": "Intermediate",
-        "rating": 66,
+        "rating": 67,
         "title": "Introduction to Project Management & the PMP® Exam",
         "url": "https://www.pluralsight.com/courses/pmp-v6-introduction-project-management-pmp-exam"
     },
@@ -61429,7 +61429,7 @@
         "date": "Jul 28 2017",
         "length": 35,
         "level": "Beginner",
-        "rating": 43,
+        "rating": 44,
         "title": "Portfolios, Programs, and Projects: What's the Difference?",
         "url": "https://www.pluralsight.com/courses/portfolios-programs-projects-whats-the-difference"
     },
@@ -62302,7 +62302,7 @@
         "date": "Dec 11 2013",
         "length": 250,
         "level": "Intermediate",
-        "rating": 123,
+        "rating": 124,
         "title": "Pragmatic Self-Service BI with PowerPivot for Excel",
         "url": "https://www.pluralsight.com/courses/pragmatic-self-service-bi-powerpivot-excel"
     },
@@ -63499,7 +63499,7 @@
         "date": "Jun 30 2017",
         "length": 100,
         "level": "Beginner",
-        "rating": 71,
+        "rating": 72,
         "title": "Beginner's Guide to Project Management",
         "url": "https://www.pluralsight.com/courses/project-management-beginners-guide"
     },
@@ -65299,7 +65299,7 @@
         "date": "Jan 8 2018",
         "length": 125,
         "level": "Beginner",
-        "rating": 41,
+        "rating": 42,
         "title": "Beginning Time Series Analysis and Forecasting with R",
         "url": "https://www.pluralsight.com/courses/r-time-series-analysis-forecasting"
     },
@@ -65533,7 +65533,7 @@
         "date": "Nov 21 2017",
         "length": 71,
         "level": "Beginner",
-        "rating": 470,
+        "rating": 471,
         "title": "React: The Big Picture",
         "url": "https://www.pluralsight.com/courses/react-big-picture"
     },
@@ -76342,7 +76342,7 @@
         "date": "Feb 19 2020",
         "length": 98,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Svelte: Getting Started",
         "url": "https://www.pluralsight.com/courses/svelte-getting-started"
     },
@@ -80194,7 +80194,7 @@
         "date": "Sep 10 2014",
         "length": 58,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Typography Priorities and Pitfalls for Motion Graphics",
         "url": "https://www.pluralsight.com/courses/typography-priorities-pitfalls-motion-graphics-1776"
     },
@@ -83011,7 +83011,7 @@
         "date": "Apr 20 2017",
         "length": 65,
         "level": "Beginner",
-        "rating": 179,
+        "rating": 180,
         "title": "UX Fundamentals",
         "url": "https://www.pluralsight.com/courses/ux-fundamentals-2426"
     },
