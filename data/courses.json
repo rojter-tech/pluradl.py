@@ -4864,7 +4864,7 @@
         "date": "May 13 2013",
         "length": 483,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "Animating an Infographic in After Effects",
         "url": "https://www.pluralsight.com/courses/animating-infographic-after-effects-1149"
     },
@@ -6610,7 +6610,7 @@
         "date": "Jun 22 2018",
         "length": 71,
         "level": "Beginner",
-        "rating": 141,
+        "rating": 142,
         "title": "Getting Started with ASP.NET Core SignalR",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-signalr-getting-started"
     },
@@ -11137,7 +11137,7 @@
         "date": "Jan 6 2016",
         "length": 213,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "Introduction to Rendering with Cycles in Blender",
         "url": "https://www.pluralsight.com/courses/blender-rendering-cycles-introduction"
     },
@@ -12073,7 +12073,7 @@
         "date": "Mar 19 2020",
         "length": 136,
         "level": "Intermediate",
-        "rating": 52,
+        "rating": 54,
         "title": "Building ASP.NET Core Hosted Services and .NET Core Worker Services",
         "url": "https://www.pluralsight.com/courses/building-aspnet-core-hosted-services-net-core-worker-services"
     },
@@ -12460,7 +12460,7 @@
         "date": "Oct 29 2019",
         "length": 166,
         "level": "Beginner",
-        "rating": 27,
+        "rating": 28,
         "title": "Building Your First Python Analytics Solution",
         "url": "https://www.pluralsight.com/courses/building-first-python-analytics-solution"
     },
@@ -20470,7 +20470,7 @@
         "date": "Dec 18 2019",
         "length": 75,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Creating Custom Data Types with Go",
         "url": "https://www.pluralsight.com/courses/creating-custom-data-types-go"
     },
@@ -22927,7 +22927,7 @@
         "date": "Jan 28 2016",
         "length": 252,
         "level": "Intermediate",
-        "rating": 96,
+        "rating": 99,
         "title": "Design Patterns in C++: Creational",
         "url": "https://www.pluralsight.com/courses/design-patterns-cpp-creational"
     },
@@ -25105,7 +25105,7 @@
         "date": "Aug 1 2016",
         "length": 132,
         "level": "Beginner",
-        "rating": 1053,
+        "rating": 1057,
         "title": "Getting Started with Docker",
         "url": "https://www.pluralsight.com/courses/docker-getting-started"
     },
@@ -34078,7 +34078,7 @@
         "date": "Apr 10 2020",
         "length": 155,
         "level": "Intermediate",
-        "rating": 214,
+        "rating": 215,
         "title": "Getting Started with Asynchronous Programming in .NET",
         "url": "https://www.pluralsight.com/courses/getting-started-with-asynchronous-programming-dotnet"
     },
@@ -43429,7 +43429,7 @@
         "date": "Sep 27 2019",
         "length": 167,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Jira Project Customization",
         "url": "https://www.pluralsight.com/courses/jira-project-customization"
     },
@@ -61897,7 +61897,7 @@
         "date": "May 22 2019",
         "length": 183,
         "level": "Beginner",
-        "rating": 657,
+        "rating": 658,
         "title": "PowerShell: Getting Started",
         "url": "https://www.pluralsight.com/courses/powershell-getting-started"
     },
@@ -65578,7 +65578,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1385,
+        "rating": 1387,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -66676,7 +66676,7 @@
         "date": "Jun 19 2019",
         "length": 165,
         "level": "Beginner",
-        "rating": 23,
+        "rating": 24,
         "title": "Representing, Processing, and Preparing Data",
         "url": "https://www.pluralsight.com/courses/representing-processing-preparing-data"
     },
@@ -88915,7 +88915,7 @@
         "date": "Feb 28 2020",
         "length": 177,
         "level": "Intermediate",
-        "rating": 797,
+        "rating": 798,
         "title": "WPF MVVM in Depth",
         "url": "https://www.pluralsight.com/courses/wpf-mvvm-in-depth"
     },
@@ -89320,7 +89320,7 @@
         "date": "May 11 2012",
         "length": 291,
         "level": "Intermediate",
-        "rating": 534,
+        "rating": 535,
         "title": "XML Fundamentals",
         "url": "https://www.pluralsight.com/courses/xml-fund"
     },
