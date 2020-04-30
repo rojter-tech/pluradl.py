@@ -3397,7 +3397,7 @@
         "date": "Mar 11 2013",
         "length": 213,
         "level": "Intermediate",
-        "rating": 113,
+        "rating": 114,
         "title": "Android Location-Based Apps",
         "url": "https://www.pluralsight.com/courses/android-location-based-apps"
     },
@@ -9913,7 +9913,7 @@
         "date": "Oct 23 2017",
         "length": 101,
         "level": "Intermediate",
-        "rating": 248,
+        "rating": 249,
         "title": "Angular Best Practices",
         "url": "https://www.pluralsight.com/courses/best-practices-angular"
     },
@@ -11128,7 +11128,7 @@
         "date": "Mar 28 2016",
         "length": 171,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Introduction to Compositor in Blender",
         "url": "https://www.pluralsight.com/courses/blender-introduction-compositor-2464"
     },
@@ -12127,7 +12127,7 @@
         "date": "Jul 17 2018",
         "length": 198,
         "level": "Intermediate",
-        "rating": 46,
+        "rating": 47,
         "title": "Building Business Applications with Vue.js and MongoDB",
         "url": "https://www.pluralsight.com/courses/building-business-applications-vuejs"
     },
@@ -16519,7 +16519,7 @@
         "date": "Aug 1 2012",
         "length": 50,
         "level": "Beginner",
-        "rating": 49,
+        "rating": 51,
         "title": "Code School: Git Real",
         "url": "https://www.pluralsight.com/courses/code-school-git-real"
     },
@@ -18580,7 +18580,7 @@
         "date": "Oct 24 2017",
         "length": 203,
         "level": "Beginner",
-        "rating": 132,
+        "rating": 133,
         "title": "Threats, Attacks, and Vulnerabilities for CompTIA Security+",
         "url": "https://www.pluralsight.com/courses/comptia-security-plus-threats-attacks-vulnerabilities"
     },
@@ -18859,7 +18859,7 @@
         "date": "Feb 13 2020",
         "length": 91,
         "level": "Intermediate",
-        "rating": 25,
+        "rating": 26,
         "title": "Concurrent Programming with Go",
         "url": "https://www.pluralsight.com/courses/concurrent-programming-go"
     },
@@ -19849,7 +19849,7 @@
         "date": "Oct 8 2018",
         "length": 209,
         "level": "Intermediate",
-        "rating": 48,
+        "rating": 49,
         "title": "Introduction to Data Structures and Algorithms in C++",
         "url": "https://www.pluralsight.com/courses/cplusplus-data-structures-algorithms"
     },
@@ -24025,7 +24025,7 @@
         "date": "May 14 2018",
         "length": 290,
         "level": "Beginner",
-        "rating": 555,
+        "rating": 556,
         "title": "Developing with .NET on Microsoft Azure - Getting Started",
         "url": "https://www.pluralsight.com/courses/developing-dotnet-microsoft-azure-getting-started"
     },
@@ -24637,7 +24637,7 @@
         "date": "Jan 23 2019",
         "length": 81,
         "level": "Beginner",
-        "rating": 1245,
+        "rating": 1246,
         "title": "DevOps: The Big Picture",
         "url": "https://www.pluralsight.com/courses/devops-big-picture"
     },
@@ -31351,7 +31351,7 @@
         "date": "Mar 6 2019",
         "length": 73,
         "level": "Beginner",
-        "rating": 58,
+        "rating": 59,
         "title": "Flutter: The Big Picture",
         "url": "https://www.pluralsight.com/courses/flutter-big-picture"
     },
@@ -31936,7 +31936,7 @@
         "date": "Nov 21 2018",
         "length": 72,
         "level": "Beginner",
-        "rating": 103,
+        "rating": 104,
         "title": "Functional Programming: The Big Picture",
         "url": "https://www.pluralsight.com/courses/functional-programming-big-picture"
     },
@@ -32926,7 +32926,7 @@
         "date": "Jan 14 2019",
         "length": 96,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Leveraging Network Interconnection Options on the GCP",
         "url": "https://www.pluralsight.com/courses/gcp-leveraging-network-interconnection-options"
     },
@@ -34726,7 +34726,7 @@
         "date": "Dec 18 2018",
         "length": 127,
         "level": "Beginner",
-        "rating": 131,
+        "rating": 132,
         "title": "Google Cloud Platform Fundamentals",
         "url": "https://www.pluralsight.com/courses/google-cloud-platform-fundamentals"
     },
@@ -41179,7 +41179,7 @@
         "date": "Sep 7 2015",
         "length": 145,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 42,
         "title": "Introduction to Rigging in Blender",
         "url": "https://www.pluralsight.com/courses/introduction-rigging-blender-2275"
     },
@@ -42853,7 +42853,7 @@
         "date": "Apr 4 2016",
         "length": 159,
         "level": "Intermediate",
-        "rating": 400,
+        "rating": 401,
         "title": "Applying Concurrency and Multi-threading to Common Java Patterns",
         "url": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading"
     },
@@ -43420,7 +43420,7 @@
         "date": "Nov 19 2019",
         "length": 114,
         "level": "Advanced",
-        "rating": "",
+        "rating": 11,
         "title": "Jira Integrations",
         "url": "https://www.pluralsight.com/courses/jira-integrations"
     },
@@ -55165,7 +55165,7 @@
         "date": "Dec 13 2017",
         "length": 67,
         "level": "Beginner",
-        "rating": 368,
+        "rating": 369,
         "title": "Angular: The Big Picture",
         "url": "https://www.pluralsight.com/courses/ng-big-picture"
     },
@@ -62491,7 +62491,7 @@
         "date": "Feb 22 2016",
         "length": 237,
         "level": "Beginner",
-        "rating": 96,
+        "rating": 98,
         "title": "Premiere Pro CC Fundamentals",
         "url": "https://www.pluralsight.com/courses/premierepro-cc-fundamentals"
     },
@@ -62671,7 +62671,7 @@
         "date": "Jan 21 2016",
         "length": 127,
         "level": "Beginner",
-        "rating": 46,
+        "rating": 48,
         "title": "Presenting to the Boss(es)",
         "url": "https://www.pluralsight.com/courses/presenting-to-the-bosses"
     },
@@ -73912,7 +73912,7 @@
         "date": "May 3 2018",
         "length": 342,
         "level": "Beginner",
-        "rating": 32,
+        "rating": 33,
         "title": "Developing Spark Applications Using Scala & Cloudera",
         "url": "https://www.pluralsight.com/courses/spark-scala-cloudera"
     },
@@ -74128,7 +74128,7 @@
         "date": "Jul 11 2019",
         "length": 98,
         "level": "Intermediate",
-        "rating": 124,
+        "rating": 125,
         "title": "Spring Boot Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-boot-fundamentals"
     },
@@ -76270,7 +76270,7 @@
         "date": "Jun 20 2019",
         "length": 168,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Summarizing Data and Deducing Probabilities",
         "url": "https://www.pluralsight.com/courses/summarizing-data-deducing-probabilities"
     },
@@ -82012,7 +82012,7 @@
         "date": "Mar 5 2019",
         "length": 128,
         "level": "Intermediate",
-        "rating": 136,
+        "rating": 137,
         "title": "Getting Started with Dependency Injection in .NET",
         "url": "https://www.pluralsight.com/courses/using-dependency-injection-on-ramp"
     },
@@ -83047,7 +83047,7 @@
         "date": "Nov 30 2017",
         "length": 95,
         "level": "Beginner",
-        "rating": 29,
+        "rating": 30,
         "title": "UX Role and Impact on Organizations",
         "url": "https://www.pluralsight.com/courses/ux-role-impact-organizations"
     },
