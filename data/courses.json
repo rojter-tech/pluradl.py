@@ -2974,7 +2974,7 @@
         "date": "Dec 21 2018",
         "length": 144,
         "level": "Advanced",
-        "rating": 12,
+        "rating": 13,
         "title": "Android Apps with Kotlin: ViewModel and Lifecycle",
         "url": "https://www.pluralsight.com/courses/android-apps-kotlin-viewmodel-lifecycle"
     },
@@ -6340,7 +6340,7 @@
         "date": "Sep 28 2017",
         "length": 240,
         "level": "Beginner",
-        "rating": 78,
+        "rating": 79,
         "title": "Getting Started with ASP.NET Core and OAuth",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-oauth"
     },
@@ -8050,7 +8050,7 @@
         "date": "Jun 25 2019",
         "length": 137,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "AWS DynamoDB Fundamentals",
         "url": "https://www.pluralsight.com/courses/aws-dynamodb-fundamentals"
     },
@@ -8815,7 +8815,7 @@
         "date": "Jun 14 2019",
         "length": 67,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "Feature Toggles, Package Management and Versioning with Azure DevOps",
         "url": "https://www.pluralsight.com/courses/azure-devops-feature-toggles-package-management-versioning"
     },
@@ -12064,7 +12064,7 @@
         "date": "Sep 20 2019",
         "length": 258,
         "level": "Beginner",
-        "rating": 93,
+        "rating": 95,
         "title": "Building Web Applications with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/building-aspdotnet-core-mvc-web-applications"
     },
@@ -13207,7 +13207,7 @@
         "date": "Apr 2 2018",
         "length": 62,
         "level": "Beginner",
-        "rating": 50,
+        "rating": 52,
         "title": "Building Trust and Commitment on Your Team",
         "url": "https://www.pluralsight.com/courses/building-trust-commitment-your-team"
     },
@@ -21298,7 +21298,7 @@
         "date": "Mar 29 2019",
         "length": 206,
         "level": "Beginner",
-        "rating": 129,
+        "rating": 130,
         "title": "Beginning C# Collections",
         "url": "https://www.pluralsight.com/courses/csharp-collections-beginning"
     },
@@ -39730,7 +39730,7 @@
         "date": "Oct 9 2015",
         "length": 193,
         "level": "Beginner",
-        "rating": 33,
+        "rating": 34,
         "title": "Introduction to Animation in Blender",
         "url": "https://www.pluralsight.com/courses/introduction-animation-blender-2303"
     },
@@ -43267,7 +43267,7 @@
         "date": "Nov 26 2019",
         "length": 81,
         "level": "Intermediate",
-        "rating": 106,
+        "rating": 107,
         "title": "JavaScript Promises and Async Programming",
         "url": "https://www.pluralsight.com/courses/javascript-promises-async-programming"
     },
@@ -46057,7 +46057,7 @@
         "date": "Mar 31 2017",
         "length": 200,
         "level": "Beginner",
-        "rating": 97,
+        "rating": 100,
         "title": "Malware Analysis Fundamentals",
         "url": "https://www.pluralsight.com/courses/malware-analysis-fundamentals"
     },
@@ -53761,7 +53761,7 @@
         "date": "Nov 2 2018",
         "length": 118,
         "level": "Beginner",
-        "rating": 277,
+        "rating": 279,
         "title": "Modern Java: The Big Picture",
         "url": "https://www.pluralsight.com/courses/modern-java-big-picture"
     },
@@ -61681,7 +61681,7 @@
         "date": "Apr 29 2019",
         "length": 122,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Power BI Data Preparation Playbook",
         "url": "https://www.pluralsight.com/courses/power-bi-data-preparation-playbook"
     },
@@ -73930,7 +73930,7 @@
         "date": "Aug 16 2014",
         "length": 249,
         "level": "Beginner",
-        "rating": 128,
+        "rating": 129,
         "title": "Speaking Fundamentals",
         "url": "https://www.pluralsight.com/courses/speaking-fundamentals"
     },
@@ -81184,7 +81184,7 @@
         "date": "Nov 2 2018",
         "length": 27,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Unity GameObject Singletons: Best Practices",
         "url": "https://www.pluralsight.com/courses/unity-gameobject-singletons-best-practices"
     },
@@ -81265,7 +81265,7 @@
         "date": "Mar 15 2018",
         "length": 148,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Creating Game Environments in Unity and Maya",
         "url": "https://www.pluralsight.com/courses/unity-maya-creating-game-environments"
     },
@@ -83596,7 +83596,7 @@
         "date": "Jul 16 2019",
         "length": 172,
         "level": "Intermediate",
-        "rating": 33,
+        "rating": 35,
         "title": "Testing .NET Code in Visual Studio 2019",
         "url": "https://www.pluralsight.com/courses/visual-studio-testing-dotnet-code"
     },
