@@ -1903,7 +1903,7 @@
         "date": "Nov 12 2018",
         "length": 125,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "AEM Building Full Stack Components",
         "url": "https://www.pluralsight.com/courses/aem-building-full-stack-components"
     },
@@ -3388,7 +3388,7 @@
         "date": "Nov 7 2017",
         "length": 183,
         "level": "Advanced",
-        "rating": 21,
+        "rating": 22,
         "title": "Leveraging the Power of the Android Platform",
         "url": "https://www.pluralsight.com/courses/android-leveraging-power-platform"
     },
@@ -6322,7 +6322,7 @@
         "date": "Oct 10 2019",
         "length": 302,
         "level": "Beginner",
-        "rating": 117,
+        "rating": 119,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -12550,7 +12550,7 @@
         "date": "May 29 2019",
         "length": 94,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Building a High-performance Team",
         "url": "https://www.pluralsight.com/courses/building-high-performance-team"
     },
@@ -16195,7 +16195,7 @@
         "date": "May 15 2017",
         "length": 129,
         "level": "Beginner",
-        "rating": 247,
+        "rating": 248,
         "title": "Fundamentals of Cloud Computing",
         "url": "https://www.pluralsight.com/courses/cloud-computing-fundamentals"
     },
@@ -17734,7 +17734,7 @@
         "date": "Apr 20 2020",
         "length": 32,
         "level": "Beginner",
-        "rating": 26,
+        "rating": 28,
         "title": "Color Theory Fundamentals",
         "url": "https://www.pluralsight.com/courses/color-theory-fundamentals"
     },
@@ -20515,7 +20515,7 @@
         "date": "Dec 27 2019",
         "length": 136,
         "level": "Intermediate",
-        "rating": 533,
+        "rating": 534,
         "title": "Creating Effective User Stories",
         "url": "https://www.pluralsight.com/courses/creating-effective-user-stories"
     },
@@ -32674,7 +32674,7 @@
         "date": "Jul 20 2018",
         "length": 242,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Game Prop Texturing Fundamentals",
         "url": "https://www.pluralsight.com/courses/game-prop-texturing-fundamentals-2018"
     },
@@ -35131,7 +35131,7 @@
         "date": "Nov 8 2018",
         "length": 78,
         "level": "Beginner",
-        "rating": 24,
+        "rating": 25,
         "title": "Groovy: Getting Started",
         "url": "https://www.pluralsight.com/courses/groovy-getting-started"
     },
@@ -44338,7 +44338,7 @@
         "date": "Apr 1 2020",
         "length": 17,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Leading through Crisis: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/leading-through-crisis-executive-briefing"
     },
@@ -46570,7 +46570,7 @@
         "date": "Feb 2 2019",
         "length": 83,
         "level": "Beginner",
-        "rating": 58,
+        "rating": 59,
         "title": "Managing Python Packages and Virtual Environments",
         "url": "https://www.pluralsight.com/courses/managing-python-packages-virtual-environments"
     },
@@ -77782,7 +77782,7 @@
         "date": "Nov 15 2018",
         "length": 102,
         "level": "Beginner",
-        "rating": 29,
+        "rating": 31,
         "title": "Getting Started with TestNG",
         "url": "https://www.pluralsight.com/courses/testng-getting-started"
     },
@@ -82588,7 +82588,7 @@
         "date": "Jun 28 2019",
         "length": 169,
         "level": "Intermediate",
-        "rating": 51,
+        "rating": 52,
         "title": "Unit Testing with Python",
         "url": "https://www.pluralsight.com/courses/using-unit-testing-python"
     },
@@ -87709,7 +87709,7 @@
         "date": "Dec 2 2016",
         "length": 176,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 21,
         "title": "Implementing Windows Server 2016 Connectivity and Remote Access",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-connectivity-remote-access"
     },
