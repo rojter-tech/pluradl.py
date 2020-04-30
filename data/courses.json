@@ -5229,7 +5229,7 @@
         "url": "https://www.pluralsight.com/courses/annotating-ggplot2-visualizations-r"
     },
     "ansible-fundamentals": {
-        "author": "Pluralsight",
+        "author": "Red Hat",
         "date": "Apr 15 2020",
         "length": 223,
         "level": "Intermediate",
@@ -5238,7 +5238,7 @@
         "url": "https://www.pluralsight.com/courses/ansible-fundamentals"
     },
     "ansible-windows-fundamentals": {
-        "author": "Pluralsight",
+        "author": "Red Hat",
         "date": "Apr 15 2020",
         "length": 121,
         "level": "Intermediate",
@@ -7488,7 +7488,7 @@
         "url": "https://www.pluralsight.com/courses/automating-cisco-meraki-operations-using-apis"
     },
     "automating-container-management-ansible": {
-        "author": "Pluralsight",
+        "author": "Red Hat",
         "date": "Apr 29 2020",
         "length": 51,
         "level": "Beginner",
@@ -7497,7 +7497,7 @@
         "url": "https://www.pluralsight.com/courses/automating-container-management-ansible"
     },
     "automating-deployment-amazon-ec2-ansible": {
-        "author": "Pluralsight",
+        "author": "Red Hat",
         "date": "Apr 15 2020",
         "length": 65,
         "level": "Intermediate",
@@ -66078,7 +66078,7 @@
         "url": "https://www.pluralsight.com/courses/recording-managing-excel-macros"
     },
     "red-hat-ansible-tower-managing": {
-        "author": "Pluralsight",
+        "author": "Red Hat",
         "date": "Apr 15 2020",
         "length": 54,
         "level": "Intermediate",
@@ -77724,7 +77724,7 @@
         "url": "https://www.pluralsight.com/courses/testing-automation-big-picture"
     },
     "testing-debugging-ansible-automation": {
-        "author": "Pluralsight",
+        "author": "Red Hat",
         "date": "Apr 15 2020",
         "length": 31,
         "level": "Intermediate",
