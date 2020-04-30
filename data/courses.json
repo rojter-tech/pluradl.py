@@ -6034,7 +6034,7 @@
         "date": "Mar 16 2017",
         "length": 400,
         "level": "Beginner",
-        "rating": 54,
+        "rating": 55,
         "title": "Fundamentals of Arnold for Maya",
         "url": "https://www.pluralsight.com/courses/arnold-maya-fundamentals"
     },
@@ -7366,7 +7366,7 @@
         "date": "Apr 4 2015",
         "length": 118,
         "level": "Beginner",
-        "rating": 235,
+        "rating": 236,
         "title": "Better .NET Unit Tests with AutoFixture: Get Started",
         "url": "https://www.pluralsight.com/courses/autofixture-dotnet-unit-test-get-started"
     },
@@ -7510,7 +7510,7 @@
         "date": "Mar 20 2020",
         "length": 121,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Automating Jenkins with Groovy",
         "url": "https://www.pluralsight.com/courses/automating-jenkins-groovy"
     },
@@ -9445,7 +9445,7 @@
         "date": "Apr 2 2019",
         "length": 154,
         "level": "Beginner",
-        "rating": 15,
+        "rating": 16,
         "title": "Becoming an Xcode Power User",
         "url": "https://www.pluralsight.com/courses/becoming-xcode-power-user"
     },
@@ -16069,7 +16069,7 @@
         "date": "Jan 11 2017",
         "length": 141,
         "level": "Beginner",
-        "rating": 1086,
+        "rating": 1087,
         "title": "Clean Architecture: Patterns, Practices, and Principles",
         "url": "https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles"
     },
@@ -17842,7 +17842,7 @@
         "date": "Jun 21 2019",
         "length": 208,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Combining and Shaping Data",
         "url": "https://www.pluralsight.com/courses/combining-shaping-data"
     },
@@ -22216,7 +22216,7 @@
         "date": "Feb 21 2018",
         "length": 72,
         "level": "Beginner",
-        "rating": 66,
+        "rating": 67,
         "title": "Making Data into Something You Can See",
         "url": "https://www.pluralsight.com/courses/data-you-can-see"
     },
@@ -31270,7 +31270,7 @@
         "date": "Nov 9 2019",
         "length": 124,
         "level": "Beginner",
-        "rating": 37,
+        "rating": 38,
         "title": "Flask: Getting Started",
         "url": "https://www.pluralsight.com/courses/flask-getting-started"
     },
@@ -31567,7 +31567,7 @@
         "date": "Mar 11 2020",
         "length": 127,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Foundational TCP Analysis with Wireshark",
         "url": "https://www.pluralsight.com/courses/foundational-tcp-analysis-wireshark"
     },
@@ -43123,7 +43123,7 @@
         "date": "Jul 26 2018",
         "length": 180,
         "level": "Intermediate",
-        "rating": 305,
+        "rating": 306,
         "title": "JavaScript Fundamentals",
         "url": "https://www.pluralsight.com/courses/javascript-fundamentals"
     },
@@ -53995,7 +53995,7 @@
         "date": "Dec 23 2019",
         "length": 78,
         "level": "Beginner",
-        "rating": 11,
+        "rating": 12,
         "title": "Using MongoDB with Node.js",
         "url": "https://www.pluralsight.com/courses/mongodb-nodejs"
     },
@@ -62590,7 +62590,7 @@
         "date": "Jan 10 2020",
         "length": 253,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Preparing Your Organization for ISO 27001:2013 Compliance/Certification",
         "url": "https://www.pluralsight.com/courses/preparing-organization-iso-27001-2013-certification"
     },
