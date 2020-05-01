@@ -52924,7 +52924,7 @@
         "date": "Aug 2 2019",
         "length": 83,
         "level": "Intermediate",
-        "rating": 40,
+        "rating": 41,
         "title": "Getting Started with Mockito",
         "url": "https://www.pluralsight.com/courses/mockito-getting-started"
     },
@@ -56452,7 +56452,7 @@
         "date": "Mar 11 2019",
         "length": 206,
         "level": "Beginner",
-        "rating": 2846,
+        "rating": 2850,
         "title": "Object-Oriented Programming Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/object-oriented-programming-fundamentals-csharp"
     },
@@ -61519,7 +61519,7 @@
         "date": "Mar 21 2016",
         "length": 134,
         "level": "Intermediate",
-        "rating": 35,
+        "rating": 36,
         "title": "PostgreSQL: Advanced Server Programming",
         "url": "https://www.pluralsight.com/courses/postgresql-advanced-server-programming"
     },
@@ -64624,7 +64624,7 @@
         "date": "Oct 23 2019",
         "length": 110,
         "level": "Advanced",
-        "rating": 12,
+        "rating": 13,
         "title": "Querying JSON, XML, and Temporal Data with T-SQL",
         "url": "https://www.pluralsight.com/courses/querying-json-xml-temporal-data-tsql"
     },
