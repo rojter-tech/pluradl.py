@@ -1525,7 +1525,7 @@
         "date": "Dec 20 2019",
         "length": 81,
         "level": "Advanced",
-        "rating": 21,
+        "rating": 22,
         "title": "Advanced Git Techniques",
         "url": "https://www.pluralsight.com/courses/advanced-git-techniques"
     },
@@ -9994,7 +9994,7 @@
         "date": "Jul 22 2013",
         "length": 224,
         "level": "Intermediate",
-        "rating": 294,
+        "rating": 296,
         "title": "Big Data Analytics with Tableau",
         "url": "https://www.pluralsight.com/courses/big-data-analytics-tableau"
     },
@@ -18571,7 +18571,7 @@
         "date": "Oct 24 2017",
         "length": 232,
         "level": "Beginner",
-        "rating": 36,
+        "rating": 38,
         "title": "Technologies and Tools for CompTIA Security+",
         "url": "https://www.pluralsight.com/courses/comptia-security-plus-technologies-tools"
     },
@@ -21298,7 +21298,7 @@
         "date": "Mar 29 2019",
         "length": 206,
         "level": "Beginner",
-        "rating": 130,
+        "rating": 131,
         "title": "Beginning C# Collections",
         "url": "https://www.pluralsight.com/courses/csharp-collections-beginning"
     },
@@ -42952,7 +42952,7 @@
         "date": "May 21 2018",
         "length": 128,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 18,
         "title": "Unit Testing Legacy Code in Java",
         "url": "https://www.pluralsight.com/courses/java-unit-testing-legacy-code"
     },
@@ -43213,7 +43213,7 @@
         "date": "Dec 10 2015",
         "length": 48,
         "level": "Intermediate",
-        "rating": 1677,
+        "rating": 1678,
         "title": "JavaScript Objects and Prototypes",
         "url": "https://www.pluralsight.com/courses/javascript-objects-prototypes"
     },
@@ -53761,7 +53761,7 @@
         "date": "Nov 2 2018",
         "length": 118,
         "level": "Beginner",
-        "rating": 279,
+        "rating": 280,
         "title": "Modern Java: The Big Picture",
         "url": "https://www.pluralsight.com/courses/modern-java-big-picture"
     },
@@ -55984,7 +55984,7 @@
         "date": "Apr 14 2015",
         "length": 159,
         "level": "Intermediate",
-        "rating": 157,
+        "rating": 158,
         "title": "Node.js Testing Strategies",
         "url": "https://www.pluralsight.com/courses/nodejs-testing-strategies"
     },
@@ -62545,7 +62545,7 @@
         "date": "Oct 29 2019",
         "length": 204,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 14,
         "title": "Preparing Data for Machine Learning",
         "url": "https://www.pluralsight.com/courses/preparing-data-machine-learning"
     },
@@ -68287,7 +68287,7 @@
         "date": "Mar 22 2019",
         "length": 185,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Salesforce Administration: The Big Picture",
         "url": "https://www.pluralsight.com/courses/salesforce-administration-big-picture"
     },
@@ -74344,7 +74344,7 @@
         "date": "Jan 1 2019",
         "length": 211,
         "level": "Intermediate",
-        "rating": 64,
+        "rating": 65,
         "title": "Spring Security: Authentication / Authorization - Building Effective Layers of Defense",
         "url": "https://www.pluralsight.com/courses/spring-security-authentication-authorization-layers-of-defense"
     },
@@ -88762,7 +88762,7 @@
         "date": "Aug 19 2019",
         "length": 129,
         "level": "Intermediate",
-        "rating": 62,
+        "rating": 63,
         "title": "Working with Nulls in C#",
         "url": "https://www.pluralsight.com/courses/working-with-nulls-csharp"
     },
