@@ -17941,7 +17941,7 @@
         "date": "Feb 8 2013",
         "length": 149,
         "level": "Beginner",
-        "rating": 902,
+        "rating": 904,
         "title": "Communications: How to Talk, Write, Present, and Get Ahead!",
         "url": "https://www.pluralsight.com/courses/communication-skills"
     },
@@ -21163,7 +21163,7 @@
         "date": "May 16 2014",
         "length": 254,
         "level": "Intermediate",
-        "rating": 295,
+        "rating": 296,
         "title": "Cryptography Fundamentals for Developers and Security Professionals",
         "url": "https://www.pluralsight.com/courses/cryptography-fundamentals-java-dotnet-developers"
     },
@@ -22954,7 +22954,7 @@
         "date": "Sep 13 2019",
         "length": 241,
         "level": "Intermediate",
-        "rating": 131,
+        "rating": 132,
         "title": "Design Patterns in Java: Behavioral",
         "url": "https://www.pluralsight.com/courses/design-patterns-java-behavioral"
     },
@@ -24097,7 +24097,7 @@
         "date": "Apr 1 2020",
         "length": 74,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Developing JavaScript Single Page Applications Protected by Azure Active Directory",
         "url": "https://www.pluralsight.com/courses/developing-javascript-single-page-applications-protected-azure-active-directory"
     },
@@ -25132,7 +25132,7 @@
         "date": "Feb 13 2019",
         "length": 107,
         "level": "Beginner",
-        "rating": 650,
+        "rating": 652,
         "title": "Docker and Kubernetes: The Big Picture",
         "url": "https://www.pluralsight.com/courses/docker-kubernetes-big-picture"
     },
@@ -29146,7 +29146,7 @@
         "date": "Oct 2 2018",
         "length": 141,
         "level": "Beginner",
-        "rating": 78,
+        "rating": 79,
         "title": "Ethical Hacking: Sniffing",
         "url": "https://www.pluralsight.com/courses/ethical-hacking-sniffing"
     },
@@ -31351,7 +31351,7 @@
         "date": "Mar 6 2019",
         "length": 73,
         "level": "Beginner",
-        "rating": 59,
+        "rating": 60,
         "title": "Flutter: The Big Picture",
         "url": "https://www.pluralsight.com/courses/flutter-big-picture"
     },
@@ -49621,7 +49621,7 @@
         "date": "Sep 17 2019",
         "length": 143,
         "level": "Advanced",
-        "rating": 19,
+        "rating": 20,
         "title": "Integrating Data in Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-data-integrating"
     },
@@ -50521,7 +50521,7 @@
         "date": "Nov 18 2019",
         "length": 186,
         "level": "Intermediate",
-        "rating": 40,
+        "rating": 42,
         "title": "Design a Networking Strategy for Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-networking-strategy-design"
     },
@@ -59233,7 +59233,7 @@
         "date": "Sep 1 2016",
         "length": 318,
         "level": "Intermediate",
-        "rating": 33,
+        "rating": 34,
         "title": "PHP Web Application Security",
         "url": "https://www.pluralsight.com/courses/php-web-application-security"
     },
@@ -59242,7 +59242,7 @@
         "date": "Jun 20 2014",
         "length": 101,
         "level": "Intermediate",
-        "rating": 78,
+        "rating": 79,
         "title": "phpMyAdmin Fundamentals",
         "url": "https://www.pluralsight.com/courses/phpmyadmin-fundamentals"
     },
@@ -61672,7 +61672,7 @@
         "date": "Mar 29 2019",
         "length": 297,
         "level": "Beginner",
-        "rating": 39,
+        "rating": 40,
         "title": "Modeling Data in Power BI",
         "url": "https://www.pluralsight.com/courses/power-bi-data-modeling"
     },
@@ -62698,7 +62698,7 @@
         "date": "Aug 14 2019",
         "length": 166,
         "level": "Intermediate",
-        "rating": 11,
+        "rating": 12,
         "title": "Preventing Threats Using Palo Alto Firewalls",
         "url": "https://www.pluralsight.com/courses/preventing-threats-palo-alto-firewalls"
     },
@@ -65668,7 +65668,7 @@
         "date": "Mar 12 2019",
         "length": 399,
         "level": "Intermediate",
-        "rating": 1493,
+        "rating": 1497,
         "title": "Building Applications with React and Redux",
         "url": "https://www.pluralsight.com/courses/react-redux-react-router-es6"
     },
@@ -70564,7 +70564,7 @@
         "date": "Jan 5 2019",
         "length": 142,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Getting Started with Server-side Swift and Vapor",
         "url": "https://www.pluralsight.com/courses/server-side-swift-vapor-getting-started"
     },
@@ -75172,7 +75172,7 @@
         "date": "Sep 15 2017",
         "length": 431,
         "level": "Beginner",
-        "rating": 87,
+        "rating": 88,
         "title": "SQL Server: Indexing for Performance",
         "url": "https://www.pluralsight.com/courses/sqlserver-indexing-for-performance"
     },
@@ -76270,7 +76270,7 @@
         "date": "Aug 2 2016",
         "length": 103,
         "level": "Beginner",
-        "rating": 80,
+        "rating": 81,
         "title": "The Successful Technical Interview for Interviewers",
         "url": "https://www.pluralsight.com/courses/successful-technical-interview-interviewers"
     },
@@ -78988,7 +78988,7 @@
         "date": "Oct 7 2015",
         "length": 33,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Creating a 3D Shot with a 2D Photo in After Effects and Photoshop",
         "url": "https://www.pluralsight.com/courses/threed-shot-2d-photoaephotoshop-2289"
     },
@@ -80617,7 +80617,7 @@
         "date": "Sep 23 2019",
         "length": 43,
         "level": "Beginner",
-        "rating": 1829,
+        "rating": 1832,
         "title": "Understanding Machine Learning",
         "url": "https://www.pluralsight.com/courses/understanding-machine-learning"
     },
