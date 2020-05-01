@@ -7498,7 +7498,7 @@
     },
     "automating-deployment-amazon-ec2-ansible": {
         "author": "Red Hat",
-        "date": "Apr 15 2020",
+        "date": "Apr 29 2020",
         "length": 65,
         "level": "Intermediate",
         "rating": "",
@@ -65677,7 +65677,7 @@
         "date": "Oct 23 2017",
         "length": 112,
         "level": "Intermediate",
-        "rating": 37,
+        "rating": 38,
         "title": "Building Real-time Apps with React, Socket.io, and RethinkDB",
         "url": "https://www.pluralsight.com/courses/react-socketio-rethinkdb-building-real-time-apps"
     },
@@ -66097,7 +66097,7 @@
     },
     "red-hat-ansible-tower-managing": {
         "author": "Red Hat",
-        "date": "Apr 15 2020",
+        "date": "Apr 29 2020",
         "length": 54,
         "level": "Intermediate",
         "rating": "",
@@ -77752,7 +77752,7 @@
     },
     "testing-debugging-ansible-automation": {
         "author": "Red Hat",
-        "date": "Apr 15 2020",
+        "date": "Apr 29 2020",
         "length": 31,
         "level": "Intermediate",
         "rating": "",
