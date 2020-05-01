@@ -2110,6 +2110,7 @@ configuring-cors-in-aspnet-and-aspnet-core
 configuring-exchange-server-2013-with-sharepoint-2013
 configuring-managing-cisco-data-center-lab
 configuring-managing-kubernetes-storage-scheduling
+configuring-managing-microsoft-365-workload-integrations
 configuring-managing-monitoring-mobile-devices-mdm
 configuring-managing-office-365-security
 configuring-managing-onedrive-business
