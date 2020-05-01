@@ -37529,6 +37529,15 @@
         "title": "Implementing Windows Server 2019 Hyper-V",
         "url": "https://www.pluralsight.com/courses/implementing-windows-server-2019-hyper-v"
     },
+    "implementing-windows-server-2019-ip-address-management": {
+        "author": "Larry Glusman",
+        "date": "May 1 2020",
+        "length": 156,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Implementing Windows Server 2019 IP Address Management (IPAM)",
+        "url": "https://www.pluralsight.com/courses/implementing-windows-server-2019-ip-address-management"
+    },
     "implementing-wireless-network-cisco-wifund-200-355": {
         "author": "Andrew Crouthamel",
         "date": "Jul 26 2017",
@@ -44278,6 +44287,24 @@
         "rating": 415,
         "title": "Large Scale JavaScript on Client and Server",
         "url": "https://www.pluralsight.com/courses/large-scale-javascript"
+    },
+    "lateral-movement-mimikatz": {
+        "author": "Lee Allen",
+        "date": "May 1 2020",
+        "length": 28,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Lateral Movement with Mimikatz",
+        "url": "https://www.pluralsight.com/courses/lateral-movement-mimikatz"
+    },
+    "lateral-movement-psexec": {
+        "author": "Matt Glass",
+        "date": "May 1 2020",
+        "length": 21,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Lateral Movement with PsExec",
+        "url": "https://www.pluralsight.com/courses/lateral-movement-psexec"
     },
     "launching-machine-learning": {
         "author": "Google Cloud",
@@ -57166,6 +57193,15 @@
         "rating": "",
         "title": "Operating a Wireless Network for Cisco WIFUND (200-355)",
         "url": "https://www.pluralsight.com/courses/operating-wireless-network-cisco-wifund-200-355"
+    },
+    "operationalizing-bash-z-shell-scripts": {
+        "author": "Andrew Mallett",
+        "date": "May 1 2020",
+        "length": 181,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Operationalizing Bash and Z Shell Scripts",
+        "url": "https://www.pluralsight.com/courses/operationalizing-bash-z-shell-scripts"
     },
     "operationalizing-cisco-firepower": {
         "author": "Katherine McNamara",

@@ -4168,6 +4168,7 @@ implementing-windows-10-creators
 implementing-windows-server-2016-dhcp
 implementing-windows-server-2019-distributed-networking-services
 implementing-windows-server-2019-hyper-v
+implementing-windows-server-2019-ip-address-management
 implementing-wireless-network-cisco-wifund-200-355
 implementing-wireless-security-byod
 importing-common-data-file-formats-r-playbook
@@ -4918,6 +4919,8 @@ laravel-php-framework-getting-started-the-basics
 laravel-php-framework-getting-started-users-authentication
 large-scale-interior-renderings-cinema-4d-1096
 large-scale-javascript
+lateral-movement-mimikatz
+lateral-movement-psexec
 launching-machine-learning
 launching-successful-teams
 law-ethics-sec-compliance-management
@@ -6350,6 +6353,7 @@ openstack-nova-neutron
 openvas-network-vulnerability-scanning
 operating-system-deployments-using-sccm-2012-sp1
 operating-wireless-network-cisco-wifund-200-355
+operationalizing-bash-z-shell-scripts
 operationalizing-cisco-firepower
 operationalizing-cyber-threat-intel-pivoting-hunting
 opsec-penetration-testers
