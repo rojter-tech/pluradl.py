@@ -13405,7 +13405,7 @@
         "date": "Jun 28 2019",
         "length": 144,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Building Your First PyTorch Solution",
         "url": "https://www.pluralsight.com/courses/building-your-first-pytorch-solution"
     },
@@ -13738,7 +13738,7 @@
         "date": "Nov 6 2019",
         "length": 40,
         "level": "Advanced",
-        "rating": 37,
+        "rating": 39,
         "title": "C# Design Patterns: Chain of Responsibility",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-chain-responsibility"
     },
@@ -19399,7 +19399,7 @@
         "date": "Feb 16 2017",
         "length": 59,
         "level": "Beginner",
-        "rating": 289,
+        "rating": 291,
         "title": "Continuous Integration and Continuous Delivery: The Big Picture",
         "url": "https://www.pluralsight.com/courses/continuous-integration-delivery-big-picture"
     },
@@ -23656,7 +23656,7 @@
         "date": "Aug 5 2019",
         "length": 126,
         "level": "Beginner",
-        "rating": 123,
+        "rating": 124,
         "title": "Designing RESTful Web APIs",
         "url": "https://www.pluralsight.com/courses/designing-restful-web-apis"
     },
@@ -28390,7 +28390,7 @@
         "date": "Aug 5 2014",
         "length": 310,
         "level": "Intermediate",
-        "rating": 1919,
+        "rating": 1920,
         "title": "Encapsulation and SOLID",
         "url": "https://www.pluralsight.com/courses/encapsulation-solid"
     },
@@ -33511,7 +33511,7 @@
         "date": "Jan 26 2019",
         "length": 104,
         "level": "Beginner",
-        "rating": 115,
+        "rating": 117,
         "title": "Getting Started with Linux",
         "url": "https://www.pluralsight.com/courses/getting-started-linux"
     },
@@ -34186,7 +34186,7 @@
         "date": "Oct 17 2019",
         "length": 79,
         "level": "Advanced",
-        "rating": 16,
+        "rating": 17,
         "title": "Git Administration",
         "url": "https://www.pluralsight.com/courses/git-administration"
     },
@@ -43807,7 +43807,7 @@
         "date": "Nov 8 2018",
         "length": 88,
         "level": "Beginner",
-        "rating": 48,
+        "rating": 50,
         "title": "Getting Started Unit Testing with JUnit 5",
         "url": "https://www.pluralsight.com/courses/junit-5-unit-testing-getting-started"
     },
@@ -60376,7 +60376,7 @@
         "date": "Apr 18 2018",
         "length": 84,
         "level": "Beginner",
-        "rating": 83,
+        "rating": 84,
         "title": "Play by Play: Modern Web Security Patterns",
         "url": "https://www.pluralsight.com/courses/play-by-play-modern-web-security-patterns"
     },
@@ -61600,7 +61600,7 @@
         "date": "Apr 17 2020",
         "length": 157,
         "level": "Beginner",
-        "rating": 116,
+        "rating": 117,
         "title": "Postman Fundamentals",
         "url": "https://www.pluralsight.com/courses/postman-fundamentals"
     },
@@ -75532,7 +75532,7 @@
         "date": "Mar 26 2019",
         "length": 126,
         "level": "Intermediate",
-        "rating": 29,
+        "rating": 30,
         "title": "Migrating SSIS Packages to Azure Data Factory",
         "url": "https://www.pluralsight.com/courses/ssis-packages-azure-data-factory-migrating"
     },
@@ -83002,7 +83002,7 @@
         "date": "Jan 3 2018",
         "length": 89,
         "level": "Intermediate",
-        "rating": 63,
+        "rating": 64,
         "title": "UX Design Creating Wireframes",
         "url": "https://www.pluralsight.com/courses/ux-design-creating-wireframes"
     },
@@ -85171,7 +85171,7 @@
         "date": "Mar 6 2020",
         "length": 49,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Web Application Penetration Testing: Input Validation",
         "url": "https://www.pluralsight.com/courses/web-app-pentesting-input-validation"
     },
@@ -85297,7 +85297,7 @@
         "date": "Apr 9 2015",
         "length": 658,
         "level": "Beginner",
-        "rating": 665,
+        "rating": 666,
         "title": "Introduction to Web Development",
         "url": "https://www.pluralsight.com/courses/web-development-intro"
     },
