@@ -7528,7 +7528,7 @@
         "date": "Jun 7 2019",
         "length": 215,
         "level": "Intermediate",
-        "rating": 27,
+        "rating": 29,
         "title": "Automating Networks with Python",
         "url": "https://www.pluralsight.com/courses/automating-networks-python"
     },
@@ -8536,7 +8536,7 @@
         "date": "Aug 27 2015",
         "length": 272,
         "level": "Intermediate",
-        "rating": 365,
+        "rating": 366,
         "title": "AWS VPC Operations",
         "url": "https://www.pluralsight.com/courses/aws-vpc-operations"
     },
@@ -20767,7 +20767,7 @@
         "date": "Nov 18 2019",
         "length": 73,
         "level": "Advanced",
-        "rating": 30,
+        "rating": 31,
         "title": "Creating and Using TypeScript Decorators",
         "url": "https://www.pluralsight.com/courses/creating-using-typescript-decorators"
     },
@@ -21154,7 +21154,7 @@
         "date": "Jun 7 2017",
         "length": 84,
         "level": "Intermediate",
-        "rating": 98,
+        "rating": 99,
         "title": "Cryptography: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cryptography-big-picture"
     },
@@ -30775,7 +30775,7 @@
         "date": "Aug 20 2012",
         "length": 81,
         "level": "Intermediate",
-        "rating": 133,
+        "rating": 134,
         "title": "FakeItEasy",
         "url": "https://www.pluralsight.com/courses/fakeiteasy"
     },
@@ -31585,7 +31585,7 @@
         "date": "Apr 1 2019",
         "length": 171,
         "level": "Beginner",
-        "rating": 21,
+        "rating": 22,
         "title": "Foundations of PyTorch",
         "url": "https://www.pluralsight.com/courses/foundations-pytorch"
     },
@@ -31792,7 +31792,7 @@
         "date": "Jul 3 2015",
         "length": 85,
         "level": "Beginner",
-        "rating": 369,
+        "rating": 370,
         "title": "F# Jumpstart",
         "url": "https://www.pluralsight.com/courses/fsharp-jumpstart"
     },
@@ -38317,7 +38317,7 @@
         "date": "Jan 22 2018",
         "length": 260,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Information Security Manager: Information Risk Management",
         "url": "https://www.pluralsight.com/courses/infosec-manager-information-risk-management"
     },
@@ -54049,7 +54049,7 @@
         "date": "Aug 8 2018",
         "length": 163,
         "level": "Intermediate",
-        "rating": 72,
+        "rating": 73,
         "title": "Monitoring Containerized Application Health with Docker",
         "url": "https://www.pluralsight.com/courses/monitoring-containerized-app-health-docker"
     },
@@ -65272,7 +65272,7 @@
         "date": "Oct 25 2016",
         "length": 150,
         "level": "Beginner",
-        "rating": 408,
+        "rating": 409,
         "title": "Data Science with R",
         "url": "https://www.pluralsight.com/courses/r-data-science"
     },
@@ -65614,7 +65614,7 @@
         "date": "Apr 20 2020",
         "length": 242,
         "level": "Beginner",
-        "rating": 2174,
+        "rating": 2178,
         "title": "React: Getting Started",
         "url": "https://www.pluralsight.com/courses/react-js-getting-started"
     },
@@ -69052,7 +69052,7 @@
         "date": "Jan 14 2014",
         "length": 97,
         "level": "Intermediate",
-        "rating": 698,
+        "rating": 699,
         "title": "Scrum Development with Jira & JIRA Agile",
         "url": "https://www.pluralsight.com/courses/scrum-development-jira-agile"
     },
@@ -69115,7 +69115,7 @@
         "date": "Nov 7 2016",
         "length": 166,
         "level": "Beginner",
-        "rating": 172,
+        "rating": 173,
         "title": "Scrum Master Fundamentals - Becoming a Great Scrum Master",
         "url": "https://www.pluralsight.com/courses/scrum-master-fundamentals-scrum-master"
     },
@@ -77017,7 +77017,7 @@
         "date": "Jul 1 2016",
         "length": 430,
         "level": "Intermediate",
-        "rating": 340,
+        "rating": 341,
         "title": "Tactical Design Patterns in .NET: Creating Objects",
         "url": "https://www.pluralsight.com/courses/tactical-design-patternsdot-net"
     },
