@@ -2678,6 +2678,7 @@ developing-implementing-vulnerability-management-programs
 developing-javascript-single-page-applications-protected-azure-active-directory
 developing-killer-personal-brand
 developing-nodejs-microsoft-azure-getting-started
+developing-nodejs-microsoft-azure-getting-started-update
 developing-project-schedules-budgets
 developing-python-tools-nuke-2219
 developing-rapid-interactive-prototypes-omnigraffle-1959
@@ -6923,6 +6924,7 @@ pragmatic-bdd-dotnet
 pragmatic-self-service-bi-powerpivot-excel
 pragmatic-unit-testing
 pragmatic-unit-testing-patterns
+predictive-analytics-pytorch
 prehistoric-creature-bust-zbrush-photoshop-1161
 prelude-cc-fundamentals
 prelude-premiere-pro-fundamentals-video-production-2515

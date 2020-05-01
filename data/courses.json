@@ -24119,6 +24119,15 @@
         "title": "Developing with Node.js on Microsoft Azure - Getting Started",
         "url": "https://www.pluralsight.com/courses/developing-nodejs-microsoft-azure-getting-started"
     },
+    "developing-nodejs-microsoft-azure-getting-started-update": {
+        "author": "David Tucker",
+        "date": "May 1 2020",
+        "length": 249,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Developing with Node.js on Microsoft Azure - Getting Started",
+        "url": "https://www.pluralsight.com/courses/developing-nodejs-microsoft-azure-getting-started-update"
+    },
     "developing-project-schedules-budgets": {
         "author": "Casey Ayers",
         "date": "Jun 30 2017",
@@ -62323,6 +62332,15 @@
         "rating": 241,
         "title": "Patterns for Pragmatic Unit Testing",
         "url": "https://www.pluralsight.com/courses/pragmatic-unit-testing-patterns"
+    },
+    "predictive-analytics-pytorch": {
+        "author": "Janani Ravi",
+        "date": "May 1 2020",
+        "length": 151,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Predictive Analytics with PyTorch",
+        "url": "https://www.pluralsight.com/courses/predictive-analytics-pytorch"
     },
     "prehistoric-creature-bust-zbrush-photoshop-1161": {
         "author": "Tyrus Goshay",
