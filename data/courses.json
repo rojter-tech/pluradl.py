@@ -9841,7 +9841,7 @@
         "date": "Oct 12 2015",
         "length": 379,
         "level": "Beginner",
-        "rating": 242,
+        "rating": 243,
         "title": "Beginning PowerShell Scripting for Developers",
         "url": "https://www.pluralsight.com/courses/beginning-powershell-scripting-developers"
     },
@@ -11056,7 +11056,7 @@
         "date": "Oct 8 2019",
         "length": 32,
         "level": "Beginner",
-        "rating": 131,
+        "rating": 133,
         "title": "Blazor: The Big Picture",
         "url": "https://www.pluralsight.com/courses/blazor-big-picture"
     },
@@ -18454,7 +18454,7 @@
         "date": "Apr 20 2018",
         "length": 326,
         "level": "Beginner",
-        "rating": 312,
+        "rating": 313,
         "title": "Networking Concepts and Protocols",
         "url": "https://www.pluralsight.com/courses/comptia-network-plus-networking-concepts"
     },
@@ -35032,7 +35032,7 @@
         "date": "Oct 12 2015",
         "length": 135,
         "level": "Intermediate",
-        "rating": 327,
+        "rating": 329,
         "title": "Gradle Fundamentals",
         "url": "https://www.pluralsight.com/courses/gradle-fundamentals"
     },
@@ -36598,7 +36598,7 @@
         "date": "Feb 22 2019",
         "length": 103,
         "level": "Intermediate",
-        "rating": 27,
+        "rating": 28,
         "title": "Identity and Access Management on AWS: Users",
         "url": "https://www.pluralsight.com/courses/identity-access-management-aws-users"
     },
@@ -42988,7 +42988,7 @@
         "date": "Apr 15 2019",
         "length": 144,
         "level": "Intermediate",
-        "rating": 80,
+        "rating": 82,
         "title": "Java: Writing Readable and Maintainable Code",
         "url": "https://www.pluralsight.com/courses/java-writing-readable-maintainable-code"
     },
@@ -44122,7 +44122,7 @@
         "date": "Sep 16 2019",
         "length": 274,
         "level": "Beginner",
-        "rating": 102,
+        "rating": 103,
         "title": "Kubernetes for Developers: Core Concepts",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-core-concepts"
     },
@@ -50170,7 +50170,7 @@
         "date": "Nov 8 2019",
         "length": 118,
         "level": "Advanced",
-        "rating": 18,
+        "rating": 19,
         "title": "Microsoft Azure DevOps Engineer: Implement a Secure and Compliant Development Process",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-implement-secure-compliant-development-process"
     },
@@ -74155,7 +74155,7 @@
         "date": "Jul 11 2019",
         "length": 98,
         "level": "Intermediate",
-        "rating": 125,
+        "rating": 129,
         "title": "Spring Boot Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-boot-fundamentals"
     },
