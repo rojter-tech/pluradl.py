@@ -12541,7 +12541,7 @@
         "date": "Feb 12 2020",
         "length": 137,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Building Healthy Interpersonal Relationships at Work",
         "url": "https://www.pluralsight.com/courses/building-healthy-interpersonal-relationships-work"
     },
@@ -18634,7 +18634,7 @@
         "date": "Jan 14 2019",
         "length": 26,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Computer Fundamentals: Introduction to the A+ Exam",
         "url": "https://www.pluralsight.com/courses/computer-fundamentals-introduction-a-plus-exam"
     },
@@ -19057,7 +19057,7 @@
         "date": "May 10 2019",
         "length": 144,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Configuring NAT and VPN’s Using Palo Alto Firewalls",
         "url": "https://www.pluralsight.com/courses/configuring-nat-vpn-using-palo-alto-firewalls"
     },
@@ -20650,7 +20650,7 @@
         "date": "Oct 29 2019",
         "length": 163,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Creating Machine Learning Models",
         "url": "https://www.pluralsight.com/courses/creating-machine-learning-models"
     },
@@ -22936,7 +22936,7 @@
         "date": "Apr 22 2016",
         "length": 144,
         "level": "Intermediate",
-        "rating": 47,
+        "rating": 48,
         "title": "Design Patterns in C++: Structural - Adapter to Decorator",
         "url": "https://www.pluralsight.com/courses/design-patterns-cpp-structural-adapter-decorator"
     },
@@ -36778,7 +36778,7 @@
         "date": "Mar 16 2016",
         "length": 248,
         "level": "Beginner",
-        "rating": 74,
+        "rating": 75,
         "title": "Illustrator CC Building on the Fundamentals",
         "url": "https://www.pluralsight.com/courses/illustrator-cc-building-on-fundamentals"
     },
@@ -74965,7 +74965,7 @@
         "date": "Dec 21 2016",
         "length": 121,
         "level": "Beginner",
-        "rating": 83,
+        "rating": 84,
         "title": "SQL Server: Installing and Configuring SQL Server 2016",
         "url": "https://www.pluralsight.com/courses/sqlserver-2016-installing-configuring"
     },
@@ -79906,7 +79906,7 @@
         "date": "Jun 5 2019",
         "length": 182,
         "level": "Intermediate",
-        "rating": 26,
+        "rating": 27,
         "title": "Troubleshooting Slow Networks with Wireshark",
         "url": "https://www.pluralsight.com/courses/troubleshooting-slow-networks-wireshark"
     },
