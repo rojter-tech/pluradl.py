@@ -38591,6 +38591,15 @@
         "title": "Introduction to Installing and Configuring Windows 10 and Configuring Windows Devices",
         "url": "https://www.pluralsight.com/courses/installing-configuring-windows-10-introduction"
     },
+    "installing-running-powershell": {
+        "author": "Jeff Hicks",
+        "date": "May 1 2020",
+        "length": 79,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Installing and Running PowerShell",
+        "url": "https://www.pluralsight.com/courses/installing-running-powershell"
+    },
     "installing-sharepoint2013-powershell": {
         "author": "Jeff Adkin",
         "date": "Nov 8 2013",

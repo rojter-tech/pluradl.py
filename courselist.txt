@@ -4286,6 +4286,7 @@ installing-configuring-iis
 installing-configuring-office-online-server
 installing-configuring-splunk
 installing-configuring-windows-10-introduction
+installing-running-powershell
 installing-sharepoint2013-powershell
 installing-windows-server-2016
 integrate-dynamics-crm-2016-sharepoint
