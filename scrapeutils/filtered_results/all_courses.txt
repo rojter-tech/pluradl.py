@@ -4128,6 +4128,7 @@ implementing-application-layer-protocols-cisco-networks
 implementing-authentication-sharepoint-2019
 implementing-aws-networking-security-groups
 implementing-bas-relief-techniques-photoshop-illustrator-1835
+implementing-bootstrap-methods-r
 implementing-cis-critical-security-controls
 implementing-cisco-ucs-installing-and-configuring
 implementing-cisco-ucs-managing-and-troubleshooting
