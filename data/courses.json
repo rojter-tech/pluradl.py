@@ -35401,7 +35401,7 @@
         "date": "Dec 29 2015",
         "length": 233,
         "level": "Intermediate",
-        "rating": 387,
+        "rating": 388,
         "title": "Hands-on Ansible",
         "url": "https://www.pluralsight.com/courses/hands-on-ansible"
     },
@@ -46192,7 +46192,7 @@
         "date": "Jan 6 2020",
         "length": 119,
         "level": "Advanced",
-        "rating": 19,
+        "rating": 20,
         "title": "Managing Advanced Kubernetes Logging and Tracing",
         "url": "https://www.pluralsight.com/courses/managing-advanced-kubernetes-logging-tracing"
     },
@@ -46570,7 +46570,7 @@
         "date": "Feb 2 2019",
         "length": 83,
         "level": "Beginner",
-        "rating": 59,
+        "rating": 60,
         "title": "Managing Python Packages and Virtual Environments",
         "url": "https://www.pluralsight.com/courses/managing-python-packages-virtual-environments"
     },
@@ -52906,7 +52906,7 @@
         "date": "Jan 31 2020",
         "length": 85,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Mocking Node.js with Sinon",
         "url": "https://www.pluralsight.com/courses/mocking-nodejs-sinon"
     },
@@ -54580,7 +54580,7 @@
         "date": "Dec 30 2013",
         "length": 110,
         "level": "Intermediate",
-        "rating": 140,
+        "rating": 141,
         "title": "MySQL Query Optimization and Performance Tuning",
         "url": "https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning"
     },
@@ -59170,7 +59170,7 @@
         "date": "Feb 14 2020",
         "length": 79,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "PHP Design Patterns",
         "url": "https://www.pluralsight.com/courses/php-design-patterns"
     },
@@ -66235,7 +66235,7 @@
         "date": "Aug 22 2019",
         "length": 137,
         "level": "Intermediate",
-        "rating": 55,
+        "rating": 56,
         "title": "Refactoring for C# Developers",
         "url": "https://www.pluralsight.com/courses/refactoring-csharp-developers"
     },
@@ -78232,7 +78232,7 @@
         "date": "Sep 6 2019",
         "length": 60,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "THAT Conference '19: OAuth 2.0 and OpenID Connect (In Plain English)",
         "url": "https://www.pluralsight.com/courses/that-conference-2019-session-07"
     },
@@ -80212,7 +80212,7 @@
         "date": "Nov 22 2019",
         "length": 92,
         "level": "Intermediate",
-        "rating": 24,
+        "rating": 25,
         "title": "Using Specialized Types and Language Features in TypeScript",
         "url": "https://www.pluralsight.com/courses/typescript-specialized-types-language-features"
     },
