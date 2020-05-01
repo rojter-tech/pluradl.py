@@ -13711,7 +13711,7 @@
         "date": "Sep 24 2019",
         "length": 26,
         "level": "Beginner",
-        "rating": 52,
+        "rating": 53,
         "title": "C# Design Patterns: Command",
         "url": "https://www.pluralsight.com/courses/c-sharp-command-pattern"
     },
@@ -42466,7 +42466,7 @@
         "date": "Mar 18 2019",
         "length": 67,
         "level": "Intermediate",
-        "rating": 34,
+        "rating": 35,
         "title": "What's New in Java 12",
         "url": "https://www.pluralsight.com/courses/java-12-whats-new"
     },
@@ -46660,7 +46660,7 @@
         "date": "Jul 30 2019",
         "length": 170,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Managing SQL Server Database Performance",
         "url": "https://www.pluralsight.com/courses/managing-sql-server-database-performance"
     },
@@ -47065,7 +47065,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1325,
+        "rating": 1329,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -63427,7 +63427,7 @@
         "date": "Jul 11 2019",
         "length": 100,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Progressive Web Apps: The Big Picture",
         "url": "https://www.pluralsight.com/courses/progressive-web-apps-big-picture"
     },
@@ -67450,7 +67450,7 @@
         "date": "Jul 3 2018",
         "length": 63,
         "level": "Intermediate",
-        "rating": 65,
+        "rating": 66,
         "title": "Rewriting Git History",
         "url": "https://www.pluralsight.com/courses/rewriting-git-history"
     },
@@ -79470,7 +79470,7 @@
         "url": "https://www.pluralsight.com/courses/tq-artificial-intelligence"
     },
     "tq-tech-keeping-us-connected": {
-        "author": "Accenture",
+        "author": "Pluralsight",
         "date": "May 1 2020",
         "length": 64,
         "level": "Beginner",
