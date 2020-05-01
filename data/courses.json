@@ -3244,7 +3244,7 @@
         "date": "Sep 15 2016",
         "length": 224,
         "level": "Beginner",
-        "rating": 83,
+        "rating": 84,
         "title": "Android Fundamentals: Fragments",
         "url": "https://www.pluralsight.com/courses/android-fundamentals-fragments"
     },
@@ -6538,7 +6538,7 @@
         "date": "Mar 26 2020",
         "length": 150,
         "level": "Intermediate",
-        "rating": 23,
+        "rating": 24,
         "title": "Best Practices in ASP.NET Core: Entities, Validation, and View Models",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-bestpractices-models"
     },
@@ -6817,7 +6817,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 337,
+        "rating": 339,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -8149,7 +8149,7 @@
         "date": "Feb 8 2019",
         "length": 123,
         "level": "Beginner",
-        "rating": 22,
+        "rating": 23,
         "title": "AWS IoT: The Big Picture",
         "url": "https://www.pluralsight.com/courses/aws-iot-big-picture"
     },
@@ -16123,7 +16123,7 @@
         "date": "Mar 2 2018",
         "length": 119,
         "level": "Intermediate",
-        "rating": 46,
+        "rating": 47,
         "title": "Client Side React Router 4",
         "url": "https://www.pluralsight.com/courses/client-side-react-router-4"
     },
@@ -19219,7 +19219,7 @@
         "date": "Mar 4 2020",
         "length": 134,
         "level": "Beginner",
-        "rating": 18,
+        "rating": 20,
         "title": "Confluence: Getting Started",
         "url": "https://www.pluralsight.com/courses/confluence-getting-started"
     },
@@ -21919,7 +21919,7 @@
         "date": "May 10 2012",
         "length": 271,
         "level": "Intermediate",
-        "rating": 876,
+        "rating": 877,
         "title": "Creating User Experiences: Fundamental Design Principles",
         "url": "https://www.pluralsight.com/courses/cux-designprinciples"
     },
@@ -31081,7 +31081,7 @@
         "date": "Jan 1 2019",
         "length": 153,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Firebase Functions: Fundamentals",
         "url": "https://www.pluralsight.com/courses/firebase-functions-fundamentals"
     },
@@ -42214,7 +42214,7 @@
         "date": "Mar 1 2017",
         "length": 40,
         "level": "Beginner",
-        "rating": 49,
+        "rating": 50,
         "title": "Dealing with Irrational Customers and Escalating Complaints",
         "url": "https://www.pluralsight.com/courses/irrational-customers-escalating-complaints-dealing"
     },
@@ -44527,7 +44527,7 @@
         "date": "Jan 1 2014",
         "length": 95,
         "level": "Beginner",
-        "rating": 1627,
+        "rating": 1630,
         "title": "Learning Technology in the Information Age",
         "url": "https://www.pluralsight.com/courses/learning-technology-information-age"
     },
@@ -48775,7 +48775,7 @@
         "date": "Apr 16 2018",
         "length": 105,
         "level": "Beginner",
-        "rating": 335,
+        "rating": 336,
         "title": "Microservices: The Big Picture",
         "url": "https://www.pluralsight.com/courses/microservices-big-picture"
     },
@@ -59746,7 +59746,7 @@
         "date": "Sep 28 2017",
         "length": 135,
         "level": "Intermediate",
-        "rating": 23,
+        "rating": 24,
         "title": "Play by Play: Becoming a More Effective Scrum Master",
         "url": "https://www.pluralsight.com/courses/play-by-play-becoming-more-effective-scrum-master"
     },
@@ -60160,7 +60160,7 @@
         "date": "Dec 10 2014",
         "length": 116,
         "level": "Intermediate",
-        "rating": 82,
+        "rating": 83,
         "title": "Play by Play: Group Policy Best Practices with Darren Mar-Elia",
         "url": "https://www.pluralsight.com/courses/play-by-play-group-policy-darren-mar-elia"
     },
@@ -62248,7 +62248,7 @@
         "date": "Apr 30 2015",
         "length": 206,
         "level": "Beginner",
-        "rating": 954,
+        "rating": 955,
         "title": "Practical Networking",
         "url": "https://www.pluralsight.com/courses/practical-networking"
     },
@@ -64552,7 +64552,7 @@
         "date": "Sep 25 2018",
         "length": 30,
         "level": "Beginner",
-        "rating": 83,
+        "rating": 85,
         "title": "Quantum Computing: The Big Picture",
         "url": "https://www.pluralsight.com/courses/quantum-computing-big-picture"
     },
@@ -70303,7 +70303,7 @@
         "date": "Apr 13 2018",
         "length": 89,
         "level": "Intermediate",
-        "rating": 36,
+        "rating": 37,
         "title": "Security Management",
         "url": "https://www.pluralsight.com/courses/security-management"
     },
@@ -74227,7 +74227,7 @@
         "date": "Dec 6 2019",
         "length": 58,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 14,
         "title": "Spring Framework: Overview of Spring Data",
         "url": "https://www.pluralsight.com/courses/spring-framework-overview-spring-data"
     },
@@ -78853,7 +78853,7 @@
         "date": "Aug 17 2014",
         "length": 87,
         "level": "Intermediate",
-        "rating": 88,
+        "rating": 89,
         "title": "The Secrets to Designing Great Logos",
         "url": "https://www.pluralsight.com/courses/the-secrets-designing-great-logos-1733"
     },
@@ -80149,7 +80149,7 @@
         "date": "Nov 12 2019",
         "length": 49,
         "level": "Intermediate",
-        "rating": 42,
+        "rating": 44,
         "title": "Creating and Using Generics in TypeScript",
         "url": "https://www.pluralsight.com/courses/typescript-generics-creating-using"
     },
@@ -85315,7 +85315,7 @@
         "date": "Apr 21 2016",
         "length": 107,
         "level": "Intermediate",
-        "rating": 53,
+        "rating": 54,
         "title": "Making a Web Form Accessible",
         "url": "https://www.pluralsight.com/courses/web-form-accessible"
     },
@@ -85549,7 +85549,7 @@
         "date": "Jun 17 2016",
         "length": 170,
         "level": "Beginner",
-        "rating": 1113,
+        "rating": 1118,
         "title": "What Is Programming?",
         "url": "https://www.pluralsight.com/courses/what-is-programming"
     },
