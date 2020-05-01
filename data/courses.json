@@ -8050,7 +8050,7 @@
         "date": "Jun 25 2019",
         "length": 137,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 14,
         "title": "AWS DynamoDB Fundamentals",
         "url": "https://www.pluralsight.com/courses/aws-dynamodb-fundamentals"
     },
@@ -8302,7 +8302,7 @@
         "date": "Oct 4 2017",
         "length": 98,
         "level": "Intermediate",
-        "rating": 63,
+        "rating": 64,
         "title": "Using the Serverless Framework with Node.js on AWS",
         "url": "https://www.pluralsight.com/courses/aws-nodejs-serverless-framework-using"
     },
@@ -12064,7 +12064,7 @@
         "date": "Sep 20 2019",
         "length": 258,
         "level": "Beginner",
-        "rating": 95,
+        "rating": 96,
         "title": "Building Web Applications with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/building-aspdotnet-core-mvc-web-applications"
     },
@@ -16321,7 +16321,7 @@
         "date": "Jun 29 2019",
         "length": 110,
         "level": "Intermediate",
-        "rating": 13,
+        "rating": 14,
         "title": "Delivering Content on AWS with Amazon CloudFront",
         "url": "https://www.pluralsight.com/courses/cloudfront-aws-delivering-content"
     },
@@ -21532,7 +21532,7 @@
         "date": "Mar 27 2019",
         "length": 107,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "XML Fundamentals in C#",
         "url": "https://www.pluralsight.com/courses/csharp-xml-fundamentals"
     },
@@ -22279,7 +22279,7 @@
         "date": "Mar 28 2018",
         "length": 178,
         "level": "Beginner",
-        "rating": 86,
+        "rating": 87,
         "title": "Getting Started with DAX Formulas in Power BI, Power Pivot, and SSAS",
         "url": "https://www.pluralsight.com/courses/dax-formulas-power-bi-pivot-ssas"
     },
@@ -28327,7 +28327,7 @@
         "date": "May 13 2016",
         "length": 55,
         "level": "Beginner",
-        "rating": 50,
+        "rating": 51,
         "title": "Getting Started with Emmet",
         "url": "https://www.pluralsight.com/courses/emmet-getting-started"
     },
@@ -34375,7 +34375,7 @@
         "date": "Aug 11 2017",
         "length": 102,
         "level": "Intermediate",
-        "rating": 62,
+        "rating": 63,
         "title": "Object-oriented Programming with Go",
         "url": "https://www.pluralsight.com/courses/go-object-oriented-programming"
     },
@@ -42502,7 +42502,7 @@
         "date": "Aug 9 2014",
         "length": 255,
         "level": "Intermediate",
-        "rating": 658,
+        "rating": 659,
         "title": "What's New in Java 8",
         "url": "https://www.pluralsight.com/courses/java-8-whats-new"
     },
@@ -43267,7 +43267,7 @@
         "date": "Nov 26 2019",
         "length": 81,
         "level": "Intermediate",
-        "rating": 107,
+        "rating": 111,
         "title": "JavaScript Promises and Async Programming",
         "url": "https://www.pluralsight.com/courses/javascript-promises-async-programming"
     },
@@ -44095,7 +44095,7 @@
         "date": "Nov 1 2016",
         "length": 129,
         "level": "Intermediate",
-        "rating": 57,
+        "rating": 58,
         "title": "Getting Started with Kotlin",
         "url": "https://www.pluralsight.com/courses/kotlin-getting-started"
     },
@@ -73957,7 +73957,7 @@
         "date": "Aug 16 2014",
         "length": 249,
         "level": "Beginner",
-        "rating": 129,
+        "rating": 130,
         "title": "Speaking Fundamentals",
         "url": "https://www.pluralsight.com/courses/speaking-fundamentals"
     },
