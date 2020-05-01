@@ -2920,7 +2920,7 @@
         "date": "Jun 7 2018",
         "length": 255,
         "level": "Beginner",
-        "rating": 80,
+        "rating": 81,
         "title": "Android Apps with Kotlin: Build Your First App",
         "url": "https://www.pluralsight.com/courses/android-apps-kotlin-build-first-app"
     },
@@ -4234,7 +4234,7 @@
         "date": "Feb 5 2019",
         "length": 146,
         "level": "Intermediate",
-        "rating": 199,
+        "rating": 200,
         "title": "Angular HTTP Communication",
         "url": "https://www.pluralsight.com/courses/angular-http-communication"
     },
@@ -13468,7 +13468,7 @@
         "date": "Dec 22 2015",
         "length": 178,
         "level": "Beginner",
-        "rating": 227,
+        "rating": 228,
         "title": "Introduction to Business Analysis & Needs Assessment",
         "url": "https://www.pluralsight.com/courses/business-analysis-needs-assessment-introduction"
     },
@@ -25141,7 +25141,7 @@
         "date": "Feb 8 2017",
         "length": 109,
         "level": "Intermediate",
-        "rating": 193,
+        "rating": 194,
         "title": "Docker Networking",
         "url": "https://www.pluralsight.com/courses/docker-networking"
     },
@@ -42556,7 +42556,7 @@
         "date": "May 16 2019",
         "length": 119,
         "level": "Beginner",
-        "rating": 41,
+        "rating": 42,
         "title": "Java: BDD with Cucumber and Gherkin Getting Started",
         "url": "https://www.pluralsight.com/courses/java-bdd-cucumber-gherkin-getting-started"
     },
@@ -50215,7 +50215,7 @@
         "date": "Aug 8 2019",
         "length": 170,
         "level": "Intermediate",
-        "rating": 16,
+        "rating": 17,
         "title": "Implementing a Relational Database in Microsoft Azure SQL Database",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-implementing-relational-database-solutions"
     },
@@ -75379,7 +75379,7 @@
         "date": "Jun 28 2012",
         "length": 271,
         "level": "Intermediate",
-        "rating": 451,
+        "rating": 452,
         "title": "SQL Server: Performance Troubleshooting Using Wait Statistics",
         "url": "https://www.pluralsight.com/courses/sqlserver-waits"
     },
@@ -76963,7 +76963,7 @@
         "date": "Jun 3 2019",
         "length": 117,
         "level": "Intermediate",
-        "rating": 29,
+        "rating": 30,
         "title": "Using Calculated Fields in Tableau Desktop",
         "url": "https://www.pluralsight.com/courses/tableau-desktop-calculated-fields"
     },
@@ -83020,7 +83020,7 @@
         "date": "Nov 14 2017",
         "length": 90,
         "level": "Beginner",
-        "rating": 26,
+        "rating": 28,
         "title": "UX Design for Graphic Designers",
         "url": "https://www.pluralsight.com/courses/ux-design-graphic-designers"
     },
@@ -87781,7 +87781,7 @@
         "date": "Apr 14 2017",
         "length": 190,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Implementing Windows Server 2016 Distributed Networking Services",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-distributed-networking-services-implementing"
     },
