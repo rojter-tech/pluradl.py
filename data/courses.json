@@ -21545,6 +21545,15 @@
         "title": "CSS Animation with Transition and Transform",
         "url": "https://www.pluralsight.com/courses/css-animation-with-transition-and-transform"
     },
+    "css-flexbox-creating-responsive-pages": {
+        "author": "Jeff Batt",
+        "date": "May 1 2020",
+        "length": 81,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Creating Responsive Pages with CSS FlexBox",
+        "url": "https://www.pluralsight.com/courses/css-flexbox-creating-responsive-pages"
+    },
     "css-flexbox-fundamentals-2319": {
         "author": "Gary Simon",
         "date": "Oct 24 2015",
@@ -38176,6 +38185,15 @@
         "rating": "",
         "title": "Information Systems Asset Protection: Asset Security",
         "url": "https://www.pluralsight.com/courses/information-systems-asset-protection-asset-security"
+    },
+    "information-systems-asset-protection-monitoring": {
+        "author": "Kevin Henry",
+        "date": "May 1 2020",
+        "length": 90,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Information Systems Asset Protection: Monitoring",
+        "url": "https://www.pluralsight.com/courses/information-systems-asset-protection-monitoring"
     },
     "information-systems-asset-protection-securing-system-components": {
         "author": "Kevin Henry",

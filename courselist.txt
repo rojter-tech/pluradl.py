@@ -2392,6 +2392,7 @@ csharp-with-jon-skeet
 csharp-working-files-streams
 csharp-xml-fundamentals
 css-animation-with-transition-and-transform
+css-flexbox-creating-responsive-pages
 css-flexbox-fundamentals-2319
 css-grid-bootstrap-4-creating-site
 css-intro
@@ -4240,6 +4241,7 @@ information-security-introduction
 information-security-measures-iso-iec-27002
 information-security-threats-risks-iso-iec-27002
 information-systems-asset-protection-asset-security
+information-systems-asset-protection-monitoring
 information-systems-asset-protection-securing-system-components
 information-systems-auditing-acquisition-development
 information-systems-auditing-big-picture
