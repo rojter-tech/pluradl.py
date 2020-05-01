@@ -3730,7 +3730,7 @@
         "date": "Jan 15 2019",
         "length": 321,
         "level": "Intermediate",
-        "rating": 180,
+        "rating": 181,
         "title": "Angular Architecture and Best Practices",
         "url": "https://www.pluralsight.com/courses/angular-architecture-best-practices"
     },
@@ -8707,7 +8707,7 @@
         "date": "Aug 13 2018",
         "length": 94,
         "level": "Beginner",
-        "rating": 149,
+        "rating": 150,
         "title": "Azure Kubernetes Service (AKS) – The Big Picture",
         "url": "https://www.pluralsight.com/courses/azure-container-service-big-picture"
     },
@@ -16690,7 +16690,7 @@
         "date": "Oct 28 2015",
         "length": 56,
         "level": "Beginner",
-        "rating": 37,
+        "rating": 38,
         "title": "Code School: The Magical Marvels of MongoDB",
         "url": "https://www.pluralsight.com/courses/code-school-the-magical-marvels-of-mongodb"
     },
@@ -22117,7 +22117,7 @@
         "date": "Nov 16 2018",
         "length": 27,
         "level": "Beginner",
-        "rating": 91,
+        "rating": 93,
         "title": "Data Science: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/data-science-executive-briefing"
     },
@@ -25087,7 +25087,7 @@
         "date": "Jan 4 2018",
         "length": 275,
         "level": "Intermediate",
-        "rating": 495,
+        "rating": 496,
         "title": "Docker Deep Dive",
         "url": "https://www.pluralsight.com/courses/docker-deep-dive-update"
     },
@@ -32854,7 +32854,7 @@
         "date": "Nov 16 2014",
         "length": 267,
         "level": "Advanced",
-        "rating": 22,
+        "rating": 23,
         "title": "Creating Gameplay Systems using Blueprint Features in Unreal Engine",
         "url": "https://www.pluralsight.com/courses/gameplay-systems-blueprint-features-unreal-engine-1861"
     },
@@ -41953,7 +41953,7 @@
         "date": "Mar 6 2018",
         "length": 247,
         "level": "Intermediate",
-        "rating": 228,
+        "rating": 229,
         "title": "Building Mobile Apps with Ionic, Angular, and TypeScript",
         "url": "https://www.pluralsight.com/courses/ionic2-angular2-typescript-mobile-apps"
     },
@@ -43069,7 +43069,7 @@
         "date": "Nov 10 2016",
         "length": 319,
         "level": "Beginner",
-        "rating": 629,
+        "rating": 630,
         "title": "Building a JavaScript Development Environment",
         "url": "https://www.pluralsight.com/courses/javascript-development-environment"
     },
@@ -43141,7 +43141,7 @@
         "date": "Dec 31 2019",
         "length": 85,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 34,
         "title": "Javascript Generators and Iterators",
         "url": "https://www.pluralsight.com/courses/javascript-generators-iterators"
     },
@@ -44680,7 +44680,7 @@
         "date": "May 3 2018",
         "length": 403,
         "level": "Beginner",
-        "rating": 245,
+        "rating": 246,
         "title": "Learning the Essentials of CentOS Enterprise Linux 7 Administration",
         "url": "https://www.pluralsight.com/courses/lfcs-red-hat-7-essentials"
     },
@@ -46075,7 +46075,7 @@
         "date": "Feb 12 2019",
         "length": 137,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Malware Analysis: Identifying and Defeating Packing",
         "url": "https://www.pluralsight.com/courses/malware-analysis-identifying-defeating-packing"
     },
@@ -54139,7 +54139,7 @@
         "date": "Dec 1 2017",
         "length": 117,
         "level": "Intermediate",
-        "rating": 89,
+        "rating": 90,
         "title": "Mocking in .NET Core Unit Tests with Moq: Getting Started",
         "url": "https://www.pluralsight.com/courses/moq-dot-net-core-unit-tests"
     },
@@ -55957,7 +55957,7 @@
         "date": "Sep 11 2018",
         "length": 209,
         "level": "Beginner",
-        "rating": 278,
+        "rating": 280,
         "title": "Node.js: Getting Started",
         "url": "https://www.pluralsight.com/courses/nodejs-getting-started"
     },
@@ -56173,7 +56173,7 @@
         "date": "Apr 25 2017",
         "length": 237,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "NUKE Green Screen Keying Building on the Fundamentals",
         "url": "https://www.pluralsight.com/courses/nuke-green-screen-keying-building-fundamentals"
     },
@@ -68224,7 +68224,7 @@
         "date": "Jul 17 2019",
         "length": 228,
         "level": "Beginner",
-        "rating": 160,
+        "rating": 162,
         "title": "RxJS in Angular: Reactive Development",
         "url": "https://www.pluralsight.com/courses/rxjs-angular-reactive-development"
     },
@@ -69790,7 +69790,7 @@
         "date": "Feb 20 2020",
         "length": 259,
         "level": "Intermediate",
-        "rating": 59,
+        "rating": 60,
         "title": "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
         "url": "https://www.pluralsight.com/courses/securing-aspnet-core-3-oauth2-openid-connect"
     },
@@ -84847,7 +84847,7 @@
         "date": "Jun 21 2018",
         "length": 305,
         "level": "Intermediate",
-        "rating": 188,
+        "rating": 189,
         "title": "Vue.js Fundamentals",
         "url": "https://www.pluralsight.com/courses/vuejs-fundamentals"
     },
