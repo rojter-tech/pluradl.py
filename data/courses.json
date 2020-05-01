@@ -5746,7 +5746,7 @@
         "date": "Jan 7 2014",
         "length": 172,
         "level": "Intermediate",
-        "rating": 1625,
+        "rating": 1626,
         "title": "Architecting Applications for the Real World in .NET",
         "url": "https://www.pluralsight.com/courses/architecting-applications-dotnet"
     },
@@ -8788,7 +8788,7 @@
         "date": "May 6 2019",
         "length": 87,
         "level": "Beginner",
-        "rating": 43,
+        "rating": 44,
         "title": "Continuous Delivery and DevOps with Azure DevOps: Managing Builds",
         "url": "https://www.pluralsight.com/courses/azure-devops-continuous-delivery-managing-builds"
     },
@@ -16825,7 +16825,7 @@
         "date": "Feb 7 2020",
         "length": 57,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 15,
         "title": "End to End Testing with Cypress: CodeMash",
         "url": "https://www.pluralsight.com/courses/codemash-session-01"
     },
@@ -24124,7 +24124,7 @@
         "date": "Jun 30 2017",
         "length": 122,
         "level": "Beginner",
-        "rating": 26,
+        "rating": 27,
         "title": "Developing Project Schedules and Budgets",
         "url": "https://www.pluralsight.com/courses/developing-project-schedules-budgets"
     },
@@ -45031,7 +45031,7 @@
         "date": "Jul 28 2016",
         "length": 263,
         "level": "Intermediate",
-        "rating": 595,
+        "rating": 598,
         "title": "LINQ Fundamentals",
         "url": "https://www.pluralsight.com/courses/linq-fundamentals-csharp-6"
     },
@@ -67189,7 +67189,7 @@
         "date": "Mar 20 2020",
         "length": 94,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Reverse Engineering Malware with Ghidra",
         "url": "https://www.pluralsight.com/courses/reverse-engineering-malware-ghidra"
     },
@@ -69592,7 +69592,7 @@
         "date": "Aug 4 2014",
         "length": 152,
         "level": "Intermediate",
-        "rating": 166,
+        "rating": 167,
         "title": "Software Defined Networking (SDN): The Big Picture",
         "url": "https://www.pluralsight.com/courses/sdn-big-picture"
     },
