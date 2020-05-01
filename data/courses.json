@@ -7204,7 +7204,7 @@
         "date": "Dec 12 2019",
         "length": 151,
         "level": "Advanced",
-        "rating": 27,
+        "rating": 29,
         "title": "Authentication and Authorization in Blazor Applications",
         "url": "https://www.pluralsight.com/courses/authentication-authorization-blazor-applications"
     },
@@ -12460,7 +12460,7 @@
         "date": "Oct 29 2019",
         "length": 166,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "Building Your First Python Analytics Solution",
         "url": "https://www.pluralsight.com/courses/building-first-python-analytics-solution"
     },
@@ -19840,7 +19840,7 @@
         "date": "Mar 10 2016",
         "length": 98,
         "level": "Intermediate",
-        "rating": 54,
+        "rating": 55,
         "title": "First Look: C++ Core Guidelines and the Guideline Support Library",
         "url": "https://www.pluralsight.com/courses/cplusplus-core-guidelines-and-support-library-first-look"
     },
@@ -31342,7 +31342,7 @@
         "date": "May 6 2019",
         "length": 40,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Improving Unit Tests with Fluent Assertions",
         "url": "https://www.pluralsight.com/courses/fluent-assertions-improving-unit-tests"
     },
@@ -85063,7 +85063,7 @@
         "date": "Jul 17 2014",
         "length": 109,
         "level": "Beginner",
-        "rating": 1741,
+        "rating": 1742,
         "title": "WCF Jumpstart",
         "url": "https://www.pluralsight.com/courses/wcf-jumpstart"
     },
@@ -88951,7 +88951,7 @@
         "date": "Feb 28 2020",
         "length": 177,
         "level": "Intermediate",
-        "rating": 798,
+        "rating": 800,
         "title": "WPF MVVM in Depth",
         "url": "https://www.pluralsight.com/courses/wpf-mvvm-in-depth"
     },
