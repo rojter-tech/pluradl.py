@@ -621,6 +621,7 @@ application-layer-protocols-cisco-ccna-200-125-100-105
 applied-classification-xgboost
 applied-windows-azure
 applying-business-analysis-skills
+applying-differential-equations-inverse-models-r
 applying-functional-programming-techniques-java
 applying-functions-r
 applying-linear-algebra-with-r
@@ -5276,6 +5277,7 @@ maximizing-wacom-device-mari-864
 maximizing-wacom-device-maya-878
 maximizing-wacom-device-mudbox-865
 maximizing-wacom-device-zbrush-866
+maximizing-your-productivity-time-management
 maya-12-principles-animation
 maya-2017-building-walk-cycles
 maya-2017-exploring-2538
@@ -9127,6 +9129,7 @@ using-csharp-interfaces
 using-data-merge-feature-indesign-403
 using-datatables-create-data-driven-gameplay-unreal-engine-4-2035
 using-decimation-master-zbrush-146
+using-declarative-jenkins-pipelines
 using-dependency-injection-on-ramp
 using-docker-aws
 using-dynamics-destruction-maya-1902
