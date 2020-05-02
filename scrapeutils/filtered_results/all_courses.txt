@@ -1315,6 +1315,7 @@ build-first-data-visualization-bokeh
 build-first-data-visualization-ggplot2
 build-first-data-visualization-google-charts
 build-first-data-visualization-matplotlib
+build-first-data-visualization-plotly-js
 build-first-data-visualization-seaborn
 build-go-apps-gorilla-toolkit
 build-ios-apps-react-native
