@@ -3118,7 +3118,7 @@
         "date": "Oct 5 2017",
         "length": 176,
         "level": "Intermediate",
-        "rating": 16,
+        "rating": 17,
         "title": "Exposing Data and Information Outside Your Android App",
         "url": "https://www.pluralsight.com/courses/android-exposing-data-information-outside-app"
     },
@@ -3388,7 +3388,7 @@
         "date": "Nov 7 2017",
         "length": 183,
         "level": "Advanced",
-        "rating": 22,
+        "rating": 23,
         "title": "Leveraging the Power of the Android Platform",
         "url": "https://www.pluralsight.com/courses/android-leveraging-power-platform"
     },
@@ -9454,7 +9454,7 @@
         "date": "Apr 2 2019",
         "length": 154,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Becoming an Xcode Power User",
         "url": "https://www.pluralsight.com/courses/becoming-xcode-power-user"
     },
@@ -9922,7 +9922,7 @@
         "date": "Oct 23 2017",
         "length": 101,
         "level": "Intermediate",
-        "rating": 250,
+        "rating": 251,
         "title": "Angular Best Practices",
         "url": "https://www.pluralsight.com/courses/best-practices-angular"
     },
@@ -16087,7 +16087,7 @@
         "date": "Jan 11 2017",
         "length": 141,
         "level": "Beginner",
-        "rating": 1089,
+        "rating": 1090,
         "title": "Clean Architecture: Patterns, Practices, and Principles",
         "url": "https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles"
     },
@@ -21289,7 +21289,7 @@
         "date": "Jan 2 2020",
         "length": 199,
         "level": "Beginner",
-        "rating": 68,
+        "rating": 69,
         "title": "Clean Coding Principles in C#",
         "url": "https://www.pluralsight.com/courses/csharp-clean-coding-principles"
     },
@@ -21352,7 +21352,7 @@
         "date": "Dec 12 2019",
         "length": 13,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "C# Design Patterns: Facade",
         "url": "https://www.pluralsight.com/courses/csharp-design-patterns-facade"
     },
@@ -21838,7 +21838,7 @@
         "date": "Jan 20 2016",
         "length": 123,
         "level": "Advanced",
-        "rating": 20,
+        "rating": 21,
         "title": "Creating a Custom Jekyll Theme",
         "url": "https://www.pluralsight.com/courses/custom-jekyll-theme-2372"
     },
@@ -22414,7 +22414,7 @@
         "date": "Apr 27 2020",
         "length": 234,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 12,
         "title": "Dealing with Credentials When Securing an ASP.NET Core 3 Application",
         "url": "https://www.pluralsight.com/courses/dealing-credentials-when-securing-aspdotnet-core-3-application"
     },
@@ -25195,7 +25195,7 @@
         "date": "Feb 13 2019",
         "length": 107,
         "level": "Beginner",
-        "rating": 657,
+        "rating": 658,
         "title": "Docker and Kubernetes: The Big Picture",
         "url": "https://www.pluralsight.com/courses/docker-kubernetes-big-picture"
     },
@@ -31414,7 +31414,7 @@
         "date": "Mar 6 2019",
         "length": 73,
         "level": "Beginner",
-        "rating": 61,
+        "rating": 63,
         "title": "Flutter: The Big Picture",
         "url": "https://www.pluralsight.com/courses/flutter-big-picture"
     },
@@ -33376,7 +33376,7 @@
         "date": "Mar 19 2019",
         "length": 121,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Getting Started with Cisco Firepower – Initial Configuration",
         "url": "https://www.pluralsight.com/courses/getting-started-cisco-firepower-initial-configuration"
     },
@@ -34312,7 +34312,7 @@
         "date": "Feb 6 2020",
         "length": 187,
         "level": "Beginner",
-        "rating": 24,
+        "rating": 25,
         "title": "GitHub: Getting Started",
         "url": "https://www.pluralsight.com/courses/github-getting-started"
     },
@@ -39973,7 +39973,7 @@
         "date": "Jul 2 2013",
         "length": 209,
         "level": "Intermediate",
-        "rating": 664,
+        "rating": 665,
         "title": "Introduction to the Bash Shell on Mac OS and Linux",
         "url": "https://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os"
     },
@@ -42871,7 +42871,7 @@
         "date": "Jan 20 2017",
         "length": 119,
         "level": "Beginner",
-        "rating": 138,
+        "rating": 139,
         "title": "Java Fundamentals: Object-oriented Design",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-object-oriented-design"
     },
@@ -44302,7 +44302,7 @@
         "date": "Dec 20 2016",
         "length": 158,
         "level": "Beginner",
-        "rating": 161,
+        "rating": 162,
         "title": "Getting Started with Laravel (PHP Framework) - The Basics",
         "url": "https://www.pluralsight.com/courses/laravel-php-framework-getting-started-the-basics"
     },
@@ -48973,7 +48973,7 @@
         "date": "Jun 6 2019",
         "length": 86,
         "level": "Beginner",
-        "rating": 24,
+        "rating": 25,
         "title": "Microsoft 365 Services and Concepts",
         "url": "https://www.pluralsight.com/courses/microsoft-365-services-concepts"
     },
@@ -56173,7 +56173,7 @@
         "date": "Apr 16 2020",
         "length": 59,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 19,
         "title": "Getting Started with npm",
         "url": "https://www.pluralsight.com/courses/npm-getting-started"
     },
@@ -65812,7 +65812,7 @@
         "date": "Mar 12 2019",
         "length": 399,
         "level": "Intermediate",
-        "rating": 1498,
+        "rating": 1499,
         "title": "Building Applications with React and Redux",
         "url": "https://www.pluralsight.com/courses/react-redux-react-router-es6"
     },
@@ -77935,7 +77935,7 @@
         "date": "May 11 2018",
         "length": 216,
         "level": "Intermediate",
-        "rating": 150,
+        "rating": 152,
         "title": "Testing React Applications with Jest",
         "url": "https://www.pluralsight.com/courses/testing-react-applications-jest"
     },
@@ -83254,7 +83254,7 @@
         "date": "Nov 10 2015",
         "length": 174,
         "level": "Beginner",
-        "rating": 515,
+        "rating": 516,
         "title": "User Experience Tips and Tricks for Developers",
         "url": "https://www.pluralsight.com/courses/ux-tips-tricks-developers"
     },
