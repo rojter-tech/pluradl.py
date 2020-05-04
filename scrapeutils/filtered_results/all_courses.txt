@@ -8607,6 +8607,11 @@ techniques-sculpting-like-masters-zbrush-1357
 technology-careers-dark-side
 technology-keeping-up
 technology-troubleshooting-essentials
+techskillsday-interview-chloe-condon
+techskillsday-interview-deborah-kurata
+techskillsday-interview-eric-daimler
+techskillsday-interview-john-papa
+techskillsday-interview-rachel-higham
 tekpub-mercurial
 tekpub-postgres
 tekpub-ravendb

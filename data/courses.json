@@ -77480,6 +77480,51 @@
         "title": "Technology Troubleshooting Essentials",
         "url": "https://www.pluralsight.com/courses/technology-troubleshooting-essentials"
     },
+    "techskillsday-interview-chloe-condon": {
+        "author": "#TechSkillsDay",
+        "date": "May 4 2020",
+        "length": 24,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Interview with Chloe Condon, Senior Cloud Advocate at Microsoft",
+        "url": "https://www.pluralsight.com/courses/techskillsday-interview-chloe-condon"
+    },
+    "techskillsday-interview-deborah-kurata": {
+        "author": "#TechSkillsDay",
+        "date": "May 4 2020",
+        "length": 25,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Interview with Deborah Kurata, Developer, Consultant & Pluralsight Angular Author",
+        "url": "https://www.pluralsight.com/courses/techskillsday-interview-deborah-kurata"
+    },
+    "techskillsday-interview-eric-daimler": {
+        "author": "#TechSkillsDay",
+        "date": "May 4 2020",
+        "length": 26,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Interview with Eric Daimler, Former White House AI & Robotics Expert, CEO of Conexus",
+        "url": "https://www.pluralsight.com/courses/techskillsday-interview-eric-daimler"
+    },
+    "techskillsday-interview-john-papa": {
+        "author": "#TechSkillsDay",
+        "date": "May 4 2020",
+        "length": 28,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Interview with John Papa, Developer Relations at Microsoft & Pluralsight Author",
+        "url": "https://www.pluralsight.com/courses/techskillsday-interview-john-papa"
+    },
+    "techskillsday-interview-rachel-higham": {
+        "author": "#TechSkillsDay",
+        "date": "May 4 2020",
+        "length": 16,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Interview with Rachel Higham, Managing Director of IT for BT Technology",
+        "url": "https://www.pluralsight.com/courses/techskillsday-interview-rachel-higham"
+    },
     "tekpub-mercurial": {
         "author": "Rob Conery",
         "date": "Mar 18 2010",
