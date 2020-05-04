@@ -21019,7 +21019,7 @@
         "date": "Mar 30 2020",
         "length": 25,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Credential Access with Mimikatz",
         "url": "https://www.pluralsight.com/courses/credential-access-mimikatz"
     },
@@ -33583,7 +33583,7 @@
         "date": "Jan 30 2019",
         "length": 63,
         "level": "Beginner",
-        "rating": 85,
+        "rating": 86,
         "title": "Getting Started with the Linux Command Line",
         "url": "https://www.pluralsight.com/courses/getting-started-linux-command-line"
     },
@@ -55993,7 +55993,7 @@
         "date": "Jan 24 2019",
         "length": 122,
         "level": "Intermediate",
-        "rating": 110,
+        "rating": 111,
         "title": "RESTful Web Services with Node.js and Express",
         "url": "https://www.pluralsight.com/courses/node-js-express-rest-web-services-update"
     },
@@ -61798,7 +61798,7 @@
         "date": "May 6 2019",
         "length": 106,
         "level": "Beginner",
-        "rating": 30,
+        "rating": 31,
         "title": "Power BI Data Import Playbook",
         "url": "https://www.pluralsight.com/courses/power-bi-data-import-playbook"
     },
