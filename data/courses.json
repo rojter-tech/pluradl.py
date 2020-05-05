@@ -20330,6 +20330,15 @@
         "title": "Create a Couchbase Function",
         "url": "https://www.pluralsight.com/courses/create-couchbase-function"
     },
+    "create-couchbase-nodes-buckets": {
+        "author": "Kishan Iyer",
+        "date": "May 5 2020",
+        "length": 131,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Create Couchbase Nodes and Buckets",
+        "url": "https://www.pluralsight.com/courses/create-couchbase-nodes-buckets"
+    },
     "create-couchbase-views": {
         "author": "Kishan Iyer",
         "date": "Mar 24 2020",

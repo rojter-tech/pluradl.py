@@ -2257,6 +2257,7 @@ cqrs-in-practice
 cqrs-theory-practice
 crawling-web-python-scrapy
 create-couchbase-function
+create-couchbase-nodes-buckets
 create-couchbase-views
 create-hair-fibermesh-zbrush-707
 create-manage-stacks-aws-cloudformation-command-line-interface
