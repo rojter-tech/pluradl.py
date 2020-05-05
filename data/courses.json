@@ -11816,6 +11816,15 @@
         "title": "Build Excel Add-ins with Office JS APIs",
         "url": "https://www.pluralsight.com/courses/build-excel-addins-office-js-apis"
     },
+    "build-first-dashboard-tableau": {
+        "author": "Ranjan Relan",
+        "date": "May 5 2020",
+        "length": 45,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Build Your First Dashboard with Tableau",
+        "url": "https://www.pluralsight.com/courses/build-first-dashboard-tableau"
+    },
     "build-first-data-visualization-bokeh": {
         "author": "Pratheerth Padman",
         "date": "Apr 23 2020",

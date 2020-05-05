@@ -1311,6 +1311,7 @@ build-contribute-documentation-git-based-workflow
 build-customized-sharepoint-team-site-no-code
 build-dynamic-web-sites-mysql-php
 build-excel-addins-office-js-apis
+build-first-dashboard-tableau
 build-first-data-visualization-bokeh
 build-first-data-visualization-ggplot2
 build-first-data-visualization-google-charts
