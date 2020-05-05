@@ -4812,6 +4812,7 @@ javascript-generators-iterators
 javascript-getting-started
 javascript-good-parts
 javascript-in-salesforce-getting-started
+javascript-interop-blazor-applications
 javascript-jasmine-typescript
 javascript-jquery-advanced-techniques
 javascript-koa-introduction
@@ -5202,6 +5203,7 @@ managing-sharepoint-2016-powershell
 managing-source-control-aws-codecommit
 managing-sql-server-database-maintenance
 managing-sql-server-database-performance
+managing-ssis-projects
 managing-stakeholder-relationships
 managing-strategy-vision
 managing-subscription-tenant-health
