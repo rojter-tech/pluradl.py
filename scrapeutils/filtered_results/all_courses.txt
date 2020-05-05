@@ -831,6 +831,7 @@ automatic-dotnet-code-weaving-fody
 automating-aws-operations-aws-cli
 automating-cisco-dna-center-operations-using-apis
 automating-cisco-meraki-operations-using-apis
+automating-cisco-sd-wan-operations-using-apis
 automating-container-management-ansible
 automating-deployment-amazon-ec2-ansible
 automating-jenkins-groovy
@@ -1535,6 +1536,7 @@ c-sharp-design-patterns-flyweight
 c-sharp-design-patterns-mediator
 c-sharp-design-patterns-prototype
 c-sharp-design-patterns-proxy
+c-sharp-design-patterns-singleton
 c-sharp-design-patterns-state
 c-sharp-design-patterns-strategy
 c-sharp-design-patterns-visitor
@@ -1717,6 +1719,7 @@ cisco-cicd-210-060-troubleshooting
 cisco-core-security-describing-configuring-vpns
 cisco-core-security-network-security
 cisco-core-security-network-security-cisco-asa
+cisco-core-security-network-security-cisco-firepower
 cisco-core-security-network-security-cisco-ios
 cisco-core-security-secure-network-access-cisco-ise
 cisco-core-security-secure-network-access-visibility-enforcement
@@ -2256,6 +2259,7 @@ crawling-web-python-scrapy
 create-couchbase-function
 create-couchbase-views
 create-hair-fibermesh-zbrush-707
+create-manage-stacks-aws-cloudformation-command-line-interface
 create-share-analytics-jupyter-notebooks
 create-windows-10-images
 creating-3d-furniture-layout-autocad-1613
@@ -2334,6 +2338,7 @@ creature-rigging-games
 creature-rigging-maya-insects-3522
 creature-texturing-mari-1458
 creature-texturing-mari-32
+credential-access-hashcat
 credential-access-mimikatz
 credential-access-responder
 credential-access-thc-hydra
@@ -6015,6 +6020,7 @@ mongodb-introduction
 mongodb-nodejs
 mongoose-for-nodejs-mongodb
 mongoosejs-moving-forward
+monitor-couchbase-clusters
 monitoring-analysis-network-cnd
 monitoring-aws-cloudtrail
 monitoring-container-operations-oracle-cloud-container-engine-kubernetes
@@ -8608,11 +8614,17 @@ techniques-sculpting-like-masters-zbrush-1357
 technology-careers-dark-side
 technology-keeping-up
 technology-troubleshooting-essentials
+techskillsday-interview-aaron-skonnard-malala-fund
+techskillsday-interview-andrew-yang
+techskillsday-interview-asim-hussain
 techskillsday-interview-chloe-condon
 techskillsday-interview-deborah-kurata
 techskillsday-interview-eric-daimler
 techskillsday-interview-john-papa
 techskillsday-interview-rachel-higham
+techskillsday-interview-scott-hanselman
+techskillsday-interview-troy-hunt
+techskillsday-interview-wendy-warham
 tekpub-mercurial
 tekpub-postgres
 tekpub-ravendb
