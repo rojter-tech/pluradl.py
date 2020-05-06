@@ -46331,6 +46331,15 @@
         "title": "Manage Couchbase Lite",
         "url": "https://www.pluralsight.com/courses/manage-couchbase-lite"
     },
+    "manage-functions-couchbase": {
+        "author": "Kishan Iyer",
+        "date": "May 6 2020",
+        "length": 137,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Manage Functions in Couchbase",
+        "url": "https://www.pluralsight.com/courses/manage-functions-couchbase"
+    },
     "manage-it-projects-office-365": {
         "author": "Ron Schindler",
         "date": "Sep 29 2014",
@@ -64478,7 +64487,7 @@
     "python-data-analysts": {
         "author": "Janani Ravi",
         "date": "Oct 29 2019",
-        "length": 212,
+        "length": 210,
         "level": "Intermediate",
         "rating": 25,
         "title": "Python for Data Analysts",
