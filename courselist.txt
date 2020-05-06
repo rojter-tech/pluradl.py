@@ -1334,6 +1334,7 @@ building-an-interactive-day-night-cycle-game-unreal-engine-1995
 building-android-apps-kotlin-getting-started
 building-angular-application-node-token-authentication
 building-angularjs-nodejs-apps-mean
+building-apex-applications-different-data-formats
 building-api-aspdotnet-core
 building-application-azure-service-fabric-mesh
 building-applications-aurelia

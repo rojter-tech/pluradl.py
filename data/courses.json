@@ -3730,7 +3730,7 @@
         "date": "Jan 15 2019",
         "length": 321,
         "level": "Intermediate",
-        "rating": 183,
+        "rating": 184,
         "title": "Angular Architecture and Best Practices",
         "url": "https://www.pluralsight.com/courses/angular-architecture-best-practices"
     },
@@ -12022,6 +12022,15 @@
         "rating": 886,
         "title": "Building AngularJS and Node.js Apps with the MEAN Stack",
         "url": "https://www.pluralsight.com/courses/building-angularjs-nodejs-apps-mean"
+    },
+    "building-apex-applications-different-data-formats": {
+        "author": "Tim Boles",
+        "date": "May 5 2020",
+        "length": 64,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Building APEX Applications with Different Data Formats",
+        "url": "https://www.pluralsight.com/courses/building-apex-applications-different-data-formats"
     },
     "building-api-aspdotnet-core": {
         "author": "Shawn Wildermuth",
@@ -21550,7 +21559,7 @@
         "date": "Jun 27 2017",
         "length": 87,
         "level": "Intermediate",
-        "rating": 197,
+        "rating": 198,
         "title": "Specification Pattern in C#",
         "url": "https://www.pluralsight.com/courses/csharp-specification-pattern"
     },
@@ -46597,7 +46606,7 @@
         "date": "May 15 2019",
         "length": 189,
         "level": "Intermediate",
-        "rating": 55,
+        "rating": 56,
         "title": "Managing the Kubernetes API Server and Pods",
         "url": "https://www.pluralsight.com/courses/managing-kubernetes-api-server-pods"
     },
