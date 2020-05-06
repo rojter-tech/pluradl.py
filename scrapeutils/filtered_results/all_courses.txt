@@ -2451,6 +2451,7 @@ cyber-security-executive-briefing
 cyber-security-while-traveling
 cybersecurity-threats-insider-threats
 cybersecurity-threats-ransomware
+cypress-end-to-end-javascript-testing
 d3-big-picture
 d3-data-visualization-fundamentals
 d3-getting-started
