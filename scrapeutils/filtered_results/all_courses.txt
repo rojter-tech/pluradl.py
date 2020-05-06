@@ -1329,6 +1329,7 @@ build-react-native-exponent-redux-apps
 build-train-deploy-first-neural-network-tensorflow
 build-web-app-spring-mvc-hibernate-bootstrap-rest-service
 build-your-career-michael-lopp
+build-your-first-data-visualization-c3-js
 building-alteryx-apps-macros
 building-an-interactive-day-night-cycle-game-unreal-engine-1995
 building-android-apps-kotlin-getting-started
