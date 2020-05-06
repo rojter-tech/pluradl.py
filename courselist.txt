@@ -4953,6 +4953,7 @@ lean-front-end-engineering
 lean-in-navigating-gender-bias-at-work
 lean-in-negotiation-strategies-for-women
 lean-six-sigma-analytics-truth-about-data-getting-started
+lean-six-sigma-methodology
 lean-software-development-fundamentals
 learn-by-building-redis-with-ruby
 learn-perl-by-doing-part1
