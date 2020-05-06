@@ -1525,7 +1525,7 @@
         "date": "Dec 20 2019",
         "length": 81,
         "level": "Advanced",
-        "rating": 23,
+        "rating": 24,
         "title": "Advanced Git Techniques",
         "url": "https://www.pluralsight.com/courses/advanced-git-techniques"
     },
@@ -12109,7 +12109,7 @@
         "date": "Sep 20 2019",
         "length": 258,
         "level": "Beginner",
-        "rating": 104,
+        "rating": 106,
         "title": "Building Web Applications with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/building-aspdotnet-core-mvc-web-applications"
     },
@@ -17995,7 +17995,7 @@
         "date": "Apr 1 2019",
         "length": 67,
         "level": "Beginner",
-        "rating": 63,
+        "rating": 64,
         "title": "Managing IT: Communication",
         "url": "https://www.pluralsight.com/courses/communication-for-itil-practitioner"
     },
@@ -22396,7 +22396,7 @@
         "date": "Mar 28 2018",
         "length": 178,
         "level": "Beginner",
-        "rating": 90,
+        "rating": 91,
         "title": "Getting Started with DAX Formulas in Power BI, Power Pivot, and SSAS",
         "url": "https://www.pluralsight.com/courses/dax-formulas-power-bi-pivot-ssas"
     },
@@ -25564,7 +25564,7 @@
         "date": "Aug 14 2017",
         "length": 98,
         "level": "Beginner",
-        "rating": 180,
+        "rating": 181,
         "title": "The .NET Ecosystem: The Big Picture",
         "url": "https://www.pluralsight.com/courses/dotnet-ecosystem-big-picture"
     },
@@ -47630,7 +47630,7 @@
     "maximizing-your-productivity-time-management": {
         "author": "Tommy van Schaik",
         "date": "May 1 2020",
-        "length": 114,
+        "length": 107,
         "level": "Beginner",
         "rating": "",
         "title": "Time Management – Maximizing Your Productivity",
@@ -50683,7 +50683,7 @@
         "date": "Jul 18 2019",
         "length": 65,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 32,
         "title": "Microsoft Azure DevOps Engineer: Monitoring Code Quality",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-monitoring-code-quality"
     },
@@ -53995,7 +53995,7 @@
         "date": "Nov 2 2018",
         "length": 118,
         "level": "Beginner",
-        "rating": 283,
+        "rating": 284,
         "title": "Modern Java: The Big Picture",
         "url": "https://www.pluralsight.com/courses/modern-java-big-picture"
     },
@@ -54796,7 +54796,7 @@
         "date": "Feb 7 2020",
         "length": 158,
         "level": "Intermediate",
-        "rating": 767,
+        "rating": 768,
         "title": "MySQL Fundamentals",
         "url": "https://www.pluralsight.com/courses/mysql-fundamentals-part1"
     },
@@ -64426,7 +64426,7 @@
         "date": "May 17 2019",
         "length": 70,
         "level": "Intermediate",
-        "rating": 50,
+        "rating": 51,
         "title": "Python Best Practices for Code Quality",
         "url": "https://www.pluralsight.com/courses/python-best-practices-code-quality"
     },
@@ -80194,7 +80194,7 @@
         "date": "May 17 2019",
         "length": 157,
         "level": "Beginner",
-        "rating": 28,
+        "rating": 29,
         "title": "Troubleshooting Your First Low-performing T-SQL Query",
         "url": "https://www.pluralsight.com/courses/troubleshooting-first-low-performing-tsql-query"
     },
@@ -88951,7 +88951,7 @@
         "date": "Jan 31 2020",
         "length": 78,
         "level": "Intermediate",
-        "rating": 42,
+        "rating": 43,
         "title": "Working with Git Branches",
         "url": "https://www.pluralsight.com/courses/working-git-branches"
     },
