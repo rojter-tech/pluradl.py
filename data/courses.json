@@ -22517,6 +22517,15 @@
         "title": "Dealing with a New Company Culture",
         "url": "https://www.pluralsight.com/courses/dealing-with-new-company-culture"
     },
+    "debug-monitor-functions-couchbase": {
+        "author": "Kishan Iyer",
+        "date": "May 6 2020",
+        "length": 141,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Debug and Monitor Functions in Couchbase",
+        "url": "https://www.pluralsight.com/courses/debug-monitor-functions-couchbase"
+    },
     "debugging-chronicles3": {
         "author": "Mario Hewardt",
         "date": "Mar 19 2013",
@@ -31723,6 +31732,15 @@
         "rating": 14,
         "title": "Foundational TCP Analysis with Wireshark",
         "url": "https://www.pluralsight.com/courses/foundational-tcp-analysis-wireshark"
+    },
+    "foundations-document-databases-mongodb": {
+        "author": "Pinal Dave",
+        "date": "May 6 2020",
+        "length": 148,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Foundations of Document Databases with MongoDB",
+        "url": "https://www.pluralsight.com/courses/foundations-document-databases-mongodb"
     },
     "foundations-lean-six-sigma": {
         "author": "Frederico Aranha",

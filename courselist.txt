@@ -2500,6 +2500,7 @@ dbg-chron2
 ddd-ef-core-preserving-encapsulation
 dealing-credentials-when-securing-aspdotnet-core-3-application
 dealing-with-new-company-culture
+debug-monitor-functions-couchbase
 debugging-chronicles3
 debugging-powershell-vs-code
 debugging-visual-studio-2019
@@ -3523,6 +3524,7 @@ forming-epic-terrains-udk-1105
 fostering-diverse-inclusive-culture
 foundational-elements-art-rest-life-1011
 foundational-tcp-analysis-wireshark
+foundations-document-databases-mongodb
 foundations-lean-six-sigma
 foundations-pytorch
 four-semesters-computer-science
