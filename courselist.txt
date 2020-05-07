@@ -4424,6 +4424,7 @@ introduce-microsoft-endpoint-manager-prepare-microsoft-intune
 introducing-cisco-data-center-networking
 introducing-office-ui-fabric
 introducing-scrum
+introducing-scrum-artifacts-definition-done
 introducing-scrum-events
 introducing-scrum-roles
 introduction-25d-relighting-nuke-381
