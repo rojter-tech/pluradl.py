@@ -11200,7 +11200,7 @@
         "date": "Feb 14 2018",
         "length": 161,
         "level": "Intermediate",
-        "rating": 152,
+        "rating": 153,
         "title": "Blockchain – Principles and Practices",
         "url": "https://www.pluralsight.com/courses/blockchain-principles-practices"
     },
@@ -20317,7 +20317,7 @@
         "date": "Oct 11 2018",
         "length": 262,
         "level": "Intermediate",
-        "rating": 216,
+        "rating": 217,
         "title": "CQRS in Practice",
         "url": "https://www.pluralsight.com/courses/cqrs-in-practice"
     },
@@ -21676,7 +21676,7 @@
         "date": "Feb 19 2019",
         "length": 134,
         "level": "Intermediate",
-        "rating": 38,
+        "rating": 39,
         "title": "Creating a Site with CSS Grid and Bootstrap 4",
         "url": "https://www.pluralsight.com/courses/css-grid-bootstrap-4-creating-site"
     },
@@ -28777,7 +28777,7 @@
         "date": "Dec 11 2017",
         "length": 99,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Practical Enterprise JMS Playbook",
         "url": "https://www.pluralsight.com/courses/enterprise-jms-playbook"
     },
@@ -33331,7 +33331,7 @@
         "date": "Jan 30 2020",
         "length": 80,
         "level": "Beginner",
-        "rating": 16,
+        "rating": 17,
         "title": "Getting Started with Ansible on Windows",
         "url": "https://www.pluralsight.com/courses/getting-started-ansible-windows"
     },
@@ -33673,7 +33673,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1091,
+        "rating": 1092,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -33979,7 +33979,7 @@
         "date": "Dec 12 2019",
         "length": 246,
         "level": "Beginner",
-        "rating": 234,
+        "rating": 235,
         "title": "Core Python: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-python-core"
     },
@@ -35239,7 +35239,7 @@
         "date": "Aug 8 2019",
         "length": 77,
         "level": "Beginner",
-        "rating": 132,
+        "rating": 133,
         "title": "GraphQL: The Big Picture",
         "url": "https://www.pluralsight.com/courses/graphql-big-picture"
     },
@@ -35437,7 +35437,7 @@
         "date": "Sep 3 2014",
         "length": 247,
         "level": "Intermediate",
-        "rating": 403,
+        "rating": 404,
         "title": "Hack Your API First",
         "url": "https://www.pluralsight.com/courses/hack-your-api-first"
     },
@@ -38992,7 +38992,7 @@
         "date": "Sep 1 2017",
         "length": 167,
         "level": "Beginner",
-        "rating": 51,
+        "rating": 52,
         "title": "Getting Started with IntelliJ CE",
         "url": "https://www.pluralsight.com/courses/intellij-ce-getting-started"
     },
@@ -39820,7 +39820,7 @@
         "date": "Aug 13 2019",
         "length": 47,
         "level": "Beginner",
-        "rating": 29,
+        "rating": 30,
         "title": "Introducing Scrum",
         "url": "https://www.pluralsight.com/courses/introducing-scrum"
     },
@@ -50015,7 +50015,7 @@
     "microsoft-azure-databricks-environment-implementing": {
         "author": "Michael Bender",
         "date": "Sep 17 2019",
-        "length": 129,
+        "length": 128,
         "level": "Beginner",
         "rating": 19,
         "title": "Implementing an Azure Databricks Environment in Microsoft Azure",
@@ -50260,7 +50260,7 @@
         "date": "Feb 13 2020",
         "length": 147,
         "level": "Intermediate",
-        "rating": 51,
+        "rating": 52,
         "title": "Microsoft Azure Developer: Enterprise Messaging and Eventing",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-enterprise-messaging-eventing"
     },
@@ -52852,7 +52852,7 @@
         "date": "Jan 6 2020",
         "length": 138,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "Microsoft Teams (2019)",
         "url": "https://www.pluralsight.com/courses/microsoft-teams-2019"
     },
@@ -55732,7 +55732,7 @@
         "date": "Jun 5 2019",
         "length": 21,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "ng-conf '19: Data Composition with RxJS",
         "url": "https://www.pluralsight.com/courses/ng-conf-19-data-composition-rxjs"
     },
@@ -65902,7 +65902,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1399,
+        "rating": 1400,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -74569,7 +74569,7 @@
         "date": "Feb 12 2020",
         "length": 152,
         "level": "Beginner",
-        "rating": 56,
+        "rating": 57,
         "title": "Spring Framework: Spring MVC Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-framework-spring-mvc-fundamentals"
     },
@@ -74659,7 +74659,7 @@
         "date": "Apr 3 2014",
         "length": 248,
         "level": "Intermediate",
-        "rating": 397,
+        "rating": 398,
         "title": "Spring Security Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-security-fundamentals"
     },
@@ -78844,7 +78844,7 @@
         "date": "Sep 6 2019",
         "length": 61,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 18,
         "title": "THAT Conference '19: The Absolute Beginner's Guide to Docker",
         "url": "https://www.pluralsight.com/courses/that-conference-2019-session-33"
     },
