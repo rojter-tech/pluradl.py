@@ -6727,7 +6727,7 @@
         "date": "May 16 2019",
         "length": 61,
         "level": "Beginner",
-        "rating": 31,
+        "rating": 32,
         "title": "Getting Started with ASP.NET SignalR",
         "url": "https://www.pluralsight.com/courses/aspdotnet-signalr-getting-started"
     },
@@ -13810,7 +13810,7 @@
         "date": "Apr 29 2020",
         "length": 83,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 16,
         "title": "C# Design Patterns: Data Access Patterns",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-data-access-patterns"
     },
@@ -16258,7 +16258,7 @@
         "date": "Jan 13 2020",
         "length": 64,
         "level": "Beginner",
-        "rating": 495,
+        "rating": 497,
         "title": "Cloud Computing: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cloud-computing-big-picture"
     },
@@ -25294,7 +25294,7 @@
         "date": "Feb 13 2019",
         "length": 107,
         "level": "Beginner",
-        "rating": 660,
+        "rating": 661,
         "title": "Docker and Kubernetes: The Big Picture",
         "url": "https://www.pluralsight.com/courses/docker-kubernetes-big-picture"
     },
@@ -34375,7 +34375,7 @@
         "date": "Dec 17 2019",
         "length": 66,
         "level": "Beginner",
-        "rating": 127,
+        "rating": 130,
         "title": "Git: The Big Picture",
         "url": "https://www.pluralsight.com/courses/git-big-picture"
     },
@@ -36328,7 +36328,7 @@
         "date": "Mar 3 2017",
         "length": 227,
         "level": "Beginner",
-        "rating": 711,
+        "rating": 712,
         "title": "HTML5 Fundamentals",
         "url": "https://www.pluralsight.com/courses/html5-fundamentals"
     },
@@ -42952,7 +42952,7 @@
         "date": "Dec 2 2015",
         "length": 462,
         "level": "Beginner",
-        "rating": 1508,
+        "rating": 1511,
         "title": "Java Fundamentals: The Java Language",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-language"
     },
@@ -44338,7 +44338,7 @@
         "date": "Sep 16 2019",
         "length": 274,
         "level": "Beginner",
-        "rating": 109,
+        "rating": 110,
         "title": "Kubernetes for Developers: Core Concepts",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-core-concepts"
     },
@@ -45103,7 +45103,7 @@
         "date": "Oct 28 2016",
         "length": 229,
         "level": "Beginner",
-        "rating": 48,
+        "rating": 50,
         "title": "Lightroom CC Fundamentals",
         "url": "https://www.pluralsight.com/courses/lightroom-cc-fundamentals"
     },
@@ -49810,7 +49810,7 @@
         "date": "Sep 6 2019",
         "length": 88,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 32,
         "title": "Microsoft Azure DevOps Engineer: Creating an Automated Build Workflow",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-creating-automated-build-workflow"
     },
@@ -54859,7 +54859,7 @@
         "date": "Dec 30 2013",
         "length": 110,
         "level": "Intermediate",
-        "rating": 141,
+        "rating": 142,
         "title": "MySQL Query Optimization and Performance Tuning",
         "url": "https://www.pluralsight.com/courses/mysql-query-optimization-performance-tuning"
     },
@@ -64480,7 +64480,7 @@
         "date": "Jan 26 2018",
         "length": 65,
         "level": "Beginner",
-        "rating": 729,
+        "rating": 731,
         "title": "Python: The Big Picture",
         "url": "https://www.pluralsight.com/courses/python-big-picture"
     },
@@ -67756,7 +67756,7 @@
         "date": "Jul 3 2018",
         "length": 63,
         "level": "Intermediate",
-        "rating": 66,
+        "rating": 67,
         "title": "Rewriting Git History",
         "url": "https://www.pluralsight.com/courses/rewriting-git-history"
     },
@@ -80815,7 +80815,7 @@
         "date": "Aug 20 2019",
         "length": 178,
         "level": "Beginner",
-        "rating": 67,
+        "rating": 68,
         "title": "Understanding ASP.NET Core 3.x",
         "url": "https://www.pluralsight.com/courses/understanding-aspdotnet-core-3x"
     },
