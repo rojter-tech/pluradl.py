@@ -18971,6 +18971,15 @@
         "title": "Configuration and Deployment for the Cloud",
         "url": "https://www.pluralsight.com/courses/configuration-deployment-cloud-cv0-002"
     },
+    "configure-functions-couchbase": {
+        "author": "Kishan Iyer",
+        "date": "May 7 2020",
+        "length": 126,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Configure Functions in Couchbase",
+        "url": "https://www.pluralsight.com/courses/configure-functions-couchbase"
+    },
     "configure-protect-devices-microsoft-intune": {
         "author": "Greg Shields",
         "date": "Apr 28 2020",
