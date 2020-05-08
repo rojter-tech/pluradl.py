@@ -7880,6 +7880,7 @@ serverless-big-picture
 serverless-data-analysis-google-bigquery-cloud-dataflow
 serverless-machine-learning-tensorflow-google-cloud-platform
 serverless-programming-fn-project
+service-workers-deep-dive
 services-ccnp-routing-switching-300-115-switch
 session-management-testing-web-application-penetration-testing
 set-detecting-malicious-traffic-signature-session-analysis

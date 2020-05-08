@@ -70937,6 +70937,15 @@
         "title": "Serverless Programming with Fn Project",
         "url": "https://www.pluralsight.com/courses/serverless-programming-fn-project"
     },
+    "service-workers-deep-dive": {
+        "author": "Alex Mackey",
+        "date": "May 8 2020",
+        "length": 187,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Service Workers: Deep Dive",
+        "url": "https://www.pluralsight.com/courses/service-workers-deep-dive"
+    },
     "services-ccnp-routing-switching-300-115-switch": {
         "author": "Ben Piper",
         "date": "Mar 3 2016",
