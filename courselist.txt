@@ -9880,6 +9880,7 @@ working-3d-storyboard-pro-1599
 working-3d-toon-boom-harmony-1187
 working-anchored-objects-indesign-483
 working-arbor-press-solidworks-1626
+working-colors-images-css
 working-communicating-with-different-personalities
 working-construction-template-revit-1746
 working-data-types-r
