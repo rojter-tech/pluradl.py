@@ -12707,6 +12707,15 @@
         "title": "Building Layouts with the CSS Grid",
         "url": "https://www.pluralsight.com/courses/building-layouts-css-grid"
     },
+    "building-leading-effective-threat-modeling-program": {
+        "author": "Alan Monnox",
+        "date": "May 8 2020",
+        "length": 91,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Building and Leading an Effective Threat Modeling Program",
+        "url": "https://www.pluralsight.com/courses/building-leading-effective-threat-modeling-program"
+    },
     "building-linux-server-for-ruby-on-rails": {
         "author": "Jim Pickrell",
         "date": "Oct 1 2014",
@@ -19645,6 +19654,15 @@
         "rating": 32,
         "title": "Cordova Apps Using Angular, Typescript, and VSCode",
         "url": "https://www.pluralsight.com/courses/cordova-apps-angular-typescript-vscode"
+    },
+    "core-components-power-platform": {
+        "author": "Vlad Catrinescu",
+        "date": "May 8 2020",
+        "length": 83,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Core Components of Power Platform",
+        "url": "https://www.pluralsight.com/courses/core-components-power-platform"
     },
     "core-data-fundamentals": {
         "author": "Brice Wilson",
@@ -28226,7 +28244,7 @@
     "effective-reporting-power-bi": {
         "author": "Tim Boles",
         "date": "Feb 12 2019",
-        "length": 136,
+        "length": 140,
         "level": "Intermediate",
         "rating": 40,
         "title": "Effective Reporting with Power BI",
@@ -30157,6 +30175,15 @@
         "rating": 16,
         "title": "Exploiting Host-based Vulnerabilities for CompTIA PenTest+",
         "url": "https://www.pluralsight.com/courses/exploiting-host-based-vulnerabilities-comptia-pentest"
+    },
+    "exploratory-data-analysis-aws-machine-learning": {
+        "author": "Mohammed Osman",
+        "date": "May 8 2020",
+        "length": 136,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Exploratory Data Analysis with AWS Machine Learning",
+        "url": "https://www.pluralsight.com/courses/exploratory-data-analysis-aws-machine-learning"
     },
     "exploratory-data-analysis-python": {
         "author": "Guillermo Fernandez",
@@ -44746,6 +44773,15 @@
         "rating": 11,
         "title": "Learn to Program With the Sphero Robot",
         "url": "https://www.pluralsight.com/courses/learn-to-program-sphero-robot"
+    },
+    "learning-agile-versus-waterfall": {
+        "author": "Chuck Cobb",
+        "date": "May 8 2020",
+        "length": 67,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Learning the Truth About Agile Versus Waterfall",
+        "url": "https://www.pluralsight.com/courses/learning-agile-versus-waterfall"
     },
     "learning-craft-cms": {
         "author": "Ryan Irelan",
@@ -81542,7 +81578,7 @@
     "unity-blender-fbx-workflows": {
         "author": "Shane Whelan",
         "date": "Nov 1 2019",
-        "length": 186,
+        "length": 180,
         "level": "Beginner",
         "rating": "",
         "title": "FBX Workflows for Blender to Unity",

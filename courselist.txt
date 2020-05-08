@@ -1410,6 +1410,7 @@ building-it-strategic-plan
 building-jax-ws-web-services-apache-cxf
 building-landscape-from-ground-up-world-machine-2313
 building-layouts-css-grid
+building-leading-effective-threat-modeling-program
 building-linux-server-for-ruby-on-rails
 building-logo-illustrator-grind-coffee-shop-313
 building-logo-illustrator-mo-tv-311
@@ -2181,6 +2182,7 @@ cookie-attacks-web-app-hacking
 copic-marker-illustrations-sketchbook-pro-1182
 coping-missing-invalid-duplicate-data-r
 cordova-apps-angular-typescript-vscode
+core-components-power-platform
 core-data-fundamentals
 core-python-functions-functional-programming
 core-python-numeric-types-dates-times
@@ -3349,6 +3351,7 @@ exploit-development-execution-metasploit-framework
 exploit-development-security-hackers-developers
 exploitation-evading-detection-bypassing-countermeasures
 exploiting-host-based-vulnerabilities-comptia-pentest
+exploratory-data-analysis-aws-machine-learning
 exploratory-data-analysis-python
 exploring-2d-features-unity-1471
 exploring-android-studio
@@ -4970,6 +4973,7 @@ learn-perl-by-doing-part4
 learn-programming-cplusplus
 learn-to-program-kodu-kingdom-defense
 learn-to-program-sphero-robot
+learning-agile-versus-waterfall
 learning-craft-cms
 learning-expressionengine-cms
 learning-program-better-programmer
