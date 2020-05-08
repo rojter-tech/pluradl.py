@@ -2911,7 +2911,7 @@
         "date": "Aug 19 2019",
         "length": 255,
         "level": "Beginner",
-        "rating": 207,
+        "rating": 208,
         "title": "Understanding Android Application Basics",
         "url": "https://www.pluralsight.com/courses/android-application-basics-understanding"
     },
@@ -13801,7 +13801,7 @@
         "date": "Nov 14 2019",
         "length": 33,
         "level": "Intermediate",
-        "rating": 39,
+        "rating": 41,
         "title": "C# Design Patterns: Composite",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-composite"
     },
@@ -16141,7 +16141,7 @@
         "date": "Jan 11 2017",
         "length": 141,
         "level": "Beginner",
-        "rating": 1093,
+        "rating": 1094,
         "title": "Clean Architecture: Patterns, Practices, and Principles",
         "url": "https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles"
     },
@@ -29596,7 +29596,7 @@
         "date": "Aug 20 2019",
         "length": 207,
         "level": "Intermediate",
-        "rating": 18,
+        "rating": 19,
         "title": "Excel 2019 Power Users",
         "url": "https://www.pluralsight.com/courses/excel-2019-power-users"
     },
@@ -33565,7 +33565,7 @@
         "date": "Jan 11 2020",
         "length": 222,
         "level": "Beginner",
-        "rating": 60,
+        "rating": 61,
         "title": "Entity Framework Core: Getting Started",
         "url": "https://www.pluralsight.com/courses/getting-started-entity-framework-core"
     },
@@ -34825,7 +34825,7 @@
         "date": "Aug 3 2019",
         "length": 294,
         "level": "Intermediate",
-        "rating": "",
+        "rating": 11,
         "title": "Google Cloud Platform Big Data and Machine Learning Fundamentals",
         "url": "https://www.pluralsight.com/courses/google-cloud-platform-big-data-machine-learning-fundamentals"
     },
@@ -43600,7 +43600,7 @@
         "date": "Mar 3 2016",
         "length": 174,
         "level": "Beginner",
-        "rating": 293,
+        "rating": 294,
         "title": "Java Platform: Working with Databases Using JDBC",
         "url": "https://www.pluralsight.com/courses/jdbc-java-platform-working-with-databases"
     },
@@ -51178,7 +51178,7 @@
         "date": "Feb 20 2020",
         "length": 166,
         "level": "Beginner",
-        "rating": 98,
+        "rating": 99,
         "title": "Microsoft Azure Developer: Create Serverless Functions",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-serverless-functions-create"
     },
@@ -76180,7 +76180,7 @@
         "date": "Jun 14 2019",
         "length": 114,
         "level": "Beginner",
-        "rating": 17,
+        "rating": 18,
         "title": "Storybook: Getting Started",
         "url": "https://www.pluralsight.com/courses/storybook-getting-started"
     },
