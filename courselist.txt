@@ -2581,6 +2581,7 @@ designing-an-album-cover-photoshop-538
 designing-an-iphone-app-axure-2185
 designing-an-underwater-scene-cinema-4d-after-effects-2180
 designing-appealing-cartoon-characters-photoshop-903
+designing-architecting-cisco-aci
 designing-azure-hybrid-cloud
 designing-boss-battle-environment-photoshop-1210
 designing-building-enterprise-blazor-applications
