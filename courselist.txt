@@ -1611,6 +1611,7 @@ ccie-security-addressing-protocols
 ccna-routing-vlans
 ccnp-wireless-site-survey-pt1
 ccnp-wireless-site-survey-pt2
+ccsp-cloud-architecture-concepts
 ccsp-cloud-governance-data-privacy-audit
 ccsp-cloud-infrastructure-security
 ccsp-cloud-physical-logical-infrastructure
