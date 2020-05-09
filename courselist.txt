@@ -2525,6 +2525,7 @@ delivering-value-quickly-icagile
 demand-work-management
 demystifying-aws-certified-solutions-architect-associate-exam
 demystifying-keyframe-interpolation-after-effects-1077
+deploy-apps-microsoft-intune
 deploy-azure-visual-studio-online
 deploy-windows-10-images
 deploying-application-aws

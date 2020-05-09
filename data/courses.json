@@ -22742,6 +22742,15 @@
         "title": "Demystifying Keyframe Interpolation in After Effects",
         "url": "https://www.pluralsight.com/courses/demystifying-keyframe-interpolation-after-effects-1077"
     },
+    "deploy-apps-microsoft-intune": {
+        "author": "Greg Shields",
+        "date": "May 9 2020",
+        "length": 95,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Deploy Apps with Microsoft Intune",
+        "url": "https://www.pluralsight.com/courses/deploy-apps-microsoft-intune"
+    },
     "deploy-azure-visual-studio-online": {
         "author": "Esteban Garcia",
         "date": "Aug 21 2014",
@@ -81109,8 +81118,8 @@
     },
     "understanding-java-vm-memory-management": {
         "author": "Kevin Jones",
-        "date": "Jun 4 2015",
-        "length": 96,
+        "date": "May 8 2020",
+        "length": 98,
         "level": "Intermediate",
         "rating": 465,
         "title": "Understanding the Java Virtual Machine: Memory Management",
