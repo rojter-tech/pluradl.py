@@ -20,9 +20,11 @@ def main():
         url = json_load[course_id]["url"]
         r = requests.get(url)
         test = re.search(r'<p>.*</p>', r.text)
-        get_description = test.group()
-        description = get_description[3:-4]
-        json_load[course_id]["description"] = description
+        if test:
+            description_paragraph = test.group()
+            json_load[course_id]["description"] = description_paragraph[3:-4]
+        else:
+            json_load[course_id]["description"] = ""
         i+=1
         if i%100 == 1:
             print("Iteration:", i, "performed in:", time.time() - start, "seconds.")
