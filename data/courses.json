@@ -697,7 +697,7 @@
         "date": "Feb 6 2018",
         "length": 135,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Representing IoT Systems with the Actor Model and Akka.NET",
         "url": "https://www.pluralsight.com/courses/actor-model-akka-dotnet"
     },
@@ -13882,7 +13882,7 @@
         "date": "May 4 2020",
         "length": 33,
         "level": "Beginner",
-        "rating": "",
+        "rating": 13,
         "title": "C# Design Patterns: Singleton",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-singleton"
     },
@@ -44428,7 +44428,7 @@
         "date": "Feb 27 2020",
         "length": 184,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Kubernetes for Developers: Deploying Your Code",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-deploying-code"
     },
@@ -61807,7 +61807,7 @@
         "date": "Jul 28 2017",
         "length": 35,
         "level": "Beginner",
-        "rating": 45,
+        "rating": 46,
         "title": "Portfolios, Programs, and Projects: What's the Difference?",
         "url": "https://www.pluralsight.com/courses/portfolios-programs-projects-whats-the-difference"
     },
