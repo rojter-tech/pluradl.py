@@ -6826,7 +6826,7 @@
         "date": "Jan 23 2019",
         "length": 345,
         "level": "Beginner",
-        "rating": 343,
+        "rating": 344,
         "title": "ASP.NET Core Fundamentals",
         "url": "https://www.pluralsight.com/courses/aspnet-core-fundamentals"
     },
@@ -6835,7 +6835,7 @@
         "date": "Nov 20 2019",
         "length": 152,
         "level": "Intermediate",
-        "rating": 30,
+        "rating": 31,
         "title": "Using gRPC in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/aspnet-core-grpc"
     },
@@ -11317,7 +11317,7 @@
         "date": "Jun 20 2018",
         "length": 245,
         "level": "Intermediate",
-        "rating": 169,
+        "rating": 170,
         "title": "Bootstrap 4 for the Developer",
         "url": "https://www.pluralsight.com/courses/bootstrap-4-developer"
     },
@@ -13117,7 +13117,7 @@
         "date": "Jan 2 2019",
         "length": 114,
         "level": "Beginner",
-        "rating": 31,
+        "rating": 32,
         "title": "Building Server-side Rendered React Apps for Beginners",
         "url": "https://www.pluralsight.com/courses/building-server-side-rendered-react-apps-beginners"
     },
@@ -16285,7 +16285,7 @@
         "date": "Jan 13 2020",
         "length": 64,
         "level": "Beginner",
-        "rating": 497,
+        "rating": 498,
         "title": "Cloud Computing: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cloud-computing-big-picture"
     },
@@ -16366,7 +16366,7 @@
         "date": "Sep 20 2018",
         "length": 51,
         "level": "Beginner",
-        "rating": 79,
+        "rating": 80,
         "title": "Cloud-native Architecture: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cloud-native-architecture-big-picture"
     },
@@ -21541,7 +21541,7 @@
         "date": "Apr 16 2019",
         "length": 365,
         "level": "Beginner",
-        "rating": 439,
+        "rating": 442,
         "title": "C# Fundamentals",
         "url": "https://www.pluralsight.com/courses/csharp-fundamentals-dev"
     },
@@ -23764,7 +23764,7 @@
         "date": "Aug 13 2019",
         "length": 204,
         "level": "Intermediate",
-        "rating": 14,
+        "rating": 15,
         "title": "Designing a Machine Learning Model",
         "url": "https://www.pluralsight.com/courses/designing-machine-learning-model"
     },
@@ -24313,7 +24313,7 @@
         "date": "Apr 1 2020",
         "length": 74,
         "level": "Intermediate",
-        "rating": 12,
+        "rating": 13,
         "title": "Developing JavaScript Single Page Applications Protected by Azure Active Directory",
         "url": "https://www.pluralsight.com/courses/developing-javascript-single-page-applications-protected-azure-active-directory"
     },
@@ -25402,7 +25402,7 @@
         "date": "Jul 26 2017",
         "length": 271,
         "level": "Beginner",
-        "rating": 58,
+        "rating": 59,
         "title": "Introduction to Docker on Windows with Visual Studio 2017",
         "url": "https://www.pluralsight.com/courses/docker-visual-studio-2017-windows"
     },
@@ -32206,7 +32206,7 @@
         "date": "Feb 7 2020",
         "length": 83,
         "level": "Beginner",
-        "rating": 70,
+        "rating": 71,
         "title": "Fundamental Cloud Concepts for AWS",
         "url": "https://www.pluralsight.com/courses/fundamental-cloud-concepts-aws"
     },
@@ -36193,7 +36193,7 @@
         "date": "Sep 16 2019",
         "length": 108,
         "level": "Beginner",
-        "rating": 6986,
+        "rating": 6987,
         "title": "How Git Works",
         "url": "https://www.pluralsight.com/courses/how-git-works"
     },
@@ -37966,7 +37966,7 @@
         "date": "Dec 11 2018",
         "length": 103,
         "level": "Beginner",
-        "rating": 40,
+        "rating": 41,
         "title": "Increasing Productivity by Beating Procrastination",
         "url": "https://www.pluralsight.com/courses/increasing-productivity-beating-procrastination"
     },
@@ -43033,7 +43033,7 @@
         "date": "Dec 2 2015",
         "length": 462,
         "level": "Beginner",
-        "rating": 1515,
+        "rating": 1516,
         "title": "Java Fundamentals: The Java Language",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-language"
     },
@@ -47416,7 +47416,7 @@
         "date": "Oct 13 2016",
         "length": 162,
         "level": "Intermediate",
-        "rating": 1338,
+        "rating": 1339,
         "title": "Mastering Git",
         "url": "https://www.pluralsight.com/courses/mastering-git"
     },
@@ -55534,7 +55534,7 @@
         "date": "Dec 13 2017",
         "length": 67,
         "level": "Beginner",
-        "rating": 380,
+        "rating": 381,
         "title": "Angular: The Big Picture",
         "url": "https://www.pluralsight.com/courses/ng-big-picture"
     },
@@ -64570,7 +64570,7 @@
         "date": "Jan 26 2018",
         "length": 65,
         "level": "Beginner",
-        "rating": 735,
+        "rating": 737,
         "title": "Python: The Big Picture",
         "url": "https://www.pluralsight.com/courses/python-big-picture"
     },
@@ -69502,7 +69502,7 @@
         "date": "Dec 5 2016",
         "length": 86,
         "level": "Intermediate",
-        "rating": 98,
+        "rating": 99,
         "title": "Scrum Master Fundamentals - Growing Yourself and Your Team",
         "url": "https://www.pluralsight.com/courses/scrum-master-fundamentals-growing-team"
     },
@@ -75136,7 +75136,7 @@
         "date": "Mar 29 2019",
         "length": 121,
         "level": "Beginner",
-        "rating": 65,
+        "rating": 66,
         "title": "Programming SQL Server Database Stored Procedures",
         "url": "https://www.pluralsight.com/courses/sql-server-database-programming-stored-procedures"
     },
@@ -76684,7 +76684,7 @@
         "date": "Aug 2 2016",
         "length": 103,
         "level": "Beginner",
-        "rating": 82,
+        "rating": 83,
         "title": "The Successful Technical Interview for Interviewers",
         "url": "https://www.pluralsight.com/courses/successful-technical-interview-interviewers"
     },
