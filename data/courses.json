@@ -2911,7 +2911,7 @@
         "date": "Aug 19 2019",
         "length": 255,
         "level": "Beginner",
-        "rating": 209,
+        "rating": 214,
         "title": "Understanding Android Application Basics",
         "url": "https://www.pluralsight.com/courses/android-application-basics-understanding"
     },
@@ -3676,7 +3676,7 @@
         "date": "Apr 21 2020",
         "length": 353,
         "level": "Beginner",
-        "rating": 3912,
+        "rating": 3914,
         "title": "Angular: Getting Started",
         "url": "https://www.pluralsight.com/courses/angular-2-getting-started-update"
     },
@@ -6556,7 +6556,7 @@
         "date": "Mar 6 2019",
         "length": 116,
         "level": "Intermediate",
-        "rating": 163,
+        "rating": 164,
         "title": "Dependency Injection in ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-dependency-injection"
     },
@@ -12118,7 +12118,7 @@
         "date": "Sep 20 2019",
         "length": 258,
         "level": "Beginner",
-        "rating": 106,
+        "rating": 107,
         "title": "Building Web Applications with ASP.NET Core MVC",
         "url": "https://www.pluralsight.com/courses/building-aspdotnet-core-mvc-web-applications"
     },
@@ -22639,7 +22639,7 @@
         "date": "Feb 8 2018",
         "length": 87,
         "level": "Beginner",
-        "rating": 306,
+        "rating": 307,
         "title": "Deep Learning: The Big Picture",
         "url": "https://www.pluralsight.com/courses/deep-learning-big-picture"
     },
@@ -39757,7 +39757,7 @@
         "date": "Jan 24 2011",
         "length": 129,
         "level": "Beginner",
-        "rating": 1422,
+        "rating": 1423,
         "title": "Introduction to SQL Server",
         "url": "https://www.pluralsight.com/courses/intro-sql-server"
     },
@@ -80653,7 +80653,7 @@
         "date": "Nov 22 2019",
         "length": 44,
         "level": "Beginner",
-        "rating": 133,
+        "rating": 137,
         "title": "TypeScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/typescript-big-picture"
     },
@@ -84064,7 +84064,7 @@
         "date": "Jun 26 2019",
         "length": 38,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Advanced Debugging with Visual Studio 2019",
         "url": "https://www.pluralsight.com/courses/visual-studio-2019-advanced-debugging"
     },
@@ -89671,7 +89671,7 @@
         "date": "May 5 2017",
         "length": 122,
         "level": "Beginner",
-        "rating": 229,
+        "rating": 230,
         "title": "Writing Testable Code",
         "url": "https://www.pluralsight.com/courses/writing-testable-code"
     },
