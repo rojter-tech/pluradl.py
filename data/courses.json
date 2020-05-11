@@ -6808,7 +6808,7 @@
         "date": "Oct 3 2019",
         "length": 167,
         "level": "Intermediate",
-        "rating": 51,
+        "rating": 52,
         "title": "ASP.NET Core 3.0: The MVC Request Life Cycle",
         "url": "https://www.pluralsight.com/courses/aspnet-core-3-mvc-request-life-cycle"
     },
@@ -8167,7 +8167,7 @@
         "date": "Feb 8 2019",
         "length": 123,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "AWS IoT: The Big Picture",
         "url": "https://www.pluralsight.com/courses/aws-iot-big-picture"
     },
@@ -8824,7 +8824,7 @@
         "date": "Jun 20 2019",
         "length": 114,
         "level": "Intermediate",
-        "rating": 38,
+        "rating": 39,
         "title": "Continuous Delivery and DevOps with Azure DevOps: Source Control with Git",
         "url": "https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control"
     },
@@ -16168,7 +16168,7 @@
         "date": "Jan 11 2017",
         "length": 141,
         "level": "Beginner",
-        "rating": 1097,
+        "rating": 1098,
         "title": "Clean Architecture: Patterns, Practices, and Principles",
         "url": "https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles"
     },
@@ -20515,7 +20515,7 @@
         "date": "Dec 23 2019",
         "length": 80,
         "level": "Intermediate",
-        "rating": 31,
+        "rating": 32,
         "title": "Creating Blazor Components",
         "url": "https://www.pluralsight.com/courses/creating-blazor-components"
     },
@@ -22927,7 +22927,7 @@
         "date": "May 6 2019",
         "length": 224,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "Deploying and Managing Hybrid Exchange Server and Office 365",
         "url": "https://www.pluralsight.com/courses/deploying-managing-hybrid-exchange-server-office-365"
     },
@@ -33394,7 +33394,7 @@
         "date": "Jan 13 2020",
         "length": 285,
         "level": "Beginner",
-        "rating": 49,
+        "rating": 50,
         "title": "Getting Started with Ansible",
         "url": "https://www.pluralsight.com/courses/getting-started-ansible"
     },
@@ -34447,7 +34447,7 @@
         "date": "Dec 17 2019",
         "length": 66,
         "level": "Beginner",
-        "rating": 133,
+        "rating": 134,
         "title": "Git: The Big Picture",
         "url": "https://www.pluralsight.com/courses/git-big-picture"
     },
@@ -43141,7 +43141,7 @@
         "date": "Apr 4 2016",
         "length": 159,
         "level": "Intermediate",
-        "rating": 402,
+        "rating": 403,
         "title": "Applying Concurrency and Multi-threading to Common Java Patterns",
         "url": "https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading"
     },
@@ -44419,7 +44419,7 @@
         "date": "Sep 16 2019",
         "length": 274,
         "level": "Beginner",
-        "rating": 112,
+        "rating": 113,
         "title": "Kubernetes for Developers: Core Concepts",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-core-concepts"
     },
@@ -44860,7 +44860,7 @@
         "date": "Jan 1 2014",
         "length": 95,
         "level": "Beginner",
-        "rating": 1655,
+        "rating": 1656,
         "title": "Learning Technology in the Information Age",
         "url": "https://www.pluralsight.com/courses/learning-technology-information-age"
     },
@@ -46912,7 +46912,7 @@
         "date": "Feb 2 2019",
         "length": 83,
         "level": "Beginner",
-        "rating": 61,
+        "rating": 62,
         "title": "Managing Python Packages and Virtual Environments",
         "url": "https://www.pluralsight.com/courses/managing-python-packages-virtual-environments"
     },
@@ -49126,7 +49126,7 @@
         "date": "Nov 2 2015",
         "length": 144,
         "level": "Intermediate",
-        "rating": 1201,
+        "rating": 1202,
         "title": "Microservices Architecture",
         "url": "https://www.pluralsight.com/courses/microservices-architecture"
     },
@@ -49153,7 +49153,7 @@
         "date": "Nov 1 2019",
         "length": 133,
         "level": "Beginner",
-        "rating": 98,
+        "rating": 99,
         "title": "Microservices Fundamentals",
         "url": "https://www.pluralsight.com/courses/microservices-fundamentals"
     },
@@ -50071,7 +50071,7 @@
         "date": "Sep 23 2019",
         "length": 70,
         "level": "Beginner",
-        "rating": 21,
+        "rating": 22,
         "title": "Selecting an Appropriate Data Storage Service in Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-data-storage-service-selecting"
     },
@@ -50575,7 +50575,7 @@
         "date": "Aug 8 2019",
         "length": 170,
         "level": "Intermediate",
-        "rating": 17,
+        "rating": 18,
         "title": "Implementing a Relational Database in Microsoft Azure SQL Database",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-implementing-relational-database-solutions"
     },
@@ -61240,7 +61240,7 @@
         "date": "May 15 2018",
         "length": 89,
         "level": "Beginner",
-        "rating": 90,
+        "rating": 91,
         "title": "Play by Play: Visual Studio Code Can Do That",
         "url": "https://www.pluralsight.com/courses/play-by-play-visual-studio-code-can-do-that"
     },
@@ -84073,7 +84073,7 @@
         "date": "Jun 6 2019",
         "length": 77,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "Code Analysis in Visual Studio 2019",
         "url": "https://www.pluralsight.com/courses/visual-studio-2019-code-analysis"
     },
@@ -86098,7 +86098,7 @@
         "date": "Jun 17 2016",
         "length": 170,
         "level": "Beginner",
-        "rating": 1142,
+        "rating": 1147,
         "title": "What Is Programming?",
         "url": "https://www.pluralsight.com/courses/what-is-programming"
     },
@@ -88330,7 +88330,7 @@
         "date": "Apr 14 2017",
         "length": 190,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "Implementing Windows Server 2016 Distributed Networking Services",
         "url": "https://www.pluralsight.com/courses/windows-server-2016-distributed-networking-services-implementing"
     },
