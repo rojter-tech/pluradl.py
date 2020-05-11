@@ -8567,6 +8567,7 @@ swiftfest-boston-2019-session-25
 swiftfest-boston-2019-session-26
 swiftfest-boston-2019-session-27
 swiftfest-boston-2019-session-28
+swiftui-getting-started
 switching-ccna-data-center-200-150-200-155
 swords-shovels-character-controller-ai
 swords-shovels-character-inventory-system
