@@ -1039,7 +1039,7 @@
         "date": "Aug 21 2017",
         "length": 135,
         "level": "Advanced",
-        "rating": 15,
+        "rating": 16,
         "title": "Illustrator CC Creating a T-shirt Design",
         "url": "https://www.pluralsight.com/courses/adobe-illustrator-cc-creating-tshirt-design"
     },
@@ -3577,7 +3577,7 @@
         "date": "Oct 2 2019",
         "length": 171,
         "level": "Beginner",
-        "rating": 59,
+        "rating": 60,
         "title": "Working with Android Tools and Testing",
         "url": "https://www.pluralsight.com/courses/android-tools-testing"
     },
@@ -16330,7 +16330,7 @@
         "date": "Jan 3 2020",
         "length": 47,
         "level": "Beginner",
-        "rating": 74,
+        "rating": 79,
         "title": "Cloud: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/cloud-executive-briefing"
     },
@@ -19957,7 +19957,7 @@
         "date": "Nov 26 2019",
         "length": 171,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "C++ 17: Beyond the Basics",
         "url": "https://www.pluralsight.com/courses/cplusplus-17-beyond-the-basics"
     },
@@ -20362,7 +20362,7 @@
         "date": "Oct 11 2018",
         "length": 262,
         "level": "Intermediate",
-        "rating": 218,
+        "rating": 219,
         "title": "CQRS in Practice",
         "url": "https://www.pluralsight.com/courses/cqrs-in-practice"
     },
@@ -28561,7 +28561,7 @@
         "date": "Dec 6 2019",
         "length": 128,
         "level": "Beginner",
-        "rating": 354,
+        "rating": 355,
         "title": "Introduction to Emotional Intelligence",
         "url": "https://www.pluralsight.com/courses/emotional-intelligence-introduction"
     },
@@ -33745,7 +33745,7 @@
         "date": "May 22 2017",
         "length": 173,
         "level": "Beginner",
-        "rating": 1094,
+        "rating": 1095,
         "title": "Getting Started with Kubernetes",
         "url": "https://www.pluralsight.com/courses/getting-started-kubernetes"
     },
@@ -35311,7 +35311,7 @@
         "date": "Aug 8 2019",
         "length": 77,
         "level": "Beginner",
-        "rating": 134,
+        "rating": 135,
         "title": "GraphQL: The Big Picture",
         "url": "https://www.pluralsight.com/courses/graphql-big-picture"
     },
@@ -36274,7 +36274,7 @@
         "date": "Jan 16 2020",
         "length": 88,
         "level": "Beginner",
-        "rating": 659,
+        "rating": 660,
         "title": "HTML, CSS, and JavaScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/html-css-javascript-big-picture"
     },
@@ -50674,7 +50674,7 @@
         "date": "Sep 19 2019",
         "length": 138,
         "level": "Beginner",
-        "rating": 20,
+        "rating": 21,
         "title": "Microsoft Azure DevOps Engineer: Manage Azure Kubernetes Services Infrastructure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-kubernetes-infrastructure-manage"
     },
@@ -54508,7 +54508,7 @@
         "date": "Dec 1 2017",
         "length": 117,
         "level": "Intermediate",
-        "rating": 90,
+        "rating": 91,
         "title": "Mocking in .NET Core Unit Tests with Moq: Getting Started",
         "url": "https://www.pluralsight.com/courses/moq-dot-net-core-unit-tests"
     },
@@ -55246,7 +55246,7 @@
         "date": "Apr 20 2018",
         "length": 136,
         "level": "Beginner",
-        "rating": 54,
+        "rating": 55,
         "title": "Network Security Basics",
         "url": "https://www.pluralsight.com/courses/network-security-fundamentals"
     },
@@ -65992,7 +65992,7 @@
         "date": "Jun 19 2019",
         "length": 311,
         "level": "Intermediate",
-        "rating": 1405,
+        "rating": 1406,
         "title": "Building Applications with React and Flux",
         "url": "https://www.pluralsight.com/courses/react-flux-building-applications"
     },
@@ -68620,7 +68620,7 @@
         "date": "Jul 17 2019",
         "length": 228,
         "level": "Beginner",
-        "rating": 173,
+        "rating": 174,
         "title": "RxJS in Angular: Reactive Development",
         "url": "https://www.pluralsight.com/courses/rxjs-angular-reactive-development"
     },
@@ -74551,7 +74551,7 @@
         "date": "May 15 2018",
         "length": 75,
         "level": "Beginner",
-        "rating": 350,
+        "rating": 351,
         "title": "Spring: The Big Picture",
         "url": "https://www.pluralsight.com/courses/spring-big-picture"
     },
@@ -81796,7 +81796,7 @@
         "date": "Jul 20 2018",
         "length": 74,
         "level": "Intermediate",
-        "rating": 23,
+        "rating": 24,
         "title": "Iterative Level Design in Unity",
         "url": "https://www.pluralsight.com/courses/unity-iterative-level-design"
     },
@@ -84082,7 +84082,7 @@
         "date": "Apr 2 2019",
         "length": 130,
         "level": "Beginner",
-        "rating": 50,
+        "rating": 51,
         "title": "Visual Studio 2019 Getting Started",
         "url": "https://www.pluralsight.com/courses/visual-studio-2019-getting-started"
     },
@@ -84109,7 +84109,7 @@
         "date": "May 17 2017",
         "length": 146,
         "level": "Intermediate",
-        "rating": 68,
+        "rating": 69,
         "title": "Using Visual Studio Code for ASP.NET Core Projects",
         "url": "https://www.pluralsight.com/courses/visual-studio-code-aspdotnet-projects"
     },
@@ -89806,7 +89806,7 @@
         "date": "Dec 24 2019",
         "length": 58,
         "level": "Beginner",
-        "rating": 14,
+        "rating": 15,
         "title": "Xamarin.Forms: The Big Picture",
         "url": "https://www.pluralsight.com/courses/xamarin-forms-the-big-picture"
     },
