@@ -199,6 +199,7 @@ _finished
 _canceled
 _inprogress
 scratch*.py
+_scratch*.py
 *.zip
 *.crdownload
 dev
