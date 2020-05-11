@@ -3685,7 +3685,7 @@
         "date": "Sep 5 2019",
         "length": 232,
         "level": "Intermediate",
-        "rating": 588,
+        "rating": 589,
         "title": "Angular Reactive Forms",
         "url": "https://www.pluralsight.com/courses/angular-2-reactive-forms"
     },
@@ -7537,7 +7537,7 @@
         "date": "May 5 2020",
         "length": 222,
         "level": "Intermediate",
-        "rating": 39,
+        "rating": 40,
         "title": "Automating Networks with Ansible the Right Way",
         "url": "https://www.pluralsight.com/courses/automating-networks-ansible-right-way"
     },
@@ -16168,7 +16168,7 @@
         "date": "Jan 11 2017",
         "length": 141,
         "level": "Beginner",
-        "rating": 1094,
+        "rating": 1097,
         "title": "Clean Architecture: Patterns, Practices, and Principles",
         "url": "https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles"
     },
@@ -22369,7 +22369,7 @@
         "date": "Jul 27 2017",
         "length": 88,
         "level": "Intermediate",
-        "rating": 176,
+        "rating": 177,
         "title": "Introduction to Data Visualization with Python",
         "url": "https://www.pluralsight.com/courses/data-visualization-with-python-introduction"
     },
@@ -22432,7 +22432,7 @@
         "date": "Nov 1 2018",
         "length": 48,
         "level": "Beginner",
-        "rating": 139,
+        "rating": 140,
         "title": "Databases: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/databases-executive-briefing"
     },
@@ -25357,7 +25357,7 @@
         "date": "Feb 13 2019",
         "length": 107,
         "level": "Beginner",
-        "rating": 670,
+        "rating": 671,
         "title": "Docker and Kubernetes: The Big Picture",
         "url": "https://www.pluralsight.com/courses/docker-kubernetes-big-picture"
     },
@@ -25420,7 +25420,7 @@
         "date": "Dec 13 2016",
         "length": 341,
         "level": "Beginner",
-        "rating": 365,
+        "rating": 367,
         "title": "Getting Started with Docker on Windows",
         "url": "https://www.pluralsight.com/courses/docker-windows-getting-started"
     },
@@ -27850,7 +27850,7 @@
         "date": "Dec 23 2016",
         "length": 55,
         "level": "Beginner",
-        "rating": 49,
+        "rating": 50,
         "title": "DSLR Fundamentals",
         "url": "https://www.pluralsight.com/courses/dslr-fundamentals"
     },
@@ -43060,7 +43060,7 @@
         "date": "Jan 20 2017",
         "length": 119,
         "level": "Beginner",
-        "rating": 139,
+        "rating": 140,
         "title": "Java Fundamentals: Object-oriented Design",
         "url": "https://www.pluralsight.com/courses/java-fundamentals-object-oriented-design"
     },
@@ -49378,7 +49378,7 @@
         "date": "Apr 6 2020",
         "length": 196,
         "level": "Beginner",
-        "rating": 12,
+        "rating": 13,
         "title": "Securing Applications in Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-applications-securing"
     },
@@ -51349,7 +51349,7 @@
         "date": "Jun 25 2019",
         "length": 88,
         "level": "Advanced",
-        "rating": 37,
+        "rating": 38,
         "title": "Microsoft Azure Developer: Implementing CDNs for Storage",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-storage-cdns-implementing"
     },
@@ -66064,7 +66064,7 @@
         "date": "Mar 12 2019",
         "length": 399,
         "level": "Intermediate",
-        "rating": 1506,
+        "rating": 1508,
         "title": "Building Applications with React and Redux",
         "url": "https://www.pluralsight.com/courses/react-redux-react-router-es6"
     },
@@ -74569,7 +74569,7 @@
         "date": "Jul 11 2019",
         "length": 98,
         "level": "Intermediate",
-        "rating": 134,
+        "rating": 136,
         "title": "Spring Boot Fundamentals",
         "url": "https://www.pluralsight.com/courses/spring-boot-fundamentals"
     },
@@ -78169,7 +78169,7 @@
         "date": "Jun 8 2018",
         "length": 114,
         "level": "Beginner",
-        "rating": 117,
+        "rating": 119,
         "title": "Test-driven Development Using React",
         "url": "https://www.pluralsight.com/courses/test-driven-development-react"
     },
@@ -89500,7 +89500,7 @@
         "date": "Aug 21 2017",
         "length": 541,
         "level": "Intermediate",
-        "rating": 198,
+        "rating": 199,
         "title": "Building an Enterprise App with WPF, MVVM, and Entity Framework Code First",
         "url": "https://www.pluralsight.com/courses/wpf-mvvm-entity-framework-app"
     },
