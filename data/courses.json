@@ -254,7 +254,9 @@
     },
     "3ds-max-hard-surface-modeling-fundamentals": {
         "author": "Alex Jerjomin",
+        "author_info": "",
         "date": "May 15 2017",
+        "description": "",
         "length": 171,
         "level": "Beginner",
         "rating": 21,
@@ -1011,7 +1013,9 @@
     },
     "administering-elasticsearch-cluster": {
         "author": "JP Toto",
+        "author_info": "",
         "date": "Dec 11 2015",
+        "description": "",
         "length": 128,
         "level": "Intermediate",
         "rating": 140,
@@ -1075,7 +1079,9 @@
     },
     "adobe-analytics-dynamic-tag-management": {
         "author": "Eli Stevens",
+        "author_info": "",
         "date": "Oct 12 2017",
+        "description": "",
         "length": 115,
         "level": "Intermediate",
         "rating": 12,
@@ -2844,7 +2850,9 @@
     },
     "akka-dotnet-building-distributed-systems-clustering": {
         "author": "Simon Anderson",
+        "author_info": "",
         "date": "Mar 22 2016",
+        "description": "",
         "length": 50,
         "level": "Intermediate",
         "rating": 83,
@@ -3403,7 +3411,9 @@
     },
     "an-introduction-windows-10": {
         "author": "Alan Wright",
+        "author_info": "",
         "date": "Jun 26 2019",
+        "description": "",
         "length": 100,
         "level": "Beginner",
         "rating": "",
@@ -4292,7 +4302,9 @@
     },
     "android-sqlite-fundamentals": {
         "author": "Annapurna Agrawal",
+        "author_info": "",
         "date": "Nov 25 2019",
+        "description": "",
         "length": 119,
         "level": "Beginner",
         "rating": "",
@@ -4620,7 +4632,9 @@
     },
     "angular-cli": {
         "author": "John Papa",
+        "author_info": "",
         "date": "Aug 31 2018",
+        "description": "",
         "length": 202,
         "level": "Beginner",
         "rating": 479,
@@ -5575,7 +5589,9 @@
     },
     "animate-cc-lip-syncing": {
         "author": "Chad Troftgruben",
+        "author_info": "",
         "date": "Oct 21 2016",
+        "description": "",
         "length": 227,
         "level": "Intermediate",
         "rating": "",
@@ -6451,7 +6467,9 @@
     },
     "apache-flink-stream-processing-getting-started": {
         "author": "Janani Ravi",
+        "author_info": "",
         "date": "Apr 17 2017",
+        "description": "",
         "length": 164,
         "level": "Beginner",
         "rating": 29,
@@ -6493,7 +6511,9 @@
     },
     "apache-pig-data-transformations": {
         "author": "Janani Ravi",
+        "author_info": "",
         "date": "May 12 2017",
+        "description": "",
         "length": 195,
         "level": "Beginner",
         "rating": 29,
@@ -7105,7 +7125,9 @@
     },
     "architecting-google-kubernetes-engine-production": {
         "author": "Google Cloud",
+        "author_info": "",
         "date": "Oct 10 2019",
+        "description": "",
         "length": 107,
         "level": "Beginner",
         "rating": "",
@@ -7180,7 +7202,9 @@
     },
     "architecting-web-applications-spring": {
         "author": "Kevin Jones",
+        "author_info": "",
         "date": "May 23 2016",
+        "description": "",
         "length": 117,
         "level": "Intermediate",
         "rating": 108,
@@ -9950,7 +9974,9 @@
     },
     "aws-iot-big-picture": {
         "author": "Fernando Medina Corey",
+        "author_info": "",
         "date": "Feb 8 2019",
+        "description": "",
         "length": 123,
         "level": "Beginner",
         "rating": 26,
@@ -10047,7 +10073,9 @@
     },
     "aws-managing-ec2-instances": {
         "author": "Armen Avanesi",
+        "author_info": "",
         "date": "Apr 6 2020",
+        "description": "",
         "length": 77,
         "level": "Beginner",
         "rating": 16,
@@ -10122,7 +10150,9 @@
     },
     "aws-networking-deep-dive-vpc": {
         "author": "Ben Piper",
+        "author_info": "",
         "date": "Aug 8 2019",
+        "description": "",
         "length": 177,
         "level": "Intermediate",
         "rating": 55,
@@ -10747,7 +10777,9 @@
     },
     "azure-devops-continuous-delivery-source-control": {
         "author": "Marcel de Vries",
+        "author_info": "",
         "date": "Jun 20 2019",
+        "description": "",
         "length": 114,
         "level": "Intermediate",
         "rating": 39,
@@ -11150,7 +11182,9 @@
     },
     "azure-site-recovery-strategy-designing-update": {
         "author": "Anthony Nocentino",
+        "author_info": "",
         "date": "Apr 22 2020",
+        "description": "",
         "length": 130,
         "level": "Beginner",
         "rating": "",
@@ -12138,7 +12172,9 @@
     },
     "better-software-through-measurement": {
         "author": "Brendan Younger",
+        "author_info": "",
         "date": "Oct 10 2013",
+        "description": "",
         "length": 97,
         "level": "Intermediate",
         "rating": 34,
@@ -12455,7 +12491,9 @@
     },
     "big-data-ldn-session-133": {
         "author": "Big Data LDN",
+        "author_info": "",
         "date": "Dec 17 2019",
+        "description": "",
         "length": 26,
         "level": "Intermediate",
         "rating": "",
@@ -14444,7 +14482,9 @@
     },
     "build-first-data-visualization-google-charts": {
         "author": "Pinal Dave",
+        "author_info": "",
         "date": "Mar 26 2020",
+        "description": "",
         "length": 48,
         "level": "Beginner",
         "rating": "",
@@ -16134,7 +16174,9 @@
     },
     "building-tabular-models-ssas": {
         "author": "Ravikiran Srinivasulu",
+        "author_info": "",
         "date": "Apr 2 2020",
+        "description": "",
         "length": 151,
         "level": "Intermediate",
         "rating": "",
@@ -16847,10 +16889,12 @@
     },
     "c-sharp-design-patterns-data-access-patterns": {
         "author": "Filip Ekberg",
+        "author_info": "",
         "date": "Apr 29 2020",
+        "description": "",
         "length": 83,
         "level": "Intermediate",
-        "rating": 20,
+        "rating": 21,
         "title": "C# Design Patterns: Data Access Patterns",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-data-access-patterns"
     },
@@ -16900,19 +16944,23 @@
     },
     "c-sharp-design-patterns-proxy": {
         "author": "Steve Smith",
+        "author_info": "",
         "date": "Apr 10 2020",
+        "description": "",
         "length": 35,
         "level": "Intermediate",
-        "rating": 15,
+        "rating": 16,
         "title": "C# Design Patterns: Proxy",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy"
     },
     "c-sharp-design-patterns-singleton": {
         "author": "Steve Smith",
+        "author_info": "",
         "date": "May 4 2020",
+        "description": "",
         "length": 33,
         "level": "Beginner",
-        "rating": 13,
+        "rating": 15,
         "title": "C# Design Patterns: Singleton",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-singleton"
     },
@@ -17292,7 +17340,9 @@
     },
     "caricatures-mudbox-213": {
         "author": "Justin Marshall",
+        "author_info": "",
         "date": "Sep 2 2011",
+        "description": "",
         "length": 172,
         "level": "Intermediate",
         "rating": "",
@@ -17730,7 +17780,9 @@
     },
     "ccsp-cloud-platform-security": {
         "author": "Lyron Andrews",
+        "author_info": "",
         "date": "Feb 4 2020",
+        "description": "",
         "length": 58,
         "level": "Intermediate",
         "rating": "",
@@ -18751,7 +18803,9 @@
     },
     "cisco-ccdp-arch-300-320-network-services": {
         "author": "Josh Burman",
+        "author_info": "",
         "date": "Feb 22 2018",
+        "description": "",
         "length": 75,
         "level": "Intermediate",
         "rating": "",
@@ -19695,7 +19749,9 @@
     },
     "clean-architecture-patterns-practices-principles": {
         "author": "Matthew Renze",
+        "author_info": "",
         "date": "Jan 11 2017",
+        "description": "",
         "length": 141,
         "level": "Beginner",
         "rating": 1098,
@@ -19836,10 +19892,12 @@
     },
     "cloud-computing-big-picture": {
         "author": "David Chappell",
+        "author_info": "",
         "date": "Jan 13 2020",
+        "description": "",
         "length": 64,
         "level": "Beginner",
-        "rating": 498,
+        "rating": 499,
         "title": "Cloud Computing: The Big Picture",
         "url": "https://www.pluralsight.com/courses/cloud-computing-big-picture"
     },
@@ -20096,7 +20154,9 @@
     },
     "code-auditing-security-hackers-developers": {
         "author": "Dr. Jared DeMott",
+        "author_info": "",
         "date": "Aug 30 2016",
+        "description": "",
         "length": 122,
         "level": "Intermediate",
         "rating": 49,
@@ -21080,7 +21140,9 @@
     },
     "codemash-session-39": {
         "author": "CodeMash",
+        "author_info": "",
         "date": "Feb 7 2020",
+        "description": "",
         "length": 47,
         "level": "Beginner",
         "rating": "",
@@ -21353,7 +21415,9 @@
     },
     "codemash-session-66": {
         "author": "CodeMash",
+        "author_info": "",
         "date": "Feb 7 2020",
+        "description": "",
         "length": 60,
         "level": "Beginner",
         "rating": "",
@@ -21461,7 +21525,9 @@
     },
     "codemash-session-76": {
         "author": "CodeMash",
+        "author_info": "",
         "date": "Feb 7 2020",
+        "description": "",
         "length": 53,
         "level": "Beginner",
         "rating": "",
@@ -21974,7 +22040,9 @@
     },
     "communications-better-technology-deployments": {
         "author": "Doru Catana",
+        "author_info": "",
         "date": "Oct 3 2016",
+        "description": "",
         "length": 211,
         "level": "Beginner",
         "rating": 18,
@@ -22784,10 +22852,12 @@
     },
     "computer-fundamentals-hardware": {
         "author": "Daniel Lachance",
+        "author_info": "",
         "date": "Jan 14 2019",
+        "description": "",
         "length": 162,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "Computer Fundamentals: Hardware",
         "url": "https://www.pluralsight.com/courses/computer-fundamentals-hardware"
     },
@@ -23418,7 +23488,9 @@
     },
     "configuring-sharepoint-2016-workloads": {
         "author": "Liam Cleary",
+        "author_info": "",
         "date": "May 15 2019",
+        "description": "",
         "length": 202,
         "level": "Intermediate",
         "rating": "",
@@ -23691,7 +23763,9 @@
     },
     "containers-images-big-picture": {
         "author": "Wes Higbee",
+        "author_info": "",
         "date": "Jan 24 2017",
+        "description": "",
         "length": 189,
         "level": "Beginner",
         "rating": 130,
@@ -24292,7 +24366,9 @@
     },
     "cplusplus-17-beyond-the-basics": {
         "author": "Kate Gregory",
+        "author_info": "",
         "date": "Nov 26 2019",
+        "description": "",
         "length": 171,
         "level": "Intermediate",
         "rating": 33,
@@ -24499,7 +24575,9 @@
     },
     "cpt-sp2010-admin-ramp-part1": {
         "author": "Ted Pattison",
+        "author_info": "",
         "date": "Sep 13 2012",
+        "description": "",
         "length": 123,
         "level": "Intermediate",
         "rating": 152,
@@ -24552,7 +24630,9 @@
     },
     "cpt-sp2010-admin-ramp-part6": {
         "author": "Ted Pattison",
+        "author_info": "",
         "date": "Sep 13 2012",
+        "description": "",
         "length": 51,
         "level": "Intermediate",
         "rating": 44,
@@ -24968,7 +25048,9 @@
     },
     "creating-blazor-components": {
         "author": "Roland Guijt",
+        "author_info": "",
         "date": "Dec 23 2019",
+        "description": "",
         "length": 80,
         "level": "Intermediate",
         "rating": 32,
@@ -26075,7 +26157,9 @@
     },
     "csharp-code-azure-functions-reducing-duplication": {
         "author": "Jason Roberts",
+        "author_info": "",
         "date": "Mar 29 2017",
+        "description": "",
         "length": 69,
         "level": "Intermediate",
         "rating": 42,
@@ -26172,7 +26256,9 @@
     },
     "csharp-equality-comparisons": {
         "author": "Simon Robinson",
+        "author_info": "",
         "date": "Sep 10 2014",
+        "description": "",
         "length": 291,
         "level": "Intermediate",
         "rating": 619,
@@ -26982,7 +27068,9 @@
     },
     "d3js-data-visualization-fundamentals": {
         "author": "Ben Sullins",
+        "author_info": "",
         "date": "Apr 23 2014",
+        "description": "",
         "length": 275,
         "level": "Intermediate",
         "rating": 624,
@@ -27902,7 +27990,9 @@
     },
     "deploying-managing-hybrid-exchange-server-office-365": {
         "author": "Paul Cunningham",
+        "author_info": "",
         "date": "May 6 2019",
+        "description": "",
         "length": 224,
         "level": "Intermediate",
         "rating": 33,
@@ -28219,7 +28309,9 @@
     },
     "design-patterns-swift-behavioral": {
         "author": "Karoly Nyisztor",
+        "author_info": "",
         "date": "Dec 28 2017",
+        "description": "",
         "length": 156,
         "level": "Intermediate",
         "rating": "",
@@ -28437,7 +28529,9 @@
     },
     "designing-cisco-enterprise-networks-ipv4-ipv6-addressing-design": {
         "author": "Sean Wilkins",
+        "author_info": "",
         "date": "Jan 16 2020",
+        "description": "",
         "length": 134,
         "level": "Intermediate",
         "rating": "",
@@ -28710,7 +28804,9 @@
     },
     "designing-elegant-product-viz-cinema-4d-after-effects-1492": {
         "author": "Laura Hawk",
+        "author_info": "",
         "date": "Jan 26 2014",
+        "description": "",
         "length": 469,
         "level": "Advanced",
         "rating": "",
@@ -28873,7 +28969,9 @@
     },
     "designing-jewelry-3d-printing-zbrush-maya-2152": {
         "author": "Helen Duckworth",
+        "author_info": "",
         "date": "Jun 22 2015",
+        "description": "",
         "length": 79,
         "level": "Intermediate",
         "rating": "",
@@ -28992,7 +29090,9 @@
     },
     "designing-physical-cloud": {
         "author": "Kevin Jackson",
+        "author_info": "",
         "date": "Feb 15 2019",
+        "description": "",
         "length": 113,
         "level": "Advanced",
         "rating": "",
@@ -29661,7 +29761,9 @@
     },
     "developing-sharepoint-2013-javascript": {
         "author": "David Mann",
+        "author_info": "",
         "date": "Dec 4 2013",
+        "description": "",
         "length": 370,
         "level": "Intermediate",
         "rating": 396,
@@ -30506,7 +30608,9 @@
     },
     "digitally-painting-illustrations-photoshop-1723": {
         "author": "Valp Maciej Hajnrich",
+        "author_info": "",
         "date": "Aug 13 2014",
+        "description": "",
         "length": 133,
         "level": "Advanced",
         "rating": "",
@@ -30614,7 +30718,9 @@
     },
     "discovering-business-analysis-information-through-elicitation": {
         "author": "Casey Ayers",
+        "author_info": "",
         "date": "Apr 11 2016",
+        "description": "",
         "length": 155,
         "level": "Beginner",
         "rating": 40,
@@ -31127,10 +31233,12 @@
     },
     "dotnet-core-mvc-apps-extensions": {
         "author": "Alex Wolf",
+        "author_info": "",
         "date": "Aug 2 2018",
+        "description": "",
         "length": 221,
         "level": "Intermediate",
-        "rating": 62,
+        "rating": 63,
         "title": "Improving .NET Core MVC Apps Using Extension Points",
         "url": "https://www.pluralsight.com/courses/dotnet-core-mvc-apps-extensions"
     },
@@ -31169,7 +31277,9 @@
     },
     "dotnet-debugging-power-tools": {
         "author": "Mario Hewardt",
+        "author_info": "",
         "date": "Jan 10 2014",
+        "description": "",
         "length": 119,
         "level": "Intermediate",
         "rating": 138,
@@ -31442,7 +31552,9 @@
     },
     "drawing-column-grid-autocad-1616": {
         "author": "Pierre Derenoncourt",
+        "author_info": "",
         "date": "May 31 2014",
+        "description": "",
         "length": 27,
         "level": "Beginner",
         "rating": "",
@@ -32254,7 +32366,9 @@
     },
     "droidcon-nyc-session-11": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 17 2019",
+        "description": "",
         "length": 46,
         "level": "Beginner",
         "rating": "",
@@ -32481,7 +32595,9 @@
     },
     "droidcon-nyc-session-37": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 19 2019",
+        "description": "",
         "length": 29,
         "level": "Intermediate",
         "rating": "",
@@ -32567,7 +32683,9 @@
     },
     "droidcon-nyc-session-45": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 19 2019",
+        "description": "",
         "length": 41,
         "level": "Intermediate",
         "rating": "",
@@ -32587,7 +32705,9 @@
     },
     "droidcon-nyc-session-47": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 17 2019",
+        "description": "",
         "length": 34,
         "level": "Intermediate",
         "rating": "",
@@ -32794,7 +32914,9 @@
     },
     "droidcon-nyc-session-66": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 19 2019",
+        "description": "",
         "length": 98,
         "level": "Intermediate",
         "rating": "",
@@ -32803,7 +32925,9 @@
     },
     "droidcon-nyc-session-67": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 20 2019",
+        "description": "",
         "length": 32,
         "level": "Intermediate",
         "rating": "",
@@ -33021,7 +33145,9 @@
     },
     "droidcon-nyc-session-88": {
         "author": "droidcon NYC",
+        "author_info": "",
         "date": "Sep 20 2019",
+        "description": "",
         "length": 15,
         "level": "Intermediate",
         "rating": "",
@@ -33052,7 +33178,9 @@
     },
     "droidcon-sf-session-01": {
         "author": "droidcon SF",
+        "author_info": "",
         "date": "Dec 19 2019",
+        "description": "",
         "length": 45,
         "level": "Beginner",
         "rating": "",
@@ -33281,7 +33409,9 @@
     },
     "droidcon-sf-session-22": {
         "author": "droidcon SF",
+        "author_info": "",
         "date": "Dec 19 2019",
+        "description": "",
         "length": 20,
         "level": "Advanced",
         "rating": "",
@@ -33345,7 +33475,9 @@
     },
     "droidcon-sf-session-29": {
         "author": "droidcon SF",
+        "author_info": "",
         "date": "Dec 19 2019",
+        "description": "",
         "length": 32,
         "level": "Intermediate",
         "rating": "",
@@ -33717,7 +33849,9 @@
     },
     "droidcon-sf-session-69": {
         "author": "droidcon SF",
+        "author_info": "",
         "date": "Dec 19 2019",
+        "description": "",
         "length": 34,
         "level": "Beginner",
         "rating": "",
@@ -34800,10 +34934,12 @@
     },
     "encapsulation-solid": {
         "author": "Mark Seemann",
+        "author_info": "",
         "date": "Aug 5 2014",
+        "description": "",
         "length": 310,
         "level": "Intermediate",
-        "rating": 1921,
+        "rating": 1922,
         "title": "Encapsulation and SOLID",
         "url": "https://www.pluralsight.com/courses/encapsulation-solid"
     },
@@ -34831,7 +34967,9 @@
     },
     "end-user-communications-better-it": {
         "author": "Heather Ackmann",
+        "author_info": "",
         "date": "May 17 2017",
+        "description": "",
         "length": 157,
         "level": "Beginner",
         "rating": 20,
@@ -34939,7 +35077,9 @@
     },
     "enhancing-maya-toolsets-python-1410": {
         "author": "Delano Athias",
+        "author_info": "",
         "date": "Dec 9 2013",
+        "description": "",
         "length": 125,
         "level": "Intermediate",
         "rating": "",
@@ -35278,7 +35418,9 @@
     },
     "environment-concepts-characters-photoshop-884": {
         "author": "Ismail Wamala",
+        "author_info": "",
         "date": "Jan 1 2013",
+        "description": "",
         "length": 91,
         "level": "Advanced",
         "rating": "",
@@ -35584,7 +35726,9 @@
     },
     "ethical-hacking-cloud-computing": {
         "author": "Troy Hunt",
+        "author_info": "",
         "date": "Jul 7 2016",
+        "description": "",
         "length": 179,
         "level": "Beginner",
         "rating": 85,
@@ -35802,7 +35946,9 @@
     },
     "ethical-hacking-wireless-networks": {
         "author": "Dale Meredith",
+        "author_info": "",
         "date": "Oct 2 2018",
+        "description": "",
         "length": 195,
         "level": "Beginner",
         "rating": 142,
@@ -35866,7 +36012,9 @@
     },
     "everyday-ps": {
         "author": "Jim Christopher",
+        "author_info": "",
         "date": "Nov 30 2012",
+        "description": "",
         "length": 243,
         "level": "Intermediate",
         "rating": 390,
@@ -36007,7 +36155,9 @@
     },
     "excel-2016-mac-getting-started": {
         "author": "Mike Thomas",
+        "author_info": "",
         "date": "Oct 7 2015",
+        "description": "",
         "length": 145,
         "level": "Beginner",
         "rating": 15,
@@ -36544,7 +36694,9 @@
     },
     "exchange-server-2016-first-look": {
         "author": "J. Peter Bruzzese",
+        "author_info": "",
         "date": "Aug 20 2015",
+        "description": "",
         "length": 90,
         "level": "Beginner",
         "rating": 99,
@@ -37136,7 +37288,9 @@
     },
     "exploring-first-data-set-r": {
         "author": "Martin Burger",
+        "author_info": "",
         "date": "Nov 26 2019",
+        "description": "",
         "length": 125,
         "level": "Beginner",
         "rating": "",
@@ -38729,7 +38883,9 @@
     },
     "fpga-vhdl-beyond-basics": {
         "author": "Dmitri Nesteruk",
+        "author_info": "",
         "date": "Jan 18 2017",
+        "description": "",
         "length": 184,
         "level": "Intermediate",
         "rating": 12,
@@ -39640,7 +39796,9 @@
     },
     "fusion-360-zbrush-iterative-design": {
         "author": "Ian Southwell",
+        "author_info": "",
         "date": "Aug 16 2016",
+        "description": "",
         "length": 127,
         "level": "Intermediate",
         "rating": "",
@@ -40778,7 +40936,9 @@
     },
     "getting-started-business-analysis-iiba-aac-certification": {
         "author": "Casey Ayers",
+        "author_info": "",
         "date": "Feb 24 2020",
+        "description": "",
         "length": 93,
         "level": "Beginner",
         "rating": "",
@@ -41203,7 +41363,9 @@
     },
     "getting-started-nlp-deep-learning-pytorch-fastai": {
         "author": "Gianni Rosa Gallina",
+        "author_info": "",
         "date": "Mar 21 2019",
+        "description": "",
         "length": 133,
         "level": "Intermediate",
         "rating": 11,
@@ -41608,7 +41770,9 @@
     },
     "getting-started-travis-ci": {
         "author": "Axel Sirota",
+        "author_info": "",
         "date": "Nov 12 2019",
+        "description": "",
         "length": 113,
         "level": "Beginner",
         "rating": "",
@@ -41892,7 +42056,9 @@
     },
     "git-big-picture": {
         "author": "Paolo Perrotta",
+        "author_info": "",
         "date": "Dec 17 2019",
+        "description": "",
         "length": 66,
         "level": "Beginner",
         "rating": 134,
@@ -43065,10 +43231,12 @@
     },
     "group-policy-troubleshooting": {
         "author": "Peter Grant",
+        "author_info": "",
         "date": "May 31 2016",
+        "description": "",
         "length": 119,
         "level": "Intermediate",
-        "rating": 34,
+        "rating": 35,
         "title": "Group Policy: Troubleshooting",
         "url": "https://www.pluralsight.com/courses/group-policy-troubleshooting"
     },
@@ -43250,7 +43418,9 @@
     },
     "hadoop-for-dotnet-developers": {
         "author": "Elton Stoneman",
+        "author_info": "",
         "date": "Aug 29 2016",
+        "description": "",
         "length": 173,
         "level": "Beginner",
         "rating": 43,
@@ -43534,10 +43704,12 @@
     },
     "have-difficult-conversations": {
         "author": "Jason Alba",
+        "author_info": "",
         "date": "Dec 5 2018",
+        "description": "",
         "length": 96,
         "level": "Beginner",
-        "rating": 35,
+        "rating": 36,
         "title": "How to Have Difficult Conversations",
         "url": "https://www.pluralsight.com/courses/have-difficult-conversations"
     },
@@ -44038,10 +44210,12 @@
     },
     "how-machine-learning-works": {
         "author": "Paolo Perrotta",
+        "author_info": "",
         "date": "Nov 15 2019",
+        "description": "",
         "length": 143,
         "level": "Beginner",
-        "rating": 64,
+        "rating": 65,
         "title": "How Machine Learning Works",
         "url": "https://www.pluralsight.com/courses/how-machine-learning-works"
     },
@@ -45345,7 +45519,9 @@
     },
     "image-composition-dotnet": {
         "author": "Joel Neubeck",
+        "author_info": "",
         "date": "Dec 21 2014",
+        "description": "",
         "length": 146,
         "level": "Intermediate",
         "rating": 49,
@@ -46696,7 +46872,9 @@
     },
     "information-security-incidents-iso-iec-27002": {
         "author": "Paul Gadbois",
+        "author_info": "",
         "date": "Sep 19 2016",
+        "description": "",
         "length": 117,
         "level": "Beginner",
         "rating": 14,
@@ -46870,7 +47048,9 @@
     },
     "information-systems-auditor-operations-maintenance-service": {
         "author": "Kevin Henry",
+        "author_info": "",
         "date": "Aug 19 2016",
+        "description": "",
         "length": 187,
         "level": "Intermediate",
         "rating": 11,
@@ -47572,7 +47752,9 @@
     },
     "interactive-documents-indesign-554": {
         "author": "Eddie Russell",
+        "author_info": "",
         "date": "Nov 1 2011",
+        "description": "",
         "length": 178,
         "level": "Intermediate",
         "rating": "",
@@ -47790,7 +47972,9 @@
     },
     "interpreting-data-descriptive-statistics-r": {
         "author": "Emilee McWilliams",
+        "author_info": "",
         "date": "Aug 13 2019",
+        "description": "",
         "length": 84,
         "level": "Beginner",
         "rating": "",
@@ -48283,7 +48467,9 @@
     },
     "intro-photoshop-cs3-3098": {
         "author": "Papa Georgio",
+        "author_info": "",
         "date": "May 31 2007",
+        "description": "",
         "length": 379,
         "level": "Beginner",
         "rating": "",
@@ -48774,7 +48960,9 @@
     },
     "introduction-animation-softimage-1188": {
         "author": "Delano Athias",
+        "author_info": "",
         "date": "Jun 24 2013",
+        "description": "",
         "length": 121,
         "level": "Beginner",
         "rating": "",
@@ -49190,7 +49378,9 @@
     },
     "introduction-dynamic-routing": {
         "author": "Ross Bagurdes",
+        "author_info": "",
         "date": "Mar 25 2020",
+        "description": "",
         "length": 200,
         "level": "Intermediate",
         "rating": "",
@@ -50310,7 +50500,9 @@
     },
     "introduction-realflow-2013-1265": {
         "author": "Dan LeFebvre",
+        "author_info": "",
         "date": "Aug 12 2013",
+        "description": "",
         "length": 277,
         "level": "Beginner",
         "rating": "",
@@ -50843,7 +51035,9 @@
     },
     "introduction-toon-boom-animate-pro-1869": {
         "author": "Kurt Jones",
+        "author_info": "",
         "date": "Nov 17 2014",
+        "description": "",
         "length": 177,
         "level": "Beginner",
         "rating": "",
@@ -51180,7 +51374,9 @@
     },
     "inventor-essentials-visual-styles-visualization-graphics": {
         "author": "Neil Cross",
+        "author_info": "",
         "date": "Sep 22 2016",
+        "description": "",
         "length": 151,
         "level": "Beginner",
         "rating": "",
@@ -51902,7 +52098,9 @@
     },
     "it-innovation-what-and-how": {
         "author": "David Chappell",
+        "author_info": "",
         "date": "Mar 15 2016",
+        "description": "",
         "length": 70,
         "level": "Beginner",
         "rating": 60,
@@ -52186,7 +52384,9 @@
     },
     "java-ee-8-whats-new": {
         "author": "Sander Mak",
+        "author_info": "",
         "date": "Jan 30 2018",
+        "description": "",
         "length": 119,
         "level": "Intermediate",
         "rating": 28,
@@ -52470,7 +52670,9 @@
     },
     "java-patterns-concurrency-multi-threading": {
         "author": "Jose Paumard",
+        "author_info": "",
         "date": "Apr 4 2016",
+        "description": "",
         "length": 159,
         "level": "Intermediate",
         "rating": 403,
@@ -52864,7 +53066,9 @@
     },
     "javascript-interop-blazor-applications": {
         "author": "Thomas Claudius Huber",
+        "author_info": "",
         "date": "May 4 2020",
+        "description": "",
         "length": 188,
         "level": "Intermediate",
         "rating": "",
@@ -53214,7 +53418,9 @@
     },
     "jmeter-getting-started": {
         "author": "Esteban Herrera",
+        "author_info": "",
         "date": "Apr 29 2019",
+        "description": "",
         "length": 126,
         "level": "Beginner",
         "rating": 49,
@@ -54026,7 +54232,9 @@
     },
     "kubernetes-developers-core-concepts": {
         "author": "Dan Wahlin",
+        "author_info": "",
         "date": "Sep 16 2019",
+        "description": "",
         "length": 274,
         "level": "Beginner",
         "rating": 113,
@@ -54035,10 +54243,12 @@
     },
     "kubernetes-developers-deploying-code": {
         "author": "Dan Wahlin",
+        "author_info": "",
         "date": "Feb 27 2020",
+        "description": "",
         "length": 184,
         "level": "Intermediate",
-        "rating": 22,
+        "rating": 23,
         "title": "Kubernetes for Developers: Deploying Your Code",
         "url": "https://www.pluralsight.com/courses/kubernetes-developers-deploying-code"
     },
@@ -54539,7 +54749,9 @@
     },
     "learning-programming-javascript": {
         "author": "Scott Allen",
+        "author_info": "",
         "date": "Jun 10 2013",
+        "description": "",
         "length": 192,
         "level": "Beginner",
         "rating": 1266,
@@ -56227,10 +56439,12 @@
     },
     "machine-learning-executive-briefing": {
         "author": "Simon Allardice",
+        "author_info": "",
         "date": "Jul 11 2019",
+        "description": "",
         "length": 39,
         "level": "Beginner",
-        "rating": 183,
+        "rating": 184,
         "title": "Machine Learning: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/machine-learning-executive-briefing"
     },
@@ -57160,7 +57374,9 @@
     },
     "managing-sql-server-database-maintenance": {
         "author": "Viktor Suha",
+        "author_info": "",
         "date": "Dec 30 2019",
+        "description": "",
         "length": 101,
         "level": "Beginner",
         "rating": "",
@@ -57180,7 +57396,9 @@
     },
     "managing-ssis-projects": {
         "author": "Robert Cain",
+        "author_info": "",
         "date": "May 4 2020",
+        "description": "",
         "length": 138,
         "level": "Intermediate",
         "rating": "",
@@ -57904,7 +58122,9 @@
     },
     "math-for-programmers": {
         "author": "Simon Robinson",
+        "author_info": "",
         "date": "Aug 26 2013",
+        "description": "",
         "length": 316,
         "level": "Intermediate",
         "rating": 438,
@@ -58263,7 +58483,9 @@
     },
     "maya-animating-walk-cycle": {
         "author": "Brett Vanderkist",
+        "author_info": "",
         "date": "Mar 21 2018",
+        "description": "",
         "length": 213,
         "level": "Beginner",
         "rating": 14,
@@ -59757,7 +59979,9 @@
     },
     "microservices-architecture": {
         "author": "Rag Dhiman",
+        "author_info": "",
         "date": "Nov 2 2015",
+        "description": "",
         "length": 144,
         "level": "Intermediate",
         "rating": 1202,
@@ -59841,10 +60065,12 @@
     },
     "microsoft-365-security-concepts": {
         "author": "Vlad Catrinescu",
+        "author_info": "",
         "date": "Jul 10 2019",
+        "description": "",
         "length": 63,
         "level": "Beginner",
-        "rating": 27,
+        "rating": 28,
         "title": "Microsoft 365 Security Concepts",
         "url": "https://www.pluralsight.com/courses/microsoft-365-security-concepts"
     },
@@ -60389,7 +60615,9 @@
     },
     "microsoft-azure-cognitive-services-big-picture": {
         "author": "Barry Luijbregts",
+        "author_info": "",
         "date": "Jan 12 2018",
+        "description": "",
         "length": 50,
         "level": "Beginner",
         "rating": 63,
@@ -60530,7 +60758,9 @@
     },
     "microsoft-azure-cognitive-services-speech-text-sdk": {
         "author": "Jared Rhodes",
+        "author_info": "",
         "date": "May 2 2019",
+        "description": "",
         "length": 79,
         "level": "Beginner",
         "rating": "",
@@ -60900,7 +61130,9 @@
     },
     "microsoft-azure-data-storage-service-selecting": {
         "author": "Gary Grudzinskas",
+        "author_info": "",
         "date": "Sep 23 2019",
+        "description": "",
         "length": 70,
         "level": "Beginner",
         "rating": 22,
@@ -61514,7 +61746,9 @@
     },
     "microsoft-azure-implementing-relational-database-solutions": {
         "author": "Reza Salehi",
+        "author_info": "",
         "date": "Aug 8 2019",
+        "description": "",
         "length": 170,
         "level": "Intermediate",
         "rating": 18,
@@ -63556,7 +63790,9 @@
     },
     "microsoft-ignite-session-37": {
         "author": "Microsoft Ignite 2019",
+        "author_info": "",
         "date": "Feb 12 2020",
+        "description": "",
         "length": 39,
         "level": "Advanced",
         "rating": "",
@@ -64511,7 +64747,9 @@
     },
     "microstrategy-collecting-preparing-data": {
         "author": "David Schieber",
+        "author_info": "",
         "date": "Apr 18 2019",
+        "description": "",
         "length": 82,
         "level": "Beginner",
         "rating": "",
@@ -64784,7 +65022,9 @@
     },
     "mocha-javascript-testing-nodejs": {
         "author": "Jonathan Mills",
+        "author_info": "",
         "date": "May 4 2017",
+        "description": "",
         "length": 148,
         "level": "Intermediate",
         "rating": 93,
@@ -65768,7 +66008,9 @@
     },
     "modern-browser-security-reports": {
         "author": "Troy Hunt",
+        "author_info": "",
         "date": "Aug 3 2018",
+        "description": "",
         "length": 57,
         "level": "Beginner",
         "rating": 34,
@@ -66556,7 +66798,9 @@
     },
     "multi-page-brochure-layout-indesign-2024": {
         "author": "Alex Hernandez",
+        "author_info": "",
         "date": "Mar 22 2015",
+        "description": "",
         "length": 98,
         "level": "Beginner",
         "rating": 115,
@@ -68917,7 +69161,9 @@
     },
     "nukex-introduction-particles-2555": {
         "author": "Florian Girardot",
+        "author_info": "",
         "date": "Aug 22 2016",
+        "description": "",
         "length": 78,
         "level": "Advanced",
         "rating": 21,
@@ -69595,7 +69841,9 @@
     },
     "on-prem-resources-aws-infrastructure": {
         "author": "David Clinton",
+        "author_info": "",
         "date": "May 31 2018",
+        "description": "",
         "length": 47,
         "level": "Intermediate",
         "rating": 12,
@@ -69648,7 +69896,9 @@
     },
     "onedrive-for-business": {
         "author": "Heather Fitzpatrick",
+        "author_info": "",
         "date": "Apr 13 2016",
+        "description": "",
         "length": 60,
         "level": "Beginner",
         "rating": 16,
@@ -69701,7 +69951,9 @@
     },
     "onshape-drawing-fundamentals": {
         "author": "Charles Macdonald",
+        "author_info": "",
         "date": "Jan 31 2017",
+        "description": "",
         "length": 63,
         "level": "Beginner",
         "rating": "",
@@ -69842,7 +70094,9 @@
     },
     "openstack-cloud-storage-drbd": {
         "author": "Andrew Mallett",
+        "author_info": "",
         "date": "Sep 12 2017",
+        "description": "",
         "length": 225,
         "level": "Advanced",
         "rating": "",
@@ -70269,10 +70523,12 @@
     },
     "oracle-database-12c-fundamentals": {
         "author": "Tim Warner",
+        "author_info": "",
         "date": "Jun 28 2014",
+        "description": "",
         "length": 222,
         "level": "Beginner",
-        "rating": 300,
+        "rating": 301,
         "title": "Oracle Database 12c Fundamentals",
         "url": "https://www.pluralsight.com/courses/oracle-database-12c-fundamentals"
     },
@@ -74509,7 +74765,9 @@
     },
     "play-by-play-visual-studio-code-can-do-that": {
         "author": "Burke Holland",
+        "author_info": "",
         "date": "May 15 2018",
+        "description": "",
         "length": 89,
         "level": "Beginner",
         "rating": 91,
@@ -75211,7 +75469,9 @@
     },
     "poseable-2d-char-illustrator-2004": {
         "author": "Alex Hernandez",
+        "author_info": "",
         "date": "Mar 7 2015",
+        "description": "",
         "length": 98,
         "level": "Beginner",
         "rating": "",
@@ -76133,10 +76393,12 @@
     },
     "practical-encryption-and-cryptography-using-python": {
         "author": "Gus Khawaja",
+        "author_info": "",
         "date": "Aug 23 2018",
+        "description": "",
         "length": 144,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Practical Encryption and Cryptography Using Python",
         "url": "https://www.pluralsight.com/courses/practical-encryption-and-cryptography-using-python"
     },
@@ -78932,10 +79194,12 @@
     },
     "qlik-sense-load-prepare-data": {
         "author": "Dixit Patel",
+        "author_info": "",
         "date": "May 1 2019",
+        "description": "",
         "length": 137,
         "level": "Beginner",
-        "rating": "",
+        "rating": 11,
         "title": "Loading and Preparing Data for Analysis in Qlik Sense",
         "url": "https://www.pluralsight.com/courses/qlik-sense-load-prepare-data"
     },
@@ -79810,7 +80074,9 @@
     },
     "quick-startaevolume-4-1267": {
         "author": "Laura Hawk",
+        "author_info": "",
         "date": "Sep 9 2013",
+        "description": "",
         "length": 234,
         "level": "Beginner",
         "rating": "",
@@ -80138,7 +80404,9 @@
     },
     "rapid-javascript-training": {
         "author": "Mark Zamoyta",
+        "author_info": "",
         "date": "Jan 7 2016",
+        "description": "",
         "length": 343,
         "level": "Intermediate",
         "rating": 576,
@@ -80279,7 +80547,9 @@
     },
     "react-express-full-stack-app-building": {
         "author": "Daniel Stern",
+        "author_info": "",
         "date": "Feb 7 2019",
+        "description": "",
         "length": 193,
         "level": "Advanced",
         "rating": 86,
@@ -80475,7 +80745,9 @@
     },
     "reading-legacy-cplusplus": {
         "author": "Kate Gregory",
+        "author_info": "",
         "date": "Feb 10 2020",
+        "description": "",
         "length": 59,
         "level": "Intermediate",
         "rating": 14,
@@ -81217,7 +81489,9 @@
     },
     "rendering-an-arch-night-scene-v-ray-photoshop-1358": {
         "author": "Pedro Fernandes",
+        "author_info": "",
         "date": "Oct 14 2013",
+        "description": "",
         "length": 145,
         "level": "Advanced",
         "rating": "",
@@ -82331,7 +82605,9 @@
     },
     "revit-curtain-wall-systems": {
         "author": "Evan Anderson-Decina",
+        "author_info": "",
         "date": "Jan 26 2016",
+        "description": "",
         "length": 103,
         "level": "Intermediate",
         "rating": "",
@@ -82384,7 +82660,9 @@
     },
     "revit-essentials-mep-systems-modeling-documenting": {
         "author": "Troy Crandell",
+        "author_info": "",
         "date": "Nov 28 2016",
+        "description": "",
         "length": 155,
         "level": "Beginner",
         "rating": "",
@@ -82591,7 +82869,9 @@
     },
     "rib-archives-renderman-maya-195": {
         "author": "Sunder Iyer",
+        "author_info": "",
         "date": "Sep 17 2009",
+        "description": "",
         "length": 47,
         "level": "Intermediate",
         "rating": "",
@@ -83498,7 +83778,9 @@
     },
     "rxjs-big-picture": {
         "author": "Brice Wilson",
+        "author_info": "",
         "date": "Mar 5 2019",
+        "description": "",
         "length": 62,
         "level": "Beginner",
         "rating": 91,
@@ -85113,7 +85395,9 @@
     },
     "sculpting-workflows-mudbox-88": {
         "author": "Justin Marshall",
+        "author_info": "",
         "date": "Aug 2 2011",
+        "description": "",
         "length": 89,
         "level": "Beginner",
         "rating": "",
@@ -85881,7 +86165,9 @@
     },
     "security-event-triage-detecting-system-anomalies": {
         "author": "Aaron Rosenmund",
+        "author_info": "",
         "date": "Jul 22 2019",
+        "description": "",
         "length": 107,
         "level": "Advanced",
         "rating": "",
@@ -86891,7 +87177,9 @@
     },
     "sharepoint-2013-adv-solutions-pt1": {
         "author": "Jeff Adkin",
+        "author_info": "",
         "date": "Jun 24 2013",
+        "description": "",
         "length": 305,
         "level": "Advanced",
         "rating": 147,
@@ -87417,7 +87705,9 @@
     },
     "sharepoint-conference-2019-session-24": {
         "author": "SharePoint Conference",
+        "author_info": "",
         "date": "Jun 17 2019",
+        "description": "",
         "length": 64,
         "level": "Intermediate",
         "rating": "",
@@ -88229,7 +88519,9 @@
     },
     "sharing-securing-content-microstrategy": {
         "author": "Erik Whitaker",
+        "author_info": "",
         "date": "Aug 2 2019",
+        "description": "",
         "length": 100,
         "level": "Beginner",
         "rating": "",
@@ -89767,7 +90059,9 @@
     },
     "solid-software-design-principles-java": {
         "author": "Dan Geabunea",
+        "author_info": "",
         "date": "Jun 25 2019",
+        "description": "",
         "length": 120,
         "level": "Intermediate",
         "rating": 99,
@@ -89831,7 +90125,9 @@
     },
     "solidworks-consumer-product-surfacing-design-techniques": {
         "author": "Matt Perez",
+        "author_info": "",
         "date": "Jun 7 2017",
+        "description": "",
         "length": 224,
         "level": "Advanced",
         "rating": "",
@@ -89873,7 +90169,9 @@
     },
     "solidworks-design-mill-manufacturing": {
         "author": "Matt Perez",
+        "author_info": "",
         "date": "Jun 14 2017",
+        "description": "",
         "length": 135,
         "level": "Beginner",
         "rating": "",
@@ -90047,7 +90345,9 @@
     },
     "solidworks-get-started-surface-modeling": {
         "author": "Tim Strange",
+        "author_info": "",
         "date": "Jul 12 2017",
+        "description": "",
         "length": 70,
         "level": "Advanced",
         "rating": "",
@@ -90628,7 +90928,9 @@
     },
     "splunk-big-picture": {
         "author": "Thomas Henson",
+        "author_info": "",
         "date": "Dec 23 2019",
+        "description": "",
         "length": 101,
         "level": "Beginner",
         "rating": "",
@@ -91792,7 +92094,9 @@
     },
     "sqlserver-basicxevents": {
         "author": "Jonathan Kehayias",
+        "author_info": "",
         "date": "Sep 25 2012",
+        "description": "",
         "length": 300,
         "level": "Intermediate",
         "rating": 209,
@@ -92010,7 +92314,9 @@
     },
     "sqlserver-optimizing-adhoc-statement-performance": {
         "author": "Kimberly L. Tripp",
+        "author_info": "",
         "date": "Dec 6 2013",
+        "description": "",
         "length": 435,
         "level": "Intermediate",
         "rating": 393,
@@ -92699,7 +93005,9 @@
     },
     "staying-organized-while-char-concepts-photoshop-2107": {
         "author": "Alex Kosakowski",
+        "author_info": "",
         "date": "May 30 2015",
+        "description": "",
         "length": 137,
         "level": "Advanced",
         "rating": "",
@@ -93027,7 +93335,9 @@
     },
     "stylized-female-char-concepts-photoshop-610": {
         "author": "Eddie Russell",
+        "author_info": "",
         "date": "Jan 2 2012",
+        "description": "",
         "length": 221,
         "level": "Intermediate",
         "rating": "",
@@ -93047,7 +93357,9 @@
     },
     "stylized-females-cinema-4d-468": {
         "author": "Justin Marshall",
+        "author_info": "",
         "date": "Jan 3 2011",
+        "description": "",
         "length": 274,
         "level": "Intermediate",
         "rating": "",
@@ -93111,7 +93423,9 @@
     },
     "stylized-set-element-games-maya-1420": {
         "author": "Stanislav Poritskiy",
+        "author_info": "",
         "date": "Dec 9 2013",
+        "description": "",
         "length": 467,
         "level": "Intermediate",
         "rating": 13,
@@ -93351,7 +93665,9 @@
     },
     "summarizing-organizing-data-excel": {
         "author": "Ben Howard",
+        "author_info": "",
         "date": "Aug 20 2019",
+        "description": "",
         "length": 63,
         "level": "Beginner",
         "rating": "",
@@ -93910,10 +94226,12 @@
     },
     "swords-shovels-combat-system": {
         "author": "Marc Gilbert",
+        "author_info": "",
         "date": "Jun 8 2018",
+        "description": "",
         "length": 104,
         "level": "Intermediate",
-        "rating": 30,
+        "rating": 31,
         "title": "Swords and Shovels: Combat System",
         "url": "https://www.pluralsight.com/courses/swords-shovels-combat-system"
     },
@@ -95096,7 +95414,9 @@
     },
     "terrains-vue-761": {
         "author": "Joshua Kinney",
+        "author_info": "",
         "date": "Jul 1 2012",
+        "description": "",
         "length": 81,
         "level": "Intermediate",
         "rating": "",
@@ -95182,7 +95502,9 @@
     },
     "testable-windows-8": {
         "author": "Aaron Powell",
+        "author_info": "",
         "date": "Jan 28 2013",
+        "description": "",
         "length": 180,
         "level": "Intermediate",
         "rating": 26,
@@ -99090,7 +99412,9 @@
     },
     "unity-2017-audio-fundamentals": {
         "author": "Dano Kablamo",
+        "author_info": "",
         "date": "Nov 17 2018",
+        "description": "",
         "length": 115,
         "level": "Beginner",
         "rating": 25,
@@ -99209,7 +99533,9 @@
     },
     "unity-2d-physics-fundamentals": {
         "author": "Michael Taylor",
+        "author_info": "",
         "date": "Dec 21 2017",
+        "description": "",
         "length": 93,
         "level": "Beginner",
         "rating": 17,
@@ -99240,7 +99566,9 @@
     },
     "unity-5-authoring-sci-fi-visual-effects-2552": {
         "author": "Michael Baker",
+        "author_info": "",
         "date": "Nov 29 2016",
+        "description": "",
         "length": 141,
         "level": "Intermediate",
         "rating": 14,
@@ -99942,7 +100270,9 @@
     },
     "unity-unit-testing-game-development": {
         "author": "Alexandru Dima",
+        "author_info": "",
         "date": "Jan 24 2019",
+        "description": "",
         "length": 106,
         "level": "Intermediate",
         "rating": "",
@@ -100050,7 +100380,9 @@
     },
     "unreal-designing-motion-controller-experiences": {
         "author": "Nathan Glemboski",
+        "author_info": "",
         "date": "Dec 14 2016",
+        "description": "",
         "length": 104,
         "level": "Intermediate",
         "rating": "",
@@ -100873,7 +101205,9 @@
     },
     "using-multi-map-exporter-zbrush-519": {
         "author": "Justin Marshall",
+        "author_info": "",
         "date": "Apr 4 2011",
+        "description": "",
         "length": 32,
         "level": "Intermediate",
         "rating": "",
@@ -101663,7 +101997,9 @@
     },
     "uwp-audio-fundamentals": {
         "author": "Mark Heath",
+        "author_info": "",
         "date": "Aug 8 2016",
+        "description": "",
         "length": 191,
         "level": "Intermediate",
         "rating": 16,
@@ -102200,7 +102536,9 @@
     },
     "visual-communication-technical-diagrams": {
         "author": "Amber Israelsen",
+        "author_info": "",
         "date": "Jul 31 2017",
+        "description": "",
         "length": 99,
         "level": "Beginner",
         "rating": 34,
@@ -102319,7 +102657,9 @@
     },
     "visual-studio-2019-code-analysis": {
         "author": "Alex Wolf",
+        "author_info": "",
         "date": "Jun 6 2019",
+        "description": "",
         "length": 77,
         "level": "Intermediate",
         "rating": 33,
@@ -102548,7 +102888,9 @@
     },
     "vmw-ws1-cloud-based-on-premises-architectures": {
         "author": "Greg Shields",
+        "author_info": "",
         "date": "Feb 26 2019",
+        "description": "",
         "length": 60,
         "level": "Intermediate",
         "rating": "",
@@ -103096,7 +103438,9 @@
     },
     "vmware-vsphere-4-installing": {
         "author": "David Davis",
+        "author_info": "",
         "date": "Aug 18 2009",
+        "description": "",
         "length": 345,
         "level": "Intermediate",
         "rating": "",
@@ -103127,7 +103471,9 @@
     },
     "vmware-vsphere-5-adv-ft": {
         "author": "David Davis",
+        "author_info": "",
         "date": "Aug 29 2011",
+        "description": "",
         "length": 364,
         "level": "Intermediate",
         "rating": 71,
@@ -105831,7 +106177,9 @@
     },
     "windows-2000-server-windows-web-servers": {
         "author": "Scott Skinger",
+        "author_info": "",
         "date": "Jan 3 2003",
+        "description": "",
         "length": 157,
         "level": "Intermediate",
         "rating": "",
@@ -107510,7 +107858,9 @@
     },
     "windows-server-2016-distributed-networking-services-implementing": {
         "author": "Peter Grant",
+        "author_info": "",
         "date": "Apr 14 2017",
+        "description": "",
         "length": 190,
         "level": "Intermediate",
         "rating": 16,
@@ -107684,7 +108034,9 @@
     },
     "windows-server-2019-installing": {
         "author": "Greg Shields",
+        "author_info": "",
         "date": "Jun 27 2019",
+        "description": "",
         "length": 121,
         "level": "Intermediate",
         "rating": 12,
@@ -109332,7 +109684,9 @@
     },
     "xaml-getting-started": {
         "author": "Thomas Claudius Huber",
+        "author_info": "",
         "date": "Feb 27 2019",
+        "description": "",
         "length": 316,
         "level": "Beginner",
         "rating": 53,
@@ -109528,7 +109882,9 @@
     },
     "xslt-foundations-part1": {
         "author": "Dimitre Novatchev",
+        "author_info": "",
         "date": "Feb 19 2014",
+        "description": "",
         "length": 525,
         "level": "Intermediate",
         "rating": 216,
@@ -109548,7 +109904,9 @@
     },
     "yammer-2020": {
         "author": "ClipTraining",
+        "author_info": "",
         "date": "Apr 17 2020",
+        "description": "",
         "length": 108,
         "level": "Beginner",
         "rating": "",
@@ -109667,7 +110025,9 @@
     },
     "your-first-day-mari-1468": {
         "author": "Eddie Russell",
+        "author_info": "",
         "date": "Feb 14 2015",
+        "description": "",
         "length": 198,
         "level": "Advanced",
         "rating": "",
