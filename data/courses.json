@@ -17775,6 +17775,17 @@
         "title": "CCSP®: Cloud Architecture and Concepts",
         "url": "https://www.pluralsight.com/courses/ccsp-cloud-architecture-concepts"
     },
+    "ccsp-cloud-data-security-lifecycle": {
+        "author": "Kevin Henry",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 138,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "CCSP®: Cloud Data and Security Lifecycle",
+        "url": "https://www.pluralsight.com/courses/ccsp-cloud-data-security-lifecycle"
+    },
     "ccsp-cloud-governance-data-privacy-audit": {
         "author": "Lyron Andrews",
         "author_info": "",
@@ -57115,6 +57126,17 @@
         "rating": "",
         "title": "Managing Files with Node.js",
         "url": "https://www.pluralsight.com/courses/managing-files-node-js"
+    },
+    "managing-files-using-bash-z-shell": {
+        "author": "Mateo Prigl",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 124,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Managing Files Using Bash and Z Shell",
+        "url": "https://www.pluralsight.com/courses/managing-files-using-bash-z-shell"
     },
     "managing-hashicorp-vault": {
         "author": "Ned Bellavance",

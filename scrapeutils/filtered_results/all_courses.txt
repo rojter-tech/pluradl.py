@@ -1614,6 +1614,7 @@ ccna-routing-vlans
 ccnp-wireless-site-survey-pt1
 ccnp-wireless-site-survey-pt2
 ccsp-cloud-architecture-concepts
+ccsp-cloud-data-security-lifecycle
 ccsp-cloud-governance-data-privacy-audit
 ccsp-cloud-infrastructure-security
 ccsp-cloud-physical-logical-infrastructure
@@ -5191,6 +5192,7 @@ managing-devices-configuration-profiles-actc-10-11
 managing-dhcp-using-powershell
 managing-excel-workbooks-analytics
 managing-files-node-js
+managing-files-using-bash-z-shell
 managing-hashicorp-vault
 managing-hyper-v-using-vmware
 managing-infrastructure-microsoft-azure-getting-started
