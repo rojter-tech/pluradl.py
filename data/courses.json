@@ -15685,6 +15685,17 @@
         "title": "Building Mobile Web Sites Using Web Forms, Bootstrap, and HTML5",
         "url": "https://www.pluralsight.com/courses/building-mobile-web-sites-web-forms-bootstrap-html5"
     },
+    "building-modern-ci-cd-pipeline-jenkins": {
+        "author": "Chris Blackden",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 107,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Building a Modern CI/CD Pipeline with Jenkins",
+        "url": "https://www.pluralsight.com/courses/building-modern-ci-cd-pipeline-jenkins"
+    },
     "building-modern-navigation-designs-photoshop-html-2279": {
         "author": "Gary Simon",
         "author_info": "",
@@ -25626,6 +25637,17 @@
         "rating": 70,
         "title": "Creating Web Applications with Go",
         "url": "https://www.pluralsight.com/courses/creating-web-applications-go-update"
+    },
+    "creating-web-services-go": {
+        "author": "Alex Schultz",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 150,
+        "level": "Intermediate",
+        "rating": "",
+        "title": "Creating Web Services with Go",
+        "url": "https://www.pluralsight.com/courses/creating-web-services-go"
     },
     "creating-workflow-actions-splunk": {
         "author": "Joe Abraham",

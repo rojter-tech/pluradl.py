@@ -1424,6 +1424,7 @@ building-mobile-applications-azure-signalr-mvc
 building-mobile-apps-ionic-framework-angularjs
 building-mobile-apps-visual-studio-apache-cordova
 building-mobile-web-sites-web-forms-bootstrap-html5
+building-modern-ci-cd-pipeline-jenkins
 building-modern-navigation-designs-photoshop-html-2279
 building-multi-client-end-to-end-service-oriented-applications
 building-multi-client-end-to-end-soa-angular
@@ -2328,6 +2329,7 @@ creating-visualizations-r-ggplot2-playbook
 creating-voice-chatbots-work-everywhere
 creating-web-apis-developers-love
 creating-web-applications-go-update
+creating-web-services-go
 creating-workflow-actions-splunk
 creation-integration-display-font-illustrator-1139
 creational-design-patterns-swift-5
