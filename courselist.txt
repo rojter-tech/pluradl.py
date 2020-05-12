@@ -2702,6 +2702,7 @@ developing-html5-games-construct-2-2377
 developing-implementing-vulnerability-management-programs
 developing-javascript-single-page-applications-protected-azure-active-directory
 developing-killer-personal-brand
+developing-mobile-applications-protected-azure-active-directory
 developing-nodejs-microsoft-azure-getting-started
 developing-nodejs-microsoft-azure-getting-started-update
 developing-project-schedules-budgets
