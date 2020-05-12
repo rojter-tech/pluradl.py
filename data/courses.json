@@ -5242,7 +5242,7 @@
         "description": "",
         "length": 289,
         "level": "Intermediate",
-        "rating": 490,
+        "rating": 491,
         "title": "Angular Routing",
         "url": "https://www.pluralsight.com/courses/angular-routing"
     },
@@ -7739,7 +7739,7 @@
         "description": "",
         "length": 302,
         "level": "Beginner",
-        "rating": 123,
+        "rating": 125,
         "title": "Building a RESTful API with ASP.NET Core 3",
         "url": "https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building"
     },
@@ -7882,7 +7882,7 @@
         "description": "",
         "length": 345,
         "level": "Beginner",
-        "rating": 112,
+        "rating": 113,
         "title": "ASP.NET MVC 5 Fundamentals",
         "url": "https://www.pluralsight.com/courses/asp-net-mvc5-web-apps"
     },
@@ -22316,7 +22316,9 @@
     },
     "compositing-3d-text-live-action-cinewareaecinema-4d-1367": {
         "author": "Laura Hawk",
+        "author_info": "",
         "date": "Nov 4 2013",
+        "description": "",
         "length": 144,
         "level": "Intermediate",
         "rating": "",
@@ -27240,10 +27242,12 @@
     },
     "data-science-executive-briefing": {
         "author": "Matthew Renze",
+        "author_info": "",
         "date": "Nov 16 2018",
+        "description": "",
         "length": 27,
         "level": "Beginner",
-        "rating": 104,
+        "rating": 105,
         "title": "Data Science: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/data-science-executive-briefing"
     },
@@ -36228,7 +36232,7 @@
         "description": "",
         "length": 125,
         "level": "Beginner",
-        "rating": 49,
+        "rating": 50,
         "title": "Excel 2019 Essentials",
         "url": "https://www.pluralsight.com/courses/excel-2019-essentials"
     },
@@ -38604,7 +38608,7 @@
         "description": "",
         "length": 73,
         "level": "Beginner",
-        "rating": 64,
+        "rating": 65,
         "title": "Flutter: The Big Picture",
         "url": "https://www.pluralsight.com/courses/flutter-big-picture"
     },
@@ -41189,7 +41193,7 @@
         "description": "",
         "length": 187,
         "level": "Beginner",
-        "rating": 25,
+        "rating": 26,
         "title": "Getting Started with HashiCorp Vault",
         "url": "https://www.pluralsight.com/courses/getting-started-hashicorp-vault"
     },
@@ -41530,7 +41534,7 @@
         "description": "",
         "length": 194,
         "level": "Beginner",
-        "rating": 311,
+        "rating": 312,
         "title": "Getting Started with Power BI",
         "url": "https://www.pluralsight.com/courses/getting-started-power-bi"
     },
@@ -46018,7 +46022,7 @@
         "description": "",
         "length": 175,
         "level": "Intermediate",
-        "rating": 16,
+        "rating": 17,
         "title": "Implementing Terraform on Microsoft Azure",
         "url": "https://www.pluralsight.com/courses/implementing-terraform-microsoft-azure"
     },
@@ -52992,7 +52996,7 @@
         "description": "",
         "length": 319,
         "level": "Beginner",
-        "rating": 630,
+        "rating": 631,
         "title": "Building a JavaScript Development Environment",
         "url": "https://www.pluralsight.com/courses/javascript-development-environment"
     },
@@ -55016,7 +55020,7 @@
         "description": "",
         "length": 403,
         "level": "Beginner",
-        "rating": 246,
+        "rating": 247,
         "title": "Learning the Essentials of CentOS Enterprise Linux 7 Administration",
         "url": "https://www.pluralsight.com/courses/lfcs-red-hat-7-essentials"
     },
@@ -57509,7 +57513,7 @@
         "description": "",
         "length": 150,
         "level": "Intermediate",
-        "rating": 40,
+        "rating": 41,
         "title": "Managing Technical Professionals",
         "url": "https://www.pluralsight.com/courses/managing-technical-professionals"
     },
@@ -60983,7 +60987,7 @@
         "description": "",
         "length": 88,
         "level": "Intermediate",
-        "rating": 32,
+        "rating": 33,
         "title": "Microsoft Azure DevOps Engineer: Creating an Automated Build Workflow",
         "url": "https://www.pluralsight.com/courses/microsoft-azure-creating-automated-build-workflow"
     },
@@ -63574,7 +63578,9 @@
     },
     "microsoft-ignite-session-12": {
         "author": "Microsoft Ignite 2019",
+        "author_info": "",
         "date": "Feb 12 2020",
+        "description": "",
         "length": 44,
         "level": "Beginner",
         "rating": "",
@@ -78301,7 +78307,9 @@
     },
     "protocol-deep-dive-ospf": {
         "author": "Sean Wilkins",
+        "author_info": "",
         "date": "Oct 7 2019",
+        "description": "",
         "length": 222,
         "level": "Intermediate",
         "rating": "",
@@ -80471,7 +80479,7 @@
         "description": "",
         "length": 255,
         "level": "Intermediate",
-        "rating": 392,
+        "rating": 393,
         "title": "Rapid ES6 Training",
         "url": "https://www.pluralsight.com/courses/rapid-es6-training"
     },
@@ -80735,7 +80743,7 @@
         "description": "",
         "length": 399,
         "level": "Intermediate",
-        "rating": 1508,
+        "rating": 1509,
         "title": "Building Applications with React and Redux",
         "url": "https://www.pluralsight.com/courses/react-redux-react-router-es6"
     },
@@ -85958,7 +85966,7 @@
         "description": "",
         "length": 101,
         "level": "Advanced",
-        "rating": 14,
+        "rating": 15,
         "title": "Securing Spring Data REST APIs",
         "url": "https://www.pluralsight.com/courses/securing-spring-data-rest-apis"
     },
@@ -90864,7 +90872,7 @@
         "description": "",
         "length": 342,
         "level": "Beginner",
-        "rating": 33,
+        "rating": 34,
         "title": "Developing Spark Applications Using Scala & Cloudera",
         "url": "https://www.pluralsight.com/courses/spark-scala-cloudera"
     },
@@ -91106,7 +91114,7 @@
         "description": "",
         "length": 75,
         "level": "Beginner",
-        "rating": 351,
+        "rating": 352,
         "title": "Spring: The Big Picture",
         "url": "https://www.pluralsight.com/courses/spring-big-picture"
     },
@@ -91194,7 +91202,7 @@
         "description": "",
         "length": 166,
         "level": "Intermediate",
-        "rating": 21,
+        "rating": 22,
         "title": "Spring Framework: Spring Data MongoDB",
         "url": "https://www.pluralsight.com/courses/spring-framework-data-mongodb"
     },
@@ -97752,8 +97760,10 @@
     },
     "tq-blockchain": {
         "author": "Pluralsight",
+        "author_info": "",
         "date": "May 7 2020",
-        "length": 42,
+        "description": "",
+        "length": 76,
         "level": "Beginner",
         "rating": "",
         "title": "TQ Blockchain",
@@ -98569,7 +98579,7 @@
         "description": "",
         "length": 44,
         "level": "Beginner",
-        "rating": 137,
+        "rating": 139,
         "title": "TypeScript: The Big Picture",
         "url": "https://www.pluralsight.com/courses/typescript-big-picture"
     },
@@ -99163,7 +99173,7 @@
         "description": "",
         "length": 81,
         "level": "Intermediate",
-        "rating": 86,
+        "rating": 87,
         "title": "Understanding the Java Virtual Machine: Security",
         "url": "https://www.pluralsight.com/courses/understanding-java-vm-security"
     },
@@ -99515,7 +99525,7 @@
         "description": "",
         "length": 163,
         "level": "Beginner",
-        "rating": 167,
+        "rating": 168,
         "title": "Unity C# Scripting Fundamentals",
         "url": "https://www.pluralsight.com/courses/unity-2017-c-sharp-scripting-fundamentals"
     },
@@ -107144,7 +107154,9 @@
     },
     "windows-server-2008-active-directory-pt3": {
         "author": "Ed Liberman",
+        "author_info": "",
         "date": "Nov 10 2010",
+        "description": "",
         "length": 229,
         "level": "Intermediate",
         "rating": 71,
