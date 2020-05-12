@@ -198,6 +198,8 @@ def get_course_dictionary(course_texts):
     thiscourse["date"] = course_texts[5].strip()
     thiscourse["length"] = course_texts[6]
     thiscourse["rating"] = course_texts[7]
+    thiscourse["description"] = ""
+    thiscourse["author_info"] = ""
     return thiscourse
 
 
