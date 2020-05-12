@@ -161,5 +161,7 @@ def get_course_elements_texts(course_elements):
     date = course_elements[3].get_text()
     length = get_length(course_elements[4].get_text())
     rating = get_rating(course_elements[5])
-    return courseid, url, title, author, level, date, length, rating
+    description = ""
+    author_info = ""
+    return courseid, url, title, author, level, date, length, rating, description, author_info
 
