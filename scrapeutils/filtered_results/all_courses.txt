@@ -875,6 +875,7 @@ aws-certified-sysops-admin-associate
 aws-cloud-security-monitoring
 aws-command-line-interface-mastering-operations
 aws-comprehend-analyzing-text
+aws-compute-deep-dive
 aws-config-inventory-change-compliance
 aws-course
 aws-database-amazon-elasticache
