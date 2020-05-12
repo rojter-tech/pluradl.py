@@ -23814,7 +23814,9 @@
     },
     "continuous-delivery-automation-aws-certified-devops-engineer": {
         "author": "Mike Pfeiffer",
+        "author_info": "",
         "date": "Apr 28 2016",
+        "description": "",
         "length": 256,
         "level": "Advanced",
         "rating": 126,
@@ -58491,7 +58493,9 @@
     },
     "maya-2019-fundamentals-rigging-animation": {
         "author": "Mark Masters",
+        "author_info": "",
         "date": "Jun 29 2019",
+        "description": "",
         "length": 245,
         "level": "Beginner",
         "rating": "",
