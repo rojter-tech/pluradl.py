@@ -8080,7 +8080,7 @@
         "description": "",
         "length": 199,
         "level": "Intermediate",
-        "rating": 95,
+        "rating": 96,
         "title": "Building a Website with React and ASP.NET Core",
         "url": "https://www.pluralsight.com/courses/aspdotnet-core-react-building-website"
     },
@@ -16869,7 +16869,7 @@
         "description": "",
         "length": 24,
         "level": "Intermediate",
-        "rating": 28,
+        "rating": 29,
         "title": "C# Design Patterns: Adapter",
         "url": "https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter"
     },
@@ -17034,7 +17034,7 @@
         "description": "",
         "length": 97,
         "level": "Intermediate",
-        "rating": 89,
+        "rating": 90,
         "title": "Error Handling in C# with Exceptions",
         "url": "https://www.pluralsight.com/courses/c-sharp-error-handling-exceptions"
     },
@@ -20615,7 +20615,9 @@
     },
     "code-school-try-python": {
         "author": "Sarah Holderness",
+        "author_info": "",
         "date": "Jan 28 2016",
+        "description": "",
         "length": 31,
         "level": "Beginner",
         "rating": 27,
@@ -30861,7 +30863,9 @@
     },
     "django-angularjs-web-development": {
         "author": "Reindert-Jan Ekker",
+        "author_info": "",
         "date": "Nov 7 2016",
+        "description": "",
         "length": 222,
         "level": "Intermediate",
         "rating": 61,
@@ -52303,7 +52307,7 @@
         "description": "",
         "length": 255,
         "level": "Intermediate",
-        "rating": 661,
+        "rating": 662,
         "title": "What's New in Java 8",
         "url": "https://www.pluralsight.com/courses/java-8-whats-new"
     },
@@ -53249,7 +53253,7 @@
         "description": "",
         "length": 81,
         "level": "Intermediate",
-        "rating": 127,
+        "rating": 128,
         "title": "JavaScript Promises and Async Programming",
         "url": "https://www.pluralsight.com/courses/javascript-promises-async-programming"
     },
@@ -83664,7 +83668,9 @@
     },
     "ruby-fundamentals": {
         "author": "Alex Korban",
+        "author_info": "",
         "date": "Jun 20 2013",
+        "description": "",
         "length": 222,
         "level": "Intermediate",
         "rating": 547,
