@@ -1242,6 +1242,7 @@ blender-rendering-cycles-introduction
 blending-3d-models-paintings-photoshop-2159
 blending-between-keyframe-animation-mocap-motionbuilder-maya-1952
 blizzard-environment-unreal-engine-2203
+blockchain-executive-briefing
 blockchain-fundamentals
 blockchain-principles-practices
 blog-ghost-1735
@@ -2189,6 +2190,7 @@ cordova-apps-angular-typescript-vscode
 core-components-power-platform
 core-data-fundamentals
 core-python-functions-functional-programming
+core-python-hashing-more-collections
 core-python-numeric-types-dates-times
 core-python-organizing-larger-programs
 coreos-getting-started
@@ -2313,6 +2315,7 @@ creating-list-based-screens-xamarin-forms
 creating-living-style-guide-sass-vanilla-javascript
 creating-machine-learning-models
 creating-managing-custom-standard-objects-salesforce
+creating-managing-first-couchbase-cluster
 creating-mixed-media-illustration-photoshop-painter-2139
 creating-mobile-apps-hybrid-cross-platform-native
 creating-mobile-games-gamesalad
@@ -5198,6 +5201,7 @@ managing-hyper-v-using-vmware
 managing-infrastructure-microsoft-azure-getting-started
 managing-ingress-traffic-patterns-kubernetes-services
 managing-it-services-with-itil-executive-briefing
+managing-jobs-processes-bash-z-shell
 managing-kubernetes-api-server-pods
 managing-kubernetes-controllers-deployments
 managing-line-weights-linetype-autocad-1742

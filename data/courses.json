@@ -13683,6 +13683,17 @@
         "title": "Creating a Blizzard Environment in Unreal Engine",
         "url": "https://www.pluralsight.com/courses/blizzard-environment-unreal-engine-2203"
     },
+    "blockchain-executive-briefing": {
+        "author": "Simon Allardice",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 37,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Blockchain: Executive Briefing",
+        "url": "https://www.pluralsight.com/courses/blockchain-executive-briefing"
+    },
     "blockchain-fundamentals": {
         "author": "Jan-Erik Sandberg",
         "author_info": "",
@@ -24098,6 +24109,17 @@
         "title": "Core Python: Functions and Functional Programming",
         "url": "https://www.pluralsight.com/courses/core-python-functions-functional-programming"
     },
+    "core-python-hashing-more-collections": {
+        "author": "Jon Flanders",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 93,
+        "level": "Advanced",
+        "rating": "",
+        "title": "Core Python: Hashing and More Collections",
+        "url": "https://www.pluralsight.com/courses/core-python-hashing-more-collections"
+    },
     "core-python-numeric-types-dates-times": {
         "author": "Austin Bingham",
         "author_info": "",
@@ -25461,6 +25483,17 @@
         "rating": "",
         "title": "Creating and Managing Custom and Standard Objects in Salesforce",
         "url": "https://www.pluralsight.com/courses/creating-managing-custom-standard-objects-salesforce"
+    },
+    "creating-managing-first-couchbase-cluster": {
+        "author": "Matthew Groves",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 58,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Creating and Managing Your First Couchbase Cluster",
+        "url": "https://www.pluralsight.com/courses/creating-managing-first-couchbase-cluster"
     },
     "creating-mixed-media-illustration-photoshop-painter-2139": {
         "author": "Igor Scekic",
@@ -57193,6 +57226,17 @@
         "title": "Managing IT Services with ITIL®: Executive Briefing",
         "url": "https://www.pluralsight.com/courses/managing-it-services-with-itil-executive-briefing"
     },
+    "managing-jobs-processes-bash-z-shell": {
+        "author": "Chris Green",
+        "author_info": "",
+        "date": "May 12 2020",
+        "description": "",
+        "length": 69,
+        "level": "Beginner",
+        "rating": "",
+        "title": "Managing Jobs and Processes with Bash and Z Shell",
+        "url": "https://www.pluralsight.com/courses/managing-jobs-processes-bash-z-shell"
+    },
     "managing-kubernetes-api-server-pods": {
         "author": "Anthony Nocentino",
         "author_info": "",
@@ -61706,9 +61750,9 @@
     "microsoft-azure-host-security-implementing": {
         "author": "Michael Teske",
         "author_info": "",
-        "date": "Jun 14 2019",
+        "date": "May 12 2020",
         "description": "",
-        "length": 81,
+        "length": 105,
         "level": "Intermediate",
         "rating": "",
         "title": "Implementing Host Security in Microsoft Azure",
